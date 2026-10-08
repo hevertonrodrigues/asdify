@@ -1,0 +1,11 @@
+{
+  "name": "asdify",
+  "owner": { "name": "ASDify contributors" },
+  "plugins": [
+    {
+      "name": "asdify",
+      "source": "./",
+      "description": "Less fluff. More signal. No lost meaning."
+    }
+  ]
+}

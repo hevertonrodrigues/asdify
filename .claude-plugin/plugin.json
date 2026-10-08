@@ -1,0 +1,7 @@
+{
+  "name": "asdify",
+  "version": "0.1.0",
+  "description": "Clear, precise agent communication without losing meaning",
+  "author": { "name": "ASDify contributors" },
+  "license": "MIT"
+}
