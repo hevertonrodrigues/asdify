@@ -11,11 +11,13 @@ Make the skill useful enough that people keep using it and contribute the cases 
 - [x] Expand regression inputs for modality, negation, ordered steps, citations, contradictions, and already-clear text.
 - [x] Reject malformed evaluation data and support repeated paired runs.
 - [x] Select ASDify and `hevertonrodrigues/asdify`; put the product at the repository root and update clone URLs.
-- [ ] Publish [hevertonrodrigues/asdify](https://github.com/hevertonrodrigues/asdify) and verify a fresh clone using the public README.
-- [ ] Complete one real host check per advertised integration and record it in [COMPATIBILITY.md](COMPATIBILITY.md).
-- [ ] Run the configured GitHub Actions matrix on the published repository and tag a prerelease with exact limitations.
+- [x] Publish [hevertonrodrigues/asdify](https://github.com/hevertonrodrigues/asdify).
+- [ ] Verify a fresh clone using the public README.
+- [x] Record one explicit Codex `full`-mode smoke check in [COMPATIBILITY.md](COMPATIBILITY.md).
+- [ ] Add real host checks for other integrations and modes; keep untested installation mappings clearly labeled.
+- [x] Run the configured GitHub Actions matrix on the published repository and publish [v0.1.0](https://github.com/hevertonrodrigues/asdify/releases/tag/v0.1.0) with exact limitations. See the [recorded CI result](LAUNCH.md).
 
-**Done when:** a new user can follow the public README, invoke the skill, and inspect a concrete output without maintainer help. The publication commands must use a real repository URL.
+**Done when:** a new user can follow the public README, invoke the skill, and inspect a concrete output without maintainer help. A fresh-clone check remains outstanding.
 
 ## 2. Evidence for the central claim
 
@@ -31,8 +33,10 @@ Make the skill useful enough that people keep using it and contribute the cases 
 
 - [x] Offer small first contributions: one anonymized failure case, one native-speaker review, or one verified host check.
 - [ ] Review incoming cases, reproduce them, add regressions, and document the behavior change in the changelog.
-- [ ] Publish a short demonstration using real outputs with model/version/date visible.
-- [ ] Add relevant GitHub topics and submit to suitable skill directories according to their contribution rules.
+- [x] Publish a [real Codex demonstration](demos/codex-full-2026-10-08.md) with command, output, host version, and date; disclose that the model identifier was not emitted.
+- [ ] Add a Portuguese demonstration and further checks with exact model identifiers where available.
+- [x] Add relevant GitHub topics and submit [one curated-list PR](https://github.com/heilcheng/awesome-agent-skills/pull/560), awaiting maintainer review.
+- [ ] Verify marketplace indexing and complete remaining editorial submissions. See [launch status](LAUNCH.md).
 - [ ] Consider a small static example gallery only after the README and install paths work for new users.
 
 **Done when:** outside users submit useful counterexamples and evidence of repeat use. Review these signals monthly alongside issue response time and release reliability.
@@ -41,4 +45,4 @@ Make the skill useful enough that people keep using it and contribute the cases 
 
 Keep one canonical skill with optional references and small host adapters. Add a new language or integration when a contributor can verify it. A hosted editor, model gateway, telemetry service, and large plugin framework are outside the first release.
 
-See the [launch playbook](LAUNCH.md) for publication steps. These milestones do not promise a ranking, star count, or release date.
+See the [launch record](LAUNCH.md) for completed publication work and remaining distribution steps. These milestones do not promise a ranking, star count, or release date.

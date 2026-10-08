@@ -1,57 +1,38 @@
-# Launch playbook (no ranking guarantees)
+# Launch status and next steps
 
-Use the [roadmap](ROADMAP.md) to prioritize the work and the [compatibility record](COMPATIBILITY.md) to distinguish package checks from verified host behavior. The product files live at the repository root. Development history and research are preserved in the [project archive](archive/INDEX.md).
+**ASDify v0.1.0 is public.** The launch record below was checked on **8 October 2026**. Use the [roadmap](ROADMAP.md) for product priorities and [compatibility record](COMPATIBILITY.md) for the limits of host verification.
 
-## Positioning
+## Completed
 
-**Name:** ASDify
+| Item | Recorded result |
+| --- | --- |
+| Public source | [`hevertonrodrigues/asdify`](https://github.com/hevertonrodrigues/asdify), with main code pushed through [`729b1b7`](https://github.com/hevertonrodrigues/asdify/commit/729b1b7). |
+| CI | [Run 37842301297](https://github.com/hevertonrodrigues/asdify/actions/runs/37842301297) passed. This result applies to its recorded revision. |
+| First release | [v0.1.0](https://github.com/hevertonrodrigues/asdify/releases/tag/v0.1.0) is live. |
+| Repository presentation | Description and nine relevant topics applied, including `claude-skills`; [social preview](../assets/social-preview.png) uploaded. |
+| Reproducible example | [One Codex CLI smoke check](demos/codex-full-2026-10-08.md) read the installed skill and retained seven material details after an explicit `full`-mode request. |
+| Private reports | GitHub private vulnerability reporting enabled; [security policy](../SECURITY.md) updated. |
+| Console.dev | Editorial pitch sent; selection has not been confirmed. |
+| Curated skill list | [PR #560](https://github.com/heilcheng/awesome-agent-skills/pull/560) is open: one line in one file, awaiting maintainer review. |
 
-**Owner:** `hevertonrodrigues`
+The curated-list contribution uses [the project owner's fork](https://github.com/hevertonrodrigues/awesome-agent-skills) and has no merge conflicts at this check. Its Vercel check requires upstream team authorization to deploy. Separately, the local website build was blocked by Google Geist font downloads. Neither check is recorded as passing.
 
-**Publication target:** [hevertonrodrigues/asdify](https://github.com/hevertonrodrigues/asdify). The owner and name are selected; this checklist does not establish that publication or remote CI has completed.
+## Remaining distribution work
 
-**Repository description (copy/paste):** `Clearer AI writing. Meaning intact. A portable agent skill for Claude Code, Codex, and Cursor, with English and Portuguese examples.`
+- **Changelog:** account setup is complete and the story is prepared. A browser-extension popup interrupted the submit action; receipt is not yet verified. See [submission text and channel notes](launch/submissions.md).
+- **SkillsMP:** the `claude-skills` prerequisite topic is present. Indexing remains unverified.
+- **skills.sh:** local discovery found one `asdify` skill. Remote discovery was blocked by child Git DNS resolution; installation through the external CLI and indexing remain unverified.
+- **Community discussion:** a human author can share a relevant firsthand account where permitted. Follow current posting rules; no Hacker News or r/Codex post has been submitted through this launch work.
 
-ASDify is independently authored and inspired by public controlled-language principles associated with ASD-STE100. It does not claim compliance, certification, affiliation, or endorsement.
+## Next 30 days
 
-**Suggested topics** (within GitHub's 20-topic limit): `agent-skills`, `ai-agents`, `prompt-engineering`, `plain-language`, `technical-writing`, `writing-assistant`, `claude-code`, `codex`, `cursor`, `llm`, `communication`, `documentation`, `open-source`, `business-writing`, `simplification`.
+1. Collect installation reports and meaning-preservation failures. Add a real Portuguese demonstration and record the exact host, model identifier when available, date, and raw output.
+2. Test additional hosts and activation modes. Treat the 79 upstream installation mappings as path coverage until a real host session supplies evidence.
+3. Run the [comparative evaluation](../benchmarks/README.md) against ordinary and concise-only prompts. Publish settings, failures, and limits as well as favorable results.
+4. Review external contributions, respond to editorial or directory feedback, and release fixes supported by reproducible cases.
 
-**Social tagline:** `Clearer AI writing. Meaning intact.`
+## Positioning and progress
 
-## T-minus release
+**Clearer AI writing. Meaning intact.** ASDify is a portable Markdown skill that asks agents to simplify writing while preserving facts, obligations, and uncertainty. Its examples cover English and Brazilian Portuguese. One successful smoke check does not establish broad quality gains or universal host behavior.
 
-1. Configure a maintainer contact or private vulnerability reporting channel for `hevertonrodrigues/asdify`.
-2. Publish the prepared root and verify the documented clone command against the public repository.
-3. Test on actual current versions of Claude Code, Codex, and Cursor. Mark tested dates in docs. Confirm the Claude marketplace manifest works before advertising plugin commands.
-4. Enable GitHub Actions, Issues, Discussions (if you can moderate), and private vulnerability reporting where available.
-5. Publish a tagged `v0.1.0` after validation. Include examples, compatibility and limitations in release notes.
-6. Add the short description and topics in GitHub settings. Use the original SVGs in `assets/readme/` as the visual source for a social preview. Export a preview to a GitHub-supported raster format before upload.
-
-## First 30 days
-
-**Week 1:** publish one real, reproducible before/after demo in EN and PT-BR; release installation notes and collect issue reports. Demonstrate number/uncertainty preservation, not just shorter text.
-
-**Week 2:** run and publish a blinded A/B evaluation with model version, cases, and counterexamples. Update rules only after analyzing failure cases.
-
-**Week 3:** test alternative model/agent hosts; accept integration PRs only with installation evidence; share substantive demos in relevant GitHub/Agent Skills communities, following each community's posting rules.
-
-**Week 4:** package the first stable release based on the public regression suite. Publish failures and the fixes as openly as successes.
-
-## Distribution, responsibly
-
-- Submit to Agent Skills/community directories that accept open submissions and where the package matches requirements. Follow directory rules; do not spam.
-- Publish practical technical posts, including preservation failures and how they were resolved. Link to the source and methodology.
-- Keep README search terms accurate and natural; avoid keyword stuffing or fake star/review campaigns.
-- Encourage contributions and external reproduction rather than incentivized stars.
-
-## Differentiation vs Ponytail
-
-Ponytail minimizes implementation complexity in code. ASDify minimizes reader effort across AI writing tasks. Share its philosophy of minimum sufficient work and reproducible evidence, but use independent examples, copy, rules and visual identity.
-
-## Success metrics to monitor
-
-- Monthly unique external contributors, issue resolution time, install instructions tested, and documented compatibility.
-- Reproducible quality/fidelity gains and hard-failure rate on held-out tasks.
-- Repository traffic, stars, forks and referrals as interest signals, **not** proof of quality.
-
-No listing, search position or virality is guaranteed.
+Track repeat use, useful external cases, verified installations, contributor activity, and issue response time. Use traffic, stars, forks, and referrals as discovery signals. Editorial selection, directory indexing, and repository rankings are not guaranteed.
