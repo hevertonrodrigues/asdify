@@ -2,6 +2,7 @@
 
 ![ASDify — Clearer AI writing. Meaning intact.](assets/readme/hero.svg)
 
+[![CI checks](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-18283b?style=flat-square)](LICENSE)
 [![Format: portable Markdown](https://img.shields.io/badge/format-portable%20Markdown-18283b?style=flat-square)](skills/asdify/SKILL.md)
 [![Examples: EN and PT-BR](https://img.shields.io/badge/examples-EN%20%2B%20PT--BR-dba44e?style=flat-square)](examples/before-after.md)
@@ -41,6 +42,8 @@ been audited.
 ```
 
 Compare the result with the details shown above. Wording can vary; the facts and qualifications must survive. This is a manual trial, with no automatic skill installation.
+
+[See a real Codex run](docs/demos/codex-full-2026-10-08.md), with the exact prompt, output, and checks for preserved details.
 
 ## Install for your agent
 

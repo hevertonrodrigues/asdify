@@ -35,7 +35,7 @@ Environment: Darwin 27.0.0, Python 3.14.6. All installer tests used temporary di
 
 ## Public repository and CI
 
-The [public repository](https://github.com/hevertonrodrigues/asdify) is confirmed. Earlier `main` CI runs were observed passing in the browser. CI for the current compatibility changes has not yet been verified; local results do not establish the status of a new remote commit.
+The [public repository](https://github.com/hevertonrodrigues/asdify) and [v0.1.0 release](https://github.com/hevertonrodrigues/asdify/releases/tag/v0.1.0) are confirmed. [CI run 37842301297](https://github.com/hevertonrodrigues/asdify/actions/runs/37842301297) passed for release commit `729b1b7ae54d68a808e051ea6dee331a4915aa6c`: Ubuntu and macOS, each with Python 3.12 and 3.13. All four jobs passed installer syntax, structural validation, and the test suite. This records that commit, not the status of future commits.
 
 ## Evidence limits
 

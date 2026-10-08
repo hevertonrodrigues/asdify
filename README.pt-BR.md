@@ -2,6 +2,7 @@
 
 ![ASDify — Textos de IA mais claros. Significado preservado.](assets/readme/hero.pt-BR.svg)
 
+[![Verificações de CI](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-18283b?style=flat-square)](LICENSE)
 [![Formato: Markdown portátil](https://img.shields.io/badge/formato-Markdown%20port%C3%A1til-18283b?style=flat-square)](skills/asdify/SKILL.md)
 [![Exemplos: EN e PT-BR](https://img.shields.io/badge/exemplos-EN%20%2B%20PT--BR-dba44e?style=flat-square)](examples/before-after.md)
@@ -41,6 +42,8 @@ auditados.
 ```
 
 Compare o resultado com os detalhes mostrados acima. A redação pode variar; os fatos e as ressalvas precisam ser preservados. É um teste manual, sem instalação automática da Skill.
+
+[Veja uma execução real no Codex](docs/demos/codex-full-2026-10-08.md), com o prompt, a resposta e a conferência dos detalhes preservados (em inglês).
 
 ## Instale no seu agente
 

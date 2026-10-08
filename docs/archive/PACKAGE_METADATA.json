@@ -63,8 +63,20 @@
     "github_browser_rendering_verified": false,
     "published_scope": "Public repository confirmed; consult branch history for the current contents.",
     "remote_ci": {
-      "earlier_main_success_observed_in_browser": true,
-      "current_changes_verified": false
+      "commit": "729b1b7ae54d68a808e051ea6dee331a4915aa6c",
+      "run_url": "https://github.com/hevertonrodrigues/asdify/actions/runs/37842301297",
+      "conclusion": "success",
+      "jobs_passed": 4,
+      "matrix": {
+        "os": [
+          "ubuntu-latest",
+          "macos-latest"
+        ],
+        "python": [
+          "3.12",
+          "3.13"
+        ]
+      }
     },
     "installer_coverage": {
       "upstream_agent_mappings": 79,
@@ -84,7 +96,8 @@
       "remote_repository_list_status": "blocked by child Git DNS resolution in sandbox",
       "external_cli_installation_verified": false,
       "skills_sh_indexing_verified": false
-    }
+    },
+    "release_url": "https://github.com/hevertonrodrigues/asdify/releases/tag/v0.1.0"
   },
   "repository_url": "https://github.com/hevertonrodrigues/asdify",
   "skill_name": "asdify",
