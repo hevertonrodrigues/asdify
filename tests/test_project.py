@@ -68,6 +68,7 @@ class ProjectTests(unittest.TestCase):
             installed_files = {path.relative_to(installed): path.read_bytes() for path in installed.rglob("*") if path.is_file()}
             self.assertIn(Path("references/quality-rubric.md"), installed_files)
             self.assertIn(Path("references/edge-cases.md"), installed_files)
+            self.assertIn(Path("references/translation.md"), installed_files)
             self.assertEqual(installed_files, source_files)
 
     def test_installer_refuses_symlink_without_changing_target(self):
@@ -471,16 +472,36 @@ class ValidationTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         (self.root / "benchmarks").mkdir()
+        self.write_languages()
         self.patch_root = patch.object(VALIDATION, "ROOT", self.root)
         self.patch_root.start()
         self.addCleanup(self.patch_root.stop)
 
     @staticmethod
     def valid_cases():
-        return [
+        cases = [
             {"id": f"case-{n}", "lang": "en" if n % 2 else "pt-BR", "task": "Preserve the condition.", "invariants": ["condition"], "risk": "Lost condition"}
             for n in range(6)
         ]
+        cases[0]["target_lang"] = "en"
+        cases[1]["target_lang"] = "pt-BR"
+        return cases
+
+    def write_languages(self, entries=None):
+        if entries is None:
+            entries = [
+                {"tag": "en", "name": "English", "readme": "README.md"},
+                {"tag": "pt-BR", "name": "Português (Brasil)", "readme": "README.pt-BR.md"},
+            ]
+        folder = self.root / "integrations"
+        folder.mkdir(exist_ok=True)
+        (folder / "languages.json").write_text(json.dumps(entries, ensure_ascii=False), encoding="utf-8")
+
+    def write_language_readmes(self, entries):
+        self.write_languages(entries)
+        for entry in entries:
+            navigation = " · ".join(f"[{item['name']}]({item['readme']})" for item in entries if item != entry)
+            (self.root / entry["readme"]).write_text(f"# ASDify\n\n{navigation}\n", encoding="utf-8")
 
     def write_cases(self, cases):
         (self.root / "benchmarks/cases.jsonl").write_text("\n".join(json.dumps(case) for case in cases) + "\n", encoding="utf-8")
@@ -598,7 +619,66 @@ class ValidationTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "self-contained|unsupported external"):
                     VALIDATION.validate_readme_assets()
 
-    def test_valid_bilingual_cases(self):
+    def test_language_registry_and_navigation_support_unicode(self):
+        entries = [
+            {"tag": "en", "name": "English", "readme": "README.md"},
+            {"tag": "ja", "name": "日本語", "readme": "README.ja.md"},
+            {"tag": "zh-CN", "name": "简体中文", "readme": "README.zh-CN.md"},
+            {"tag": "sr-Latn", "name": "Srpski", "readme": "README.sr-Latn.md"},
+            {"tag": "es-419", "name": "Español", "readme": "README.es-419.md"},
+        ]
+        self.write_language_readmes(entries)
+        self.assertEqual(VALIDATION.validate_languages(), 5)
+        self.assertEqual(set(VALIDATION.load_languages()), {entry["tag"] for entry in entries})
+
+    def test_language_registry_rejects_malformed_entries(self):
+        entry = {"tag": "en", "name": "English", "readme": "README.md"}
+        for entries, message in (
+            ([], "nonempty list"), ({"en": entry}, "nonempty list"),
+            ([None], "expected tag"), ([{**entry, "extra": "value"}], "expected tag"),
+            ([{"tag": "en", "name": "English"}], "expected tag"),
+            ([{**entry, "name": True}], "name must be"),
+            ([{**entry, "name": " "}], "name must be"),
+            ([{**entry, "name": " English"}], "name must be"),
+            ([{**entry, "name": "English\n"}], "name must be"),
+            ([{**entry, "tag": "pt-br"}], "tag must use"),
+            ([{**entry, "tag": "../escape"}], "tag must use"),
+            ([entry, entry], "duplicate language tag"),
+            ([{**entry, "readme": "../README.md"}], "readme must be"),
+            ([{**entry, "readme": "/tmp/README.md"}], "readme must be"),
+            ([{**entry, "readme": "README.en.md"}], "readme must be"),
+            ([{"tag": "fr", "name": "Français", "readme": "README.fr.md"}], "canonical en"),
+        ):
+            with self.subTest(entries=entries):
+                self.write_languages(entries)
+                with self.assertRaisesRegex(ValueError, message):
+                    VALIDATION.load_languages()
+
+    def test_language_readmes_must_exist_and_be_nonempty(self):
+        entries = list(VALIDATION.load_languages().values())
+        self.write_language_readmes(entries)
+        path = self.root / "README.pt-BR.md"
+        path.unlink()
+        with self.assertRaisesRegex(ValueError, "missing README README.pt-BR.md"):
+            VALIDATION.validate_languages()
+        path.write_text(" \n", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "README must be nonempty"):
+            VALIDATION.validate_languages()
+
+    def test_all_readmes_must_link_to_every_other_language(self):
+        entries = list(VALIDATION.load_languages().values())
+        entries.append({"tag": "ru", "name": "Русский", "readme": "README.ru.md"})
+        self.write_language_readmes(entries)
+        (self.root / "README.pt-BR.md").write_text("[English](README.md)", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "pt-BR: README language navigation missing README.ru.md"):
+            VALIDATION.validate_languages()
+
+    def test_language_registry_invalid_json_is_reported(self):
+        (self.root / "integrations/languages.json").write_text("{broken}", encoding="utf-8")
+        with self.assertRaises(json.JSONDecodeError):
+            VALIDATION.load_languages()
+
+    def test_valid_rewrite_and_translation_cases(self):
         self.write_cases(self.valid_cases())
         self.assertEqual(VALIDATION.validate_cases(), 6)
 
@@ -623,19 +703,70 @@ class ValidationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate id"):
             VALIDATION.validate_cases()
 
-    def test_both_languages_are_required(self):
+    def test_every_registered_rewrite_language_is_required(self):
         cases = self.valid_cases()
         for case in cases:
-            case["lang"] = "en"
+            if "target_lang" not in case:
+                case["lang"] = "en"
         self.write_cases(cases)
-        with self.assertRaisesRegex(ValueError, "both en and pt-BR"):
+        with self.assertRaisesRegex(ValueError, "missing rewrite coverage: pt-BR"):
             VALIDATION.validate_cases()
 
     def test_unknown_language_is_rejected(self):
         cases = self.valid_cases()
-        cases[0]["lang"] = "fr"
+        cases[0]["lang"] = "xx"
         self.write_cases(cases)
-        with self.assertRaisesRegex(ValueError, "lang must be en or pt-BR"):
+        with self.assertRaisesRegex(ValueError, "lang must be a registered"):
+            VALIDATION.validate_cases()
+
+    def test_new_languages_need_no_hardcoded_validator_changes(self):
+        entries = [
+            {"tag": "en", "name": "English", "readme": "README.md"},
+            {"tag": "ja", "name": "日本語", "readme": "README.ja.md"},
+            {"tag": "zh-CN", "name": "简体中文", "readme": "README.zh-CN.md"},
+        ]
+        self.write_languages(entries)
+        cases = []
+        for index, entry in enumerate(entries):
+            case = {"id": f"rewrite-{index}", "lang": entry["tag"], "task": "意味と条件を保つ。", "invariants": ["条件"], "risk": "条件丢失"}
+            cases.extend([case, {**case, "id": f"translate-{index}", "target_lang": entries[(index + 1) % len(entries)]["tag"]}])
+        self.write_cases(cases)
+        self.assertEqual(VALIDATION.validate_cases(), 6)
+
+    def test_invalid_translation_targets_are_rejected(self):
+        for target in (None, True, [], {}, "", " ", "xx", "pt-br"):
+            with self.subTest(target=target):
+                cases = self.valid_cases()
+                cases[0]["target_lang"] = target
+                self.write_cases(cases)
+                with self.assertRaisesRegex(ValueError, "target_lang must be a registered"):
+                    VALIDATION.validate_cases()
+
+    def test_translation_target_must_differ_from_source(self):
+        cases = self.valid_cases()
+        cases[0]["target_lang"] = cases[0]["lang"]
+        self.write_cases(cases)
+        with self.assertRaisesRegex(ValueError, "target_lang must differ"):
+            VALIDATION.validate_cases()
+
+    def test_translation_source_coverage_is_required(self):
+        cases = self.valid_cases()
+        del cases[0]["target_lang"]
+        self.write_cases(cases)
+        with self.assertRaisesRegex(ValueError, "missing translation source coverage: pt-BR"):
+            VALIDATION.validate_cases()
+
+    def test_translation_target_coverage_is_required(self):
+        entries = list(VALIDATION.load_languages().values())
+        entries.append({"tag": "fr", "name": "Français", "readme": "README.fr.md"})
+        self.write_languages(entries)
+        cases = self.valid_cases()
+        cases.extend([
+            {"id": "fr-rewrite", "lang": "fr", "task": "Préserver le sens.", "invariants": ["condition"], "risk": "Lost condition"},
+            {"id": "fr-translate", "lang": "fr", "target_lang": "pt-BR", "task": "Traduire en portugais.", "invariants": ["condition"], "risk": "Lost condition"},
+        ])
+        self.write_cases(cases)
+        with self.assertRaisesRegex(ValueError, "missing translation target coverage: fr"):
             VALIDATION.validate_cases()
 
     def test_minimum_case_count_is_enforced(self):

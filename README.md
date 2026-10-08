@@ -5,11 +5,13 @@
 [![CI checks](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-18283b?style=flat-square)](LICENSE)
 [![Format: portable Markdown](https://img.shields.io/badge/format-portable%20Markdown-18283b?style=flat-square)](skills/asdify/SKILL.md)
-[![Examples: EN and PT-BR](https://img.shields.io/badge/examples-EN%20%2B%20PT--BR-dba44e?style=flat-square)](examples/before-after.md)
+[![Languages: 9](https://img.shields.io/badge/languages-9-dba44e?style=flat-square)](docs/LANGUAGES.md)
 
-[Português (Brasil)](README.pt-BR.md) · [Try it](#try-it-without-installing) · [Install](#install-for-your-agent) · [Recipes](examples/recipes.md) · [Contribute](CONTRIBUTING.md)
+[English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [Italiano](README.it.md) · [Русский](README.ru.md)
 
-Give your AI agent a repeatable editing routine: find the point, remove filler, and check that the important details survive. ASDify is a small, portable Markdown skill for answers, status updates, reports, and documentation across supported coding agents and editors.
+[Try it](#try-it-without-installing) · [Install](#install-for-your-agent) · [Languages](docs/LANGUAGES.md) · [Recipes](examples/recipes.md) · [Contribute](CONTRIBUTING.md)
+
+Give your AI agent a repeatable editing routine: find the point, remove filler, and check that the important details survive. ASDify is a small, portable Markdown skill for answers, translations, status updates, reports, and documentation across supported coding agents and editors.
 
 ## See the difference
 
@@ -46,6 +48,8 @@ Compare the result with the details shown above. Wording can vary; the facts and
 [See a real Codex run](docs/demos/codex-full-2026-10-08.md), with the exact prompt, output, and checks for preserved details.
 
 ## Install for your agent
+
+ASDify itself needs no Node.js or npm. The optional Skills CLI below may prompt to download its npm package. Use the [local installer](INSTALL.md#local-installer) to avoid that download; [Cursor instructions without npm](INSTALL.md#cursor-without-nodejs-or-npm) cover the complete native skill.
 
 Use the [Skills CLI](https://github.com/vercel-labs/skills) to discover ASDify and install it for your agent:
 
@@ -88,6 +92,20 @@ Preserve numbers, dates, conditions, uncertainty, and necessary technical terms.
 
 Request a mode with `Use asdify lite`, `full`, or `ultra`. Use `asdify off` to stop applying this optional workflow, subject to the host's other instructions. Modes are instructions; native command support varies by host.
 
+## Languages and translation
+
+English, Brazilian Portuguese, Spanish, French, German, Japanese, Simplified Chinese, Italian, and Russian have READMEs and regression inputs. Install the same canonical skill for every language; no language pack is needed. Rewrites keep the source language unless you request a translation.
+
+```text
+Use asdify full. Translate into Spanish (es).
+Return only the translation. Preserve every fact and qualification.
+
+Preliminary subscription revenue grew 12% year over year in Brazil,
+excluding refunds. These figures are unaudited.
+```
+
+Name the target language or locale. ASDify preserves meaning, identifiers, placeholders, and requested formatting, while adapting grammar and register. See [multilingual examples](examples/multilingual.md) and [language coverage and support](docs/LANGUAGES.md). Translation quality depends on the host model; package tests do not verify it.
+
 ## Put it to work
 
 | Task | What to protect | Copy a complete prompt |
@@ -99,7 +117,7 @@ Request a mode with `Use asdify lite`, `full`, or `ultra`. Use `asdify off` to s
 
 ## Built to be checked
 
-A shorter answer that changes a material fact fails the evaluation. The repository includes English and Portuguese regression cases, a human review rubric, and a [reproducible evaluation protocol](benchmarks/README.md). **Live-model quality gains have not yet been established.** See [package verification](docs/VERIFICATION.md) and [host compatibility](docs/COMPATIBILITY.md) for their separate checks.
+A shorter answer that changes a material fact fails the evaluation. The repository includes rewrite and translation regression cases across nine languages, a human review rubric, and a [reproducible evaluation protocol](benchmarks/README.md). **Live-model quality gains have not yet been established.** See [package verification](docs/VERIFICATION.md) and [host compatibility](docs/COMPATIBILITY.md) for their separate checks.
 
 Found a lost condition, changed number, or invented promise? [Report a meaning regression](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml). A small anonymized example makes a useful first contribution. See [CONTRIBUTING.md](CONTRIBUTING.md) for the steps.
 

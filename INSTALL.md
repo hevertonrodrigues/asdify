@@ -2,13 +2,37 @@
 
 ASDify is one portable Markdown skill. Choose the Skills CLI, the local installer, or manual chat instructions. The [harness table](docs/HARNESSES.md) lists every destination in the supported registry snapshot; [compatibility](docs/COMPATIBILITY.md) separates installation checks from real host sessions.
 
+ASDify itself does not require Node.js, npm, or the Skills CLI. The local installer copies the same complete skill without an npm package download.
+
+## Cursor without Node.js or npm
+
+From an ASDify clone, install the native skill for your user account:
+
+```bash
+bash scripts/install.sh --agent cursor-skill --scope user
+```
+
+This copies the skill and all references to `~/.cursor/skills/asdify/`. For a project-only installation, run from the target project:
+
+```bash
+bash "/path/to/asdify/scripts/install.sh" --agent cursor-skill --scope project
+```
+
+That writes `.agents/skills/asdify/` beneath the current directory. Both locations are supported by [Cursor's skill documentation](https://cursor.com/docs/skills#skill-directories). The local installer uses `cursor-skill` for the complete native skill; its `cursor` ID installs the earlier compact rule.
+
+You can also copy the entire `skills/asdify/` folder into either location yourself. Keep its references, and review an existing installation before replacing it. The installer handles destination checks and overwrite protection for you.
+
+To check discovery, open **Customize → Skills** in Cursor and look for ASDify, then start a new agent session and request `Use asdify full`. Cursor's [viewing-skills guide](https://cursor.com/docs/skills#viewing-skills) describes the UI. Discovery and copying alone do not establish model quality.
+
 ## Skills CLI
 
-With `npx` available, inspect the repository without installing:
+With `npx` available, list the skill without installing ASDify into an agent:
 
 ```bash
 npx skills add hevertonrodrigues/asdify --list
 ```
+
+If you see `Need to install the following packages: skills@…` followed by `Ok to proceed? (y)`, npm is asking to download the optional Skills CLI into its cache before running it. This is expected; it is not an ASDify dependency or an installation error. [npm documents this prompt](https://docs.npmjs.com/cli/v11/commands/npm-exec/#description).
 
 From the project that should receive the skill, select an agent:
 
@@ -21,6 +45,14 @@ The general form is `npx skills add hevertonrodrigues/asdify --skill asdify --ag
 The CLI defaults to project scope. Add `--global` for user scope where the agent supports it. Interactive installation offers symlinks or copies; use `--copy` to request copies. Review the destinations the CLI displays before confirming. These options follow the [upstream CLI documentation](https://github.com/vercel-labs/skills#options), checked on 8 October 2026.
 
 The Skills CLI downloads the repository and has its own [telemetry policy](https://skills.sh/docs/cli#telemetry); set `DISABLE_TELEMETRY=1` to opt out. The local installer below copies only files already on your machine.
+
+To accept only npm's package-download prompt in advance, put `--yes` before `skills`:
+
+```bash
+DISABLE_TELEMETRY=1 npx --yes skills add hevertonrodrigues/asdify --skill asdify --agent cursor
+```
+
+This still downloads the CLI when needed. `--yes` after the skill command is a separate [Skills CLI option](https://github.com/vercel-labs/skills#options) that skips its own installation confirmations. `DISABLE_TELEMETRY=1` affects telemetry, not either confirmation.
 
 ## Local installer
 
@@ -116,6 +148,7 @@ Earlier installations under the former project name are not removed automaticall
 
 ## Troubleshooting
 
+- **`Ok to proceed? (y)` before the CLI starts?** This is npm's optional CLI-download confirmation. Enter `y` to use that route, add `npx --yes` to accept the download in advance, or use the local installer to avoid npm entirely.
 - **Wrong ID?** The local installer and Skills CLI have separate ID lists. In particular, native Cursor is `cursor-skill` locally and `cursor` in the Skills CLI.
 - **Skill not discovered?** Check the destination, start a new session, and explicitly request ASDify. Report the host/version and actual behavior in an [installation issue](https://github.com/hevertonrodrigues/asdify/issues/new?template=bug_report.md).
 - **Existing file blocked?** Review it before using `--force`; it may be the shared copy already used by another agent.

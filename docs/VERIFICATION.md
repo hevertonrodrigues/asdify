@@ -1,14 +1,24 @@
 # Verification
 
-Recorded package checks, installation coverage, and one host smoke check, 8 October 2026.
+Local multilingual update checks and the earlier v0.1.0 verification record, 8 October 2026.
 
-## Scope
+## Multilingual update: local checks
+
+- Structural validation: PASS, including 82 installer IDs, 6 existing SVGs, 9 language READMEs, language navigation, and 49 multilingual regression inputs (31 same-language tasks and 18 translations).
+- Unit tests: PASS, 61 tests. The 10 added tests cover the language registry, Unicode, missing or empty READMEs, language navigation, dynamic locale coverage, invalid targets, and missing translation source/target coverage. The existing Codex installation check also verifies that the translation reference is copied.
+- Installer matrix: PASS across the same 160 supported installations and 4 rejected unsupported scopes, using temporary directories.
+- Installer Bash syntax, skill-creator frontmatter validation, and `git diff --check`: PASS.
+- Installation guidance: checked npm's CLI-download confirmation against [npm documentation](https://docs.npmjs.com/cli/v11/commands/npm-exec/#description), and native Cursor project/user paths against [Cursor documentation](https://cursor.com/docs/skills#skill-directories). The local Cursor path checks remain filesystem tests, not a Cursor activation session.
+
+These checks ran on the local working tree. They do not establish that the changed revision has passed remote CI. The seven new READMEs and multilingual examples are translations and editorial examples, not recorded live-model results or independently reviewed native-speaker output. No live translation study was run. See [language coverage and support](LANGUAGES.md) for the locale registry and review limits.
+
+## v0.1.0 scope
 
 The English and Portuguese READMEs include a manual trial, installation choices, copyable examples, and six original SVG illustrations. The installer registry covers 79 upstream agent mappings plus 3 compatibility IDs. See the [complete destination table](HARNESSES.md). Development notes and the unchanged draft archive are grouped under [docs/archive](archive/INDEX.md).
 
 The SVGs are self-contained vectors with accessible titles and descriptions. The validator checks their XML, dimensions, and references, plus relative Markdown and HTML image/link destinations. It does not make network requests or verify remote URLs and section anchors.
 
-## Checks
+## v0.1.0 checks
 
 Run from the repository root:
 

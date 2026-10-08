@@ -18,9 +18,15 @@ This includes coding CLIs and editor integrations. The generic `universal` entry
 | Cursor compact rule | Earlier `.cursor/rules/asdify.mdc` adapter | Separate from Cursor's native skill; no real Cursor session recorded. |
 | Claude plugin / marketplace | Local metadata and relative-path validation | No plugin discovery or activation session recorded. |
 | ChatGPT / Claude web / other chat interfaces | Manual paste of the instructions and optional references | No native CLI installation or automatic discovery implied; application behavior has not been tested here. |
-| Writing effectiveness | English and Brazilian Portuguese cases and evaluation method | The smoke check is one example. Broad quality gains require the [comparative evaluation](../benchmarks/README.md). |
+| Writing effectiveness | Nine documented locales with rewrite and translation inputs and an evaluation method | The English smoke check is one example. Translation accuracy and broad quality gains require the [comparative evaluation](../benchmarks/README.md); see [language review limits](LANGUAGES.md). |
 
 Unknown or newly added hosts should use their documented skill format or the manual instructions until a mapping is reviewed. Upstream registry changes do not automatically update this repository's snapshot.
+
+## Cursor installation paths
+
+Cursor's [current skill documentation](https://cursor.com/docs/skills#skill-directories) confirms `.agents/skills/` for project skills and `~/.cursor/skills/` for user skills, matching the local `cursor-skill` mapping. The installer matrix checks complete skill/reference copying in both scopes. No Cursor host activation session is recorded.
+
+Use the [native Cursor instructions without npm](../INSTALL.md#cursor-without-nodejs-or-npm) to install from a clone. The Skills CLI is optional; npm's package-download confirmation is separate from skill installation. Cursor's [Customize → Skills view](https://cursor.com/docs/skills#viewing-skills) lets users check discovery.
 
 ## Recorded host check
 

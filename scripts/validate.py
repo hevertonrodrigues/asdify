@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check the skill, local package metadata, links, and benchmark fixtures."""
+"""Check the skill, package metadata, language coverage, links, and fixtures."""
 import json
 import math
 import re
@@ -12,6 +12,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills/asdify/SKILL.md"
 LINK = re.compile(r"\[[^\]]+\]\(([^)]*)\)")
+LANGUAGE_TAG = re.compile(r"[a-z]{2,3}(?:-[A-Z][a-z]{3})?(?:-(?:[A-Z]{2}|\d{3}))?")
 AGENT_ROOTS = {
     "{HOME}", "{XDG_CONFIG_HOME}", "{CLAUDE_CONFIG_DIR}", "{AUTOHAND_HOME}",
     "{GROK_HOME}", "{HERMES_HOME}", "{VIBE_HOME}", "{OPENCLAW_HOME}",
@@ -113,10 +114,62 @@ def validate_readme_assets():
     return len(paths)
 
 
+def load_languages():
+    """Load the project's language/script/region tags, not all of BCP 47."""
+    path = ROOT / "integrations/languages.json"
+    entries = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(entries, list) or not entries:
+        raise ValueError("languages.json must contain a nonempty list")
+    languages = {}
+    for index, entry in enumerate(entries, 1):
+        prefix = f"language {index}"
+        if not isinstance(entry, dict) or set(entry) != {"tag", "name", "readme"}:
+            raise ValueError(f"{prefix}: expected tag, name, and readme fields")
+        for field, value in entry.items():
+            if (
+                not isinstance(value, str) or not value.strip() or value != value.strip()
+                or any(ord(character) < 32 for character in value)
+            ):
+                raise ValueError(f"{prefix}: {field} must be a nonempty string without padding or control characters")
+        tag = entry["tag"]
+        if not LANGUAGE_TAG.fullmatch(tag):
+            raise ValueError(f"{prefix}: tag must use language[-Script][-REGION] casing")
+        if tag in languages:
+            raise ValueError(f"{prefix}: duplicate language tag {tag!r}")
+        expected = "README.md" if tag == "en" else f"README.{tag}.md"
+        if entry["readme"] != expected:
+            raise ValueError(f"{prefix}: readme must be {expected}")
+        languages[tag] = entry
+    if "en" not in languages:
+        raise ValueError("languages.json must include the canonical en README")
+    return languages
+
+
+def validate_languages():
+    """Require a nonempty README and language navigation for each locale."""
+    languages = load_languages()
+    readmes = {entry["readme"] for entry in languages.values()}
+    for entry in languages.values():
+        path = ROOT / entry["readme"]
+        if not path.is_file():
+            raise ValueError(f"{entry['tag']}: missing README {entry['readme']}")
+        content = path.read_text(encoding="utf-8")
+        if not content.strip():
+            raise ValueError(f"{entry['tag']}: README must be nonempty")
+        destinations = {unquote(urlsplit(url.strip()).path) for url in LINK.findall(content)}
+        missing = readmes - {entry["readme"]} - destinations
+        if missing:
+            raise ValueError(f"{entry['tag']}: README language navigation missing {', '.join(sorted(missing))}")
+    return len(languages)
+
+
 def validate_cases():
+    supported = set(load_languages())
     path = ROOT / "benchmarks/cases.jsonl"
     ids = set()
-    languages = set()
+    rewrites = set()
+    translation_sources = set()
+    translation_targets = set()
     for index, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         try:
             item = json.loads(line)
@@ -135,14 +188,29 @@ def validate_cases():
             raise ValueError(f"case {index}: invariants must be a nonempty list of nonempty strings")
         if item["id"] in ids:
             raise ValueError(f"case {index}: duplicate id {item['id']!r}")
-        if item["lang"] not in ("en", "pt-BR"):
-            raise ValueError(f"case {index}: lang must be en or pt-BR")
+        if item["lang"] not in supported:
+            raise ValueError(f"case {index}: lang must be a registered language tag")
+        if "target_lang" in item:
+            target = item["target_lang"]
+            if not isinstance(target, str) or target not in supported:
+                raise ValueError(f"case {index}: target_lang must be a registered language tag")
+            if target == item["lang"]:
+                raise ValueError(f"case {index}: target_lang must differ from the source lang")
+            translation_sources.add(item["lang"])
+            translation_targets.add(target)
+        else:
+            rewrites.add(item["lang"])
         ids.add(item["id"])
-        languages.add(item["lang"])
     if len(ids) < 6:
         raise ValueError("Need at least 6 evaluation cases")
-    if languages != {"en", "pt-BR"}:
-        raise ValueError("Evaluation cases must cover both en and pt-BR")
+    for label, covered in (
+        ("rewrite", rewrites),
+        ("translation source", translation_sources),
+        ("translation target", translation_targets),
+    ):
+        missing = supported - covered
+        if missing:
+            raise ValueError(f"Evaluation cases missing {label} coverage: {', '.join(sorted(missing))}")
     return len(ids)
 
 
@@ -235,8 +303,9 @@ def main():
     validate_manifests()
     agents = validate_agent_registry()
     images = validate_readme_assets()
+    languages = validate_languages()
     count = validate_cases()
-    print(f"Validation OK: core skill, local plugin metadata, {agents} agent destinations, relative links, {images} SVGs, and {count} bilingual cases")
+    print(f"Validation OK: core skill, local plugin metadata, {agents} agent destinations, relative links, {images} SVGs, {languages} languages, and {count} multilingual cases")
 
 
 if __name__ == "__main__":

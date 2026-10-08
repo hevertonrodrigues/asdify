@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+- Clarified npm's optional Skills CLI download prompt across all READMEs and documented native Cursor installation without Node.js or npm, supported paths, discovery checks, and the two separate `--yes` options.
+- Added Spanish, French, German, Japanese, Simplified Chinese, Italian, and Russian READMEs, with navigation across all nine documented languages.
+- Added explicit target-language handling, translation preservation rules, and an installed translation reference; kept the compact agent and Cursor adapters aligned.
+- Added a language registry and validation of locale metadata, README navigation, rewrite coverage, and translation source/target coverage.
+- Expanded public regression inputs from 16 to 49, including bidirectional English translations, modality, statistical units, protected JSON/placeholders, mixed-language editing, and ambiguous dates.
+- Added multilingual examples, language contribution and support guidance, a documentation-translation issue form, and language fields in meaning-regression reports.
+- Added unit coverage for locale registries, Unicode, missing READMEs, language navigation, invalid translation targets, and incomplete coverage. These checks do not establish translation accuracy or native-speaker review.
+
 ## 0.1.0 (2026-10-08)
 
 - Expanded the local installer to 79 upstream agent mappings plus 3 compatibility IDs, with a pinned registry and complete destination table.

@@ -1,5 +1,5 @@
 name: Meaning changed
-description: Report a rewrite that loses or changes a fact, qualification, or obligation.
+description: Report a rewrite or translation that loses or changes meaning.
 title: "[Meaning] "
 labels: [bug]
 body:
@@ -51,6 +51,12 @@ body:
         - Unknown
     validations:
       required: true
+  - type: textarea
+    id: languages
+    attributes:
+      label: Source and target languages (optional)
+      description: For a translation, name both languages and any regional or script variant. For a rewrite, name the source language.
+      placeholder: "Source: English (en). Target: Simplified Chinese (zh-CN)."
   - type: textarea
     id: environment
     attributes:

@@ -16,6 +16,7 @@
   "case_file": null,
   "case_file_sha256": null,
   "case_selection_and_exclusions": null,
+  "language_coverage": {"rewrites": [], "translations": []},
   "held_out_from_skill_development": null,
   "repetitions_per_case": null,
   "stopping_rule": null,

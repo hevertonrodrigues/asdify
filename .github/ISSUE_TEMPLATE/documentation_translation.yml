@@ -1,0 +1,35 @@
+name: Documentation translation
+description: Report incorrect or outdated wording in a translated README.
+title: "[Translation docs] "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for documentation. For incorrect model output, use the meaning-regression form. Reports may be written in any covered language. Remove private information.
+  - type: input
+    id: locale
+    attributes:
+      label: Language or locale
+      placeholder: "For example: it, ru, pt-BR, or zh-CN"
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: File and section
+      placeholder: "README.it.md — Lingue e traduzione"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current wording
+      description: Quote the affected text and explain the error or outdated claim.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: If known, include revised wording and the corresponding English source. A correction is optional.

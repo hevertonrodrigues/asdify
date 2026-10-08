@@ -13,6 +13,8 @@ Assess each dimension independently. Use 1–5 (1 = poor, 3 = acceptable, 5 = ex
 
 **Hard fail:** Any material factual distortion, changed obligation, fabricated data, removed safety-critical instruction, or invented citation. A short but incorrect output cannot win a benchmark.
 
+For translations, reviewers must understand both source and target languages. Check the requested locale, script, register, terminology, and protected identifiers as well as meaning fidelity. An output in the wrong target language fails the task even if its facts are intact. Do not use word-count comparisons across languages as evidence of better writing.
+
 Review procedure:
 1. Read source and mark its material invariants.
 2. Read candidate output without seeing which system made it.

@@ -3,8 +3,8 @@ name: asdify
 description: >
   Make AI answers, reports, documentation, and business writing clear, precise,
   concise, and easy to review without losing meaning. Use when drafting,
-  rewriting, explaining, summarizing, or reviewing communication in any language,
-  especially when the user wants plain language, less fluff, fewer ambiguities,
+  rewriting, translating, explaining, summarizing, or reviewing communication in
+  any language, especially when the user wants plain language, less fluff, fewer ambiguities,
   better executive summaries, or direct recommendations.
 license: MIT
 ---
@@ -43,10 +43,20 @@ Choose the first sufficient move; do not add structure for decoration.
 - **Preserve evidence.** Keep numbers, units, denominators, time periods, names, direct quotes, uncertainty, and relevant citations. Do not turn percentage points into percent.
 - **Be exact about certainty.** Separate established facts, estimates, assumptions, and recommendations. Say what is unknown or unchecked when it matters.
 - **One term, one meaning.** Use a consistent term for the same concept. Keep necessary legal, scientific, engineering, medical, and domain vocabulary intact; explain it when useful.
-- **Write for the reader.** Match the user's language and requested voice. Prefer common words, concrete nouns, strong verbs, and short sentences. Treat ~20 words as a readability signal, not a hard cap.
+- **Write for the reader.** Match the requested output language and voice. For rewrites, keep the source language unless a translation is requested. Prefer common words, concrete nouns, strong verbs, and short sentences. Treat ~20 words as a readability signal, not a hard cap.
 - **Remove empty language.** Cut generic introductions, repetition, inflated claims, filler adjectives, corporate slogans, and caveats that do not change a decision.
 - **Be actionable when appropriate.** In decision documents, distinguish observation, implication, recommendation, owner, and next step when the source supplies them. Never fabricate responsibilities or deadlines.
 - **Respect the task.** A request for a rewrite is not permission to invent a plan. A request for analysis is not permission to conceal important complexity.
+
+## Languages and translation
+
+An explicit target language takes priority over the language of the prompt or source. Accept language names or locale tags, such as `Spanish`, `pt-BR`, or `zh-CN`; these are instructions, not special command syntax. If no translation is requested, preserve the source language when rewriting, including intentional mixed-language passages.
+
+Translate all material content rather than summarizing it. Modes change editing intensity, not translation coverage. Preserve negation, obligations, uncertainty, actor, sequence, numbers, units, dates, citations, and requested formatting. Keep code, commands, paths, URLs, and placeholders unchanged unless the user explicitly asks to change them. Preserve quotations requested verbatim; make clear when a quotation is translated.
+
+Use natural grammar, appropriate register, and the requested regional or script variant. Do not infer gender, change currencies, convert units, or resolve ambiguous dates without support from the source or request. Ask about a missing target language or a material ambiguity when needed; do not delay a clear translation for optional preferences.
+
+For translation or mixed-language work, load [references/translation.md](references/translation.md) for preservation checks and examples. Translation quality depends on the host model; the project's documented language coverage is not a guarantee for every language.
 
 ## Modes
 

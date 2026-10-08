@@ -9,7 +9,7 @@
 - **Marketing:** Persuasive tone is allowed. Do not create unsupported superlatives, statistics, testimonials, or guarantees.
 - **Executive summaries:** Prioritize decisions, metrics, risks, and actions only when supported by the source.
 - **Creative writing and branding:** Follow requested style; do not flatten intentional rhythm, voice, idioms, or humor.
-- **Multilingual:** Use natural style and language-specific conventions. Controlled vocabulary from ASD-STE100 applies to English only; this project does not enforce it.
+- **Multilingual:** Keep the source language unless translation is requested. Follow the explicit target language, locale, script, and register; preserve intentional language mixing. See [translation.md](translation.md) for translation checks. Controlled vocabulary from ASD-STE100 applies to English only; this project does not enforce it.
 - **Conflicting inputs:** Do not silently reconcile inconsistent facts. Flag a material conflict if required to complete the task.
 - **Extremely short requests:** Reply directly; no headings or manufactured "next steps."
 

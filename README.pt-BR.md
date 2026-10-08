@@ -5,11 +5,13 @@
 [![Verificações de CI](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/hevertonrodrigues/asdify/actions/workflows/validate.yml)
 [![Licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-18283b?style=flat-square)](LICENSE)
 [![Formato: Markdown portátil](https://img.shields.io/badge/formato-Markdown%20port%C3%A1til-18283b?style=flat-square)](skills/asdify/SKILL.md)
-[![Exemplos: EN e PT-BR](https://img.shields.io/badge/exemplos-EN%20%2B%20PT--BR-dba44e?style=flat-square)](examples/before-after.md)
+[![Idiomas: 9](https://img.shields.io/badge/idiomas-9-dba44e?style=flat-square)](docs/LANGUAGES.md)
 
-[English](README.md) · [Experimente](#experimente-sem-instalar) · [Instalação](#instale-no-seu-agente) · [Receitas de uso](examples/recipes.md) · [Contribua](CONTRIBUTING.md)
+[English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [Italiano](README.it.md) · [Русский](README.ru.md)
 
-Dê ao seu agente de IA uma rotina de revisão: identificar o ponto principal, remover excessos e conferir se os detalhes importantes foram preservados. ASDify é uma Skill pequena e portátil em Markdown para respostas, atualizações, relatórios e documentação nos agentes de programação e editores compatíveis.
+[Experimente](#experimente-sem-instalar) · [Instalação](#instale-no-seu-agente) · [Idiomas](docs/LANGUAGES.md) · [Receitas de uso](examples/recipes.md) · [Contribua](CONTRIBUTING.md)
+
+Dê ao seu agente de IA uma rotina de revisão: identificar o ponto principal, remover excessos e conferir se os detalhes importantes foram preservados. ASDify é uma Skill pequena e portátil em Markdown para respostas, traduções, atualizações, relatórios e documentação nos agentes de programação e editores compatíveis.
 
 ## Veja a diferença
 
@@ -46,6 +48,8 @@ Compare o resultado com os detalhes mostrados acima. A redação pode variar; os
 [Veja uma execução real no Codex](docs/demos/codex-full-2026-10-08.md), com o prompt, a resposta e a conferência dos detalhes preservados (em inglês).
 
 ## Instale no seu agente
+
+O ASDify não depende de Node.js nem de npm. A Skills CLI opcional abaixo pode pedir confirmação para baixar seu pacote npm. Use o [instalador local](INSTALL.md#local-installer) para evitar esse download; veja também a [instalação da Skill nativa no Cursor sem npm](INSTALL.md#cursor-without-nodejs-or-npm).
 
 Use a [Skills CLI](https://github.com/vercel-labs/skills) para localizar o ASDify e instalar no seu agente:
 
@@ -88,6 +92,20 @@ Preserve números, datas, condições, incertezas e termos técnicos necessário
 
 Peça um modo com `Use asdify lite`, `full` ou `ultra`. Use `asdify off` para interromper este fluxo opcional, respeitando as demais instruções do agente. Os modos são instruções; o suporte a comandos nativos varia por agente.
 
+## Idiomas e tradução
+
+Inglês, português brasileiro, espanhol, francês, alemão, japonês, chinês simplificado, italiano e russo têm READMEs e casos de regressão. Instale a mesma Skill canônica para todos os idiomas; não é necessário um pacote de idioma. Revisões preservam o idioma de origem, a menos que você peça uma tradução.
+
+```text
+Use asdify full. Traduza para português brasileiro (pt-BR).
+Retorne apenas a tradução. Preserve todos os fatos e ressalvas.
+
+Preliminary subscription revenue grew 12% year over year in Brazil,
+excluding refunds. These figures are unaudited.
+```
+
+Indique o idioma ou a variante de destino. O ASDify preserva significado, identificadores, marcadores e formato solicitado, adaptando gramática e registro. Veja [exemplos multilíngues](examples/multilingual.md) e [cobertura de idiomas e suporte](docs/LANGUAGES.md), em inglês. A qualidade da tradução depende do modelo do agente; os testes do pacote não a verificam.
+
 ## Coloque em prática
 
 | Tarefa | O que preservar | Copie um prompt completo |
@@ -99,7 +117,7 @@ Peça um modo com `Use asdify lite`, `full` ou `ultra`. Use `asdify off` para in
 
 ## Feito para ser verificado
 
-Uma resposta mais curta que altera um fato relevante falha na avaliação. O repositório inclui casos de regressão em português e inglês, critérios de revisão humana e um [protocolo de avaliação reproduzível](benchmarks/README.md). **Ainda não demonstramos ganhos de qualidade em modelos reais.** Veja os registros separados de [verificação do pacote](docs/VERIFICATION.md) e [compatibilidade dos agentes](docs/COMPATIBILITY.md).
+Uma resposta mais curta que altera um fato relevante falha na avaliação. O repositório inclui casos de regressão de revisão e tradução em nove idiomas, critérios de revisão humana e um [protocolo de avaliação reproduzível](benchmarks/README.md). **Ainda não demonstramos ganhos de qualidade em modelos reais.** Veja os registros separados de [verificação do pacote](docs/VERIFICATION.md) e [compatibilidade dos agentes](docs/COMPATIBILITY.md).
 
 Encontrou uma condição perdida, um número alterado ou uma promessa inventada? [Relate a mudança de significado](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml). Um pequeno exemplo anonimizado já é uma boa primeira contribuição. Veja os passos em [CONTRIBUTING.md](CONTRIBUTING.md).
 

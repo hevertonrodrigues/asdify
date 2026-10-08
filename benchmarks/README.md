@@ -16,10 +16,10 @@ Use a separate ratings CSV and metadata file for each study and each model confi
 ## Run the study
 
 1. **Freeze inputs.** Record the repository revision (or skill checksum), model/version, host/version, system prompt, exact condition instructions, sampling settings, tools, date, case list, repetitions, and stopping rule. Start with [run-metadata-template.json](run-metadata-template.json); replace every `null` and empty list relevant to the study before running it.
-2. **Separate development from evaluation.** `cases.jsonl` is a public regression set. It is useful for development but not held-out evidence. Collect a new frozen set that was not used to edit the skill. Include EN/PT-BR, long summaries, hard constraints, and already-clear text. Report selection criteria and exclusions.
+2. **Separate development from evaluation.** `cases.jsonl` is a public regression set. It is useful for development but not held-out evidence. Collect a new frozen set that was not used to edit the skill. Include the languages and translation directions being claimed, long summaries, hard constraints, and already-clear text. Report selection criteria and exclusions; do not generalize a result to untested languages.
 3. **Generate independently.** Use fresh sessions with no previous outputs or other writing skills. The control must not inherit this repository's `AGENTS.md` or installed rule. Treatment gets the complete canonical skill and access to its references. Capture raw input and output for every case and repetition, including failures.
 4. **Blind the review.** An organizer assigns opaque A/B labels to conditions and keeps their meaning hidden from reviewers. Keep the mapping consistent within each CSV so arm totals are meaningful. Randomize display order separately; remove host/skill labels without changing the writing. Each `run_id` identifies one paired repetition; both arms share it.
-5. **Score independently.** At least two reviewers use the [rubric](../skills/asdify/references/quality-rubric.md). Mark a hard failure when a material fact, condition, obligation, citation, or safety detail is changed, invented, or lost. Use the source and invariants together; matching words alone does not establish meaning preservation.
+5. **Score independently.** At least two reviewers use the [rubric](../skills/asdify/references/quality-rubric.md). For translations, reviewers must understand both source and target languages. Mark a hard failure when a material fact, condition, obligation, citation, or safety detail is changed, invented, or lost. Use the source and invariants together; matching words alone does not establish meaning preservation. Check target language, locale/script, register, identifiers, placeholders, and output format separately.
 6. **Record preference separately.** For each paired repetition/reviewer, record A, B, tie, or neither in a separate preference sheet with reviewer, case ID, run ID, reason, and hard-failure notes. A hard-failing output cannot win; if both fail, choose neither. Retain independent ratings before any disagreement resolution.
 7. **Report with limits.** Publish per-case outputs and results, fidelity failures, dimension scores, paired preferences, reviewer agreement, and uncertainty. Repeated runs and multiple reviewers are not independent cases. Analyze or resample at the case level when estimating uncertainty. Report length, token usage, and latency as secondary measures. The supplied scorer does not compute preference, reviewer agreement, significance, or confidence intervals.
 
@@ -27,7 +27,15 @@ If a model version, skill revision, or instruction changes, start a new study ra
 
 ## Public regression inputs
 
-`cases.jsonl` contains 16 original inputs, evenly split between EN and PT-BR. They cover numerical qualifiers, legal modality, recommended versus required actions, uncertainty, technical identifiers, no-op editing, negation, ordered steps, citation attachment, contradictory sources, exact quotations, and requested voice.
+`cases.jsonl` contains 49 original inputs: 31 same-language rewrite or analysis tasks and 18 translation tasks across English, Brazilian Portuguese, Spanish, French, German, Japanese, Simplified Chinese, Italian, and Russian. The original 16 EN/PT-BR cases remain intact. Added cases cover native-language rewrites, translation to and from English, protected JSON keys and placeholders, intentional language mixing, and ambiguous dates.
+
+Each case has a unique `id`, source `lang`, complete `task`, semantic `invariants`, and failure `risk`. Translation cases also have `target_lang`; omit it for same-language tasks. Tags must match [integrations/languages.json](../integrations/languages.json). Every registered locale needs rewrite coverage and translation source/target coverage. A target identical to the source is rejected; a locale-to-locale translation can use different registered tags.
+
+```jsonl
+{"id":"en-to-it-example","lang":"en","target_lang":"it","task":"Translate into Italian: The supplier may terminate with at least 30 days' written notice.","invariants":["Italian output","permission, not requirement","at least 30 days","written notice"],"risk":"changed modality or notice minimum"}
+```
+
+Record the evaluated locales and directions in `language_coverage` in the metadata template. Report translation results by source/target direction and same-language results by locale. Public fixtures are unevenly distributed and are not a balanced study. Do not use cross-language word or token counts as proof of better clarity. Structural validation does not generate translations or check their accuracy.
 
 The `invariants` are review criteria, not required substrings. For example, the obligation can be preserved with different words. A human checks whether the meaning survives. The source task remains authoritative if an invariant is incomplete.
 
@@ -58,4 +66,4 @@ The empty template deliberately fails. The scorer validates pairing and reports 
 
 Use `benchmarks/runs/` for local drafts (gitignored). Publish reviewed, anonymized evidence in `benchmarks/results/<date>-<study>/`, following the [results checklist](results/README.md). Keep the mapping secret during grading, then publish it with the final study. Do not commit private source documents, API credentials, or identifying reviewer details.
 
-Before making a broad effectiveness claim, seek benefit on both languages and at least two models with no material-fidelity regression. These are evaluation goals, not achieved results. A finding that the skill adds no benefit is a valid result.
+Before making a broad effectiveness claim, seek benefit on every language and translation direction included in the claim and at least two models with no material-fidelity regression. These are evaluation goals, not achieved results. A finding that the skill adds no benefit is a valid result.

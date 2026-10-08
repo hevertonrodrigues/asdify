@@ -9,6 +9,7 @@ Open a [meaning-regression report](https://github.com/hevertonrodrigues/asdify/i
 - The original input and the actual output, with private information removed.
 - The exact fact, condition, obligation, uncertainty, or relationship that changed.
 - The intended reader, requested task, and skill mode.
+- For a translation, source and target languages and any regional or script variant.
 - Host and version, model identifier, skill version or commit, and run date, where known.
 
 For example: “The source recommends waiting before retrying; the output makes it mandatory.” An expected rewrite is helpful but optional. Describe the required meaning even if you do not know the best wording. Label invented demonstrations as illustrative; use actual model output when reporting a reproduced failure.
@@ -32,7 +33,7 @@ If the installer fails or the host cannot find the skill, use the [installation 
 
 ### A case you can copy
 
-Each line in `benchmarks/cases.jsonl` is a complete JSON object. Adapt this illustrative case with a unique ID, your task, the meaning to preserve, and the failure risk. Use `en` or `pt-BR` for `lang`.
+Each line in `benchmarks/cases.jsonl` is a complete JSON object. Adapt this illustrative case with a unique ID, your task, the meaning to preserve, and the failure risk. Use a tag from [integrations/languages.json](integrations/languages.json) for the source `lang`. Add `target_lang` for a translation; omit it for same-language tasks.
 
 ```jsonl
 {"id":"en-example","lang":"en","task":"Rewrite for a project update without changing certainty: The launch is expected on 20 November if the vendor approves testing.","invariants":["20 November is expected, not confirmed","launch depends on the vendor approving testing"],"risk":"turning a conditional estimate into a confirmed date"}
@@ -45,7 +46,8 @@ Keep it on one line when adding it to the file. The invariants describe meaning;
 - Complete [recipes](examples/recipes.md) for everyday tasks, with explicit preservation checks.
 - Reproducible evaluations, including failures and concise-only comparisons.
 - Installation evidence with host version, date, and the actions tested; see [compatibility](docs/COMPATIBILITY.md).
-- Improvements to English and Brazilian Portuguese documentation, keeping their factual claims aligned.
+- Native-speaker review and corrections to the nine READMEs, keeping their factual claims aligned with the English source. Use the [documentation-translation report](https://github.com/hevertonrodrigues/asdify/issues/new?template=documentation_translation.yml) for incorrect or outdated wording.
+- New languages with documentation, native-language cases, and bidirectional translation inputs; follow [language contribution steps](docs/LANGUAGES.md#add-or-review-a-language).
 - Smaller, clearer skill instructions that preserve behavior.
 
 See the [roadmap](docs/ROADMAP.md) for current priorities. Prefer a focused contribution over a large collection of untested rules.

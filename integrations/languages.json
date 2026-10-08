@@ -1,0 +1,11 @@
+[
+  {"tag": "en", "name": "English", "readme": "README.md"},
+  {"tag": "pt-BR", "name": "Português (Brasil)", "readme": "README.pt-BR.md"},
+  {"tag": "es", "name": "Español", "readme": "README.es.md"},
+  {"tag": "fr", "name": "Français", "readme": "README.fr.md"},
+  {"tag": "de", "name": "Deutsch", "readme": "README.de.md"},
+  {"tag": "ja", "name": "日本語", "readme": "README.ja.md"},
+  {"tag": "zh-CN", "name": "简体中文", "readme": "README.zh-CN.md"},
+  {"tag": "it", "name": "Italiano", "readme": "README.it.md"},
+  {"tag": "ru", "name": "Русский", "readme": "README.ru.md"}
+]

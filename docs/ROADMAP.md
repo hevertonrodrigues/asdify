@@ -31,6 +31,8 @@ Make the skill useful enough that people keep using it and contribute the cases 
 
 ## 3. Useful contributions and discovery
 
+- [x] Add READMEs, translation guidance, and regression inputs for Spanish, French, German, Japanese, Simplified Chinese, Italian, and Russian alongside English and Portuguese.
+- [ ] Obtain independent native-speaker review of the seven new README translations and publish live translation checks by language and direction.
 - [x] Offer small first contributions: one anonymized failure case, one native-speaker review, or one verified host check.
 - [ ] Review incoming cases, reproduce them, add regressions, and document the behavior change in the changelog.
 - [x] Publish a [real Codex demonstration](demos/codex-full-2026-10-08.md) with command, output, host version, and date; disclose that the model identifier was not emitted.
@@ -44,6 +46,6 @@ Make the skill useful enough that people keep using it and contribute the cases 
 
 ## Scope
 
-Keep one canonical skill with optional references and small host adapters. Add a new language or integration when a contributor can verify it. A hosted editor, model gateway, telemetry service, and large plugin framework are outside the first release.
+Keep one canonical skill with optional references and small host adapters. Document new language or integration coverage separately from native-speaker review, live output checks, and host verification. A hosted editor, model gateway, telemetry service, and large plugin framework are outside the first release.
 
 See the [launch record](LAUNCH.md) for completed publication work and remaining distribution steps. These milestones do not promise a ranking, star count, or release date.
