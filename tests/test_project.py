@@ -1,11 +1,14 @@
 import csv
 import importlib.util
 import json
+import os
+import shutil
 import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from contextlib import contextmanager
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,6 +19,19 @@ RATING_HEADER = ["reviewer", "case_id", "arm", "meaning_fidelity", "clarity", "s
 
 
 class ProjectTests(unittest.TestCase):
+    def setUp(self):
+        # Even argument-validation regressions must never reach the real user's home.
+        self.environment = tempfile.TemporaryDirectory(prefix="asdify isolated home ")
+        self.addCleanup(self.environment.cleanup)
+        self.env_patch = patch.dict(os.environ, {
+            "HOME": self.environment.name,
+            "XDG_CONFIG_HOME": str(Path(self.environment.name) / "config"),
+            "CODEX_HOME": str(Path(self.environment.name) / "codex"),
+            "CLAUDE_CONFIG_DIR": str(Path(self.environment.name) / "claude"),
+        })
+        self.env_patch.start()
+        self.addCleanup(self.env_patch.stop)
+
     def test_structure_and_examples(self):
         result = subprocess.run([sys.executable, str(ROOT / "scripts/validate.py")], capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
@@ -111,6 +127,251 @@ class ProjectTests(unittest.TestCase):
             self.assertEqual(proc.returncode, 0, proc.stderr)
             self.assertIn("Arm A:", proc.stdout)
             self.assertIn("Arm B:", proc.stdout)
+
+
+class InstallerRegistryTests(unittest.TestCase):
+    """Exercise host mappings without touching any real agent configuration."""
+
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory(prefix="asdify hosts ")
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name).resolve()
+        self.home = self.root / "home with spaces"
+        self.project = self.root / "project with spaces"
+        self.home.mkdir()
+        self.project.mkdir()
+        self.env = dict(os.environ, HOME=str(self.home))
+        for name in ("XDG_CONFIG_HOME", "CODEX_HOME", "CLAUDE_CONFIG_DIR", "AUTOHAND_HOME", "GROK_HOME", "HERMES_HOME", "VIBE_HOME", "OPENCLAW_HOME"):
+            self.env.pop(name, None)
+
+    def install(self, *args, env=None, cwd=None):
+        return subprocess.run(
+            ["bash", str(ROOT / "scripts/install.sh"), *args],
+            cwd=self.project if cwd is None else cwd, env=self.env if env is None else env,
+            capture_output=True, text=True,
+        )
+
+    @contextmanager
+    def isolated_case(self):
+        with tempfile.TemporaryDirectory(dir=self.root) as temporary:
+            home = Path(temporary) / "home with spaces"
+            project = Path(temporary) / "project with spaces"
+            home.mkdir()
+            project.mkdir()
+            yield home, project, dict(self.env, HOME=str(home))
+
+    @staticmethod
+    def registry():
+        lines = (ROOT / "integrations/agents.tsv").read_text(encoding="utf-8").splitlines()
+        return list(csv.reader((line for line in lines if line and not line.startswith("#")), delimiter="\t"))
+
+    @staticmethod
+    def file_contents(folder):
+        return {path.relative_to(folder): path.read_bytes() for path in folder.rglob("*") if path.is_file()}
+
+    def assert_complete_skill(self, destination):
+        self.assertTrue((destination / "SKILL.md").is_file(), destination)
+        self.assertFalse(destination.is_symlink())
+        self.assertEqual(self.file_contents(destination), self.file_contents(ROOT / "skills/asdify"))
+
+    def test_every_registered_host_and_scope(self):
+        for agent, _, project_path, user_path, kind, _ in self.registry():
+            for scope, template in (("project", project_path), ("user", user_path)):
+                with self.subTest(agent=agent, scope=scope), self.isolated_case() as (home, project, env):
+                    proc = self.install("--agent", agent, "--scope", scope, env=env, cwd=project)
+                    if template == "-":
+                        self.assertEqual(proc.returncode, 2, proc.stderr)
+                        self.assertEqual(list(home.iterdir()), [])
+                        self.assertEqual(list(project.iterdir()), [])
+                        continue
+                    self.assertEqual(proc.returncode, 0, proc.stderr)
+                    roots = {
+                        "{HOME}": home, "{XDG_CONFIG_HOME}": home / ".config",
+                        "{CLAUDE_CONFIG_DIR}": home / ".claude", "{AUTOHAND_HOME}": home / ".autohand",
+                        "{GROK_HOME}": home / ".grok", "{HERMES_HOME}": home / ".hermes",
+                        "{VIBE_HOME}": home / ".vibe", "{OPENCLAW_HOME}": home / ".openclaw",
+                    }
+                    if scope == "project":
+                        destination = project / template
+                        self.assertEqual(list(home.iterdir()), [])
+                    else:
+                        prefix, relative = template.split("/", 1)
+                        destination = roots[prefix] / relative
+                        self.assertEqual(list(project.iterdir()), [])
+                    if kind == "skill":
+                        destination /= "asdify"
+                        self.assert_complete_skill(destination)
+                    else:
+                        self.assertEqual(destination.read_bytes(), (ROOT / "integrations/cursor-rule.mdc").read_bytes())
+                    self.assertEqual({path.name for path in destination.parent.iterdir()}, {destination.name})
+
+    def test_representative_destinations_independent_of_registry(self):
+        # These literal paths anchor the matrix above to documented host conventions.
+        for agent, scope, relative in (
+            ("claude-code", "project", ".claude/skills/asdify"),
+            ("codex", "user", ".agents/skills/asdify"),
+            ("github-copilot", "user", ".copilot/skills/asdify"),
+            ("gemini-cli", "user", ".gemini/skills/asdify"),
+            ("cursor-skill", "user", ".cursor/skills/asdify"),
+            ("opencode", "user", ".config/opencode/skills/asdify"),
+            ("windsurf", "user", ".codeium/windsurf/skills/asdify"),
+            ("openclaw", "project", "skills/asdify"),
+        ):
+            with self.subTest(agent=agent, scope=scope), self.isolated_case() as (home, project, env):
+                proc = self.install("--agent", agent, "--scope", scope, env=env, cwd=project)
+                self.assertEqual(proc.returncode, 0, proc.stderr)
+                self.assert_complete_skill((home if scope == "user" else project) / relative)
+
+    def test_list_is_complete_and_never_creates_configuration(self):
+        env = dict(self.env, HOME=str(self.root / "nonexistent home"), XDG_CONFIG_HOME="relative")
+        proc = self.install("--list", env=env)
+        self.assertEqual(proc.returncode, 0, proc.stderr)
+        for agent, _, project_path, user_path, kind, _ in self.registry():
+            with self.subTest(agent=agent):
+                lines = [line.split() for line in proc.stdout.splitlines() if line.split() and line.split()[0] == agent]
+                self.assertEqual(len(lines), 1, proc.stdout)
+                self.assertIn(kind, lines[0])
+                self.assertIn("project", lines[0][1])
+                self.assertEqual("user" in lines[0][1], user_path != "-")
+        self.assertFalse((self.root / "nonexistent home").exists())
+        self.assertEqual(list(self.project.iterdir()), [])
+        self.assertEqual(list(self.home.iterdir()), [])
+
+    def test_compatibility_aliases_copy_the_same_content(self):
+        for names, relative in (
+            (("claude", "claude-code"), ".claude/skills/asdify/SKILL.md"),
+            (("cursor", "cursor-rule"), ".cursor/rules/asdify.mdc"),
+        ):
+            outputs = []
+            for agent in names:
+                with self.subTest(agent=agent), self.isolated_case() as (_, project, env):
+                    proc = self.install("--agent", agent, "--scope", "project", env=env, cwd=project)
+                    self.assertEqual(proc.returncode, 0, proc.stderr)
+                    outputs.append((project / relative).read_bytes())
+            self.assertEqual(outputs[0], outputs[1])
+
+    def test_xdg_user_roots_and_fallbacks(self):
+        for agent, suffix in (("opencode", "opencode/skills/asdify"), ("goose", "goose/skills/asdify"), ("amp", "agents/skills/asdify")):
+            for value in (None, "", "relative/path", str(self.root / "custom config")):
+                with self.subTest(agent=agent, xdg=value), self.isolated_case() as (home, project, env):
+                    if value is not None:
+                        env["XDG_CONFIG_HOME"] = value
+                    base = Path(value) if value and Path(value).is_absolute() else home / ".config"
+                    proc = self.install("--agent", agent, "--scope", "user", "--force", env=env, cwd=project)
+                    self.assertEqual(proc.returncode, 0, proc.stderr)
+                    self.assert_complete_skill(base / suffix)
+                    self.assertEqual(list(project.iterdir()), [])
+
+    def test_custom_host_roots_and_invalid_relative_roots(self):
+        for agent, variable in (
+            ("claude-code", "CLAUDE_CONFIG_DIR"), ("autohand-code", "AUTOHAND_HOME"),
+            ("grok", "GROK_HOME"), ("hermes-agent", "HERMES_HOME"),
+            ("mistral-vibe", "VIBE_HOME"),
+        ):
+            with self.subTest(agent=agent), self.isolated_case() as (home, project, env):
+                custom = home / "custom config"
+                env[variable] = str(custom)
+                proc = self.install("--agent", agent, "--scope", "user", env=env, cwd=project)
+                self.assertEqual(proc.returncode, 0, proc.stderr)
+                self.assert_complete_skill(custom / "skills/asdify")
+                env[variable] = "relative/config"
+                proc = self.install("--agent", agent, "--scope", "user", env=env, cwd=project)
+                self.assertEqual(proc.returncode, 2, proc.stderr)
+                self.assertEqual(list(project.iterdir()), [])
+
+    def test_openclaw_existing_home_fallbacks(self):
+        for existing, expected in (
+            ((".moltbot",), ".moltbot"),
+            ((".clawdbot", ".moltbot"), ".clawdbot"),
+            ((".openclaw", ".clawdbot", ".moltbot"), ".openclaw"),
+        ):
+            with self.subTest(existing=existing), self.isolated_case() as (home, project, env):
+                for name in existing:
+                    (home / name).mkdir()
+                proc = self.install("--agent", "openclaw", "--scope", "user", env=env, cwd=project)
+                self.assertEqual(proc.returncode, 0, proc.stderr)
+                self.assert_complete_skill(home / expected / "skills/asdify")
+                for name in set(existing) - {expected}:
+                    self.assertEqual(list((home / name).iterdir()), [])
+
+    def test_force_replaces_only_the_selected_skill(self):
+        destination = self.home / ".agents/skills/asdify"
+        destination.mkdir(parents=True)
+        (destination / "local.txt").write_text("custom", encoding="utf-8")
+        sibling = destination.parent / "another-skill"
+        sibling.mkdir()
+        (sibling / "SKILL.md").write_text("keep me", encoding="utf-8")
+        args = ("--agent", "codex", "--scope", "user")
+        refused = self.install(*args)
+        self.assertNotEqual(refused.returncode, 0)
+        self.assertEqual(self.file_contents(destination), {Path("local.txt"): b"custom"})
+        forced = self.install(*args, "--force")
+        self.assertEqual(forced.returncode, 0, forced.stderr)
+        self.assert_complete_skill(destination)
+        self.assertEqual(self.file_contents(sibling), {Path("SKILL.md"): b"keep me"})
+
+    def test_bad_identifiers_and_arguments_have_no_side_effects(self):
+        for args in (
+            ["--agent", "../../escape", "--scope", "user"],
+            ["--agent", "claude;touch marker", "--scope", "user"],
+            ["--agent", "$(touch marker)", "--scope", "project"],
+            ["--agent", "Claude", "--scope", "project"],
+            ["--agent", "", "--scope", "project"],
+            ["--agent", "claude", "--scope", "../../escape"],
+            ["--scope", "user"], ["--agent", "claude", "--scope"],
+            ["--list", "--agent", "claude"], ["--list", "--force"],
+        ):
+            with self.subTest(args=args):
+                proc = self.install(*args)
+                self.assertEqual(proc.returncode, 2, proc.stderr)
+                self.assertEqual(list(self.home.iterdir()), [])
+                self.assertEqual(list(self.project.iterdir()), [])
+
+    def test_force_never_changes_a_symlink_target(self):
+        for agent, relative in (("claude", ".claude/skills/asdify"), ("cursor", ".cursor/rules/asdify.mdc")):
+            for dangling in (False, True):
+                with self.subTest(agent=agent, dangling=dangling):
+                    outside = self.root / f"outside-{agent}-{dangling}"
+                    if not dangling:
+                        if agent == "claude":
+                            outside.mkdir()
+                            (outside / "keep.txt").write_text("leave this alone", encoding="utf-8")
+                        else:
+                            outside.write_text("leave this alone", encoding="utf-8")
+                    destination = self.project / relative
+                    destination.parent.mkdir(parents=True, exist_ok=True)
+                    if destination.exists():
+                        if destination.is_dir():
+                            shutil.rmtree(destination)
+                        else:
+                            destination.unlink()
+                    destination.symlink_to(outside, target_is_directory=agent == "claude")
+                    refused = self.install("--agent", agent, "--scope", "project")
+                    self.assertNotEqual(refused.returncode, 0)
+                    self.assertTrue(destination.is_symlink())
+                    forced = self.install("--agent", agent, "--scope", "project", "--force")
+                    self.assertEqual(forced.returncode, 0, forced.stderr)
+                    self.assertFalse(destination.is_symlink())
+                    if dangling:
+                        self.assertFalse(outside.exists())
+                    elif agent == "claude":
+                        self.assertEqual(self.file_contents(outside), {Path("keep.txt"): b"leave this alone"})
+                    else:
+                        self.assertEqual(outside.read_text(encoding="utf-8"), "leave this alone")
+
+    def test_symlinked_install_parent_is_refused_even_with_force(self):
+        for agent, parent in (("claude", ".claude"), ("cursor", ".cursor")):
+            with self.subTest(agent=agent):
+                outside = self.root / f"external-{agent}"
+                outside.mkdir()
+                sentinel = outside / "keep.txt"
+                sentinel.write_text("preserve", encoding="utf-8")
+                (self.project / parent).symlink_to(outside, target_is_directory=True)
+                for force in ([], ["--force"]):
+                    proc = self.install("--agent", agent, "--scope", "project", *force)
+                    self.assertNotEqual(proc.returncode, 0)
+                    self.assertEqual(list(outside.iterdir()), [sentinel])
+                    self.assertEqual(sentinel.read_text(encoding="utf-8"), "preserve")
 
 
 class RatingTests(unittest.TestCase):
@@ -223,6 +484,66 @@ class ValidationTests(unittest.TestCase):
 
     def write_cases(self, cases):
         (self.root / "benchmarks/cases.jsonl").write_text("\n".join(json.dumps(case) for case in cases) + "\n", encoding="utf-8")
+
+    @staticmethod
+    def agent_row():
+        return ["claude-code", "Claude Code", ".claude/skills", "{CLAUDE_CONFIG_DIR}/skills", "skill", "https://code.claude.com/docs/en/skills"]
+
+    def write_registry(self, rows):
+        (self.root / "integrations").mkdir(exist_ok=True)
+        content = "# agent registry fixture\n" + "\n".join("\t".join(row) for row in rows) + "\n"
+        (self.root / "integrations/agents.tsv").write_text(content, encoding="utf-8")
+
+    def test_valid_registry_allows_distinct_aliases_and_scope_limits(self):
+        row = self.agent_row()
+        self.write_registry([
+            row, ["claude", *row[1:]],
+            ["cursor", "Cursor", ".cursor/rules/asdify.mdc", "-", "rule", "https://cursor.com/docs/rules"],
+        ])
+        self.assertEqual(VALIDATION.validate_agent_registry(), 3)
+
+    def test_registry_requires_nonempty_unique_identifiers(self):
+        for rows, message in (
+            ([], "at least one agent"),
+            ([self.agent_row(), self.agent_row()], "duplicate agent id"),
+            ([["../escape", *self.agent_row()[1:]]], "invalid agent id"),
+            ([self.agent_row()[:-1]], "six nonempty"),
+            ([["", *self.agent_row()[1:]]], "six nonempty"),
+        ):
+            with self.subTest(rows=rows):
+                self.write_registry(rows)
+                with self.assertRaisesRegex(ValueError, message):
+                    VALIDATION.validate_agent_registry()
+
+    def test_registry_rejects_unsafe_destinations_and_unknown_kinds(self):
+        for index, value, message in (
+            (2, "../skills", "unsafe project"), (2, "/tmp/skills", "unsafe project"),
+            (2, ".claude//skills", "unsafe project"), (2, "$(touch marker)/skills", "unsafe project"),
+            (2, ".claude/other", "skills directory"),
+            (3, "{HOME}/../skills", "unsafe user"), (3, "{UNKNOWN}/skills", "supported root"),
+            (3, "/tmp/skills", "supported root"), (3, "{HOME}", "unsafe user"),
+            (4, "symlink", "kind must be"),
+        ):
+            with self.subTest(value=value):
+                row = self.agent_row()
+                row[index] = value
+                self.write_registry([row])
+                with self.assertRaisesRegex(ValueError, message):
+                    VALIDATION.validate_agent_registry()
+        row = self.agent_row()
+        row[2:4] = ["-", "-"]
+        self.write_registry([row])
+        with self.assertRaisesRegex(ValueError, "at least one install scope"):
+            VALIDATION.validate_agent_registry()
+
+    def test_registry_requires_documentation_source_urls(self):
+        for source in ("file:///tmp/docs", "http://example.com/docs", "https://example.com", "https://user:password@example.com/docs", "https://example.com/bad source"):
+            with self.subTest(source=source):
+                row = self.agent_row()
+                row[-1] = source
+                self.write_registry([row])
+                with self.assertRaisesRegex(ValueError, "documentation HTTPS URL"):
+                    VALIDATION.validate_agent_registry()
 
     def test_readme_images_and_html_links_are_checked(self):
         readme = self.root / "README.md"

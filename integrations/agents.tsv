@@ -1,0 +1,89 @@
+# ASDify offline install destinations. Snapshot checked 2026-10-08.
+# Upstream: https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts
+# 79 upstream agent mappings; cursor renamed cursor-skill to preserve the legacy rule command.
+# Local compatibility IDs: claude (claude-code alias), cursor and cursor-rule (compact rule).
+# Skill paths are container directories: the installer appends /asdify. Rule paths are complete filenames.
+# User roots are explicit placeholders, never shell-evaluated. '-' means unsupported scope.
+# id	display_name	project_path	user_path	kind	source_url
+adal	AdaL	.adal/skills	{HOME}/.adal/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L809
+aider-desk	AiderDesk	.aider-desk/skills	{HOME}/.aider-desk/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L81
+amp	Amp	.agents/skills	{XDG_CONFIG_HOME}/agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L90
+antigravity	Antigravity	.agents/skills	{HOME}/.gemini/antigravity/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L99
+antigravity-cli	Antigravity CLI	.agents/skills	{HOME}/.gemini/antigravity-cli/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L109
+astrbot	AstrBot	data/skills	{HOME}/.astrbot/data/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L119
+augment	Augment	.augment/skills	{HOME}/.augment/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L137
+autohand-code	Autohand Code CLI	.autohand/skills	{AUTOHAND_HOME}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L128
+bob	IBM Bob	.bob/skills	{HOME}/.bob/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L146
+claude	Claude Code (alias)	.claude/skills	{CLAUDE_CONFIG_DIR}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L155
+claude-code	Claude Code	.claude/skills	{CLAUDE_CONFIG_DIR}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L155
+cline	Cline	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L179
+codearts-agent	CodeArts Agent	.codeartsdoer/skills	{HOME}/.codeartsdoer/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L188
+codebuddy	CodeBuddy	.codebuddy/skills	{HOME}/.codebuddy/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L197
+codemaker	Codemaker	.codemaker/skills	{HOME}/.codemaker/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L206
+codestudio	Code Studio	.codestudio/skills	{HOME}/.codestudio/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L215
+codex	Codex	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L224
+command-code	Command Code	.commandcode/skills	{HOME}/.commandcode/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L233
+continue	Continue	.continue/skills	{HOME}/.continue/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L242
+cortex	Cortex Code	.cortex/skills	{HOME}/.snowflake/cortex/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L251
+crush	Crush	.crush/skills	{HOME}/.config/crush/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L260
+cursor	Cursor (legacy rule)	.cursor/rules/asdify.mdc	-	rule	https://cursor.com/docs/rules
+cursor-rule	Cursor (rule alias)	.cursor/rules/asdify.mdc	-	rule	https://cursor.com/docs/rules
+cursor-skill	Cursor (native skill)	.agents/skills	{HOME}/.cursor/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L269
+deepagents	Deep Agents	.agents/skills	{HOME}/.deepagents/agent/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L278
+devin	Devin for Terminal	.devin/skills	{XDG_CONFIG_HOME}/devin/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L288
+dexto	Dexto	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L297
+droid	Droid	.agents/skills	{HOME}/.factory/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L307
+eve	Eve	agent/skills	-	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L320
+firebender	Firebender	.agents/skills	{HOME}/.firebender/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L332
+forgecode	ForgeCode	.forge/skills	{HOME}/.forge/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L342
+fx	fx	.fx/skills	{HOME}/.fx/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L351
+gemini-cli	Gemini CLI	.agents/skills	{HOME}/.gemini/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L360
+github-copilot	GitHub Copilot	.agents/skills	{HOME}/.copilot/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L369
+goose	Goose	.goose/skills	{XDG_CONFIG_HOME}/goose/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L378
+grok	Grok Build	.grok/skills	{GROK_HOME}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L387
+hermes-agent	Hermes Agent	.hermes/skills	{HERMES_HOME}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L396
+iflow-cli	iFlow CLI	.iflow/skills	{HOME}/.iflow/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L432
+inference-sh	inference.sh	.inferencesh/skills	{HOME}/.inferencesh/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L405
+jazz	Jazz	.jazz/skills	{HOME}/.jazz/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L414
+junie	Junie	.junie/skills	{HOME}/.junie/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L423
+kilo	Kilo Code	.agents/skills	{HOME}/.kilo/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L441
+kimchi	Kimchi	.kimchi/skills	{HOME}/.config/kimchi/harness/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L452
+kimi-code-cli	Kimi Code CLI	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L461
+kiro-cli	Kiro CLI	.kiro/skills	{HOME}/.kiro/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L470
+kode	Kode	.kode/skills	{HOME}/.kode/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L479
+lingma	Lingma	.lingma/skills	{HOME}/.lingma/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L488
+loaf	Loaf	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L497
+mcpjam	MCPJam	.mcpjam/skills	{HOME}/.mcpjam/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L507
+minimax-code	MiniMax Code	.minimax/skills	{HOME}/.minimax/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L516
+mistral-vibe	Mistral Vibe	.vibe/skills	{VIBE_HOME}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L525
+moxby	Moxby	.moxby/skills	{HOME}/.moxby/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L534
+mux	Mux	.mux/skills	{HOME}/.mux/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L543
+neovate	Neovate	.neovate/skills	{HOME}/.neovate/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L778
+ona	Ona	.ona/skills	{HOME}/.ona/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L570
+openclaw	OpenClaw	skills	{OPENCLAW_HOME}/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L166
+opencode	OpenCode	.agents/skills	{XDG_CONFIG_HOME}/opencode/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L552
+openhands	OpenHands	.openhands/skills	{HOME}/.openhands/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L561
+pi	Pi	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L579
+pochi	Pochi	.pochi/skills	{HOME}/.pochi/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L787
+posit-assistant	Posit Assistant	.posit/assistant/skills	{HOME}/.posit/assistant/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L591
+promptscript	PromptScript	.agents/skills	-	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L796
+qoder	Qoder	.qoder/skills	{HOME}/.qoder/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L600
+qoder-cn	Qoder CN	.qoder/skills	{HOME}/.qoder-cn/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L609
+qwen-code	Qwen Code	.qwen/skills	{HOME}/.qwen/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L618
+reasonix	Reasonix	.reasonix/skills	{HOME}/.reasonix/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L637
+replit	Replit	.agents/skills	{XDG_CONFIG_HOME}/agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L627
+roo	Roo Code	.roo/skills	{HOME}/.roo/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L655
+rovodev	Rovo Dev	.rovodev/skills	{HOME}/.rovodev/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L646
+sarvam-code	Sarvam Code	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L664
+tabnine-cli	Tabnine CLI	.tabnine/agent/skills	{HOME}/.tabnine/agent/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L674
+terramind	Terramind	.terramind/skills	{HOME}/.terramind/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L683
+tinycloud	Tinycloud	.tinycloud/skills	{HOME}/.tinycloud/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L692
+trae	Trae	.trae/skills	{HOME}/.trae/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L701
+trae-cn	Trae CN	.trae/skills	{HOME}/.trae-cn/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L710
+universal	Universal	.agents/skills	{XDG_CONFIG_HOME}/agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L818
+warp	Warp	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L719
+windsurf	Windsurf	.windsurf/skills	{HOME}/.codeium/windsurf/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L728
+zcode	ZCode	.zcode/skills	{HOME}/.zcode/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L751
+zed	Zed	.agents/skills	{HOME}/.agents/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L737
+zencoder	Zencoder	.zencoder/skills	{HOME}/.zencoder/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L760
+zenflow	Zenflow	.zencoder/skills	{HOME}/.zencoder/skills	skill	https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts#L769

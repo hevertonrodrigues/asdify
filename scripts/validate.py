@@ -12,6 +12,10 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills/asdify/SKILL.md"
 LINK = re.compile(r"\[[^\]]+\]\(([^)]*)\)")
+AGENT_ROOTS = {
+    "{HOME}", "{XDG_CONFIG_HOME}", "{CLAUDE_CONFIG_DIR}", "{AUTOHAND_HOME}",
+    "{GROK_HOME}", "{HERMES_HOME}", "{VIBE_HOME}", "{OPENCLAW_HOME}",
+}
 
 
 class HTMLLinks(HTMLParser):
@@ -174,13 +178,65 @@ def validate_manifests():
         raise ValueError("Marketplace and plugin versions must match when both are specified")
 
 
+def validate_agent_registry():
+    """Check the local host map, without claiming that host loading was tested."""
+    path = ROOT / "integrations/agents.tsv"
+    identifiers = set()
+    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line or line.startswith("#"):
+            continue
+        columns = line.split("\t")
+        prefix = f"agents.tsv line {line_number}"
+        if len(columns) != 6 or any(not value or value != value.strip() for value in columns):
+            raise ValueError(f"{prefix}: expected six nonempty tab-separated fields")
+        agent, display_name, project_path, user_path, kind, source = columns
+        if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", agent):
+            raise ValueError(f"{prefix}: invalid agent id {agent!r}")
+        if agent in identifiers:
+            raise ValueError(f"{prefix}: duplicate agent id {agent!r}")
+        identifiers.add(agent)
+        if any(ord(character) < 32 for character in display_name):
+            raise ValueError(f"{prefix}: invalid display name")
+        if kind not in {"skill", "rule"}:
+            raise ValueError(f"{prefix}: kind must be skill or rule")
+        if project_path == user_path == "-":
+            raise ValueError(f"{prefix}: at least one install scope is required")
+        for scope, destination in (("project", project_path), ("user", user_path)):
+            if destination == "-":
+                continue
+            parts = destination.split("/")
+            if scope == "user":
+                if parts[0] not in AGENT_ROOTS:
+                    raise ValueError(f"{prefix}: user destination needs a supported root placeholder")
+                parts = parts[1:]
+            if not parts or any(
+                part in {".", ".."} or not re.fullmatch(r"[A-Za-z0-9_.-]+", part)
+                for part in parts
+            ):
+                raise ValueError(f"{prefix}: unsafe {scope} destination {destination!r}")
+            if kind == "skill" and parts[-1] != "skills":
+                raise ValueError(f"{prefix}: skill destination must be a skills directory")
+            if kind == "rule" and parts[-1] != "asdify.mdc":
+                raise ValueError(f"{prefix}: rule destination must name asdify.mdc")
+        url = urlsplit(source)
+        if (
+            url.scheme != "https" or not url.hostname or not url.path.strip("/")
+            or url.username or url.password or any(character.isspace() for character in source)
+        ):
+            raise ValueError(f"{prefix}: source must be a documentation HTTPS URL")
+    if not identifiers:
+        raise ValueError("agents.tsv must list at least one agent")
+    return len(identifiers)
+
+
 def main():
     validate_skill()
     validate_links()
     validate_manifests()
+    agents = validate_agent_registry()
     images = validate_readme_assets()
     count = validate_cases()
-    print(f"Validation OK: core skill, local plugin metadata, relative links, {images} SVGs, and {count} bilingual cases")
+    print(f"Validation OK: core skill, local plugin metadata, {agents} agent destinations, relative links, {images} SVGs, and {count} bilingual cases")
 
 
 if __name__ == "__main__":
