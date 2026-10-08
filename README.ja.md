@@ -2,7 +2,7 @@
 
 [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [Italiano](README.it.md) · [Русский](README.ru.md)
 
-[試す](#インストールせずに試す) · [インストール](#エージェントにインストールする) · [言語](docs/LANGUAGES.md) · [活用例](examples/recipes.md) · [貢献する](CONTRIBUTING.md)
+[試す](#インストールせずに試す) · [インストール](#エージェントにインストールする) · [言語](docs/LANGUAGES.md) · [サポート](SUPPORT.md) · [活用例](examples/recipes.md) · [貢献する](CONTRIBUTING.md)
 
 AIエージェントに、要点を見つけ、不要な表現を削り、重要な情報が残っているか確認する編集手順を与えます。ASDifyは、対応するコーディングエージェントやエディターで、回答、翻訳、進捗報告、レポート、文書を整えるための、小さく持ち運びやすいMarkdownスキルです。
 
@@ -36,6 +36,15 @@ asdify fullを使って、この進捗報告を経営陣向けに書き直して
 
 ## エージェントにインストールする
 
+| 方法 | 適した場面 | 必要なもの |
+| --- | --- | --- |
+| Skills CLI | スキルの検索、複数エージェントの選択、インストール管理 | Node.js/npmとダウンロード用のネットワーク |
+| ローカルインストーラー | npmを使わず、確認付きでコピーしたい | クローンまたは展開済みZIP、Bash、POSIXツール |
+| 手動コピー | Windowsを含め、インストーラーを使いたくない | 完全なスキルフォルダーと製品が定めるパス |
+| プロジェクトの指示／Cursorルール | エージェントが永続的な指示を読む | 指示ファイルまたはルールのディレクトリ |
+| Claude Codeプラグイン | プラグイン管理を使いたい | プラグイン対応のClaude Code |
+| [手動チャット](#インストールせずに試す) | インストールせずに試したい | 指示を受け付けるチャット |
+
 ASDify自体にNode.jsやnpmは不要です。任意のSkills CLIでは、npmパッケージのダウンロード前に確認が表示されることがあります。このダウンロードを避けるには[ローカルインストーラー](INSTALL.md#local-installer)を使ってください。[npmを使わないCursorのネイティブスキルのインストール](INSTALL.md#cursor-without-nodejs-or-npm)も参照できます。
 
 [Skills CLI](https://github.com/vercel-labs/skills)でASDifyを探し、インストールできます。
@@ -61,6 +70,60 @@ bash scripts/install.sh --agent claude-code --scope user
 Cursorのネイティブスキルでは、ローカルIDは`cursor-skill`です。`cursor`は従来の簡略版プロジェクトルール用アダプターを維持します。Skills CLIでは、ネイティブスキルのIDに`cursor`を使います。[違いとパス](INSTALL.md#cursor-native-skill-or-compact-rule)を参照してください。
 
 [エージェント一覧](docs/HARNESSES.md)は、このバージョンのレジストリに含まれる対象を示します。インストールの検証と実際のセッションは、[互換性](docs/COMPATIBILITY.md)で別々に記録します。一覧にないエージェントでは、その製品が定めるスキルのパスか、上の手動試用を使ってください。
+
+### 適用範囲と確認
+
+CLIは既定で現在のプロジェクトにインストールします。`--global`はユーザー単位、`--copy`はシンボリックリンクではなくコピーを選びます。複数の対象には`--agent claude-code cursor codex`を使います。`skills`の前の`--yes`はnpmのダウンロード確認、末尾の`--yes`はCLIのインストール確認を受け入れます。
+
+```bash
+DISABLE_TELEMETRY=1 npx --yes skills add hevertonrodrigues/asdify --skill asdify --agent cursor --global --copy --yes
+```
+
+必要な場合のダウンロードは引き続き行われます。ローカルのファイルも指定できます：`npx skills add /path/to/asdify --skill asdify --agent cursor`。[全オプション](INSTALL.md#scope-copies-and-multiple-agents)を参照してください。
+
+Gitを使わない場合は、GitHubの**Code → Download ZIP**から取得し、展開したフォルダーでインストーラーを実行します。`--list`は対象一覧、`--help`は使い方を表示します。Cursorのネイティブスキルをプロジェクトだけに入れるには、対象プロジェクトから次を実行し、ソースのパスを置き換えてください。
+
+```bash
+bash "/path/to/asdify/scripts/install.sh" --agent cursor-skill --scope project
+```
+
+保存先は`.agents/skills/asdify/`です。`--scope user`では`~/.cursor/skills/asdify/`になります。既存のコピーを確認してから`--force`を使ってください。ローカルIDの`cursor`は簡略ルール、Skills CLIの`cursor`はネイティブスキルをインストールします。
+
+### 手動コピーと永続的な指示
+
+[skills/asdify/](skills/asdify/)フォルダー全体を、`SKILL.md`と`references/`を含めて[規定の保存先](docs/HARNESSES.md)にコピーします。必要な親フォルダーを作り、既存のインストールを確認してから置き換えてください。ファイルを取得済みなら、npm、Git、Bashは不要です。
+
+プロジェクトの指示を読むエージェントでは、ほかのルールを残して[AGENTS.md](AGENTS.md)を統合します。Cursorでは対象プロジェクトから`bash "/path/to/asdify/scripts/install.sh" --agent cursor-rule --scope project`を使うか、[cursor-rule.mdc](integrations/cursor-rule.mdc)を`.cursor/rules/asdify.mdc`へコピーします。簡略版アダプターは、完全なスキルより情報が少なくなります。
+
+### Claude Codeプラグイン
+
+リポジトリにはプラグインとマーケットプレイスのマニフェストがあります。Claude Codeのセッション内で実行します。
+
+```text
+/plugin marketplace add hevertonrodrigues/asdify
+/plugin install asdify@asdify
+```
+
+管理画面で適用範囲を選びます。[ローカルのクローン](INSTALL.md#claude-code-plugin)も使えます。マニフェストは検証に合格していますが、実際のプラグインのインストールと有効化は未検証です。
+
+## 対応環境
+
+[完全な一覧](docs/HARNESSES.md)には、**79件のエージェント対応と3件の互換ID、合計82個のID**があり、保存先、適用範囲、情報源を示しています。Claude Code、Cursor、Codex、Gemini CLI、GitHub Copilot、OpenCode、Windsurf、Cline、Continueなどを含みます。
+
+WindowsではCLIか手動コピーを使ってください。スクリプトにはBash/POSIX環境が必要です。WSLでは、エージェントがファイルを読む環境にインストールします。自動検証はLinux/macOSを対象とし、Windowsでの実行は未検証です。リモートやクラウドのエージェントでは、チェックアウト内のプロジェクトスキルか、製品が定める配布方法を使います。`universal`はフォルダーの慣習であり、すべてのアプリでの検出を保証しません。
+
+インストール後は新しいセッションで`asdify fullを使ってください`と依頼します。Cursorでは**Customize → Skills**を確認できます。コピーの成功だけでは有効化を証明できません。[互換性の記録](docs/COMPATIBILITY.md)を参照してください。
+
+## 更新と削除
+
+| 方法 | 更新 | 削除 |
+| --- | --- | --- |
+| Skills CLI | `npx skills update asdify` | `npx skills remove asdify --agent <id>`。ユーザー単位なら`--global`を追加 |
+| ローカルインストーラー | 更新ファイルを取得して確認し、同じ対象と範囲で`--force`を付けて再実行 | 表示されたASDifyフォルダーかルールだけを削除 |
+| 手動コピー／指示 | ASDifyフォルダーか指示を確認して置き換える | そのフォルダーか指示だけを削除 |
+| Claude Codeプラグイン | 管理画面の更新操作を使う | `asdify@asdify`を無効化またはアンインストール |
+
+Skills CLIでユーザー単位のインストールを更新する際も`--global`を追加します。共有フォルダーの変更は、それを読むすべてのエージェントに影響します。置き換える前に独自の編集を保存してください。[管理コマンドとパス](INSTALL.md#removal-and-updates)を参照してください。
 
 ## ASDifyの編集方針
 
@@ -101,7 +164,15 @@ excluding refunds. These figures are unaudited.
 
 短くなっても、重要な事実が変われば評価に不合格となります。リポジトリには、9言語の書き直し・翻訳の回帰テスト用入力、人による評価基準、[再現可能な評価手順](benchmarks/README.md)があります。**実際のモデルで品質が向上するという比較結果は、まだ確立されていません。** [パッケージの検証](docs/VERIFICATION.md)と[互換性](docs/COMPATIBILITY.md)を参照してください。
 
-条件の欠落、数値の変更、根拠のない約束を見つけた場合は、原文、実際の出力、原文と翻訳先の言語を添えて[意味の変更を報告](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml)してください。このREADMEの誤訳には[文書翻訳の報告フォーム](https://github.com/hevertonrodrigues/asdify/issues/new?template=documentation_translation.yml)を使います。貢献の手順は[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+| 問題 | 相談先 |
+| --- | --- |
+| npmの確認、ID、パス、上書き、スキルの検出 | [トラブル対応](INSTALL.md#troubleshooting)・[インストール報告](https://github.com/hevertonrodrigues/asdify/issues/new?template=bug_report.md) |
+| 事実の欠落、義務の変更、言語の間違い、情報の捏造 | [意味の変更の報告](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml) |
+| READMEの誤訳や古い情報 | [文書翻訳の報告](https://github.com/hevertonrodrigues/asdify/issues/new?template=documentation_translation.yml) |
+| 言語、エージェント、例、動作の改善 | [機能の提案](https://github.com/hevertonrodrigues/asdify/issues/new?template=feature_request.md)・[貢献手順](CONTRIBUTING.md) |
+| 脆弱性や非公開の情報 | [セキュリティ方針と非公開の報告](SECURITY.md) |
+
+コマンドまたはプロンプト、実際の出力、OSとエージェントのバージョン、モード、適用範囲、必要に応じて原文と翻訳先の言語を記載します。個人情報や非公開情報は除いてください。すでに明確な文章は変更されないことがあります。[SUPPORT.md](SUPPORT.md)と[言語サポート](docs/LANGUAGES.md)を参照してください。アカウント、請求、エージェントのサービス障害は、その提供元に問い合わせてください。
 
 リンク先の補足ガイドは、PT-BRと明記した例を除き英語です。この翻訳について、日本語を母語とする人による独立したレビューはまだ記録されていません。
 

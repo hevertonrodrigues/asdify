@@ -9,6 +9,7 @@ Local multilingual update checks and the earlier v0.1.0 verification record, 8 O
 - Installer matrix: PASS across the same 160 supported installations and 4 rejected unsupported scopes, using temporary directories.
 - Installer Bash syntax, skill-creator frontmatter validation, and `git diff --check`: PASS.
 - Installation guidance: checked npm's CLI-download confirmation against [npm documentation](https://docs.npmjs.com/cli/v11/commands/npm-exec/#description), and native Cursor project/user paths against [Cursor documentation](https://cursor.com/docs/skills#skill-directories). The local Cursor path checks remain filesystem tests, not a Cursor activation session.
+- Expanded README/support guidance: all nine READMEs cover CLI, local/ZIP, manual-copy, persistent-instruction, Claude plugin, and manual-chat routes, with scope choices, environment limits, updates, removal, and reporting. All 50 Bash examples across the nine READMEs and installation guide pass `bash -n`; this syntax check did not execute their install commands.
 
 These checks ran on the local working tree. They do not establish that the changed revision has passed remote CI. The seven new READMEs and multilingual examples are translations and editorial examples, not recorded live-model results or independently reviewed native-speaker output. No live translation study was run. See [language coverage and support](LANGUAGES.md) for the locale registry and review limits.
 

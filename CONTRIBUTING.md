@@ -2,6 +2,8 @@
 
 Help people read and verify AI output more easily. A small example where simplification loses meaning is a useful first contribution.
 
+For installation, translation, documentation, feature, or private security help, start with [SUPPORT.md](SUPPORT.md).
+
 ## Report a meaning regression
 
 Open a [meaning-regression report](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml). Include:

@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Expanded all nine READMEs with installation choices, project/user scope, CLI confirmations, manual/ZIP installation, persistent instructions, Claude Code plugins, supported environment limits, updates, removal, and support routes.
+- Added a central support guide and extended installation guidance for Windows, WSL, remote/cloud environments, multiple agents, and the complete local/CLI option sets.
 - Clarified npm's optional Skills CLI download prompt across all READMEs and documented native Cursor installation without Node.js or npm, supported paths, discovery checks, and the two separate `--yes` options.
 - Added Spanish, French, German, Japanese, Simplified Chinese, Italian, and Russian READMEs, with navigation across all nine documented languages.
 - Added explicit target-language handling, translation preservation rules, and an installed translation reference; kept the compact agent and Cursor adapters aligned.

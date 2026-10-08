@@ -9,7 +9,7 @@
 
 [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [Italiano](README.it.md) · [Русский](README.ru.md)
 
-[Experimente](#experimente-sem-instalar) · [Instalação](#instale-no-seu-agente) · [Idiomas](docs/LANGUAGES.md) · [Receitas de uso](examples/recipes.md) · [Contribua](CONTRIBUTING.md)
+[Experimente](#experimente-sem-instalar) · [Instalação](#instale-no-seu-agente) · [Ambientes](#ambientes-compatíveis) · [Idiomas](docs/LANGUAGES.md) · [Suporte](SUPPORT.md) · [Receitas de uso](examples/recipes.md) · [Contribua](CONTRIBUTING.md)
 
 Dê ao seu agente de IA uma rotina de revisão: identificar o ponto principal, remover excessos e conferir se os detalhes importantes foram preservados. ASDify é uma Skill pequena e portátil em Markdown para respostas, traduções, atualizações, relatórios e documentação nos agentes de programação e editores compatíveis.
 
@@ -49,19 +49,37 @@ Compare o resultado com os detalhes mostrados acima. A redação pode variar; os
 
 ## Instale no seu agente
 
-O ASDify não depende de Node.js nem de npm. A Skills CLI opcional abaixo pode pedir confirmação para baixar seu pacote npm. Use o [instalador local](INSTALL.md#local-installer) para evitar esse download; veja também a [instalação da Skill nativa no Cursor sem npm](INSTALL.md#cursor-without-nodejs-or-npm).
+O ASDify é Markdown. Node.js e npm são necessários apenas se você escolher a Skills CLI opcional. Escolha um método que seu agente aceite:
 
-Use a [Skills CLI](https://github.com/vercel-labs/skills) para localizar o ASDify e instalar no seu agente:
+| Método | Quando usar | Requisitos |
+| --- | --- | --- |
+| Skills CLI | Localização, seleção de agentes e instalação gerenciada | Node.js/npm e rede para downloads |
+| Instalador local | Cópia verificada sem npm | Clone ou ZIP extraído, Bash e utilitários POSIX |
+| Cópia manual | Instalação sem script, inclusive no Windows | Pasta completa e caminho documentado pelo agente |
+| Instruções do projeto / regra do Cursor | O agente lê instruções persistentes | Arquivo de instruções ou diretório de regras |
+| Plugin do Claude Code | Você usa o gerenciador de plugins | Claude Code com suporte a plugins |
+| [Conversa manual](#experimente-sem-instalar) | Teste sem instalação | Interface que aceite instruções |
+
+### Skills CLI
+
+Localize a Skill e instale a partir do **projeto de destino**:
 
 ```bash
 npx skills add hevertonrodrigues/asdify --list
 npx skills add hevertonrodrigues/asdify --skill asdify --agent claude-code
 ```
 
-Troque `claude-code` pelo [ID do seu agente](docs/HARNESSES.md), como `codex`, `cursor`, `gemini-cli` ou `opencode`. Execute a partir do projeto de destino; acrescente `--global` para instalar no escopo do usuário, quando disponível. Veja [escopos, caminhos e remoção](INSTALL.md) no guia completo.
+Troque `claude-code` por um [ID da Skills CLI](docs/HARNESSES.md), como `codex`, `cursor`, `gemini-cli`, `github-copilot` ou `opencode`. `--global` escolhe o escopo do usuário; `--copy` usa cópias em vez de links simbólicos. Para vários agentes, use `--agent claude-code cursor codex`. Veja [todas as opções](INSTALL.md#scope-copies-and-multiple-agents).
 
-<details>
-<summary><strong>Prefere o instalador local?</strong></summary>
+`Ok to proceed? (y)` pede autorização para baixar a CLI no cache do npm. Digite `y` ou use `--yes` antes de `skills`. Um segundo `--yes`, no final, aceita as confirmações da Skills CLI. Exemplo para uma cópia de usuário no Cursor, com telemetria da CLI desativada:
+
+```bash
+DISABLE_TELEMETRY=1 npx --yes skills add hevertonrodrigues/asdify --skill asdify --agent cursor --global --copy --yes
+```
+
+Os downloads ainda ocorrem quando necessários. A CLI também aceita uma origem local: `npx skills add /path/to/asdify --skill asdify --agent cursor`.
+
+### Instalador local sem npm
 
 ```bash
 git clone https://github.com/hevertonrodrigues/asdify.git
@@ -70,13 +88,51 @@ bash scripts/install.sh --list
 bash scripts/install.sh --agent claude-code --scope user
 ```
 
-Escolha um ID de `--list`. O instalador copia a Skill completa e suas referências a partir do clone, sem downloads, e recusa sobrescrever arquivos existentes sem `--force`.
+Escolha um ID de `--list`. Você também pode usar **Code → Download ZIP** no GitHub, extrair e executar os comandos nessa pasta. Depois de obter os arquivos, o instalador não faz downloads nem coleta telemetria. Copia a Skill completa e suas referências; preserva instalações existentes sem `--force`. Revise antes de substituir e use `--help` para ver as opções.
 
-Para Skills nativas no Cursor, use o ID local `cursor-skill`; `cursor` preserva o adaptador anterior de regra compacta para projetos. A Skills CLI usa `cursor` para Skills nativas. [Veja as diferenças e os caminhos](INSTALL.md#cursor-native-skill-or-compact-rule).
+Para a Skill nativa no Cursor, execute a partir do projeto de destino, substituindo o caminho da origem:
 
-</details>
+```bash
+bash "/path/to/asdify/scripts/install.sh" --agent cursor-skill --scope project
+```
 
-A [tabela de agentes](docs/HARNESSES.md) cobre os destinos do registro desta versão. Testes de instalação e sessões reais são registrados separadamente em [compatibilidade](docs/COMPATIBILITY.md). Para outro agente, use o caminho de Skills documentado por ele ou o teste manual acima.
+Para seu usuário, execute `bash scripts/install.sh --agent cursor-skill --scope user` na pasta ASDify. O projeto recebe `.agents/skills/asdify/`; o usuário recebe `~/.cursor/skills/asdify/`. O ID local `cursor` instala a regra compacta; o ID `cursor` da Skills CLI instala a Skill nativa. [Compare formatos e caminhos](INSTALL.md#cursor-native-skill-or-compact-rule).
+
+### Cópia manual ou instruções do projeto
+
+Copie toda a pasta [skills/asdify/](skills/asdify/), incluindo `SKILL.md` e `references/`, para o [destino do agente](docs/HARNESSES.md). Crie as pastas necessárias e revise uma instalação existente antes de substituí-la. Com os arquivos disponíveis, não precisa de npm, Git nem Bash.
+
+Para instruções persistentes, mescle [AGENTS.md](AGENTS.md) no arquivo do projeto, preservando as demais regras. Para a regra compacta do Cursor, use `bash "/path/to/asdify/scripts/install.sh" --agent cursor-rule --scope project` no projeto de destino, ou copie [cursor-rule.mdc](integrations/cursor-rule.mdc) para `.cursor/rules/asdify.mdc`. Os adaptadores compactos têm menos detalhes que a Skill completa.
+
+### Plugin do Claude Code
+
+O repositório inclui os manifestos do plugin e do marketplace. Em uma sessão do Claude Code:
+
+```text
+/plugin marketplace add hevertonrodrigues/asdify
+/plugin install asdify@asdify
+```
+
+Escolha o escopo no gerenciador. É possível usar um [clone local](INSTALL.md#claude-code-plugin). Os manifestos passam na validação; uma instalação e ativação reais do plugin ainda não foram verificadas.
+
+## Ambientes compatíveis
+
+A [tabela completa](docs/HARNESSES.md) lista **82 IDs: 79 mapeamentos de agentes e 3 IDs de compatibilidade**, com escopos, caminhos e fontes. Inclui Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, OpenCode, Windsurf, Cline, Continue e outros.
+
+No Windows, use a Skills CLI ou a cópia manual. O script local requer Bash/POSIX; com WSL, instale no ambiente em que o agente lê Skills. A matriz automatizada cobre Linux/macOS; a execução no Windows não foi verificada. Para agentes remotos ou na nuvem, use Skills de projeto no checkout ou o mecanismo documentado pelo agente.
+
+Para outro agente, use seu caminho documentado ou a conversa manual. `universal` é uma convenção de pasta, não uma garantia de descoberta em qualquer aplicação. [Compatibilidade](docs/COMPATIBILITY.md) separa cópia, ativação e qualidade. Após instalar, abra uma sessão nova e peça `Use asdify full`; no Cursor, confira **Customize → Skills**.
+
+## Atualização e remoção
+
+| Método | Atualizar | Remover |
+| --- | --- | --- |
+| Skills CLI | `npx skills update asdify` | `npx skills remove asdify --agent <id>`; acrescente `--global` para instalação de usuário |
+| Instalador local | Obtenha a versão atualizada, revise e repita no mesmo agente/escopo com `--force` | Remova apenas a pasta ou regra ASDify indicada pelo instalador |
+| Cópia manual / instruções | Revise e substitua a pasta ou o texto ASDify | Remova apenas essa pasta ou essas instruções |
+| Plugin do Claude Code | Use a atualização do gerenciador | Desative ou desinstale `asdify@asdify` |
+
+Na Skills CLI, use `--global` também para atualizar instalações de usuário. Pastas compartilhadas afetam todos os agentes que as leem. Preserve suas alterações antes de substituir. Veja [comandos e caminhos](INSTALL.md#removal-and-updates).
 
 ## Como o ASDify revisa
 
@@ -119,6 +175,16 @@ Indique o idioma ou a variante de destino. O ASDify preserva significado, identi
 
 Uma resposta mais curta que altera um fato relevante falha na avaliação. O repositório inclui casos de regressão de revisão e tradução em nove idiomas, critérios de revisão humana e um [protocolo de avaliação reproduzível](benchmarks/README.md). **Ainda não demonstramos ganhos de qualidade em modelos reais.** Veja os registros separados de [verificação do pacote](docs/VERIFICATION.md) e [compatibilidade dos agentes](docs/COMPATIBILITY.md).
 
-Encontrou uma condição perdida, um número alterado ou uma promessa inventada? [Relate a mudança de significado](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml). Um pequeno exemplo anonimizado já é uma boa primeira contribuição. Veja os passos em [CONTRIBUTING.md](CONTRIBUTING.md).
+## Suporte e solução de problemas
+
+| Problema | Onde buscar ajuda |
+| --- | --- |
+| Confirmação do npm, ID, caminho, sobrescrita ou descoberta | [Diagnóstico](INSTALL.md#troubleshooting) · [Relato de instalação](https://github.com/hevertonrodrigues/asdify/issues/new?template=bug_report.md) |
+| Fatos perdidos, obrigação alterada, idioma errado ou conteúdo inventado | [Mudança de significado](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml) |
+| Tradução incorreta ou desatualizada do README | [Tradução da documentação](https://github.com/hevertonrodrigues/asdify/issues/new?template=documentation_translation.yml) |
+| Novo idioma, agente, exemplo ou melhoria | [Solicitação](https://github.com/hevertonrodrigues/asdify/issues/new?template=feature_request.md) · [Contribuição](CONTRIBUTING.md) |
+| Vulnerabilidade ou informações privadas | [Política de segurança e relato privado](SECURITY.md) |
+
+Inclua comando ou prompt, resultado real, versões de sistema/agente, modo, escopo e idiomas de origem/destino quando relevantes. Remova informações privadas. Textos já claros podem permanecer iguais. Veja [SUPPORT.md](SUPPORT.md) e [suporte de idiomas](docs/LANGUAGES.md), em inglês. Problemas de conta, cobrança e serviço do agente devem ser tratados com o respectivo fornecedor.
 
 [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md) · [Licença MIT](LICENSE)

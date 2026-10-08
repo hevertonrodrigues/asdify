@@ -4,6 +4,19 @@ ASDify is one portable Markdown skill. Choose the Skills CLI, the local installe
 
 ASDify itself does not require Node.js, npm, or the Skills CLI. The local installer copies the same complete skill without an npm package download.
 
+## Choose an installation route
+
+| Route | Dependencies | Installation behavior |
+| --- | --- | --- |
+| [Skills CLI](#skills-cli) | Node.js/npm; network for uncached CLI/repository downloads | Agent selection, project/user scope, symlinks or copies |
+| [Local installer](#local-installer) | Clone or extracted ZIP; Bash and POSIX utilities | Checked local copies; no downloads or telemetry |
+| [Manual copy](#manual-copy-and-windows) | Skill files and the host's documented directory | Full skill without a package manager or shell |
+| [Project instructions](#persistent-project-instructions) | A host that reads instruction files | Merge the compact rules or use Cursor's rule adapter |
+| [Claude Code plugin](#claude-code-plugin) | Claude Code with plugin support | Plugin-manager registration, scopes, updates, and removal |
+| [Manual chat](#chatgpt-claude-web-and-other-chat-interfaces) | A chat that accepts instructions | Paste instructions; no native installation |
+
+Use one instruction source per host unless you intend to apply several. Filesystem layouts, actual activation, and writing effectiveness have separate evidence in [COMPATIBILITY.md](docs/COMPATIBILITY.md).
+
 ## Cursor without Node.js or npm
 
 From an ASDify clone, install the native skill for your user account:
@@ -54,6 +67,34 @@ DISABLE_TELEMETRY=1 npx --yes skills add hevertonrodrigues/asdify --skill asdify
 
 This still downloads the CLI when needed. `--yes` after the skill command is a separate [Skills CLI option](https://github.com/vercel-labs/skills#options) that skips its own installation confirmations. `DISABLE_TELEMETRY=1` affects telemetry, not either confirmation.
 
+### Scope, copies, and multiple agents
+
+For an unattended user-wide Cursor installation using copies:
+
+```bash
+DISABLE_TELEMETRY=1 npx --yes skills add hevertonrodrigues/asdify --skill asdify --agent cursor --global --copy --yes
+```
+
+For multiple selected agents in the current project:
+
+```bash
+npx skills add hevertonrodrigues/asdify --skill asdify --agent claude-code cursor codex
+```
+
+The CLI also accepts a local source: `npx skills add /path/to/asdify --skill asdify --agent cursor`. A local source avoids downloading the repository, but `npx` may still need to fetch the CLI. Use the Bash installer or manual copy for installation entirely from files already on your machine.
+
+| Skills CLI option | Effect |
+| --- | --- |
+| `--list` | List repository skills without installing them into an agent |
+| `--skill asdify` | Select this skill |
+| `--agent <id>…` | Select one or more agent destinations |
+| `--global` | Use user scope instead of the default project scope |
+| `--copy` | Copy instead of creating symlinks |
+| `--yes` after the command | Accept the CLI's installation confirmations |
+| `--all` | Install all repository skills to all CLI agent targets; choose only if that is your intended scope |
+
+The external CLI also documents temporary use with `npx skills use hevertonrodrigues/asdify --skill asdify`: it prints a generated prompt without registering a permanent skill. That route still needs the CLI and source downloads when uncached; it has not been tested here. See the [upstream command reference](https://github.com/vercel-labs/skills#use-a-skill-without-installing) for supported interactive-agent options. Manual chat instructions remain the simplest trial without this CLI.
+
 ## Local installer
 
 Clone once, then list available IDs and scopes:
@@ -63,6 +104,8 @@ git clone https://github.com/hevertonrodrigues/asdify.git
 cd asdify
 bash scripts/install.sh --list
 ```
+
+Without Git, use **Code → Download ZIP** on the [repository](https://github.com/hevertonrodrigues/asdify), extract it, and open a terminal in the extracted ASDify folder. Both approaches provide the same `skills/asdify/` and installer files for that revision. Choose a [tagged release](https://github.com/hevertonrodrigues/asdify/releases) when you need a fixed version; use `main` for unreleased changes.
 
 Install for your user account, choosing an ID from that list:
 
@@ -83,6 +126,53 @@ The installer requires Bash and standard POSIX utilities. It copies the full `sk
 - `--scope user` uses the target's configured user directory. Unsupported scopes fail without installing.
 - Existing destinations are preserved unless you pass `--force`, which replaces that ASDify installation.
 - Some agents share the same skill directory. An existing ASDify copy in that directory can serve those agents; it does not need to be copied again for each ID.
+
+| Local installer option | Effect |
+| --- | --- |
+| `--list` | List all IDs and available scopes; use on its own |
+| `--agent <id>` | Select one registry destination |
+| `--scope project` / `--scope user` | Select the installation scope |
+| `--force` | Replace that ASDify installation after you review it |
+| `--help` / `-h` | Show usage and the Cursor alias distinction |
+
+Run the installer separately for distinct local targets. If several IDs share a destination, install once; the other hosts can read the same files if they support that layout. The registry lists destinations, not applications detected on your machine.
+
+## Manual copy and Windows
+
+1. Download a ZIP or clone the repository. Locate `skills/asdify/`.
+2. Choose a project or user destination from [HARNESSES.md](docs/HARNESSES.md), or the host's own documentation if it is not listed.
+3. Create the destination's parent directories and copy the **whole `asdify` folder**, preserving `SKILL.md` and every file under `references/`. Use your file manager or copy tool; do not copy only the entrypoint.
+4. Review an existing ASDify copy before replacing it. Start a fresh host session and check discovery, then run a [recipe](examples/recipes.md).
+
+For native Cursor, the resulting project file is `.agents/skills/asdify/SKILL.md` and the user file is `~/.cursor/skills/asdify/SKILL.md`. Keep the adjacent `references/` directory. `~` means the user's home; a Windows native application needs those files in its own Windows project/user directories.
+
+Windows users can choose manual copy or the Skills CLI. The Bash installer needs a Bash/POSIX environment; with WSL or a remote session, install where that agent reads its files. Installing into a WSL home does not demonstrate that a Windows-native application can see the skill. The project's automated installer matrix covers Linux/macOS; Windows execution is unverified.
+
+For cloud or remote hosts, follow their supported distribution mechanism or include project skills in the checkout. A local user installation alone does not make them available remotely.
+
+## Persistent project instructions
+
+If a host reads project instruction files instead of native skills, merge [AGENTS.md](AGENTS.md) into its existing instructions, preserving unrelated rules. Use the filename and scope documented by that host. This compact version includes the modes and preservation rules but fewer details than the canonical skill.
+
+For Cursor's compact rule, copy [integrations/cursor-rule.mdc](integrations/cursor-rule.mdc) to `.cursor/rules/asdify.mdc`, or use the `cursor-rule` installer ID. The rule is project-only and always applies under Cursor's rule mechanism; `asdify off` disables the optional style workflow, not the host's instruction-loading mechanism.
+
+## Claude Code plugin
+
+The repository already includes `.claude-plugin/plugin.json` and `.claude-plugin/marketplace.json`; both plugin and marketplace names are `asdify`. Inside an interactive Claude Code session:
+
+```text
+/plugin marketplace add hevertonrodrigues/asdify
+/plugin install asdify@asdify
+```
+
+For a local clone, replace the first command with `/plugin marketplace add /path/to/asdify`. Choose user, project, or local scope in the plugin manager. From a shell, the equivalent commands are:
+
+```bash
+claude plugin marketplace add hevertonrodrigues/asdify
+claude plugin install asdify@asdify --scope user
+```
+
+Start a new session and inspect `/plugin` or `claude plugin list`. Avoid duplicating a manually installed skill unless you intend to load both sources. The manifests pass local validation, but a real Claude plugin installation/activation has not been verified. See [Claude Code's official plugin instructions](https://code.claude.com/docs/en/discover-plugins) for supported versions and UI behavior.
 
 ## Cursor: native skill or compact rule
 
@@ -141,8 +231,11 @@ npx skills remove asdify --agent claude-code
 ```
 
 Add `--global` if you installed globally. The CLI also provides `npx skills update asdify`; see its [management commands](https://github.com/vercel-labs/skills#other-commands).
+Use `npx skills update asdify --global` for a user installation or `npx skills update asdify --project` for project scope where supported by your CLI version. `npx skills list --agent <id>` and `--global` let you inspect the corresponding installed scope before changing it.
 
 For a local installation, remove only the ASDify directory or rule printed by the installer and listed in the [harness table](docs/HARNESSES.md). Reinstall from an updated clone with `--force` after reviewing differences. Shared destinations affect every agent that reads that same copy.
+
+For a manual copy, obtain the updated revision, compare your local edits, and replace only the ASDify folder. For merged project instructions, update or remove just that text. For the Claude plugin, use its manager to update, disable, or uninstall `asdify@asdify` in the same scope. An extracted ZIP does not use `git pull`; download the updated archive instead.
 
 Earlier installations under the former project name are not removed automatically. Review and remove those old copies when switching to ASDify so both sets of instructions do not apply.
 
@@ -154,3 +247,7 @@ Earlier installations under the former project name are not removed automaticall
 - **Existing file blocked?** Review it before using `--force`; it may be the shared copy already used by another agent.
 - **No text changed?** Already-clear text may correctly stay unchanged.
 - **Facts changed or lost?** [Report a meaning regression](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml) with private information removed.
+- **Windows, WSL, remote, or cloud host?** Check which filesystem the host reads, not just where the installer ran. Use [manual-copy guidance](#manual-copy-and-windows) and the host's supported distribution method.
+- **Plugin installed but unavailable?** Check the plugin manager's status, scope, and errors; start a fresh session and include that evidence in an installation report.
+
+See [SUPPORT.md](SUPPORT.md) for reporting routes, language/documentation help, and the difference between package support and host-provider support.

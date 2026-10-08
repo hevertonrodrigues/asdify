@@ -9,7 +9,7 @@
 
 [English](README.md) · [Português (Brasil)](README.pt-BR.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [Italiano](README.it.md) · [Русский](README.ru.md)
 
-[Try it](#try-it-without-installing) · [Install](#install-for-your-agent) · [Languages](docs/LANGUAGES.md) · [Recipes](examples/recipes.md) · [Contribute](CONTRIBUTING.md)
+[Try it](#try-it-without-installing) · [Install](#install-for-your-agent) · [Supported environments](#supported-environments) · [Languages](docs/LANGUAGES.md) · [Support](#support-and-troubleshooting) · [Recipes](examples/recipes.md) · [Contribute](CONTRIBUTING.md)
 
 Give your AI agent a repeatable editing routine: find the point, remove filler, and check that the important details survive. ASDify is a small, portable Markdown skill for answers, translations, status updates, reports, and documentation across supported coding agents and editors.
 
@@ -49,19 +49,39 @@ Compare the result with the details shown above. Wording can vary; the facts and
 
 ## Install for your agent
 
-ASDify itself needs no Node.js or npm. The optional Skills CLI below may prompt to download its npm package. Use the [local installer](INSTALL.md#local-installer) to avoid that download; [Cursor instructions without npm](INSTALL.md#cursor-without-nodejs-or-npm) cover the complete native skill.
+ASDify is Markdown. Node.js and npm are needed only if you choose the optional Skills CLI. Choose the route your host supports:
 
-Use the [Skills CLI](https://github.com/vercel-labs/skills) to discover ASDify and install it for your agent:
+| Route | Use it when | What you need |
+| --- | --- | --- |
+| [Skills CLI](#skills-cli) | You want discovery, agent selection, and managed installation | Node.js/npm and network access for downloads |
+| [Local installer](#local-installer-without-npm) | You want checked file copying without npm | An ASDify clone or extracted ZIP, Bash, and POSIX utilities |
+| [Manual copy](#manual-copy-or-project-instructions) | You want no installer, including on Windows | The complete skill folder and your host's documented path |
+| [Project instructions / Cursor rule](#manual-copy-or-project-instructions) | Your host uses persistent instructions | Its instruction file or Cursor's project rule directory |
+| [Claude Code plugin](#claude-code-plugin) | You use Claude Code's plugin manager | Claude Code with plugin support |
+| [Manual chat](#try-it-without-installing) | You want to try the instructions without installing | A chat interface that accepts instructions |
+
+### Skills CLI
+
+Discover the skill, then install from your **target project**:
 
 ```bash
 npx skills add hevertonrodrigues/asdify --list
 npx skills add hevertonrodrigues/asdify --skill asdify --agent claude-code
 ```
 
-Replace `claude-code` with your [supported agent ID](docs/HARNESSES.md), such as `codex`, `cursor`, `gemini-cli`, or `opencode`. Run from your target project; add `--global` for user-wide installation where supported. See the [full installation guide](INSTALL.md) for scopes, paths, and removal.
+Replace `claude-code` with a [Skills CLI agent ID](docs/HARNESSES.md), such as `codex`, `cursor`, `gemini-cli`, `github-copilot`, or `opencode`. Add `--global` for user scope; add `--copy` if you want independent copies instead of symlinks. You can target multiple agents with `--agent claude-code cursor codex`. See the [upstream options](https://github.com/vercel-labs/skills#options) and [full installation guide](INSTALL.md).
 
-<details>
-<summary><strong>Prefer the local installer?</strong></summary>
+`Ok to proceed? (y)` asks permission to download the optional CLI into npm's cache. Enter `y`, or put `--yes` before `skills` to accept that download. A second `--yes` at the end accepts the Skills CLI's installation confirmations. [npm explains the first prompt](https://docs.npmjs.com/cli/v11/commands/npm-exec/#description).
+
+For a user-wide Cursor copy with both confirmations accepted and CLI telemetry disabled:
+
+```bash
+DISABLE_TELEMETRY=1 npx --yes skills add hevertonrodrigues/asdify --skill asdify --agent cursor --global --copy --yes
+```
+
+This still downloads the CLI and repository when needed. For the local files you already have, the CLI also accepts `npx skills add /path/to/asdify --skill asdify --agent cursor`.
+
+### Local installer without npm
 
 ```bash
 git clone https://github.com/hevertonrodrigues/asdify.git
@@ -70,13 +90,53 @@ bash scripts/install.sh --list
 bash scripts/install.sh --agent claude-code --scope user
 ```
 
-Choose an ID from `--list`. This installer copies the complete skill and its references from the clone, without downloading anything, and refuses to overwrite existing files unless you pass `--force`.
+You can use GitHub's **Code → Download ZIP** instead of cloning; extract it and run the same installer commands from that folder. After obtaining the files, the installer performs no downloads or telemetry. It copies the complete skill and references and preserves existing installations unless you pass `--force` after review. Use `--help` for all local options.
 
-For native Cursor skills, its local ID is `cursor-skill`; `cursor` preserves the earlier compact project-rule adapter. The Skills CLI uses `cursor` for native skills. [See the distinction and paths](INSTALL.md#cursor-native-skill-or-compact-rule).
+For native Cursor, use `cursor-skill` locally. Run the project command from your target project, replacing the source path:
 
-</details>
+```bash
+bash "/path/to/asdify/scripts/install.sh" --agent cursor-skill --scope project
+```
 
-The [harness table](docs/HARNESSES.md) covers the supported registry snapshot. Installation layout checks and actual host sessions are tracked separately in [compatibility](docs/COMPATIBILITY.md). For a host outside the table, use its documented skill path or the manual chat trial above.
+For your user account, run `bash scripts/install.sh --agent cursor-skill --scope user` from the ASDify folder. Project files go to `.agents/skills/asdify/`; user files go to `~/.cursor/skills/asdify/`. The local ID `cursor` installs the compact rule; the Skills CLI ID `cursor` installs the native skill. [Compare formats and paths](INSTALL.md#cursor-native-skill-or-compact-rule).
+
+### Manual copy or project instructions
+
+Copy the entire [skills/asdify/](skills/asdify/) folder, including `SKILL.md` and `references/`, into your host's [documented destination](docs/HARNESSES.md). Create parent directories as needed. If ASDify already exists, review it before replacing it. This works without npm, Git, or Bash once you have the files.
+
+If your host uses project instructions, merge [AGENTS.md](AGENTS.md) into its existing instruction file, preserving unrelated rules. For Cursor's compact persistent rule, use `bash "/path/to/asdify/scripts/install.sh" --agent cursor-rule --scope project` from the target project, or copy [cursor-rule.mdc](integrations/cursor-rule.mdc) to `.cursor/rules/asdify.mdc`. The compact adapters contain fewer details than the full skill.
+
+### Claude Code plugin
+
+The repository includes plugin and marketplace manifests. In a Claude Code session:
+
+```text
+/plugin marketplace add hevertonrodrigues/asdify
+/plugin install asdify@asdify
+```
+
+Choose the scope in the plugin manager. You can also add the marketplace from a [local clone](INSTALL.md#claude-code-plugin). The metadata passes repository validation; an actual plugin installation/activation session has not been verified. Follow [Claude Code's plugin guide](https://code.claude.com/docs/en/discover-plugins).
+
+## Supported environments
+
+The [complete harness table](docs/HARNESSES.md) lists **82 installer IDs: 79 upstream agent mappings and 3 compatibility IDs**. It covers coding CLIs and editors such as Claude Code, Cursor, Codex, Gemini CLI, GitHub Copilot, OpenCode, Windsurf, Cline, Continue, and others. Each entry lists local/CLI IDs, project/user destinations, scope limits, and sources.
+
+On Windows, use the Skills CLI or copy the folder manually. The local script needs Bash and POSIX utilities; if using WSL, install into the environment where your agent reads skills. Automated installer coverage is for Linux/macOS; Windows execution has not been verified. For remote or cloud agents, put project skills in the checkout and follow the host's instructions; local user settings are not proof of remote availability.
+
+For a host outside the table, use its documented skill directory or the manual chat route. `universal` is a shared folder convention. It does not make every application discover skills. [Compatibility](docs/COMPATIBILITY.md) tracks file copying, host activation, and model quality separately.
+
+After installation, start a fresh host session and request `Use asdify full`. In Cursor, inspect **Customize → Skills**; in Claude Code, use the skill or plugin listing available in your version. A successful copy alone does not prove activation.
+
+## Updates and removal
+
+| Installed with | Update | Remove |
+| --- | --- | --- |
+| Skills CLI | `npx skills update asdify` | `npx skills remove asdify --agent <id>`; add `--global` for a user installation |
+| Local installer | Obtain the updated files, review changes, rerun for the same agent/scope with `--force` | Remove only the ASDify directory or rule shown by the installer |
+| Manual copy / instructions | Review and replace the ASDify folder or merged text | Remove only that folder or the ASDify instructions |
+| Claude Code plugin | Use the plugin manager's update action | Disable or uninstall `asdify@asdify` in the plugin manager |
+
+For a Skills CLI user installation, add `--global` when updating as well as removing. Shared skill directories affect every host that reads them. Keep your own edits before replacing a copy. See [management commands and paths](INSTALL.md#removal-and-updates).
 
 ## How ASDify edits
 
@@ -119,6 +179,16 @@ Name the target language or locale. ASDify preserves meaning, identifiers, place
 
 A shorter answer that changes a material fact fails the evaluation. The repository includes rewrite and translation regression cases across nine languages, a human review rubric, and a [reproducible evaluation protocol](benchmarks/README.md). **Live-model quality gains have not yet been established.** See [package verification](docs/VERIFICATION.md) and [host compatibility](docs/COMPATIBILITY.md) for their separate checks.
 
-Found a lost condition, changed number, or invented promise? [Report a meaning regression](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml). A small anonymized example makes a useful first contribution. See [CONTRIBUTING.md](CONTRIBUTING.md) for the steps.
+## Support and troubleshooting
+
+| Need help with | Start here |
+| --- | --- |
+| npm confirmation, wrong agent ID, paths, overwrite refusal, or discovery | [Installation troubleshooting](INSTALL.md#troubleshooting) · [Installation report](https://github.com/hevertonrodrigues/asdify/issues/new?template=bug_report.md) |
+| Lost facts, changed obligations, wrong language, or invented claims | [Meaning-regression report](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml) |
+| Incorrect or outdated translated documentation | [Documentation-translation report](https://github.com/hevertonrodrigues/asdify/issues/new?template=documentation_translation.yml) |
+| Another language, host, example, or behavior improvement | [Feature request](https://github.com/hevertonrodrigues/asdify/issues/new?template=feature_request.md) · [Contribution steps](CONTRIBUTING.md) |
+| Security or private vulnerability information | [Security policy and private reporting](SECURITY.md) |
+
+Include the exact command or prompt, actual output, OS/host versions, mode, installation scope, and source/target languages where relevant. Remove private information. Already-clear text may stay unchanged. [Support guidance](SUPPORT.md) explains what to check and which evidence to include; [language support](docs/LANGUAGES.md) describes review limits. Use ASDify's issue forms for package problems; account, billing, and host-service problems belong with that provider.
 
 [Roadmap](docs/ROADMAP.md) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
