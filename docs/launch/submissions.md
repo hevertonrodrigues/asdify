@@ -2,9 +2,9 @@
 
 Status recorded **8 October 2026**. The [release](https://github.com/hevertonrodrigues/asdify/releases/tag/v0.1.0) is public; this page separates completed outreach from prepared or unverified work. See the [launch record](../LAUNCH.md) for publication and CI evidence.
 
-## Changelog: receipt pending verification
+## Changelog: submitted
 
-Account setup is complete. These fields were entered at [Submit news](https://changelog.com/news/submit), but a browser-extension popup interrupted the submit action. **Receipt remains unverified. Check the current page before retrying to avoid a duplicate.** Changelog accepts creators' own open-source work; editorial selection is discretionary. This is an editorial submission, not a paid sponsorship.
+The story below was sent through [Submit news](https://changelog.com/news/submit) on 8 October 2026. **The site confirmed receipt: “We received your submission!”** This establishes submission, not editorial acceptance or publication. Changelog accepts creators' own open-source work; selection is discretionary. This is an editorial submission, not a paid sponsorship.
 
 **URL**
 

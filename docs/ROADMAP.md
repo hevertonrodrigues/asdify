@@ -36,7 +36,8 @@ Make the skill useful enough that people keep using it and contribute the cases 
 - [x] Publish a [real Codex demonstration](demos/codex-full-2026-10-08.md) with command, output, host version, and date; disclose that the model identifier was not emitted.
 - [ ] Add a Portuguese demonstration and further checks with exact model identifiers where available.
 - [x] Add relevant GitHub topics and submit [one curated-list PR](https://github.com/heilcheng/awesome-agent-skills/pull/560), awaiting maintainer review.
-- [ ] Verify marketplace indexing and complete remaining editorial submissions. See [launch status](LAUNCH.md).
+- [x] Send editorial submissions to Changelog News and Console.dev; await selection.
+- [ ] Verify marketplace indexing. See [launch status](LAUNCH.md).
 - [ ] Consider a small static example gallery only after the README and install paths work for new users.
 
 **Done when:** outside users submit useful counterexamples and evidence of repeat use. Review these signals monthly alongside issue response time and release reliability.

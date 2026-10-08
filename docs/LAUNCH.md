@@ -13,13 +13,14 @@
 | Reproducible example | [One Codex CLI smoke check](demos/codex-full-2026-10-08.md) read the installed skill and retained seven material details after an explicit `full`-mode request. |
 | Private reports | GitHub private vulnerability reporting enabled; [security policy](../SECURITY.md) updated. |
 | Console.dev | Editorial pitch sent; selection has not been confirmed. |
+| Changelog News | Story submitted; the site confirmed receipt. Editorial selection remains pending. |
 | Curated skill list | [PR #560](https://github.com/heilcheng/awesome-agent-skills/pull/560) is open: one line in one file, awaiting maintainer review. |
 
 The curated-list contribution uses [the project owner's fork](https://github.com/hevertonrodrigues/awesome-agent-skills) and has no merge conflicts at this check. Its Vercel check requires upstream team authorization to deploy. Separately, the local website build was blocked by Google Geist font downloads. Neither check is recorded as passing.
 
 ## Remaining distribution work
 
-- **Changelog:** account setup is complete and the story is prepared. A browser-extension popup interrupted the submit action; receipt is not yet verified. See [submission text and channel notes](launch/submissions.md).
+- **Editorial follow-up:** await Changelog and Console.dev decisions. See the [submitted text and channel notes](launch/submissions.md).
 - **SkillsMP:** the `claude-skills` prerequisite topic is present. Indexing remains unverified.
 - **skills.sh:** local discovery found one `asdify` skill. Remote discovery was blocked by child Git DNS resolution; installation through the external CLI and indexing remain unverified.
 - **Community discussion:** a human author can share a relevant firsthand account where permitted. Follow current posting rules; no Hacker News or r/Codex post has been submitted through this launch work.
