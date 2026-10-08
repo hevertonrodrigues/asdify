@@ -1,0 +1,71 @@
+name: Meaning changed
+description: Report a rewrite that loses or changes a fact, qualification, or obligation.
+title: "[Meaning] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One small reproducible example helps. Remove private information and secrets before posting. Report actual output; if you constructed an example, label it illustrative.
+  - type: textarea
+    id: task
+    attributes:
+      label: Task and reader
+      description: What did you ask the agent to do, and who was the output for?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Original input
+      description: Include the complete prompt and source passage needed to reproduce the problem.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Actual output
+      description: Paste the output that changed the meaning. Say if this is an illustrative example instead of an observed result.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: meaning
+    attributes:
+      label: Meaning that must survive
+      description: Quote the affected fragments and explain the changed fact, condition, obligation, uncertainty, or relationship. An expected rewrite is optional.
+      placeholder: The source recommends waiting; the output makes waiting mandatory.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Requested mode
+      options:
+        - full
+        - lite
+        - ultra
+        - "off"
+        - Not specified
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Host, model, and version
+      description: Include what you know. Unknown values are fine.
+      value: |
+        Host and version:
+        Model identifier:
+        Skill version or commit:
+        Run date:
+        Installation method:
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction details (optional)
+      description: Did it happen more than once? Note other instructions or settings that may affect the result, without sharing private content.
