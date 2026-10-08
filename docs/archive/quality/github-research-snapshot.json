@@ -1,0 +1,102 @@
+{
+  "checked_at_utc": "2026-10-08T17:59:52Z",
+  "method": "Public GitHub REST repository metadata, fetched with curl during this review. Counts are a snapshot; sample selected for popularity and relevance, not a global ranking. README behavior was reviewed separately.",
+  "repositories": [
+    {
+      "requested": "freeCodeCamp/freeCodeCamp",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "stargazers_count": 456725,
+      "forks_count": 48445,
+      "pushed_at": "2026-10-08T17:55:19Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "requested": "nilbuild/developer-roadmap",
+      "full_name": "nilbuild/developer-roadmap",
+      "html_url": "https://github.com/nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "stargazers_count": 368971,
+      "forks_count": 45046,
+      "pushed_at": "2026-10-08T09:55:39Z",
+      "default_branch": "master",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/nilbuild/developer-roadmap"
+    },
+    {
+      "requested": "sindresorhus/awesome",
+      "full_name": "sindresorhus/awesome",
+      "html_url": "https://github.com/sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
+      "stargazers_count": 516251,
+      "forks_count": 37342,
+      "pushed_at": "2026-09-02T02:10:47Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/sindresorhus/awesome"
+    },
+    {
+      "requested": "anthropics/skills",
+      "full_name": "anthropics/skills",
+      "html_url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stargazers_count": 179976,
+      "forks_count": 21312,
+      "pushed_at": "2026-10-05T13:46:45Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/anthropics/skills"
+    },
+    {
+      "requested": "openai/skills",
+      "full_name": "openai/skills",
+      "html_url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "stargazers_count": 27941,
+      "forks_count": 1906,
+      "pushed_at": "2026-09-08T20:35:26Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/openai/skills"
+    },
+    {
+      "requested": "obra/superpowers",
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stargazers_count": 296498,
+      "forks_count": 26479,
+      "pushed_at": "2026-10-08T04:15:27Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/obra/superpowers"
+    },
+    {
+      "requested": "f/prompts.chat",
+      "full_name": "f/prompts.chat",
+      "html_url": "https://github.com/f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "stargazers_count": 172164,
+      "forks_count": 22057,
+      "pushed_at": "2026-10-03T08:12:28Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/f/prompts.chat"
+    },
+    {
+      "requested": "DietrichGebert/ponytail",
+      "full_name": "DietrichGebert/ponytail",
+      "html_url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stargazers_count": 158208,
+      "forks_count": 8506,
+      "pushed_at": "2026-10-08T16:19:55Z",
+      "default_branch": "main",
+      "archived": false,
+      "metadata_url": "https://api.github.com/repos/DietrichGebert/ponytail"
+    }
+  ]
+}

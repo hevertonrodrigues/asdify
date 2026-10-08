@@ -1,0 +1,54 @@
+{
+  "bundle_name": "ASDify source repository and project context",
+  "bundle_date": "2026-10-08",
+  "repo_status": "ready_to_publish",
+  "original_repo_archive": "docs/archive/original-release/asdify-original-v0.1.zip",
+  "extracted_repo": ".",
+  "history_type": "verbatim user messages plus annotated assistant response history; not official export",
+  "benchmark_status": "not performed on real models",
+  "checks": [
+    {
+      "name": "Repository structural validation",
+      "command": [
+        "python3",
+        "scripts/validate.py"
+      ],
+      "return_code": 0,
+      "passed": true
+    },
+    {
+      "name": "Unit tests (discovery)",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "return_code": 0,
+      "passed": true
+    }
+  ],
+  "latest_review": {
+    "date": "2026-10-08",
+    "report": "docs/archive/strategy/GITHUB_REPOSITORY_REVIEW.md",
+    "research_snapshot": "docs/archive/quality/github-research-snapshot.json",
+    "verification_report": "docs/VERIFICATION.md",
+    "local_test_count": 36,
+    "fixture_count": 16,
+    "local_platform": "Darwin 27.0.0",
+    "local_python": "3.14.6",
+    "live_host_verification": false,
+    "live_model_evaluation": false,
+    "published": false,
+    "svg_count": 6,
+    "native_svg_previews_reviewed": true,
+    "github_browser_rendering_verified": false
+  },
+  "repository_url": "https://github.com/hevertonrodrigues/asdify",
+  "skill_name": "asdify",
+  "display_name": "ASDify",
+  "snapshot_note": "Local source snapshot. Paths are relative to the repository root; this is not live GitHub status."
+}
