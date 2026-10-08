@@ -1,0 +1,25 @@
+name: Validate ASDify
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.12', '3.13']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Check installer syntax
+        run: bash -n scripts/install.sh
+      - name: Validate skill and fixtures
+        run: python3 scripts/validate.py
+      - name: Test safe installer and scoring
+        run: python3 -m unittest discover -s tests -v
