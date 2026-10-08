@@ -1,34 +1,51 @@
 # Compatibility and verification
 
-The repository supplies a portable skill and a compact Cursor rule. A successful file copy confirms installation layout; it does not confirm that a host loads or follows the instructions.
+ASDify's canonical skill is portable Markdown. Its local registry covers **79 upstream agent mappings plus 3 compatibility IDs**. That is installation coverage for a recorded snapshot, not a claim that every host or model has been tested.
 
-## Evidence as of 8 October 2026
+## Registry snapshot
 
-| Integration | Package checks | Actual host session |
+Checked **8 October 2026** against Vercel's [agent registry at commit `05bf93879366fa21c5a4df7482a96adf13beabd2`](https://github.com/vercel-labs/skills/blob/05bf93879366fa21c5a4df7482a96adf13beabd2/src/agents.ts). The complete paths, scope restrictions, and local-versus-CLI IDs are in [HARNESSES.md](HARNESSES.md), derived from [integrations/agents.tsv](../integrations/agents.tsv).
+
+This includes coding CLIs and editor integrations. The generic `universal` entry supplies a conventional directory; it cannot make an arbitrary proprietary host read skills.
+
+## What each check establishes
+
+| Layer | Coverage | Evidence and limits |
 | --- | --- | --- |
-| Claude Code skill | Local installer tests; canonical skill and references copied | Not verified; record client/model versions before claiming support |
-| Codex skill | Local installer tests; canonical skill and references copied | Not verified; record client/model versions before claiming support |
-| Cursor project rule | Local installer test; compact adapter copied | Not verified; test rule loading and interaction with other project rules |
-| Claude plugin / marketplace | Local JSON and relative-path validation | Not verified; plugin discovery and activation still need a real host check |
-| Other Agent Skills hosts | Portable folder follows the documented format | No host-specific verification recorded |
+| Local installer | 82 IDs: 79 upstream mappings and 3 compatibility IDs | Automated checks passed for 160 supported ID/scope installations and rejected 4 unsupported scopes. Includes destinations, full skill/reference copying, path overrides, and overwrite behavior. Copying is not a host session. |
+| Skills CLI | Local repository discovery with version 1.7.1 on Node 26.7.0 | `add <local repository> --list` found exactly one skill, `asdify`. Remote discovery was blocked by child Git DNS resolution; installation and skills.sh indexing are unverified. |
+| Actual host activation | Codex CLI 0.161.0, explicit ASDify request in `full` mode | One recorded smoke check below. Other hosts, implicit activation, other modes, and reference loading remain unverified. |
+| Cursor compact rule | Earlier `.cursor/rules/asdify.mdc` adapter | Separate from Cursor's native skill; no real Cursor session recorded. |
+| Claude plugin / marketplace | Local metadata and relative-path validation | No plugin discovery or activation session recorded. |
+| ChatGPT / Claude web / other chat interfaces | Manual paste of the instructions and optional references | No native CLI installation or automatic discovery implied; application behavior has not been tested here. |
+| Writing effectiveness | English and Brazilian Portuguese cases and evaluation method | The smoke check is one example. Broad quality gains require the [comparative evaluation](../benchmarks/README.md). |
 
-Automated checks use temporary projects. User-scope installations, discovery, activation, mode changes, and actual response quality need separate evidence. The CI workflow is configured for Linux/macOS with Python 3.12/3.13; a workflow definition alone is not a passing CI run.
+Unknown or newly added hosts should use their documented skill format or the manual instructions until a mapping is reviewed. Upstream registry changes do not automatically update this repository's snapshot.
 
-The current fixture set covers English and Brazilian Portuguese. Applying the principles to other languages is a design intention, not validated language coverage.
+## Recorded host check
 
-## Record a host check
+| Date | Environment | Host | Model | Scope and activation | Result |
+| --- | --- | --- | --- | --- | --- |
+| 2026-10-08 | Isolated temporary project on `macOS-27.0.1-arm64` | Codex CLI 0.161.0 | CLI default; model ID not emitted | Project `.agents/skills/asdify/`; explicit request for `full` mode | Read the installed `SKILL.md` and produced a rewrite retaining all seven details in the supplied revenue example. |
 
-Add a dated row below after a real test, including a link to anonymized evidence:
+See the [command, output, and limits](demos/codex-full-2026-10-08.md). The observed output was:
 
-| Date | OS | Host + version | Model + version | Install path / scope | Activation and mode check | Evidence |
-| --- | --- | --- | --- | --- | --- | --- |
-| — | — | No completed host checks | — | — | — | — |
+> Preliminary subscription revenue in Brazil grew 12% year over year, excluding refunds. These figures have not yet been audited.
 
-1. Install using [INSTALL.md](../INSTALL.md) in an isolated project.
-2. Confirm the host discovers the skill or rule and loads its references.
-3. Run a complete [recipe](../examples/recipes.md), then check each invariant in the source against the output.
-4. Try `lite`, `full`, `ultra`, and `off`. Record what the host actually does; these modes are instructions, not guaranteed native commands.
-5. Check overwrite refusal and removal of only the installed project files.
-6. Record failures as well as successes. Keep installation evidence separate from [model evaluation](../benchmarks/README.md).
+This check did not establish automatic activation, `lite`/`ultra`/`off` behavior, reference loading, or improvement over a baseline. It does not transfer host-test status to other registry entries.
 
-Host behavior changes. Recheck the relevant official host documentation and current client version before advertising a new installation method.
+## Recorded Skills CLI discovery
+
+On 8 October 2026, Skills CLI **1.7.1** on Node **26.7.0** discovered exactly one skill, `asdify`, with `add <local repository> --list`. This checks the repository's skill layout without installing it.
+
+The public-source command, `add hevertonrodrigues/asdify --list`, could not complete because its child Git process could not resolve `github.com` in the sandbox. That is an environment failure, not evidence of package incompatibility. No installation through the external CLI or skills.sh indexing was verified. See the [official CLI documentation](https://www.skills.sh/docs/cli) for the separate discovery and installation commands.
+
+## Add a host check
+
+1. Install using [INSTALL.md](../INSTALL.md) in an isolated project; record installer or CLI version, scope, destination, OS, and host version.
+2. Confirm whether the host reads `SKILL.md` and its references. Distinguish an explicit request from automatic discovery.
+3. Run a complete [recipe](../examples/recipes.md), recording the exact model identifier where available and the raw output.
+4. Check every material invariant, plus any modes you actually test. Record failures and untested behavior.
+5. Add dated evidence and update only the claims that evidence supports.
+
+Local package checks, remote CI, host activation, and model quality are separate results. Refer to the [verification report](VERIFICATION.md) for the recorded package/CI status; a configured workflow alone is not a completed run.

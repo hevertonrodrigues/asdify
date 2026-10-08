@@ -1,11 +1,11 @@
 {
   "bundle_name": "ASDify source repository and project context",
   "bundle_date": "2026-10-08",
-  "repo_status": "ready_to_publish",
+  "repo_status": "public_repository",
   "original_repo_archive": "docs/archive/original-release/asdify-original-v0.1.zip",
   "extracted_repo": ".",
   "history_type": "verbatim user messages plus annotated assistant response history; not official export",
-  "benchmark_status": "not performed on real models",
+  "benchmark_status": "comparative evaluation not performed; one explicit Codex smoke check recorded",
   "checks": [
     {
       "name": "Repository structural validation",
@@ -36,16 +36,55 @@
     "report": "docs/archive/strategy/GITHUB_REPOSITORY_REVIEW.md",
     "research_snapshot": "docs/archive/quality/github-research-snapshot.json",
     "verification_report": "docs/VERIFICATION.md",
-    "local_test_count": 36,
+    "local_test_count": 51,
     "fixture_count": 16,
     "local_platform": "Darwin 27.0.0",
     "local_python": "3.14.6",
-    "live_host_verification": false,
+    "live_host_verification": {
+      "status": "one_explicit_smoke_check",
+      "host": "Codex CLI",
+      "host_version": "0.161.0",
+      "platform": "macOS-27.0.1-arm64",
+      "mode": "full",
+      "activation": "explicit request",
+      "model_id": null,
+      "installed_skill_read": true,
+      "material_details_retained": 7,
+      "automatic_activation_verified": false,
+      "other_modes_verified": false,
+      "reference_loading_verified": false,
+      "broad_quality_gains_verified": false,
+      "evidence": "docs/demos/codex-full-2026-10-08.md"
+    },
     "live_model_evaluation": false,
-    "published": false,
+    "published": true,
     "svg_count": 6,
     "native_svg_previews_reviewed": true,
-    "github_browser_rendering_verified": false
+    "github_browser_rendering_verified": false,
+    "published_scope": "Public repository confirmed; consult branch history for the current contents.",
+    "remote_ci": {
+      "earlier_main_success_observed_in_browser": true,
+      "current_changes_verified": false
+    },
+    "installer_coverage": {
+      "upstream_agent_mappings": 79,
+      "compatibility_ids": 3,
+      "accepted_ids": 82,
+      "successful_id_scope_installations": 160,
+      "rejected_unsupported_scopes": 4,
+      "upstream_registry_commit": "05bf93879366fa21c5a4df7482a96adf13beabd2"
+    },
+    "skills_cli_discovery": {
+      "version": "1.7.1",
+      "node_version": "26.7.0",
+      "local_repository_list_passed": true,
+      "discovered_skills": [
+        "asdify"
+      ],
+      "remote_repository_list_status": "blocked by child Git DNS resolution in sandbox",
+      "external_cli_installation_verified": false,
+      "skills_sh_indexing_verified": false
+    }
   },
   "repository_url": "https://github.com/hevertonrodrigues/asdify",
   "skill_name": "asdify",
