@@ -8,7 +8,7 @@
 
 [English](README.md) · [Experimente](#experimente-sem-instalar) · [Instalação](#instale-no-seu-agente) · [Receitas de uso](examples/recipes.md) · [Contribua](CONTRIBUTING.md)
 
-Dê ao seu agente de IA uma rotina de revisão: identificar o ponto principal, remover excessos e conferir se os detalhes importantes foram preservados. ASDify é uma Skill pequena e legível para respostas, atualizações, relatórios e documentação.
+Dê ao seu agente de IA uma rotina de revisão: identificar o ponto principal, remover excessos e conferir se os detalhes importantes foram preservados. ASDify é uma Skill pequena e portátil em Markdown para respostas, atualizações, relatórios e documentação nos agentes de programação e editores compatíveis.
 
 ## Veja a diferença
 
@@ -28,7 +28,7 @@ excluindo reembolsos. Os números ainda não foram auditados.
 
 ## Experimente sem instalar
 
-1. Abra [SKILL.md](skills/asdify/SKILL.md), copie seu conteúdo e cole em uma conversa como instruções.
+1. Abra [SKILL.md](skills/asdify/SKILL.md), copie seu conteúdo e cole como instruções em uma conversa, por exemplo no ChatGPT ou Claude web.
 2. Envie este prompt:
 
 ```text
@@ -44,52 +44,32 @@ Compare o resultado com os detalhes mostrados acima. A redação pode variar; os
 
 ## Instale no seu agente
 
-Clone o projeto uma vez e escolha seu agente abaixo:
+Use a [Skills CLI](https://github.com/vercel-labs/skills) para localizar o ASDify e instalar no seu agente:
+
+```bash
+npx skills add hevertonrodrigues/asdify --list
+npx skills add hevertonrodrigues/asdify --skill asdify --agent claude-code
+```
+
+Troque `claude-code` pelo [ID do seu agente](docs/HARNESSES.md), como `codex`, `cursor`, `gemini-cli` ou `opencode`. Execute a partir do projeto de destino; acrescente `--global` para instalar no escopo do usuário, quando disponível. Veja [escopos, caminhos e remoção](INSTALL.md) no guia completo.
+
+<details>
+<summary><strong>Prefere o instalador local?</strong></summary>
 
 ```bash
 git clone https://github.com/hevertonrodrigues/asdify.git
 cd asdify
+bash scripts/install.sh --list
+bash scripts/install.sh --agent claude-code --scope user
 ```
 
-<details>
-<summary><strong>Claude Code</strong></summary>
+Escolha um ID de `--list`. O instalador copia a Skill completa e suas referências a partir do clone, sem downloads, e recusa sobrescrever arquivos existentes sem `--force`.
 
-```bash
-bash scripts/install.sh --agent claude --scope user
-```
-
-Copia a Skill e suas referências para `~/.claude/skills/asdify/`.
+Para Skills nativas no Cursor, use o ID local `cursor-skill`; `cursor` preserva o adaptador anterior de regra compacta para projetos. A Skills CLI usa `cursor` para Skills nativas. [Veja as diferenças e os caminhos](INSTALL.md#cursor-native-skill-or-compact-rule).
 
 </details>
 
-<details>
-<summary><strong>Codex</strong></summary>
-
-```bash
-bash scripts/install.sh --agent codex --scope user
-```
-
-Copia a Skill e suas referências para `~/.agents/skills/asdify/`.
-
-</details>
-
-<details>
-<summary><strong>Cursor</strong></summary>
-
-Execute a partir do projeto que deve receber a regra:
-
-```bash
-cd "/path/to/your-project" && \
-  bash "/path/to/asdify/scripts/install.sh" --agent cursor --scope project
-```
-
-Copia uma regra compacta para `.cursor/rules/asdify.mdc`.
-
-</details>
-
-O instalador copia arquivos locais e recusa sobrescrever uma instalação existente, a menos que você use `--force`. Veja [caminhos, remoção e solução de problemas](INSTALL.md) e o [status de verificação por agente](docs/COMPATIBILITY.md).
-
-Em outros agentes com suporte a Skills, copie a pasta [`skills/asdify/`](skills/asdify/) inteira para o diretório aceito pelo agente. Para instruções permanentes, incorpore as regras compactas de [`AGENTS.md`](AGENTS.md) ao arquivo de instruções existente.
+A [tabela de agentes](docs/HARNESSES.md) cobre os destinos do registro desta versão. Testes de instalação e sessões reais são registrados separadamente em [compatibilidade](docs/COMPATIBILITY.md). Para outro agente, use o caminho de Skills documentado por ele ou o teste manual acima.
 
 ## Como o ASDify revisa
 

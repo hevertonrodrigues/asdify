@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "host": "Codex CLI",
+  "host_version": "0.161.0",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "mode": "full",
+  "model": "CLI default; exact model identifier not emitted",
+  "scope": "isolated project",
+  "skill_path": ".agents/skills/asdify/SKILL.md",
+  "prompt": "Use the installed asdify skill in full mode. Rewrite this update for an executive. Return only the rewritten text, preserving every fact and qualification: We would like to highlight that preliminary subscription revenue grew 12% year over year in Brazil, excluding refunds. These figures have not yet been audited.",
+  "observed_skill_read": {
+    "command": "cat .agents/skills/asdify/SKILL.md",
+    "exit_code": 0
+  },
+  "output": "Preliminary subscription revenue in Brazil grew 12% year over year, excluding refunds. These figures have not yet been audited.",
+  "preservation_review": {
+    "preliminary": true,
+    "subscription_revenue": true,
+    "growth_12_percent": true,
+    "year_over_year": true,
+    "brazil": true,
+    "excluding_refunds": true,
+    "not_yet_audited": true
+  },
+  "limitations": [
+    "Single explicitly requested full-mode run; not a comparative evaluation.",
+    "Automatic activation, lite/ultra/off, optional references, and other hosts not established by this run.",
+    "CLI issued a progress message before loading the skill; only the final response contained the requested rewrite."
+  ]
+}

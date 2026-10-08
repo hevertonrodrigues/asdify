@@ -8,7 +8,7 @@
 
 [Português (Brasil)](README.pt-BR.md) · [Try it](#try-it-without-installing) · [Install](#install-for-your-agent) · [Recipes](examples/recipes.md) · [Contribute](CONTRIBUTING.md)
 
-Give your AI agent a repeatable editing routine: find the point, remove filler, and check that the important details survive. ASDify is a small, readable skill for answers, status updates, reports, and documentation.
+Give your AI agent a repeatable editing routine: find the point, remove filler, and check that the important details survive. ASDify is a small, portable Markdown skill for answers, status updates, reports, and documentation across supported coding agents and editors.
 
 ## See the difference
 
@@ -28,7 +28,7 @@ excluding refunds.
 
 ## Try it without installing
 
-1. Open [SKILL.md](skills/asdify/SKILL.md), copy its contents, and paste them into a chat as instructions.
+1. Open [SKILL.md](skills/asdify/SKILL.md), copy its contents, and paste them as instructions into a chat, such as ChatGPT or Claude web.
 2. Send this prompt:
 
 ```text
@@ -44,52 +44,32 @@ Compare the result with the details shown above. Wording can vary; the facts and
 
 ## Install for your agent
 
-Clone once, then choose your agent below:
+Use the [Skills CLI](https://github.com/vercel-labs/skills) to discover ASDify and install it for your agent:
+
+```bash
+npx skills add hevertonrodrigues/asdify --list
+npx skills add hevertonrodrigues/asdify --skill asdify --agent claude-code
+```
+
+Replace `claude-code` with your [supported agent ID](docs/HARNESSES.md), such as `codex`, `cursor`, `gemini-cli`, or `opencode`. Run from your target project; add `--global` for user-wide installation where supported. See the [full installation guide](INSTALL.md) for scopes, paths, and removal.
+
+<details>
+<summary><strong>Prefer the local installer?</strong></summary>
 
 ```bash
 git clone https://github.com/hevertonrodrigues/asdify.git
 cd asdify
+bash scripts/install.sh --list
+bash scripts/install.sh --agent claude-code --scope user
 ```
 
-<details>
-<summary><strong>Claude Code</strong></summary>
+Choose an ID from `--list`. This installer copies the complete skill and its references from the clone, without downloading anything, and refuses to overwrite existing files unless you pass `--force`.
 
-```bash
-bash scripts/install.sh --agent claude --scope user
-```
-
-Copies the skill and its references to `~/.claude/skills/asdify/`.
+For native Cursor skills, its local ID is `cursor-skill`; `cursor` preserves the earlier compact project-rule adapter. The Skills CLI uses `cursor` for native skills. [See the distinction and paths](INSTALL.md#cursor-native-skill-or-compact-rule).
 
 </details>
 
-<details>
-<summary><strong>Codex</strong></summary>
-
-```bash
-bash scripts/install.sh --agent codex --scope user
-```
-
-Copies the skill and its references to `~/.agents/skills/asdify/`.
-
-</details>
-
-<details>
-<summary><strong>Cursor</strong></summary>
-
-Run from the project that should receive the rule:
-
-```bash
-cd "/path/to/your-project" && \
-  bash "/path/to/asdify/scripts/install.sh" --agent cursor --scope project
-```
-
-Copies a compact rule to `.cursor/rules/asdify.mdc`.
-
-</details>
-
-The installer copies local files and refuses to overwrite an existing installation unless you pass `--force`. See [paths, removal, and troubleshooting](INSTALL.md) and [host verification status](docs/COMPATIBILITY.md).
-
-For other skill hosts, copy the entire [`skills/asdify/`](skills/asdify/) folder into their supported skills directory. For persistent instructions, merge the compact rules from [`AGENTS.md`](AGENTS.md) into your agent's existing instruction file.
+The [harness table](docs/HARNESSES.md) covers the supported registry snapshot. Installation layout checks and actual host sessions are tracked separately in [compatibility](docs/COMPATIBILITY.md). For a host outside the table, use its documented skill path or the manual chat trial above.
 
 ## How ASDify edits
 

@@ -1,89 +1,123 @@
 # Installation
 
-See [compatibility and verification](docs/COMPATIBILITY.md) for the evidence behind each integration. Local copy tests do not establish that a particular host version loads or follows the skill.
+ASDify is one portable Markdown skill. Choose the Skills CLI, the local installer, or manual chat instructions. The [harness table](docs/HARNESSES.md) lists every destination in the supported registry snapshot; [compatibility](docs/COMPATIBILITY.md) separates installation checks from real host sessions.
 
-The canonical skill is `skills/asdify/`. Install from a trusted clone of this repository. Review the text before adding always-on instructions to your agent.
+## Skills CLI
 
-## Clone once, then choose your host
+With `npx` available, inspect the repository without installing:
+
+```bash
+npx skills add hevertonrodrigues/asdify --list
+```
+
+From the project that should receive the skill, select an agent:
+
+```bash
+npx skills add hevertonrodrigues/asdify --skill asdify --agent claude-code
+```
+
+The general form is `npx skills add hevertonrodrigues/asdify --skill asdify --agent <id>`. Replace `<id>` with a **Skills CLI ID** from the [table](docs/HARNESSES.md), for example `codex`, `cursor`, `gemini-cli`, `github-copilot`, `opencode`, or `windsurf`.
+
+The CLI defaults to project scope. Add `--global` for user scope where the agent supports it. Interactive installation offers symlinks or copies; use `--copy` to request copies. Review the destinations the CLI displays before confirming. These options follow the [upstream CLI documentation](https://github.com/vercel-labs/skills#options), checked on 8 October 2026.
+
+The Skills CLI downloads the repository and has its own [telemetry policy](https://skills.sh/docs/cli#telemetry); set `DISABLE_TELEMETRY=1` to opt out. The local installer below copies only files already on your machine.
+
+## Local installer
+
+Clone once, then list available IDs and scopes:
 
 ```bash
 git clone https://github.com/hevertonrodrigues/asdify.git
 cd asdify
+bash scripts/install.sh --list
 ```
 
-### Claude Code
-
-From the cloned repository, install for your user account:
+Install for your user account, choosing an ID from that list:
 
 ```bash
-bash scripts/install.sh --agent claude --scope user
+bash scripts/install.sh --agent claude-code --scope user
 ```
 
-### Codex
-
-From the cloned repository, install for your user account:
+For a project installation, replace both paths and run from the destination project:
 
 ```bash
-bash scripts/install.sh --agent codex --scope user
+cd "/path/to/your-project" && \
+  bash "/path/to/asdify/scripts/install.sh" --agent codex --scope project
 ```
 
-### Cursor
+The installer requires Bash and standard POSIX utilities. It copies the full `skills/asdify/` directory, including references, for native skill targets. It performs no downloads or telemetry. The compact Cursor rule is the one exception to a full skill copy.
 
-Install in the project that should receive the rule. Replace both paths below:
+- `--scope project` writes beneath the current working directory.
+- `--scope user` uses the target's configured user directory. Unsupported scopes fail without installing.
+- Existing destinations are preserved unless you pass `--force`, which replaces that ASDify installation.
+- Some agents share the same skill directory. An existing ASDify copy in that directory can serve those agents; it does not need to be copied again for each ID.
+
+## Cursor: native skill or compact rule
+
+Choose the format you intend to use:
+
+| Format | Skills CLI ID | Local installer ID | Project destination | Default user destination |
+| --- | --- | --- | --- | --- |
+| Native skill with references | `cursor` | `cursor-skill` | `.agents/skills/asdify/` | `~/.cursor/skills/asdify/` |
+| Compact persistent rule | Not a Skills CLI target | `cursor` or `cursor-rule` | `.cursor/rules/asdify.mdc` | Project-only |
+
+For a native Cursor skill using the local installer:
+
+```bash
+bash scripts/install.sh --agent cursor-skill --scope user
+```
+
+For the earlier compact rule, run from your target project:
 
 ```bash
 cd "/path/to/your-project" && \
   bash "/path/to/asdify/scripts/install.sh" --agent cursor --scope project
 ```
 
-### Project-only installation for Claude Code or Codex
+The local `cursor` command preserves its original behavior. The local `claude` ID remains an alias for `claude-code`. Avoid installing both Cursor formats unless you intend to apply both instruction sources.
 
-Use `--scope project` from your target project, with the installer's absolute path. Replace both paths; change `claude` to `codex` for Codex:
+## User paths and overrides
+
+See all paths in [HARNESSES.md](docs/HARNESSES.md). The following rules describe the **local installer**:
+
+- XDG-based entries use an absolute `$XDG_CONFIG_HOME`, falling back to `$HOME/.config` when it is empty, unset, or relative. Only entries marked with this root use it; a literal `~/.config/...` path stays literal.
+- `CLAUDE_CONFIG_DIR`, `AUTOHAND_HOME`, `GROK_HOME`, `HERMES_HOME`, and `VIBE_HOME` override their respective roots. Empty values use defaults. Nonempty overrides must be absolute; relative values are rejected. Surrounding whitespace is trimmed.
+- `CODEX_HOME` does not change the Codex destination in this snapshot: user skills go to `~/.agents/skills/asdify/`.
+- OpenClaw uses an existing `~/.openclaw`, then `~/.clawdbot`, then `~/.moltbot`, in that order; if none exists, it uses `~/.openclaw`. The registry's OpenClaw root marker is not an environment-variable override.
+- Project installations ignore user-root overrides. Eve, PromptScript, and the compact Cursor rule have no user-scope destination in this registry.
+
+## ChatGPT, Claude web, and other chat interfaces
+
+Paste the contents of [SKILL.md](skills/asdify/SKILL.md) into the conversation as instructions, then send a complete [recipe](examples/recipes.md). For detailed checks, also provide the relevant text from [the skill's references](skills/asdify/references/).
+
+This is manual use of the writing instructions, not a native skill installation or evidence that the application automatically discovers skills. Conversation context and the application's other instructions still apply.
+
+For an unlisted native skill host, copy the entire `skills/asdify/` folder to the path documented by that host. The `universal` installer target is a shared layout convention, not automatic compatibility with every AI application. If a host only supports persistent instructions, merge [AGENTS.md](AGENTS.md) into its existing instruction file without replacing unrelated rules.
+
+## Activation and modes
+
+Start a new agent session and ask it to use `asdify full`, `lite`, or `ultra`; use its native invocation mechanism if available. `asdify off` disables this optional workflow subject to the host's other instructions. Modes are semantic instructions, not global slash commands.
+
+Try a complete [recipe](examples/recipes.md) and check the output against its material facts and qualifications. Successful copying alone does not establish discovery, activation, or writing quality.
+
+## Removal and updates
+
+For a Skills CLI installation, use its removal workflow in the same scope:
 
 ```bash
-cd "/path/to/your-project" && \
-  bash "/path/to/asdify/scripts/install.sh" --agent claude --scope project
+npx skills remove asdify --agent claude-code
 ```
 
-`--scope project` always writes into the current working directory. `--force` replaces an existing install; without it, the script refuses to overwrite. The script requires Bash and common POSIX commands.
+Add `--global` if you installed globally. The CLI also provides `npx skills update asdify`; see its [management commands](https://github.com/vercel-labs/skills#other-commands).
 
-Start a new agent session and try a complete [recipe](examples/recipes.md). If installation or discovery fails, [report an installation problem](https://github.com/hevertonrodrigues/asdify/issues/new?template=bug_report.md).
+For a local installation, remove only the ASDify directory or rule printed by the installer and listed in the [harness table](docs/HARNESSES.md). Reinstall from an updated clone with `--force` after reviewing differences. Shared destinations affect every agent that reads that same copy.
 
-## Paths and activation
-
-| Host | User | Project | Activation |
-| --- | --- | --- | --- |
-| Claude Code | `~/.claude/skills/asdify/SKILL.md` | `.claude/skills/asdify/SKILL.md` | Skill discovery, or `/asdify` where supported |
-| Codex | `~/.agents/skills/asdify/SKILL.md` | `.agents/skills/asdify/SKILL.md` | Skill discovery; invocation syntax depends on client |
-| Cursor | Use project installation | `.cursor/rules/asdify.mdc` | Project rule (always applied per file rule metadata) |
-
-The Cursor adapter is a **compact rule**, not a full skill copy. For full skill semantics, also install it using Cursor's supported Agent Skills path according to your Cursor version. Instruction-file behavior and names may change by host/version.
-
-## Portable manual install
-
-Copy the entire skill folder (not just `SKILL.md`) into the Agent Skills directory recognized by the host. The package has no runtime scripts or external dependencies.
-
-```bash
-# Example: Claude Code per-project
-mkdir -p .claude/skills
-cp -R /path/to/asdify/skills/asdify .claude/skills/
-```
-
-For agents that do not load skills, copy the compact instructions from [AGENTS.md](AGENTS.md) into the applicable agent rules file (e.g. project `AGENTS.md`, `CLAUDE.md`, or equivalent). Note: project `AGENTS.md` may already exist; **merge** with existing project rules rather than overwriting.
-
-## Modes
-
-Tell the agent `Use asdify lite/full/ultra`, or invoke the skill in clients that expose it as a direct command. Mode switching and `off` are semantic instructions; this repository does **not** install a background daemon, event hooks, or global slash-command dispatcher.
-
-## Uninstall
-
-If you installed the earlier draft under its former name, review and remove that old skill or Cursor rule after installing ASDify so both copies do not apply. This installer creates the `asdify` paths listed above and does not delete earlier installations.
-
-Remove only the installed skill folder/rule shown above. Do not delete a pre-existing folder unless you are sure it was installed by this project.
+Earlier installations under the former project name are not removed automatically. Review and remove those old copies when switching to ASDify so both sets of instructions do not apply.
 
 ## Troubleshooting
 
-- **Skill not available?** Verify the path, restart your agent session, and explicitly ask the agent to use `asdify`.
-- **No change in output?** Request `full` or `ultra`; already-clear text intentionally receives few edits.
-- **Facts removed?** [Report a meaning regression](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml) with the source and incorrect output, removing private data.
-- **Existing file blocked?** Review differences before rerunning with `--force`.
+- **Wrong ID?** The local installer and Skills CLI have separate ID lists. In particular, native Cursor is `cursor-skill` locally and `cursor` in the Skills CLI.
+- **Skill not discovered?** Check the destination, start a new session, and explicitly request ASDify. Report the host/version and actual behavior in an [installation issue](https://github.com/hevertonrodrigues/asdify/issues/new?template=bug_report.md).
+- **Existing file blocked?** Review it before using `--force`; it may be the shared copy already used by another agent.
+- **No text changed?** Already-clear text may correctly stay unchanged.
+- **Facts changed or lost?** [Report a meaning regression](https://github.com/hevertonrodrigues/asdify/issues/new?template=meaning_regression.yml) with private information removed.
