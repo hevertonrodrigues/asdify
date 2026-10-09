@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e04-19df-71e1-9f40-3997998d3f76"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"On 18 August 2026, from 13:10 to 13:38 UTC, the EU checkout service rejected 184 payment attempts from 97 distinct accounts; retries explain the difference. The US service remained available.\n\nEngineers restored the EU service by reverting a configuration change, but have not confirmed whether that change alone caused the incident. No completed payment was reversed. A review of possible duplicate authorizations is pending, so the team cannot yet rule out customers being charged twice.\n\nSupport has contacted 61 of the 97 accounts. Contact with the remaining 36 is scheduled, with no committed completion time."}}
+{"type":"turn.completed","usage":{"input_tokens":6999,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":128,"reasoning_output_tokens":0}}

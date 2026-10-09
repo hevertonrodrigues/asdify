@@ -1,0 +1,399 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-036",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "missing",
+              "evidence": "“At USD 590/month” and “Option A supports only 12 users” preserve two facts, but A’s USD 420 monthly price and B’s 25-user capacity are absent."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“19 required users,” “USD 650 monthly ceiling,” and “plans cannot be split.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Recommend Option B” within the ceiling; “Option A supports only 12 users and cannot meet the need.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Neither option’s uptime has been independently verified” and “not proven reliability.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Correct recommendation and uncertainty, but the supplied comparison loses A’s price and B’s full capacity.",
+          "meaning_fidelity": 3,
+          "clarity": 5,
+          "signal_density": 4,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 3
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“capacity for 25” and “USD 590 monthly”; “Option A costs USD 420 monthly but supports only 12 users.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“all 19 users on one plan,” “USD 650 ceiling,” and splitting “is not allowed.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Recommend Option B” and “Option A ... cannot meet the requirement.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Neither option’s uptime has been independently verified.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all supplied facts and gives a supported recommendation; the USD 60 remainder is correct.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B retains both options’ complete price and capacity information."
+    },
+    {
+      "case_id": "rel-037",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Planned for the next release, pending performance testing.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Under Search: “No engineer assigned yet.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Accessibility: Fixes shipped.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Analytics redesign: Idea only; no approved scope or delivery date.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "A concise status update preserving delivery conditions and distinctions between planned, shipped, and unapproved work.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Search improvements: Planned for the next release, subject to performance testing.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“No engineer assigned yet.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Accessibility fixes: Shipped.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Analytics redesign: Idea only; no approved scope or delivery date.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all decision-relevant meaning in an appropriately short status update.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The small wording differences do not meaningfully affect accuracy or usefulness."
+    },
+    {
+      "case_id": "rel-038",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Offer A column: “CAD 1,100/year,” “6,” and “Email.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Offer B column: “CAD 120/month (CAD 1,440 over 12 months),” “10,” and “Phone.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "The price row is explicitly labeled “Price before sales tax” for both offers."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Neither is clearly better without knowing the buyer’s device count and support needs.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Accurate comparison with supported annualization and conditional analysis, without declaring a winner.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 4,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Offer A column: “CAD 1,100 per year,” “6,” and “Email.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Offer B column: “CAD 120 per month; CAD 1,440 over 12 months,” “10,” and “Phone.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Both exclude sales tax.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Neither offer is clearly better without knowing the buyer’s device count and support needs.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Complete, neutral comparison with correct annual cost and capacity differences.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B gives the complete neutral comparison more directly; A’s additional conditional discussion is supported but unnecessary."
+    },
+    {
+      "case_id": "rel-039",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Rina said the sample looked complete but had not checked the archive.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Joel reported two missing attachments.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The chair endorsed neither report and asked them to compare records.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“No final completeness finding was made.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves attribution, qualifications, the chair’s neutrality, and the unresolved outcome.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Rina said the sample looked complete but had not checked the archive.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Joel reported two missing attachments.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The chair endorsed neither report and asked both to compare records.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“No final completeness finding was made.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Fully faithful summary retaining each speaker’s attribution and the lack of a final finding.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "“Them” and “both” refer to the same two participants; there is no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-040",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "missing",
+              "evidence": "“Equipment + delivery: USD 2,630” and “USD 3,200 budget” preserve the combined cost and budget, but omit equipment’s USD 2,450 before-tax price and delivery’s USD 180 individually."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“With optional training: USD 2,930” versus “Equipment + delivery: USD 2,630” preserves optionality and implies the correct USD 300 increment."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“We can’t confirm without the tax rate.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“No—we can’t confirm without the tax rate” and “only if applicable tax stays within the remaining amount.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Individual component prices are omitted, but the correct totals preserve all decision-relevant budget meaning. No tax rate or taxable scope is invented.",
+          "meaning_fidelity": 4,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "missing",
+              "evidence": "“USD 3,200 budget” and “USD 2,630 before tax” preserve the budget and combined cost, but the individual USD 2,450 equipment and USD 180 delivery prices are absent."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Without optional training: USD 2,630” and “With optional training: USD 2,930” preserve optionality and imply its USD 300 cost."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“We cannot confirm ... without the tax rate.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“No. We cannot confirm” and “only if the applicable tax does not exceed the remaining amount.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Correctly answers the budget question with both optional-training scenarios. The omitted component breakdown does not change the decision-relevant conclusion.",
+          "meaning_fidelity": 4,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the same budget calculations, optionality, and uncertainty; neither omits material information needed to answer the question."
+    }
+  ]
+}

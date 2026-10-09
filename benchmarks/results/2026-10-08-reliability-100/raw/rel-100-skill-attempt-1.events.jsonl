@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e08-49e5-71d0-983a-ce845ae549d9"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"Здравствуйте, {name}. Предварительная оценка может измениться и не включает налог.\",\"warning\":\"Не выпускайте заказ {{order}}, пока обе проверки не будут успешно пройдены.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":6902,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":45,"reasoning_output_tokens":0}}

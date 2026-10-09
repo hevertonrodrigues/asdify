@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e22-0756-7f93-99ca-9c0276e1e009"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"Ciao, {name}. L'approvazione può richiedere fino a 10 giorni lavorativi.\",\"warning\":\"Non chiudere il ticket {{ticket}} finché il cliente non conferma la risoluzione.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":3751,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

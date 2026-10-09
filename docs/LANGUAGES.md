@@ -14,7 +14,7 @@ ASDify has translated READMEs and public regression inputs for nine locales. Use
 | `it` | Italian | [Italiano](../README.it.md) |
 | `ru` | Russian | [Русский](../README.ru.md) |
 
-The [language registry](../integrations/languages.json) defines documented coverage. It does not restrict the model to these languages. Other languages can be requested, but this repository does not yet provide their READMEs or regression inputs. No live translation study or independent native-speaker review of the seven new README translations is recorded.
+The [language registry](../integrations/languages.json) defines documented coverage. It does not restrict the model to these languages. Other languages can be requested, but this repository does not yet provide their READMEs or regression inputs. The [recorded 100-case model comparison](../benchmarks/results/README.md) includes 24 translations and 16 native-language rewrites. No independent native-speaker review of the seven new README translations is recorded.
 
 ## Request a rewrite or translation
 
@@ -50,7 +50,11 @@ Names, figures, obligations, uncertainty, citations, code, paths, URLs, and plac
 - Locale tags, translation targets, fixture fields, unique IDs, and coverage are checked by `scripts/validate.py`.
 - Unit tests exercise malformed registries, missing documentation, incomplete language coverage, invalid targets, Unicode content, and installation of the translation reference.
 
-These are package and fixture checks. They do not run a translation engine or prove semantic accuracy. In a live evaluation, reviewers need competence in both source and target languages and must check meaning and naturalness separately. Do not compare raw word counts across writing systems as a quality measure. Follow the [evaluation protocol](../benchmarks/README.md) and report results by language and direction.
+The checks above concern packaging and fixtures. Separately, the initial 100-case live comparison generated and reviewed real translations using `gpt-6.1-sol` and injected `full`-mode instructions. All 24 translation outputs per arm passed its two model-review passes and exact-format checks. Each non-English locale has only two English-to-locale translations and one locale-to-English translation, plus two native rewrites. These tiny groups and same-family automated reviewers do not establish translation accuracy for a whole language or replace bilingual human review. The [report](../benchmarks/results/2026-10-08-reliability-100/report.md) records results by language and direction, including a baseline Japanese rewrite flag.
+
+Reviewers need competence in both source and target languages and must check meaning and naturalness separately. Do not compare raw word counts across writing systems as a quality measure. Follow the [evaluation protocol](../benchmarks/README.md); tests of injected instructions also do not prove native host activation.
+
+The [revised-skill regression](../benchmarks/results/2026-10-09-reliability-100-revised/report.md) uses new answers on the same cases. All 24 skill-assisted translations again passed. One baseline German-to-English translation was flagged for changing “provisional” costs to “estimated”; one French baseline rewrite had a reviewer disagreement over omitted explicit non-obligation wording. The [source audit](../benchmarks/results/2026-10-09-reliability-100-revised/source-audit.md) keeps these interpretation limits visible. This reused sample is not held-out evidence or independent bilingual review.
 
 ## Get support
 

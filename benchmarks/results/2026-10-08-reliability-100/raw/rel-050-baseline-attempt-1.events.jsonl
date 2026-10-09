@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e00-7a76-78c1-8037-ac3ca3bf1f9f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Upload the signed form by 17:00 UTC on 12 November 2026."}}
+{"type":"turn.completed","usage":{"input_tokens":3740,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":22,"reasoning_output_tokens":0}}

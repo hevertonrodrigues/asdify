@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df4-74fa-7ed1-82ce-56aea0fbe1cb"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Refund totals cannot yet be finalized: the warehouse reports 76 returned units, while finance reports 81 for the same week and location. Neither team has reconciled the 5-unit discrepancy. Marta owns the reconciliation; no deadline has been assigned."}}
+{"type":"turn.completed","usage":{"input_tokens":6917,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

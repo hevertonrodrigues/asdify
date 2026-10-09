@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e24-e18f-7362-8ca9-fa72dbba2c14"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The provisional cost is 4,600 euros per quarter, excluding VAT. There is an additional one-time setup fee of 280 euros. This is not a binding price commitment."}}
+{"type":"turn.completed","usage":{"input_tokens":7002,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

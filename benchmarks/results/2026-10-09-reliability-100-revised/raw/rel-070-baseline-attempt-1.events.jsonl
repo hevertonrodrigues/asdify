@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e28-4dfc-7da0-9e3b-6ffc6cfccaa5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"担当者は任意で追加資料を求めることができ、申請者は求められた場合、5営業日以内に提出する必要があります。"}}
+{"type":"turn.completed","usage":{"input_tokens":3752,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":41,"reasoning_output_tokens":0}}

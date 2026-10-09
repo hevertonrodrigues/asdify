@@ -1,0 +1,379 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-041",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "We may suspend access, but we must give notice."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "The entire output is \"We may suspend access, but we must give notice.\" with no additional text or formatting."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Reproduces the quotation exactly and adds nothing.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "We may suspend access, but we must give notice."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "The entire output is \"We may suspend access, but we must give notice.\" with no additional text or formatting."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Reproduces the quotation exactly and adds nothing.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical and fully compliant."
+    },
+    {
+      "case_id": "rel-042",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "{\"status\":\"pending\",\"attempts\":3,\"message\":\"The export has not started. Once approved, it may take up to 8 minutes.\"}"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"status\":\"pending\",\"attempts\":3"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Once approved, it may take up to 8 minutes."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "The export has not started."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Changes only the message, preserving approval timing, duration uncertainty, and the export's current state.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "{\"status\":\"pending\",\"attempts\":3,\"message\":\"The export has not started. It may take up to 8 minutes after approval.\"}"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"status\":\"pending\",\"attempts\":3"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "It may take up to 8 minutes after approval."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "The export has not started."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Changes only the message, preserving approval timing, duration uncertainty, and the export's current state.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both provide clear, faithful rewrites in valid JSON; the wording difference is not material."
+    },
+    {
+      "case_id": "rel-043",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The three numbered steps begin \"1. Attach\", \"2. Submit\", and \"3. Keep\", retaining the original order."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Attach the signed form before submitting."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Submit through Portal Q, not by email."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "Keep the receipt until finance confirms payment; submitting does not confirm payment."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every instruction, the required sequence, and the distinction between submission and payment confirmation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The three numbered steps begin \"1. Attach\", \"2. Submit\", and \"3. Keep\", retaining the original order."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Attach the signed form before submitting."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Submit through Portal Q, not by email."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "Keep the receipt until finance confirms payment. Submission alone does not confirm payment."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every instruction, the required sequence, and the distinction between submission and payment confirmation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both retain all decision-relevant meaning in exactly three ordered steps."
+    },
+    {
+      "case_id": "rel-044",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"| Plan | Limit | Caveat |\" heads a Markdown table with exactly the Basic and Plus data rows."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "| Basic | 7 projects | Backups excluded. |"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "| Plus | Up to 22 projects | Daily backups included, but restoration time is not guaranteed. |"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "restoration time is not guaranteed."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The requested table contains all plan limits, backup provisions, and the restoration caveat.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"| Plan | Limit | Caveat |\" heads a Markdown table with exactly the Basic and Plus data rows."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "| Basic | 7 projects | Backups excluded. |"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "| Plus | Up to 22 projects | Daily backups included; restoration time is not guaranteed. |"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "restoration time is not guaranteed."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The requested table contains all plan limits, backup provisions, and the restoration caveat.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The punctuation difference does not meaningfully affect fidelity or usability."
+    },
+    {
+      "case_id": "rel-045",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Hi Noor,\n\nIf you have time, would you be willing to review the draft by Thursday?"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "No pressure at all—it’s entirely optional"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "we can still publish without your review."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"would you be willing\" and \"Thanks so much for considering it!\" maintain a warm request rather than an obligation."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Warmly preserves the recipient, conditional request, deadline, optionality, publication flexibility, and thanks.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Hi Noor,\n\nIf you have time, would you be willing to review the draft by Thursday?"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "It’s completely optional"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "we can still publish without your review."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"would you be willing\" and \"Thanks for considering it!\" maintain a warm request rather than an obligation."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Warmly preserves the recipient, conditional request, deadline, optionality, publication flexibility, and thanks.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are warm, clear, and faithful; the slightly different emphasis creates no meaningful quality difference."
+    }
+  ]
+}

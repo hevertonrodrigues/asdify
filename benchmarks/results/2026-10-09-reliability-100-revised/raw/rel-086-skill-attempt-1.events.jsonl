@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e25-69cb-7a03-89cf-75c6d44e4b17"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Der Betreiber darf den Dienst erst neu starten, wenn beide Prüfungen bestanden sind. Schlägt eine Prüfung fehl, muss der Dienst gestoppt und der Support kontaktiert werden; erfinden Sie keine Frist für den Neustart."}}
+{"type":"turn.completed","usage":{"input_tokens":6993,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":52,"reasoning_output_tokens":0}}

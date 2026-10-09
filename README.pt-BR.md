@@ -173,7 +173,7 @@ Indique o idioma ou a variante de destino. O ASDify preserva significado, identi
 
 ## Feito para ser verificado
 
-Uma resposta mais curta que altera um fato relevante falha na avaliação. O repositório inclui casos de regressão de revisão e tradução em nove idiomas, critérios de revisão humana e um [protocolo de avaliação reproduzível](benchmarks/README.md). **Ainda não demonstramos ganhos de qualidade em modelos reais.** Veja os registros separados de [verificação do pacote](docs/VERIFICATION.md) e [compatibilidade dos agentes](docs/COMPATIBILITY.md).
+Uma resposta mais curta que altera um fato relevante falha na avaliação. O repositório inclui casos de revisão e tradução em nove idiomas, critérios de revisão humana e um [protocolo de avaliação reproduzível](benchmarks/README.md). Os [testes registrados com 100 casos](benchmarks/results/README.md) usam um modelo em modo `full` e duas avaliações cegas por modelo; as falhas iniciais levaram a ajustes nas regras de preservação. **Confiabilidade geral e ganhos amplos de qualidade ainda não foram demonstrados.** Veja os registros separados de [verificação do pacote](docs/VERIFICATION.md) e [compatibilidade dos agentes](docs/COMPATIBILITY.md).
 
 ## Suporte e solução de problemas
 

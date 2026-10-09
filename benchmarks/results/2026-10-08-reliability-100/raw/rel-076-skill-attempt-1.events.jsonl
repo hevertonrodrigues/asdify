@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df7-b8cb-7d72-92b4-11be069fcee1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Отчёт можно публиковать только с письменного согласия и юриста, и финансового директора; молчание не считается согласием."}}
+{"type":"turn.completed","usage":{"input_tokens":6909,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":36,"reasoning_output_tokens":0}}

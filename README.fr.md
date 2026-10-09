@@ -162,7 +162,7 @@ Précisez la langue ou la variante cible. La traduction préserve le sens, les i
 
 ## Vérification et assistance
 
-Une réponse plus courte qui modifie un fait important échoue à l'évaluation. Le dépôt contient des cas de révision et traduction dans neuf langues, une grille de revue humaine et un [protocole d'évaluation reproductible](benchmarks/README.md). **Les gains de qualité sur des modèles réels n'ont pas encore été établis.** Consultez la [vérification du paquet](docs/VERIFICATION.md) et la [compatibilité](docs/COMPATIBILITY.md).
+Une réponse plus courte qui modifie un fait important échoue à l'évaluation. Le dépôt contient des cas de révision et traduction dans neuf langues, une grille de revue humaine et un [protocole d'évaluation reproductible](benchmarks/README.md). Les [tests enregistrés sur 100 cas](benchmarks/results/README.md) utilisent un modèle en mode `full` et deux revues en aveugle par modèle ; les échecs initiaux ont conduit à corriger les règles de préservation. **La fiabilité générale et les gains de qualité à grande échelle restent à établir.** Consultez la [vérification du paquet](docs/VERIFICATION.md) et la [compatibilité](docs/COMPATIBILITY.md).
 
 | Problème | Où trouver de l'aide |
 | --- | --- |

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e26-9791-7992-9ccc-a837cfbc497b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"In a randomized test with 94 participants, the new interface was estimated to save 7 seconds per task. But the 95% confidence interval ranged from −2 to 16 seconds: from taking 2 seconds longer to saving 16 seconds.\n\nThe result is inconclusive. It does not establish whether the new interface truly saves time."}}
+{"type":"turn.completed","usage":{"input_tokens":7026,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":72,"reasoning_output_tokens":0}}

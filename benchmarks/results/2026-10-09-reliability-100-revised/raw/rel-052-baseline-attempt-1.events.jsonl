@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e3a-04ac-7e42-bab9-f882933b12a7"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The inspection is booked for 10:00 local time on either 4 September 2026 or April 9, 2026. The source does not specify which date format is used."}}
+{"type":"turn.completed","usage":{"input_tokens":3743,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":43,"reasoning_output_tokens":0}}

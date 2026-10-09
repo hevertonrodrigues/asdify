@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e01-85d2-7280-bd09-9da4a9643760"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"You may withdraw your consent at any time to stop future processing based on that consent. Withdrawal does not affect the lawfulness of processing carried out under valid consent before withdrawal, nor does it override separate legal obligations to retain data."}}
+{"type":"turn.completed","usage":{"input_tokens":3732,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":49,"reasoning_output_tokens":0}}

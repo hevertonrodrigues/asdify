@@ -1,0 +1,439 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-031",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“six-week pilot for 28 volunteer accounts”, “approval is pending”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“USD 9,600”, “including support time and excluding tax”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Legal must approve the data-processing terms before recruitment begins, and Security must sign off before any production records are copied.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“If approved, Operations will prepare the onboarding guide.”; “no start date has been agreed”"
+            },
+            {
+              "invariant_id": 5,
+              "status": "preserved",
+              "evidence": "“The proposal does not commit the company to a full rollout.”"
+            },
+            {
+              "invariant_id": 6,
+              "status": "preserved",
+              "evidence": "“both fewer support contacts and no increase in failed transactions”; “The draft does not measure customer satisfaction or long-term retention.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all decision-relevant details, conditions, and limitations without unsupported additions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“six-week pilot for 28 volunteer accounts”; “It has not been approved”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“USD 9,600, including support time but excluding tax.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Legal must approve the data-processing terms before recruitment begins. Security must sign off before any production records are copied.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“no start date has been agreed”; “Will prepare the onboarding guide if the pilot is approved.”"
+            },
+            {
+              "invariant_id": 5,
+              "status": "preserved",
+              "evidence": "“the proposal does not commit the company to a full rollout.”"
+            },
+            {
+              "invariant_id": 6,
+              "status": "preserved",
+              "evidence": "“Both fewer support contacts and no increase in failed transactions.”; “The draft measures neither customer satisfaction nor long-term retention.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the entire source's decision-relevant meaning in a readily scannable executive summary.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are complete, accurate, and well organized; paragraph versus bullet presentation creates no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-032",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Warehouse reports 76 returned units; Finance reports 81 for the same week and location”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“a five-unit discrepancy that remains unreconciled”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Refund totals cannot be finalized until reconciliation is complete.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Marta owns the reconciliation, but no deadline has been assigned.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the conflicting reports, unresolved status, refund constraint, ownership, and missing deadline. The five-unit difference is supported arithmetic; the reconciliation dependency is a reasonable contextual inference.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“the warehouse reports 76 returned units, while finance reports 81 for the same week and location”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Neither team has reconciled the discrepancy.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Refund totals cannot yet be finalized”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Marta owns the reconciliation; no deadline has been assigned.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all important source information and leads with the managerial consequence. The five-unit difference is supported arithmetic.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both provide an accurate, concise managerial status summary with the same decision-relevant information."
+    },
+    {
+      "case_id": "rel-033",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Sales rose 11% during the discount week”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“advertising spend also doubled”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Without a comparison group”; “Not tracking new versus returning customers”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“We can’t conclude that the discount caused more sales.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains every supplied fact and correctly distinguishes association from causation. Possible explanations are explicitly qualified rather than asserted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 4,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Sales rose 11% during the discount week”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“advertising spend also doubled”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Without a comparison group”; “The store also did not track new versus returning customers”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“We cannot tell whether the discount caused more sales.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all supplied facts and explains why causation remains unestablished. Other factors are mentioned as possibilities, not invented observed events.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 4,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clearly explain the causal uncertainty and customer-tracking limitation, with comparable minor repetition."
+    },
+    {
+      "case_id": "rel-034",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“In a randomized test with 94 participants”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“estimated to save 7 seconds per task”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“the 95% confidence interval ranged from taking 2 seconds longer to saving 16 seconds”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“the result does not establish whether the interface truly saves time.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all facts and correctly translates the negative saving into additional task time. The explanation that the interval includes no savings follows directly from its bounds.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“In a randomized test with 94 participants”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“estimated to save 7 seconds per task”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“the 95% confidence interval ranged from −2 to 16 seconds: from taking 2 seconds longer to saving 16 seconds.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“The result is inconclusive. It does not establish whether the new interface truly saves time.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains every supplied fact, explains the interval in plain language, and preserves the inconclusive result.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately convey the numerical result and uncertainty in plain language; their explanatory approaches are equally effective."
+    },
+    {
+      "case_id": "rel-035",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“On 18 August 2026, from 13:10–13:38 UTC, the EU checkout service”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“rejected 184 payment attempts across 97 distinct accounts; retries explain the higher attempt count.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The US service remained available.”; “No completed payments were reversed.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Engineers restored EU service by reverting a configuration change, but have not confirmed whether that change alone caused the incident.”"
+            },
+            {
+              "invariant_id": 5,
+              "status": "preserved",
+              "evidence": "“A review of possible duplicate authorizations remains pending, so duplicate customer charges cannot yet be ruled out.”"
+            },
+            {
+              "invariant_id": 6,
+              "status": "preserved",
+              "evidence": "“Support has contacted 61 affected accounts. Outreach to the remaining 36 is scheduled, with no committed completion time.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all incident details, affected scope, restoration action, causal uncertainty, payment caveats, and outreach status.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“On 18 August 2026, from 13:10 to 13:38 UTC, the EU checkout service”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“rejected 184 payment attempts from 97 distinct accounts; retries explain the difference.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The US service remained available.”; “No completed payment was reversed.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Engineers restored the EU service by reverting a configuration change, but have not confirmed whether that change alone caused the incident.”"
+            },
+            {
+              "invariant_id": 5,
+              "status": "preserved",
+              "evidence": "“A review of possible duplicate authorizations is pending, so the team cannot yet rule out customers being charged twice.”"
+            },
+            {
+              "invariant_id": 6,
+              "status": "preserved",
+              "evidence": "“Support has contacted 61 of the 97 accounts. Contact with the remaining 36 is scheduled, with no committed completion time.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every decision-relevant fact and carefully distinguishes confirmed restoration from unconfirmed causation and unresolved duplicate-charge risk.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are complete, well-calibrated leadership summaries with no material omissions or distortions."
+    }
+  ]
+}

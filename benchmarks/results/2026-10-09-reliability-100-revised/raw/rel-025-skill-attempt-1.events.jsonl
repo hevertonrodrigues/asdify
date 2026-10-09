@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e38-a5b6-7132-be18-3b5f1564372a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Set `ttl_ms` to 4500 milliseconds. A value of 0 disables caching; it does not make entries permanent. The setting applies only to newly stored entries."}}
+{"type":"turn.completed","usage":{"input_tokens":7003,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":39,"reasoning_output_tokens":0}}

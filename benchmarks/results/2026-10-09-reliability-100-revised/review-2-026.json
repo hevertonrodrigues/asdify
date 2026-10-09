@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-026",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“In API v3, use `customer_id` instead of `clientId`.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“API v2 will continue to accept `clientId` until 30 June 2027.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Renaming the field alone does not migrate stored identifiers.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all migration details, protected tokens, the deadline, and the limitation on renaming. No additional material meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“In API v3, use `customer_id` instead of `clientId`.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“API v2 still accepts `clientId` until 30 June 2027.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Renaming the field alone does not migrate stored identifiers.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all migration details, protected tokens, the deadline, and the limitation on renaming. No additional material meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The tense variation does not meaningfully change the stated compatibility period or writing quality."
+    },
+    {
+      "case_id": "rel-027",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Backups are encrypted while stored”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“transfers between the backup server and the archive are not yet encrypted.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Encryption at rest does not protect data during those transfers.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly distinguishes storage encryption from the still-unencrypted transfer path. The protection limitation remains attributed to at-rest encryption, not to all possible controls.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Backups are encrypted while stored”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“transfers between the backup server and the archive are not yet encrypted.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Encryption at rest protects stored backups; it does not protect them during transfer.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves the storage-versus-transfer distinction and the current lack of transfer encryption. No additional material meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately clarify the same security boundary; the minor wording differences are not consequential."
+    },
+    {
+      "case_id": "rel-028",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The validator requires Python 3.12 or later.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Node is optional and used only for the separate frontend demo”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“installing it does not replace the Python requirement.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the minimum Python version, Node's optional and exclusive role, and the non-substitution warning. The heading adds no material claim.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The validator requires Python 3.12 or later.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Node is optional and used only for the separate frontend demo”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“installing it does not replace the Python requirement.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all requirements, scope restrictions, and the non-substitution warning without adding unsupported content.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The substantive text is identical; the optional heading creates no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-029",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“If the first health check fails, roll back once to the previous version.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“If the previous version also fails its health check, stop the rollout”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“If the previous version also fails its health check, stop the rollout and contact the on-call engineer.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Do not roll back again.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the conditional sequence, single rollback, escalation actor, and stopping requirement. The final prohibition follows the source's one-rollback limit.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“If the first health check fails, roll back to the previous version once.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“If its health check also fails, stop the rollout”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“If its health check also fails, stop the rollout and contact the on-call engineer.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Do not roll back again.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all conditional actions and their sequence. 'Its' clearly refers to the previous version, and the final prohibition preserves the single-rollback limit.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear and complete; numbered steps and compact prose are equally suitable for this short procedure."
+    },
+    {
+      "case_id": "rel-030",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“strictly above 72°C”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“for at least 90 consecutive seconds”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Send an alert when the temperature remains strictly above 72°C for at least 90 consecutive seconds.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Reset the timer whenever the temperature is 72°C or below.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the strict threshold, inclusive minimum duration, continuity, alert action, and reset boundary. 'Strictly above' explicitly excludes exactly 72°C.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Exactly 72°C does not trigger an alert.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“for at least 90 consecutive seconds”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Send an alert when the temperature stays above 72°C for at least 90 consecutive seconds.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Reset the timer if the temperature falls to 72°C or below.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all numeric boundaries, consecutive duration, alert conditions, and reset behavior. The equality exclusion is stated explicitly.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both precisely preserve the rule; an explicit equality sentence and 'strictly above' convey the same decision-relevant meaning."
+    }
+  ]
+}

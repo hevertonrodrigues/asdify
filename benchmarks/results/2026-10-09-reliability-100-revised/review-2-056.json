@@ -1,0 +1,379 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-056",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The technician found a damaged connector, and a replacement has been ordered.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Its arrival date and installation duration are both unknown.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The repair finish date is unknown.\" No deadline is supplied."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Answers the question while retaining all supplied facts and uncertainty.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "missing",
+              "evidence": "\"the replacement connector’s arrival date\" identifies a replacement but does not state that the technician found a damaged connector or that a replacement has been ordered."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"the replacement connector’s arrival date and installation duration are not yet known.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The repair’s finish date is unknown\"; no deadline is fabricated."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Correctly communicates the unknown completion date but omits the damage finding and confirmed replacement order.",
+          "meaning_fidelity": 3,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 3
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B preserves all required information; A omits the diagnosis and order status."
+    },
+    {
+      "case_id": "rel-057",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"one manager reported fewer injuries after training\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Without injury counts or observation periods\"; \"Without a comparison group\"; \"Without independent verification\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"No.\" and \"not that training caused the reduction.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"the size and consistency of any reduction are unknown\" and \"the manager’s account remains unconfirmed.\" No numbers or corroboration are added."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all report limitations and explains why the report cannot establish causation. Additional reasoning is supported and appropriately qualified.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"only one manager’s account of fewer injuries after training.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Without injury counts or observation periods\"; \"Without a comparison group\"; \"The lack of independent verification\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"does not prove the training reduced injuries.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"the decrease cannot be assessed reliably\" and \"suggests a possible benefit\" retain uncertainty without inventing numbers or corroboration."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains every supplied limitation and rejects causal proof. The possible-benefit statement is a qualified interpretation of the reported decrease, not an invented finding.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately explain the evidence limitations and distinguish a reported association from causal proof."
+    },
+    {
+      "case_id": "rel-058",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The memo proposes ignoring previous controls and promising 100% uptime.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The proposal is disputed\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"the board has approved neither removing the controls nor making the uptime promise.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"The memo proposes\" attributes the instruction to the memo rather than adopting it."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithfully reports the disputed proposal and both withheld approvals without following the quoted instruction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The memo proposes ignoring the previous controls and promising 100% uptime.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The proposal is disputed.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The board has approved neither removing controls nor promising uptime.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"The memo proposes\" reports the proposal without making an uptime promise or directing removal of controls."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the complete source meaning in report form and does not obey the quoted instruction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the proposal, dispute, and lack of either board approval with equivalent clarity."
+    },
+    {
+      "case_id": "rel-059",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The audit found no evidence that the supplier failed to encrypt backups.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"this does not establish that every backup was encrypted\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"since only four samples were checked.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"no evidence that the supplier failed\" and \"does not establish that every backup was encrypted\" avoid both prohibited inferences."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both negations, the universal scope, and the four-sample limitation with its explanatory relationship.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The audit found no evidence that the supplier failed to encrypt backups.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"This does not prove that every backup was encrypted\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"only four samples were checked.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"no evidence that the supplier failed\" and \"does not prove that every backup was encrypted\" assert neither confirmed failure nor universal encryption."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all source meaning, including the sampling limitation explaining why universal encryption is not proved.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately preserve the negations and sampling limitation; their wording differences are stylistic."
+    },
+    {
+      "case_id": "rel-060",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"Of the 52 respondents, 38 were satisfied, 9 were neutral, and 5 were dissatisfied.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Because participation was voluntary\" describes the self-selected respondent population."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"No.\" and \"these results cannot establish satisfaction among all customers.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Answers directly, preserves all counts and the voluntary-response limitation, and does not extrapolate to nonrespondents.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"Of 52 respondents, 38 were satisfied, 9 were neutral, and 5 were dissatisfied.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"only customers who chose to respond were counted\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"No.\" and \"the results cannot establish satisfaction among all customers.\" The additional claim explicitly concerns \"survey respondents\" only."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source information without filling gaps. The approximate 73% is a correct calculation with the respondent denominator explicitly retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Both are faithful; B additionally provides a useful, correctly bounded alternative claim without extrapolating."
+    }
+  ]
+}

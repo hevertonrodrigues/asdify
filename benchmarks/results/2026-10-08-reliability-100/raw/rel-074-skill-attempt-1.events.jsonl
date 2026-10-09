@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df8-fcc4-78c2-944f-ecaf889a38a0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il fornitore può rinviare la consegna una sola volta, avvisando per iscritto almeno 7 giorni di calendario prima. Le penali già maturate restano valide."}}
+{"type":"turn.completed","usage":{"input_tokens":6901,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":44,"reasoning_output_tokens":0}}

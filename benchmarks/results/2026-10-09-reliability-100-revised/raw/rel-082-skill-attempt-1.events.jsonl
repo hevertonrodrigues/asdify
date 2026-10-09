@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2a-3971-76a3-9195-edf5477f4447"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"Hola, {name}. La aprobación puede tardar hasta 12 días hábiles.\",\"warning\":\"No reintentes el pedido {{order_id}} automáticamente.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":7014,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

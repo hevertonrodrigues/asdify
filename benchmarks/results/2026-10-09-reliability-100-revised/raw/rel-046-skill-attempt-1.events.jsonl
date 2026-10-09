@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e20-07c0-73f1-9fe2-0b02f77719c0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Our printer has apparently embraced slow living: one page every two minutes. That’s a joke, not a hardware diagnosis. IT hasn’t inspected it yet."}}
+{"type":"turn.completed","usage":{"input_tokens":7010,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":35,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfd-b991-7063-9638-fb5ba4cc559e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il fornitore può recedere con un preavviso scritto di almeno 18 giorni di calendario. Si tratta di una facoltà, non di un obbligo, e il recesso non estingue le penali non pagate."}}
+{"type":"turn.completed","usage":{"input_tokens":3733,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

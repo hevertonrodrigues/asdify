@@ -1,0 +1,18 @@
+Descriptive summary: 1 run(s), 200 paired reviewer-case evaluations.
+Arm A: 200 blind ratings, hard failures: 15/200 (7.5% of ratings)
+  meaning_fidelity: median 5, mean 4.86
+  clarity: median 5, mean 4.94
+  signal_density: median 5, mean 4.93
+  structure: median 5, mean 4.99
+  calibration: median 5, mean 4.91
+  fit_for_purpose: median 5, mean 4.80
+Arm B: 200 blind ratings, hard failures: 5/200 (2.5% of ratings)
+  meaning_fidelity: median 5, mean 4.97
+  clarity: median 5, mean 4.99
+  signal_density: median 5, mean 4.99
+  structure: median 5, mean 5.00
+  calibration: median 5, mean 4.99
+  fit_for_purpose: median 5, mean 4.95
+Means, medians, and failure rates are descriptive and include all submitted ratings, including hard failures.
+Ratings share cases/reviewers; they are not independent trials or evidence of causality. No winner is inferred.
+Conditions stay blinded here; unblind only after grading is complete.

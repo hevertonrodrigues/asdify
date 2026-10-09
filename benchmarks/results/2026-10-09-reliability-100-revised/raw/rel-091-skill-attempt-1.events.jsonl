@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e3b-2344-72b2-8c2e-5f4a3e3bc341"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"こんにちは、{name}さん。承認後、エクスポートには最大14分かかる場合があります。\",\"warning\":\"バックアップが検証されるまで、ファイル {{file}} を削除しないでください。\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":7017,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":58,"reasoning_output_tokens":0}}

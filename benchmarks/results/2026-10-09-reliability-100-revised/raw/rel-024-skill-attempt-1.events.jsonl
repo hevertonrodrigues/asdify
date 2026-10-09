@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e28-4dfc-7a90-8ee1-eead55811851"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"1. Wear the specified eye protection.\n2. Open the extraction hood and confirm airflow.\n3. If airflow is absent, stop. Do not open container K-17.\n4. Open K-17 only after confirming airflow.\n\nThe container contents are unspecified."}}
+{"type":"turn.completed","usage":{"input_tokens":7012,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":56,"reasoning_output_tokens":0}}

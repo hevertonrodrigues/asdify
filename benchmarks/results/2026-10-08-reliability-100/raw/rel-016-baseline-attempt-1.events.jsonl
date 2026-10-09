@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e05-1337-7370-914b-7e58d13ea6fa"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Customers can cancel for free before packing starts. Once packing starts, a EUR 12 handling fee applies, even if the parcel is still in the warehouse."}}
+{"type":"turn.completed","usage":{"input_tokens":3731,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":35,"reasoning_output_tokens":0}}

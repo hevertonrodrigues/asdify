@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e34-d31a-78e0-9797-75175f4a98d0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The estimated reduction was 2.3 percentage points between January and March 2026. The observational study does not establish causality, and the data have not yet been audited."}}
+{"type":"turn.completed","usage":{"input_tokens":7010,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

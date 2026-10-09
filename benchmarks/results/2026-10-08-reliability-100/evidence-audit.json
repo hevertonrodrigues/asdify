@@ -1,0 +1,11 @@
+{
+  "audited_at_utc": "2026-10-09T01:27:46.930833+00:00",
+  "generated_answers": 200,
+  "model_output_ratings": 400,
+  "generation_prompt_hashes_match": true,
+  "review_prompt_hashes_and_blinding_match": true,
+  "raw_answers_and_ratings_unchanged": true,
+  "no_observed_model_tool_calls": true,
+  "frozen_skill_and_cases_unchanged": true,
+  "calibration_ratings_verified_against_raw_events": 40
+}

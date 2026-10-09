@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e03-1a38-7a12-8e4b-d7f6f484cb93"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Von 190 eingeladenen Personen wurden 68 befragt. 27 der Befragten bevorzugten die neue Oberfläche. Die Präferenzen der übrigen Personen sind unbekannt."}}
+{"type":"turn.completed","usage":{"input_tokens":6894,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":224,"reasoning_output_tokens":182}}

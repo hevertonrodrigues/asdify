@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e36-4c1c-7113-b416-764065bd610f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The instrument reported −0.040 A with an uncertainty of ±0.005 A. This reading does not imply zero current."}}
+{"type":"turn.completed","usage":{"input_tokens":7000,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":102,"reasoning_output_tokens":70}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfc-9382-7301-84c5-0977d397b444"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"Hallo, {name}. Der Bericht ist zur Prüfung bereit, aber nicht zur Veröffentlichung freigegeben.\",\"warning\":\"Version {{version}} darf nicht ohne vorherige schriftliche Genehmigung veröffentlicht werden.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":6905,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":47,"reasoning_output_tokens":0}}

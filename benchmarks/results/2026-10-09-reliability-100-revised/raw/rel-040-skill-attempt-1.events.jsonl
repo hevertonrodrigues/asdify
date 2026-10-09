@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e3b-db34-7102-8660-0f7b2692004f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"No. We cannot confirm the complete purchase is within the USD 3,200 budget without the tax rate.\n\n- **Without optional training:** USD 2,630 before tax, leaving USD 570 for tax.\n- **With optional training:** USD 2,930 before tax, leaving USD 270 for tax.\n\nThe purchase is within budget only if the applicable tax does not exceed the remaining amount."}}
+{"type":"turn.completed","usage":{"input_tokens":7021,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":85,"reasoning_output_tokens":0}}

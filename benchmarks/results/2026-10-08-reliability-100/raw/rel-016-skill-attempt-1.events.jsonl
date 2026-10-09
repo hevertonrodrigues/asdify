@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e0a-e0ab-79a2-9e4e-017e985427df"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Customers can cancel for free before packing starts. Once packing starts, cancellation costs EUR 12, even if the parcel is still in the warehouse."}}
+{"type":"turn.completed","usage":{"input_tokens":6889,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":33,"reasoning_output_tokens":0}}

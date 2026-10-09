@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e29-a56b-7852-8dcc-6750c3e8bac7"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Isolate the electrical supply and lock the isolator. Verify that the circuit is de-energized using the approved tester. Only after this verification may a qualified technician remove the cover."}}
+{"type":"turn.completed","usage":{"input_tokens":3740,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":41,"reasoning_output_tokens":0}}

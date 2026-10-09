@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2e-be34-7853-b91d-9d20a78b7e0d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The estimated failure risk fell from 4 in 1,000 to 3 in 1,000. This is a 25% relative reduction and an absolute reduction of 1 in 1,000. These figures are modeled estimates, not observed outcomes."}}
+{"type":"turn.completed","usage":{"input_tokens":7021,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":57,"reasoning_output_tokens":0}}

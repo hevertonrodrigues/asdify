@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e25-69cb-7f11-8443-e8c5a94d7276"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"When an HTTP 503 response includes a `Retry-After` header, clients should wait for the specified interval before retrying. This is recommended, not required. Clients must not automatically retry non-idempotent requests."}}
+{"type":"turn.completed","usage":{"input_tokens":3741,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":48,"reasoning_output_tokens":0}}

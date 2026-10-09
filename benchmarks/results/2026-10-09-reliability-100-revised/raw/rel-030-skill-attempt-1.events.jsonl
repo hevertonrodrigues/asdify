@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2e-3cfc-7e42-ab05-f844770d849c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Send an alert when the temperature stays above 72°C for at least 90 consecutive seconds. Reset the timer if the temperature falls to 72°C or below. Exactly 72°C does not trigger an alert."}}
+{"type":"turn.completed","usage":{"input_tokens":7011,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":47,"reasoning_output_tokens":0}}

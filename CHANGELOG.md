@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added 100 new paired live-model test cases with 373 meaning checks, nine locales, blinded double model review, exact-format checks, grader calibration, and reproducible raw-evidence auditing.
+- Published the initial comparison (97/100 strict skill-assisted passes versus 92/100 baseline) and a fresh revised-skill regression (99/100 versus 91/100), including all answers, failures, and context-dependent grading disagreements. Strengthened preservation of unnamed actors and sample-selection methods in the canonical skill and compact adapters. The follow-up reuses development cases and is not held-out evidence of general reliability.
+- Added 23 evaluation integrity tests, bringing the repository suite to 84. These checks verify corpus coverage, isolation, blinding, completeness, exact formats, calibration integrity, and preservation of raw evidence; they do not certify future model answers.
+- Added both published studies' raw-evidence audits to the existing Linux/macOS CI matrix without requiring model access.
 - Expanded all nine READMEs with installation choices, project/user scope, CLI confirmations, manual/ZIP installation, persistent instructions, Claude Code plugins, supported environment limits, updates, removal, and support routes.
 - Added a central support guide and extended installation guidance for Windows, WSL, remote/cloud environments, multiple agents, and the complete local/CLI option sets.
 - Clarified npm's optional Skills CLI download prompt across all READMEs and documented native Cursor installation without Node.js or npm, supported paths, discovery checks, and the two separate `--yes` options.

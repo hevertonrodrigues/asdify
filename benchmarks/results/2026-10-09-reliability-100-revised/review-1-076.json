@@ -1,0 +1,399 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-076",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Russian throughout: «Отчёт можно публиковать»."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "«только с письменного согласия и юриста, и финансового директора» requires written consent from both before publication."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "«только с письменного согласия и юриста, и финансового директора» excludes consent from just one."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "«молчание не считается согласием»."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Concise and complete; no additional decision-relevant source meaning is absent.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Russian throughout: «Отчёт нельзя публиковать»."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "«нельзя публиковать без письменного согласия обоих — юриста и финансового директора»."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "«письменного согласия обоих» excludes consent from just one."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "«Молчание не считается согласием»."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Concise and complete; no additional decision-relevant source meaning is absent.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve all conditions and exclusions with comparable clarity."
+    },
+    {
+      "case_id": "rel-077",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Only Portuguese translation: “O fornecedor poderá cancelar”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“O fornecedor poderá cancelar” expresses permission."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“aviso por escrito com antecedência mínima de 13 dias corridos”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“o cancelamento não extingue as faturas pendentes de pagamento”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithful translation retaining permission, notice requirements, and outstanding invoices.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Only Portuguese translation: “O fornecedor pode cancelar”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“O fornecedor pode cancelar” expresses permission."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“aviso por escrito com antecedência mínima de 13 dias corridos”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“o cancelamento não elimina as faturas não pagas”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithful translation retaining permission, notice requirements, and outstanding invoices.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The wording differences do not materially affect fidelity or usability."
+    },
+    {
+      "case_id": "rel-078",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: “The estimated reduction was”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The estimated reduction was 2.3 percentage points between January and March 2026.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The observational study does not establish causality”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“the data have not yet been audited”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning, including uncertainty and evidentiary limitations, is retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: “The estimated reduction was”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The estimated reduction was 2.3 percentage points between January and March 2026.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The observational study does not establish causality”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“the data have not yet been audited”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning, including uncertainty and evidentiary limitations, is retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical."
+    },
+    {
+      "case_id": "rel-079",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The complete output is a valid JSON object with unchanged quoted keys \"message\" and \"warning\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Olá, {name}. Sua exportação” and “Não feche {{window}}” use Portuguese and preserve both placeholders exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Sua exportação pode levar até 11 minutos após a aprovação.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Não feche {{window}} até que o download seja concluído.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Only string values are translated; all meaning, keys, and protected placeholders are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The complete output is a valid JSON object with unchanged quoted keys \"message\" and \"warning\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Olá, {name}. Sua exportação” and “Não feche {{window}}” use Portuguese and preserve both placeholders exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Sua exportação pode levar até 11 minutos após a aprovação.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Não feche {{window}} até que o download seja concluído.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Only string values are translated; all meaning, keys, and protected placeholders are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical."
+    },
+    {
+      "case_id": "rel-080",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Spanish throughout: “Cualquiera de las partes podrá”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Cualquiera de las partes podrá dar por terminado” and “Esta facultad no obliga a ninguna de las partes”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“aviso por escrito con al menos 16 días naturales de antelación”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“los cargos vencidos seguirán siendo exigibles”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission without obligation, written calendar-day notice, and continued payment liability. “El contrato” reasonably supplies the implied object of termination.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Spanish throughout: “Cualquiera de las partes podrá”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Cualquiera de las partes podrá dar por terminado” and “Esta facultad no obliga a ninguna de las partes”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“aviso por escrito con al menos 16 días naturales de antelación”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“las cuotas vencidas seguirán siendo pagaderas”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission without obligation, written calendar-day notice, and continued payment liability. “El acuerdo” reasonably supplies the implied object of termination.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both faithfully convey the operative terms; lexical differences do not create a meaningful quality difference."
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-066",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "French throughout: « Le responsable peut demander un second contrôle. »"
+            },
+            {
+              "invariant_id": 2,
+              "status": "missing",
+              "evidence": "« Le responsable peut demander un second contrôle » preserves permission but omits the explicit statement that requesting it is not obligatory."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "« Dans ce cas, l’équipe doit le terminer avant toute publication. »"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "The explicit absence of an obligation is omitted; all other source meaning is retained.",
+          "meaning_fidelity": 4,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 4,
+          "fit_for_purpose": 3
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "French throughout: « Le responsable peut demander un second contrôle, sans obligation. »"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "« peut demander un second contrôle, sans obligation »"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "« S’il le demande, l’équipe doit le terminer avant toute publication. »"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission, non-obligation, the conditional duty, and its deadline. No additional material meaning is lost.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B explicitly retains that requesting the second check is not obligatory."
+    },
+    {
+      "case_id": "rel-067",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "German throughout: „Von den 190 eingeladenen Personen nahmen 68 an der Befragung teil.“"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "„68 an der Befragung teil. Davon bevorzugten 27 die neue Oberfläche.“"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "„Von den 190 eingeladenen Personen“"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "„Die Präferenzen der 122 Personen, die nicht teilnahmen, sind unbekannt.“"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning and clarifies the nonrespondent group using the supported calculation 190 − 68 = 122, without extrapolating preferences.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "German throughout: „Von 190 eingeladenen Personen wurden 68 befragt.“"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "„wurden 68 befragt. Davon bevorzugten 27 die neue Oberfläche.“"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "„Von 190 eingeladenen Personen“"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "„Die Präferenzen der übrigen Personen sind unbekannt.“"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all material meaning without extrapolation, although the remaining group is less explicitly identified than in A.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "A more clearly identifies whose preferences are unknown while preserving the respondent denominator."
+    },
+    {
+      "case_id": "rel-068",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "German throughout: „Die Lieferung darf erst nach Zustimmung der Qualitätssicherung freigegeben werden.“"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "„darf erst nach Zustimmung der Qualitätssicherung freigegeben werden“"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "„Eine mündliche Zustimmung reicht nicht aus. Die Freigabe muss schriftlich erfolgen.“"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all source conditions, actors, and written-release requirements.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "German throughout: „Die Lieferung darf erst nach Zustimmung der Qualitätssicherung freigegeben werden.“"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "„darf erst nach Zustimmung der Qualitätssicherung freigegeben werden“"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "„Eine mündliche Zustimmung reicht nicht. Die Freigabe muss schriftlich erfolgen.“"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all source conditions, actors, and written-release requirements.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The minor wording difference does not meaningfully affect fidelity or clarity."
+    },
+    {
+      "case_id": "rel-069",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Japanese throughout: 「2026年7月の暫定売上は税抜き460万円で」"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "「2026年7月の暫定売上は税抜き460万円で、前年同月比8％増です。」"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "「税抜き460万円」"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "「この数値は未監査です。」"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the date, provisional status, amount, comparison, tax exclusion, and unaudited status. No additional source meaning is lost.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Japanese throughout: 「2026年7月の暫定売上は、税抜きで460万円です。」"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "「2026年7月の暫定売上は、税抜きで460万円です。前年同月比で8%増加しました。」"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "「税抜きで460万円」"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "「この数値はまだ監査されていません。」"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every material fact and qualification in clear Japanese.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear and faithful; sentence length and terminology create no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-070",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Japanese throughout: 「担当者は任意で追加資料を求めることができ」"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "「担当者は任意で追加資料を求めることができ」"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "「申請者は求められた場合、5営業日以内に提出する必要があります。」"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the optional request and the applicant's conditional obligation within five business days. No additional material meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Japanese throughout: 「担当者による追加資料の要求は任意です。」"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "「担当者による追加資料の要求は任意です。」"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "「要求された場合、申請者は5営業日以内に提出しなければなりません。」"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly separates the optional request from the mandatory response and preserves the deadline.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both concisely preserve the distinction between optional requesting and mandatory submission."
+    }
+  ]
+}

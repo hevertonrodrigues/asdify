@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e23-b938-76d3-9573-1e2296bed222"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il fornitore può procedere all’annullamento con un preavviso scritto di almeno 18 giorni di calendario. Si tratta di una facoltà, non di un obbligo, e l’annullamento non estingue le penali non pagate."}}
+{"type":"turn.completed","usage":{"input_tokens":6997,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":165,"reasoning_output_tokens":105}}

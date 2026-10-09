@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2b-f004-7772-8867-3bb0ed7da2f9"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"O fornecedor pode cancelar mediante aviso por escrito com antecedência mínima de 13 dias corridos, mas o cancelamento não elimina as faturas não pagas."}}
+{"type":"turn.completed","usage":{"input_tokens":6994,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":36,"reasoning_output_tokens":0}}

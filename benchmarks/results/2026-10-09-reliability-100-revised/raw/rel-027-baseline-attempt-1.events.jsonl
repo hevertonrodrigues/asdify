@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e26-050a-75d3-baab-9acb8a160c3c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Backups are encrypted while stored, but transfers between the backup server and the archive are not yet encrypted. Encryption at rest protects stored backups; it does not protect them during transfer."}}
+{"type":"turn.completed","usage":{"input_tokens":3734,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

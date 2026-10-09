@@ -1,0 +1,19 @@
+
+│
+●   codex  Agent detected — installing non-interactively
+│
+◇  Source: /Users/hr/projects/asdify
+│
+◇  Local path validated
+│
+◇  Found 1 skill
+
+│
+◇  Available Skills
+│
+│    asdify
+│
+│      Make AI answers, reports, documentation, and business writing clear, precise, concise, and easy to review without losing meaning. Use when drafting, rewriting, translating, explaining, summarizing, or reviewing communication in any language, especially when the user wants plain language, less fluff, fewer ambiguities, better executive summaries, or direct recommendations.
+
+│
+└  Use --skill <name> to install specific skills

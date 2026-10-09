@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df6-4117-7113-9edc-34b4d4fdb3d4"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The cafe opened Monday at 08:30 but closed at 16:00 after its water supply failed. The owner is unsure whether it can reopen Tuesday, and no repair company has been booked."}}
+{"type":"turn.completed","usage":{"input_tokens":3756,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":44,"reasoning_output_tokens":0}}

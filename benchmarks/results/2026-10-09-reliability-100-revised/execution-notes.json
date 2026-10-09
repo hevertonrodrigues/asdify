@@ -1,0 +1,11 @@
+{
+  "generation_workers": 4,
+  "review_workers": 4,
+  "review_batch_scheduling": "Fixed five-case batches graded only after both answers exist for every case. Generation sessions receive no ratings.",
+  "purpose": "Fresh paired regression after two rules were strengthened using the initial run. Same 100 cases; not held-out generalization evidence.",
+  "calibration": "Judge/model/effort unchanged. Reuses the initial run calibration evidence; no second calibration run is claimed.",
+  "generator_runner_snapshot": "Captured during generation, after report-only changes. No post-freeze changes to generation/review prompts, CLI settings, cases, or evaluated skill. Audit reconstructs actual prompt hashes and raw events.",
+  "followup_stopping_rule": "One targeted skill revision followed by one complete new 100-case paired run, regardless of score. No further tuning or semantic regeneration to force a perfect result.",
+  "completion": "All 200 generation requests and 40 review requests completed. Generation exited 0. The watcher exited 1 after strict validation rejected two budget-review batches; their original model JSON was retained unchanged with four declared rel-040 rule conflicts after source inspection. Both full review passes and the raw-evidence audit then passed. No model request was regenerated.",
+  "calibration_reference_verified": true
+}

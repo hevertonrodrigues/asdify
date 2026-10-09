@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dff-67fb-7e61-8e9f-6377f5af4cf0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"No. Attendance is recommended when possible, but no attendance requirement has been adopted."}}
+{"type":"turn.completed","usage":{"input_tokens":3736,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":20,"reasoning_output_tokens":0}}

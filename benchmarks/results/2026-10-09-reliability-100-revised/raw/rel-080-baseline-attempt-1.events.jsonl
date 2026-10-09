@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e26-050b-7ab2-8200-4e2fafdda93e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Cualquiera de las partes podrá dar por terminado el contrato mediante aviso por escrito con al menos 16 días naturales de antelación. Esta facultad no obliga a ninguna de las partes a darlo por terminado, y los cargos vencidos seguirán siendo exigibles."}}
+{"type":"turn.completed","usage":{"input_tokens":3732,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":59,"reasoning_output_tokens":0}}

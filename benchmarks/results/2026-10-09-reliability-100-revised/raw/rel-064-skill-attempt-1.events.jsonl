@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2f-22ba-72e0-a40b-4816b489dba8"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Envía el informe solo si Ana y Luis lo han aprobado por escrito. Una sola aprobación no basta, y el silencio no equivale a aprobación."}}
+{"type":"turn.completed","usage":{"input_tokens":7001,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":34,"reasoning_output_tokens":0}}

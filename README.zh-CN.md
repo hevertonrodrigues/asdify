@@ -161,7 +161,7 @@ excluding refunds. These figures are unaudited.
 
 ## 验证与支持
 
-如果更短的回答改变了重要事实，就不能通过评估。仓库包含九种语言的改写和翻译回归测试输入、人工评审标准及[可复现的评估流程](benchmarks/README.md)。**尚未证明真实模型的输出质量有所提升。** 参阅[软件包验证](docs/VERIFICATION.md)和[兼容性说明](docs/COMPATIBILITY.md)。
+如果更短的回答改变了重要事实，就不能通过评估。仓库包含九种语言的改写和翻译测试输入、人工评审标准及[可复现的评估流程](benchmarks/README.md)。[已记录的100个案例测试](benchmarks/results/README.md)使用一个模型和`full`模式，并由模型进行两轮盲评；首次发现的问题促成了含义保留规则的修正。**普遍可靠性和广泛的质量提升仍未得到证明。** 参阅[软件包验证](docs/VERIFICATION.md)和[兼容性说明](docs/COMPATIBILITY.md)。
 
 | 问题 | 获取帮助 |
 | --- | --- |

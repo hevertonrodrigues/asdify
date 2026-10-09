@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df2-b668-7181-8cd3-763ed84fc7bf"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Who must notify the client after Lee sends Morgan the file: Lee, Morgan, or both?"}}
+{"type":"turn.completed","usage":{"input_tokens":3739,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":23,"reasoning_output_tokens":0}}

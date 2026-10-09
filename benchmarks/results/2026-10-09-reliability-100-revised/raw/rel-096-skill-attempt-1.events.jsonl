@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e27-1e99-7131-9e69-386da8a8a103"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The provisional cost is €3,750 per month for up to 24 users, excluding VAT. The figures have not yet been verified and do not constitute a binding quote."}}
+{"type":"turn.completed","usage":{"input_tokens":7010,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":39,"reasoning_output_tokens":0}}

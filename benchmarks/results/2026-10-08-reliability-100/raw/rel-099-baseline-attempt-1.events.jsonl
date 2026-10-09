@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfa-378a-7a62-be78-c5d463590aac"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The preliminary return rate decreased from 17% to 14%, a drop of 3 percentage points. The analysis covers only November and does not prove that the change was caused by the new policy."}}
+{"type":"turn.completed","usage":{"input_tokens":3754,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":44,"reasoning_output_tokens":0}}

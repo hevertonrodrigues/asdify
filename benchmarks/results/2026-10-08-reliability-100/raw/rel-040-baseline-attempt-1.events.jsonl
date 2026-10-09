@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df7-0124-7e33-ba82-f3e2446bbaea"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"No—not yet. Including optional training, the pre-tax total is **USD 2,930**, leaving **USD 270** for tax.\n\nThe complete purchase is within the **USD 3,200** budget only if total tax is **USD 270 or less**. Without the tax rate, we cannot confirm."}}
+{"type":"turn.completed","usage":{"input_tokens":3757,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":107,"reasoning_output_tokens":36}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e27-1e99-7d53-b064-0817d1093287"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il fornitore può rimandare la consegna una sola volta, avvisando per iscritto almeno 7 giorni di calendario prima. Le penali già maturate restano dovute."}}
+{"type":"turn.completed","usage":{"input_tokens":3741,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":45,"reasoning_output_tokens":0}}

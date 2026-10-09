@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2a-d9c7-7580-8cbd-94f446d66661"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Любая из сторон может запросить пересмотр, но для публикации требуется письменное одобрение обеих сторон. Молчание не означает одобрения, и срок пересмотра не согласован."}}
+{"type":"turn.completed","usage":{"input_tokens":7002,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":46,"reasoning_output_tokens":0}}

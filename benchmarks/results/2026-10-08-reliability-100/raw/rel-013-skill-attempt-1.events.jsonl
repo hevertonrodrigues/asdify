@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e02-96bf-7b03-8e80-d5e06d9e7c29"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Access is allowed only when a security officer is present and you present either a valid badge or a temporary pass. You do not need both."}}
+{"type":"turn.completed","usage":{"input_tokens":6892,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":32,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df1-a521-74e1-b98f-b703c3bbcedf"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Warehouse reported 76 returned units; Finance reported 81 for the same week and location—a five-unit discrepancy that remains unreconciled. Refund totals cannot be finalized until it is resolved. Marta owns the reconciliation, but no deadline has been assigned."}}
+{"type":"turn.completed","usage":{"input_tokens":3757,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

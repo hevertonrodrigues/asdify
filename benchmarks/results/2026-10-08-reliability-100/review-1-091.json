@@ -1,0 +1,399 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-091",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Japanese prose includes \"こんにちは、{name}さん\" and \"ファイル{{file}}\", preserving both placeholders exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"承認後、エクスポートには最大14分かかる場合があります。\" preserves approval timing, possibility, and the 14-minute maximum."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"バックアップが確認されるまで、ファイル{{file}}を削除しないでください。\" prohibits deletion until backup verification."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting and all substantive source meaning, with valid JSON and intact placeholders.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Japanese prose includes \"こんにちは、{name}さん\" and \"ファイル {{file}}\", preserving both placeholders exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"承認後、エクスポートには最大14分かかる場合があります。\" preserves approval timing, possibility, and the 14-minute maximum."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"バックアップが検証されるまで、ファイル {{file}} を削除しないでください。\" prohibits deletion until backup verification."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting and all substantive source meaning, with valid JSON and intact placeholders.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both faithfully translate the complete source; the verification wording and spacing differences do not materially affect quality."
+    },
+    {
+      "case_id": "rel-092",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"客户可推迟交付一次\" is Simplified Chinese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"客户可推迟交付一次\" preserves the customer's permission and one-time limit."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"但须至少提前3个工作日发出书面通知\" preserves the required written notice and minimum three business days."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"推迟交付并不免除已到期应付的费用。\" preserves liability for already-due charges."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning is retained, including permission, notice conditions, and the non-waiver of charges.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"客户可推迟交付一次\" is Simplified Chinese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"客户可推迟交付一次\" preserves the customer's permission and one-time limit."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"但须至少提前3个工作日发出书面通知\" preserves the required written notice and minimum three business days."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"推迟交付不免除已到期的应付费用。\" preserves liability for already-due charges."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning is retained, including permission, notice conditions, and the non-waiver of charges.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The minor wording differences preserve the same meaning and comparable fluency."
+    },
+    {
+      "case_id": "rel-093",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The renewal rate is estimated to have fallen\" is English."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"is estimated to have fallen from 54% to 50%, a decline of 4 percentage points, not a relative decline of 4%\" preserves uncertainty, values, and the absolute-versus-relative distinction."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"These data cover only October\" preserves the exclusive temporal scope."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"have not yet been audited\" preserves the audit status."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithfully translates all source claims and qualifications without additions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The estimated renewal rate fell\" is English."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The estimated renewal rate fell from 54% to 50%, a decrease of 4 percentage points, not a relative decrease of 4%\" preserves the estimate, values, and absolute-versus-relative distinction."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"These data cover only October\" preserves the exclusive temporal scope."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"have not yet been audited\" preserves the audit status."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithfully translates all source claims and qualifications without additions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the estimated nature of the figures, the percentage-point distinction, and all scope limitations."
+    },
+    {
+      "case_id": "rel-094",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"你好，{name}。\" and \"发票 {{id}}\" use Simplified Chinese and preserve both placeholders exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"该报价不含税，且不是最终报价。\" preserves both tax exclusion and non-finality."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"在财务部门书面批准之前，不得发送发票 {{id}}。\" preserves the prohibition pending written finance approval."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting, quote limitations, approval condition, JSON structure, and placeholders.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"你好，{name}。\" and \"发票 {{id}}\" use Simplified Chinese and preserve both placeholders exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"报价不含税，且并非最终报价。\" preserves both tax exclusion and non-finality."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"在财务部门书面批准之前，请勿发送发票 {{id}}。\" preserves the prohibition pending written finance approval."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting, quote limitations, approval condition, JSON structure, and placeholders.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are complete, accurate translations; the phrasing differences do not change the prohibition or other substantive meaning."
+    },
+    {
+      "case_id": "rel-095",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"Il fornitore può recedere\" is Italian."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Il fornitore può recedere\" and \"Si tratta di una facoltà, non di un obbligo\" preserve permission rather than duty."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"con un preavviso scritto di almeno 18 giorni di calendario\" preserves written notice, the minimum, and calendar-day units."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"il recesso non estingue le penali non pagate\" preserves unpaid penalties after cancellation."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning, including the explicit permission-versus-duty distinction and continuing penalties.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"Il fornitore può annullare\" is Italian."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Il fornitore può annullare\" and \"Si tratta di una facoltà, non di un obbligo\" preserve permission rather than duty."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"con un preavviso scritto di almeno 18 giorni di calendario\" preserves written notice, the minimum, and calendar-day units."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"l’annullamento non estingue le penali non pagate\" preserves unpaid penalties after cancellation."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning, including the explicit permission-versus-duty distinction and continuing penalties.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the cancellation permission and all conditions; the source supplies no context requiring one Italian cancellation term over the other."
+    }
+  ]
+}

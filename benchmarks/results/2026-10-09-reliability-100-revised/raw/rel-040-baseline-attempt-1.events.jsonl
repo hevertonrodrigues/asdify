@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e26-050b-7a83-ad1e-391442ff1928"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"No—we can’t confirm without the tax rate.\n\n- Equipment + delivery: **USD 2,630**, leaving **USD 570** for tax.\n- With optional training: **USD 2,930**, leaving **USD 270** for tax.\n\nThe complete purchase is within the **USD 3,200** budget only if applicable tax stays within the remaining amount."}}
+{"type":"turn.completed","usage":{"input_tokens":3759,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":80,"reasoning_output_tokens":0}}

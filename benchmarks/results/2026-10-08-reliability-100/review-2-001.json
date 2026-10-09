@@ -1,0 +1,381 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-001",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Provisional service revenue” preserves both qualifications."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“for Q2 2026 was EUR 8.4 million” and “up 7% from Q2 2025”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“excluding tax”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“The result is unaudited.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clear revised text retaining all substantive source meaning.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Provisional service revenue” preserves both qualifications."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“EUR 8.4 million in Q2 2026, up 7% from Q2 2025”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“excluding tax”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“The result has not been audited.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Removes the introductory padding while retaining all substantive source meaning.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, faithful rewrites; wording differences are not consequential."
+    },
+    {
+      "case_id": "rel-002",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“rose from 19% to 24%”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“a 5-percentage-point increase—not a 5% relative increase”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“for paid annual accounts” and “Both measurements cover May.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the population, timing, and distinction between percentage points and relative growth.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“rose from 19% to 24%”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“an increase of 5 percentage points, not a 5% relative increase”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The renewal rate for paid annual accounts in May rose from 19% to 24%” scopes both values to the same population and month."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Integrates the shared population and timing without losing substantive meaning.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are readily scannable and complete; the sentence-count difference is not a meaningful quality difference."
+    },
+    {
+      "case_id": "rel-003",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The estimated failure risk decreased from 4 in 1,000 to 3 in 1,000.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“a 25% relative reduction and an absolute reduction of 1 in 1,000”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“These figures are modeled estimates, not observed outcomes.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly separates the risk change, its two measures, and the modeling caveat.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The estimated failure risk fell from 4 in 1,000 to 3 in 1,000.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“a 25% relative reduction and an absolute reduction of 1 in 1,000”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“These figures are modeled estimates, not observed outcomes.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly retains every numerical claim and the distinction between estimates and observations.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates differ only in equivalent wording."
+    },
+    {
+      "case_id": "rel-004",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Of the 83 respondents who answered the optional question, 29 selected remote work.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“all 240 invited staff members”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“These results do not represent all 240 invited staff members”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“the preferences of those who did not respond are unknown”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains the optional-question denominator and both limitations on interpretation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Of the 83 respondents who answered the optional question, 29 selected remote work.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“all 240 invited staff members”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“This result does not represent all 240 invited staff members”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“nonrespondents’ preferences are unknown”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all counts, scope restrictions, and uncertainty about nonrespondents.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both communicate the same complete result and limitations clearly."
+    },
+    {
+      "case_id": "rel-005",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "“Delivery usually takes 6–9 business days” adds a typical-performance claim, although “This timeframe is an estimate” retains the estimate caveat."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“after your payment clears”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“not including customs delays”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“This timeframe is an estimate, not a guarantee.”"
+            }
+          ],
+          "unsupported_claims": [
+            "“Delivery usually takes 6–9 business days” asserts typical delivery performance; the source supplies only an estimated interval."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "The later caveat does not remove the unsupported claim about what usually happens.",
+          "meaning_fidelity": 4,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 3,
+          "fit_for_purpose": 3
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Estimated delivery is 6–9 business days”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“after payment clears”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“excluding customs delays”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“This is not a guaranteed deadline.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Simplifies the update while retaining the estimate, starting condition, exclusion, and lack of guarantee.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B preserves the estimate without A's unsupported claim about usual delivery performance."
+    }
+  ]
+}

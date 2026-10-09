@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e27-1e97-7b42-88d8-46b49587d97a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"A receita preliminar de serviços em abril de 2026 foi de R$ 3,8 milhões, sem impostos, 6% acima de abril de 2025. Os valores ainda não foram auditados."}}
+{"type":"turn.completed","usage":{"input_tokens":7018,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":48,"reasoning_output_tokens":0}}

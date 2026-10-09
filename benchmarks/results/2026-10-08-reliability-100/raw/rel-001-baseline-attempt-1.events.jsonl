@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfd-b98f-77b1-96ec-5967be2ddd03"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Provisional service revenue for Q2 2026 was EUR 8.4 million, excluding tax, up 7% from Q2 2025. The result is unaudited."}}
+{"type":"turn.completed","usage":{"input_tokens":3755,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":43,"reasoning_output_tokens":0}}

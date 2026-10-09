@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df0-8922-7c42-8dec-8e2977d1f116"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Le responsable peut demander un second contrôle, sans obligation. S’il le demande, l’équipe doit le terminer avant toute publication."}}
+{"type":"turn.completed","usage":{"input_tokens":6893,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":29,"reasoning_output_tokens":0}}

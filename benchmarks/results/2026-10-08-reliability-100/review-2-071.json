@@ -1,0 +1,389 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-071",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Simplified Chinese: “上述数据仅涵盖八月的年度付费账户。”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“续订率由41%升至47%，提高了6个百分点，而不是相对增长6%。”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“上述数据仅涵盖八月的年度付费账户。”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning, including the percentage-point distinction and account/month scope.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Simplified Chinese: “这些数据不涵盖其他月份或其他类型的账户。”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“续订率从41%升至47%，提高了6个百分点，不是相对增长6%。”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“八月年度付费账户的续订率” and “这些数据不涵盖其他月份或其他类型的账户。”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning; the explicit exclusions restate the source's limited scope.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clearly preserve the numerical distinction and restricted data scope, with no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-072",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Simplified Chinese: “报告须经财务和法务双方书面批准后方可发布”。"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“报告须经财务和法务双方书面批准后方可发布”。"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“单方批准或未回复均不视为获批”。"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“单方批准或未回复均不视为获批”。"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The combined final clause preserves both insufficient unilateral approval and the absence of consent through silence.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Simplified Chinese: “仅一方批准不满足要求，未回复不代表同意。”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“报告须经财务和法务双方书面批准后才能发布。”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“仅一方批准不满足要求”。"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“未回复不代表同意。”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the written approval requirement, both approving actors, publication sequence, and both exclusions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both simplify the approval rule without losing any condition; their differences are stylistic."
+    },
+    {
+      "case_id": "rel-073",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Italian: “Il canone stimato è di 1.850 euro al mese”. "
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Il canone stimato è di 1.850 euro al mese, IVA esclusa, e copre fino a 16 utenti.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“È inoltre previsto un costo di attivazione una tantum di 320 euro.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Il canone resta invariato anche se si utilizzano meno utenti.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the estimate, monthly charge, VAT exclusion, user limit, additional activation fee, and no reduction for unused users.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Italian: “Il canone non diminuisce se si utilizzano meno utenti.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Il costo stimato è di 1.850 euro al mese, IVA esclusa, per un massimo di 16 utenti.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“L’attivazione ha un costo aggiuntivo di 320 euro una tantum.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Il canone non diminuisce se si utilizzano meno utenti.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all pricing conditions and uncertainty without introducing additional claims.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, complete pricing rewrites; the different sentence order does not materially affect quality."
+    },
+    {
+      "case_id": "rel-074",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Italian: “Le penali già maturate restano dovute.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Il fornitore può rinviare la consegna una sola volta”. "
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“avvisando per iscritto almeno 7 giorni di calendario prima.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Le penali già maturate restano dovute.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves optional postponement, the one-time limit, minimum written calendar-day notice, and continued accrued penalties.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Italian: “Le penali già maturate restano valide.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Il fornitore può rinviare la consegna una sola volta”. "
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“avvisando per iscritto almeno 7 giorni di calendario prima.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Le penali già maturate restano valide.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every source condition; saying accrued penalties remain valid retains their survival after postponement.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical except for an equivalent expression of accrued penalties remaining in force."
+    },
+    {
+      "case_id": "rel-075",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Russian: “Эти данные ещё не прошли аудит.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“По предварительным данным, выручка за май 2026 года составила 7,2 млн рублей без НДС”. "
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“на 9% больше, чем за май 2025 года.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Эти данные ещё не прошли аудит.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains the provisional status, amount, currency, VAT exclusion, both dates, relative increase, and unaudited status.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Uses Russian: “Данные ещё не прошли аудит.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“По предварительным данным, выручка за май 2026 года составила 7,2 млн рублей без НДС”. "
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“на 9% больше, чем в мае 2025 года.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Данные ещё не прошли аудит.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all financial facts and both uncertainty qualifications, with no material omission or addition.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both provide equally clear and faithful rewrites; their minor wording differences do not affect meaning."
+    }
+  ]
+}

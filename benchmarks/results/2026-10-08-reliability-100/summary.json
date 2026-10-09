@@ -1,0 +1,489 @@
+{
+  "generated_at_utc": "2026-10-09T01:30:37.817082+00:00",
+  "cases": 100,
+  "outputs": 200,
+  "task_characters": {
+    "minimum": 49,
+    "maximum": 740,
+    "mean": 213.6
+  },
+  "reviewed_outputs": 400,
+  "semantic_invariants_per_arm": 373,
+  "arms": {
+    "baseline": {
+      "outputs": 100,
+      "hard_failures_union_of_reviews_and_exact_checks": 8,
+      "uncertain_outputs": 0,
+      "confirmed_passes_both_model_reviews_and_exact_checks": 92,
+      "hard_failure_disagreements": 1,
+      "inconsistent_model_verdicts": 0,
+      "mean_dimension_scores": {
+        "meaning_fidelity": 4.855,
+        "clarity": 4.94,
+        "signal_density": 4.935,
+        "structure": 4.985,
+        "calibration": 4.91,
+        "fit_for_purpose": 4.8
+      },
+      "mean_output_characters": 182.0,
+      "mean_cli_input_tokens": 3745.2,
+      "mean_cli_output_tokens": 50.7,
+      "mean_generation_request_seconds_including_retries": 38.66
+    },
+    "skill": {
+      "outputs": 100,
+      "hard_failures_union_of_reviews_and_exact_checks": 3,
+      "uncertain_outputs": 0,
+      "confirmed_passes_both_model_reviews_and_exact_checks": 97,
+      "hard_failure_disagreements": 1,
+      "inconsistent_model_verdicts": 1,
+      "mean_dimension_scores": {
+        "meaning_fidelity": 4.975,
+        "clarity": 4.985,
+        "signal_density": 4.99,
+        "structure": 5.0,
+        "calibration": 4.99,
+        "fit_for_purpose": 4.95
+      },
+      "mean_output_characters": 179.9,
+      "mean_cli_input_tokens": 6901.1,
+      "mean_cli_output_tokens": 50.6,
+      "mean_generation_request_seconds_including_retries": 38.5
+    }
+  },
+  "categories": {
+    "ambiguity": {
+      "cases": 4,
+      "baseline": {
+        "hard_failures": 1,
+        "confirmed_passes": 3
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 4
+      }
+    },
+    "analysis": {
+      "cases": 8,
+      "baseline": {
+        "hard_failures": 4,
+        "confirmed_passes": 4
+      },
+      "skill": {
+        "hard_failures": 2,
+        "confirmed_passes": 6
+      }
+    },
+    "conditions": {
+      "cases": 11,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 11
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 11
+      }
+    },
+    "format": {
+      "cases": 4,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 4
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 4
+      }
+    },
+    "native-rewrite": {
+      "cases": 16,
+      "baseline": {
+        "hard_failures": 1,
+        "confirmed_passes": 15
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 16
+      }
+    },
+    "numbers": {
+      "cases": 10,
+      "baseline": {
+        "hard_failures": 2,
+        "confirmed_passes": 8
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 10
+      }
+    },
+    "scope": {
+      "cases": 4,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 4
+      },
+      "skill": {
+        "hard_failures": 1,
+        "confirmed_passes": 3
+      }
+    },
+    "summary": {
+      "cases": 5,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 5
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 5
+      }
+    },
+    "technical": {
+      "cases": 10,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 10
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 10
+      }
+    },
+    "translation": {
+      "cases": 16,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 16
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 16
+      }
+    },
+    "translation-format": {
+      "cases": 8,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 8
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 8
+      }
+    },
+    "voice": {
+      "cases": 4,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 4
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 4
+      }
+    }
+  },
+  "language_results": {
+    "de task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "de->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "en task": {
+      "cases": 60,
+      "baseline": {
+        "hard_failures": 7,
+        "confirmed_passes": 53
+      },
+      "skill": {
+        "hard_failures": 3,
+        "confirmed_passes": 57
+      }
+    },
+    "en->de": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->es": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->fr": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->it": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->ja": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->pt-BR": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->ru": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "en->zh-CN": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "es task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "es->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "fr task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "fr->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "it task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "it->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "ja task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 1,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "ja->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "pt-BR task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "pt-BR->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "ru task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "ru->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    },
+    "zh-CN task": {
+      "cases": 2,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 2
+      }
+    },
+    "zh-CN->en": {
+      "cases": 1,
+      "baseline": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      },
+      "skill": {
+        "hard_failures": 0,
+        "confirmed_passes": 1
+      }
+    }
+  },
+  "paired": {
+    "both_pass": 91,
+    "skill_only_pass": 6,
+    "neither_confirmed_pass": 2,
+    "baseline_only_pass": 1
+  },
+  "review_preferences": {
+    "tie": 166,
+    "B": 25,
+    "neither": 3,
+    "invalid": 1,
+    "A": 5
+  },
+  "paired_preferences_agree": 93,
+  "limitations": [
+    "One generation model and one repetition; one explicit full-mode instruction condition.",
+    "Two model-review passes share a model family with generation and can share blind spots.",
+    "No independent bilingual/native-speaker review or user comprehension test.",
+    "Small uneven language samples cannot certify any locale or translation direction.",
+    "Neither native activation nor lite/ultra/off modes are evaluated.",
+    "Source material is synthetic; tasks do not verify external factual truth.",
+    "No concise-prompt control; this comparison cannot isolate value beyond Be concise.",
+    "A passing sample cannot guarantee reliability on future tasks."
+  ]
+}

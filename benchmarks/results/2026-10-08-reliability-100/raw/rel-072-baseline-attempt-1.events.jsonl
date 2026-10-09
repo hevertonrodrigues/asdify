@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfa-cc49-75a3-bffc-05c14d7e5d22"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"报告须经财务和法务双方书面批准后方可发布；单方批准或未回复均不视为获批。"}}
+{"type":"turn.completed","usage":{"input_tokens":3735,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":34,"reasoning_output_tokens":0}}

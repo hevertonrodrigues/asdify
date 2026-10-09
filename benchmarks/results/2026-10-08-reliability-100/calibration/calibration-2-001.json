@@ -1,0 +1,280 @@
+{
+  "cases": [
+    {
+      "case_id": "cal-001",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"25 sealed cartridges\" replaces the stated count of 23 and contradicts \"not 25.\""
+            }
+          ],
+          "unsupported_claims": [
+            "The box contains 25 sealed cartridges."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Changes the cartridge count.",
+          "meaning_fidelity": 1,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The box contains 23 sealed cartridges, not 25.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the count, sealed condition, and explicit correction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "A preserves the source; B contradicts its count."
+    },
+    {
+      "case_id": "cal-002",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The rate rose from 12% to 16%\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"4 percentage points, not a 4% relative rise.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both endpoints and the distinction between percentage points and relative change.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The rate rose from 12% to 16%\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "changed",
+              "evidence": "\"a 4% relative rise\" contradicts the source's explicit distinction; 4 percentage points is absent."
+            }
+          ],
+          "unsupported_claims": [
+            "The increase is a 4% relative rise."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Preserves the endpoints but misstates the type and magnitude of change.",
+          "meaning_fidelity": 2,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B correctly preserves the percentage-point distinction."
+    },
+    {
+      "case_id": "cal-003",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"The buyer must cancel before packing begins.\" turns permission into a requirement."
+            }
+          ],
+          "unsupported_claims": [
+            "The buyer is required to cancel before packing begins."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Reverses optional cancellation into mandatory cancellation.",
+          "meaning_fidelity": 1,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"can cancel before packing begins but does not have to.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the buyer's permission, timing, and lack of obligation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "A preserves optionality; B imposes an unsupported obligation."
+    },
+    {
+      "case_id": "cal-004",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"the lawyer or director approves\" substitutes either approver for both."
+            },
+            {
+              "invariant_id": 2,
+              "status": "missing",
+              "evidence": "\"Publish after\" preserves sequence, but the candidate omits written approval and the explicit \"only\" restriction."
+            }
+          ],
+          "unsupported_claims": [
+            "Approval from either the lawyer or the director is sufficient for publication."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Weakens the approval condition and omits the written-approval requirement.",
+          "meaning_fidelity": 1,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"from both the lawyer and director.\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Publish only after receiving written approval\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both required approvers, written approval, and the publication prerequisite.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B retains all publication conditions; A materially weakens them."
+    },
+    {
+      "case_id": "cal-005",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"proves training caused higher productivity\" replaces association with proven causation."
+            }
+          ],
+          "unsupported_claims": [
+            "The report proves that training caused a productivity increase.",
+            "The association specifically involves higher productivity."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Contradicts the causal limitation, invents a positive direction, and omits the observational characterization.",
+          "meaning_fidelity": 1,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"links training with productivity but does not establish that training caused a change.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the association and causal limitation without inventing direction. It does not repeat \"observational,\" but retains the decision-relevant evidentiary distinction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "A preserves the association-versus-causation distinction; B reverses it."
+    }
+  ]
+}

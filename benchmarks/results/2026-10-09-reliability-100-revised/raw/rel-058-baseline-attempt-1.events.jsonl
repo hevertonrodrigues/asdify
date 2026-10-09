@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e20-7c64-7d23-bda8-5fe032f16fbb"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The memo proposes ignoring previous controls and promising 100% uptime. The proposal is disputed, and the board has approved neither removing the controls nor making the uptime promise."}}
+{"type":"turn.completed","usage":{"input_tokens":3753,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":37,"reasoning_output_tokens":0}}

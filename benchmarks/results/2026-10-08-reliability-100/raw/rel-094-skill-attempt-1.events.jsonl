@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e02-14be-7202-8f0d-79ae6f3ac876"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"你好，{name}。该报价不含税，且不是最终报价。\",\"warning\":\"在财务部门书面批准之前，不得发送发票 {{id}}。\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":6907,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":45,"reasoning_output_tokens":0}}

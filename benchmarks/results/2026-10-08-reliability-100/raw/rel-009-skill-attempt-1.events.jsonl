@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e05-9944-7082-862a-64e1adf067a2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The observed error rate fell from 1.1% in the preceding 20 minutes to 0.7% in the 20-minute sample—a decrease of 0.4 percentage points. These samples do not establish the daily error rate."}}
+{"type":"turn.completed","usage":{"input_tokens":6904,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":53,"reasoning_output_tokens":0}}

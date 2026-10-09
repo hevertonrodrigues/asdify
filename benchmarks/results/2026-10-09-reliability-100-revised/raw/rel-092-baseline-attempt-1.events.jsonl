@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2a-3970-7bc3-a3f9-0de11cc55074"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"客户可延期交付一次，但须至少提前3个工作日发出书面通知。延期交付不免除已到期应付的费用。"}}
+{"type":"turn.completed","usage":{"input_tokens":3733,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":38,"reasoning_output_tokens":0}}

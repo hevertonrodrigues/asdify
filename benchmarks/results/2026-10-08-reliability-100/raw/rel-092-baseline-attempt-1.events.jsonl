@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfb-7173-7090-935b-98390c7ecd1a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"客户可推迟交付一次，但须至少提前3个工作日发出书面通知。推迟交付并不免除已到期应付的费用。"}}
+{"type":"turn.completed","usage":{"input_tokens":3733,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":41,"reasoning_output_tokens":0}}

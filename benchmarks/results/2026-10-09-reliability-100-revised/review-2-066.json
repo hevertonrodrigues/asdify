@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-066",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Le responsable peut demander un second contrôle.” is French."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“peut demander un second contrôle” expresses permission rather than an obligation."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Dans ce cas, l’équipe doit le terminer avant toute publication.” preserves the condition, responsible actor, obligation, and sequence."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning; optionality is conveyed by “peut” rather than stated separately.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Le responsable peut demander un second contrôle, sans obligation.” is French."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“peut demander un second contrôle, sans obligation” explicitly preserves both permission and absence of obligation."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“S’il le demande, l’équipe doit le terminer avant toute publication.” preserves the conditional completion requirement."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Simplifies the source while explicitly retaining every decision-relevant distinction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Explicitly preserves the absence of obligation without sacrificing simplicity."
+    },
+    {
+      "case_id": "rel-067",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Von den 190 eingeladenen Personen nahmen 68 an der Befragung teil.” is German."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“nahmen 68 an der Befragung teil. Davon bevorzugten 27 die neue Oberfläche.” retains the respondent denominator."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“190 eingeladenen Personen” retains the invitation count."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Die Präferenzen der 122 Personen, die nicht teilnahmen, sind unbekannt.” explicitly limits the unknown preferences to nonparticipants and makes no extrapolation."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the source and clarifies the remaining group. The count 122 follows directly from 190 minus 68.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Von 190 eingeladenen Personen wurden 68 befragt.” is German."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“wurden 68 befragt. Davon bevorzugten 27 die neue Oberfläche.” preserves 27 out of 68."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Von 190 eingeladenen Personen” retains the invitation count."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Die Präferenzen der übrigen Personen sind unbekannt.” retains the unknown preferences without extrapolating."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning, although the remaining group is less explicitly identified than in A.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "Clarifies exactly whose preferences remain unknown and supplies their directly derivable count."
+    },
+    {
+      "case_id": "rel-068",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Die Lieferung darf erst nach Zustimmung der Qualitätssicherung freigegeben werden.” is German."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“darf erst nach Zustimmung der Qualitätssicherung freigegeben werden” retains approval as a prerequisite."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Eine mündliche Zustimmung reicht nicht aus. Die Freigabe muss schriftlich erfolgen.” retains both restrictions."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every source requirement in three clear sentences.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Die Lieferung darf erst nach Zustimmung der Qualitätssicherung freigegeben werden.” is German."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“darf erst nach Zustimmung der Qualitätssicherung freigegeben werden” retains the prerequisite and sequence."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Eine mündliche Zustimmung reicht nicht. Die Freigabe muss schriftlich erfolgen.” retains oral insufficiency and written release."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every source requirement in three clear sentences.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The difference between “reicht nicht” and “reicht nicht aus” creates no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-069",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“2026年7月の暫定売上は税抜き460万円で” is Japanese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“2026年7月の暫定売上は税抜き460万円で、前年同月比8％増です。” retains the date, provisional status, amount, currency, and comparison."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“税抜き460万円” explicitly excludes taxes."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“この数値は未監査です。” retains the unaudited status."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves all source facts and qualifications.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“2026年7月の暫定売上は、税抜きで460万円です。” is Japanese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“2026年7月の暫定売上は、税抜きで460万円です。前年同月比で8%増加しました。” retains the date, provisional status, amount, currency, and comparison."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“税抜きで460万円” explicitly excludes taxes."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“この数値はまだ監査されていません。” explicitly retains the not-yet-audited qualification."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves all source facts and qualifications.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, faithful rewrites; their sentence-length differences do not materially affect quality."
+    },
+    {
+      "case_id": "rel-070",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“担当者は任意で追加資料を求めることができ” is Japanese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“担当者は任意で追加資料を求めることができ” retains the responsible person's permission and optionality."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“申請者は求められた場合、5営業日以内に提出する必要があります。” retains the condition, applicant's obligation, and business-day deadline."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all meaning, but combines two distinct rules into a somewhat heavier sentence.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 4,
+          "structure": 4,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“担当者による追加資料の要求は任意です。” is Japanese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“担当者による追加資料の要求は任意です。” retains the responsible person's discretion to request documents."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“要求された場合、申請者は5営業日以内に提出しなければなりません。” retains the conditional obligation and exact deadline."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Concise and faithful, with the optional request and mandatory response clearly separated.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Separates discretion from the conditional obligation more cleanly and concisely."
+    }
+  ]
+}

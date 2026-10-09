@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e33-ae28-76d3-91c5-858fd9910ca8"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"| Feature | Offer A | Offer B |\n|---|---|---|\n| Cost before sales tax | CAD 1,100 per year | CAD 120 per month; CAD 1,440 over 12 months |\n| Devices | 6 | 10 |\n| Support | Email | Phone |\n\nOver 12 months, Offer B costs CAD 340 more and covers 4 more devices. Both exclude sales tax.\n\nNeither offer is clearly better without knowing the buyer’s device count and support needs."}}
+{"type":"turn.completed","usage":{"input_tokens":7024,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":106,"reasoning_output_tokens":0}}

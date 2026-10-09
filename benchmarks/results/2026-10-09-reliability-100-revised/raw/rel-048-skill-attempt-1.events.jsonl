@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2e-be34-77f2-bc2f-4460d7607781"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The export is ready for review but is not approved for release. Por favor, no lo publiques todavía. Sam will check the totals tomorrow, but that check does not guarantee approval."}}
+{"type":"turn.completed","usage":{"input_tokens":7012,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

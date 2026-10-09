@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2d-17c0-7e01-b15d-140b7ee69ef2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Le locataire peut demander une seule prolongation, mais doit soumettre sa demande au moins 9 jours calendaires avant l’échéance. L’approbation n’est pas garantie."}}
+{"type":"turn.completed","usage":{"input_tokens":3731,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":42,"reasoning_output_tokens":0}}

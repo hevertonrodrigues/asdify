@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e35-8f73-70e0-b25a-c5cfdc174483"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"1. Attach the signed form before submitting.\n2. Submit through Portal Q, not by email.\n3. Keep the receipt until finance confirms payment; submitting does not confirm payment."}}
+{"type":"turn.completed","usage":{"input_tokens":3756,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

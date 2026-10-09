@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dff-f11f-7221-a8ef-2ce37283bf5f"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"По предварительным данным, выручка за май 2026 года составила 7,2 млн рублей без НДС — на 9% больше, чем в мае 2025 года. Данные ещё не прошли аудит."}}
+{"type":"turn.completed","usage":{"input_tokens":6911,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":52,"reasoning_output_tokens":0}}

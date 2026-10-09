@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e31-6301-7bc0-9555-eb9d893dd8f9"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"In a study of 312 adults, activity was linked to scores that were 1.8 points higher on average. The estimated difference ranged from 0.2 to 3.4 points, with 95% confidence. The study does not show that activity caused the higher scores."}}
+{"type":"turn.completed","usage":{"input_tokens":3750,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":62,"reasoning_output_tokens":0}}

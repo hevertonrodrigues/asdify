@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e0c-cb70-7071-a677-4c38d906423e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"No. The report provides one manager’s account of fewer injuries after training, but that does not establish that the training caused the decrease. Without injury counts, observation periods, a comparison group, or independent verification, the report cannot confirm the reduction or attribute it to the training."}}
+{"type":"turn.completed","usage":{"input_tokens":3740,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":59,"reasoning_output_tokens":0}}

@@ -1,0 +1,177 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "case_id": {
+            "type": "string"
+          },
+          "ratings": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "candidate": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                },
+                "checks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "invariant_id": {
+                        "type": "integer"
+                      },
+                      "status": {
+                        "type": "string",
+                        "enum": [
+                          "preserved",
+                          "missing",
+                          "changed",
+                          "uncertain"
+                        ]
+                      },
+                      "evidence": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "invariant_id",
+                      "status",
+                      "evidence"
+                    ]
+                  }
+                },
+                "unsupported_claims": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "format_pass": {
+                  "type": "boolean"
+                },
+                "language_pass": {
+                  "type": "boolean"
+                },
+                "hard_fail": {
+                  "type": "boolean"
+                },
+                "reason": {
+                  "type": "string"
+                },
+                "meaning_fidelity": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                "clarity": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                "signal_density": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                "structure": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                "calibration": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                "fit_for_purpose": {
+                  "type": "integer",
+                  "enum": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              },
+              "required": [
+                "candidate",
+                "checks",
+                "unsupported_claims",
+                "format_pass",
+                "language_pass",
+                "hard_fail",
+                "reason",
+                "meaning_fidelity",
+                "clarity",
+                "signal_density",
+                "structure",
+                "calibration",
+                "fit_for_purpose"
+              ]
+            }
+          },
+          "preference": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "tie",
+              "neither"
+            ]
+          },
+          "preference_reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "ratings",
+          "preference",
+          "preference_reason"
+        ]
+      }
+    }
+  },
+  "required": [
+    "cases"
+  ]
+}

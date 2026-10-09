@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e09-09b5-7f70-b1bd-3ec76eed4322"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Release the shipment only after both the quality manager and the warehouse lead approve it in writing. Verbal approval from either person does not count."}}
+{"type":"turn.completed","usage":{"input_tokens":6894,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":32,"reasoning_output_tokens":0}}

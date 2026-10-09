@@ -1,6 +1,20 @@
 # Verification
 
-Local multilingual update checks and the earlier v0.1.0 verification record, 8 October 2026.
+Current live-model and local checks, 8–9 October 2026 UTC, followed by the earlier v0.1.0 record.
+
+## 100-case live-model comparison
+
+The [initial recorded comparison](../benchmarks/results/2026-10-08-reliability-100/report.md) generated 100 answers without ASDify and 100 with the canonical skill and all three references in `full` mode. It used `gpt-6.1-sol`, medium reasoning, Codex CLI 0.161.0, fresh sessions, a shared neutral system prompt, and no model tools or other skills. This tests injected instructions, not native host activation.
+
+- Meaning coverage: 373 source invariants per arm across 100 synthetic cases, nine locales, 16 native-language rewrites, and 24 translations. Two blinded same-family model-review passes checked each output, with reversed display order on the second pass.
+- Initial strict result: 92/100 baseline passes and 97/100 skill-assisted passes. The counts retain context-dependent omission flags. The [source audit](../benchmarks/results/2026-10-08-reliability-100/source-audit.md) identifies an invented actor and a missing voluntary-survey caveat in skill-assisted answers; both motivated targeted rule changes.
+- Revised-skill regression: a [fresh paired run on the same 100 cases](../benchmarks/results/2026-10-09-reliability-100-revised/report.md) recorded 91/100 baseline and 99/100 strict skill-assisted passes. Both targeted problems are absent in the fresh skill outputs. The remaining skill flag is omitted budget component prices; both reviewers consider the correct totals sufficient, but the strict flag is retained. No further material failure was reported by these model reviewers. The second audit passed all 200 answers and 400 ratings; calibration was referenced, not repeated.
+- Exact checks: no detected protected-token, JSON, or requested verbatim-output failures in either arm.
+- Reviewer calibration: 10 authored good/bad pairs reviewed twice. All 20 deliberately defective ratings were detected and all 20 good ratings passed. These are grader controls, not generated benchmark answers.
+- Evidence integrity: all 200 answers and 400 ratings match raw CLI events; frozen inputs, generation/review prompt hashes, display order, and coverage passed the [audit](../benchmarks/results/2026-10-08-reliability-100/evidence-audit.json). One rating differs from the stricter invariant rule because the reviewer considers the omitted detail immaterial. Its original judgment is retained unchanged and explicitly declared; the strict flag remains. CI also audits both published runs without making model calls.
+- Local software checks: 84 unit tests passed, including 23 evaluation integrity tests. Corpus validation confirms exactly 100 cases and 373 invariants. Package validation still checks the separate 49 original public fixtures.
+
+These are observed outputs and automated/model reviews. The implementing assistant's source audit is not independent human adjudication. One model, one repetition, small language groups, and no concise-prompt control limit the conclusions. Reusing these cases after the resulting skill edits is regression evidence, not held-out evidence of general reliability. See the [published results index](../benchmarks/results/README.md) for separate runs and complete answer comparisons.
 
 ## Multilingual update: local checks
 
@@ -11,7 +25,7 @@ Local multilingual update checks and the earlier v0.1.0 verification record, 8 O
 - Installation guidance: checked npm's CLI-download confirmation against [npm documentation](https://docs.npmjs.com/cli/v11/commands/npm-exec/#description), and native Cursor project/user paths against [Cursor documentation](https://cursor.com/docs/skills#skill-directories). The local Cursor path checks remain filesystem tests, not a Cursor activation session.
 - Expanded README/support guidance: all nine READMEs cover CLI, local/ZIP, manual-copy, persistent-instruction, Claude plugin, and manual-chat routes, with scope choices, environment limits, updates, removal, and reporting. All 50 Bash examples across the nine READMEs and installation guide pass `bash -n`; this syntax check did not execute their install commands.
 
-These checks ran on the local working tree. They do not establish that the changed revision has passed remote CI. The seven new READMEs and multilingual examples are translations and editorial examples, not recorded live-model results or independently reviewed native-speaker output. No live translation study was run. See [language coverage and support](LANGUAGES.md) for the locale registry and review limits.
+These multilingual package checks preceded the live comparison above. The seven new READMEs and multilingual examples are translations and editorial examples, not recorded model-study outputs or independently reviewed native-speaker output. See [language coverage and support](LANGUAGES.md) for the locale registry and review limits. Local checks do not establish remote CI status for a future commit.
 
 ## v0.1.0 scope
 
@@ -42,6 +56,7 @@ Environment: Darwin 27.0.0, Python 3.14.6. All installer tests used temporary di
 
 - Codex CLI 0.161.0: one explicit `full`-mode smoke check on `macOS-27.0.1-arm64` read the installed `SKILL.md` and retained all seven material details in the revenue example. The model identifier was not emitted. See the [recorded command, output, and limits](demos/codex-full-2026-10-08.md).
 - Skills CLI 1.7.1 on Node 26.7.0: `add <local repository> --list` discovered exactly one skill, `asdify`.
+- Post-benchmark packaging check: Skills CLI 1.7.1 on an isolated Node 22.20.0 again discovered exactly one skill. Archived headers use `SKILL.txt` to avoid duplicate discovery. The system Node 22.12.0 probe emitted an engine warning, so the final check used a runtime meeting the declared minimum. See [command and scope](../benchmarks/results/2026-10-08-reliability-100/package-discovery.json).
 - Remote Skills CLI discovery: `add hevertonrodrigues/asdify --list` was blocked because child Git could not resolve `github.com` in the sandbox. No external CLI installation or skills.sh indexing was verified.
 
 ## Public repository and CI
@@ -50,4 +65,4 @@ The [public repository](https://github.com/hevertonrodrigues/asdify) and [v0.1.0
 
 ## Evidence limits
 
-Before/after illustrations are editorial examples. The separate Codex run is one observed result, not a comparative study. Broad quality gains, automatic activation, other modes, reference loading, and other host sessions remain unverified. See [compatibility](COMPATIBILITY.md) for the distinction between installation layouts, host activation, and model effectiveness.
+Before/after illustrations are editorial examples. The native Codex smoke check is separate from the paired comparison using injected full-mode instructions and references. Broad quality gains, automatic activation, other modes, native reference loading, and other host sessions remain unverified. See [compatibility](COMPATIBILITY.md) for the distinction between installation layouts, host activation, and model effectiveness.

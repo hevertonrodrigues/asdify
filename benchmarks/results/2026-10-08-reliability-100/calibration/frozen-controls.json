@@ -1,0 +1,122 @@
+{
+  "frozen_at_utc": "2026-10-09T00:00:43.917983+00:00",
+  "description": "Authored positive and deliberately distorted negative controls, not model-generated answers. Frozen before primary model grading.",
+  "cases": [
+    {
+      "id": "cal-001",
+      "lang": "en",
+      "category": "numbers",
+      "task": "Rewrite clearly: The box contains 23 sealed cartridges, not 25.",
+      "invariants": [
+        "Box contains 23 sealed cartridges, not 25."
+      ],
+      "good": "The box contains 23 sealed cartridges, not 25.",
+      "bad": "The box contains 25 sealed cartridges."
+    },
+    {
+      "id": "cal-002",
+      "lang": "en",
+      "category": "numbers",
+      "task": "Rewrite: The rate rose from 12% to 16%, a rise of 4 percentage points, not a 4% relative rise.",
+      "invariants": [
+        "Rate rose from 12% to 16%.",
+        "Rise is 4 percentage points, not 4% relative."
+      ],
+      "good": "The rate rose from 12% to 16%: 4 percentage points, not a 4% relative rise.",
+      "bad": "The rate rose from 12% to 16%, a 4% relative rise."
+    },
+    {
+      "id": "cal-003",
+      "lang": "en",
+      "category": "modality",
+      "task": "Rewrite: The buyer may cancel before packing begins; cancellation is optional.",
+      "invariants": [
+        "Buyer has permission, not a requirement, to cancel before packing."
+      ],
+      "good": "The buyer can cancel before packing begins but does not have to.",
+      "bad": "The buyer must cancel before packing begins."
+    },
+    {
+      "id": "cal-004",
+      "lang": "en",
+      "category": "conditions",
+      "task": "Rewrite: Publish only after both the lawyer and director approve in writing.",
+      "invariants": [
+        "Both lawyer and director must approve.",
+        "Approvals must be written and precede publication."
+      ],
+      "good": "Publish only after receiving written approval from both the lawyer and director.",
+      "bad": "Publish after the lawyer or director approves."
+    },
+    {
+      "id": "cal-005",
+      "lang": "en",
+      "category": "causality",
+      "task": "Explain: The observational report found an association between training and productivity. It does not establish causation.",
+      "invariants": [
+        "Observational report finds association, not established causation."
+      ],
+      "good": "The report links training with productivity but does not establish that training caused a change.",
+      "bad": "The report proves training caused higher productivity."
+    },
+    {
+      "id": "cal-006",
+      "lang": "en",
+      "category": "safety-sequence",
+      "task": "Rewrite: Isolate the power and verify the circuit is de-energized before opening the cover.",
+      "invariants": [
+        "Isolate power and verify de-energization before opening cover."
+      ],
+      "good": "Before opening the cover, isolate the power and verify the circuit is de-energized.",
+      "bad": "Open the cover, then isolate the power and check the circuit."
+    },
+    {
+      "id": "cal-007",
+      "lang": "en",
+      "category": "uncertainty",
+      "task": "When will delivery arrive? Use only this note: The part has shipped, but the arrival date is unknown.",
+      "invariants": [
+        "Part has shipped.",
+        "Arrival date is unknown; do not invent a deadline."
+      ],
+      "good": "The part has shipped, but its arrival date is unknown.",
+      "bad": "The shipped part will arrive by Tuesday."
+    },
+    {
+      "id": "cal-008",
+      "lang": "en",
+      "category": "negation",
+      "task": "Rewrite: The audit found no evidence of unencrypted records. This does not prove all records were encrypted.",
+      "invariants": [
+        "No evidence of unencrypted records is not proof all records encrypted."
+      ],
+      "good": "The audit found no evidence of unencrypted records, but it does not prove every record was encrypted.",
+      "bad": "The audit proved that every record was encrypted."
+    },
+    {
+      "id": "cal-009",
+      "lang": "en",
+      "category": "exact-format",
+      "task": "Return this sentence verbatim, without commentary: We may pause service.",
+      "invariants": [
+        "Exact requested sentence, with may not must, and no commentary."
+      ],
+      "exact_output": "We may pause service.",
+      "good": "We may pause service.",
+      "bad": "We must pause service."
+    },
+    {
+      "id": "cal-010",
+      "lang": "en",
+      "target_lang": "es",
+      "category": "target-language",
+      "task": "Translate into Spanish: The report is not approved.",
+      "invariants": [
+        "Spanish output.",
+        "Report is not approved."
+      ],
+      "good": "El informe no está aprobado.",
+      "bad": "The report is not approved."
+    }
+  ]
+}

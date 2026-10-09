@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e33-ae28-78b3-9ec7-3ac276981d96"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"In API v3, use `customer_id` instead of `clientId`. API v2 still accepts `clientId` until 30 June 2027. Renaming the field alone does not migrate stored identifiers."}}
+{"type":"turn.completed","usage":{"input_tokens":7008,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":48,"reasoning_output_tokens":0}}

@@ -1,0 +1,275 @@
+{
+  "cases": [
+    {
+      "case_id": "cal-006",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"Open the cover, then isolate the power\" reverses the required safety sequence; \"check the circuit\" does not require verifying de-energization."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Reverses the safety-critical sequence and omits explicit verification of de-energization.",
+          "meaning_fidelity": 1,
+          "clarity": 4,
+          "signal_density": 3,
+          "structure": 4,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"Before opening the cover, isolate the power and verify the circuit is de-energized.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both required precautions and their timing before opening the cover.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Only B preserves the required safety sequence and verification."
+    },
+    {
+      "case_id": "cal-007",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The part has shipped\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"its arrival date is unknown\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Accurately reports shipment and the unknown arrival date using only the note.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The shipped part\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "changed",
+              "evidence": "\"will arrive by Tuesday\" replaces the unknown date with a definite deadline."
+            }
+          ],
+          "unsupported_claims": [
+            "The part will arrive by Tuesday."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Invents an arrival deadline despite explicit uncertainty in the source.",
+          "meaning_fidelity": 2,
+          "clarity": 5,
+          "signal_density": 3,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "Only A preserves the unknown arrival date without inventing information."
+    },
+    {
+      "case_id": "cal-008",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The audit found no evidence of unencrypted records, but it does not prove every record was encrypted.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the audit finding and the limitation on what it proves.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"The audit proved that every record was encrypted\" asserts precisely what the source says is not proved."
+            }
+          ],
+          "unsupported_claims": [
+            "The audit proved that every record was encrypted."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Converts absence of evidence into universal proof, contradicting the source.",
+          "meaning_fidelity": 1,
+          "clarity": 5,
+          "signal_density": 2,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Only B retains the essential distinction between an audit finding and proof."
+    },
+    {
+      "case_id": "cal-009",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"We may pause service.\" is the exact requested sentence with no commentary."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Returns the requested sentence verbatim and nothing else.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"We must pause service.\" changes \"may\" to \"must\" and is not verbatim."
+            }
+          ],
+          "unsupported_claims": [
+            "Pausing service is mandatory."
+          ],
+          "format_pass": false,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Changes permission into obligation and violates the exact-output requirement.",
+          "meaning_fidelity": 1,
+          "clarity": 5,
+          "signal_density": 3,
+          "structure": 5,
+          "calibration": 1,
+          "fit_for_purpose": 1
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "Only A satisfies the verbatim requirement and preserves permission rather than obligation."
+    },
+    {
+      "case_id": "cal-010",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"El informe no está aprobado.\" is Spanish."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"El informe no está aprobado.\" states that the report is not approved."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Provides an accurate Spanish translation with the negation intact.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "changed",
+              "evidence": "\"The report is not approved.\" is English, not Spanish."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The report is not approved.\" retains the report's unapproved status."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": false,
+          "hard_fail": true,
+          "reason": "Preserves the proposition but fails to translate it into the requested language.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 1
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Only B supplies the requested Spanish translation."
+    }
+  ]
+}

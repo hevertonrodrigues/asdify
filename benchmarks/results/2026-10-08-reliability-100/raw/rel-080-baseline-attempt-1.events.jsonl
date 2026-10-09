@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df7-0124-70b3-b1b2-1ba5a286b923"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Cualquiera de las partes podrá dar por terminado el acuerdo mediante notificación escrita con al menos 16 días naturales de antelación. Esta facultad no obliga a ninguna de las partes a hacerlo, y las cuotas vencidas seguirán siendo exigibles."}}
+{"type":"turn.completed","usage":{"input_tokens":3734,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":246,"reasoning_output_tokens":188}}

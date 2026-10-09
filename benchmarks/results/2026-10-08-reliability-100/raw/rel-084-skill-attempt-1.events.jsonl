@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e07-aa21-7db1-85fb-eb23df6f9cb6"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The provisional result covers 57 responses out of 140 invitations. The preferences of those who did not respond are unknown; these data do not describe all invitees."}}
+{"type":"turn.completed","usage":{"input_tokens":6896,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":37,"reasoning_output_tokens":0}}

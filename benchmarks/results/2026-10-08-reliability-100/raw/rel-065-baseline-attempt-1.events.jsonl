@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfc-9383-76b0-bd67-2e195cf941da"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Le coût est estimé à 2 900 € HT par trimestre, auxquels s’ajoutent 450 € de frais d’installation. Ce montant est indicatif et ne constitue pas un devis ferme."}}
+{"type":"turn.completed","usage":{"input_tokens":3745,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":45,"reasoning_output_tokens":0}}

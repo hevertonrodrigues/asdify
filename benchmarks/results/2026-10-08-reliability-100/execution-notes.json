@@ -1,0 +1,10 @@
+{
+  "generation_workers": 4,
+  "review_workers": 4,
+  "review_batch_scheduling": "Fixed consecutive five-case batches; a batch is graded only after both answers exist for every case. Generation sessions never receive any ratings.",
+  "calibration": "Ten authored good/bad controls reviewed twice before primary grading; all detected correctly.",
+  "idle_watcher_restart": "The initial two-worker watcher was interrupted before any review calls started and restarted with four workers. No outputs or ratings were regenerated.",
+  "generator_runner_snapshot": "runner-snapshot.py records the generator version frozen before the live run. Subsequent code changes added report tables/CSV and default future public-case runs to non-held-out; generation and judge prompts are unchanged.",
+  "archived_skill_header": "Renamed SKILL.md to SKILL.txt after grading to prevent duplicate skill discovery. File bytes, original metadata hash, and rendered prompt remain unchanged.",
+  "review_exception": "One internally inconsistent rel-040/B rating is retained unchanged, declared explicitly, and conservatively counted as a strict flag; no model call was repeated."
+}

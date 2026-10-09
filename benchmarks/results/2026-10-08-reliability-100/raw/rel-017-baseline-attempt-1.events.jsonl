@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df9-a3a1-7401-8c35-2ecd0393d16b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Operations is responsible for preparing the report, and Finance is responsible for checking the totals. Only the director may approve publication. Neither preparation nor review gives either team authority to publish the report."}}
+{"type":"turn.completed","usage":{"input_tokens":3731,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":41,"reasoning_output_tokens":0}}

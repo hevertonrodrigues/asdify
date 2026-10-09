@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e35-8f70-7a33-a476-1e206ee9ddd2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Die Lieferung darf erst nach Zustimmung der Qualitätssicherung freigegeben werden. Eine mündliche Zustimmung reicht nicht. Die Freigabe muss schriftlich erfolgen."}}
+{"type":"turn.completed","usage":{"input_tokens":7002,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":135,"reasoning_output_tokens":97}}

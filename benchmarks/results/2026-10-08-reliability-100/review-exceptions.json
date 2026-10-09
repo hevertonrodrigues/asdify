@@ -1,0 +1,8 @@
+[
+  {
+    "review_file": "review-2-036.json",
+    "case_id": "rel-040",
+    "candidate": "B",
+    "reason": "The model marks the separate item-price invariant missing but explicitly judges that the correct combined totals preserve the relevant budget meaning. Original ratings are retained unchanged. Aggregation conservatively counts the missing check as a failure and invalidates the preference; no output is regenerated."
+  }
+]

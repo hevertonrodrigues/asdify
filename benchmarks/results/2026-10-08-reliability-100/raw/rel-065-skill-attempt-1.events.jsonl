@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df1-0dd1-7152-8f90-fac0ad5c22aa"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Le coût est estimé à 2 900 euros par trimestre, hors TVA. Les frais d’installation de 450 euros ne sont pas inclus. Cette estimation n’est pas un devis ferme."}}
+{"type":"turn.completed","usage":{"input_tokens":6903,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":43,"reasoning_output_tokens":0}}

@@ -1,0 +1,351 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-051",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Which language would you like it translated into?” asks for the target language."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Which language” leaves the language unspecified; no translation or meeting date is invented."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Requests the missing information without guessing.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Which language should I translate it into?” asks for the target language."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Which language” leaves the language unspecified; no translation or meeting date is invented."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Requests the missing information without guessing.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both ask the necessary clarification equally clearly."
+    },
+    {
+      "case_id": "rel-052",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The source date, 04/09/2026, is ambiguous because the date format is not specified.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“10:00 local time” preserves the time without adding a timezone."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“either 4 September 2026 or April 9, 2026” explicitly retains both interpretations."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the booking, local time, and unresolved date format.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The inspection is booked for 04/09/2026” retains the source date, and “the source does not specify the date format” explains its ambiguity."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“at 10:00 local time” preserves the time without adding a timezone."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The date could mean 4 September or April 9, 2026” presents alternatives without selecting one."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the booking, local time, and unresolved date format.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clearly explain the two possible dates without resolving the ambiguity."
+    },
+    {
+      "case_id": "rel-053",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“the cover sheet reports 18, while the detailed log reports 21 for the same shift”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "changed",
+              "evidence": "“Completed deliveries remain unverified” shifts verification status from both documents to the deliveries; neither document is explicitly identified as unverified."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The discrepancy is unresolved.” Neither reported figure is selected."
+            }
+          ],
+          "unsupported_claims": [
+            "“Completed deliveries remain unverified” asserts a delivery-verification status rather than the supplied verification status of the documents."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Retains the conflicting counts but changes the scope of the verification caveat.",
+          "meaning_fidelity": 3,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 3,
+          "fit_for_purpose": 3
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“the cover sheet reports 18, while the detailed log reports 21 for the same shift”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Both documents are unverified.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The completed-delivery count is unresolved” retains the conflict without selecting a figure."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both attributed counts, the shared shift, document uncertainty, and unresolved discrepancy.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B preserves the explicit verification status of both documents; A changes its scope."
+    },
+    {
+      "case_id": "rel-054",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“notify the client after Lee sends Morgan the file” preserves the sequence and transfer direction."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Who must notify the client” preserves mandatory notification."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Who must notify ... : Lee, Morgan, or both?” asks which actor is responsible."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Lee, Morgan, or both?” presents all possibilities without assigning responsibility."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Asks the necessary actor clarification while preserving sequence and obligation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“notify the client after Lee sends Morgan the file” preserves the sequence and transfer direction."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Who must notify the client” preserves mandatory notification."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Who must notify ... : Lee, Morgan, or both?” asks which actor is responsible."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Lee, Morgan, or both?” presents all possibilities without assigning responsibility."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Asks the necessary actor clarification while preserving sequence and obligation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical and preserve all relevant meaning."
+    },
+    {
+      "case_id": "rel-055",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Attendance is recommended when possible”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“no attendance requirement has been adopted”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“No. Attendance is recommended” explicitly rejects mandatory attendance."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Directly answers the question using only the note, preserving the conditional recommendation and absence of a requirement.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Attendance is recommended when possible”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“no attendance requirement has been adopted”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“No. Attendance is recommended” explicitly rejects mandatory attendance."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Directly answers the question using only the note, preserving the conditional recommendation and absence of a requirement.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical and correctly distinguish recommendation from requirement."
+    }
+  ]
+}

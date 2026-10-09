@@ -1,0 +1,401 @@
+reviewer,case_id,run_id,arm,meaning_fidelity,clarity,signal_density,structure,calibration,fit_for_purpose,hard_fail,notes
+model-pass-1,rel-001,1,B,5,5,5,5,5,5,0,Clear revised text preserving all material source meaning.
+model-pass-1,rel-001,1,A,5,5,5,5,5,5,0,Combines the qualifications without changing the claim or omitting material meaning.
+model-pass-1,rel-002,1,B,5,5,5,5,5,5,0,"Preserves the endpoints, comparison type, population, and month in a readable sentence."
+model-pass-1,rel-002,1,A,5,5,5,5,5,5,0,Preserves every material distinction and is suitable for a busy reader.
+model-pass-1,rel-003,1,B,5,5,5,5,5,5,0,"Preserves the failure-risk scope, both reduction measures, and the modeling qualification."
+model-pass-1,rel-003,1,A,5,5,5,5,5,5,0,Clarifies the presentation without changing any claim or qualification.
+model-pass-1,rel-004,1,B,5,5,5,5,5,5,0,"Preserves the response denominator, optionality, invited population, and limits on interpretation."
+model-pass-1,rel-004,1,A,5,5,5,5,5,5,0,Retains all material meaning; the explanatory connection is supported by the source’s stated limitation.
+model-pass-1,rel-005,1,B,5,5,5,5,5,5,0,"Simplifies the update while preserving the estimate, timing trigger, exclusion, and lack of guarantee."
+model-pass-1,rel-005,1,A,3,5,5,5,3,3,1,"Readable, but materially changes an estimated interval into an unsupported usual-performance claim."
+model-pass-1,rel-006,1,A,3,4,4,5,3,3,1,Omits the observational design and introduces an unspecified direction for the score difference.
+model-pass-1,rel-006,1,B,5,5,5,5,5,5,0,Preserves all material information and explains the confidence interval for a nontechnical reader.
+model-pass-1,rel-007,1,A,5,5,5,5,5,5,0,Preserves the counts and their distinct denominators; the explanation of multiple tickets is supported by the source.
+model-pass-1,rel-007,1,B,5,5,5,4,5,5,0,Accurately preserves all information in straightforward sentences.
+model-pass-1,rel-008,1,A,5,5,5,5,5,5,0,"Preserves the quote, seat limit, additional charges, and unused-seat condition."
+model-pass-1,rel-008,1,B,5,5,5,5,5,5,0,Preserves every material pricing term clearly and precisely.
+model-pass-1,rel-009,1,A,5,5,5,5,5,5,0,"Preserves the observed rates, sampling periods, and limitation. The 0.4-percentage-point decrease is a supported calculation limited to the samples."
+model-pass-1,rel-009,1,B,5,5,5,5,5,5,0,Preserves all material information and adds a correct sample-to-sample difference without extrapolating to the day.
+model-pass-1,rel-010,1,A,5,5,5,5,5,5,0,"Preserves the instrument reading, uncertainty, protected tokens, and nonzero-current caveat."
+model-pass-1,rel-010,1,B,5,5,5,5,5,5,0,Preserves every material detail and both protected tokens exactly.
+model-pass-1,rel-011,1,B,5,5,5,5,5,5,0,"Preserves all policy meaning, including the conditional obligation and business-day deadline."
+model-pass-1,rel-011,1,A,5,5,5,5,5,5,0,Preserves all policy meaning; specifying the request as the deadline trigger makes the implied timing explicit.
+model-pass-1,rel-012,1,A,5,5,5,5,5,5,0,"Retains both named approvers, prior written approval, and the exclusion of verbal approval."
+model-pass-1,rel-012,1,B,5,5,5,5,5,5,0,Retains the complete release condition without adding a requirement to release once approval is obtained.
+model-pass-1,rel-013,1,B,5,5,5,5,5,5,0,Preserves the alternative credentials and concurrent officer-presence condition; the final sentence refers to the two credentials.
+model-pass-1,rel-013,1,A,5,5,5,5,5,5,0,Preserves the alternative credentials and officer-presence condition; “when” retains the relevant temporal restriction.
+model-pass-1,rel-014,1,B,5,5,5,5,5,5,0,"Preserves optional termination by either party, the minimum written-notice period, and existing fee obligations."
+model-pass-1,rel-014,1,A,5,5,5,5,5,5,0,Preserves all conditions and clearly states that previously owed fees remain payable.
+model-pass-1,rel-015,1,B,5,5,5,5,5,5,0,"Preserves expense eligibility, currency and per-trip cap, the precise late-claim threshold, and the written finance exception."
+model-pass-1,rel-015,1,A,5,5,5,5,5,5,0,"Read together, the deadline and explicit late-claim exception preserve the original conditional eligibility rule and all reimbursement limits."
+model-pass-1,rel-016,1,A,5,5,5,5,5,5,0,"Preserves the cancellation conditions, fee, and warehouse exception. No other material meaning is omitted."
+model-pass-1,rel-016,1,B,5,5,5,5,5,5,0,"Preserves all material meaning in clear, simple wording."
+model-pass-1,rel-017,1,A,5,5,5,5,5,5,0,Clearly preserves each actor's responsibility and the limits on publication authority. No material omissions.
+model-pass-1,rel-017,1,B,5,5,5,5,5,5,0,Preserves all responsibilities and restrictions without conflating approval with publication.
+model-pass-1,rel-018,1,A,5,5,5,5,5,5,0,"Preserves the deletion rule, exception, release authority, and precedence of legal holds. No material omissions."
+model-pass-1,rel-018,1,B,5,5,5,5,5,5,0,The requirement to retain records beyond 60 days until counsel releases the hold preserves the hold's precedence.
+model-pass-1,rel-019,1,A,5,5,5,5,5,5,0,"Preserves replacement coverage, the reporting deadline, both exclusions, and the proof requirement."
+model-pass-1,rel-019,1,B,5,5,5,5,5,5,0,Preserves every material warranty condition in straightforward sentences.
+model-pass-1,rel-020,1,A,5,5,5,5,5,5,0,Preserves prospective withdrawal and separate retention duties. Unchanged prior lawfulness preserves valid-consent processing without asserting that all prior processing was lawful.
+model-pass-1,rel-020,1,B,5,5,5,5,5,5,0,"Clearly preserves the timing, valid-consent qualification, and continuing legal retention duties. No material omissions."
+model-pass-1,rel-021,1,A,5,5,5,5,5,5,0,All source meaning and protected tokens are retained.
+model-pass-1,rel-021,1,B,5,5,5,5,5,5,0,All source meaning and protected tokens are retained.
+model-pass-1,rel-022,1,B,5,5,5,5,5,5,0,The exact command and all procedural constraints are preserved.
+model-pass-1,rel-022,1,A,5,5,5,5,5,5,0,The exact command and all procedural constraints are preserved.
+model-pass-1,rel-023,1,B,5,5,5,5,5,5,0,"All safety conditions, sequencing, and permission limits are retained."
+model-pass-1,rel-023,1,A,5,5,5,4,5,5,0,All safety conditions and permission limits survive; sentence order conveys the sequence.
+model-pass-1,rel-024,1,B,5,4,4,4,5,4,0,"All source meaning is retained, but the airflow prerequisite is repeated."
+model-pass-1,rel-024,1,A,5,5,5,5,5,5,0,"The concise rewrite preserves every precaution, the container identifier, and the unspecified contents."
+model-pass-1,rel-025,1,A,5,4,5,5,5,4,0,"The specification's value, units, zero behavior, and scope are retained, though the opening is declarative rather than instructional."
+model-pass-1,rel-025,1,B,5,5,5,5,5,5,0,All specification details and the source's instructional voice are preserved.
+model-pass-1,rel-026,1,B,5,5,5,5,5,5,0,"Preserves all migration details, protected tokens, and the identifier-migration limitation. No additional important source meaning is absent."
+model-pass-1,rel-026,1,A,5,5,5,5,5,5,0,"Preserves all migration details, protected tokens, and the identifier-migration limitation. No additional important source meaning is absent."
+model-pass-1,rel-027,1,A,5,5,4,5,5,5,0,Clearly distinguishes storage encryption from the currently unencrypted transfer path. No additional important source meaning is absent.
+model-pass-1,rel-027,1,B,5,5,5,5,5,5,0,Preserves the storage/transfer distinction and explicitly scopes the final explanation to those transfers. No additional important source meaning is absent.
+model-pass-1,rel-028,1,B,5,5,5,5,5,5,0,"Preserves the version requirement, Node's optional and exclusive role, and the non-substitution warning. No additional important source meaning is absent."
+model-pass-1,rel-028,1,A,5,5,5,5,5,5,0,The added heading is appropriate and does not change the explicitly optional status of Node. All important source meaning is retained.
+model-pass-1,rel-029,1,A,5,5,5,4,5,5,0,Preserves the conditional sequence and single-rollback limit. The final prohibition follows from the source's instruction to roll back once. No additional important meaning is absent.
+model-pass-1,rel-029,1,B,5,5,5,5,5,5,0,"Preserves every condition, action, and sequence constraint. The numbered steps and explicit reference to the previous version aid execution. No additional important source meaning is absent."
+model-pass-1,rel-030,1,B,5,5,5,5,5,5,0,"Retains the strict threshold, inclusive duration minimum, consecutive-time requirement, and reset boundary. No additional important source meaning is absent."
+model-pass-1,rel-030,1,A,5,5,5,5,5,5,0,“Strictly above” preserves the exclusion of exactly 72°C without a separate sentence. All timing and reset requirements remain intact; no additional important meaning is absent.
+model-pass-1,rel-031,1,A,5,5,5,5,5,5,0,"Preserves all decision-relevant details, conditions, and limitations without unsupported additions."
+model-pass-1,rel-031,1,B,5,5,5,5,5,5,0,Preserves the entire source's decision-relevant meaning in a readily scannable executive summary.
+model-pass-1,rel-032,1,A,5,5,5,5,5,5,0,"Preserves the conflicting reports, unresolved status, refund constraint, ownership, and missing deadline. The five-unit difference is supported arithmetic; the reconciliation dependency is a reasonable contextual inference."
+model-pass-1,rel-032,1,B,5,5,5,5,5,5,0,Preserves all important source information and leads with the managerial consequence. The five-unit difference is supported arithmetic.
+model-pass-1,rel-033,1,A,5,5,4,5,5,5,0,Retains every supplied fact and correctly distinguishes association from causation. Possible explanations are explicitly qualified rather than asserted.
+model-pass-1,rel-033,1,B,5,5,4,5,5,5,0,"Preserves all supplied facts and explains why causation remains unestablished. Other factors are mentioned as possibilities, not invented observed events."
+model-pass-1,rel-034,1,A,5,5,5,5,5,5,0,Preserves all facts and correctly translates the negative saving into additional task time. The explanation that the interval includes no savings follows directly from its bounds.
+model-pass-1,rel-034,1,B,5,5,5,5,5,5,0,"Retains every supplied fact, explains the interval in plain language, and preserves the inconclusive result."
+model-pass-1,rel-035,1,A,5,5,5,5,5,5,0,"Preserves all incident details, affected scope, restoration action, causal uncertainty, payment caveats, and outreach status."
+model-pass-1,rel-035,1,B,5,5,5,5,5,5,0,Preserves every decision-relevant fact and carefully distinguishes confirmed restoration from unconfirmed causation and unresolved duplicate-charge risk.
+model-pass-1,rel-036,1,A,3,5,4,5,5,3,1,"Correct recommendation and uncertainty, but the supplied comparison loses A’s price and B’s full capacity."
+model-pass-1,rel-036,1,B,5,5,5,5,5,5,0,Preserves all supplied facts and gives a supported recommendation; the USD 60 remainder is correct.
+model-pass-1,rel-037,1,A,5,5,5,5,5,5,0,"A concise status update preserving delivery conditions and distinctions between planned, shipped, and unapproved work."
+model-pass-1,rel-037,1,B,5,5,5,5,5,5,0,Preserves all decision-relevant meaning in an appropriately short status update.
+model-pass-1,rel-038,1,A,5,5,4,5,5,5,0,"Accurate comparison with supported annualization and conditional analysis, without declaring a winner."
+model-pass-1,rel-038,1,B,5,5,5,5,5,5,0,"Complete, neutral comparison with correct annual cost and capacity differences."
+model-pass-1,rel-039,1,A,5,5,5,5,5,5,0,"Preserves attribution, qualifications, the chair’s neutrality, and the unresolved outcome."
+model-pass-1,rel-039,1,B,5,5,5,5,5,5,0,Fully faithful summary retaining each speaker’s attribution and the lack of a final finding.
+model-pass-1,rel-040,1,A,4,5,5,5,5,5,0,"Individual component prices are omitted, but the correct totals preserve all decision-relevant budget meaning. No tax rate or taxable scope is invented."
+model-pass-1,rel-040,1,B,4,5,5,5,5,5,0,Correctly answers the budget question with both optional-training scenarios. The omitted component breakdown does not change the decision-relevant conclusion.
+model-pass-1,rel-041,1,A,5,5,5,5,5,5,0,Exact compliance; permission to suspend and the requirement to give notice are preserved.
+model-pass-1,rel-041,1,B,5,5,5,5,5,5,0,Exact compliance; permission to suspend and the requirement to give notice are preserved.
+model-pass-1,rel-042,1,B,5,5,5,5,5,5,0,"Only the message changes; all facts, timing, and uncertainty remain intact."
+model-pass-1,rel-042,1,A,5,5,5,5,5,5,0,"Only the message changes; all facts, timing, and uncertainty remain intact."
+model-pass-1,rel-043,1,A,5,5,5,5,5,5,0,"Preserves the sequence, required channel, retention condition, and distinction between submission and payment confirmation."
+model-pass-1,rel-043,1,B,5,5,5,5,5,5,0,"Preserves the sequence, required channel, retention condition, and distinction between submission and payment confirmation."
+model-pass-1,rel-044,1,B,5,5,5,5,5,5,0,"All plan limits, backup provisions, and restoration uncertainty are correctly represented in the exact requested table structure."
+model-pass-1,rel-044,1,A,5,5,5,5,5,5,0,"All plan limits, backup provisions, and restoration uncertainty are correctly represented in the exact requested table structure."
+model-pass-1,rel-045,1,B,5,5,5,5,5,5,0,"Retains the recipient, conditional request, deadline, optionality, publication independence, and appreciative tone."
+model-pass-1,rel-045,1,A,5,5,5,5,5,5,0,"Retains the recipient, conditional request, deadline, optionality, publication independence, and appreciative tone."
+model-pass-1,rel-046,1,A,5,5,5,5,5,5,0,"Tightens the text while retaining the joke, printing rate, and diagnostic caveats. No additional material meaning is lost."
+model-pass-1,rel-046,1,B,5,5,5,5,5,5,0,"Concise, playful, and faithful to the complete source, including its limits on diagnostic certainty."
+model-pass-1,rel-047,1,A,5,5,5,5,5,5,0,"A restrained readability edit that preserves every event, uncertainty, and the first-person lyrical voice."
+model-pass-1,rel-047,1,B,5,5,5,5,5,5,0,"Leaves an already readable passage intact, preserving all source meaning and voice."
+model-pass-1,rel-048,1,A,5,5,5,5,5,5,0,"Preserves review readiness, lack of release approval, the exact Spanish instruction, and the limits of tomorrow’s totals check."
+model-pass-1,rel-048,1,B,5,5,5,5,5,5,0,"Faithfully rewrites the complete update, preserving the protected sentence and all approval restrictions."
+model-pass-1,rel-049,1,A,5,5,5,5,5,5,0,"Concisely retains the closure circumstances, reopening uncertainty, and absence of a repair booking without adding recommendations."
+model-pass-1,rel-049,1,B,5,5,5,5,5,5,0,A concise factual rewrite preserving all material source information and avoiding an invented action plan.
+model-pass-1,rel-050,1,B,5,5,5,5,5,5,0,Exactly follows the instruction to return the already-clear text unchanged.
+model-pass-1,rel-050,1,A,5,5,5,5,5,5,0,Exactly follows the instruction to return the already-clear text unchanged.
+model-pass-1,rel-051,1,B,5,5,5,5,5,5,0,Appropriately requests the missing target language without guessing.
+model-pass-1,rel-051,1,A,5,5,5,5,5,5,0,Appropriately requests the missing target language without guessing.
+model-pass-1,rel-052,1,A,5,5,5,5,5,5,0,"Clearly preserves the booking, time, year, and unresolved date interpretation."
+model-pass-1,rel-052,1,B,5,5,5,5,5,5,0,"Clearly preserves the booking, time, year, and unresolved date interpretation."
+model-pass-1,rel-053,1,B,5,5,4,5,5,5,0,"Retains all material meaning, though it repeats that the count is unresolved."
+model-pass-1,rel-053,1,A,3,4,5,5,3,3,1,Changes the object of verification and omits the explicit warning that both documents are unverified.
+model-pass-1,rel-054,1,B,5,5,5,5,5,5,0,Preserves sequence and obligation while asking the necessary actor clarification.
+model-pass-1,rel-054,1,A,5,5,5,5,5,5,0,Preserves sequence and obligation while asking the necessary actor clarification.
+model-pass-1,rel-055,1,B,5,5,5,5,5,5,0,Directly answers the question using only the note; the meeting and team-lead context remain implicit without changing scope.
+model-pass-1,rel-055,1,A,5,5,5,5,5,5,0,Directly answers the question using only the note; the meeting and team-lead context remain implicit without changing scope.
+model-pass-1,rel-056,1,A,3,5,5,5,5,3,1,"Correctly conveys uncertainty but omits the diagnosed damage and the replacement order, material repair-status information."
+model-pass-1,rel-056,1,B,5,5,5,5,5,5,0,Answers directly and preserves all supplied repair-status information without inventing a deadline.
+model-pass-1,rel-057,1,A,5,5,5,5,5,5,0,Preserves every report limitation and distinguishes a possible benefit from proof of causation. No additional material source meaning is omitted.
+model-pass-1,rel-057,1,B,5,5,5,5,5,5,0,Explains the evidentiary limitations without asserting a verified reduction or causal effect. No additional material source meaning is omitted.
+model-pass-1,rel-058,1,B,5,5,5,5,5,5,0,Reports the disputed proposal and both unapproved actions without following the quoted instruction. No material meaning is omitted.
+model-pass-1,rel-058,1,A,5,5,5,5,5,5,0,Faithfully converts the quotation into a report while preserving dispute and lack of approval. No material meaning is omitted.
+model-pass-1,rel-059,1,B,5,5,5,5,5,5,0,"Preserves the negation, universal-claim limitation, and sample-size explanation without adding conclusions."
+model-pass-1,rel-059,1,A,5,5,5,5,5,5,0,"Faithfully preserves all source meaning, including the reason universal encryption cannot be established."
+model-pass-1,rel-060,1,B,5,5,5,5,5,5,0,Preserves the counts and voluntary-response limitation. The additional approximately 73% is a supported calculation explicitly restricted to respondents.
+model-pass-1,rel-060,1,A,5,5,5,5,5,5,0,Directly answers the question and preserves all material data and scope limitations without filling gaps.
+model-pass-1,rel-061,1,A,5,5,5,5,5,5,0,Preserves every substantive detail and clearly identifies the comparison period. No additional source meaning is omitted.
+model-pass-1,rel-061,1,B,5,5,5,5,5,5,0,"Preserves the amount, period, tax exclusion, comparison and audit caveat. No additional source meaning is omitted."
+model-pass-1,rel-062,1,A,5,5,5,5,5,5,0,"Retains the optional, one-time postponement, required written notice and continuing payment obligation. No other substantive meaning is omitted."
+model-pass-1,rel-062,1,B,5,5,5,5,5,5,0,Explicitly preserves the notice condition and the payment obligation without changing permission into a requirement. No other substantive meaning is omitted.
+model-pass-1,rel-063,1,A,5,5,4,5,5,5,0,Preserves the numerical distinction and restricted account scope. The final sentence mildly repeats the scope but omits no substantive meaning.
+model-pass-1,rel-063,1,B,5,5,5,5,5,5,0,"Clearly preserves every numerical and scope qualification, with no additional source meaning omitted."
+model-pass-1,rel-064,1,A,5,5,5,5,5,5,0,The restricted imperative preserves the prohibition before both written approvals. Single approval and silence remain insufficient; no other substantive meaning is omitted.
+model-pass-1,rel-064,1,B,5,5,5,5,5,5,0,"Preserves both written approvals as a prerequisite, together with the explicit exclusions of single approval and silence. No other substantive meaning is omitted."
+model-pass-1,rel-065,1,A,5,5,5,5,5,5,0,Uses conventional French pricing shorthand and preserves the separate installation charge and nonbinding estimate. No additional substantive meaning is omitted.
+model-pass-1,rel-065,1,B,5,5,5,5,5,5,0,"Explicitly preserves the quarterly estimate, both exclusions and the absence of a firm quote. No additional source meaning is omitted."
+model-pass-1,rel-066,1,A,4,5,5,5,4,3,1,The explicit absence of an obligation is omitted; all other source meaning is retained.
+model-pass-1,rel-066,1,B,5,5,5,5,5,5,0,"Preserves permission, non-obligation, the conditional duty, and its deadline. No additional material meaning is lost."
+model-pass-1,rel-067,1,A,5,5,5,5,5,5,0,"Preserves all source meaning and clarifies the nonrespondent group using the supported calculation 190 − 68 = 122, without extrapolating preferences."
+model-pass-1,rel-067,1,B,5,4,5,5,5,4,0,"Preserves all material meaning without extrapolation, although the remaining group is less explicitly identified than in A."
+model-pass-1,rel-068,1,A,5,5,5,5,5,5,0,"Retains all source conditions, actors, and written-release requirements."
+model-pass-1,rel-068,1,B,5,5,5,5,5,5,0,"Retains all source conditions, actors, and written-release requirements."
+model-pass-1,rel-069,1,A,5,5,5,5,5,5,0,"Preserves the date, provisional status, amount, comparison, tax exclusion, and unaudited status. No additional source meaning is lost."
+model-pass-1,rel-069,1,B,5,5,5,5,5,5,0,Preserves every material fact and qualification in clear Japanese.
+model-pass-1,rel-070,1,A,5,5,5,5,5,5,0,Preserves the optional request and the applicant's conditional obligation within five business days. No additional material meaning is omitted.
+model-pass-1,rel-070,1,B,5,5,5,5,5,5,0,Clearly separates the optional request from the mandatory response and preserves the deadline.
+model-pass-1,rel-071,1,A,5,5,5,5,5,5,0,Preserves all source meaning with clear wording and no unsupported additions.
+model-pass-1,rel-071,1,B,5,5,4,5,5,5,0,"Preserves all source meaning, but repeats the account and month scope unnecessarily."
+model-pass-1,rel-072,1,B,5,5,5,5,5,5,0,Clearly preserves the joint written-approval prerequisite and both exclusions; no additional source meaning is omitted.
+model-pass-1,rel-072,1,A,5,5,5,5,5,5,0,Faithfully consolidates both exclusions while retaining the prerequisite for publication.
+model-pass-1,rel-073,1,B,5,5,5,5,5,5,0,"Preserves the estimate, tax exclusion, user limit, additional activation charge, and unchanged recurring fee."
+model-pass-1,rel-073,1,A,5,5,5,5,5,5,0,Preserves all source meaning and groups the recurring-fee terms coherently.
+model-pass-1,rel-074,1,A,5,5,5,5,5,5,0,"Preserves permission, the single-postponement limit, notice requirements, and accrued penalties."
+model-pass-1,rel-074,1,B,5,5,5,5,5,5,0,Preserves all conditions and consequences without changing permission into an obligation.
+model-pass-1,rel-075,1,B,5,5,5,5,5,5,0,"Retains the revenue amount, reporting period, VAT exclusion, comparison, and provisional unaudited status."
+model-pass-1,rel-075,1,A,5,5,5,5,5,5,0,Retains every material fact and qualification; the standard abbreviation does not change the amount.
+model-pass-1,rel-076,1,A,5,5,5,5,5,5,0,Concise and complete; no additional decision-relevant source meaning is absent.
+model-pass-1,rel-076,1,B,5,5,5,5,5,5,0,Concise and complete; no additional decision-relevant source meaning is absent.
+model-pass-1,rel-077,1,A,5,5,5,5,5,5,0,"Faithful translation retaining permission, notice requirements, and outstanding invoices."
+model-pass-1,rel-077,1,B,5,5,5,5,5,5,0,"Faithful translation retaining permission, notice requirements, and outstanding invoices."
+model-pass-1,rel-078,1,A,5,5,5,5,5,5,0,"All source meaning, including uncertainty and evidentiary limitations, is retained."
+model-pass-1,rel-078,1,B,5,5,5,5,5,5,0,"All source meaning, including uncertainty and evidentiary limitations, is retained."
+model-pass-1,rel-079,1,A,5,5,5,5,5,5,0,"Only string values are translated; all meaning, keys, and protected placeholders are retained."
+model-pass-1,rel-079,1,B,5,5,5,5,5,5,0,"Only string values are translated; all meaning, keys, and protected placeholders are retained."
+model-pass-1,rel-080,1,A,5,5,5,5,5,5,0,"Preserves permission without obligation, written calendar-day notice, and continued payment liability. “El contrato” reasonably supplies the implied object of termination."
+model-pass-1,rel-080,1,B,5,5,5,5,5,5,0,"Preserves permission without obligation, written calendar-day notice, and continued payment liability. “El acuerdo” reasonably supplies the implied object of termination."
+model-pass-1,rel-081,1,B,5,5,5,5,5,5,0,Faithful translation; no additional source meaning is omitted.
+model-pass-1,rel-081,1,A,5,5,5,5,5,5,0,Faithful translation; no additional source meaning is omitted.
+model-pass-1,rel-082,1,A,5,5,5,5,5,5,0,"Translates only values, preserves the greeting and all constraints, and adds no material claims."
+model-pass-1,rel-082,1,B,5,5,5,5,5,5,0,"Translates only values, preserves the greeting and all constraints, and adds no material claims."
+model-pass-1,rel-083,1,B,5,5,5,5,5,5,0,"Preserves permission, the single-extension limit, mandatory advance submission, and approval uncertainty. No other meaning is omitted."
+model-pass-1,rel-083,1,A,5,5,5,5,5,5,0,"Preserves permission, the single-extension limit, mandatory advance submission, and approval uncertainty. “Échéance” appropriately conveys expiry here."
+model-pass-1,rel-084,1,B,5,5,5,5,5,5,0,"Preserves provisional status, counts, unknown preferences, and restricted coverage without additional omissions."
+model-pass-1,rel-084,1,A,5,5,5,5,5,5,0,"Preserves provisional status, counts, unknown preferences, and restricted coverage without additional omissions."
+model-pass-1,rel-085,1,B,5,5,5,5,5,5,0,"Faithfully translates only the values and preserves the greeting, tax exclusion, uncertainty, and retention endpoint."
+model-pass-1,rel-085,1,A,4,5,5,5,5,4,0,"Preserves all material meaning. “Devis” is a more specific commercial rendering of “estimate,” and “peut être modifié” is less direct than “may change,” but neither materially distorts this context."
+model-pass-1,rel-086,1,A,5,4,5,5,5,4,0,"All source meaning is retained, although “muss er anhalten” is less clear and idiomatic in this operational context."
+model-pass-1,rel-086,1,B,5,5,5,5,5,5,0,Faithful German translation with clear operational wording and no additional material claims.
+model-pass-1,rel-087,1,A,4,5,5,5,4,3,1,"The source describes the costs as provisional, not estimated. The remaining financial terms and disclaimer are preserved."
+model-pass-1,rel-087,1,B,5,5,5,5,5,5,0,"All amounts, qualifications, and the nonbinding disclaimer are faithfully translated."
+model-pass-1,rel-088,1,A,5,5,5,5,5,5,0,"Only string values are translated; JSON structure, placeholders, greeting, and both restrictions are preserved."
+model-pass-1,rel-088,1,B,5,5,5,5,5,5,0,"Only string values are translated; JSON structure, placeholders, greeting, and both restrictions are preserved."
+model-pass-1,rel-089,1,A,5,5,5,5,5,5,0,"All permissions, obligations, conditions, timing, and the silence disclaimer are preserved."
+model-pass-1,rel-089,1,B,5,5,5,5,5,5,0,"All permissions, obligations, conditions, timing, and the silence disclaimer are preserved."
+model-pass-1,rel-090,1,A,5,5,5,5,5,5,0,"The monetary conversion, reporting period, tax exclusion, growth comparison, and audit qualification are all preserved."
+model-pass-1,rel-090,1,B,5,5,5,5,5,5,0,All source meaning is preserved; September 2025 is the supported explicit equivalent of the prior-year comparison.
+model-pass-1,rel-091,1,A,5,5,5,5,5,5,0,"All source meaning is retained, including the greeting, timing uncertainty, and deletion prohibition. No additional material omissions or claims."
+model-pass-1,rel-091,1,B,5,5,5,5,5,5,0,"All source meaning is retained, including the greeting, timing uncertainty, and deletion prohibition. Spaces around the placeholder do not change it."
+model-pass-1,rel-092,1,A,5,5,5,5,5,5,0,"Preserves the customer's permission, one-time limit, required notice, and continued liability for already-due charges. No other source meaning is omitted."
+model-pass-1,rel-092,1,B,5,5,5,5,5,5,0,"Preserves the customer's permission, one-time limit, required notice, and continued liability for already-due charges. No other source meaning is omitted."
+model-pass-1,rel-093,1,B,5,5,5,5,5,5,0,"Faithfully preserves every source statement, including estimation, the percentage-point distinction, limited coverage, and audit status."
+model-pass-1,rel-093,1,A,5,5,5,5,5,5,0,"Faithfully preserves every source statement, including estimation, the percentage-point distinction, limited coverage, and audit status."
+model-pass-1,rel-094,1,B,5,5,5,5,5,5,0,"Retains all source meaning, including the greeting and finance's written approval of the identified invoice. No material additions or omissions."
+model-pass-1,rel-094,1,A,5,5,5,5,5,5,0,Retains all source meaning and the greeting. The object of finance's written approval is naturally understood as the identified invoice in this sentence.
+model-pass-1,rel-095,1,A,5,5,5,5,5,5,0,"All source meaning is preserved, with permission versus duty explicitly reinforced by ""Si tratta di una facoltà, non di un obbligo"". No material omissions or additions."
+model-pass-1,rel-095,1,B,5,5,5,5,5,5,0,"All source meaning is preserved, with permission versus duty explicitly reinforced by ""Si tratta di una facoltà, non di un obbligo"". No material omissions or additions."
+model-pass-1,rel-096,1,A,5,5,5,5,5,5,0,"Fully preserves the source's amount, scope, provisional status, and disclaimers."
+model-pass-1,rel-096,1,B,5,5,5,5,5,5,0,"Fully preserves the source's amount, scope, provisional status, and disclaimers."
+model-pass-1,rel-097,1,A,5,5,5,5,5,5,0,"Faithful translation of all string values, with unchanged keys and placeholders and no extraneous text."
+model-pass-1,rel-097,1,B,5,5,5,5,5,5,0,"Faithful translation of all string values, with unchanged keys and placeholders and no extraneous text."
+model-pass-1,rel-098,1,A,5,5,5,5,5,5,0,"Preserves permission, bilateral written approval, the silence disclaimer, and the absence of an agreed deadline."
+model-pass-1,rel-098,1,B,5,5,5,5,5,5,0,"Preserves permission, bilateral written approval, the silence disclaimer, and the absence of an agreed deadline."
+model-pass-1,rel-099,1,B,5,5,5,5,5,5,0,"Preserves the preliminary rate, percentage-point change, temporal restriction, and causal caveat."
+model-pass-1,rel-099,1,A,5,5,5,5,5,5,0,"Preserves the preliminary rate, percentage-point change, temporal restriction, and causal caveat."
+model-pass-1,rel-100,1,A,5,5,5,5,5,5,0,Preserves all content and JSON constraints; the cost interpretation of estimate is supported by the tax context.
+model-pass-1,rel-100,1,B,5,5,5,5,5,5,0,"Preserves the estimate's uncertainty, tax exclusion, both-check requirement, and all JSON constraints."
+model-pass-2,rel-001,1,A,5,5,5,5,5,5,0,Preserves all material source meaning and returns only the revised text.
+model-pass-2,rel-001,1,B,5,5,5,5,5,5,0,Preserves all material source meaning and returns only the revised text.
+model-pass-2,rel-002,1,A,5,5,5,5,5,5,0,Retains all material meaning in a concise sentence suitable for a busy reader.
+model-pass-2,rel-002,1,B,5,5,5,5,5,5,0,Retains all material meaning in a concise sentence suitable for a busy reader.
+model-pass-2,rel-003,1,A,5,5,5,5,5,5,0,"Preserves the failure-risk claim, both reduction measures, and the modeling qualification without additional omissions."
+model-pass-2,rel-003,1,B,5,5,5,5,5,5,0,"Preserves the failure-risk claim, both reduction measures, and the modeling qualification without additional omissions."
+model-pass-2,rel-004,1,A,5,5,5,5,5,5,0,"Preserves the optional-question denominator, invited population, and limits on interpreting the result. The explanatory connection is supported by the source."
+model-pass-2,rel-004,1,B,5,5,5,5,5,5,0,"Preserves the optional-question denominator, invited population, and limits on interpreting the result, with no additional material omissions."
+model-pass-2,rel-005,1,A,3,5,5,5,2,2,1,The readable simplification materially changes the estimate's epistemic status. The non-guarantee disclaimer does not restore the missing estimate qualification.
+model-pass-2,rel-005,1,B,5,5,5,5,5,5,0,"Simplifies the update while retaining all timing conditions and uncertainty, with no additional material omissions."
+model-pass-2,rel-006,1,B,5,5,5,5,5,5,0,Preserves all source meaning and explains the confidence interval for a nontechnical reader.
+model-pass-2,rel-006,1,A,2,4,4,5,2,2,1,"Omits the observational design, adds an unsupported direction, and weakens the causal limitation."
+model-pass-2,rel-007,1,B,5,5,5,5,5,5,0,"Preserves the counts, support-desk context, and explicit interpretation restriction."
+model-pass-2,rel-007,1,A,5,5,5,5,5,5,0,Preserves all meaning; the explanation of multiple tickets per customer is supported by the source.
+model-pass-2,rel-008,1,B,5,5,5,5,5,5,0,"Preserves every price, unit, limit, additional charge, and unused-seat condition."
+model-pass-2,rel-008,1,A,5,5,5,5,5,5,0,Preserves all cost-note meaning without adding material claims.
+model-pass-2,rel-009,1,A,5,5,5,5,5,5,0,Preserves the observations and sampling limitation; the 0.4-percentage-point decrease is a supported calculation scoped to observed rates.
+model-pass-2,rel-009,1,B,5,5,5,5,5,5,0,"Preserves all monitoring-result meaning and adds only a correct, appropriately scoped calculation."
+model-pass-2,rel-010,1,B,5,5,5,5,5,5,0,Preserves the exact protected tokens and all measurement qualifications.
+model-pass-2,rel-010,1,A,5,5,5,5,5,5,0,"Preserves the instrument reading, uncertainty, protected tokens, and nonzero-current caveat."
+model-pass-2,rel-011,1,A,5,5,5,5,5,5,0,Preserves all material source meaning; the deadline anchor clarifies the conditional requirement.
+model-pass-2,rel-011,1,B,5,5,5,5,5,5,0,"Clearly preserves discretion, the conditional obligation, and the business-day deadline. No additional material meaning is omitted."
+model-pass-2,rel-012,1,A,5,5,5,5,5,5,0,Preserves both written approvals as prerequisites and excludes verbal approval. No additional material meaning is omitted.
+model-pass-2,rel-012,1,B,5,5,5,5,5,5,0,"Preserves the complete release condition, including prior written approval by both roles and the insufficiency of verbal approval."
+model-pass-2,rel-013,1,A,5,4,5,5,5,4,0,Preserves the credential alternatives and concurrent officer-presence condition. The final sentence is slightly less explicit than naming both credentials.
+model-pass-2,rel-013,1,B,5,4,5,5,5,4,0,Preserves all material conditions. The final sentence is slightly less explicit than naming both credentials.
+model-pass-2,rel-014,1,A,5,5,5,5,5,5,0,"Preserves termination rights, the minimum written-notice period, and existing fee obligations. No additional material meaning is omitted."
+model-pass-2,rel-014,1,B,5,5,5,5,5,5,0,Clearly preserves every material term without additions or omissions.
+model-pass-2,rel-015,1,A,5,4,4,4,5,4,0,"Preserves all reimbursement and eligibility conditions. The initially categorical “must” is qualified by the next sentence, but the split presentation is less direct."
+model-pass-2,rel-015,1,B,5,5,5,5,5,5,0,Preserves all material terms and states the deadline consequence and exception together without an initially absolute requirement.
+model-pass-2,rel-016,1,A,5,5,5,5,5,5,0,"Preserves the cancellation permission, fee, timing, and warehouse condition. No additional material meaning is missing."
+model-pass-2,rel-016,1,B,5,5,5,5,5,5,0,"Preserves all material source meaning in clear, simple language."
+model-pass-2,rel-017,1,A,5,5,5,5,5,5,0,"Accurately distinguishes preparation, review, approval, and publication authority. No additional material omissions."
+model-pass-2,rel-017,1,B,5,5,5,5,5,5,0,Preserves each actor's responsibility and the limits on publication authority.
+model-pass-2,rel-018,1,A,5,5,5,5,5,5,0,"Preserves the deletion rule, exception, release authority, and precedence of legal holds."
+model-pass-2,rel-018,1,B,5,5,5,5,5,5,0,The instruction to retain held records beyond 60 days preserves the hold's precedence. No additional material omissions.
+model-pass-2,rel-019,1,A,5,5,5,5,5,5,0,"Preserves the replacement coverage, reporting deadline, exclusions, and required evidence."
+model-pass-2,rel-019,1,B,5,5,5,5,5,5,0,Preserves all material warranty terms without adding claims.
+model-pass-2,rel-020,1,A,3,5,5,5,3,2,1,"Readable and otherwise complete, but removes a material qualification from the protection of prior processing."
+model-pass-2,rel-020,1,B,5,5,5,5,5,5,0,"Preserves withdrawal rights, the valid-consent qualification for prior processing, and independent retention duties."
+model-pass-2,rel-021,1,A,5,5,5,5,5,5,0,Preserves all source meaning and protected tokens without additions.
+model-pass-2,rel-021,1,B,5,5,5,5,5,5,0,Preserves all source meaning and protected tokens without additions.
+model-pass-2,rel-022,1,A,5,5,5,5,5,5,0,All source instructions and the exact command are retained.
+model-pass-2,rel-022,1,B,5,5,5,5,5,5,0,All source instructions and the exact command are retained.
+model-pass-2,rel-023,1,A,5,5,5,4,5,5,0,"Preserves the ordered safety steps, successful verification condition, and qualified actor."
+model-pass-2,rel-023,1,B,5,5,5,5,5,5,0,Preserves all source meaning and makes the required sequence especially easy to follow.
+model-pass-2,rel-024,1,A,5,5,5,5,5,5,0,"Concisely preserves all precautions, the conditional stop instruction, the identifier, and unspecified contents."
+model-pass-2,rel-024,1,B,5,4,4,4,5,4,0,"Preserves the procedure, but repeats the opening condition and separates the conditional prohibition into two sentences."
+model-pass-2,rel-025,1,A,5,5,5,5,5,5,0,"Preserves the specification's value, units, zero behavior, and scope; declarative phrasing remains suitable for a specification."
+model-pass-2,rel-025,1,B,5,5,5,5,5,5,0,Preserves all source meaning and protected tokens directly.
+model-pass-2,rel-026,1,A,5,5,5,5,5,5,0,"Preserves all migration details, protected tokens, the deadline, and the limitation on renaming. No additional material meaning is omitted."
+model-pass-2,rel-026,1,B,5,5,5,5,5,5,0,"Preserves all migration details, protected tokens, the deadline, and the limitation on renaming. No additional material meaning is omitted."
+model-pass-2,rel-027,1,B,5,5,5,5,5,5,0,"Clearly distinguishes storage encryption from the still-unencrypted transfer path. The protection limitation remains attributed to at-rest encryption, not to all possible controls."
+model-pass-2,rel-027,1,A,5,5,5,5,5,5,0,Clearly preserves the storage-versus-transfer distinction and the current lack of transfer encryption. No additional material meaning is omitted.
+model-pass-2,rel-028,1,A,5,5,5,5,5,5,0,"Preserves the minimum Python version, Node's optional and exclusive role, and the non-substitution warning. The heading adds no material claim."
+model-pass-2,rel-028,1,B,5,5,5,5,5,5,0,"Preserves all requirements, scope restrictions, and the non-substitution warning without adding unsupported content."
+model-pass-2,rel-029,1,B,5,5,5,5,5,5,0,"Preserves the conditional sequence, single rollback, escalation actor, and stopping requirement. The final prohibition follows the source's one-rollback limit."
+model-pass-2,rel-029,1,A,5,5,5,5,5,5,0,"Preserves all conditional actions and their sequence. 'Its' clearly refers to the previous version, and the final prohibition preserves the single-rollback limit."
+model-pass-2,rel-030,1,A,5,5,5,5,5,5,0,"Preserves the strict threshold, inclusive minimum duration, continuity, alert action, and reset boundary. 'Strictly above' explicitly excludes exactly 72°C."
+model-pass-2,rel-030,1,B,5,5,5,5,5,5,0,"Preserves all numeric boundaries, consecutive duration, alert conditions, and reset behavior. The equality exclusion is stated explicitly."
+model-pass-2,rel-031,1,A,5,5,5,5,5,5,0,"Preserves all decision-relevant details, conditions, and limits; no additional source meaning is omitted."
+model-pass-2,rel-031,1,B,5,5,5,5,5,5,0,"Preserves all decision-relevant details in a clear, scannable executive summary."
+model-pass-2,rel-032,1,A,5,5,5,5,5,5,0,"Retains the complete managerial status. The five-unit difference is correct, and the reconciliation dependency is supported by the source."
+model-pass-2,rel-032,1,B,5,5,5,5,5,5,0,Retains all source details and correctly calculates the five-unit difference.
+model-pass-2,rel-033,1,A,5,5,5,5,5,5,0,Preserves every fact and appropriately distinguishes association from causation. Possible explanations are explicitly qualified.
+model-pass-2,rel-033,1,B,5,5,5,5,5,5,0,Preserves all facts and explains the causal uncertainty. Mentioning other factors identifies uncertainty rather than asserting an additional cause.
+model-pass-2,rel-034,1,B,5,5,5,5,5,5,0,Preserves all numerical and methodological details and correctly explains the interval in plain language.
+model-pass-2,rel-034,1,A,5,5,5,5,5,5,0,Accurately translates the negative endpoint into extra time and explains why the result is inconclusive without adding unsupported claims.
+model-pass-2,rel-035,1,A,5,5,5,5,5,5,0,"Preserves the incident's full scope, restoration action, causal uncertainty, unresolved charge risk, and outreach status."
+model-pass-2,rel-035,1,B,5,5,5,5,5,5,0,Preserves every decision-relevant incident detail and carefully maintains both causal and customer-charge uncertainty.
+model-pass-2,rel-036,1,A,3,5,5,5,5,3,1,"The recommendation is correct, but it omits supplied comparison facts: A’s price and B’s actual capacity."
+model-pass-2,rel-036,1,B,5,5,5,5,5,5,0,Retains all supplied facts and provides a supported recommendation and budget calculation.
+model-pass-2,rel-037,1,A,5,5,5,5,5,5,0,A concise status update preserving all conditions and project states.
+model-pass-2,rel-037,1,B,5,5,5,5,5,5,0,A concise status update preserving all conditions and project states.
+model-pass-2,rel-038,1,A,5,5,5,5,5,5,0,"Preserves all offer details, correctly normalizes annual costs, and offers supported conditional analysis without declaring a winner."
+model-pass-2,rel-038,1,B,5,5,5,5,5,5,0,"Preserves all supplied terms and uncertainty, with correct annual-cost and capacity comparisons."
+model-pass-2,rel-039,1,A,5,5,5,5,5,5,0,"Preserves attribution, the archive caveat, the chair’s neutrality, and the unresolved outcome."
+model-pass-2,rel-039,1,B,5,5,5,5,5,5,0,"Preserves attribution, the archive caveat, the chair’s neutrality, and the unresolved outcome."
+model-pass-2,rel-040,1,A,4,5,5,5,5,5,0,"The separate cost breakdown is omitted, but its correct subtotal preserves the decision-relevant budget meaning. Optional training and unknown tax are handled correctly."
+model-pass-2,rel-040,1,B,4,5,5,5,5,5,0,"The separate cost breakdown is omitted, but correct before-tax totals preserve the decision-relevant meaning. No tax rate or guaranteed affordability is invented."
+model-pass-2,rel-041,1,A,5,5,5,5,5,5,0,Reproduces the quotation exactly and adds nothing.
+model-pass-2,rel-041,1,B,5,5,5,5,5,5,0,Reproduces the quotation exactly and adds nothing.
+model-pass-2,rel-042,1,A,5,5,5,5,5,5,0,"Changes only the message, preserving approval timing, duration uncertainty, and the export's current state."
+model-pass-2,rel-042,1,B,5,5,5,5,5,5,0,"Changes only the message, preserving approval timing, duration uncertainty, and the export's current state."
+model-pass-2,rel-043,1,A,5,5,5,5,5,5,0,"Preserves every instruction, the required sequence, and the distinction between submission and payment confirmation."
+model-pass-2,rel-043,1,B,5,5,5,5,5,5,0,"Preserves every instruction, the required sequence, and the distinction between submission and payment confirmation."
+model-pass-2,rel-044,1,A,5,5,5,5,5,5,0,"The requested table contains all plan limits, backup provisions, and the restoration caveat."
+model-pass-2,rel-044,1,B,5,5,5,5,5,5,0,"The requested table contains all plan limits, backup provisions, and the restoration caveat."
+model-pass-2,rel-045,1,A,5,5,5,5,5,5,0,"Warmly preserves the recipient, conditional request, deadline, optionality, publication flexibility, and thanks."
+model-pass-2,rel-045,1,B,5,5,5,5,5,5,0,"Warmly preserves the recipient, conditional request, deadline, optionality, publication flexibility, and thanks."
+model-pass-2,rel-046,1,A,5,5,5,5,5,5,0,"Tightens the text while preserving its humor, factual rate, and diagnostic caveats. No additional material meaning is lost."
+model-pass-2,rel-046,1,B,5,5,5,5,5,5,0,"A concise, playful rewrite preserving all factual information and qualifications. No additional material meaning is lost."
+model-pass-2,rel-047,1,A,5,5,5,5,5,5,0,"Makes a light connective edit without changing the narrator, imagery, uncertainty, or absence of a promise. No additional material meaning is lost."
+model-pass-2,rel-047,1,B,5,5,5,5,5,5,0,"Retains the already-readable original verbatim, preserving every meaning and voice feature. Unnecessary editing is avoided."
+model-pass-2,rel-048,1,A,5,5,5,5,5,5,0,"Preserves review readiness, lack of release approval, the exact Spanish prohibition, and the limits of Sam’s forthcoming check. No additional material meaning is lost."
+model-pass-2,rel-048,1,B,5,5,5,5,5,5,0,"Preserves all release restrictions, the intentional Spanish sentence, timing, actor, and approval caveat. No additional material meaning is lost."
+model-pass-2,rel-049,1,A,5,5,5,5,5,5,0,"Concisely retains the opening and closure details, water failure, unresolved reopening, and absence of a repair booking. Adds no action plan or other material claims."
+model-pass-2,rel-049,1,B,5,5,5,5,5,5,0,"Concisely preserves all operational details and uncertainty without adding advice, a plan, or unsupported facts."
+model-pass-2,rel-050,1,A,5,5,5,5,5,5,0,"Exactly preserves the already-clear instruction, including the required document, deadline, date, and time zone."
+model-pass-2,rel-050,1,B,5,5,5,5,5,5,0,"Exactly preserves the already-clear instruction, including the required document, deadline, date, and time zone."
+model-pass-2,rel-051,1,A,5,5,5,5,5,5,0,Appropriately requests the missing target language without guessing.
+model-pass-2,rel-051,1,B,5,5,5,5,5,5,0,Appropriately requests the missing target language without guessing.
+model-pass-2,rel-052,1,A,5,5,5,5,5,5,0,"Preserves the booking, time, year, and date uncertainty by spelling out both possible interpretations."
+model-pass-2,rel-052,1,B,5,5,5,5,5,5,0,Retains the original booking details and clearly explains the unresolved date format.
+model-pass-2,rel-053,1,A,4,4,5,5,4,3,1,"Preserves the numerical conflict but loses the explicit, decision-relevant verification status of both source documents."
+model-pass-2,rel-053,1,B,5,5,4,5,5,5,0,"Preserves all reporting details and uncertainty, with slight repetition of the unresolved status."
+model-pass-2,rel-054,1,A,5,5,5,5,5,5,0,Requests actor clarification while preserving the required action and sequence.
+model-pass-2,rel-054,1,B,5,5,5,5,5,5,0,Requests actor clarification while preserving the required action and sequence.
+model-pass-2,rel-055,1,A,5,5,5,5,5,5,0,Directly answers the question using only the note and preserves the recommendation's nonmandatory status.
+model-pass-2,rel-055,1,B,5,5,5,5,5,5,0,Directly answers the question using only the note and preserves the recommendation's nonmandatory status.
+model-pass-2,rel-056,1,B,5,5,5,5,5,5,0,Answers the question while retaining all supplied facts and uncertainty.
+model-pass-2,rel-056,1,A,3,5,5,5,5,3,1,Correctly communicates the unknown completion date but omits the damage finding and confirmed replacement order.
+model-pass-2,rel-057,1,B,5,5,5,5,5,5,0,Preserves all report limitations and explains why the report cannot establish causation. Additional reasoning is supported and appropriately qualified.
+model-pass-2,rel-057,1,A,5,5,5,5,5,5,0,"Retains every supplied limitation and rejects causal proof. The possible-benefit statement is a qualified interpretation of the reported decrease, not an invented finding."
+model-pass-2,rel-058,1,A,5,5,5,5,5,5,0,Faithfully reports the disputed proposal and both withheld approvals without following the quoted instruction.
+model-pass-2,rel-058,1,B,5,5,5,5,5,5,0,Preserves the complete source meaning in report form and does not obey the quoted instruction.
+model-pass-2,rel-059,1,A,5,5,5,5,5,5,0,"Preserves both negations, the universal scope, and the four-sample limitation with its explanatory relationship."
+model-pass-2,rel-059,1,B,5,5,5,5,5,5,0,"Retains all source meaning, including the sampling limitation explaining why universal encryption is not proved."
+model-pass-2,rel-060,1,A,5,5,5,5,5,5,0,"Answers directly, preserves all counts and the voluntary-response limitation, and does not extrapolate to nonrespondents."
+model-pass-2,rel-060,1,B,5,5,5,5,5,5,0,Preserves all source information without filling gaps. The approximate 73% is a correct calculation with the respondent denominator explicitly retained.
+model-pass-2,rel-061,1,A,5,5,5,5,5,5,0,Preserves every material fact and qualification; no additional source meaning is omitted.
+model-pass-2,rel-061,1,B,5,5,5,5,5,5,0,Preserves every material fact and qualification; no additional source meaning is omitted.
+model-pass-2,rel-062,1,A,5,5,5,5,5,5,0,"Preserves the permission, its notice condition, and the continuing payment obligation. No other material meaning is absent."
+model-pass-2,rel-062,1,B,5,5,5,5,5,5,0,"Preserves the permission, its notice condition, and the continuing payment obligation. No other material meaning is absent."
+model-pass-2,rel-063,1,A,5,5,5,5,5,5,0,"Preserves the rates, the percentage-point distinction, and the exclusive scope. No additional material meaning is omitted."
+model-pass-2,rel-063,1,B,5,5,5,5,5,5,0,"Preserves the rates, the percentage-point distinction, and the exclusive scope. No additional material meaning is omitted."
+model-pass-2,rel-064,1,A,5,5,5,5,5,5,0,"The restrictive instruction retains written approval from both people as a prerequisite, not an unconditional instruction to send. It also preserves both explicit exclusions."
+model-pass-2,rel-064,1,B,5,5,5,5,5,5,0,Retains prior written approval from both people as a necessary condition and explicitly preserves the insufficiency of one approval and of silence.
+model-pass-2,rel-065,1,A,5,4,5,5,5,4,0,"Preserves the estimated quarterly amount, excluded taxes and installation charge, and nonbinding quotation status. The abbreviation HT is accurate but less explicit than naming TVA."
+model-pass-2,rel-065,1,B,5,5,5,5,5,5,0,"Preserves all material meaning and states the exclusions and estimate qualification explicitly in separate, clear sentences."
+model-pass-2,rel-066,1,A,5,5,5,5,5,5,0,Preserves all source meaning; optionality is conveyed by “peut” rather than stated separately.
+model-pass-2,rel-066,1,B,5,5,5,5,5,5,0,Simplifies the source while explicitly retaining every decision-relevant distinction.
+model-pass-2,rel-067,1,A,5,5,5,5,5,5,0,Preserves the source and clarifies the remaining group. The count 122 follows directly from 190 minus 68.
+model-pass-2,rel-067,1,B,5,4,5,5,5,4,0,"Preserves all source meaning, although the remaining group is less explicitly identified than in A."
+model-pass-2,rel-068,1,A,5,5,5,5,5,5,0,Preserves every source requirement in three clear sentences.
+model-pass-2,rel-068,1,B,5,5,5,5,5,5,0,Preserves every source requirement in three clear sentences.
+model-pass-2,rel-069,1,A,5,5,5,5,5,5,0,Clearly preserves all source facts and qualifications.
+model-pass-2,rel-069,1,B,5,5,5,5,5,5,0,Clearly preserves all source facts and qualifications.
+model-pass-2,rel-070,1,A,5,4,4,4,5,4,0,"Preserves all meaning, but combines two distinct rules into a somewhat heavier sentence."
+model-pass-2,rel-070,1,B,5,5,5,5,5,5,0,"Concise and faithful, with the optional request and mandatory response clearly separated."
+model-pass-2,rel-071,1,A,5,5,5,5,5,5,0,完整保留数值、增长口径和数据范围，无额外重要含义遗漏。
+model-pass-2,rel-071,1,B,5,5,4,5,5,5,0,所有重要含义均保留，但账户和月份范围在两句中重复。
+model-pass-2,rel-072,1,A,5,5,5,5,5,5,0,保留双方书面批准的前提及两项排除条件，无额外重要含义遗漏。
+model-pass-2,rel-072,1,B,5,5,5,5,5,5,0,所有发布条件和否定条件均准确保留，无额外重要含义遗漏。
+model-pass-2,rel-073,1,A,5,5,5,5,5,5,0,"Preserves the estimate, monthly amount, VAT exclusion, user limit, additional activation charge and unchanged fee for unused capacity. No other important source meaning is omitted."
+model-pass-2,rel-073,1,B,5,5,5,5,5,5,0,All pricing qualifications and conditions are preserved clearly. No other important source meaning is omitted.
+model-pass-2,rel-074,1,A,5,5,5,5,5,5,0,"Preserves permission rather than obligation, the single-postponement limit, written calendar-day notice and accrued penalties. No other important source meaning is omitted."
+model-pass-2,rel-074,1,B,5,5,5,5,5,5,0,"All permissions, limits and surviving penalty obligations are accurately retained. No other important source meaning is omitted."
+model-pass-2,rel-075,1,A,5,5,5,5,5,5,0,"Preserves provisional status, period, revenue amount, currency, VAT exclusion, comparison and lack of audit. No other important source meaning is omitted."
+model-pass-2,rel-075,1,B,5,5,5,5,5,5,0,"Every material figure, comparison and uncertainty qualification is retained. No other important source meaning is omitted."
+model-pass-2,rel-076,1,A,5,5,5,5,5,5,0,The concise rewrite retains both written approvals and the exclusion of silence; no important meaning is omitted.
+model-pass-2,rel-076,1,B,5,5,5,5,5,5,0,The concise rewrite retains the publication restriction and all approval conditions; no important meaning is omitted.
+model-pass-2,rel-077,1,A,5,5,5,5,5,5,0,"Accurate translation of permission, notice requirements, and continuing invoice obligations; no additional source meaning is missing."
+model-pass-2,rel-077,1,B,5,5,5,5,5,5,0,Accurate translation retaining all conditions and unpaid invoices; no additional source meaning is missing.
+model-pass-2,rel-078,1,B,5,5,5,5,5,5,0,"All numerical, temporal, and evidentiary qualifications are retained; no other source meaning is omitted."
+model-pass-2,rel-078,1,A,5,5,5,5,5,5,0,"All numerical, temporal, and evidentiary qualifications are retained; no other source meaning is omitted."
+model-pass-2,rel-079,1,A,5,5,5,5,5,5,0,"Only string prose is translated; the greeting, ownership, timing, prohibition, keys, and placeholders are retained."
+model-pass-2,rel-079,1,B,5,5,5,5,5,5,0,"Only string prose is translated; the greeting, ownership, timing, prohibition, keys, and placeholders are retained."
+model-pass-2,rel-080,1,A,5,5,5,5,5,5,0,"Preserves permission without obligation, the minimum written notice, and continuing overdue fees. Making the implied contractual object explicit does not materially add a claim."
+model-pass-2,rel-080,1,B,5,5,5,5,5,5,0,"Preserves permission without obligation, the minimum written notice, and continuing overdue fees. Making the implied agreement explicit does not materially add a claim."
+model-pass-2,rel-081,1,A,5,5,5,5,5,5,0,Faithful translation; no additional source meaning is omitted.
+model-pass-2,rel-081,1,B,5,5,5,5,5,5,0,Faithful translation; no additional source meaning is omitted.
+model-pass-2,rel-082,1,A,5,5,5,5,5,5,0,"Only string values are translated; the greeting, timing qualification, prohibition, and placeholders are retained."
+model-pass-2,rel-082,1,B,5,5,5,5,5,5,0,"Only string values are translated; the greeting, timing qualification, prohibition, and placeholders are retained."
+model-pass-2,rel-083,1,A,5,5,5,5,5,5,0,"Preserves permission, the single-extension limit, conditional submission requirement, calendar-day deadline, and lack of guaranteed approval."
+model-pass-2,rel-083,1,B,5,5,5,5,5,5,0,"Preserves permission, the single-extension limit, conditional submission requirement, calendar-day deadline, and lack of guaranteed approval."
+model-pass-2,rel-084,1,A,5,5,5,5,5,5,0,"Preserves the provisional status, response count and denominator, unknown preferences, and population-scope limitation."
+model-pass-2,rel-084,1,B,5,5,5,5,5,5,0,"Preserves the provisional status, response count and denominator, unknown preferences, and population-scope limitation."
+model-pass-2,rel-085,1,A,4,5,5,5,5,4,0,Preserves all material meaning and JSON constraints. “Devis” is plausible in the financial context but narrower than “estimate”; “peut être modifié” is less direct than “may change.”
+model-pass-2,rel-085,1,B,5,5,5,5,5,5,0,"Faithfully translates all string-value content while retaining keys, placeholders, uncertainty, and the retention condition."
+model-pass-2,rel-086,1,A,5,4,5,5,5,5,0,"Preserves the source's permission, conditions, required actions, and prohibition on inventing a deadline."
+model-pass-2,rel-086,1,B,5,5,5,5,5,5,0,"Faithfully conveys all source meaning, with a clearer expression of stopping the service."
+model-pass-2,rel-087,1,A,5,5,5,5,5,5,0,Retains all decision-relevant meaning; “estimated” conveys the tentative pricing in context.
+model-pass-2,rel-087,1,B,5,5,5,5,5,5,0,"Preserves the provisional pricing, amounts, billing period, VAT exclusion, and nonbinding qualification."
+model-pass-2,rel-088,1,B,5,5,5,5,5,5,0,"Translates only the string values while preserving JSON structure, placeholders, greeting, and approval restrictions."
+model-pass-2,rel-088,1,A,5,5,5,5,5,5,0,"Translates only the string values while preserving JSON structure, placeholders, greeting, and approval restrictions."
+model-pass-2,rel-089,1,B,5,5,5,5,5,5,0,"Preserves optional evidence requests, the applicant's conditional six-business-day obligation, and the nonapproval meaning of silence."
+model-pass-2,rel-089,1,A,5,5,5,5,5,5,0,"Preserves optional evidence requests, the applicant's conditional six-business-day obligation, and the nonapproval meaning of silence."
+model-pass-2,rel-090,1,B,5,5,5,5,5,5,0,"Preserves the amount, month, tax exclusion, year-over-year comparison, and unaudited status. September 2025 is directly supported by the source."
+model-pass-2,rel-090,1,A,5,5,5,5,5,5,0,"Preserves the amount, month, tax exclusion, year-over-year comparison, and unaudited status."
+model-pass-2,rel-091,1,B,5,5,5,5,5,5,0,"Faithful translation retaining the greeting, placeholders, timing qualification, and deletion prohibition; no additional material omissions."
+model-pass-2,rel-091,1,A,5,5,5,5,5,5,0,"Faithful translation retaining the greeting, placeholders, timing qualification, and deletion prohibition; no additional material omissions."
+model-pass-2,rel-092,1,B,5,5,5,5,5,5,0,"All source meaning is retained, including permission, its notice condition, and the non-waiver of due charges."
+model-pass-2,rel-092,1,A,5,5,5,5,5,5,0,"All source meaning is retained, including permission, its notice condition, and the non-waiver of due charges."
+model-pass-2,rel-093,1,A,5,5,5,5,5,5,0,"Accurately translates all source meaning, including uncertainty, percentage-point distinction, scope, and audit status."
+model-pass-2,rel-093,1,B,5,5,5,5,5,5,0,"Accurately translates all source meaning, including uncertainty, percentage-point distinction, scope, and audit status."
+model-pass-2,rel-094,1,A,5,5,5,5,5,5,0,"Preserves the greeting and all substantive meaning, with valid JSON and intact placeholders."
+model-pass-2,rel-094,1,B,5,5,5,5,5,5,0,"Preserves the greeting and all substantive meaning, with valid JSON and intact placeholders."
+model-pass-2,rel-095,1,B,5,5,5,5,5,5,0,"Retains all source meaning, including the notice condition, permission-duty distinction, and continuing unpaid penalties."
+model-pass-2,rel-095,1,A,5,5,5,5,5,5,0,"Retains all source meaning, including the notice condition, permission-duty distinction, and continuing unpaid penalties."
+model-pass-2,rel-096,1,B,5,5,5,5,5,5,0,"Complete, faithful translation; no additional material meaning is omitted."
+model-pass-2,rel-096,1,A,5,5,5,5,5,5,0,"Complete, faithful translation; no additional material meaning is omitted."
+model-pass-2,rel-097,1,B,5,5,5,5,5,5,0,"Only string values are translated; all source meaning, keys, and placeholders are retained."
+model-pass-2,rel-097,1,A,5,5,5,5,5,5,0,"Only string values are translated; all source meaning, keys, and placeholders are retained."
+model-pass-2,rel-098,1,B,5,5,5,5,5,5,0,"Preserves permission, the bilateral written-approval requirement, and both negative qualifications. No other material meaning is omitted."
+model-pass-2,rel-098,1,A,5,5,5,5,5,5,0,"Preserves permission, the bilateral written-approval requirement, and both negative qualifications. No other material meaning is omitted."
+model-pass-2,rel-099,1,A,5,5,5,5,5,5,0,"Preserves the preliminary status, numerical change, restricted period, and lack of causal proof. No other material meaning is omitted."
+model-pass-2,rel-099,1,B,5,5,5,5,5,5,0,"Preserves the preliminary status, numerical change, restricted period, and lack of causal proof. No other material meaning is omitted."
+model-pass-2,rel-100,1,B,5,5,5,5,5,5,0,"Only string values are translated; the greeting, uncertainty, tax exclusion, and both-checks prerequisite are preserved."
+model-pass-2,rel-100,1,A,5,5,5,5,5,5,0,Only string values are translated. The tax context supports rendering the estimate as preliminary cost; successful completion preserves the meaning of passing both checks.

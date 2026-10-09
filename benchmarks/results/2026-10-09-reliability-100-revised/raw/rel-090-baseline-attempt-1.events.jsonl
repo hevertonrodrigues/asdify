@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e27-a91c-7573-af86-b866053b64c2"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Provisional sales for September 2026 were ¥5.8 million, excluding taxes. This represents a 4% increase compared with the same month last year, but the figures have not yet been audited."}}
+{"type":"turn.completed","usage":{"input_tokens":3748,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":46,"reasoning_output_tokens":0}}

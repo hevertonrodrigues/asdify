@@ -1,0 +1,14 @@
+{
+  "date_utc": "2026-10-09",
+  "skills_cli_version": "1.7.1",
+  "node_runtime": "22.20.0 (isolated temporary npm package)",
+  "npm_launcher_version": "10.9.0 on system Node 22.12.0",
+  "command": "DISABLE_TELEMETRY=1 npm exec --cache <TEMP_CACHE> --yes --package=node@22.20.0 --package=skills@1.7.1 -- skills add <LOCAL_REPOSITORY> --list",
+  "exit_code": 0,
+  "discovered_skill_count": 1,
+  "discovered_skills": [
+    "asdify"
+  ],
+  "scope": "Local listing only; no skill installation or host activation. Archived SKILL.txt snapshots do not add discoverable skill manifests.",
+  "initial_probe": "System Node 22.12.0 also listed one skill, but emitted EBADENGINE because Skills CLI requires Node >=22.20.0; final listing used the supported isolated runtime."
+}

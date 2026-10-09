@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df0-07be-72b2-b195-4ffb934f4a85"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Die Qualitätssicherung muss zuerst zustimmen. Erst dann darf die Lieferung freigegeben werden. Die Freigabe muss schriftlich sein. Eine mündliche Zustimmung reicht nicht."}}
+{"type":"turn.completed","usage":{"input_tokens":3740,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":179,"reasoning_output_tokens":137}}

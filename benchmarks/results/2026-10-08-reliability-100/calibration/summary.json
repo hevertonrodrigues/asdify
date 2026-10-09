@@ -1,0 +1,148 @@
+{
+  "negative_controls_detected": 20,
+  "positive_controls_passed": 20,
+  "reviews": 20,
+  "preference_correct": 20,
+  "results": [
+    {
+      "reviewer": 1,
+      "case_id": "cal-001",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-002",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-003",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-004",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-005",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-006",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-007",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-008",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-009",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-010",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-001",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-002",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-003",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-004",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-005",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-006",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-007",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-008",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-009",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-010",
+      "negative_detected": true,
+      "positive_passed": true,
+      "preference_correct": true
+    }
+  ]
+}

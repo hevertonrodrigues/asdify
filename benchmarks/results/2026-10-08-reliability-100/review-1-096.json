@@ -1,0 +1,399 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-096",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: \"The provisional cost is\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The provisional cost is €3,750 per month for up to 24 users, excluding VAT.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The figures have not yet been verified\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"do not constitute a binding quotation\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithfully translates all source meaning without additions or omissions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: \"The provisional cost is\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The provisional cost is 3,750 euros per month for up to 24 users, excluding VAT.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The figures have not yet been verified\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"do not constitute a binding quote\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithfully translates all source meaning without additions or omissions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Currency notation and quote terminology differ without a meaningful quality difference."
+    },
+    {
+      "case_id": "rel-097",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Only a valid JSON object is returned, retaining \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Ciao, {name}.\" and \"Non chiudere il ticket {{ticket}}\" retain both placeholders in Italian prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"L'approvazione potrebbe richiedere fino a 10 giorni lavorativi.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Non chiudere il ticket {{ticket}} finché il cliente non conferma la risoluzione.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting, possibility, maximum business-day duration, prohibition, confirmation condition, and JSON requirements.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Only a valid JSON object is returned, retaining \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Ciao, {name}.\" and \"Non chiudere il ticket {{ticket}}\" retain both placeholders in Italian prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"L'approvazione può richiedere fino a 10 giorni lavorativi.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Non chiudere il ticket {{ticket}} finché il cliente non conferma la risoluzione.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting, possibility, maximum business-day duration, prohibition, confirmation condition, and JSON requirements.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both modal formulations faithfully convey possible processing time; otherwise the translations are identical."
+    },
+    {
+      "case_id": "rel-098",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Russian throughout: \"Любая из сторон может запросить пересмотр\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Любая из сторон может запросить пересмотр\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"для публикации требуется письменное согласие обеих сторон\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Молчание не означает согласия, и срок пересмотра не согласован.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission for either party, the bilateral written-approval requirement, and both negative qualifications.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Russian throughout: \"Любая из сторон может запросить пересмотр\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Любая из сторон может запросить пересмотр\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"для публикации необходимо письменное одобрение обеих сторон\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Молчание не означает одобрения, и срок пересмотра не согласован.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission for either party, the bilateral written-approval requirement, and both negative qualifications.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, complete translations; their approval terminology is equivalent in context."
+    },
+    {
+      "case_id": "rel-099",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: \"The preliminary return rate fell\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The preliminary return rate fell from 17% to 14%, a decrease of 3 percentage points.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The analysis covers only November\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"does not prove that the new policy caused the change\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves preliminary status, all quantitative details, the restricted analysis period, and the absence of causal proof.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: \"The preliminary return rate decreased\"."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"The preliminary return rate decreased from 17% to 14%, a drop of 3 percentage points.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"The analysis covers only November\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"does not prove that the change was caused by the new policy\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves preliminary status, all quantitative details, the restricted analysis period, and the absence of causal proof.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The lexical and active/passive differences do not affect fidelity or usability."
+    },
+    {
+      "case_id": "rel-100",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Only a valid JSON object is returned, retaining \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Здравствуйте, {name}.\" and \"Не выпускайте заказ {{order}}\" preserve both placeholders in Russian prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"Предварительная стоимость может измениться и не включает налог.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Не выпускайте заказ {{order}}, пока обе проверки не будут пройдены.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning and JSON constraints; interpreting the tax-exclusive estimate as preliminary cost is appropriate in context.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Only a valid JSON object is returned, retaining \"message\" and \"warning\" keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Здравствуйте, {name}.\" and \"Не выпускайте заказ {{order}}\" preserve both placeholders in Russian prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"Предварительная оценка может измениться и не включает налог.\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Не выпускайте заказ {{order}}, пока обе проверки не будут успешно пройдены.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning and JSON constraints; successful completion accurately conveys that both checks must pass.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the financial qualification and prerequisite for release, with no meaningful quality difference."
+    }
+  ]
+}

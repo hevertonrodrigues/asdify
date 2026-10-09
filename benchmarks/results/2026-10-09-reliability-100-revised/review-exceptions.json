@@ -1,0 +1,26 @@
+[
+  {
+    "review_file": "review-1-036.json",
+    "case_id": "rel-040",
+    "candidate": "A",
+    "reason": "Invariant 1 is marked missing because separate item prices are not repeated, while hard_fail is false because correct combined totals preserve all decision-relevant budget meaning. This conflicts with the strict invariant rule, not with the source calculations. Original model JSON and preference retained unchanged; strict aggregation flags the omission and excludes the tie. No regeneration."
+  },
+  {
+    "review_file": "review-1-036.json",
+    "case_id": "rel-040",
+    "candidate": "B",
+    "reason": "Invariant 1 is marked missing because separate item prices are not repeated, while hard_fail is false because correct combined totals preserve all decision-relevant budget meaning. This conflicts with the strict invariant rule, not with the source calculations. Original model JSON and preference retained unchanged; strict aggregation flags the omission and excludes the tie. No regeneration."
+  },
+  {
+    "review_file": "review-2-036.json",
+    "case_id": "rel-040",
+    "candidate": "A",
+    "reason": "Invariant 1 is marked missing because separate item prices are not repeated, while hard_fail is false because correct combined totals preserve all decision-relevant budget meaning. This conflicts with the strict invariant rule, not with the source calculations. Original model JSON and preference retained unchanged; strict aggregation flags the omission and excludes the tie. No regeneration."
+  },
+  {
+    "review_file": "review-2-036.json",
+    "case_id": "rel-040",
+    "candidate": "B",
+    "reason": "Invariant 1 is marked missing because separate item prices are not repeated, while hard_fail is false because correct combined totals preserve all decision-relevant budget meaning. This conflicts with the strict invariant rule, not with the source calculations. Original model JSON and preference retained unchanged; strict aggregation flags the omission and excludes the tie. No regeneration."
+  }
+]

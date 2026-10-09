@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e27-1e99-7040-9894-5b7f9910f6fd"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"I waited by the harbor until the blue lamps faded. You said you might return before dawn, but you never promised you would. I kept a chair beside me, just in case."}}
+{"type":"turn.completed","usage":{"input_tokens":3748,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":97,"reasoning_output_tokens":54}}

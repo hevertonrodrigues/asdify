@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfe-e698-7710-85ed-aeec9f43a35b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Routine logs must be deleted after 60 days unless subject to a legal hold. Records under a legal hold must be retained until counsel releases the hold, regardless of the 60-day limit."}}
+{"type":"turn.completed","usage":{"input_tokens":3739,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":42,"reasoning_output_tokens":0}}

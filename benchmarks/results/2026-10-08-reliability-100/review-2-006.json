@@ -1,0 +1,381 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-006",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"an observational study of 312 adults\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"an average score difference of 1.8 points\" and \"95% confidence interval ... ranged from 0.2 to 3.4 points\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"activity was linked to an average score difference\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"The study cannot show that activity caused the difference.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the study design, numerical result, uncertainty, association, and causal limitation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "missing",
+              "evidence": "\"a study of 312 adults\" retains the sample but omits its observational nature."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"1.8 points higher on average\" and \"0.2 to 3.4 points, with 95% confidence\" retain the numerical estimate and interval."
+            },
+            {
+              "invariant_id": 3,
+              "status": "changed",
+              "evidence": "\"being active was linked to scores that were 1.8 points higher\" adds a direction not specified by the source."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"The study does not prove that activity caused the higher scores.\""
+            }
+          ],
+          "unsupported_claims": [
+            "Activity was associated with higher scores; the source specifies a difference without identifying its direction."
+          ],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": true,
+          "reason": "Omits the observational design and introduces an unsupported direction for the score difference.",
+          "meaning_fidelity": 3,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 3,
+          "fit_for_purpose": 2
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B preserves the complete result without inventing which scores were higher."
+    },
+    {
+      "case_id": "rel-007",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"46 tickets from 31 customers\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Of those tickets, 12 remain open.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"Ticket counts must not be treated as counts of distinct customers.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the support-desk context, both counts, open-ticket status, and counting restriction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"46 tickets from 31 distinct customers\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"Of those tickets, **12 remain open**.\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"Ticket counts do not represent the number of distinct customers.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all material meaning and highlights the key figures without changing the counting distinction.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, faithful rewrites; the emphasis and paragraphing do not create a meaningful quality difference."
+    },
+    {
+      "case_id": "rel-008",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"USD 2,750 per month for up to 18 seats\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"plus sales tax\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"plus sales tax and a one-time USD 640 setup charge\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"Unused seats do not reduce the monthly charge.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the quoted price, seat limit, additional charges, and absence of an unused-seat discount.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"USD 2,750 per month for up to 18 seats\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"plus sales tax\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"plus sales tax and a one-time setup fee of USD 640\""
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"The monthly charge remains unchanged if fewer than 18 seats are used.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all pricing terms and accurately restates the unused-seat condition.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve all decision-relevant pricing information with comparable clarity."
+    },
+    {
+      "case_id": "rel-009",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"from 1.1% ... to 0.7%\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"in the preceding 20 minutes\" and \"in the latest 20-minute sample\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"These short samples do not establish the daily error rate\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the observed comparison and daily-rate limitation. The percentage-point calculation is correct; the persistence caveat is a reasonable limitation of these short observations.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"from 1.1% ... to 0.7%\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"in the preceding 20 minutes\" and \"in the 20-minute sample\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"These samples do not establish the daily error rate.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the observations, sequence, sample durations, and limitation; correctly calculates the decrease as 0.4 percentage points.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clarify the comparison accurately. A's additional caution and B's tighter scope are comparably effective."
+    },
+    {
+      "case_id": "rel-010",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The instrument reported −0.040 A\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"an uncertainty of ±0.005 A\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"−0.040 A\" and \"±0.005 A\" retain the exact signs, units, and precision."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"This reading does not imply zero current.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both protected tokens and the full interpretation constraint.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "\"The instrument measured a current of −0.040 A\""
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "\"an uncertainty of ±0.005 A\""
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "\"−0.040 A\" and \"±0.005 A\" retain the exact signs, units, and precision."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "\"this reading does not imply zero current.\""
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Accurately describes the instrument reading, retaining uncertainty, protected tokens, and the nonzero-current caveat.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both precisely preserve the reading and its interpretation; their wording differences are immaterial."
+    }
+  ]
+}

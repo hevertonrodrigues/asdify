@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e03-1a38-7072-aa56-54904d2a2dde"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The instrument measured a current of −0.040 A with an uncertainty of ±0.005 A; this reading does not imply zero current."}}
+{"type":"turn.completed","usage":{"input_tokens":3736,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":33,"reasoning_output_tokens":0}}

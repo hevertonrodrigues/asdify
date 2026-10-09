@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e02-96bf-73a2-afc6-cf15965d7db1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The replacement warranty covers manufacturing defects reported within 14 months of purchase. Cosmetic wear and damage caused by misuse are not covered. Proof of purchase is required."}}
+{"type":"turn.completed","usage":{"input_tokens":3733,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":35,"reasoning_output_tokens":0}}

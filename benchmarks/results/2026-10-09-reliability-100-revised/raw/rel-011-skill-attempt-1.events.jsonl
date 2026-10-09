@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e33-1c17-75a0-8cbf-19dfc2128985"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"A reviewer may request supporting evidence but is not required to do so in every case. If requested, the applicant must provide it within 8 business days."}}
+{"type":"turn.completed","usage":{"input_tokens":6999,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":35,"reasoning_output_tokens":0}}

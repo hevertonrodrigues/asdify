@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df3-e0c3-7e73-8242-12392ed8c038"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Which language should I translate it into?"}}
+{"type":"turn.completed","usage":{"input_tokens":6874,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":12,"reasoning_output_tokens":0}}

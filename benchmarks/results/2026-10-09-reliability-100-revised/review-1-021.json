@@ -1,0 +1,389 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-021",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“When an HTTP 503 response includes a `Retry-After` header” preserves the condition."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“wait for the specified interval before retrying” links the interval to Retry-After and preserves sequence."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“This is recommended, not required.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Clients must not automatically retry non-idempotent requests.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning and protected tokens are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“If an HTTP 503 response includes Retry-After” preserves the condition."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“wait for the specified interval before retrying” preserves the header-specified interval and sequence."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“This is recommended, not required.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Do not automatically retry non-idempotent requests.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning and protected tokens are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clearly preserve the condition, recommendation, interval, and prohibition."
+    },
+    {
+      "case_id": "rel-022",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“From the project root, run”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“`tool sync --dry-run --config ./ops/prod.yaml`” preserves the command exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“This previews changes without applying them.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Review the preview before running any apply command.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The exact command and all procedural constraints are preserved.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“From the project root, run”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“`tool sync --dry-run --config ./ops/prod.yaml`” preserves the command exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“to preview changes without applying them”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Review the preview before running any apply command.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The exact command and all procedural constraints are preserved.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, concise instructions with identical operational meaning."
+    },
+    {
+      "case_id": "rel-023",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“1. Isolate the electrical supply and lock the isolator.” places both actions first."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“2. Verify that the circuit is de-energized using the approved tester.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Only after this verification may a qualified technician remove the cover.” refers to verification that the circuit is de-energized."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“may a qualified technician remove the cover” preserves the authorized actor."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All safety conditions, sequencing, and permission limits are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Isolate the electrical supply and lock the isolator.” is the first instruction."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Verify that the circuit is de-energized using the approved tester.” follows isolation and locking."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Only after this verification may a qualified technician remove the cover.” refers to verification that the circuit is de-energized."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“may a qualified technician remove the cover” preserves the authorized actor."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All safety conditions and permission limits survive; sentence order conveys the sequence.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 4,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Numbered steps make the safety-critical sequence more explicit and easier to follow."
+    },
+    {
+      "case_id": "rel-024",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Wear the specified eye protection.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Open the extraction hood and confirm airflow” precedes “Open K-17 only after confirming airflow.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“If airflow is absent, stop. Do not open container K-17.” keeps the prohibition within the conditional step."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“The container contents are unspecified.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All source meaning is retained, but the airflow prerequisite is repeated.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 4,
+          "structure": 4,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Wear specified eye protection.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Open the extraction hood and confirm airflow before opening K-17”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“If airflow is absent, stop; do not open K-17.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“(contents unspecified)”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The concise rewrite preserves every precaution, the container identifier, and the unspecified contents.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "A",
+      "preference_reason": "A expresses all precautions concisely without B's repeated opening condition."
+    },
+    {
+      "case_id": "rel-025",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“`ttl_ms` is set to `4500` milliseconds.” retains the specified configuration and unit."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“A value of `0` disables caching; it does not make entries permanent.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Changes to this setting apply only to newly stored entries.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The specification's value, units, zero behavior, and scope are retained, though the opening is declarative rather than instructional.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Set `ttl_ms` to 4500 milliseconds.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“A value of 0 disables caching; it does not make entries permanent.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The setting applies only to newly stored entries.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "All specification details and the source's instructional voice are preserved.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B more directly preserves the instruction to set the value and the scope of the setting itself."
+    }
+  ]
+}

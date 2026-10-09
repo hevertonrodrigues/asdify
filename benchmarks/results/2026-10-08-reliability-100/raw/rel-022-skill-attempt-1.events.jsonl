@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e04-95ba-7712-9c36-b677a619d2a1"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"From the project root, run `tool sync --dry-run --config ./ops/prod.yaml`. This previews changes without applying them. Review the preview before running any apply command."}}
+{"type":"turn.completed","usage":{"input_tokens":6903,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

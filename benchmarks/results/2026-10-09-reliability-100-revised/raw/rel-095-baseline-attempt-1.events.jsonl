@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2c-77a5-7ba3-8051-52aa9acbebf3"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il fornitore può annullare con un preavviso scritto di almeno 18 giorni di calendario. Si tratta di una facoltà, non di un obbligo, e l’annullamento non estingue le penali non pagate."}}
+{"type":"turn.completed","usage":{"input_tokens":3731,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":55,"reasoning_output_tokens":0}}

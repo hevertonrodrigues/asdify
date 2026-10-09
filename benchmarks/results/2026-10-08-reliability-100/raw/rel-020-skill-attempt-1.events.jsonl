@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e0c-1836-7271-abdf-ce17ed0fd3ce"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"You may withdraw consent at any time for future processing. Withdrawal does not make processing that took place under valid consent unlawful. It also does not cancel separate legal duties to retain data."}}
+{"type":"turn.completed","usage":{"input_tokens":6890,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2f-fb6d-7fd1-ba1c-8d7070ff9c60"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"You may withdraw your consent at any time. Withdrawal applies to future processing based on that consent; it does not affect the lawfulness of processing carried out before withdrawal or override separate legal obligations to retain your data."}}
+{"type":"turn.completed","usage":{"input_tokens":3734,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":46,"reasoning_output_tokens":0}}

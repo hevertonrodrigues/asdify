@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e0c-cb70-71b2-9a28-16abe517895e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"In an observational study of 312 adults, activity was linked to an average score difference of 1.8 points. The 95% confidence interval—a measure of uncertainty—ranged from 0.2 to 3.4 points. The study cannot show that activity caused the difference."}}
+{"type":"turn.completed","usage":{"input_tokens":6908,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":63,"reasoning_output_tokens":0}}

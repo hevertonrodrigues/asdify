@@ -21,5 +21,9 @@ jobs:
         run: bash -n scripts/install.sh
       - name: Validate skill and fixtures
         run: python3 scripts/validate.py
-      - name: Test installer, scoring, and language coverage
+      - name: Test installer, scoring, language coverage, and evaluation integrity
         run: python3 -m unittest discover -s tests -v
+      - name: Audit published model evaluations
+        run: |
+          python3 scripts/audit_evaluation.py --output benchmarks/results/2026-10-08-reliability-100
+          python3 scripts/audit_evaluation.py --output benchmarks/results/2026-10-09-reliability-100-revised

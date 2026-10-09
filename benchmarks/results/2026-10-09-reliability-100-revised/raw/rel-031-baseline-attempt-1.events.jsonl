@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e39-6bca-7093-b734-88d00cf76508"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The team proposes a **six-week pilot for 28 volunteer accounts**, but approval is pending and no start date has been agreed. The budget ceiling is **USD 9,600**, including support time and excluding tax.\n\nLegal must approve the data-processing terms before recruitment begins, and Security must sign off before any production records are copied. If approved, Operations will prepare the onboarding guide.\n\nSuccess requires **both fewer support contacts and no increase in failed transactions**. The draft does not measure customer satisfaction or long-term retention. The proposal does not commit the company to a full rollout."}}
+{"type":"turn.completed","usage":{"input_tokens":3824,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":120,"reasoning_output_tokens":0}}

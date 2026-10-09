@@ -1,0 +1,399 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-086",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "German throughout: “Der Betreiber darf den Dienst erst neu starten”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“darf den Dienst erst neu starten, nachdem beide Prüfungen erfolgreich abgeschlossen wurden” preserves permission, both checks, and sequence."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Schlägt eine Prüfung fehl, muss der Vorgang gestoppt und der Support kontaktiert werden”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“erfinden Sie keine Frist für den Neustart”; no deadline is supplied."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Complete, accurate translation with no additional material claims.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "German throughout: “Der Betreiber darf den Dienst erst neu starten”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“darf den Dienst erst neu starten, wenn beide Prüfungen erfolgreich abgeschlossen sind” preserves permission and the prerequisite that both checks pass."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Schlägt eine Prüfung fehl, muss der Vorgang gestoppt und der Support kontaktiert werden”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“erfinden Sie keine Frist für den Neustart”; no deadline is supplied."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Complete, accurate translation with no additional material claims.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the same permission, prerequisites, mandatory response to failure, and prohibition on inventing a deadline."
+    },
+    {
+      "case_id": "rel-087",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: “The provisional cost is”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The provisional cost is €4,600 per quarter, excluding VAT.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“an additional one-time setup fee of €280”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“This is not a binding price commitment.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Accurately preserves every cost, qualification, and disclaimer.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: “The estimated costs are”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The estimated costs are €4,600 per quarter, excluding VAT.” conveys tentative pricing, though “estimated” is less exact than “provisional”."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“an additional one-time setup fee of €280”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“This is not a binding price commitment.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all material pricing information; “estimated” introduces a minor nuance rather than a material distortion.",
+          "meaning_fidelity": 4,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "“Provisional” more precisely translates “vorläufigen” without suggesting that the amount is merely an estimate."
+    },
+    {
+      "case_id": "rel-088",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The candidate is a standalone valid JSON object with unchanged keys “message” and “warning”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Hallo, {name}” and “Version {{version}}” retain both placeholders exactly; all prose is German."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Der Bericht ist zur Prüfung bereit, aber nicht zur Veröffentlichung freigegeben.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Version {{version}} darf nicht vor einer schriftlichen Genehmigung veröffentlicht werden.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting, release status, publication restriction, keys, and placeholders in valid JSON only.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The candidate is a standalone valid JSON object with unchanged keys “message” and “warning”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Hallo, {name}” and “Version {{version}}” retain both placeholders exactly; all prose is German."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Der Bericht ist zur Prüfung bereit, aber nicht zur Veröffentlichung freigegeben.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Version {{version}} darf nicht ohne vorherige schriftliche Genehmigung veröffentlicht werden.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the greeting, release status, publication restriction, keys, and placeholders in valid JSON only.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately require written approval before publication and satisfy the exact JSON and placeholder requirements."
+    },
+    {
+      "case_id": "rel-089",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Japanese throughout: “審査担当者は証拠の提出を求めることができる”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“審査担当者は証拠の提出を求めることができるが、その義務はない。”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“提出を求められた場合、申請者は6営業日以内に回答しなければならない。”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“回答がないことは、承認を意味しない。”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves discretion, conditional obligation, applicant, business-day deadline, and nonapproval by silence.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Japanese throughout: “審査担当者は証拠の提出を求めることができます”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“審査担当者は証拠の提出を求めることができますが、その義務はありません。”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“求められた場合、申請者は6営業日以内に回答しなければなりません。”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“応答がないことは承認を意味しません。”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves discretion, conditional obligation, applicant, business-day deadline, and nonapproval by silence.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately translate all obligations and qualifications; the difference in politeness does not materially affect quality."
+    },
+    {
+      "case_id": "rel-090",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: “Provisional sales for September 2026”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Provisional sales for September 2026 were ¥5.8 million, excluding taxes.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“a 4% increase compared with the same month last year”."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“the figures have not yet been audited”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Accurately preserves the amount, currency, period, tax exclusion, comparison, and unaudited status.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "English throughout: “Provisional sales for September 2026”."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Provisional sales for September 2026 were ¥5.8 million, excluding taxes.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“a 4% increase from September 2025” explicitly identifies the same month of the previous year."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“the figures have not yet been audited”."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Accurately preserves all source information; September 2025 is a supported rendering of the comparison period.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both fully preserve the financial statement; explicitly naming September 2025 is equivalent to the source's year-over-year comparison."
+    }
+  ]
+}

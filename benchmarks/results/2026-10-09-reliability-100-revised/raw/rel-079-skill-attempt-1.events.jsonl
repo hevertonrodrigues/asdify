@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e32-839b-7501-b8ed-54e065ec3803"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"Olá, {name}. Sua exportação pode levar até 11 minutos após a aprovação.\",\"warning\":\"Não feche {{window}} até que o download seja concluído.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":7012,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":42,"reasoning_output_tokens":0}}

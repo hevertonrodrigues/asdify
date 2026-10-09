@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df9-a3a1-71b1-a47a-2af43b976423"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Either party may terminate this agreement by providing at least 45 calendar days’ written notice. Termination does not affect the obligation to pay any fees already owed."}}
+{"type":"turn.completed","usage":{"input_tokens":3729,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":36,"reasoning_output_tokens":0}}

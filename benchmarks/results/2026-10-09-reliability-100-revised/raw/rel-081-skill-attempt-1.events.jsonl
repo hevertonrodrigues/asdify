@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e22-0756-72d3-8a13-2e8982cbf1e0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The estimated rate fell from 28% to 23%, a reduction of 5 percentage points. The analysis covers only June and does not allow the change to be attributed to the campaign."}}
+{"type":"turn.completed","usage":{"input_tokens":7004,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":42,"reasoning_output_tokens":0}}

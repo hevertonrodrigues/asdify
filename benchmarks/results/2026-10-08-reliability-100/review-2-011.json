@@ -1,0 +1,359 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-011",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“may, but is not required to, request supporting evidence” preserves discretion."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“If requested, the applicant must provide it within 8 business days of the request.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“is not required to” makes requesting evidence optional rather than universal."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the complete policy; the deadline's connection to the request is a supported clarification.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“A reviewer may request supporting evidence” preserves permission."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“If requested, the applicant must provide it within 8 business days.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“is not required to do so in every case.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves all source meaning without additions or material omissions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clearly preserve reviewer discretion and the conditional applicant deadline."
+    },
+    {
+      "case_id": "rel-012",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Release the shipment only after both the quality manager and the warehouse lead approve it” preserves the prerequisite."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“both the quality manager and the warehouse lead approve it in writing.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Verbal approvals do not count” excludes verbal approval from either named approver."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves both written approvals as necessary conditions and rejects verbal substitutes. No additional source meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Release the shipment only after both the quality manager and the warehouse lead approve it” preserves the prerequisite."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“both the quality manager and the warehouse lead approve it in writing.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Verbal approval from either person does not count.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the complete release restriction, including the scope of the verbal-approval exclusion.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both communicate the same written-approval requirement clearly; the verbal-approval phrasing creates no meaningful difference."
+    },
+    {
+      "case_id": "rel-013",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“either a valid badge or a temporary pass is presented” preserves the credential alternatives."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“only when a security officer is present” retains the additional condition."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Both are not required” refers, in context, to the badge and pass."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all access conditions. The final sentence is less idiomatic and less explicit about its referent, but the preceding credential alternatives resolve its meaning.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“you present either a valid badge or a temporary pass” preserves either credential as sufficient for the credential condition."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“only when a security officer is present” preserves the officer-presence requirement."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“You do not need both.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves the alternative credentials and concurrent officer requirement. Direct address does not materially change the actor or scope.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "“You do not need both” expresses the credential rule more naturally and clearly than “Both are not required.”"
+    },
+    {
+      "case_id": "rel-014",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Either party may terminate this agreement” preserves optional termination by either party."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“at least 45 calendar days’ written notice.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Termination does not affect the obligation to pay any fees already owed.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the termination permission, notice requirements, and continuing liability for existing fees.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Either party may terminate the agreement” preserves permission rather than obligation."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“at least 45 calendar days’ written notice.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Termination does not cancel fees already owed.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning in clear, compact wording.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately and clearly express the same termination and payment rules."
+    },
+    {
+      "case_id": "rel-015",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Reimbursement covers actual, documented expenses” retains the qualifying expense category."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“up to GBP 175 per trip.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Claims must be submitted within 21 calendar days after the trip unless Finance grants a written exception” expresses the eligibility deadline as a submission requirement."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“unless Finance grants a written exception.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the expense limitation, per-trip cap, deadline, and written exception. In this reimbursement context, the submission requirement conveys the eligibility condition, though less explicitly than the source.",
+          "meaning_fidelity": 5,
+          "clarity": 4,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“covers only actual, documented expenses” explicitly preserves the expense restriction."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“up to GBP 175 per trip.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Claims submitted more than 21 calendar days after the trip are ineligible” preserves the boundary and consequence."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“unless finance grants a written exception.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Explicitly preserves every restriction, deadline consequence, and exception without additional material claims.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B states both the exclusive expense restriction and late-claim ineligibility explicitly, making the policy consequence clearer."
+    }
+  ]
+}

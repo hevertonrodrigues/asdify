@@ -162,7 +162,7 @@ Specifica la lingua o la variante di destinazione. La traduzione conserva signif
 
 ## Verifica e supporto
 
-Una risposta più breve che modifica un fatto importante non supera la valutazione. Il repository include casi di riscrittura e traduzione in nove lingue, una griglia di revisione umana e un [protocollo di valutazione riproducibile](benchmarks/README.md). **Non sono ancora stati dimostrati miglioramenti di qualità con modelli reali.** Consulta la [verifica del pacchetto](docs/VERIFICATION.md) e la [compatibilità](docs/COMPATIBILITY.md).
+Una risposta più breve che modifica un fatto importante non supera la valutazione. Il repository include casi di riscrittura e traduzione in nove lingue, una griglia di revisione umana e un [protocollo di valutazione riproducibile](benchmarks/README.md). I [test registrati su 100 casi](benchmarks/results/README.md) usano un modello in modalità `full` e due revisioni cieche da parte del modello; gli errori iniziali hanno portato a correggere le regole di conservazione del significato. **L'affidabilità generale e miglioramenti di qualità su larga scala restano da dimostrare.** Consulta la [verifica del pacchetto](docs/VERIFICATION.md) e la [compatibilità](docs/COMPATIBILITY.md).
 
 | Problema | Dove chiedere aiuto |
 | --- | --- |

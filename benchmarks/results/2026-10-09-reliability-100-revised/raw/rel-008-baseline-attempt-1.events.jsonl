@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e37-095d-7831-b3fd-ba8abeea8865"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The quoted price is USD 2,750 per month for up to 18 seats, plus sales tax and a one-time setup charge of USD 640. The monthly charge remains the same regardless of unused seats."}}
+{"type":"turn.completed","usage":{"input_tokens":3747,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":47,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e03-1a38-77f1-9e8a-8a5f065b69ce"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The repair finish date is unknown because the replacement connector’s arrival date and installation duration are not yet known."}}
+{"type":"turn.completed","usage":{"input_tokens":3733,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":25,"reasoning_output_tokens":0}}

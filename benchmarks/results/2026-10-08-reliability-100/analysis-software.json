@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "scripts/evaluate_skill.py": "ea065b43d5f4135aae658fa0131ad04090b7d26e391133abd0bddd3e9f7c030d",
+    "scripts/review_pending.py": "ca01f232c4ce31f7a3bc58740a37e928f7af7a4b1f089c3596ff1d8507c61dda",
+    "scripts/audit_evaluation.py": "3943f346622e4fc17b990ac04356308d33247e4a33a0da574f3d486807f09e03",
+    "scripts/calibrate_grader.py": "46e8a00ffd33a05b173e35ed98efeed0cac91cbbef66dfeb9e6854d417425434",
+    "tests/test_evaluation.py": "d96ca2f1e6c0a309c51330f4d97339e1d50f6364facb8c6f0637bb01fda7b516"
+  },
+  "scope": "Generation and judge prompts, CLI settings, and frozen inputs are unchanged. Post-freeze updates add reporting/export and descriptive execution metrics, archive-path handling, raw calibration auditing, explicit inconsistent-rating aggregation, and protection against overwriting existing evidence. Active generation/review processes loaded their runner before later integrity/report updates."
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e34-425f-7bb1-aee4-6d7c16179cd6"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Hi Noor,\n\nIf you have time, would you be willing to review the draft by Thursday? It’s completely optional—we can still publish without your review.\n\nThanks for considering it!"}}
+{"type":"turn.completed","usage":{"input_tokens":7010,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

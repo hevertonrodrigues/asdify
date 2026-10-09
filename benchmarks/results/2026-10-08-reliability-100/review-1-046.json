@@ -1,0 +1,369 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-046",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“one page every two minutes” preserves the printing rate."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“That’s a joke, not a diagnosis” explicitly distinguishes the slow-living joke from a diagnosed cause."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“IT hasn’t inspected it yet.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Our printer has apparently embraced slow living” retains playful personification."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Tightens the text while preserving its joke, factual rate, and diagnostic caveats. No additional material meaning is lost.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“one page every two minutes” preserves the printing rate."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“That’s a joke, not a hardware diagnosis.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“IT hasn’t inspected it yet.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Our printer has apparently embraced slow living” retains the playful voice."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all material meaning and the playful voice while tightening the wording.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are faithful, clear, and appropriately tightened; the small wording and punctuation differences do not materially affect quality."
+    },
+    {
+      "case_id": "rel-047",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“I waited by the harbor until the blue lamps faded.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“You said you might return before dawn; you never promised you would.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“I kept a chair beside me, just in case.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“until the blue lamps faded” and “just in case” retain the lyrical, personal register."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The deletion of “that” is a light edit that leaves the imagery, uncertainty, and first-person voice intact. No material meaning is absent.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“I waited by the harbor until the blue lamps faded.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“You said you might return before dawn; you never promised that you would.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“I kept a chair beside me, just in case.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“until the blue lamps faded” preserves lyrical imagery rather than substituting business prose."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains the already-readable source verbatim, including all material meaning and its lyrical voice.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Removing or retaining the optional “that” creates no meaningful difference in readability, fidelity, or voice."
+    },
+    {
+      "case_id": "rel-048",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“ready for review but has not been approved for release” preserves the distinction between review readiness and release approval."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Por favor, no lo publiques todavía.” is retained exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Sam will check the totals tomorrow, but that check does not guarantee approval.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the mixed-language update, the exact protected sentence, the publication restriction, and the limits of tomorrow’s check.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“ready for review but is not approved for release.”"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Por favor, no lo publiques todavía.” is retained exactly."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Sam will check the totals tomorrow, but that check does not guarantee approval.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Retains all material meaning, including the intentional Spanish prohibition and the absence of guaranteed approval.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both preserve the same approval status and safeguards; their minor grammatical difference does not materially affect quality."
+    },
+    {
+      "case_id": "rel-049",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“opened Monday at 08:30 but closed at 16:00 after its water supply failed” retains the times and presents the water failure as the explanation for closure."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The owner is unsure whether it can reopen Tuesday” preserves the owner’s uncertainty about reopening."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“no repair company has been booked.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“unsure whether it can reopen Tuesday, and no repair company has been booked” reports the situation without adding advice, bookings, or commitments."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Concise and faithful. In context, the water failure remains the explanation for closure; no advice or additional material claims are introduced.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“opened Monday at 08:30 and closed at 16:00 after its water supply failed” retains the times and conveys the water failure as the explanation for closure."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The owner is unsure whether it can reopen Tuesday.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“No repair company has been booked.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“The owner is unsure whether it can reopen Tuesday. No repair company has been booked.” adds neither an action plan nor a reopening commitment."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the material facts and uncertainty in a shorter paragraph without adding advice. The closure remains explained by the water failure in context.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both achieve comparable concision and fidelity; combining or separating the final facts makes no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-050",
+      "ratings": [
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Upload the signed form by 17:00 UTC on 12 November 2026.” retains the required action and exact deadline."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "The entire output is exactly “Upload the signed form by 17:00 UTC on 12 November 2026.” with no commentary."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Correctly leaves the already-clear text unchanged and returns only that text.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Upload the signed form by 17:00 UTC on 12 November 2026.” retains the required action and exact deadline."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "The entire output is exactly “Upload the signed form by 17:00 UTC on 12 November 2026.” with no commentary."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Correctly preserves the already-clear source verbatim and supplies no extra text.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical and fully satisfy the task."
+    }
+  ]
+}

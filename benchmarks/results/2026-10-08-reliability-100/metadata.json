@@ -1,0 +1,91 @@
+{
+  "study_id": "2026-10-08-reliability-100",
+  "comparison": "baseline-vs-skill",
+  "frozen_at_utc": "2026-10-08T23:53:11.887325+00:00",
+  "repository_revision": "5b4afbb4ee88b8a8d824de671be8a968db9a2dba",
+  "host": "Codex CLI",
+  "host_version": "codex-cli 0.161.0",
+  "model": "gpt-6.1-sol",
+  "model_version": "Provider alias; immutable backend snapshot not exposed",
+  "sampling_settings": {
+    "reasoning_effort": "medium",
+    "temperature": "not exposed by CLI",
+    "seed": "not exposed by CLI"
+  },
+  "shared_system_prompt": "You are a helpful assistant. Complete the user's writing task using only the supplied material. Do not use tools, browse, read local files, or apply any other workflow. Follow the requested output format.\n",
+  "control_instruction": "Task alone; no ASDify or other available-skills catalog",
+  "treatment_instruction": "treatment.txt plus identical task",
+  "skill_mode": "full",
+  "skill_file_sha256": {
+    "SKILL.md": "4fd1643a98b38a5f3c2674551361c573370dced1f9043615f2079a2d9d897375",
+    "references/translation.md": "ef75e65d300b2bc46e3d44343f4a36b5b60394deaaea795a44dd9c42bf73e11a",
+    "references/edge-cases.md": "b48111d41faa7a81fbd8ba8814f57c6af6ea099c06fed8706235474acf5b17f7",
+    "references/quality-rubric.md": "851e3c5f5773abd1ef080d0b8b6c06a38918fdaa2632548a71e54351fa0373ba"
+  },
+  "case_file": "cases.jsonl",
+  "case_file_sha256": "fef434c67de56eab2ebf84be12abf4b46d71c2d791e5d4f42ee5eb8d88756bdc",
+  "case_selection_and_exclusions": "100 newly authored synthetic cases, distinct from the 49 public fixtures: 60 English tasks, 16 native-language rewrites (2 per other locale), 24 translations (English to/from each other locale and protected JSON to each). Purposive, not random or representative. No post-result exclusions.",
+  "held_out_from_skill_development": true,
+  "language_coverage": {
+    "rewrites": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "ja",
+      "pt-BR",
+      "ru",
+      "zh-CN"
+    ],
+    "translations": [
+      "de->en",
+      "en->de",
+      "en->es",
+      "en->fr",
+      "en->it",
+      "en->ja",
+      "en->pt-BR",
+      "en->ru",
+      "en->zh-CN",
+      "es->en",
+      "fr->en",
+      "it->en",
+      "ja->en",
+      "pt-BR->en",
+      "ru->en",
+      "zh-CN->en"
+    ]
+  },
+  "repetitions_per_case": 1,
+  "stopping_rule": "100 cases x 2 arms; do not regenerate semantic failures",
+  "infrastructure_retry_rule": "At most one retry per failed CLI request; retain both attempts",
+  "tools_enabled": [],
+  "isolation": {
+    "workspace": "fresh empty temporary directory per request, outside repository",
+    "user_config": "ignored; original authentication retained",
+    "project_doc_max_bytes": 0,
+    "other_skills": "disabled by SKILL.md file path",
+    "apps_plugins_memories_shell_web_agents": "disabled",
+    "system": "shared-system.txt overrides model persona; host policies remain",
+    "activation": "Canonical skill and all 3 references injected; not native discovery"
+  },
+  "reviewer_ids": [
+    "model-pass-1",
+    "model-pass-2"
+  ],
+  "reviewers": "Two fresh-session passes of same model family; not independent humans",
+  "review_reasoning_effort": "medium",
+  "display_order_randomization_method": "Seed 20261008; per-case shuffle; second pass reverses order",
+  "review_batch_size": 5,
+  "limitations": [
+    "One generation model and one repetition; one explicit full-mode instruction condition.",
+    "Two model-review passes share a model family with generation and can share blind spots.",
+    "No independent bilingual/native-speaker review or user comprehension test.",
+    "Small uneven language samples cannot certify any locale or translation direction.",
+    "Neither native activation nor lite/ultra/off modes are evaluated.",
+    "Source material is synthetic; tasks do not verify external factual truth.",
+    "No concise-prompt control; this comparison cannot isolate value beyond Be concise.",
+    "A passing sample cannot guarantee reliability on future tasks."
+  ]
+}

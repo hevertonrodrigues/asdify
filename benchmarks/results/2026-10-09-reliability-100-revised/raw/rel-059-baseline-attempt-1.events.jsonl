@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e23-2b6e-7572-b017-b20e270dd01a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The audit found no evidence that the supplier failed to encrypt backups. However, this does not establish that every backup was encrypted, since only four samples were checked."}}
+{"type":"turn.completed","usage":{"input_tokens":3738,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":36,"reasoning_output_tokens":0}}

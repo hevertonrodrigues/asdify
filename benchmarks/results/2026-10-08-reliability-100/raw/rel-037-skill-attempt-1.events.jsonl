@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e09-9aa5-7da0-b910-63aa61b7b595"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"- **Search improvements:** Planned for the next release, subject to performance testing. No engineer assigned yet.\n- **Accessibility fixes:** Shipped.\n- **Analytics redesign:** Idea only; no approved scope or delivery date."}}
+{"type":"turn.completed","usage":{"input_tokens":6907,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":48,"reasoning_output_tokens":0}}

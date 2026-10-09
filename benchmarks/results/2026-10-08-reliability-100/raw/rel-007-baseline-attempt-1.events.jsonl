@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfd-b98f-7670-80a6-0cb33d2e4277"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"The support desk received **46 tickets from 31 distinct customers**. Of those tickets, **12 remain open**.\n\nTicket counts do not represent the number of distinct customers."}}
+{"type":"turn.completed","usage":{"input_tokens":3740,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":39,"reasoning_output_tokens":0}}

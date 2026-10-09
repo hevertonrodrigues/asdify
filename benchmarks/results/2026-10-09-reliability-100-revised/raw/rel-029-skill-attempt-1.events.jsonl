@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e39-6bca-7af3-b6cd-23816e97574a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"1. If the first health check fails, roll back once to the previous version.\n2. If the previous version also fails its health check, stop the rollout and contact the on-call engineer.\n\nDo not roll back again."}}
+{"type":"turn.completed","usage":{"input_tokens":7009,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":49,"reasoning_output_tokens":0}}

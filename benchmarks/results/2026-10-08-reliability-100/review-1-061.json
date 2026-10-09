@@ -1,0 +1,389 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-061",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“A receita preliminar de serviços” uses Brazilian Portuguese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“receita preliminar de serviços em abril de 2026 foi de R$ 3,8 milhões, excluindo impostos”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“um aumento de 6% em relação a abril de 2025”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Os valores ainda não foram auditados.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning, including preliminary status and the audit caveat.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“A receita preliminar de serviços” uses Brazilian Portuguese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“receita preliminar de serviços em abril de 2026 foi de R$ 3,8 milhões, sem impostos”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“6% acima de abril de 2025”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Os valores ainda não foram auditados.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning in a clear, compact rewrite.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear and faithful; the wording differences do not materially affect quality."
+    },
+    {
+      "case_id": "rel-062",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“O cliente pode adiar a entrega” is Portuguese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“O cliente pode adiar a entrega uma única vez” preserves permission and the one-time limit."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“avisando por escrito com pelo menos 4 dias úteis de antecedência” specifies the required notice."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“O pagamento já devido continua obrigatório.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the permission, notice condition, and continuing payment obligation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“O cliente pode adiar a entrega” is Portuguese."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“O cliente pode adiar a entrega uma única vez” preserves permission and the one-time limit."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“desde que avise por escrito com pelo menos 4 dias úteis de antecedência”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“O pagamento já devido continua obrigatório.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning and explicitly links postponement to the notice condition.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both communicate the same conditions clearly; B's more explicit conditional phrasing is only a minor stylistic advantage."
+    },
+    {
+      "case_id": "rel-063",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“La tasa de renovación aumentó” is Spanish."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“del 32% al 38%: una subida de 6 puntos porcentuales, no un aumento relativo del 6%”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“únicamente a las cuentas anuales de junio”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the rate change, percentage-point distinction, and restricted data scope.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“La tasa de renovación aumentó” is Spanish."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“del 32% al 38%: una subida de 6 puntos porcentuales, no del 6% relativo”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“únicamente a las cuentas anuales de junio”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every substantive qualification without adding claims.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both faithfully distinguish percentage points from relative growth and preserve the data scope."
+    },
+    {
+      "case_id": "rel-064",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Envía el informe solo cuando” is Spanish."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“solo cuando Ana y Luis lo hayan aprobado por escrito” makes both written approvals a prerequisite."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“solo cuando Ana y Luis lo hayan aprobado” excludes approval by just one person, although it does not repeat that exclusion separately."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“El silencio no cuenta como aprobación.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all substantive safeguards. The insufficiency of one approval is conveyed through the requirement for both.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Envía el informe solo si” is Spanish."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“solo si Ana y Luis lo han aprobado por escrito”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“La aprobación de uno solo no basta.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“La falta de respuesta no cuenta como aprobación.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all conditions and explicitly restates both safeguards against treating incomplete approval as sufficient.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "Both preserve meaning, but B retains the explicit warning that one approval is insufficient, making the operational safeguard easier to notice."
+    },
+    {
+      "case_id": "rel-065",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Le coût est estimé” is French."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“estimé à 2 900 € HT par trimestre”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“HT” denotes exclusion of tax; “auxquels s’ajoutent 450 € de frais d’installation” places installation outside the quarterly amount."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Ce montant est indicatif et ne constitue pas un devis ferme.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the estimate, quarterly unit, excluded costs, and nonbinding-quote caveat. Adding the installation charge is supported by its exclusion from the stated cost.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Le coût est estimé” is French."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“estimé à 2 900 euros par trimestre”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“hors TVA. Les frais d’installation de 450 euros ne sont pas inclus.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Cette estimation n’est pas un devis ferme.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all source meaning with explicit exclusions and a clear estimate caveat.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both clearly preserve the amounts, quarterly basis, exclusions, and uncertainty; their presentation differences are minor."
+    }
+  ]
+}

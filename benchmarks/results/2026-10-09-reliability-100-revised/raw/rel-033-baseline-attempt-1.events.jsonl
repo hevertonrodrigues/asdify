@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e33-ae28-73a2-bf25-96cc22aa9ac6"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"We can’t conclude that the discount caused more sales. Sales rose 11% during the discount week, but advertising spend also doubled, so either change—or both—could explain the increase. Without a comparison group, their effects can’t be separated. Not tracking new versus returning customers also limits understanding of who drove the increase.\n\nThe evidence shows sales increased while the discount was offered, not that the discount caused the increase."}}
+{"type":"turn.completed","usage":{"input_tokens":3743,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":88,"reasoning_output_tokens":0}}

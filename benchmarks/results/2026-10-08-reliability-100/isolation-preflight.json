@@ -1,0 +1,9 @@
+{
+  "probe_model": "gpt-6.1-sol",
+  "probe_reasoning_effort": "CLI default (none); primary study uses medium",
+  "prompt": "List the skill names present in the instructions for this session. If there is no available-skills catalog, reply NO_SKILLS. Also state whether any AGENTS.md instructions are present. Do not use tools.",
+  "output": "NO_SKILLS\nAGENTS.md instructions present: No.\n",
+  "disabled_skill_file_paths": 117,
+  "observation": "Folder-path overrides left an unrelated skills catalog present. SKILL.md-file overrides removed it. No ASDify study cases were generated before this check passed.",
+  "limit": "Self-reporting probe and CLI configuration, not a captured provider request payload."
+}

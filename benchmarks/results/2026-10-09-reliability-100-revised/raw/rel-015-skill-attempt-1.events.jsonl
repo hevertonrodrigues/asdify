@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e2b-f005-7920-a77d-f0975bc8a61a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Reimbursement covers actual documented expenses, up to GBP 175 per trip. Claims submitted more than 21 calendar days after the trip are ineligible unless finance grants a written exception."}}
+{"type":"turn.completed","usage":{"input_tokens":7005,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

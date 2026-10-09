@@ -162,7 +162,7 @@ Nenne die Zielsprache oder Sprachvariante. Die Übersetzung erhält Bedeutung, B
 
 ## Prüfung und Support
 
-Eine kürzere Antwort, die eine wesentliche Tatsache verändert, besteht die Bewertung nicht. Das Repository enthält Überarbeitungs- und Übersetzungsfälle in neun Sprachen, einen menschlichen Bewertungsmaßstab und ein [reproduzierbares Bewertungsverfahren](benchmarks/README.md). **Qualitätsgewinne mit echten Modellen sind noch nicht nachgewiesen.** Siehe [Paketprüfung](docs/VERIFICATION.md) und [Kompatibilität](docs/COMPATIBILITY.md).
+Eine kürzere Antwort, die eine wesentliche Tatsache verändert, besteht die Bewertung nicht. Das Repository enthält Überarbeitungs- und Übersetzungsfälle in neun Sprachen, einen menschlichen Bewertungsmaßstab und ein [reproduzierbares Bewertungsverfahren](benchmarks/README.md). Die [dokumentierten Tests mit 100 Fällen](benchmarks/results/README.md) verwenden ein Modell im Modus `full` und zwei verblindete Modellbewertungen; die ersten Fehler führten zu Korrekturen der Regeln zur Bedeutungserhaltung. **Allgemeine Zuverlässigkeit und breite Qualitätsgewinne sind weiterhin nicht nachgewiesen.** Siehe [Paketprüfung](docs/VERIFICATION.md) und [Kompatibilität](docs/COMPATIBILITY.md).
 
 | Problem | Hilfe |
 | --- | --- |

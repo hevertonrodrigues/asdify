@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e08-49db-7573-9fd2-93e1d070e130"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Envía el informe solo cuando Ana y Luis lo hayan aprobado por escrito. El silencio no cuenta como aprobación."}}
+{"type":"turn.completed","usage":{"input_tokens":3741,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":26,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e3a-30e0-7583-8bc8-5d447f91bfa4"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il costo stimato è di 1.850 euro al mese, IVA esclusa, per un massimo di 16 utenti. L’attivazione prevede un costo aggiuntivo di 320 euro una tantum. Il canone non diminuisce se si utilizzano meno di 16 utenti."}}
+{"type":"turn.completed","usage":{"input_tokens":7021,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":65,"reasoning_output_tokens":0}}

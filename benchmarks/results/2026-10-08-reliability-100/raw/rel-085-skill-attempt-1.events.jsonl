@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11df3-56af-7223-ac5d-36a5584c2c15"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"message\":\"Bonjour, {name}. L’estimation exclut les taxes et peut changer.\",\"warning\":\"Conservez la référence {{ref}} jusqu’à la confirmation du remboursement.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":6901,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e04-95ba-7e33-a08d-2722e9c424be"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Sales rose 11% during the discount week, but this does not establish that the discount caused the increase. Advertising spend also doubled, so either factor—or both—could have contributed. Without a comparison group, there is no reliable estimate of what sales would have been without the discount. Not tracking new versus returning customers also limits understanding of who drove the increase.\n\nThe discount may have helped, but its causal effect cannot be determined from this information."}}
+{"type":"turn.completed","usage":{"input_tokens":3743,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":93,"reasoning_output_tokens":0}}

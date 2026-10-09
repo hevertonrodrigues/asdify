@@ -1,0 +1,379 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-016",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "You can cancel for free before packing starts."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Once packing starts, a EUR 12 handling fee applies"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "even if your parcel is still in the warehouse"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the cancellation conditions, fee, and warehouse exception. No other material meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Customers can cancel for free before packing starts."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Once packing starts, a EUR 12 handling fee applies"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "even if the parcel is still in the warehouse"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all material meaning in clear, simple wording.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both simplify the source accurately; their differences are stylistic."
+    },
+    {
+      "case_id": "rel-017",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Operations prepares the report"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Finance checks the totals"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Only the director may approve publication."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "Neither preparation nor review gives Operations or Finance authority to publish the report."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves each actor's responsibility and the limits on publication authority. No material omissions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Operations prepares the report."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Finance checks the totals."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Only the director may approve publication."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "Neither preparation nor review authorizes Operations or Finance to publish."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all responsibilities and restrictions without conflating approval with publication.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both provide equally clear and faithful responsibility notes."
+    },
+    {
+      "case_id": "rel-018",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Delete routine logs after 60 days"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "unless they are subject to a legal hold"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Retain held records until counsel releases the hold"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "the 60-day retention limit does not override a legal hold"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the deletion rule, exception, release authority, and precedence of legal holds. No material omissions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "Delete routine logs after 60 days"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "unless they are under a legal hold"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Retain held records until counsel releases the hold"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "even if this exceeds 60 days"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "The requirement to retain records beyond 60 days until counsel releases the hold preserves the hold's precedence.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both faithfully state the policy; explicit precedence and its practical explanation are equally effective here."
+    },
+    {
+      "case_id": "rel-019",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The replacement warranty covers manufacturing defects"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "reported within 14 months of purchase"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "Cosmetic wear and damage resulting from misuse are not covered."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "Proof of purchase is required."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves replacement coverage, the reporting deadline, both exclusions, and the proof requirement.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The replacement warranty covers manufacturing defects"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "reported within 14 months of purchase"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "It does not cover cosmetic wear or damage caused by misuse."
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "Proof of purchase is required."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves every material warranty condition in straightforward sentences.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both are clear, complete rewrites with no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-020",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "You may withdraw your consent at any time. Withdrawal applies to future processing based on that consent"
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "it does not affect the lawfulness of processing carried out before withdrawal"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "or override separate legal obligations to retain your data"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves prospective withdrawal and separate retention duties. Unchanged prior lawfulness preserves valid-consent processing without asserting that all prior processing was lawful.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "You may withdraw consent at any time for future processing."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "Withdrawal does not make processing already carried out under valid consent unlawful."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "It also does not cancel separate legal duties to retain data."
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Clearly preserves the timing, valid-consent qualification, and continuing legal retention duties. No material omissions.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both accurately clarify the legal effects of withdrawal; the different formulations preserve the same decision-relevant meaning."
+    }
+  ]
+}

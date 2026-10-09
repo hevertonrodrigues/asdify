@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e22-9856-76e0-807b-42020b241d50"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"O cliente pode adiar a entrega uma única vez, desde que avise por escrito com pelo menos 4 dias úteis de antecedência. O adiamento não cancela o pagamento já devido."}}
+{"type":"turn.completed","usage":{"input_tokens":7004,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":43,"reasoning_output_tokens":0}}

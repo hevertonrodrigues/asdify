@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e23-2b6d-7e72-9bfe-725c520e4490"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Delete routine logs after 60 days unless they are under a legal hold. Retain held records until counsel releases the hold, even if this exceeds 60 days."}}
+{"type":"turn.completed","usage":{"input_tokens":7001,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":37,"reasoning_output_tokens":0}}

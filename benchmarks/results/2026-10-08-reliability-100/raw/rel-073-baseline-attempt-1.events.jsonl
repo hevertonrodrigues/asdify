@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e03-1a38-7010-a70e-28c883f8c3bf"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Il canone stimato è di 1.850 euro al mese, IVA esclusa, e copre fino a 16 utenti. Il canone resta invariato anche se si utilizzano meno utenti. È inoltre previsto un costo di attivazione una tantum di 320 euro."}}
+{"type":"turn.completed","usage":{"input_tokens":3759,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":63,"reasoning_output_tokens":0}}

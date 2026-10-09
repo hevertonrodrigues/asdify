@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfa-cc49-73e1-8214-1917028131ab"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"2026年7月の暫定売上は税抜き460万円で、前年同月比8%増です。この数値は未監査です。"}}
+{"type":"turn.completed","usage":{"input_tokens":6911,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":40,"reasoning_output_tokens":0}}

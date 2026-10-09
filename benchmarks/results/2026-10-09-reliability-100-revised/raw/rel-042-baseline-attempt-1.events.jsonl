@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e23-2b6e-7582-8705-91f26adc9fd5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"status\":\"pending\",\"attempts\":3,\"message\":\"The export has not started. Once approved, it may take up to 8 minutes.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":3758,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":35,"reasoning_output_tokens":0}}

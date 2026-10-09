@@ -162,7 +162,7 @@ Especifica el idioma o la variante de destino. La traducción conserva el signif
 
 ## Verificación y soporte
 
-Una respuesta más corta que cambia un hecho importante falla la evaluación. El repositorio incluye casos de revisión y traducción en nueve idiomas, una rúbrica humana y un [protocolo de evaluación reproducible](benchmarks/README.md). **Todavía no se han demostrado mejoras de calidad en modelos reales.** Consulta la [verificación del paquete](docs/VERIFICATION.md) y la [compatibilidad](docs/COMPATIBILITY.md).
+Una respuesta más corta que cambia un hecho importante falla la evaluación. El repositorio incluye casos de revisión y traducción en nueve idiomas, una rúbrica humana y un [protocolo de evaluación reproducible](benchmarks/README.md). Las [pruebas registradas de 100 casos](benchmarks/results/README.md) usan un modelo en modo `full` y dos revisiones ciegas por modelo; los fallos iniciales llevaron a corregir las reglas de preservación. **La fiabilidad general y las mejoras amplias de calidad siguen sin demostrarse.** Consulta la [verificación del paquete](docs/VERIFICATION.md) y la [compatibilidad](docs/COMPATIBILITY.md).
 
 | Problema | Dónde obtener ayuda |
 | --- | --- |

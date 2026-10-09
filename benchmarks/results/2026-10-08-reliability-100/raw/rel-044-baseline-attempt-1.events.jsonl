@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11dfe-5442-7f30-97b6-2f7c2a197a76"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"| Plan | Limit | Caveat |\n|---|---|---|\n| Basic | 7 projects | Backups excluded. |\n| Plus | Up to 22 projects | Daily backups included; restoration time is not guaranteed. |"}}
+{"type":"turn.completed","usage":{"input_tokens":3749,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":51,"reasoning_output_tokens":0}}

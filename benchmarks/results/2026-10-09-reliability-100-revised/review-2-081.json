@@ -1,0 +1,399 @@
+{
+  "cases": [
+    {
+      "case_id": "rel-081",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The estimated rate fell” is English."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“fell from 28% to 23%, a reduction of 5 percentage points”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The analysis covers only June”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“does not allow the change to be attributed to the campaign”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithful translation; no additional source meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The estimated rate fell” is English."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“fell from 28% to 23%, a reduction of 5 percentage points”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The analysis covers only June”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“does not allow the change to be attributed to the campaign”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithful translation; no additional source meaning is omitted.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "The candidates are identical."
+    },
+    {
+      "case_id": "rel-082",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged “message” and “warning” keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Hola, {name}” and “el pedido {{order_id}}” retain both placeholders within Spanish prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“La aprobación puede tardar hasta 12 días hábiles.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“No vuelvas a intentar el pedido {{order_id}} automáticamente.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Only string values are translated; the greeting, timing qualification, prohibition, and placeholders are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged “message” and “warning” keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Hola, {name}” and “el pedido {{order_id}}” retain both placeholders within Spanish prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“La aprobación puede tardar hasta 12 días hábiles.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“No reintentes el pedido {{order_id}} automáticamente.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Only string values are translated; the greeting, timing qualification, prohibition, and placeholders are retained.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both faithfully preserve the meaning and exact JSON requirements; the retry wording is equivalent."
+    },
+    {
+      "case_id": "rel-083",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Le locataire peut demander” is French."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Le locataire peut demander une seule prolongation”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“mais doit soumettre sa demande au moins 9 jours calendaires avant l’échéance”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“L’approbation n’est pas garantie.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission, the single-extension limit, conditional submission requirement, calendar-day deadline, and lack of guaranteed approval.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“Le locataire peut demander” is French."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Le locataire peut demander une seule prolongation”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“mais doit soumettre sa demande au moins 9 jours calendaires avant l’expiration”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“L’approbation n’est pas garantie.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves permission, the single-extension limit, conditional submission requirement, calendar-day deadline, and lack of guaranteed approval.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both deadline terms adequately convey expiry in this context; there is no meaningful quality difference."
+    },
+    {
+      "case_id": "rel-084",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The preliminary result” is English."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The preliminary result is based on 57 responses out of 140 invitations.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The preferences of those who did not respond are unknown”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“these data do not describe all invitees”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the provisional status, response count and denominator, unknown preferences, and population-scope limitation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "“The preliminary result” is English."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“The preliminary result covers 57 responses from 140 invitations.”"
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“The preferences of those who did not respond are unknown”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“these data do not describe all invitees”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves the provisional status, response count and denominator, unknown preferences, and population-scope limitation.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "tie",
+      "preference_reason": "Both convey all source meaning clearly; their wording differences are immaterial."
+    },
+    {
+      "case_id": "rel-085",
+      "ratings": [
+        {
+          "candidate": "A",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged “message” and “warning” keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Bonjour, {name}” and “la référence {{ref}}” preserve both placeholders within French prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“Le devis exclut les taxes et peut être modifié.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Conservez la référence {{ref}} jusqu’à ce que le remboursement soit confirmé.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Preserves all material meaning and JSON constraints. “Devis” is plausible in the financial context but narrower than “estimate”; “peut être modifié” is less direct than “may change.”",
+          "meaning_fidelity": 4,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 4
+        },
+        {
+          "candidate": "B",
+          "checks": [
+            {
+              "invariant_id": 1,
+              "status": "preserved",
+              "evidence": "The output is a valid JSON object with unchanged “message” and “warning” keys."
+            },
+            {
+              "invariant_id": 2,
+              "status": "preserved",
+              "evidence": "“Bonjour, {name}” and “la référence {{ref}}” preserve both placeholders within French prose."
+            },
+            {
+              "invariant_id": 3,
+              "status": "preserved",
+              "evidence": "“L’estimation exclut les taxes et peut changer.”"
+            },
+            {
+              "invariant_id": 4,
+              "status": "preserved",
+              "evidence": "“Conservez la référence {{ref}} jusqu’à la confirmation du remboursement.”"
+            }
+          ],
+          "unsupported_claims": [],
+          "format_pass": true,
+          "language_pass": true,
+          "hard_fail": false,
+          "reason": "Faithfully translates all string-value content while retaining keys, placeholders, uncertainty, and the retention condition.",
+          "meaning_fidelity": 5,
+          "clarity": 5,
+          "signal_density": 5,
+          "structure": 5,
+          "calibration": 5,
+          "fit_for_purpose": 5
+        }
+      ],
+      "preference": "B",
+      "preference_reason": "B more directly preserves the general term “estimate” and the possibility that it may change, without narrowing it to a quote."
+    }
+  ]
+}
