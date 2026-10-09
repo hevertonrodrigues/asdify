@@ -20,6 +20,12 @@ class FocusedTests(unittest.TestCase):
         return {"selected_case_ids": ids, "retention_rule": "Keep only demonstrated improvements.",
                 "selection_description": "Previously examined development cases."}
 
+    def freeze(self, adapter, output):
+        # CI audits evidence without installing or calling the model CLI.
+        with patch.object(adapter.module.subprocess, "check_output",
+                          side_effect=["fixture-revision\n", "codex-cli fixture\n"]):
+            adapter.freeze(output, ROOT / "benchmarks/multilingual-modes", None, "mock-model", "medium")
+
     def test_subset_is_exact_and_keeps_corpus_order(self):
         cases = [{"id": "a"}, {"id": "b"}, {"id": "c"}]
         self.assertEqual(FOCUSED.validate_plan(self.plan(["c", "a"]), cases), [cases[0], cases[2]])
@@ -37,7 +43,7 @@ class FocusedTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "study"
             adapter = FOCUSED.Focused(self.plan(["modes-de-087", "modes-en-007"]))
-            adapter.freeze(output, ROOT / "benchmarks/multilingual-modes", None, "mock-model", "medium")
+            self.freeze(adapter, output)
             metadata, cases = adapter.verify_frozen(output)
             self.assertEqual(len(cases), 2)
             self.assertEqual(metadata["cases_per_language"], {"en": 1, "de": 1})
@@ -51,7 +57,7 @@ class FocusedTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "study"
             adapter = FOCUSED.Focused(self.plan(["modes-de-087"]))
-            adapter.freeze(output, ROOT / "benchmarks/multilingual-modes", None, "mock-model", "medium")
+            self.freeze(adapter, output)
             original = FOCUSED.read(output / "metadata.json")
             for field in ("focused_adapter_sha256", "coverage_processor_sha256"):
                 metadata = dict(original, **{field: "0" * 64})
