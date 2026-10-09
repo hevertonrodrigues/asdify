@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12021-f59e-7543-8d6b-855172aefb74"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-zh-CN-098\",\"text\":\"如果我之前的预约准时结束，周日我可以帮忙二十分钟。如果我迟到了，你们先开始，不用等我。我没法参加下午的活动。我还没有答应带相机。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7370,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":76,"reasoning_output_tokens":0}}

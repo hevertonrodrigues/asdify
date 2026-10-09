@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "054f54b4431135343a59ff61631afe3fd0db1ac37fa9607b88f868e1125af597",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.492,
+      "completed_at_utc": "2026-10-09T10:05:27.157853+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client eine GET-Anfrage einmal wiederholen. Für POST-Anfragen gilt dies nicht. Scheitert auch der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt wie geplant am Montag um 18 Uhr. Wegen der defekten Spüle kochen wir nicht, sondern starten mit der Einführung in die Zutatenkunde. Der praktische Kochtermin wird später bekannt gegeben.\"},{\"case_id\":\"modes-de-024\",\"text\":\"15 % Rabatt gibt es nur bei Buchung von mindestens drei Terminen im selben Monat. Bereits bezahlte Einzeltermine werden dafür nicht rückwirkend zusammengerechnet.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer macht heute halbe Sachen. Nutzt bitte den Drucker im Nebenraum. Wann er repariert ist, wissen wir noch nicht.\"},{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7 Uhr. Ob morgens oder abends, ist noch offen. Bitte klärt, welche Uhrzeit gemeint ist.\"}]}",
+      "usage": {
+        "input_tokens": 4191,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 251,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client eine GET-Anfrage einmal wiederholen. Für POST-Anfragen gilt dies nicht. Scheitert auch der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt wie geplant am Montag um 18 Uhr. Wegen der defekten Spüle kochen wir nicht, sondern starten mit der Einführung in die Zutatenkunde. Der praktische Kochtermin wird später bekannt gegeben.\"},{\"case_id\":\"modes-de-024\",\"text\":\"15 % Rabatt gibt es nur bei Buchung von mindestens drei Terminen im selben Monat. Bereits bezahlte Einzeltermine werden dafür nicht rückwirkend zusammengerechnet.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer macht heute halbe Sachen. Nutzt bitte den Drucker im Nebenraum. Wann er repariert ist, wissen wir noch nicht.\"},{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7 Uhr. Ob morgens oder abends, ist noch offen. Bitte klärt, welche Uhrzeit gemeint ist.\"}]}",
+  "usage": {
+    "input_tokens": 4191,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 251,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "00ae241a86666abd9c926ae0b331294c75501c625e34e3a4f897876ad8a96772",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.23,
+      "completed_at_utc": "2026-10-09T09:58:00.430088+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-004\",\"text\":\"Das 126 respostas completas, 84 preferiram a reunião às 19h, 28 às 14h e 14 não escolheram horário. A preferência por 19h representa dois terços de quem respondeu, não de todas as famílias. O convite foi enviado às 360 famílias com telefone atualizado; as demais não foram convidadas. A participação foi voluntária, o formulário estava apenas em português e a amostra não foi aleatória. Não se verificaram diferenças entre quem respondeu e quem não respondeu, nem há informação suficiente para calcular quantas mensagens foram lidas. A pergunta tratou de uma reunião específica no próximo bimestre, não de todas as reuniões do ano, e não avaliou transporte, cuidado com crianças ou jornada de trabalho.\\n\\nA coordenação propôs testar as 19h em uma reunião, sem data definida, dependendo da disponibilidade da equipe e da autorização da direção. Não há decisão registrada de realizar sempre as reuniões à noite. A preferência declarada não mede presença futura, e a proposta não garante maior participação presencial. No campo opcional, 39 famílias comentaram: 17 mencionaram trabalho, nove deslocamento e seis cuidado com outras crianças. Um comentário podia abordar vários assuntos; esses números não são grupos exclusivos nem proporções de todas as famílias. Os comentários descrevem as respostas, mas o levantamento não mede o efeito da mudança de horário sobre presença ou aprendizagem.\"},{\"case_id\":\"modes-pt-BR-038\",\"text\":\"ttl_dias=0 desativa a exclusão automática, sem apagar tudo imediatamente. Valores positivos contam dias inteiros desde a criação. O padrão é 14, e mudanças valem apenas para novos registros. A exclusão manual continua disponível.\"},{\"case_id\":\"modes-pt-BR-045\",\"text\":\"Das 84 notas acima de R$ 800 revisadas no último trimestre, excluindo reembolsos de viagem, sete não tinham código de aprovação. Não se verificou se houve aprovação verbal.\"},{\"case_id\":\"modes-pt-BR-046\",\"text\":\"Para 18 usuários, o plano Serra custa menos: R$ 350 por mês, contra R$ 396 do Lago (18 × R$ 22). A diferença é de R$ 46 por mês.\"},{\"case_id\":\"modes-pt-BR-053\",\"text\":\"{\\\"request_id\\\":\\\"P-631\\\",\\\"level\\\":3,\\\"message\\\":\\\"A análise começou, mas não tem data de conclusão.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 8046,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 569,
+        "reasoning_output_tokens": 33
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-004\",\"text\":\"Das 126 respostas completas, 84 preferiram a reunião às 19h, 28 às 14h e 14 não escolheram horário. A preferência por 19h representa dois terços de quem respondeu, não de todas as famílias. O convite foi enviado às 360 famílias com telefone atualizado; as demais não foram convidadas. A participação foi voluntária, o formulário estava apenas em português e a amostra não foi aleatória. Não se verificaram diferenças entre quem respondeu e quem não respondeu, nem há informação suficiente para calcular quantas mensagens foram lidas. A pergunta tratou de uma reunião específica no próximo bimestre, não de todas as reuniões do ano, e não avaliou transporte, cuidado com crianças ou jornada de trabalho.\\n\\nA coordenação propôs testar as 19h em uma reunião, sem data definida, dependendo da disponibilidade da equipe e da autorização da direção. Não há decisão registrada de realizar sempre as reuniões à noite. A preferência declarada não mede presença futura, e a proposta não garante maior participação presencial. No campo opcional, 39 famílias comentaram: 17 mencionaram trabalho, nove deslocamento e seis cuidado com outras crianças. Um comentário podia abordar vários assuntos; esses números não são grupos exclusivos nem proporções de todas as famílias. Os comentários descrevem as respostas, mas o levantamento não mede o efeito da mudança de horário sobre presença ou aprendizagem.\"},{\"case_id\":\"modes-pt-BR-038\",\"text\":\"ttl_dias=0 desativa a exclusão automática, sem apagar tudo imediatamente. Valores positivos contam dias inteiros desde a criação. O padrão é 14, e mudanças valem apenas para novos registros. A exclusão manual continua disponível.\"},{\"case_id\":\"modes-pt-BR-045\",\"text\":\"Das 84 notas acima de R$ 800 revisadas no último trimestre, excluindo reembolsos de viagem, sete não tinham código de aprovação. Não se verificou se houve aprovação verbal.\"},{\"case_id\":\"modes-pt-BR-046\",\"text\":\"Para 18 usuários, o plano Serra custa menos: R$ 350 por mês, contra R$ 396 do Lago (18 × R$ 22). A diferença é de R$ 46 por mês.\"},{\"case_id\":\"modes-pt-BR-053\",\"text\":\"{\\\"request_id\\\":\\\"P-631\\\",\\\"level\\\":3,\\\"message\\\":\\\"A análise começou, mas não tem data de conclusão.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 8046,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 569,
+    "reasoning_output_tokens": 33
+  }
+}

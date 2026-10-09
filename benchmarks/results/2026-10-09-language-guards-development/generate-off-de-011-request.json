@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "cbcfc6c9bcac3fc4b323190201e3a7493ccb7ccc3c7392a072436143bdd61cbc",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 30.837,
+      "completed_at_utc": "2026-10-09T09:54:00.824640+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst benutzt werden, wenn der Boden getrocknet ist und die Hausmeisterin oder der Hausmeister die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein ist keine Erlaubnis, den Raum zu betreten.\"}]}",
+      "usage": {
+        "input_tokens": 7346,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst benutzt werden, wenn der Boden getrocknet ist und die Hausmeisterin oder der Hausmeister die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein ist keine Erlaubnis, den Raum zu betreten.\"}]}",
+  "usage": {
+    "input_tokens": 7346,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 76,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "febdc0edb01ea2ee5c119b5dee053e92a3011358a7f0f51771e50b43f1126876",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.942,
+      "completed_at_utc": "2026-10-09T09:34:30.642833+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até o recebimento da vistoria.\"},{\"case_id\":\"modes-pt-BR-076\",\"text\":\"Uma voluntária contou 18 passagens de aves pela janela norte, entre 6h e 6h30, em uma manhã sem chuva. A mesma ave pode ter passado várias vezes. Não foram observadas outras janelas nem outros dias.\"},{\"case_id\":\"modes-pt-BR-083\",\"text\":\"Minha sacola de compras se rendeu no meio da subida. Cheguei em casa com as maçãs, mas o pão tinha escapado. Isso aconteceu na segunda-feira. Não pedi reembolso à loja, então não sei se ela ofereceria um.\"},{\"case_id\":\"modes-pt-BR-095\",\"text\":\"O pedido só pode sair depois que o supervisor o aprovar e os valores forem recebidos. Uma captura de tela do pagamento não comprova que os valores foram compensados. A retirada é opcional, mas as duas condições continuam valendo. Não há data de envio informada.\"}]}",
+      "usage": {
+        "input_tokens": 7668,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 373,
+        "reasoning_output_tokens": 101
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até o recebimento da vistoria.\"},{\"case_id\":\"modes-pt-BR-076\",\"text\":\"Uma voluntária contou 18 passagens de aves pela janela norte, entre 6h e 6h30, em uma manhã sem chuva. A mesma ave pode ter passado várias vezes. Não foram observadas outras janelas nem outros dias.\"},{\"case_id\":\"modes-pt-BR-083\",\"text\":\"Minha sacola de compras se rendeu no meio da subida. Cheguei em casa com as maçãs, mas o pão tinha escapado. Isso aconteceu na segunda-feira. Não pedi reembolso à loja, então não sei se ela ofereceria um.\"},{\"case_id\":\"modes-pt-BR-095\",\"text\":\"O pedido só pode sair depois que o supervisor o aprovar e os valores forem recebidos. Uma captura de tela do pagamento não comprova que os valores foram compensados. A retirada é opcional, mas as duas condições continuam valendo. Não há data de envio informada.\"}]}",
+  "usage": {
+    "input_tokens": 7668,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 373,
+    "reasoning_output_tokens": 101
+  }
+}

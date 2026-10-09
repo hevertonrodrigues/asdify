@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "38da207eacd02546cf84b95ff1b7c5b3ee26bd09c3bc33d462945f3b5ab89902",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 25.971,
+      "completed_at_utc": "2026-10-09T09:36:28.411389+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-097\",\"text\":\"Le nouvel horaire d’ouverture s’applique uniquement au comptoir de réparation. Le magasin ouvre toujours à 09 h 00. Les réparations sont prises en charge à partir de 10 h 30, y compris pour les rendez-vous pris avant le changement.\"}]}",
+      "usage": {
+        "input_tokens": 3918,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 81,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-097\",\"text\":\"Le nouvel horaire d’ouverture s’applique uniquement au comptoir de réparation. Le magasin ouvre toujours à 09 h 00. Les réparations sont prises en charge à partir de 10 h 30, y compris pour les rendez-vous pris avant le changement.\"}]}",
+  "usage": {
+    "input_tokens": 3918,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81,
+    "reasoning_output_tokens": 0
+  }
+}

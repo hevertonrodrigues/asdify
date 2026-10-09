@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12015-9025-7b51-8c39-f6058749723c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst genutzt werden, wenn der Boden getrocknet ist und die Hausmeisterin oder der Hausmeister die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein ist keine Erlaubnis, den Raum zu betreten.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7352,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":237,"reasoning_output_tokens":159}}

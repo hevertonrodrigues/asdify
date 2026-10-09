@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a110670e6d0ca08deb1c447b830d4b5d0872b2025dde1d0a0cdb72dc6e95afc8",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.229,
+      "completed_at_utc": "2026-10-09T09:41:11.223391+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-021\",\"text\":\"Online renewal is optional and available only if your address is unchanged and your card expires within 60 days. If either condition is not met, use the desk service.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. “lag: 90 s” means the latest applied event is 90 seconds behind the latest received event. Pending events remain in the queue. Without a failed-event count or missing-event audit, the alert neither proves data loss nor confirms that no data was lost.\"},{\"case_id\":\"modes-en-049\",\"text\":\"The planner’s 6-week build estimate depends on parts arriving by 1 August. Procurement estimates arrival between 5 and 12 August, after that cutoff. Neither estimate is a commitment, and the notes provide no revised build duration for a late arrival.\"},{\"case_id\":\"modes-en-074\",\"text\":\"Collection status is unclear: the shipping dashboard says “collected,” while the warehouse log says “awaiting collection.” Both were updated at 15:00, and neither has a named author. Carrier confirmation has not been received.\"},{\"case_id\":\"modes-en-084\",\"text\":\"The booking is not confirmed until payment is received. You may pay by bank transfer or at the ticket office. If payment arrives after 14 April 2029, the next available date will be offered; it is not guaranteed to be in that same week.\"}]}",
+      "usage": {
+        "input_tokens": 7653,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 312,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-021\",\"text\":\"Online renewal is optional and available only if your address is unchanged and your card expires within 60 days. If either condition is not met, use the desk service.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. “lag: 90 s” means the latest applied event is 90 seconds behind the latest received event. Pending events remain in the queue. Without a failed-event count or missing-event audit, the alert neither proves data loss nor confirms that no data was lost.\"},{\"case_id\":\"modes-en-049\",\"text\":\"The planner’s 6-week build estimate depends on parts arriving by 1 August. Procurement estimates arrival between 5 and 12 August, after that cutoff. Neither estimate is a commitment, and the notes provide no revised build duration for a late arrival.\"},{\"case_id\":\"modes-en-074\",\"text\":\"Collection status is unclear: the shipping dashboard says “collected,” while the warehouse log says “awaiting collection.” Both were updated at 15:00, and neither has a named author. Carrier confirmation has not been received.\"},{\"case_id\":\"modes-en-084\",\"text\":\"The booking is not confirmed until payment is received. You may pay by bank transfer or at the ticket office. If payment arrives after 14 April 2029, the next available date will be offered; it is not guaranteed to be in that same week.\"}]}",
+  "usage": {
+    "input_tokens": 7653,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 312,
+    "reasoning_output_tokens": 0
+  }
+}

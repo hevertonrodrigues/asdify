@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4454fa3232290b31eea8cc568ec65e734400c0e3d84fc001820c20ba3e794829",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 28.929,
+      "completed_at_utc": "2026-10-09T10:06:37.619991+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-092\",\"text\":\"Una volta che una lezione si è svolta, il relativo costo non è rimborsabile. Se lo studio annulla la lezione in anticipo, gli allievi possono richiedere un rimborso invece di accettare un'altra lezione. Non sono obbligati ad accettare l'alternativa.\"}]}",
+      "usage": {
+        "input_tokens": 7361,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 96,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-092\",\"text\":\"Una volta che una lezione si è svolta, il relativo costo non è rimborsabile. Se lo studio annulla la lezione in anticipo, gli allievi possono richiedere un rimborso invece di accettare un'altra lezione. Non sono obbligati ad accettare l'alternativa.\"}]}",
+  "usage": {
+    "input_tokens": 7361,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_output_tokens": 0
+  }
+}

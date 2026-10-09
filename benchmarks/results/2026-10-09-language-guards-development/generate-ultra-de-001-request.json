@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "eadcf9cb555d29cc640a899fb275719d5a10dd7ffcc1484835846ea75331fedc",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.152,
+      "completed_at_utc": "2026-10-09T10:04:01.544099+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client eine GET-Anfrage einmal wiederholen, eine POST-Anfrage nicht. Scheitert auch der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt wie geplant am Montag um 18 Uhr. Wegen der defekten Spüle gibt es statt Kochen eine Einführung in die Zutatenkunde. Der praktische Kochtermin wird später mitgeteilt.\"},{\"case_id\":\"modes-de-024\",\"text\":\"15 % Rabatt gelten nur bei Buchung von mindestens drei Terminen im selben Monat. Bereits bezahlte Einzeltermine zählen nicht rückwirkend dazu.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer mag heute nur halbe Seiten. Nutzt bitte den Drucker im Nebenraum, bis er wieder ganze mag. Die Reparaturzeit ist noch unbekannt.\"},{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7. Ob morgens oder abends, ist noch offen. Bitte klären.\"}]}",
+      "usage": {
+        "input_tokens": 7620,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 239,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client eine GET-Anfrage einmal wiederholen, eine POST-Anfrage nicht. Scheitert auch der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt wie geplant am Montag um 18 Uhr. Wegen der defekten Spüle gibt es statt Kochen eine Einführung in die Zutatenkunde. Der praktische Kochtermin wird später mitgeteilt.\"},{\"case_id\":\"modes-de-024\",\"text\":\"15 % Rabatt gelten nur bei Buchung von mindestens drei Terminen im selben Monat. Bereits bezahlte Einzeltermine zählen nicht rückwirkend dazu.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer mag heute nur halbe Seiten. Nutzt bitte den Drucker im Nebenraum, bis er wieder ganze mag. Die Reparaturzeit ist noch unbekannt.\"},{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7. Ob morgens oder abends, ist noch offen. Bitte klären.\"}]}",
+  "usage": {
+    "input_tokens": 7620,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 239,
+    "reasoning_output_tokens": 0
+  }
+}

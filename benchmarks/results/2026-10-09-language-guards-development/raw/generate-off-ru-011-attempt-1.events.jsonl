@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12010-e150-7ef0-a2dc-ee21516182bd"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-ru-099\",\"text\":\"В скопированной заметке написано: «готово к 02/03». В ней не указаны ни год, ни формат даты. Пожалуйста, уточните, какая дата имеется в виду, прежде чем заменять числовое обозначение месяца его названием.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7362,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":84,"reasoning_output_tokens":0}}

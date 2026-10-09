@@ -1,0 +1,325 @@
+{
+  "decided_at_utc": "2026-10-09T11:29:52.516543+00:00",
+  "decision": "retain the joint tested candidate",
+  "prospective_retention_rule": "Retain only if at least two of the seven targeted source-supported errors are corrected, no new material error is found in those seven retested answers, and strict pass counts on these same 100 cases do not decrease in any active mode (lite/full/ultra). Otherwise restore the original skill and archive the unsuccessful patch and all outputs. Off and fresh no-skill draws are controls, not retention endpoints.",
+  "criteria": {
+    "at_least_two_target_errors_absent_in_fresh_answers": true,
+    "corrected_target_count": 6,
+    "target_count": 7,
+    "new_material_errors_found_in_seven_target_answers": [],
+    "active_mode_strict_counts_did_not_decrease": true
+  },
+  "judgment_basis": "All seven target source/answer pairs were reviewed by the assigned blinded source-audit assistants, then inspected by the root assistant after complete annotation and key release. The remaining English ultra error repeats the original non-implication-to-nonapproval change; no additional material error was found within the seven target answers. This is model-based assessment, not independently verified truth.",
+  "corrected_targets": [
+    {
+      "case_id": "modes-en-002",
+      "mode": "ultra"
+    },
+    {
+      "case_id": "modes-es-007",
+      "mode": "ultra"
+    },
+    {
+      "case_id": "modes-de-087",
+      "mode": "full"
+    },
+    {
+      "case_id": "modes-ja-088",
+      "mode": "ultra"
+    },
+    {
+      "case_id": "modes-pt-BR-096",
+      "mode": "lite"
+    },
+    {
+      "case_id": "modes-it-079",
+      "mode": "ultra"
+    }
+  ],
+  "remaining_targets": [
+    {
+      "case_id": "modes-en-007",
+      "mode": "ultra",
+      "meaning": "changed",
+      "reason": "Source says label approval \"does not mean\" Noor approved other matters; \"has approved ... two wall labels, not the lighting, the room\" instead categorically excludes those approvals. Dry humor and remaining evidence limits are retained."
+    }
+  ],
+  "strict_comparison_on_same_100_cases": {
+    "baseline": {
+      "before_passes": 76,
+      "after_passes": 87,
+      "tested": 100
+    },
+    "lite": {
+      "before_passes": 97,
+      "after_passes": 97,
+      "tested": 100
+    },
+    "full": {
+      "before_passes": 96,
+      "after_passes": 97,
+      "tested": 100
+    },
+    "ultra": {
+      "before_passes": 91,
+      "after_passes": 96,
+      "tested": 100
+    },
+    "off": {
+      "before_passes": 93,
+      "after_passes": 95,
+      "tested": 100
+    }
+  },
+  "strict_comparison_by_language": {
+    "en": {
+      "tested": 12,
+      "conditions": {
+        "baseline": {
+          "before_passes": 12,
+          "after_passes": 12
+        },
+        "lite": {
+          "before_passes": 12,
+          "after_passes": 12
+        },
+        "full": {
+          "before_passes": 12,
+          "after_passes": 12
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 12,
+          "after_passes": 12
+        }
+      }
+    },
+    "pt-BR": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 8,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 9,
+          "after_passes": 10
+        },
+        "full": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "off": {
+          "before_passes": 10,
+          "after_passes": 9
+        }
+      }
+    },
+    "es": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 7,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 10,
+          "after_passes": 11
+        }
+      }
+    },
+    "fr": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 11,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 11,
+          "after_passes": 11
+        }
+      }
+    },
+    "de": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 8,
+          "after_passes": 10
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 9,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 9,
+          "after_passes": 9
+        }
+      }
+    },
+    "ja": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 7,
+          "after_passes": 8
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 11,
+          "after_passes": 11
+        }
+      }
+    },
+    "zh-CN": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 9,
+          "after_passes": 11
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 10
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 10
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 10,
+          "after_passes": 11
+        }
+      }
+    },
+    "it": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 8,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 11,
+          "after_passes": 11
+        }
+      }
+    },
+    "ru": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 6,
+          "after_passes": 10
+        },
+        "lite": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "full": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "ultra": {
+          "before_passes": 9,
+          "after_passes": 9
+        },
+        "off": {
+          "before_passes": 9,
+          "after_passes": 10
+        }
+      }
+    }
+  },
+  "comparison_sha256": "1c1b4d429fa85bdc3c463d9da263aa7b3fe912808d0d192612c0c1505a0dfe7a",
+  "evidence_sha256": {
+    "focused-plan.json": "5e9abdd5b6bd514a56ff00f33247752f639ac07f9acbe089c281eb6ef1c63efd",
+    "metadata.json": "605fb553ae1b217090df88c5304f562a89c4845104d8834de98bb19c537394f8",
+    "case-results.json": "dc5b98dcd869a96044e0612aaab663f7ce98d5b02bef2b4c1b43a56f8898f42e",
+    "summary.json": "64c82e5a27d7e6cb3ada59cafd45d6fe9e4859d5158961840b0114b750da0e1d",
+    "evidence-audit.json": "9cd96957f0d9aaf38d08c7ba1cef2050ffe7a7b4b5fdb0b8b7363cbb46e85646",
+    "source-audit-plan.json": "7e198e01a98759bb6ef79a293c9463bc169d250a190fecf3916a6f6fa2bd6a53",
+    "source-audit/audit-integrity.json": "4e37da5ddb3972ae7a939f7ebdc398d8a20ab7d547505f24a45bd87ffab35db8",
+    "source-audit/execution.json": "7741fa3d8ca0c1ff7ec3b1dc63bdfbb457d07be7ea5b7341eaaec6435dc2f473"
+  },
+  "retained_candidate_file_sha256": {
+    "skills/asdify/SKILL.md": "e3bf50425c69fdedead6ec741c2bbeaf6c901a2a12e520f42c70bf65798312d3",
+    "skills/asdify/references/translation.md": "97488b783120de4f8a2bcc33301c4ecfe9a5b203a767f020fa48024c70146fe3"
+  },
+  "limits": [
+    "This is one fresh draw on 100 previously examined cases, including known failures; not held-out evidence.",
+    "Subset regrouping changes neighboring tasks within batches. Fresh draws, batch context and reviewer variation prevent a causal patch-effect estimate.",
+    "Conditions share a model family; the supplemental audit uses the same model assistants as the earlier source audit, assigned away from their original case authorship, not independent humans.",
+    "The joint patch was tested together; individual rule effects were not isolated.",
+    "The rule uses overall active-mode counts, not per-language nondecrease. Chinese lite and full declined from 11/11 to 10/11 on this selected subset; other errors and ambiguities remain.",
+    "The original 900-case scores are unchanged and describe the earlier frozen skill. The retained candidate is tested in this 100-case development run.",
+    "Compact adapters mirror the retained rules; these runs inject the canonical skill and references and do not test native adapter activation."
+  ]
+}

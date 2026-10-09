@@ -4,7 +4,7 @@ Real live-model outputs are published below. Model reviewers share the generatio
 
 ## 900-case multilingual mode benchmark
 
-The latest study uses 100 new cases per output language, each run without the skill and in all four modes. It contains 900 distinct cases, 3,600 mode tests, 900 baseline answers, 4,500 generated answers, and 9,000 blinded candidate ratings. Each cell below is a strict pass percentage; there are 100 answers per language and condition, or 900 in the overall row.
+The primary study uses 100 new cases per output language, each run without the skill and in all four modes. It contains 900 distinct cases, 3,600 mode tests, 900 baseline answers, 4,500 generated answers, and 9,000 blinded candidate ratings. Each cell below is a strict pass percentage; there are 100 answers per language and condition, or 900 in the overall row.
 
 | Output language | No skill | Lite | Full | Ultra | Off |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -28,6 +28,22 @@ A separate [blinded source audit](2026-10-09-multilingual-modes-four-workers/sou
 The first 32-worker execution was stopped for computer load. All 185 returned answers were carried into the four-worker continuation unchanged; interrupted attempts remain in the original directory. A later review repeated an invariant ID in four ratings. The disclosed, sealed post-output processing amendment retains those raw ratings and counts all four affected answers as uncertain/non-passing. No completed answers or reviews were regenerated or removed.
 
 These percentages include exact-format flags, reviewer uncertainty, and strict checklist omissions. They are observed scores on purposively selected synthetic cases, not population reliability estimates. Language sets differ, so compare conditions within each language rather than treating this as a language ranking. Five cases share a batch; some scenario patterns recur across locales. One provider model alias and one repetition, same-family review, injected references, and no concise-only control or independent human review limit the conclusions. The results do not establish native host activation or adherence to every stylistic mode preference.
+
+## 100-case development retest
+
+After examining the primary source audit, a candidate patch strengthened role/group specificity and uncertainty handling, with German, Japanese, and Portuguese role examples. A [prospective development plan](2026-10-09-language-guards-development/focused-plan.json) selected 34 cases with source-audit concerns plus 66 seeded comparison cases: 12 English cases and 11 in each other language. These are previously examined cases, not 100 additional new cases per language.
+
+| Condition | Earlier draw on these 100 cases | Fresh development draw |
+| --- | ---: | ---: |
+| No skill | 76/100 (76%) | 87/100 (87%) |
+| Lite | 97/100 (97%) | 97/100 (97%) |
+| Full | 96/100 (96%) | 97/100 (97%) |
+| Ultra | 91/100 (91%) | 96/100 (96%) |
+| Off | 93/100 (93%) | 95/100 (95%) |
+
+The fresh run contains 500 answers and 1,000 blinded candidate ratings, with at most two live CLI workers. The [report](2026-10-09-language-guards-development/report.md), [language/mode CSV](2026-10-09-language-guards-development/table.csv), and [evidence audit](2026-10-09-language-guards-development/evidence-audit.json) preserve every answer and rating. All five conditions are fresh draws, including the no-skill control. Subset selection also changes neighboring tasks in each batch. Sampling, batch context, reviewer variation, and reuse of known failures prevent a causal or language-wide improvement claim. These results are separate from the unchanged 900-case table.
+
+The subsequent [blinded source audit](2026-10-09-language-guards-development/source-audit.md) covers all 500 fresh answers, with one agent at a time after CLI workers stopped. Six of seven targeted meaning errors were absent; the English ultra approval-scope error remains. The [decision](2026-10-09-language-guards-development/development-decision.md) retains the joint tested patch under the frozen rule. It also reports Chinese lite/full declines, further meaning/voice errors, unchanged secondary uncertainty, and primary-review blind spots. No claim that every language improved is made.
 
 ## Earlier 100-case comparisons
 

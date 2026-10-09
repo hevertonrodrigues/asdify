@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6f7711c259118a52c2a70793520fddcd8e5c73e92a74e7461a0f2f67cc8fd364",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.929,
+      "completed_at_utc": "2026-10-09T10:02:01.358594+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-063\",\"text\":\"Siento el retraso. Indiqué un código postal equivocado y el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.\"},{\"case_id\":\"modes-es-065\",\"text\":\"«Podría ir en el tren temprano —dijo Alba—, si acaba la visita. Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido».\"},{\"case_id\":\"modes-es-072\",\"text\":\"La carpeta se devolvió después de que Eva llamara al conserje. No sabemos quién la devolvió. El conserje registró la recepción a las 16:50.\"},{\"case_id\":\"modes-es-090\",\"text\":\"La tetera hizo clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Fuera, la lluvia parecía estar ensayando. No sabía si llegaría la visita.\"},{\"case_id\":\"modes-es-094\",\"text\":\"La nota manuscrita dice «devolver a más tardar el 05/06». No indica el año ni el formato de fecha. Por favor, confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en letras.\"}]}",
+      "usage": {
+        "input_tokens": 7656,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 352,
+        "reasoning_output_tokens": 56
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-063\",\"text\":\"Siento el retraso. Indiqué un código postal equivocado y el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.\"},{\"case_id\":\"modes-es-065\",\"text\":\"«Podría ir en el tren temprano —dijo Alba—, si acaba la visita. Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido».\"},{\"case_id\":\"modes-es-072\",\"text\":\"La carpeta se devolvió después de que Eva llamara al conserje. No sabemos quién la devolvió. El conserje registró la recepción a las 16:50.\"},{\"case_id\":\"modes-es-090\",\"text\":\"La tetera hizo clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Fuera, la lluvia parecía estar ensayando. No sabía si llegaría la visita.\"},{\"case_id\":\"modes-es-094\",\"text\":\"La nota manuscrita dice «devolver a más tardar el 05/06». No indica el año ni el formato de fecha. Por favor, confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en letras.\"}]}",
+  "usage": {
+    "input_tokens": 7656,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 352,
+    "reasoning_output_tokens": 56
+  }
+}

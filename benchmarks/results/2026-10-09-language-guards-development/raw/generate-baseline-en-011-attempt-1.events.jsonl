@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12011-c710-7313-9b80-fd926f7075c9"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-en-099\",\"text\":\"The archive is open on Wednesdays from 10:00 to 14:00. Visitors may photograph permitted documents, but must register each box requested. Photography is not mandatory. Restricted collections are accessible only after written permission has been granted.\"},{\"case_id\":\"modes-en-100\",\"text\":\"The survey included 90 volunteers from a single club. Of these, 54 supported evening classes. Participants were not selected randomly. These data do not represent the views of all city residents.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":4024,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":124,"reasoning_output_tokens":0}}

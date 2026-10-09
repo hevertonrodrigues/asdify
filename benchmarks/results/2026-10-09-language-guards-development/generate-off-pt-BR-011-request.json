@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c99ddb1731bb3ba2fa92d45f3a6b0ebf224dc1c6132b7419ea81d0b56617af60",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.014,
+      "completed_at_utc": "2026-10-09T10:08:24.939403+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-096\",\"text\":\"O log mostra ERR_63, mas isso não prova que o arquivo esteja danificado. A ferramenta de verificação não leu o arquivo inteiro. O profissional de engenharia considera uma queda de conexão uma das possíveis causas; a causa não foi estabelecida.\"}]}",
+      "usage": {
+        "input_tokens": 7372,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 81,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-096\",\"text\":\"O log mostra ERR_63, mas isso não prova que o arquivo esteja danificado. A ferramenta de verificação não leu o arquivo inteiro. O profissional de engenharia considera uma queda de conexão uma das possíveis causas; a causa não foi estabelecida.\"}]}",
+  "usage": {
+    "input_tokens": 7372,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 81,
+    "reasoning_output_tokens": 0
+  }
+}

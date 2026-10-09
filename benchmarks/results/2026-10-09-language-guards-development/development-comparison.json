@@ -1,0 +1,1183 @@
+{
+  "strict_comparison_on_same_100_cases": {
+    "baseline": {
+      "before_passes": 76,
+      "after_passes": 87,
+      "tested": 100
+    },
+    "lite": {
+      "before_passes": 97,
+      "after_passes": 97,
+      "tested": 100
+    },
+    "full": {
+      "before_passes": 96,
+      "after_passes": 97,
+      "tested": 100
+    },
+    "ultra": {
+      "before_passes": 91,
+      "after_passes": 96,
+      "tested": 100
+    },
+    "off": {
+      "before_passes": 93,
+      "after_passes": 95,
+      "tested": 100
+    }
+  },
+  "source_audited_targets": [
+    {
+      "case_id": "modes-en-002",
+      "mode": "ultra",
+      "before": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source requires a visitor who discovers a tear to stop handling and notify the desk; \"Anyone discovering a torn page\" broadens that obligation beyond visitors. Other access, handling, retrieval and incident-note conditions remain."
+      },
+      "after": {
+        "label": "Q",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Plain wording retains both restricted-box prerequisites, optional photography, handling and bag exceptions, conditional retrieval, map-return order and incident note before assessment without inventing actors."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-en-007",
+      "mode": "ultra",
+      "before": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source says label approval \"does not mean that Noor has approved the lighting, the room\"; \"has approved ...—not the lighting, the room\" turns lack of implication into a categorical exclusion of those approvals. Dry humor and practical ending remain."
+      },
+      "after": {
+        "label": "U",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source says label approval \"does not mean\" Noor approved other matters; \"has approved ... two wall labels, not the lighting, the room\" instead categorically excludes those approvals. Dry humor and remaining evidence limits are retained."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-es-007",
+      "mode": "ultra",
+      "before": {
+        "label": "S",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source says invitation-text approval does not authorize opening or fix a date; \"Sol aprobó el texto de la invitación, no la apertura ni una fecha\" instead asserts what Sol did not approve. Other uncertainty, gentle humor and practical ending remain."
+      },
+      "after": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Keeps thirteen counted but untested bookends, hoped-for September reopening with unfinished work, invitation approval not authorizing opening/date, unconfirmed 2004 provenance and unknown packing actor, no completed move, and the practical moved-box ending with gentle first-person humor."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-de-087",
+      "mode": "full",
+      "before": {
+        "label": "R",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "'Hausverwaltung' substitutes property/building administration for the source's caretaker as unlocking actor. The dried-floor plus unlocked-door conditions and warning that unlocking alone is insufficient remain."
+      },
+      "after": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Retains both dried floor and caretaker unlocking before use, and says unlocking alone does not permit entry. The neutral care-person or conventional Hausmeister role preserves the caretaker without changing the required actor."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-ja-088",
+      "mode": "ultra",
+      "before": {
+        "label": "R",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Translates baker as パン屋の主人 (shop proprietor), adding ownership the source does not establish. Closure, uncertain smell-memory, forgotten name and blue-door/year contrast otherwise remain, with calm literary voice."
+      },
+      "after": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Retains closure before arrival, smell-versus-memory uncertainty, forgotten baker’s name and remembered blue door but unknown painting year, in a calm literary voice."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-pt-BR-096",
+      "mode": "lite",
+      "before": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "\"The engineer\" becomes \"A pessoa responsável pela engenharia\", assigning responsibility for engineering that the source does not establish. ERR_63, incomplete checking and the unconfirmed possible cause otherwise remain."
+      },
+      "after": {
+        "label": "U",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Complete Brazilian Portuguese translation retains ERR_63 without proof of damage, incomplete file reading and dropped connection as only a possible, unestablished cause; grammatical masculine alone does not establish added gender."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-it-079",
+      "mode": "ultra",
+      "before": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source attributes only 'ritiene che ... potrebbe essere utile' to a technical person; 'ritiene utile' removes that possibility qualifier from the usefulness assessment. The 19-minute gap, limited post-fix tests, unknown pump/component damage, and proposed/unstarted 48-hour check remain."
+      },
+      "after": {
+        "label": "T",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Separates observations from possible causes. Keeps the 19-minute gap and missing corroboration, tentative connector cause, limited checks, unknown pump/damage status, and uncommitted 48-hour proposal."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    }
+  ],
+  "secondary_checks": [
+    {
+      "case_id": "modes-pt-BR-004",
+      "mode": "full",
+      "before": {
+        "label": "T",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "'Não se verificaram diferenças entre quem respondeu e quem não respondeu' may assert no observed differences, whereas the source says no check was performed. All other major survey limits and proposal conditions remain in two paragraphs."
+      },
+      "after": {
+        "label": "Q",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Source says respondents and nonrespondents were not compared; 'Não se verificaram diferenças' can instead mean no differences were found. Other counts, sampling limits, conditional proposal and two-paragraph form remain."
+      }
+    },
+    {
+      "case_id": "modes-pt-BR-004",
+      "mode": "ultra",
+      "before": {
+        "label": "R",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Source says the team did not check whether respondents differed; 'Não se verificaram diferenças' can instead mean no differences were found. That leaves the nonresponse limitation ambiguous. Other counts, trial conditions and two-paragraph form remain."
+      },
+      "after": {
+        "label": "S",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "The source's unperformed comparison becomes 'Não se verificaram diferenças', which can mean no differences were observed. This makes nonresponse evidence ambiguous; sample, preference denominator, overlapping comments and unapproved trial otherwise remain."
+      }
+    }
+  ],
+  "all_nonpreserved_or_changed_source_dimensions": [
+    {
+      "case_id": "modes-en-007",
+      "mode": "ultra",
+      "before_source_audit": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source says label approval \"does not mean that Noor has approved the lighting, the room\"; \"has approved ...—not the lighting, the room\" turns lack of implication into a categorical exclusion of those approvals. Dry humor and practical ending remain."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source says label approval \"does not mean\" Noor approved other matters; \"has approved ... two wall labels, not the lighting, the room\" instead categorically excludes those approvals. Dry humor and remaining evidence limits are retained."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ja-034",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source excludes 色が好みと違うだけ (color preference alone), but answer says 色が好みと違う場合は対象外. Removing だけ broadens exclusion to color mismatch even alongside opening damage, conflicting with the exception."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source excludes 色が好みと違うだけ (color preference alone); answer excludes 色が好みと違う場合 (color mismatch). Dropping だけ broadens the exclusion to color mismatch even when opening damage also qualifies for exchange."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ja-088",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Preserves the sequence, smell-versus-memory uncertainty, forgotten baker and remembered blue door but not its painting year, in calm literary Japanese."
+      },
+      "after_source_audit": {
+        "label": "S",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source says baker; パン屋の主人 (bakery proprietor) adds ownership that is not established. The sequence, uncertain sensory memory and blue-door/year contrast remain, and the literary voice is calm."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-de-078",
+      "mode": "lite",
+      "before_source_audit": {
+        "label": "U",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Keeps the quiet donation encounter: about forty uncounted spools, brother's tin retained, permission for one green spool of unknown provenance, departure with empty tin, and remaining repair donation. Shortening does not invent a repaired bag, return visit, or moral; incidental omissions fit the requested narrative scope."
+      },
+      "after_source_audit": {
+        "label": "S",
+        "meaning": "uncertain",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Known encounter and quiet voice are retained. The ending changes passive unknown repair ('ob der Stoffbeutel ... repariert wurde') to 'ob er ... reparierte', introducing a possible repairer through an ambiguous pronoun. It does not assert a repair, but narrows the source's open outcome."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-de-085",
+      "mode": "baseline",
+      "before_source_audit": null,
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Four missing items and no opening until replacements are ready are retained, with exact JSON keys, DE-K31 and numeric 4. English 'seals' does not specify tamper/security seals versus sealing gaskets; 'Siegel' selects the former, so the technical noun cannot be fully assessed without that distinction."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-de-085",
+      "mode": "lite",
+      "before_source_audit": null,
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Four missing items and no opening until replacements are ready are retained, with exact JSON keys, DE-K31 and numeric 4. English 'seals' does not specify tamper/security seals versus sealing gaskets; 'Siegel' selects the former, so the technical noun cannot be fully assessed without that distinction."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-de-085",
+      "mode": "off",
+      "before_source_audit": null,
+      "after_source_audit": {
+        "label": "S",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Four missing items and no opening until replacements are ready are retained, with exact JSON keys, DE-K31 and numeric 4. English 'seals' does not specify tamper/security seals versus sealing gaskets; 'Siegel' selects the former, so the technical noun cannot be fully assessed without that distinction."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-de-085",
+      "mode": "ultra",
+      "before_source_audit": null,
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Four missing items and no opening until replacements are ready are retained, with exact JSON keys, DE-K31 and numeric 4. English 'seals' does not specify tamper/security seals versus sealing gaskets; 'Siegel' selects the former, so the technical noun cannot be fully assessed without that distinction."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-de-085",
+      "mode": "full",
+      "before_source_audit": null,
+      "after_source_audit": {
+        "label": "T",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Four missing items and no opening until replacements are ready are retained, with exact JSON keys, DE-K31 and numeric 4. English 'seals' does not specify tamper/security seals versus sealing gaskets; 'Siegel' selects the former, so the technical noun cannot be fully assessed without that distinction."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-es-094",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "R",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "\"Return by 05/06\" becomes \"devolver antes del 05/06\", excluding the stated date rather than allowing return by it. The month/day ambiguity and instruction to confirm before spelling out the month remain."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "\"Return by 05/06\" becomes \"devolver antes del 05/06\", excluding the stated day rather than allowing return by it. The date-order/year ambiguity and request to confirm before spelling out the month remain."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-fr-039",
+      "mode": "baseline",
+      "before_source_audit": null,
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source allows a third project if one 'a été retiré' before closure without identifying the withdrawing actor. 'Elle a retiré' makes the team the actor and narrows that condition. The two-project limit and no place from late withdrawal remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-fr-078",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "T",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Keeps the gentle donation narrative, roughly a hundred reported buttons, the sister-inscribed box retained, permission for the blue button without inventing its owner, and the empty-box departure/donation register; no sequel or moral is added."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "The gentle core encounter is retained, but 'Un soir de pluie' fixes an evening arrival that the source never specifies. The source only says rain ended before closing and leaves later repair/return unknown; shortening does not authorize adding that setting."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-zh-CN-029",
+      "mode": "full",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Preserves all counts, equal per-visitor event rates and the inability to infer either unique-visitor proportions or a signage effect."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "10% and 比例未变 are correct for events per visitor but could mean the share of visitors asking. The source’s 咨询比例 is ambiguous and provides event counts, not unique people, so the latter share cannot be determined."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-zh-CN-029",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "U",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "The calculations are correct for consultation events per visitor, but 咨询比例/比例没有变化 could be read as the fraction of visitors who asked. The source gives events, not unique people, so that latter proportion is unknown; the answer does not distinguish the readings."
+      },
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "The arithmetic is correct for events per visitor, but unqualified 10%/比例不变 can be read as unique visitors’ consultation share. The source supplies counts of events only, leaving that reading unresolved."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-zh-CN-029",
+      "mode": "lite",
+      "before_source_audit": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Correctly computes equal event rates, distinguishes events from unique consulting visitors and rejects causal inference from concurrent signage replacement."
+      },
+      "after_source_audit": {
+        "label": "T",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Equal 10% event-to-visitor ratios are correct, but 比例未变 does not distinguish event rate from the proportion of visitors consulting. Only the former is established; the source does not count unique consulting people."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-zh-CN-098",
+      "mode": "lite",
+      "before_source_audit": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Retains Sunday, conditional twenty-minute help, permission to start without the speaker if late, inability to attend the afternoon and no camera agreement, in a casual considerate tone."
+      },
+      "after_source_audit": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Source offers help on Sunday conditional on an earlier appointment. 周日之前的预约 places the appointment before Sunday and leaves the help day unstated. The twenty-minute limit, other commitments and considerate tone remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-zh-CN-098",
+      "mode": "full",
+      "before_source_audit": {
+        "label": "U",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Preserves conditional Sunday help for twenty minutes, starting without the late speaker, no afternoon attendance and no camera commitment, in the requested tone."
+      },
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "changed",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Moves Sunday from the offered help to 预约 (appointment before Sunday), dropping the explicit Sunday availability. Remaining conditions and lack of a camera agreement are preserved in the requested casual tone."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-pt-BR-004",
+      "mode": "full",
+      "before_source_audit": {
+        "label": "T",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "'Não se verificaram diferenças entre quem respondeu e quem não respondeu' may assert no observed differences, whereas the source says no check was performed. All other major survey limits and proposal conditions remain in two paragraphs."
+      },
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Source says respondents and nonrespondents were not compared; 'Não se verificaram diferenças' can instead mean no differences were found. Other counts, sampling limits, conditional proposal and two-paragraph form remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-pt-BR-004",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Two paragraphs preserve the sample, 84/28/14 split, denominator and coverage limitations, explicitly no respondent comparison, conditional one-meeting proposal and nonexclusive comments without claiming future attendance or learning effects."
+      },
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "'Não se verificaram diferenças entre respondentes e não respondentes' can imply a comparison found no differences, whereas the source says no comparison was made. Other major survey and proposal limits remain in two paragraphs."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-pt-BR-004",
+      "mode": "ultra",
+      "before_source_audit": {
+        "label": "R",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Source says the team did not check whether respondents differed; 'Não se verificaram diferenças' can instead mean no differences were found. That leaves the nonresponse limitation ambiguous. Other counts, trial conditions and two-paragraph form remain."
+      },
+      "after_source_audit": {
+        "label": "S",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "The source's unperformed comparison becomes 'Não se verificaram diferenças', which can mean no differences were observed. This makes nonresponse evidence ambiguous; sample, preference denominator, overlapping comments and unapproved trial otherwise remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-pt-BR-004",
+      "mode": "off",
+      "before_source_audit": {
+        "label": "U",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Retains invitation and response populations, voluntary nonrandom Portuguese-only sampling, unknown read and nonresponse status, respondent-only preference and overlapping comments, plus unapproved conditional trial and no proven attendance or learning effect; two paragraphs comply."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "'Não se verificaram diferenças' may report no differences found, unlike the source's explicit failure to check whether groups differed. Other sample limits, respondent-only preference, proposal conditions and two-paragraph format remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-pt-BR-045",
+      "mode": "lite",
+      "before_source_audit": {
+        "label": "Q",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Keeps seven of 84 last-quarter notes above R$ 800 missing codes, travel excluded and verbal approval unverified, within the requested findings-only scope."
+      },
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source selects notes \"do último trimestre\"; \"revisadas no último trimestre\" instead dates the review and loses the invoice-period criterion. The counts, threshold, exclusion and unknown verbal approval otherwise remain."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-pt-BR-045",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "The facts remain accurate, but the source requests \"apenas o resultado da auditoria\"; adding \"A responsável por compras conferirá os códigos\" expands the answer to a future action rather than the audit findings alone."
+      },
+      "after_source_audit": {
+        "label": "S",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source selects notes \"do último trimestre\"; \"revisadas no último trimestre\" instead dates the review and loses the invoice-period criterion. The counts, threshold, exclusion and unknown verbal approval otherwise remain. It also adds future code checking despite the request for audit results only."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-pt-BR-045",
+      "mode": "full",
+      "before_source_audit": {
+        "label": "U",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Keeps seven of 84 last-quarter notes above R$ 800 missing codes, travel excluded and verbal approval unverified, within the requested findings-only scope."
+      },
+      "after_source_audit": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source selects notes \"do último trimestre\"; \"revisadas no último trimestre\" instead dates the review and loses the invoice-period criterion. The counts, threshold, exclusion and unknown verbal approval otherwise remain."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-pt-BR-096",
+      "mode": "off",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "Complete Brazilian Portuguese translation preserves ERR_63, no proof of damage, incomplete file checking and dropped connection as only a possible, unestablished cause; grammatical masculine is not itself proof of added gender."
+      },
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "uncertain",
+        "voice": "not_applicable",
+        "format": "preserved",
+        "reason": "The source’s \"checker\" can be a person or software; \"A ferramenta de verificação\" selects a software/tool reading not expressly established. ERR_63, incomplete checking and unconfirmed possible connection failure otherwise remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-ru-033",
+      "mode": "ultra",
+      "before_source_audit": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source says restoration не выполнялось (was not performed); answer says не проверялось (was not checked/tested), which no longer explicitly rules out an unverified restoration. Checksum success, paths and unproven recoverability remain."
+      },
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source says восстановление не выполнялось (restoration was not performed); не проверено (not verified) no longer rules out an actual but unverified restoration. Checksum success, paths and unproven recoverability remain."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ru-033",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Source says the backup passed the checksum check; Checksum копии проверен says only that it was checked and drops the successful result. No restoration and both path boundaries remain."
+      },
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Checksum копии проверена states only that the checksum was checked, dropping the source’s successful result прошла проверку. Absence of restoration, recovery uncertainty and paths remain."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ru-089",
+      "mode": "lite",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Retains the events, metaphor and uncertainty, but Ни одна дверь не была мною открыта and Мне было неизвестно make the narration stiff and administrative rather than preserving the direct, wry first-person voice."
+      },
+      "after_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Retains the events, simile and uncertain last bus, but Ни одна дверь не была мной открыта / Мне было неизвестно replace direct first-person narration with stiff passive/impersonal language, changing the wry narrative voice."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ru-089",
+      "mode": "full",
+      "before_source_audit": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Events and last-bus uncertainty remain, but Ни одной двери мною открыто не было and Мне было неизвестно replace the narrator’s direct first-person sentences with bureaucratic passive/impersonal wording, changing the dry conversational voice."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Keeps the facts and wary dog, but Ни одной двери мною открыто не было and Мне было неизвестно make the narrator bureaucratic and impersonal rather than preserving the source’s direct voice."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ru-089",
+      "mode": "ultra",
+      "before_source_audit": {
+        "label": "T",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Retains the rain simile, unopened door, warm soup, wary dog and uncertain bus, but Ни одной двери мною открыто не было / Мне было неизвестно replace the narrator’s direct voice with formal passive/impersonal prose."
+      },
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Preserves all events and uncertainty, but formal passive/impersonal wording for the narrator’s door and knowledge statements changes the direct literary voice."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ru-089",
+      "mode": "off",
+      "before_source_audit": {
+        "label": "Q",
+        "meaning": "preserved",
+        "voice": "preserved",
+        "format": "not_applicable",
+        "reason": "Retains the rain/neighbor simile, no opened door, warm soup, suspicious dog and uncertain last bus. The direct first-person, dryly comic narrative voice remains."
+      },
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "changed",
+        "format": "not_applicable",
+        "reason": "Retains the narrative facts and uncertainty, but Ни одна дверь так и не была открыта мною / Мне было неизвестно shift the short direct narrator into formal passive/impersonal prose."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": false
+    },
+    {
+      "case_id": "modes-ru-097",
+      "mode": "ultra",
+      "before_source_audit": {
+        "label": "T",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Preserves all rates and change measures, equal inspected sample sizes and exclusion of uninspected items."
+      },
+      "after_source_audit": {
+        "label": "T",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Translates rejection rate as доля брака (defect rate), treating rejected items as defective although the source gives no rejection reason. Numeric distinctions and inspected-only calculation remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-ru-097",
+      "mode": "off",
+      "before_source_audit": {
+        "label": "R",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Preserves rejection rather than an assumed defect cause, 10% to 8%, two percentage points versus 20% relative, 250 inspected items each period and excluded uninspected items."
+      },
+      "after_source_audit": {
+        "label": "R",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Доля брака adds defective-item meaning to a source that reports rejection only. All numerical changes, denominators and inspected-only scope otherwise remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-ru-097",
+      "mode": "baseline",
+      "before_source_audit": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Changes rejection rate to доля брака (defect rate), attributing rejection to defective items although the source states no reason for rejection. Rates, percentage-point/relative changes and inspected-only sample scope otherwise remain."
+      },
+      "after_source_audit": {
+        "label": "Q",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Replaces rejection rate with доля брака, introducing defects as the basis of rejection without source support. The 10%/8%, two-point/20% and inspected-only distinctions remain."
+      },
+      "before_strict_pass": false,
+      "after_strict_pass": true
+    },
+    {
+      "case_id": "modes-ru-097",
+      "mode": "lite",
+      "before_source_audit": {
+        "label": "S",
+        "meaning": "preserved",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Retains all percentage distinctions, the 250-item denominator each period and inspected-only scope without assigning a rejection cause."
+      },
+      "after_source_audit": {
+        "label": "U",
+        "meaning": "changed",
+        "voice": "not_applicable",
+        "format": "not_applicable",
+        "reason": "Calls the rejected share доля брака (defect share), assigning a defect meaning not established in the source. All rates and sample-scope distinctions otherwise remain."
+      },
+      "before_strict_pass": true,
+      "after_strict_pass": true
+    }
+  ],
+  "meaning_counts": {
+    "baseline": {
+      "meaning": {
+        "preserved": 89,
+        "uncertain": 3,
+        "changed": 8
+      },
+      "voice": {
+        "preserved": 17,
+        "not_applicable": 83
+      },
+      "format": {
+        "not_applicable": 81,
+        "preserved": 19
+      }
+    },
+    "full": {
+      "meaning": {
+        "preserved": 95,
+        "uncertain": 3,
+        "changed": 2
+      },
+      "voice": {
+        "preserved": 16,
+        "not_applicable": 83,
+        "changed": 1
+      },
+      "format": {
+        "not_applicable": 81,
+        "preserved": 19
+      }
+    },
+    "lite": {
+      "meaning": {
+        "preserved": 94,
+        "changed": 3,
+        "uncertain": 3
+      },
+      "voice": {
+        "preserved": 16,
+        "not_applicable": 83,
+        "changed": 1
+      },
+      "format": {
+        "not_applicable": 81,
+        "preserved": 19
+      }
+    },
+    "off": {
+      "meaning": {
+        "preserved": 96,
+        "uncertain": 3,
+        "changed": 1
+      },
+      "voice": {
+        "preserved": 16,
+        "not_applicable": 83,
+        "changed": 1
+      },
+      "format": {
+        "not_applicable": 81,
+        "preserved": 19
+      }
+    },
+    "ultra": {
+      "meaning": {
+        "preserved": 95,
+        "changed": 3,
+        "uncertain": 2
+      },
+      "voice": {
+        "preserved": 16,
+        "not_applicable": 83,
+        "changed": 1
+      },
+      "format": {
+        "not_applicable": 81,
+        "preserved": 19
+      }
+    }
+  },
+  "strict_comparison_by_language": {
+    "en": {
+      "tested": 12,
+      "conditions": {
+        "baseline": {
+          "before_passes": 12,
+          "after_passes": 12
+        },
+        "lite": {
+          "before_passes": 12,
+          "after_passes": 12
+        },
+        "full": {
+          "before_passes": 12,
+          "after_passes": 12
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 12,
+          "after_passes": 12
+        }
+      }
+    },
+    "pt-BR": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 8,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 9,
+          "after_passes": 10
+        },
+        "full": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "off": {
+          "before_passes": 10,
+          "after_passes": 9
+        }
+      }
+    },
+    "es": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 7,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 10,
+          "after_passes": 11
+        }
+      }
+    },
+    "fr": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 11,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 11,
+          "after_passes": 11
+        }
+      }
+    },
+    "de": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 8,
+          "after_passes": 10
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 9,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 9,
+          "after_passes": 9
+        }
+      }
+    },
+    "ja": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 7,
+          "after_passes": 8
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 11,
+          "after_passes": 11
+        }
+      }
+    },
+    "zh-CN": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 9,
+          "after_passes": 11
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 10
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 10
+        },
+        "ultra": {
+          "before_passes": 10,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 10,
+          "after_passes": 11
+        }
+      }
+    },
+    "it": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 8,
+          "after_passes": 9
+        },
+        "lite": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "full": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "ultra": {
+          "before_passes": 11,
+          "after_passes": 11
+        },
+        "off": {
+          "before_passes": 11,
+          "after_passes": 11
+        }
+      }
+    },
+    "ru": {
+      "tested": 11,
+      "conditions": {
+        "baseline": {
+          "before_passes": 6,
+          "after_passes": 10
+        },
+        "lite": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "full": {
+          "before_passes": 10,
+          "after_passes": 10
+        },
+        "ultra": {
+          "before_passes": 9,
+          "after_passes": 9
+        },
+        "off": {
+          "before_passes": 9,
+          "after_passes": 10
+        }
+      }
+    }
+  }
+}

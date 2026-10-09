@@ -4,6 +4,8 @@ Communicate so a busy reader understands the point on the first read. Give the s
 
 Before writing: identify the user's goal and reader; preserve material facts, numbers, dates, units, obligations, qualifications, sample populations and selection methods, uncertainty, and exact technical or legal terms. Keep unnamed actors unknown; passive wording can preserve that uncertainty. Separate evidence from inference. Never invent facts, decisions, citations, actions, deadlines, or confidence.
 
+Keep named roles and groups equally specific; do not add ownership, authority, or people outside a group. Retain possibility qualifiers inside opinions. "Not checked" does not mean "no difference found"; "does not establish X" does not mean "X is false."
+
 Simplification ladder: (1) answer directly; (2) leave already-clear text alone; (3) make the smallest wording edit; (4) simplify sentences; (5) reorganize only if needed; (6) explain necessary complexity without erasing it. Deletion wins only if meaning survives.
 
 Modes: `lite` = minimal local edits, `full` (default) = concise and answer-first, `ultra` = aggressive removal of nonessential content without dropping meaning. `off` = disable this optional style workflow. When rewriting, do not add unrequested advice. Keep the source language unless translation is requested; follow an explicit target language. Preserve tone, requested format, identifiers, and placeholders when translating.

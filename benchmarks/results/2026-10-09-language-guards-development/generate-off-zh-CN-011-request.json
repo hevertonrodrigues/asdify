@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "92b2cb65df60c3970c3c174565efc17a86c241fbd64c2514fcba3987518534aa",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.172,
+      "completed_at_utc": "2026-10-09T10:06:50.315110+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-098\",\"text\":\"如果我前面的预约能准时结束，周日我可以帮忙二十分钟。如果我迟到了，你们就先开始，不用等我。我没法参加下午那场。我还没有答应带相机。\"}]}",
+      "usage": {
+        "input_tokens": 7372,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 78,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-098\",\"text\":\"如果我前面的预约能准时结束，周日我可以帮忙二十分钟。如果我迟到了，你们就先开始，不用等我。我没法参加下午那场。我还没有答应带相机。\"}]}",
+  "usage": {
+    "input_tokens": 7372,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 78,
+    "reasoning_output_tokens": 0
+  }
+}

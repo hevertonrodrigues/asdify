@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "de6042091de812bd0bb976105572b47baf4951b9095184702763037447f60049",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 46.189,
+      "completed_at_utc": "2026-10-09T10:11:59.871588+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-045\",\"text\":\"Ab 15. Juli werden Reparaturaufträge am Seiteneingang angenommen. Das gilt auch für bereits vereinbarte Abgabetermine ab diesem Datum. Die Abholung bleibt an der Haupttheke.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Lieferschein: 65 Schrauben. In der geöffneten Tüte gezählt: 64 Schrauben. Die Waage wurde nicht verwendet. Eine zweite Zählung steht aus.\"},{\"case_id\":\"modes-de-061\",\"text\":\"{\\\"request\\\":\\\"N-407\\\",\\\"retries\\\":1,\\\"message\\\":\\\"Ihre Datei konnte nicht verarbeitet werden. Bitte laden Sie sie erneut als TXT-Datei hoch.\\\"}\"},{\"case_id\":\"modes-de-078\",\"text\":\"Als Hannes den Tauschraum betrat, tropfte sein Schirm. Er brachte alte Garnrollen in einer Blechdose mit: ungefähr vierzig, sagte er, gezählt habe er sie nicht. Manche waren fast voll, andere hatten nur wenige Windungen. Er stellte die Dose neben die Waage; gewogen wurden die Rollen nicht.\\n\\nMina fragte, ob die Dose ebenfalls bleiben sollte. Hannes wollte sie wieder mitnehmen, denn sie hatte früher seinem Bruder gehört. Nur das Garn sollte bleiben. Mina legte die Rollen vorsichtig in eine Schale. Nach dem Grund für die späte Abgabe fragte sie nicht, und eine Geschichte über den Bruder schrieb sie nicht dazu.\\n\\nEin junger Besucher entdeckte eine grüne Rolle und fragte, ob er sie für seinen Stoffbeutel nehmen dürfe. Hannes stimmte zu. Woher diese Rolle stammte, wusste er nicht mehr. Er hatte sie aufbewahrt; ob sie seinem Bruder gehört hatte, war unbekannt. Der Besucher nahm nur diese eine Rolle.\\n\\nBeim Abschied ließ der Regen nach. Hannes ging mit der leeren Dose nach Hause. Die übrigen Rollen blieben als Spende für Reparaturen im Tauschraum. Mina vermerkte die Spende im Buch, ohne den Besucher namentlich zu erfassen. Ob der Beutel noch am selben Abend repariert wurde oder Hannes später wiederkam, ist nicht bekannt.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Siegel fehlen. Öffnen Sie die Behälter erst, wenn Ersatzsiegel bereitliegen.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 8019,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 599,
+        "reasoning_output_tokens": 78
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-045\",\"text\":\"Ab 15. Juli werden Reparaturaufträge am Seiteneingang angenommen. Das gilt auch für bereits vereinbarte Abgabetermine ab diesem Datum. Die Abholung bleibt an der Haupttheke.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Lieferschein: 65 Schrauben. In der geöffneten Tüte gezählt: 64 Schrauben. Die Waage wurde nicht verwendet. Eine zweite Zählung steht aus.\"},{\"case_id\":\"modes-de-061\",\"text\":\"{\\\"request\\\":\\\"N-407\\\",\\\"retries\\\":1,\\\"message\\\":\\\"Ihre Datei konnte nicht verarbeitet werden. Bitte laden Sie sie erneut als TXT-Datei hoch.\\\"}\"},{\"case_id\":\"modes-de-078\",\"text\":\"Als Hannes den Tauschraum betrat, tropfte sein Schirm. Er brachte alte Garnrollen in einer Blechdose mit: ungefähr vierzig, sagte er, gezählt habe er sie nicht. Manche waren fast voll, andere hatten nur wenige Windungen. Er stellte die Dose neben die Waage; gewogen wurden die Rollen nicht.\\n\\nMina fragte, ob die Dose ebenfalls bleiben sollte. Hannes wollte sie wieder mitnehmen, denn sie hatte früher seinem Bruder gehört. Nur das Garn sollte bleiben. Mina legte die Rollen vorsichtig in eine Schale. Nach dem Grund für die späte Abgabe fragte sie nicht, und eine Geschichte über den Bruder schrieb sie nicht dazu.\\n\\nEin junger Besucher entdeckte eine grüne Rolle und fragte, ob er sie für seinen Stoffbeutel nehmen dürfe. Hannes stimmte zu. Woher diese Rolle stammte, wusste er nicht mehr. Er hatte sie aufbewahrt; ob sie seinem Bruder gehört hatte, war unbekannt. Der Besucher nahm nur diese eine Rolle.\\n\\nBeim Abschied ließ der Regen nach. Hannes ging mit der leeren Dose nach Hause. Die übrigen Rollen blieben als Spende für Reparaturen im Tauschraum. Mina vermerkte die Spende im Buch, ohne den Besucher namentlich zu erfassen. Ob der Beutel noch am selben Abend repariert wurde oder Hannes später wiederkam, ist nicht bekannt.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Siegel fehlen. Öffnen Sie die Behälter erst, wenn Ersatzsiegel bereitliegen.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 8019,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 599,
+    "reasoning_output_tokens": 78
+  }
+}

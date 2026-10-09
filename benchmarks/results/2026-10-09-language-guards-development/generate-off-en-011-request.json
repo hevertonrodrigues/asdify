@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "18c2ab8f3e80a0c0d585af9cc99fd3ad6794d46b654ef8ca5f849c9e61af6b46",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.988,
+      "completed_at_utc": "2026-10-09T09:49:52.321162+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-099\",\"text\":\"The archive is open on Wednesdays from 10:00 to 14:00. Visitors may photograph permitted documents, but must register each box requested. Photography is not mandatory. Restricted collections are accessible only after written permission has been granted.\"},{\"case_id\":\"modes-en-100\",\"text\":\"The survey included 90 volunteers from a single club. Of these, 54 supported evening classes. Participants were not selected randomly. These data do not represent the views of all city residents.\"}]}",
+      "usage": {
+        "input_tokens": 7457,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 124,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-099\",\"text\":\"The archive is open on Wednesdays from 10:00 to 14:00. Visitors may photograph permitted documents, but must register each box requested. Photography is not mandatory. Restricted collections are accessible only after written permission has been granted.\"},{\"case_id\":\"modes-en-100\",\"text\":\"The survey included 90 volunteers from a single club. Of these, 54 supported evening classes. Participants were not selected randomly. These data do not represent the views of all city residents.\"}]}",
+  "usage": {
+    "input_tokens": 7457,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 124,
+    "reasoning_output_tokens": 0
+  }
+}

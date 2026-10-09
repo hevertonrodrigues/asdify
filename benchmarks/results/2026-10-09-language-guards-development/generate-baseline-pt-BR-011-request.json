@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "8c2646c5aa0c2d3320b9ee4f7915105da562258fbdbbab2fd1ef079a5c0c5562",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 30.201,
+      "completed_at_utc": "2026-10-09T10:09:17.607620+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-096\",\"text\":\"O log mostra ERR_63, mas isso não prova que o arquivo esteja danificado. O verificador não leu o arquivo inteiro. O engenheiro considera uma queda de conexão uma possível causa; a causa não foi determinada.\"}]}",
+      "usage": {
+        "input_tokens": 3943,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 76,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-096\",\"text\":\"O log mostra ERR_63, mas isso não prova que o arquivo esteja danificado. O verificador não leu o arquivo inteiro. O engenheiro considera uma queda de conexão uma possível causa; a causa não foi determinada.\"}]}",
+  "usage": {
+    "input_tokens": 3943,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 76,
+    "reasoning_output_tokens": 0
+  }
+}

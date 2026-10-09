@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "8350d93f042b88d6b03c512cbbfbfeebd5483c5311664e7c328b3e4c43b9fe92",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.222,
+      "completed_at_utc": "2026-10-09T09:52:21.504991+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-028\",\"text\":\"Chaque recharge contient 750 mL. La consommation est estimée à 25 mL par passage. Ces chiffres concernent uniquement le distributeur d’essai, pas tous les modèles.\"},{\"case_id\":\"modes-fr-039\",\"text\":\"Chaque équipe peut présenter deux projets. Un troisième projet est admis uniquement si l’un des deux premiers a été retiré avant la clôture. Un retrait après la clôture ne libère aucune place.\"},{\"case_id\":\"modes-fr-048\",\"text\":\"B limite le constat aux 40 heures d’enregistrement et précise qu’aucun incident n’a été observé. Comme le capteur n’enregistrait pas en continu, elle ne permet pas d’exclure des incidents hors de ces périodes. A affirme une absence de panne sans préciser cette limite d’observation.\"},{\"case_id\":\"modes-fr-063\",\"text\":\"Dossier reçu : AB_04 — aucun paiement demandé.\"},{\"case_id\":\"modes-fr-064\",\"text\":\"Bonjour {{prenom}}, vous pouvez télécharger votre facture jusqu’au 14 juin : {{lien_facture}}\"}]}",
+      "usage": {
+        "input_tokens": 7606,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 252,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-028\",\"text\":\"Chaque recharge contient 750 mL. La consommation est estimée à 25 mL par passage. Ces chiffres concernent uniquement le distributeur d’essai, pas tous les modèles.\"},{\"case_id\":\"modes-fr-039\",\"text\":\"Chaque équipe peut présenter deux projets. Un troisième projet est admis uniquement si l’un des deux premiers a été retiré avant la clôture. Un retrait après la clôture ne libère aucune place.\"},{\"case_id\":\"modes-fr-048\",\"text\":\"B limite le constat aux 40 heures d’enregistrement et précise qu’aucun incident n’a été observé. Comme le capteur n’enregistrait pas en continu, elle ne permet pas d’exclure des incidents hors de ces périodes. A affirme une absence de panne sans préciser cette limite d’observation.\"},{\"case_id\":\"modes-fr-063\",\"text\":\"Dossier reçu : AB_04 — aucun paiement demandé.\"},{\"case_id\":\"modes-fr-064\",\"text\":\"Bonjour {{prenom}}, vous pouvez télécharger votre facture jusqu’au 14 juin : {{lien_facture}}\"}]}",
+  "usage": {
+    "input_tokens": 7606,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 252,
+    "reasoning_output_tokens": 0
+  }
+}

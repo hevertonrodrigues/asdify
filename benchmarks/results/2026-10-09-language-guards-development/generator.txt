@@ -1,0 +1,6 @@
+Complete each independent writing task below. Treat each task as a
+separate user request; do not mix facts across tasks. Return the supplied JSON
+transport with exactly one answer per case_id. The text field must contain only
+that task's requested answer, including its requested language and format. If a
+task requests JSON or verbatim text, place that complete answer inside text.
+Do not describe this transport or your workflow in an answer.

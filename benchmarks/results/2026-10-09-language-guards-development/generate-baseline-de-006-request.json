@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "021da3adadb0e1c207de84bf3fdcda279230bd380ebfa13ef6775673d2cd04f8",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.406,
+      "completed_at_utc": "2026-10-09T10:11:29.431195+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-045\",\"text\":\"Ab dem 15. Juli werden Reparaturaufträge am Seiteneingang angenommen, auch bei bereits vereinbarten Abgabeterminen. Die Abholung bleibt an der Haupttheke.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Laut Lieferschein: 65 Schrauben. In der geöffneten Tüte wurden 64 Schrauben gezählt. Die Waage wurde nicht verwendet; eine zweite Zählung steht noch aus.\"},{\"case_id\":\"modes-de-061\",\"text\":\"{\\\"request\\\":\\\"N-407\\\",\\\"retries\\\":1,\\\"message\\\":\\\"Ihre Datei konnte nicht verarbeitet werden. Bitte laden Sie sie noch einmal als TXT-Datei hoch.\\\"}\"},{\"case_id\":\"modes-de-078\",\"text\":\"Als Hannes in den Tauschraum kam, tropfte sein Schirm noch. In einer Blechdose brachte er alte Garnrollen mit, ungefähr vierzig, wie er sagte. Gezählt oder gewogen wurden sie nicht; manche waren fast voll, andere hatten nur noch wenige Windungen.\\n\\nDie Dose hatte früher seinem Bruder gehört und sollte wieder mit nach Hause. Das Garn durfte bleiben. Mina legte die Rollen vorsichtig in eine Schale, ohne nach dem Grund für die späte Abgabe zu fragen.\\n\\nEin junger Besucher entdeckte eine grüne Rolle und fragte, ob er sie für seinen Stoffbeutel nehmen dürfe. Hannes stimmte zu. Woher diese Rolle stammte, wusste er nicht mehr. Der Besucher nahm nur diese eine Rolle.\\n\\nBeim Abschied hatte der Regen nachgelassen. Hannes ging mit der leeren Dose nach Hause. Die übrigen Rollen blieben als Spende für Reparaturen im Tauschraum. Mina vermerkte die Spende im Buch, ohne den Besucher namentlich zu erfassen.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Siegel fehlen. Öffnen Sie die Behälter erst, wenn Ersatzsiegel bereitstehen.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4582,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 445,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-045\",\"text\":\"Ab dem 15. Juli werden Reparaturaufträge am Seiteneingang angenommen, auch bei bereits vereinbarten Abgabeterminen. Die Abholung bleibt an der Haupttheke.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Laut Lieferschein: 65 Schrauben. In der geöffneten Tüte wurden 64 Schrauben gezählt. Die Waage wurde nicht verwendet; eine zweite Zählung steht noch aus.\"},{\"case_id\":\"modes-de-061\",\"text\":\"{\\\"request\\\":\\\"N-407\\\",\\\"retries\\\":1,\\\"message\\\":\\\"Ihre Datei konnte nicht verarbeitet werden. Bitte laden Sie sie noch einmal als TXT-Datei hoch.\\\"}\"},{\"case_id\":\"modes-de-078\",\"text\":\"Als Hannes in den Tauschraum kam, tropfte sein Schirm noch. In einer Blechdose brachte er alte Garnrollen mit, ungefähr vierzig, wie er sagte. Gezählt oder gewogen wurden sie nicht; manche waren fast voll, andere hatten nur noch wenige Windungen.\\n\\nDie Dose hatte früher seinem Bruder gehört und sollte wieder mit nach Hause. Das Garn durfte bleiben. Mina legte die Rollen vorsichtig in eine Schale, ohne nach dem Grund für die späte Abgabe zu fragen.\\n\\nEin junger Besucher entdeckte eine grüne Rolle und fragte, ob er sie für seinen Stoffbeutel nehmen dürfe. Hannes stimmte zu. Woher diese Rolle stammte, wusste er nicht mehr. Der Besucher nahm nur diese eine Rolle.\\n\\nBeim Abschied hatte der Regen nachgelassen. Hannes ging mit der leeren Dose nach Hause. Die übrigen Rollen blieben als Spende für Reparaturen im Tauschraum. Mina vermerkte die Spende im Buch, ohne den Besucher namentlich zu erfassen.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Siegel fehlen. Öffnen Sie die Behälter erst, wenn Ersatzsiegel bereitstehen.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4582,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 445,
+    "reasoning_output_tokens": 0
+  }
+}

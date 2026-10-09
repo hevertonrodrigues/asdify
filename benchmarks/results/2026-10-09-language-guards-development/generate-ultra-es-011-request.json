@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "f500eb330f482544169f8936dc1d68b88c3ab25b59483f95ce11ad7d83425ef3",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.489,
+      "completed_at_utc": "2026-10-09T09:31:23.703781+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-100\",\"text\":\"El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no nombra a ninguna persona investigadora.\"}]}",
+      "usage": {
+        "input_tokens": 7367,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 232,
+        "reasoning_output_tokens": 165
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-100\",\"text\":\"El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no nombra a ninguna persona investigadora.\"}]}",
+  "usage": {
+    "input_tokens": 7367,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 232,
+    "reasoning_output_tokens": 165
+  }
+}

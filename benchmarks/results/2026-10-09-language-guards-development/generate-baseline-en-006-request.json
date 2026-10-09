@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "36c306b53f7042e61e65ab69ee8d1f52e6837171dcaa8b8875f5940df0ffed7e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.925,
+      "completed_at_utc": "2026-10-09T09:40:20.427826+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-021\",\"text\":\"You can renew online if your address has not changed and your card expires within 60 days. If both conditions are met, you may choose online renewal or the desk service. Otherwise, you must use the desk service.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. The alert shows that the latest applied event is 90 seconds behind the latest received event, with pending events still in the queue. It does not prove data loss. No failed-event count or missing-event audit is provided.\"},{\"case_id\":\"modes-en-049\",\"text\":\"The planner’s 6-week build estimate assumes parts arrive by 1 August. Procurement estimates arrival between 5 and 12 August, later than that assumption. Neither estimate is a commitment, and the notes do not specify a revised build duration for a late arrival.\"},{\"case_id\":\"modes-en-074\",\"text\":\"Collection status is unconfirmed. The shipping dashboard reports “collected,” while the warehouse log reports “awaiting collection.” Both were updated at 15:00, and neither has a named author. Carrier confirmation has not been received.\"},{\"case_id\":\"modes-en-084\",\"text\":\"The reservation is not confirmed until payment is received. You can pay by bank transfer or at the ticket office. If payment arrives after 14 April 2029, the next available date will be offered; there is no guarantee that it will be in the same week.\"}]}",
+      "usage": {
+        "input_tokens": 4220,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 319,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-021\",\"text\":\"You can renew online if your address has not changed and your card expires within 60 days. If both conditions are met, you may choose online renewal or the desk service. Otherwise, you must use the desk service.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. The alert shows that the latest applied event is 90 seconds behind the latest received event, with pending events still in the queue. It does not prove data loss. No failed-event count or missing-event audit is provided.\"},{\"case_id\":\"modes-en-049\",\"text\":\"The planner’s 6-week build estimate assumes parts arrive by 1 August. Procurement estimates arrival between 5 and 12 August, later than that assumption. Neither estimate is a commitment, and the notes do not specify a revised build duration for a late arrival.\"},{\"case_id\":\"modes-en-074\",\"text\":\"Collection status is unconfirmed. The shipping dashboard reports “collected,” while the warehouse log reports “awaiting collection.” Both were updated at 15:00, and neither has a named author. Carrier confirmation has not been received.\"},{\"case_id\":\"modes-en-084\",\"text\":\"The reservation is not confirmed until payment is received. You can pay by bank transfer or at the ticket office. If payment arrives after 14 April 2029, the next available date will be offered; there is no guarantee that it will be in the same week.\"}]}",
+  "usage": {
+    "input_tokens": 4220,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 319,
+    "reasoning_output_tokens": 0
+  }
+}

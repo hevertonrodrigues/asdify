@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "1e34306ed23e58468001cee428676dc410c8fec54f46f9756309dc197d0dd80b",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.761,
+      "completed_at_utc": "2026-10-09T10:10:51.020543+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-018\",\"text\":\"L’incontro di giovedì inizierà alle 17, come previsto, con la presentazione in aula. La visita al cortile non si farà perché il passaggio è occupato; la nuova data non è ancora fissata.\"},{\"case_id\":\"modes-it-028\",\"text\":\"Il recipiente può contenere 900 mL. La linea a 700 mL indica il livello di riempimento consigliato, non la capacità massima. Questi valori si riferiscono soltanto al campione mostrato.\"},{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori, ma non quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-034\",\"text\":\"Oggi la macchina del caffè ha scelto il silenzio. Fino al controllo del tecnico, usate pure il bollitore in cucina. Il ritorno al rumore resta un mistero.\"},{\"case_id\":\"modes-it-037\",\"text\":\"Prima di eseguire `export_tags --type json`, copia `tags.db` nella cartella `copy/`. L’esportazione include soltanto le etichette attive: un risultato vuoto non significa che il database sia vuoto.\"}]}",
+      "usage": {
+        "input_tokens": 7649,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 318,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-018\",\"text\":\"L’incontro di giovedì inizierà alle 17, come previsto, con la presentazione in aula. La visita al cortile non si farà perché il passaggio è occupato; la nuova data non è ancora fissata.\"},{\"case_id\":\"modes-it-028\",\"text\":\"Il recipiente può contenere 900 mL. La linea a 700 mL indica il livello di riempimento consigliato, non la capacità massima. Questi valori si riferiscono soltanto al campione mostrato.\"},{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori, ma non quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-034\",\"text\":\"Oggi la macchina del caffè ha scelto il silenzio. Fino al controllo del tecnico, usate pure il bollitore in cucina. Il ritorno al rumore resta un mistero.\"},{\"case_id\":\"modes-it-037\",\"text\":\"Prima di eseguire `export_tags --type json`, copia `tags.db` nella cartella `copy/`. L’esportazione include soltanto le etichette attive: un risultato vuoto non significa che il database sia vuoto.\"}]}",
+  "usage": {
+    "input_tokens": 7649,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 318,
+    "reasoning_output_tokens": 0
+  }
+}

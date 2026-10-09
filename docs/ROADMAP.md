@@ -31,6 +31,8 @@ Make the skill useful enough that people keep using it and contribute the cases 
 
 Recorded evidence now includes two earlier 100-case comparisons and a new 900-case study covering all four modes and nine languages. The 900-case study reports 4,500 answers and 9,000 model ratings with reproducible evidence audits. A concise-only control, a second generation model, independent human review, and user comprehension evidence remain outstanding; these automated scores do not complete the broader research milestone.
 
+A separate [100-case development retest](../benchmarks/results/2026-10-09-language-guards-development/development-decision.md) contains 500 fresh answers, 1,000 candidate ratings, and 500 blinded source annotations. It supports retaining the tested role/uncertainty patch under its prospective rule, while documenting remaining errors and mixed language results. It reuses previously examined cases and does not complete the fresh held-out milestone.
+
 ## 3. Useful contributions and discovery
 
 - [x] Add READMEs, translation guidance, and regression inputs for Spanish, French, German, Japanese, Simplified Chinese, Italian, and Russian alongside English and Portuguese.

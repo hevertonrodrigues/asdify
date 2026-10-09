@@ -1,0 +1,11 @@
+{
+  "audit": "passed",
+  "generated_answers": 500,
+  "candidate_ratings": 1000,
+  "requests": 189,
+  "frozen_hashes": "verified",
+  "raw_answers_and_usage": "verified",
+  "prompt_reconstruction_and_blinding": "verified",
+  "published_results": "recomputed",
+  "semantic_review": "Model review only; this audit verifies provenance, not truth"
+}

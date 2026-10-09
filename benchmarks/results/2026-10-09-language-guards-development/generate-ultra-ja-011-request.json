@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "da5587508452267b692120877b99306ebe40f1fac87d1be00afab82875294907",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.676,
+      "completed_at_utc": "2026-10-09T09:37:54.173826+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ja-097\",\"text\":\"チケット売上は2,400米ドルでした。記載された会場費と印刷費は合計1,700米ドルでした。差額の700米ドルは、人件費と返金額がまだ含まれていないため、最終的な利益ではありません。記載された費用の予算は1,900米ドルでした。\"}]}",
+      "usage": {
+        "input_tokens": 7374,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 254,
+        "reasoning_output_tokens": 146
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ja-097\",\"text\":\"チケット売上は2,400米ドルでした。記載された会場費と印刷費は合計1,700米ドルでした。差額の700米ドルは、人件費と返金額がまだ含まれていないため、最終的な利益ではありません。記載された費用の予算は1,900米ドルでした。\"}]}",
+  "usage": {
+    "input_tokens": 7374,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 254,
+    "reasoning_output_tokens": 146
+  }
+}

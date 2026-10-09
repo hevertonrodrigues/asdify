@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12014-cc02-7092-b93c-ca901a0c1916"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-zh-CN-006\",\"text\":\"目前已确认可以领取奖学金的申请者有18人，均已获最终批准。其中12人已登记收款账户，6人尚未登记，但未登记不影响批准资格。尚未决定是否获批的申请者不计入确认人数。\"},{\"case_id\":\"modes-zh-CN-019\",\"text\":\"{\\\"ref\\\":\\\"CN-42\\\",\\\"items\\\":8,\\\"remark\\\":\\\"收到8件，尚未逐件检查。\\\"}\"},{\"case_id\":\"modes-zh-CN-029\",\"text\":\"数字不支持“更换告示后咨询比例下降”。前一周为30÷300＝10%，后一周为20÷200＝10%，比例未变。咨询次数从30次降至20次，但访客人数也减少了。同期更换告示不能证明告示导致了变化。\"},{\"case_id\":\"modes-zh-CN-030\",\"text\":\"提交前可撤销输入。提交后不能自行撤销，但可申请更正；申请不保证获准。\"},{\"case_id\":\"modes-zh-CN-036\",\"text\":\"杜宁接收了包裹。随后进行了验收并上报差异。验收人和上报人均未注明，不能默认是杜宁。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":8681,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":299,"reasoning_output_tokens":0}}

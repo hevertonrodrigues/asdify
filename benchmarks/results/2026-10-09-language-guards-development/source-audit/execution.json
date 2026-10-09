@@ -1,0 +1,42 @@
+{
+  "resource_rule": "One existing audit agent at a time, only after the model CLI run completes.",
+  "record_scope": "Root assistant timestamps from task dispatch/completion, not independent process telemetry.",
+  "events": [
+    {
+      "event": "started",
+      "agent": "cases_en_pt_es",
+      "recorded_at_utc": "2026-10-09T11:05:13.045643+00:00",
+      "cli_execution_lock_present": false
+    },
+    {
+      "event": "completed",
+      "agent": "cases_en_pt_es",
+      "recorded_at_utc": "2026-10-09T11:14:16.983727+00:00",
+      "cli_execution_lock_present": false
+    },
+    {
+      "event": "started",
+      "agent": "cases_fr_de_it",
+      "recorded_at_utc": "2026-10-09T11:14:17.083678+00:00",
+      "cli_execution_lock_present": false
+    },
+    {
+      "event": "completed",
+      "agent": "cases_fr_de_it",
+      "recorded_at_utc": "2026-10-09T11:20:11.189481+00:00",
+      "cli_execution_lock_present": false
+    },
+    {
+      "event": "started",
+      "agent": "cases_ja_zh_ru",
+      "recorded_at_utc": "2026-10-09T11:20:11.289896+00:00",
+      "cli_execution_lock_present": false
+    },
+    {
+      "event": "completed",
+      "agent": "cases_ja_zh_ru",
+      "recorded_at_utc": "2026-10-09T11:25:49.526716+00:00",
+      "cli_execution_lock_present": false
+    }
+  ]
+}

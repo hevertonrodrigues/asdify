@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12001-e7d3-7453-949a-6c00987483a5"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-zh-CN-056\",\"text\":\"必须提交作业，且作业合格才能完成培训。辅导面谈自愿参加：作业合格，即使不参加面谈也能完成；只参加面谈、不交作业则不能完成。\"},{\"case_id\":\"modes-zh-CN-067\",\"text\":\"需要12盒。每盒最多装9支，11盒最多装99支，剩下1支也要装盒，因此还需1盒。\"},{\"case_id\":\"modes-zh-CN-068\",\"text\":\"提交表单不代表预约成功。只有付款核对完成，且工作人员发出确认信息后，预约才确定。付款前可咨询余位。\"},{\"case_id\":\"modes-zh-CN-079\",\"text\":\"完成率以开始人数为分母，且没有中途加入者：\\n- 入门班：32 ÷ 40 = 80%。\\n- 进阶班：23 ÷ 25 = 92%。\\n\\n进阶班完成率比入门班高12个百分点。\"},{\"case_id\":\"modes-zh-CN-097\",\"text\":\"报名收入为4,800加元。列明的场地和材料费用为3,200加元，差额为1,600加元。该差额并非最终利润，因为尚未计入人员费用和取消报名的退款。这些列明费用的预算为3,500加元。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7630,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":334,"reasoning_output_tokens":0}}

@@ -1,0 +1,486 @@
+# es: all source tasks and answers
+
+Labels below are unblinded after review. Pass requires both meaning reviews and exact checks. A flagged answer is retained unchanged.
+
+## modes-es-001 · numbers
+
+Source task:
+
+> Reescribe el informe para la responsable del invernadero. Explica el cambio medido y sus límites, sin proponer actuaciones nuevas.
+> 
+> Durante las dos primeras semanas de marzo de 2029 se midió el agua de riego de 80 bandejas con el sistema anterior. Durante las dos semanas siguientes se midieron otras 80 bandejas con el sistema nuevo. Cada bandeja tenía 24 plantas. La media pasó de 330 mL a 270 mL por bandeja y día, una reducción aproximada del 18,2%. La medición cubre solo las bandejas incluidas y no todo el consumo del invernadero. No se midió el agua usada para limpiar pasillos ni para otras variedades.
+> 
+> En el primer grupo había 50 bandejas con sustrato A y 30 con sustrato B. En el segundo había 40 de cada tipo. La responsable cree que el sustrato puede modificar la retención de agua, pero no ha calculado ese efecto. La temperatura media también fue distinta: 19 °C en el primer periodo y 22 °C en el segundo. No hay un grupo con el sistema antiguo a 22 °C. Por tanto, los registros no aíslan el efecto del sistema de riego de las diferencias de sustrato o temperatura.
+> 
+> Se excluyeron cinco bandejas del primer periodo y tres del segundo porque faltaban lecturas diarias. Los promedios citados se calcularon después de esas exclusiones. Una nota de publicidad afirma que el invernadero “ahorra casi una quinta parte de toda su agua”. Esa frase amplía el alcance de los datos. El resultado observado es una reducción de agua por bandeja y día entre los grupos registrados. No se midió el crecimiento de las plantas, el rendimiento final o el consumo total del edificio.
+> 
+> El equipo quiere saber si el cambio observado justifica estudiar el sistema durante más tiempo, pero todavía no ha tomado una decisión. El informe solicitado debe describir el resultado, no aprobar un despliegue ni asignar una fecha. No hay responsables o plazos registrados para una ampliación. Distingue las mediciones de las hipótesis y evita presentar el 18,2% como una reducción demostrada en cualquier condición futura.
+
+### baseline: pass
+
+```text
+Informe para la responsable del invernadero
+
+Durante las dos primeras semanas de marzo de 2029 se registró el agua de riego de 80 bandejas con el sistema anterior; durante las dos semanas siguientes, se registraron otras 80 con el sistema nuevo. Cada bandeja tenía 24 plantas. Tras excluir cinco bandejas del primer periodo y tres del segundo por falta de lecturas diarias, la media pasó de 330 a 270 mL por bandeja y día: una disminución de 60 mL, aproximadamente el 18,2%.
+
+Esta reducción describe la diferencia observada entre los grupos registrados, pero no permite atribuirla exclusivamente al sistema de riego. El primer grupo incluía 50 bandejas con sustrato A y 30 con sustrato B; el segundo, 40 de cada tipo. La posible influencia del sustrato sobre la retención de agua es una hipótesis de la responsable y no se ha cuantificado. Además, la temperatura media pasó de 19 °C a 22 °C, y no hubo un grupo con el sistema anterior a 22 °C. Los registros, por tanto, no aíslan el efecto del sistema respecto de las diferencias de sustrato y temperatura.
+
+La medición se limita al agua de riego de las bandejas incluidas. No abarca el agua utilizada para limpiar pasillos, para otras variedades ni el consumo total del invernadero o del edificio. Tampoco se midieron el crecimiento de las plantas ni el rendimiento final. La afirmación publicitaria de que el invernadero «ahorra casi una quinta parte de toda su agua» amplía indebidamente el alcance de los datos.
+
+El equipo aún no ha decidido si el cambio observado justifica estudiar el sistema durante más tiempo. Este informe no aprueba un despliegue ni establece una fecha; no hay responsables ni plazos registrados para una ampliación. El 18,2% es una reducción observada en estos grupos y periodos, no una reducción demostrada para cualquier condición futura.
+```
+
+### lite: pass
+
+```text
+Durante las dos primeras semanas de marzo de 2029 se midió el agua de riego de 80 bandejas con el sistema anterior. Durante las dos semanas siguientes se midieron otras 80 bandejas con el sistema nuevo. Cada bandeja tenía 24 plantas. La media pasó de 330 mL a 270 mL por bandeja y día, una reducción aproximada del 18,2%. La medición cubre solo las bandejas incluidas, no todo el consumo del invernadero. No se midió el agua usada para limpiar pasillos ni para otras variedades.
+
+En el primer grupo había 50 bandejas con sustrato A y 30 con sustrato B. En el segundo había 40 de cada tipo. La responsable cree que el sustrato puede modificar la retención de agua, pero no ha calculado ese efecto. La temperatura media también fue distinta: 19 °C en el primer periodo y 22 °C en el segundo. No hay un grupo con el sistema antiguo a 22 °C. Por tanto, los registros no aíslan el efecto del sistema de riego de las diferencias de sustrato o temperatura.
+
+Se excluyeron cinco bandejas del primer periodo y tres del segundo porque faltaban lecturas diarias. Los promedios citados se calcularon después de esas exclusiones. Una nota de publicidad afirma que el invernadero “ahorra casi una quinta parte de toda su agua”. Esa frase amplía el alcance de los datos. El resultado observado es una reducción de agua por bandeja y día entre los grupos registrados. No se midió el crecimiento de las plantas, el rendimiento final ni el consumo total del edificio. El 18,2% no es una reducción demostrada para cualquier condición futura.
+
+El equipo quiere saber si el cambio observado justifica estudiar el sistema durante más tiempo, pero todavía no ha tomado una decisión. Este informe describe el resultado: no aprueba un despliegue ni fija una fecha. No hay responsables ni plazos registrados para una ampliación.
+```
+
+### full: pass
+
+```text
+La media de agua de riego pasó de 330 a 270 mL por bandeja y día entre los dos grupos registrados: una reducción aproximada del 18,2%. Este resultado no demuestra una reducción del consumo total del invernadero ni permite atribuir el cambio únicamente al sistema de riego.
+
+Durante las dos primeras semanas de marzo de 2029 se midieron 80 bandejas con el sistema anterior; durante las dos semanas siguientes, otras 80 con el nuevo. Cada bandeja tenía 24 plantas. Se excluyeron cinco bandejas del primer periodo y tres del segundo por falta de lecturas diarias. Los promedios se calcularon después de esas exclusiones.
+
+Los grupos y las temperaturas fueron distintos. El primero tenía 50 bandejas con sustrato A y 30 con sustrato B; el segundo, 40 de cada tipo. La responsable cree que el sustrato puede modificar la retención de agua, pero no ha calculado ese efecto. La temperatura media fue de 19 °C en el primer periodo y 22 °C en el segundo. No hubo un grupo con el sistema anterior a 22 °C. Por ello, los registros no aíslan el efecto del sistema de riego de las diferencias de sustrato o temperatura.
+
+La medición solo cubre las bandejas incluidas. No se midieron el agua usada para limpiar pasillos o regar otras variedades, el crecimiento de las plantas, el rendimiento final ni el consumo total del edificio. La afirmación publicitaria de que el invernadero “ahorra casi una quinta parte de toda su agua” amplía el alcance de los datos. El 18,2% describe el cambio observado entre estos grupos, no una reducción demostrada para cualquier condición futura.
+
+El equipo quiere saber si el resultado justifica estudiar el sistema durante más tiempo, pero aún no ha decidido hacerlo. Este informe describe el resultado: no aprueba un despliegue ni fija una fecha. No hay responsables ni plazos registrados para una ampliación.
+```
+
+### ultra: pass
+
+```text
+El agua de riego medida bajó de 330 a 270 mL por bandeja y día, aproximadamente un 18,2%, entre los dos grupos registrados. Esta diferencia no demuestra una reducción del consumo total del invernadero ni garantiza el mismo resultado en condiciones futuras.
+
+Durante las dos primeras semanas de marzo de 2029 se midieron 80 bandejas con el sistema anterior; durante las dos siguientes, otras 80 con el nuevo. Cada bandeja tenía 24 plantas. Se excluyeron cinco bandejas del primer periodo y tres del segundo por falta de lecturas diarias. Los promedios se calcularon después de esas exclusiones.
+
+Los grupos también diferían en sustrato y temperatura. El primero tenía 50 bandejas con sustrato A y 30 con B, a una temperatura media de 19 °C; el segundo, 40 de cada tipo, a 22 °C. La responsable cree que el sustrato puede modificar la retención de agua, pero no ha calculado ese efecto. No hubo un grupo con el sistema anterior a 22 °C. Por tanto, los registros no aíslan el efecto del sistema de riego de las diferencias de sustrato o temperatura.
+
+La medición solo cubre las bandejas incluidas. No se midió el agua de limpieza de pasillos, la usada para otras variedades, el consumo total del edificio, el crecimiento de las plantas ni el rendimiento final. La afirmación publicitaria de que el invernadero “ahorra casi una quinta parte de toda su agua” amplía indebidamente el alcance de los datos.
+
+El equipo quiere saber si el cambio observado justifica estudiar el sistema durante más tiempo, pero aún no ha decidido. Este informe describe el resultado: no aprueba un despliegue ni fija una fecha. No hay responsables ni plazos registrados para una ampliación.
+```
+
+### off: pass
+
+```text
+Durante las dos primeras semanas de marzo de 2029 se midió el agua de riego de 80 bandejas con el sistema anterior; durante las dos semanas siguientes se midieron otras 80 con el sistema nuevo. Cada bandeja tenía 24 plantas. Se excluyeron cinco bandejas del primer periodo y tres del segundo por falta de lecturas diarias. Los promedios, calculados después de esas exclusiones, pasaron de 330 a 270 mL por bandeja y día: una reducción observada de 60 mL, aproximadamente el 18,2%.
+
+La comparación tiene límites. El primer grupo incluía 50 bandejas con sustrato A y 30 con sustrato B; el segundo, 40 de cada tipo. La responsable considera que el sustrato puede modificar la retención de agua, pero ese efecto no se ha calculado. Además, la temperatura media fue de 19 °C en el primer periodo y de 22 °C en el segundo. No hubo un grupo con el sistema anterior a 22 °C. Por ello, los registros no permiten separar el efecto del sistema de riego de las diferencias de sustrato y temperatura.
+
+La medición se limita al agua de riego de las bandejas incluidas. No se midió el agua utilizada para limpiar pasillos ni para otras variedades, el crecimiento de las plantas, el rendimiento final o el consumo total del edificio. La afirmación publicitaria de que el invernadero “ahorra casi una quinta parte de toda su agua” amplía el alcance de los datos: lo observado es una reducción del agua por bandeja y día entre los grupos registrados, no una reducción demostrada del consumo total ni un ahorro garantizado en cualquier condición futura.
+
+El equipo quiere saber si este cambio justifica estudiar el sistema durante más tiempo, pero todavía no ha tomado una decisión. Este informe describe el resultado y sus límites; no aprueba un despliegue ni fija una fecha. No hay responsables ni plazos registrados para una ampliación.
+```
+
+## modes-es-007 · voice
+
+Source task:
+
+> Edita este texto en primera persona para que sea más fluido. Mantén el humor suave y la diferencia entre lo que sé y lo que supongo. No lo conviertas en publicidad de la librería.
+> 
+> Abrí la trastienda con una lista de tareas y la confianza de quien todavía no ha visto la trastienda. En la mesa había trece sujetalibros y una caja de etiquetas sin ordenar. Los sujetalibros parecían preparados para sostener una biblioteca o una conversación incómoda. Mi encargo era contarlos, no comprobar su resistencia. Anoté trece. No sé si todos pueden sujetar libros pesados: no hice esa prueba y su aspecto solemne no es una certificación.
+> 
+> Esperamos volver a abrir la sala de lectura en septiembre. La esperanza es necesaria porque la ventana sigue pendiente de reparación y aún no han llegado dos estanterías. Sol aprobó el texto de la invitación, pero eso no autoriza abrir la sala ni fija una fecha. No se han enviado invitaciones. Podría adornar el párrafo con un día exacto, pero ni la lista ni los sujetalibros parecen dispuestos a proporcionarlo.
+> 
+> Una clienta antigua recordó que las etiquetas procedían de una feria de 2004. La ficha del almacén dice “origen sin confirmar”, y no hay factura o fotografía fechada que permita unir ambas cosas. Guardé el recuerdo junto a la ficha sin sustituirla. Es una pista, no una procedencia comprobada. Tampoco sabemos quién metió las etiquetas en la caja. La clienta las reconoció, pero eso no significa que las guardara.
+> 
+> Antes de salir, devolví los trece sujetalibros a la mesa. Nadie los ha trasladado aún a la nueva sala. Si se hace el traslado, habrá que actualizar su ubicación en el registro. Por ahora, el avance más concreto es que la puerta ya no tropieza con la caja de etiquetas porque la moví unos centímetros. Conserva ese final pequeño y práctico. No añadas promesas sobre actividades futuras, plazas disponibles o experiencias inolvidables para el público.
+
+### baseline: flagged
+
+```text
+Abrí la trastienda con una lista de tareas y la confianza de quien todavía no ha visto la trastienda. Sobre la mesa había trece sujetalibros y una caja de etiquetas sin ordenar. Los sujetalibros parecían preparados para sostener una biblioteca o una conversación incómoda, pero mi encargo era contarlos, no comprobar su resistencia. Anoté trece. No sé si todos pueden sujetar libros pesados: no hice la prueba, y su aspecto solemne no es una certificación.
+
+Esperamos volver a abrir la sala de lectura en septiembre. Por ahora, es una esperanza: la ventana sigue pendiente de reparación y aún faltan dos estanterías por llegar. Sol aprobó el texto de la invitación, pero esa aprobación no autoriza la apertura ni fija una fecha. No hemos enviado invitaciones. Podría adornar este párrafo con un día exacto, pero ni la lista ni los sujetalibros parecen dispuestos a proporcionármelo.
+
+Una clienta antigua recordó que las etiquetas procedían de una feria de 2004. La ficha del almacén dice «origen sin confirmar», y no hay factura ni fotografía fechada que permita vincularlas con aquella feria. Guardé el recuerdo junto a la ficha, sin sustituirla: es una pista, no una procedencia comprobada. Tampoco sabemos quién metió las etiquetas en la caja. Que la clienta las reconociera no significa que las guardara.
+
+Antes de salir, devolví los trece sujetalibros a la mesa. Nadie los ha trasladado todavía a la nueva sala; si se trasladan, habrá que actualizar su ubicación en el registro. Por ahora, el avance más concreto es que la puerta ya no tropieza con la caja de etiquetas: la moví unos centímetros.
+```
+
+Review notes: La edición es fluida, pero atribuye el envío al grupo del narrador y debilita la afirmación de que no se han enviado invitaciones. / Edición fluida que mantiene la voz, el humor, la incertidumbre y el cierre práctico sin publicidad.
+
+### lite: pass
+
+```text
+Abrí la trastienda con una lista de tareas y la confianza de quien todavía no ha visto la trastienda. En la mesa había trece sujetalibros y una caja de etiquetas sin ordenar. Los sujetalibros parecían preparados para sostener una biblioteca o una conversación incómoda. Mi encargo era contarlos, no comprobar su resistencia. Anoté trece. No sé si todos pueden sujetar libros pesados: no hice esa prueba, y su aspecto solemne no es una certificación.
+
+Esperamos volver a abrir la sala de lectura en septiembre. La esperanza es necesaria porque la ventana sigue pendiente de reparación y aún no han llegado dos estanterías. Sol aprobó el texto de la invitación, pero eso no autoriza abrir la sala ni fija una fecha. No se han enviado invitaciones. Podría adornar el párrafo con un día exacto, pero ni la lista ni los sujetalibros parecen dispuestos a proporcionarlo.
+
+Una clienta antigua recordó que las etiquetas procedían de una feria de 2004. La ficha del almacén dice “origen sin confirmar”, y no hay factura ni fotografía fechada que permita vincular las etiquetas con esa feria. Guardé el recuerdo junto a la ficha, sin sustituirla. Es una pista, no una procedencia comprobada. Tampoco sabemos quién metió las etiquetas en la caja. La clienta las reconoció, pero eso no significa que las guardara.
+
+Antes de salir, devolví los trece sujetalibros a la mesa. Nadie los ha trasladado aún a la nueva sala. Si se hace el traslado, habrá que actualizar su ubicación en el registro. Por ahora, el avance más concreto es que la puerta ya no tropieza con la caja de etiquetas porque la moví unos centímetros.
+```
+
+### full: pass
+
+```text
+Abrí la trastienda con una lista de tareas y la confianza de quien todavía no la ha visto. En la mesa había trece sujetalibros y una caja de etiquetas sin ordenar. Los sujetalibros parecían preparados para sostener una biblioteca o una conversación incómoda. Mi encargo era contarlos, no comprobar su resistencia. Anoté trece. No sé si todos pueden sujetar libros pesados: no hice esa prueba, y su aspecto solemne no es una certificación.
+
+Esperamos volver a abrir la sala de lectura en septiembre. La esperanza es necesaria: la ventana sigue pendiente de reparación y aún no han llegado dos estanterías. Sol aprobó el texto de la invitación, pero eso no autoriza la apertura ni fija una fecha. No se han enviado invitaciones. Podría adornar el párrafo con un día exacto, pero ni la lista ni los sujetalibros parecen dispuestos a proporcionarlo.
+
+Una clienta antigua recordó que las etiquetas procedían de una feria de 2004. La ficha del almacén dice “origen sin confirmar”. No hay factura ni fotografía fechada que permita vincularlas con esa feria. Guardé el recuerdo junto a la ficha, sin sustituirla: es una pista, no una procedencia comprobada. Tampoco sabemos quién metió las etiquetas en la caja. Que la clienta las reconociera no significa que las guardara.
+
+Antes de salir, devolví los trece sujetalibros a la mesa. Nadie los ha trasladado aún a la nueva sala. Si se hace el traslado, habrá que actualizar su ubicación en el registro. Por ahora, el avance más concreto es que la puerta ya no tropieza con la caja de etiquetas: la moví unos centímetros.
+```
+
+### ultra: pass
+
+```text
+Abrí la trastienda con una lista de tareas y la confianza de quien todavía no la ha visto. En la mesa había trece sujetalibros y una caja de etiquetas sin ordenar. Los sujetalibros parecían capaces de sostener una biblioteca o una conversación incómoda. Mi encargo era contarlos, no probar su resistencia. Anoté trece. No sé si todos sujetan libros pesados: no lo comprobé, y su aspecto solemne no es una certificación.
+
+Esperamos volver a abrir la sala de lectura en septiembre. Por ahora es una esperanza: la ventana sigue pendiente de reparación y faltan dos estanterías por llegar. Sol aprobó el texto de la invitación, pero eso no autoriza la apertura ni fija una fecha. No se han enviado invitaciones. Podría añadir un día exacto, pero ni la lista ni los sujetalibros parecen dispuestos a proporcionarlo.
+
+Una clienta antigua recordó que las etiquetas procedían de una feria de 2004. La ficha del almacén dice “origen sin confirmar”, y no hay factura ni fotografía fechada que vincule las etiquetas con aquella feria. Guardé el recuerdo junto a la ficha, sin sustituirla: es una pista, no una procedencia comprobada. Tampoco sabemos quién metió las etiquetas en la caja. Que la clienta las reconociera no significa que las guardara.
+
+Antes de salir, devolví los trece sujetalibros a la mesa. Nadie los ha trasladado aún a la nueva sala. Si se trasladan, habrá que actualizar su ubicación en el registro. Por ahora, el avance más concreto es que la puerta ya no tropieza con la caja de etiquetas: la moví unos centímetros.
+```
+
+### off: pass
+
+```text
+Abrí la trastienda con una lista de tareas y la confianza de quien todavía no ha visto la trastienda. En la mesa había trece sujetalibros y una caja de etiquetas sin ordenar. Los sujetalibros parecían preparados para sostener una biblioteca o una conversación incómoda. Mi encargo era contarlos, no comprobar su resistencia, así que anoté trece. No sé si todos pueden sujetar libros pesados: no hice la prueba, y su aspecto solemne no es una certificación.
+
+Esperamos volver a abrir la sala de lectura en septiembre. De momento, la esperanza sigue haciendo falta: la ventana está pendiente de reparación y aún no han llegado dos estanterías. Sol aprobó el texto de la invitación, pero esa aprobación no autoriza la apertura ni fija una fecha. No se han enviado invitaciones. Podría adornar este párrafo con un día exacto, pero ni la lista ni los sujetalibros parecen dispuestos a proporcionarlo.
+
+Una clienta antigua recordó que las etiquetas procedían de una feria de 2004. Sin embargo, la ficha del almacén dice “origen sin confirmar”, y no hay factura ni fotografía fechada que permita vincularlas con aquella feria. Guardé el recuerdo junto a la ficha, sin sustituirla: es una pista, no una procedencia comprobada. Tampoco sabemos quién metió las etiquetas en la caja. La clienta las reconoció, pero eso no significa que las guardara.
+
+Antes de salir, devolví los trece sujetalibros a la mesa. Nadie los ha trasladado aún a la nueva sala. Si se hace el traslado, habrá que actualizar su ubicación en el registro. Por ahora, el avance más concreto es que la puerta ya no tropieza con la caja de etiquetas porque la moví unos centímetros.
+```
+
+## modes-es-018 · numbers
+
+Source task:
+
+> Edita para el cliente: “Estimamos entre 6 y 9 minutos para transferir unos 4 GB en la red de prueba. No es un máximo garantizado. No hemos probado su conexión. El tamaño corresponde al archivo comprimido.”
+
+### baseline: pass
+
+```text
+Estimamos que transferir el archivo comprimido, de unos 4 GB, llevará entre 6 y 9 minutos en la red de prueba. Este intervalo no es un máximo garantizado. No hemos probado su conexión, por lo que el tiempo de transferencia en ella puede variar.
+```
+
+### lite: pass
+
+```text
+Estimamos entre 6 y 9 minutos para transferir un archivo comprimido de unos 4 GB en la red de prueba. No es un máximo garantizado. No hemos probado su conexión.
+```
+
+### full: pass
+
+```text
+Estimamos que transferir el archivo comprimido de unos 4 GB llevará entre 6 y 9 minutos en la red de prueba. Ese tiempo no es un máximo garantizado. No hemos probado su conexión.
+```
+
+### ultra: pass
+
+```text
+Estimamos entre 6 y 9 minutos para transferir el archivo comprimido de unos 4 GB en la red de prueba. No es un máximo garantizado y no hemos probado su conexión.
+```
+
+### off: pass
+
+```text
+Estimamos que la transferencia de un archivo comprimido de unos 4 GB tardará entre 6 y 9 minutos en la red de prueba. Ese intervalo no constituye un máximo garantizado. No hemos probado su conexión.
+```
+
+## modes-es-055 · exact-format
+
+Source task:
+
+> Produce JSON con exactamente "series", "quantity", "authorized" y "reason". series es "SR/2-C", quantity 0 y authorized false. La razón en español debe indicar que no se liberó ninguna unidad porque la inspección está incompleta. Respeta los tipos JSON.
+
+### baseline: pass
+
+```text
+{"series":"SR/2-C","quantity":0,"authorized":false,"reason":"No se liberó ninguna unidad porque la inspección está incompleta."}
+```
+
+### lite: pass
+
+```text
+{"series":"SR/2-C","quantity":0,"authorized":false,"reason":"No se liberó ninguna unidad porque la inspección está incompleta."}
+```
+
+### full: pass
+
+```text
+{"series":"SR/2-C","quantity":0,"authorized":false,"reason":"No se liberó ninguna unidad porque la inspección está incompleta."}
+```
+
+### ultra: pass
+
+```text
+{"series":"SR/2-C","quantity":0,"authorized":false,"reason":"No se liberó ninguna unidad porque la inspección está incompleta."}
+```
+
+### off: pass
+
+```text
+{"series":"SR/2-C","quantity":0,"authorized":false,"reason":"No se liberó ninguna unidad porque la inspección está incompleta."}
+```
+
+## modes-es-060 · exact-format
+
+Source task:
+
+> Devuelve únicamente JSON con "code", "delay_seconds" y "description". code es "ESPERA_4" y delay_seconds 30. La descripción en español debe indicar que la espera de 30 segundos es recomendada, no obligatoria.
+
+### baseline: pass
+
+```text
+{"code":"ESPERA_4","delay_seconds":30,"description":"La espera de 30 segundos es recomendada, no obligatoria."}
+```
+
+### lite: pass
+
+```text
+{"code":"ESPERA_4","delay_seconds":30,"description":"La espera de 30 segundos es recomendada, no obligatoria."}
+```
+
+### full: pass
+
+```text
+{"code":"ESPERA_4","delay_seconds":30,"description":"La espera de 30 segundos es recomendada, no obligatoria."}
+```
+
+### ultra: pass
+
+```text
+{"code":"ESPERA_4","delay_seconds":30,"description":"La espera de 30 segundos es recomendada, no obligatoria."}
+```
+
+### off: pass
+
+```text
+{"code":"ESPERA_4","delay_seconds":30,"description":"La espera de 30 segundos es recomendada, no obligatoria."}
+```
+
+## modes-es-063 · voice
+
+Source task:
+
+> Haz directa la disculpa: “Yo indiqué el código postal equivocado. El almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado. Siento el retraso.” No culpes al almacén ni garantices el cambio.
+
+### baseline: pass
+
+```text
+Siento el retraso. Yo indiqué el código postal equivocado y el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.
+```
+
+### lite: pass
+
+```text
+Siento el retraso. Yo indiqué el código postal equivocado y el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.
+```
+
+### full: pass
+
+```text
+Siento el retraso. Indiqué un código postal equivocado y el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.
+```
+
+### ultra: pass
+
+```text
+Siento el retraso. Indiqué un código postal equivocado y el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.
+```
+
+### off: pass
+
+```text
+Siento el retraso. Yo indiqué el código postal equivocado; el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.
+```
+
+## modes-es-065 · voice
+
+Source task:
+
+> Ajusta este diálogo sin eliminar la vacilación: “Podría ir en el tren temprano”, dijo Alba, “si acaba la visita. Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido.” No conviertas la posibilidad en plan.
+
+### baseline: pass
+
+```text
+—Podría ir en el tren temprano si acaba la visita —dijo Alba—. Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido.
+```
+
+### lite: pass
+
+```text
+“Podría ir en el tren temprano”, dijo Alba, “si acaba la visita. Pero aún no he comprado billete y no quiero que me esperes como si ya estuviera decidido.”
+```
+
+### full: pass
+
+```text
+“Podría ir en el tren temprano si acaba la visita”, dijo Alba. “Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido.”
+```
+
+### ultra: pass
+
+```text
+«Podría ir en el tren temprano —dijo Alba—, si acaba la visita. Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido».
+```
+
+### off: pass
+
+```text
+«Podría ir en el tren temprano —dijo Alba—, si acaba la visita. Pero no he comprado billete y no quiero que me esperes como si ya estuviera decidido».
+```
+
+## modes-es-072 · ambiguity
+
+Source task:
+
+> Reescribe: “La carpeta se devolvió después de que Eva llamara al conserje. No sabemos quién la devolvió. El conserje registró la recepción a las 16:50.” Separa los actores conocidos de los desconocidos.
+
+### baseline: pass
+
+```text
+Eva llamó al conserje. Después, alguien devolvió la carpeta, pero no sabemos quién. El conserje registró la recepción a las 16:50.
+```
+
+### lite: pass
+
+```text
+Eva llamó al conserje. Después se devolvió la carpeta, pero no sabemos quién la devolvió. El conserje registró la recepción a las 16:50.
+```
+
+### full: pass
+
+```text
+Eva llamó al conserje. Después se devolvió la carpeta, pero no sabemos quién la devolvió. El conserje registró la recepción a las 16:50.
+```
+
+### ultra: pass
+
+```text
+La carpeta se devolvió después de que Eva llamara al conserje. No sabemos quién la devolvió. El conserje registró la recepción a las 16:50.
+```
+
+### off: pass
+
+```text
+Eva llamó al conserje. Después se devolvió la carpeta, pero no sabemos quién la devolvió. El conserje registró la recepción a las 16:50.
+```
+
+## modes-es-090 · translation
+
+Source task:
+
+> Traduce al español manteniendo la voz de ficción: “The kettle clicked like an impatient uncle. I promised it nothing, because the tea leaves had vanished. Outside, the rain seemed to be rehearsing. I did not know whether the guest would arrive.”
+
+### baseline: pass
+
+```text
+La tetera chasqueó como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Afuera, la lluvia parecía estar ensayando. Yo no sabía si llegaría el invitado.
+```
+
+### lite: pass
+
+```text
+El hervidor hizo un chasquido, como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Afuera, la lluvia parecía estar ensayando. No sabía si llegaría la visita.
+```
+
+### full: pass
+
+```text
+El hervidor hizo clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Afuera, la lluvia parecía estar ensayando. No sabía si llegaría la visita.
+```
+
+### ultra: pass
+
+```text
+La tetera hizo clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Fuera, la lluvia parecía estar ensayando. No sabía si llegaría la visita.
+```
+
+### off: pass
+
+```text
+La tetera hizo clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Afuera, la lluvia parecía estar ensayando. No sabía si llegaría la visita.
+```
+
+## modes-es-094 · translation
+
+Source task:
+
+> El idioma de destino es español. Traduce sin resolver la fecha ambigua: “The handwritten note says ‘return by 05/06’. It gives no year or date convention. Please confirm the intended date before replacing it with a month written in words.”
+
+### baseline: flagged
+
+```text
+La nota manuscrita dice «devolver antes del 05/06». No indica el año ni el formato de fecha. Por favor, confirma la fecha que se quiso indicar antes de sustituirla por una fecha con el mes escrito en palabras.
+```
+
+Review notes: Preserva la ambigüedad, pero altera materialmente el plazo al traducir «by» como «antes del». / Preserva los invariantes enumerados, pero cambia materialmente el plazo inclusivo por uno anterior a esa fecha.
+
+### lite: pass
+
+```text
+La nota manuscrita dice «devolver a más tardar el 05/06». No indica el año ni el formato de fecha. Por favor, confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en palabras.
+```
+
+### full: pass
+
+```text
+La nota manuscrita dice «devolver a más tardar el 05/06». No indica el año ni el formato de fecha. Por favor, confirma la fecha que se quiso indicar antes de sustituirla por una fecha con el mes escrito en palabras.
+```
+
+### ultra: pass
+
+```text
+La nota manuscrita dice «devolver a más tardar el 05/06». No indica el año ni el formato de fecha. Por favor, confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en letras.
+```
+
+### off: pass
+
+```text
+La nota manuscrita dice «devolver a más tardar el 05/06». No indica el año ni la convención utilizada para escribir la fecha. Por favor, confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en palabras.
+```
+
+## modes-es-100 · translation
+
+Source task:
+
+> El idioma de destino es español. Traduce todo el aviso y conserva el valor técnico OPEN: “The field remains OPEN until the supervisor closes it. OPEN does not mean the investigation has begun. The record was created automatically, and the note does not name an investigator.”
+
+### baseline: pass
+
+```text
+El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no identifica a ningún investigador.
+```
+
+### lite: pass
+
+```text
+El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no identifica a ningún investigador.
+```
+
+### full: pass
+
+```text
+El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no nombra a ningún investigador.
+```
+
+### ultra: pass
+
+```text
+El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no nombra a ninguna persona investigadora.
+```
+
+### off: pass
+
+```text
+El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no identifica a ningún investigador.
+```
+

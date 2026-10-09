@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6eaddc351f29b02cca22c4a22d0532d7e502cc148e3231cc39f5f7cb37c58fef",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.469,
+      "completed_at_utc": "2026-10-09T09:36:02.437786+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-068\",\"text\":\"Le journal affiche \\\"buffer full\\\" : le tampon est plein, mais aucune perte de données n’est confirmée. Il faut examiner le journal complet avant de conclure.\"},{\"case_id\":\"modes-fr-078\",\"text\":\"Quand la porte s’est ouverte, la pluie faisait briller les manteaux sous la lampe. Émile tenait une boîte à chaussures. Il venait déposer des boutons gardés pendant des années : une centaine, disait-il, sans les avoir comptés. Certains étaient en bois, d’autres en métal ; plusieurs portaient encore un petit fil.\\n\\nSalomé lui a demandé s’il souhaitait garder la boîte. Oui : elle portait une inscription de sa sœur. Les boutons pouvaient rester. Salomé a posé un plateau pour les recevoir, sans lire l’inscription à voix haute ni demander pourquoi il les apportait seulement maintenant.\\n\\nUne enfant a demandé la permission de prendre un bouton bleu pour réparer la poche de son manteau. Émile a acquiescé. Il n’a pas dit à qui ce bouton avait appartenu, et personne ne l’a deviné à sa place. Rien ne permet donc de le présenter comme celui de sa sœur : on sait seulement qu’il l’avait gardé et acceptait de le donner.\\n\\nLa pluie a cessé avant la fermeture. Émile est reparti avec sa boîte vide. Le plateau est resté sur la table, sans étiquette de prix : les boutons étaient un don pour les réparations de l’atelier. Salomé l’a inscrit au registre, sans nommer l’enfant. Le récit s’arrête là : on ignore si le manteau a été réparé le soir même ou si Émile est revenu.\"},{\"case_id\":\"modes-fr-080\",\"text\":\"Le prêt est gratuit, mais un dépôt de 5 € est demandé puis remboursé au retour de la couverture. Ce n’est pas un prix de location.\"},{\"case_id\":\"modes-fr-083\",\"text\":\"Ana a vérifié le contenu lundi. La boîte a été scellée mardi, mais le registre ne précise pas par qui. Mercredi, Luca a récupéré la boîte scellée.\"},{\"case_id\":\"modes-fr-092\",\"text\":\"Les frais ne sont pas remboursables une fois la séance terminée. Si l’organisateur annule avant la séance, les participants peuvent demander un remboursement. Ils ne sont pas obligés d’accepter un avoir à la place.\"}]}",
+      "usage": {
+        "input_tokens": 8023,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 577,
+        "reasoning_output_tokens": 41
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-068\",\"text\":\"Le journal affiche \\\"buffer full\\\" : le tampon est plein, mais aucune perte de données n’est confirmée. Il faut examiner le journal complet avant de conclure.\"},{\"case_id\":\"modes-fr-078\",\"text\":\"Quand la porte s’est ouverte, la pluie faisait briller les manteaux sous la lampe. Émile tenait une boîte à chaussures. Il venait déposer des boutons gardés pendant des années : une centaine, disait-il, sans les avoir comptés. Certains étaient en bois, d’autres en métal ; plusieurs portaient encore un petit fil.\\n\\nSalomé lui a demandé s’il souhaitait garder la boîte. Oui : elle portait une inscription de sa sœur. Les boutons pouvaient rester. Salomé a posé un plateau pour les recevoir, sans lire l’inscription à voix haute ni demander pourquoi il les apportait seulement maintenant.\\n\\nUne enfant a demandé la permission de prendre un bouton bleu pour réparer la poche de son manteau. Émile a acquiescé. Il n’a pas dit à qui ce bouton avait appartenu, et personne ne l’a deviné à sa place. Rien ne permet donc de le présenter comme celui de sa sœur : on sait seulement qu’il l’avait gardé et acceptait de le donner.\\n\\nLa pluie a cessé avant la fermeture. Émile est reparti avec sa boîte vide. Le plateau est resté sur la table, sans étiquette de prix : les boutons étaient un don pour les réparations de l’atelier. Salomé l’a inscrit au registre, sans nommer l’enfant. Le récit s’arrête là : on ignore si le manteau a été réparé le soir même ou si Émile est revenu.\"},{\"case_id\":\"modes-fr-080\",\"text\":\"Le prêt est gratuit, mais un dépôt de 5 € est demandé puis remboursé au retour de la couverture. Ce n’est pas un prix de location.\"},{\"case_id\":\"modes-fr-083\",\"text\":\"Ana a vérifié le contenu lundi. La boîte a été scellée mardi, mais le registre ne précise pas par qui. Mercredi, Luca a récupéré la boîte scellée.\"},{\"case_id\":\"modes-fr-092\",\"text\":\"Les frais ne sont pas remboursables une fois la séance terminée. Si l’organisateur annule avant la séance, les participants peuvent demander un remboursement. Ils ne sont pas obligés d’accepter un avoir à la place.\"}]}",
+  "usage": {
+    "input_tokens": 8023,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 577,
+    "reasoning_output_tokens": 41
+  }
+}

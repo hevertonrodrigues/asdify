@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ee52b98155da01fa21ac864f5e9f061b7ece54aeb6902a12adeba2f8ed12d8e2",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.361,
+      "completed_at_utc": "2026-10-09T09:57:01.360243+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-004\",\"text\":\"Das 360 famílias com telefone atualizado que receberam o questionário por mensagem, 126 enviaram respostas completas: 84 preferiram uma reunião às 19h, 28 às 14h e 14 não escolheram horário. A preferência pelas 19h representa dois terços dos respondentes, não de todas as famílias da escola, e se refere a uma reunião específica no próximo bimestre, não a todas as reuniões do ano. A participação foi voluntária, o formulário estava disponível apenas em português e famílias sem telefone atualizado não foram convidadas. O levantamento não foi uma amostra aleatória; não se verificaram diferenças entre respondentes e não respondentes, nem há informação suficiente para saber quantas mensagens foram lidas. Também não foram verificadas disponibilidade de transporte, necessidade de cuidado com crianças ou jornada de trabalho.\\n\\nA coordenação propôs testar as 19h em uma reunião, dependendo da disponibilidade da equipe e da autorização da direção, ainda sem data definida. Não há decisão registrada de realizar sempre as reuniões à noite. Nos comentários opcionais de 39 famílias, 17 mencionaram trabalho, nove deslocamento e seis cuidado com outras crianças; como um comentário podia tratar de vários assuntos, esses números não representam grupos exclusivos nem proporções de todas as famílias. As observações descrevem as respostas, mas não medem o efeito da mudança de horário sobre presença ou aprendizagem. A preferência declarada não mede presença futura, e o teste proposto não garante aumento da participação presencial.\"},{\"case_id\":\"modes-pt-BR-038\",\"text\":\"O padrão de ttl_dias é 14. O valor 0 desativa a exclusão automática, sem apagar tudo imediatamente; valores positivos contam dias inteiros desde a criação. A exclusão manual continua disponível, e mudanças na configuração valem apenas para novos registros.\"},{\"case_id\":\"modes-pt-BR-045\",\"text\":\"Na auditoria de 84 notas acima de R$ 800 do último trimestre, excluindo reembolsos de viagem, sete não tinham código de aprovação. Não foi verificado se houve aprovação verbal.\"},{\"case_id\":\"modes-pt-BR-046\",\"text\":\"Para 18 usuários, o plano Lago custa R$ 396 por mês (18 × R$ 22), e o Serra custa R$ 350 por mês. O Serra custa R$ 46 menos por mês para esse grupo.\"},{\"case_id\":\"modes-pt-BR-053\",\"text\":\"{\\\"request_id\\\":\\\"P-631\\\",\\\"level\\\":3,\\\"message\\\":\\\"A análise começou, mas não tem data de conclusão.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 8052,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 563,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-004\",\"text\":\"Das 360 famílias com telefone atualizado que receberam o questionário por mensagem, 126 enviaram respostas completas: 84 preferiram uma reunião às 19h, 28 às 14h e 14 não escolheram horário. A preferência pelas 19h representa dois terços dos respondentes, não de todas as famílias da escola, e se refere a uma reunião específica no próximo bimestre, não a todas as reuniões do ano. A participação foi voluntária, o formulário estava disponível apenas em português e famílias sem telefone atualizado não foram convidadas. O levantamento não foi uma amostra aleatória; não se verificaram diferenças entre respondentes e não respondentes, nem há informação suficiente para saber quantas mensagens foram lidas. Também não foram verificadas disponibilidade de transporte, necessidade de cuidado com crianças ou jornada de trabalho.\\n\\nA coordenação propôs testar as 19h em uma reunião, dependendo da disponibilidade da equipe e da autorização da direção, ainda sem data definida. Não há decisão registrada de realizar sempre as reuniões à noite. Nos comentários opcionais de 39 famílias, 17 mencionaram trabalho, nove deslocamento e seis cuidado com outras crianças; como um comentário podia tratar de vários assuntos, esses números não representam grupos exclusivos nem proporções de todas as famílias. As observações descrevem as respostas, mas não medem o efeito da mudança de horário sobre presença ou aprendizagem. A preferência declarada não mede presença futura, e o teste proposto não garante aumento da participação presencial.\"},{\"case_id\":\"modes-pt-BR-038\",\"text\":\"O padrão de ttl_dias é 14. O valor 0 desativa a exclusão automática, sem apagar tudo imediatamente; valores positivos contam dias inteiros desde a criação. A exclusão manual continua disponível, e mudanças na configuração valem apenas para novos registros.\"},{\"case_id\":\"modes-pt-BR-045\",\"text\":\"Na auditoria de 84 notas acima de R$ 800 do último trimestre, excluindo reembolsos de viagem, sete não tinham código de aprovação. Não foi verificado se houve aprovação verbal.\"},{\"case_id\":\"modes-pt-BR-046\",\"text\":\"Para 18 usuários, o plano Lago custa R$ 396 por mês (18 × R$ 22), e o Serra custa R$ 350 por mês. O Serra custa R$ 46 menos por mês para esse grupo.\"},{\"case_id\":\"modes-pt-BR-053\",\"text\":\"{\\\"request_id\\\":\\\"P-631\\\",\\\"level\\\":3,\\\"message\\\":\\\"A análise começou, mas não tem data de conclusão.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 8052,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 563,
+    "reasoning_output_tokens": 0
+  }
+}

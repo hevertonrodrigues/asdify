@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12020-e56a-7381-b0b7-14e2d1935723"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-it-092\",\"text\":\"Una volta che una lezione si è svolta, il relativo costo non è rimborsabile. Se lo studio annulla la lezione in anticipo, gli allievi possono richiedere un rimborso invece di accettare un'altra lezione. Non sono obbligati ad accettare l'alternativa.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7361,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":96,"reasoning_output_tokens":0}}

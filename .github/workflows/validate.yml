@@ -30,3 +30,5 @@ jobs:
           python3 scripts/evaluate_modes_conservative.py audit --output benchmarks/results/2026-10-09-multilingual-modes-four-workers
           python3 scripts/audit_execution_history.py --output benchmarks/results/2026-10-09-multilingual-modes-four-workers
           python3 scripts/audit_mode_source.py --output benchmarks/results/2026-10-09-multilingual-modes-four-workers
+          python3 scripts/evaluate_modes_focused.py audit --output benchmarks/results/2026-10-09-language-guards-development
+          python3 scripts/audit_mode_source.py --output benchmarks/results/2026-10-09-language-guards-development

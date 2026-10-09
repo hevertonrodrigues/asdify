@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12000-177e-7d50-97b5-735c7fd00c18"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-es-100\",\"text\":\"El campo permanece OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no identifica a ningún investigador.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7365,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":62,"reasoning_output_tokens":0}}

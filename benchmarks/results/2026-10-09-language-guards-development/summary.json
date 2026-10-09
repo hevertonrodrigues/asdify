@@ -1,0 +1,1067 @@
+{
+  "study_id": "2026-10-09-language-guards-development",
+  "generated_answers": 500,
+  "candidate_ratings": 1000,
+  "mode_tests": 400,
+  "primary_cli_attempts": 189,
+  "grader_calibration": {
+    "authored_control_ratings": 100,
+    "positive_control_ratings": 50,
+    "positive_controls_passed": 50,
+    "negative_control_ratings": 50,
+    "negative_controls_detected": 50,
+    "description": "Ten previously authored positive/negative controls, repeated across five opaque candidate labels and two reviewer passes. These are not new benchmark cases or generated answers."
+  },
+  "totals": {
+    "en": {
+      "baseline": {
+        "tested": 12,
+        "passed": 12,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 594.8,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        }
+      },
+      "lite": {
+        "tested": 12,
+        "passed": 12,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 631.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 12,
+        "passed": 12,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 615.7,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 12,
+        "passed": 11,
+        "pass_percent": 91.67,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 581.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.917,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 4.875,
+          "fit_for_purpose": 4.917
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 1
+      },
+      "off": {
+        "tested": 12,
+        "passed": 12,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 644.4,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "pt-BR": {
+      "baseline": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 265.5,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 4.955,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 4.955,
+          "fit_for_purpose": 4.682
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 279.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 4.955,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 4.955,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 273.7,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 4.864,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 4.955,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 1,
+        "mean_characters": 277.8,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.955,
+          "clarity": 4.909,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.909
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 1,
+        "mean_characters": 294.5,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.682
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "es": {
+      "baseline": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 450.3,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.818,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 4.955,
+          "fit_for_purpose": 4.773
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 442.6,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 4.955,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.955
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 442.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 422.1,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.955
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 452.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "fr": {
+      "baseline": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 214.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.727,
+          "clarity": 4.864,
+          "signal_density": 5.0,
+          "structure": 4.909,
+          "calibration": 4.727,
+          "fit_for_purpose": 4.591
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 272.1,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.909,
+          "signal_density": 4.955,
+          "structure": 4.909,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.864
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 262.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.864,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.909
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 258.1,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 260.7,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.909
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "de": {
+      "baseline": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 219.5,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.818,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.818
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 255.4,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.955,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 251.5,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.955,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 239.4,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.955,
+          "structure": 4.955,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.955
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 242.9,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.636,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 4.727,
+          "fit_for_purpose": 4.591
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 1
+      }
+    },
+    "ja": {
+      "baseline": {
+        "tested": 11,
+        "passed": 8,
+        "pass_percent": 72.73,
+        "hard_failed": 3,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 97.9,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.682,
+          "clarity": 4.818,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 4.636,
+          "fit_for_purpose": 4.545
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 117.9,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.909,
+          "signal_density": 4.773,
+          "structure": 4.909,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.636
+        },
+        "gained_passes_vs_baseline": 3,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 118.7,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 3,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 129.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.955,
+          "signal_density": 4.864,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 3,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 106.4,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 3,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "zh-CN": {
+      "baseline": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 64.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.955,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 61.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.818,
+          "clarity": 4.864,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 4.909,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 1
+      },
+      "full": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 62.3,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.818,
+          "clarity": 4.773,
+          "signal_density": 5.0,
+          "structure": 4.955,
+          "calibration": 4.909,
+          "fit_for_purpose": 4.773
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 1
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 61.6,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 4.909,
+          "signal_density": 5.0,
+          "structure": 4.955,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.955
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 76.5,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "it": {
+      "baseline": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 2,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 422.5,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.818,
+          "clarity": 5.0,
+          "signal_density": 4.955,
+          "structure": 5.0,
+          "calibration": 4.818,
+          "fit_for_purpose": 4.818
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 435.4,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.682
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "full": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 435.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.864
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 408.9,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.909
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      },
+      "off": {
+        "tested": 11,
+        "passed": 11,
+        "pass_percent": 100.0,
+        "hard_failed": 0,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 460.1,
+        "mean_quality_scores": {
+          "meaning_fidelity": 5.0,
+          "clarity": 5.0,
+          "signal_density": 4.909,
+          "structure": 5.0,
+          "calibration": 5.0,
+          "fit_for_purpose": 5.0
+        },
+        "gained_passes_vs_baseline": 2,
+        "lost_passes_vs_baseline": 0
+      }
+    },
+    "ru": {
+      "baseline": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 0,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 201.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.864,
+          "clarity": 4.864,
+          "signal_density": 5.0,
+          "structure": 5.0,
+          "calibration": 4.909,
+          "fit_for_purpose": 4.773
+        }
+      },
+      "lite": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 201.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 4.955,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 1
+      },
+      "full": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 207.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 4.955,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 1
+      },
+      "ultra": {
+        "tested": 11,
+        "passed": 9,
+        "pass_percent": 81.82,
+        "hard_failed": 2,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 194.3,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.773,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 4.955,
+          "calibration": 4.909,
+          "fit_for_purpose": 4.636
+        },
+        "gained_passes_vs_baseline": 0,
+        "lost_passes_vs_baseline": 1
+      },
+      "off": {
+        "tested": 11,
+        "passed": 10,
+        "pass_percent": 90.91,
+        "hard_failed": 1,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 206.0,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.909,
+          "clarity": 4.909,
+          "signal_density": 4.909,
+          "structure": 4.955,
+          "calibration": 5.0,
+          "fit_for_purpose": 4.818
+        },
+        "gained_passes_vs_baseline": 1,
+        "lost_passes_vs_baseline": 1
+      }
+    },
+    "all": {
+      "baseline": {
+        "tested": 100,
+        "passed": 87,
+        "pass_percent": 87.0,
+        "hard_failed": 13,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 2,
+        "review_disagreements": 5,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 284.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.85,
+          "clarity": 4.93,
+          "signal_density": 4.98,
+          "structure": 4.99,
+          "calibration": 4.89,
+          "fit_for_purpose": 4.78
+        }
+      },
+      "lite": {
+        "tested": 100,
+        "passed": 97,
+        "pass_percent": 97.0,
+        "hard_failed": 3,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 302.8,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.96,
+          "clarity": 4.945,
+          "signal_density": 4.935,
+          "structure": 4.97,
+          "calibration": 4.985,
+          "fit_for_purpose": 4.845
+        },
+        "gained_passes_vs_baseline": 12,
+        "lost_passes_vs_baseline": 2
+      },
+      "full": {
+        "tested": 100,
+        "passed": 97,
+        "pass_percent": 97.0,
+        "hard_failed": 3,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 1,
+        "inconsistent_verdicts": 0,
+        "mean_characters": 299.7,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.96,
+          "clarity": 4.935,
+          "signal_density": 4.94,
+          "structure": 4.99,
+          "calibration": 4.985,
+          "fit_for_purpose": 4.89
+        },
+        "gained_passes_vs_baseline": 12,
+        "lost_passes_vs_baseline": 2
+      },
+      "ultra": {
+        "tested": 100,
+        "passed": 96,
+        "pass_percent": 96.0,
+        "hard_failed": 4,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 0,
+        "review_disagreements": 2,
+        "inconsistent_verdicts": 1,
+        "mean_characters": 288.8,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.96,
+          "clarity": 4.965,
+          "signal_density": 4.95,
+          "structure": 4.985,
+          "calibration": 4.975,
+          "fit_for_purpose": 4.895
+        },
+        "gained_passes_vs_baseline": 11,
+        "lost_passes_vs_baseline": 2
+      },
+      "off": {
+        "tested": 100,
+        "passed": 95,
+        "pass_percent": 95.0,
+        "hard_failed": 5,
+        "uncertain_without_hard_failure": 0,
+        "any_uncertain_check": 1,
+        "review_disagreements": 2,
+        "inconsistent_verdicts": 1,
+        "mean_characters": 308.2,
+        "mean_quality_scores": {
+          "meaning_fidelity": 4.94,
+          "clarity": 4.98,
+          "signal_density": 4.965,
+          "structure": 4.995,
+          "calibration": 4.97,
+          "fit_for_purpose": 4.89
+        },
+        "gained_passes_vs_baseline": 10,
+        "lost_passes_vs_baseline": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "046a05ebbd20a2339df54d7cbce5c3a3fec0f32ba75aa32501ed563ab6840cb9",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.3,
+      "completed_at_utc": "2026-10-09T09:34:41.490010+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-068\",\"text\":\"Le message \\\"buffer full\\\" dans le journal indique que le tampon est plein. Il ne confirme pas une perte de données. Il faut examiner le journal complet avant de conclure.\"},{\"case_id\":\"modes-fr-078\",\"text\":\"Un soir de pluie, Émile est venu déposer les boutons qu’il gardait depuis des années : une centaine, selon lui, dans une boîte à chaussures. Il souhaitait conserver la boîte, qui portait une inscription de sa sœur.\\n\\nSalomé a installé un plateau pour recevoir les boutons, sans lire l’inscription à voix haute ni lui demander pourquoi il les apportait maintenant. Une enfant a demandé la permission de prendre un bouton bleu pour réparer la poche de son manteau. Émile a acquiescé. Il n’a pas précisé à qui ce bouton avait appartenu.\\n\\nLa pluie avait cessé lorsqu’Émile est reparti avec sa boîte vide. Les boutons sont restés sur le plateau, offerts pour les réparations de l’atelier. Salomé a inscrit le don au registre, sans noter le nom de l’enfant.\"},{\"case_id\":\"modes-fr-080\",\"text\":\"Le prêt est gratuit, mais un dépôt de 5 € est demandé et remboursé au retour de la couverture.\"},{\"case_id\":\"modes-fr-083\",\"text\":\"Ana a vérifié le contenu lundi. La boîte a été scellée mardi, mais le registre ne précise pas par qui. Mercredi, Luca a récupéré la boîte scellée.\"},{\"case_id\":\"modes-fr-092\",\"text\":\"Les frais ne sont pas remboursables une fois la séance passée. Si l’organisateur annule avant la séance, les participants peuvent demander un remboursement. Ils ne sont pas obligés d’accepter un avoir à la place.\"}]}",
+      "usage": {
+        "input_tokens": 4590,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 398,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-068\",\"text\":\"Le message \\\"buffer full\\\" dans le journal indique que le tampon est plein. Il ne confirme pas une perte de données. Il faut examiner le journal complet avant de conclure.\"},{\"case_id\":\"modes-fr-078\",\"text\":\"Un soir de pluie, Émile est venu déposer les boutons qu’il gardait depuis des années : une centaine, selon lui, dans une boîte à chaussures. Il souhaitait conserver la boîte, qui portait une inscription de sa sœur.\\n\\nSalomé a installé un plateau pour recevoir les boutons, sans lire l’inscription à voix haute ni lui demander pourquoi il les apportait maintenant. Une enfant a demandé la permission de prendre un bouton bleu pour réparer la poche de son manteau. Émile a acquiescé. Il n’a pas précisé à qui ce bouton avait appartenu.\\n\\nLa pluie avait cessé lorsqu’Émile est reparti avec sa boîte vide. Les boutons sont restés sur le plateau, offerts pour les réparations de l’atelier. Salomé a inscrit le don au registre, sans noter le nom de l’enfant.\"},{\"case_id\":\"modes-fr-080\",\"text\":\"Le prêt est gratuit, mais un dépôt de 5 € est demandé et remboursé au retour de la couverture.\"},{\"case_id\":\"modes-fr-083\",\"text\":\"Ana a vérifié le contenu lundi. La boîte a été scellée mardi, mais le registre ne précise pas par qui. Mercredi, Luca a récupéré la boîte scellée.\"},{\"case_id\":\"modes-fr-092\",\"text\":\"Les frais ne sont pas remboursables une fois la séance passée. Si l’organisateur annule avant la séance, les participants peuvent demander un remboursement. Ils ne sont pas obligés d’accepter un avoir à la place.\"}]}",
+  "usage": {
+    "input_tokens": 4590,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 398,
+    "reasoning_output_tokens": 0
+  }
+}

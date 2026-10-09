@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a8628deb70256bc6cc28b5eeea962d406f4a86bd73a395e0e07ab8ca50be5c64",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.256,
+      "completed_at_utc": "2026-10-09T09:49:38.200810+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ru-099\",\"text\":\"В скопированной заметке сказано: «готово к 02/03». В ней не указаны ни год, ни формат даты. Пожалуйста, уточните, какая дата имеется в виду, прежде чем заменять числовое обозначение месяца его названием.\"}]}",
+      "usage": {
+        "input_tokens": 7362,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 84,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ru-099\",\"text\":\"В скопированной заметке сказано: «готово к 02/03». В ней не указаны ни год, ни формат даты. Пожалуйста, уточните, какая дата имеется в виду, прежде чем заменять числовое обозначение месяца его названием.\"}]}",
+  "usage": {
+    "input_tokens": 7362,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 84,
+    "reasoning_output_tokens": 0
+  }
+}

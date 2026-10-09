@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a12006-fda6-7273-8478-6cc083590fda"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-ja-097\",\"text\":\"チケット売上は2,400米ドルでした。記載されている会場費と印刷費の合計は1,700米ドルでした。差額の700米ドルは、人件費と返金額がまだ含まれていないため、最終的な利益ではありません。記載されている費用の予算は1,900米ドルでした。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7378,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":162,"reasoning_output_tokens":49}}
