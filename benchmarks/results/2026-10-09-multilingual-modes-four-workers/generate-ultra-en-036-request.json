@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "089efa8c3c7fb02d96b63d2138b86e87a1bb2e368f54020dea03c13a73a2e844",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.355,
+      "completed_at_utc": "2026-10-09T04:20:41.118281+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-036\",\"text\":\"For display_name only:\\n- Omit the field to leave its current value unchanged.\\n- Send JSON null to clear its current value.\\n- Send an empty string (\\\"\\\") to set a valid empty text value.\\n\\nThese rules do not apply to other fields.\"},{\"case_id\":\"modes-en-037\",\"text\":\"Using 4 concurrent threads and cached input, the worker handled 1,000 jobs in 80 seconds: 12.5 jobs per second for this run. The team did not measure cold-input performance or single-thread speed.\"},{\"case_id\":\"modes-en-038\",\"text\":\"retention_days defaults to 30. Setting it to 0 disables automatic deletion; it does not delete everything immediately. Positive values count whole days from ingest time. Manual deletion remains possible. Setting changes affect only newly ingested records.\"},{\"case_id\":\"modes-en-039\",\"text\":\"The integration verifies the service account’s identity, not each visitor’s. A successful connection shows that the account can connect—not that every visitor may view every record. This test does not check permissions for individual records.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. “lag: 90 s” means the latest applied event is 90 seconds behind the latest received event. Pending events remain queued. Without a failed-event count or missing-event audit, this alert neither proves nor rules out data loss.\"}]}",
+      "usage": {
+        "input_tokens": 7509,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 316,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-036\",\"text\":\"For display_name only:\\n- Omit the field to leave its current value unchanged.\\n- Send JSON null to clear its current value.\\n- Send an empty string (\\\"\\\") to set a valid empty text value.\\n\\nThese rules do not apply to other fields.\"},{\"case_id\":\"modes-en-037\",\"text\":\"Using 4 concurrent threads and cached input, the worker handled 1,000 jobs in 80 seconds: 12.5 jobs per second for this run. The team did not measure cold-input performance or single-thread speed.\"},{\"case_id\":\"modes-en-038\",\"text\":\"retention_days defaults to 30. Setting it to 0 disables automatic deletion; it does not delete everything immediately. Positive values count whole days from ingest time. Manual deletion remains possible. Setting changes affect only newly ingested records.\"},{\"case_id\":\"modes-en-039\",\"text\":\"The integration verifies the service account’s identity, not each visitor’s. A successful connection shows that the account can connect—not that every visitor may view every record. This test does not check permissions for individual records.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. “lag: 90 s” means the latest applied event is 90 seconds behind the latest received event. Pending events remain queued. Without a failed-event count or missing-event audit, this alert neither proves nor rules out data loss.\"}]}",
+  "usage": {
+    "input_tokens": 7509,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 316,
+    "reasoning_output_tokens": 0
+  }
+}

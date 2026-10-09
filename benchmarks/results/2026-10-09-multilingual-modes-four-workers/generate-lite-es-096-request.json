@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "68527776d01f3f63f80f60338eea9289f5fb96432c770d3d1f3295be1d63387f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.304,
+      "completed_at_utc": "2026-10-09T04:39:42.362802+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-096\",\"text\":\"El tiempo de espera es de 8 segundos por intento, no de 8 segundos para todo el trabajo. El cliente realiza como máximo tres intentos. No se reintenta una respuesta con HTTP 403. La configuración max_attempts=3 cuenta el intento inicial.\"},{\"case_id\":\"modes-es-097\",\"text\":\"El río parecía más claro después de la lluvia, según un observador. No se realizó ninguna medición de turbidez. La observación no demuestra que la lluvia haya mejorado la calidad del agua ni que el agua sea segura para beber.\"},{\"case_id\":\"modes-es-098\",\"text\":\"La cita es para comentar los resultados proporcionados, no para realizar una nueva prueba. El profesional clínico aún no ha revisado los resultados. El paciente puede llevar a una persona de apoyo. La nota no contiene ningún diagnóstico.\"},{\"case_id\":\"modes-es-099\",\"text\":\"Una prórroga por escrito puede cambiar únicamente la fecha de entrega. No exime del requisito de inspección. El silencio del comprador no constituye aprobación. Esta cláusula se aplica al pedido N-48, no a otros pedidos.\"},{\"case_id\":\"modes-es-100\",\"text\":\"El campo permanece en OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no identifica a ningún investigador.\"}]}",
+      "usage": {
+        "input_tokens": 7514,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 308,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-096\",\"text\":\"El tiempo de espera es de 8 segundos por intento, no de 8 segundos para todo el trabajo. El cliente realiza como máximo tres intentos. No se reintenta una respuesta con HTTP 403. La configuración max_attempts=3 cuenta el intento inicial.\"},{\"case_id\":\"modes-es-097\",\"text\":\"El río parecía más claro después de la lluvia, según un observador. No se realizó ninguna medición de turbidez. La observación no demuestra que la lluvia haya mejorado la calidad del agua ni que el agua sea segura para beber.\"},{\"case_id\":\"modes-es-098\",\"text\":\"La cita es para comentar los resultados proporcionados, no para realizar una nueva prueba. El profesional clínico aún no ha revisado los resultados. El paciente puede llevar a una persona de apoyo. La nota no contiene ningún diagnóstico.\"},{\"case_id\":\"modes-es-099\",\"text\":\"Una prórroga por escrito puede cambiar únicamente la fecha de entrega. No exime del requisito de inspección. El silencio del comprador no constituye aprobación. Esta cláusula se aplica al pedido N-48, no a otros pedidos.\"},{\"case_id\":\"modes-es-100\",\"text\":\"El campo permanece en OPEN hasta que el supervisor lo cierre. OPEN no significa que la investigación haya comenzado. El registro se creó automáticamente y la nota no identifica a ningún investigador.\"}]}",
+  "usage": {
+    "input_tokens": 7514,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 308,
+    "reasoning_output_tokens": 0
+  }
+}

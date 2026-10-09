@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0eaaf47ca292f74bddc4647a5b8e6a1c12aee101bd0ed27b602a58849d6baa1b",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.984,
+      "completed_at_utc": "2026-10-09T02:55:53.346698+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-081\",\"text\":\"尊敬的 {{name}}，案件 CN-509 正在等待审核。您现在可以补充文件。只有在审核人员要求时，您才必须补充文件。目前尚无最终决定，也未承诺作出决定的日期。\"},{\"case_id\":\"modes-zh-CN-082\",\"text\":\"我们邀请了来自两个俱乐部的50名志愿者。其中，30人完成了最后一项任务，12人在该任务开始前退出，8人从未开始。报告的分数仅针对完成任务的30人。志愿者并非从所有俱乐部成员中随机选出。\"},{\"case_id\":\"modes-zh-CN-083\",\"text\":\"门禁卡不得与他人共用。已登记的同事只有在事先获得书面授权的情况下，才可以代持卡人领取包裹。此例外不允许进入储藏室。授权仅对一次领取有效，并非整周有效。\"},{\"case_id\":\"modes-zh-CN-084\",\"text\":\"感谢您周一审阅这份提案。我已更正您标出的三项合计数。时间安排仍需供应商确认。在收到确认之前，请将这份草稿的传阅范围限定在工作组内。\"},{\"case_id\":\"modes-zh-CN-085\",\"text\":\"保存到 /opt/demo/packages 之前，请先使用 `packager inspect --preview`。预览模式不会写入文件。如果运行 PKG-307 尚未完成，请等待其结果后再启动新的运行。\"}]}",
+      "usage": {
+        "input_tokens": 7532,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 362,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-081\",\"text\":\"尊敬的 {{name}}，案件 CN-509 正在等待审核。您现在可以补充文件。只有在审核人员要求时，您才必须补充文件。目前尚无最终决定，也未承诺作出决定的日期。\"},{\"case_id\":\"modes-zh-CN-082\",\"text\":\"我们邀请了来自两个俱乐部的50名志愿者。其中，30人完成了最后一项任务，12人在该任务开始前退出，8人从未开始。报告的分数仅针对完成任务的30人。志愿者并非从所有俱乐部成员中随机选出。\"},{\"case_id\":\"modes-zh-CN-083\",\"text\":\"门禁卡不得与他人共用。已登记的同事只有在事先获得书面授权的情况下，才可以代持卡人领取包裹。此例外不允许进入储藏室。授权仅对一次领取有效，并非整周有效。\"},{\"case_id\":\"modes-zh-CN-084\",\"text\":\"感谢您周一审阅这份提案。我已更正您标出的三项合计数。时间安排仍需供应商确认。在收到确认之前，请将这份草稿的传阅范围限定在工作组内。\"},{\"case_id\":\"modes-zh-CN-085\",\"text\":\"保存到 /opt/demo/packages 之前，请先使用 `packager inspect --preview`。预览模式不会写入文件。如果运行 PKG-307 尚未完成，请等待其结果后再启动新的运行。\"}]}",
+  "usage": {
+    "input_tokens": 7532,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 362,
+    "reasoning_output_tokens": 0
+  }
+}

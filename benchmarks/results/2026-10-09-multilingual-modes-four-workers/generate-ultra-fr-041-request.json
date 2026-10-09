@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6ff553952553281fed15c790f43991877161ba21be66b53072d7e34af9ae82c5",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 51.054,
+      "completed_at_utc": "2026-10-09T03:04:54.853495+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-041\",\"text\":\"80 % des 50 réponses reçues choisissent le bleu, sur 400 questionnaires distribués, avec une seule réponse autorisée par personne.\"},{\"case_id\":\"modes-fr-042\",\"text\":\"Seul le remplacement d’un capteur à 75 € est confirmé pour l’instant. Le coût pourrait atteindre 1 900 € si les deux moteurs doivent être remplacés. Ces montants excluent la main-d’œuvre.\"},{\"case_id\":\"modes-fr-043\",\"text\":\"75 − 60 = 15 points de pourcentage.\"},{\"case_id\":\"modes-fr-044\",\"text\":\"180 g × 10 ÷ 4 = 450 g de riz sec.\"},{\"case_id\":\"modes-fr-045\",\"text\":\"À partir du 2 décembre, les retraits se feront à la porte latérale ; le paiement reste au comptoir principal. Les commandes passées avant le 2 décembre sont aussi concernées si elles sont retirées après cette date.\"}]}",
+      "usage": {
+        "input_tokens": 7460,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 123
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-041\",\"text\":\"80 % des 50 réponses reçues choisissent le bleu, sur 400 questionnaires distribués, avec une seule réponse autorisée par personne.\"},{\"case_id\":\"modes-fr-042\",\"text\":\"Seul le remplacement d’un capteur à 75 € est confirmé pour l’instant. Le coût pourrait atteindre 1 900 € si les deux moteurs doivent être remplacés. Ces montants excluent la main-d’œuvre.\"},{\"case_id\":\"modes-fr-043\",\"text\":\"75 − 60 = 15 points de pourcentage.\"},{\"case_id\":\"modes-fr-044\",\"text\":\"180 g × 10 ÷ 4 = 450 g de riz sec.\"},{\"case_id\":\"modes-fr-045\",\"text\":\"À partir du 2 décembre, les retraits se feront à la porte latérale ; le paiement reste au comptoir principal. Les commandes passées avant le 2 décembre sont aussi concernées si elles sont retirées après cette date.\"}]}",
+  "usage": {
+    "input_tokens": 7460,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 353,
+    "reasoning_output_tokens": 123
+  }
+}

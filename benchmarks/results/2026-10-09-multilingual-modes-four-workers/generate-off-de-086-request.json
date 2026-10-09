@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "b1ebbcd819cfa65db2f83e119eaf217dd0d7c0f68e1b32a0c4bb21cec451f410",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.728,
+      "completed_at_utc": "2026-10-09T05:08:06.832204+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-086\",\"text\":\"- Guten Tag {{reader}}, Ihre Abholung ist für den 21. August gebucht.\\n- Verwenden Sie {{collection_url}}, um die Uhrzeit zu ändern; eine Änderung der Uhrzeit ändert nicht die Adresse.\"},{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst benutzt werden, nachdem der Boden getrocknet ist und der Hausmeister die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein ist keine Erlaubnis zum Betreten.\"},{\"case_id\":\"modes-de-088\",\"text\":\"Das Sortieren wird voraussichtlich etwa 7 bis 9 Arbeitsstunden dauern, sofern die gedruckte Liste mit den Kartons übereinstimmt. Die Schätzung umfasst nicht das erneute Beschriften. Ein Fertigstellungszeitpunkt wird nicht garantiert.\"},{\"case_id\":\"modes-de-089\",\"text\":\"Jedes Paneel deckt 2,5 m² ab und kostet USD 38 vor Steuern. Die Montage kostet USD 16 pro Paneel. Die Lieferung ist im Paneelpreis enthalten.\"},{\"case_id\":\"modes-de-090\",\"text\":\"Die 27 Befragten meldeten sich nach einem Gartenkurs freiwillig. Sie wurden nicht aus einer Zufallsstichprobe der Bewohner ausgewählt. Die Ergebnisse beschreiben diese Gruppe, nicht die gesamte Nachbarschaft.\"}]}",
+      "usage": {
+        "input_tokens": 7426,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 302,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-086\",\"text\":\"- Guten Tag {{reader}}, Ihre Abholung ist für den 21. August gebucht.\\n- Verwenden Sie {{collection_url}}, um die Uhrzeit zu ändern; eine Änderung der Uhrzeit ändert nicht die Adresse.\"},{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst benutzt werden, nachdem der Boden getrocknet ist und der Hausmeister die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein ist keine Erlaubnis zum Betreten.\"},{\"case_id\":\"modes-de-088\",\"text\":\"Das Sortieren wird voraussichtlich etwa 7 bis 9 Arbeitsstunden dauern, sofern die gedruckte Liste mit den Kartons übereinstimmt. Die Schätzung umfasst nicht das erneute Beschriften. Ein Fertigstellungszeitpunkt wird nicht garantiert.\"},{\"case_id\":\"modes-de-089\",\"text\":\"Jedes Paneel deckt 2,5 m² ab und kostet USD 38 vor Steuern. Die Montage kostet USD 16 pro Paneel. Die Lieferung ist im Paneelpreis enthalten.\"},{\"case_id\":\"modes-de-090\",\"text\":\"Die 27 Befragten meldeten sich nach einem Gartenkurs freiwillig. Sie wurden nicht aus einer Zufallsstichprobe der Bewohner ausgewählt. Die Ergebnisse beschreiben diese Gruppe, nicht die gesamte Nachbarschaft.\"}]}",
+  "usage": {
+    "input_tokens": 7426,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 302,
+    "reasoning_output_tokens": 0
+  }
+}

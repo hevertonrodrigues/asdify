@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "37afc6742821c84781b20fdbfcb17e5dd7892a054d4f70db96de94f50425e304",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.421,
+      "completed_at_utc": "2026-10-09T03:25:47.276381+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-076\",\"text\":\"Uma voluntária contou 18 passagens de aves pela janela norte, entre 6h e 6h30, em uma manhã sem chuva. A mesma ave pode ter passado várias vezes. Não foram observadas outras janelas nem outros dias; a contagem não permite estimar a população de aves.\"},{\"case_id\":\"modes-pt-BR-077\",\"text\":\"Não havia mofo visível na parte externa da caixa. A caixa não foi aberta nem submetida a análise laboratorial; a observação não permite concluir sobre seu interior.\"},{\"case_id\":\"modes-pt-BR-078\",\"text\":\"Das 100 pessoas que voluntariamente leram um QR code, 70% pediram mais bicicletários. O cartaz estava ao lado de uma loja de bicicletas, e não houve seleção aleatória. O resultado descreve esses participantes, não 70% dos moradores.\"},{\"case_id\":\"modes-pt-BR-079\",\"text\":\"A consulta das 9h foi cancelada porque a profissional não estará disponível; o motivo da indisponibilidade não foi informado. As pessoas agendadas serão contatadas para combinar outro horário. Nenhum horário substituto foi definido.\"},{\"case_id\":\"modes-pt-BR-080\",\"text\":\"Hoje, a balança marcou 250 g em três pesagens de uma massa certificada de 250 g. Apenas essa carga foi testada. O resultado não demonstra a precisão para outras cargas nem constitui uma calibração completa.\"}]}",
+      "usage": {
+        "input_tokens": 7515,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 337,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-076\",\"text\":\"Uma voluntária contou 18 passagens de aves pela janela norte, entre 6h e 6h30, em uma manhã sem chuva. A mesma ave pode ter passado várias vezes. Não foram observadas outras janelas nem outros dias; a contagem não permite estimar a população de aves.\"},{\"case_id\":\"modes-pt-BR-077\",\"text\":\"Não havia mofo visível na parte externa da caixa. A caixa não foi aberta nem submetida a análise laboratorial; a observação não permite concluir sobre seu interior.\"},{\"case_id\":\"modes-pt-BR-078\",\"text\":\"Das 100 pessoas que voluntariamente leram um QR code, 70% pediram mais bicicletários. O cartaz estava ao lado de uma loja de bicicletas, e não houve seleção aleatória. O resultado descreve esses participantes, não 70% dos moradores.\"},{\"case_id\":\"modes-pt-BR-079\",\"text\":\"A consulta das 9h foi cancelada porque a profissional não estará disponível; o motivo da indisponibilidade não foi informado. As pessoas agendadas serão contatadas para combinar outro horário. Nenhum horário substituto foi definido.\"},{\"case_id\":\"modes-pt-BR-080\",\"text\":\"Hoje, a balança marcou 250 g em três pesagens de uma massa certificada de 250 g. Apenas essa carga foi testada. O resultado não demonstra a precisão para outras cargas nem constitui uma calibração completa.\"}]}",
+  "usage": {
+    "input_tokens": 7515,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 337,
+    "reasoning_output_tokens": 0
+  }
+}

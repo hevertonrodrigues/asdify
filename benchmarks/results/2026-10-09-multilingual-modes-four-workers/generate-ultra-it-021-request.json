@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "eefc141f14b7475db1ea4f6b4fd9babbfcbcd2f51d2507a7635b1508e1c4b90f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.49,
+      "completed_at_utc": "2026-10-09T03:33:46.496802+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-021\",\"text\":\"Grazie per il libro! Non te l’ho ancora restituito: lo terrò nella custodia fino a sabato, perché vuoi controllare con me le pagine con gli appunti.\"},{\"case_id\":\"modes-it-022\",\"text\":\"«Il suo progetto» può indicare il progetto di Andrea o quello di Luca:\\n- Dopo aver parlato con Luca, Andrea ha modificato il proprio progetto.\\n- Dopo aver parlato con Luca, Andrea ha modificato il progetto di Luca.\"},{\"case_id\":\"modes-it-023\",\"text\":\"Gli ospiti possono assistere alla prova aperta senza iscriversi, ma non alla riunione successiva, riservata ai soci. Assistere alla prova non dà accesso alla riunione.\"},{\"case_id\":\"modes-it-024\",\"text\":\"La spedizione è gratuita per ordini di almeno 75 € destinati alla zona Nord, esclusi gli articoli fragili, anche oltre 75 €. Per la zona Sud, la spedizione è sempre a pagamento.\"},{\"case_id\":\"modes-it-025\",\"text\":\"«In attesa» significa solo che la decisione non è stata registrata: non conferma né rifiuta la richiesta. Non considerarla un’autorizzazione.\"}]}",
+      "usage": {
+        "input_tokens": 7488,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 291,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-021\",\"text\":\"Grazie per il libro! Non te l’ho ancora restituito: lo terrò nella custodia fino a sabato, perché vuoi controllare con me le pagine con gli appunti.\"},{\"case_id\":\"modes-it-022\",\"text\":\"«Il suo progetto» può indicare il progetto di Andrea o quello di Luca:\\n- Dopo aver parlato con Luca, Andrea ha modificato il proprio progetto.\\n- Dopo aver parlato con Luca, Andrea ha modificato il progetto di Luca.\"},{\"case_id\":\"modes-it-023\",\"text\":\"Gli ospiti possono assistere alla prova aperta senza iscriversi, ma non alla riunione successiva, riservata ai soci. Assistere alla prova non dà accesso alla riunione.\"},{\"case_id\":\"modes-it-024\",\"text\":\"La spedizione è gratuita per ordini di almeno 75 € destinati alla zona Nord, esclusi gli articoli fragili, anche oltre 75 €. Per la zona Sud, la spedizione è sempre a pagamento.\"},{\"case_id\":\"modes-it-025\",\"text\":\"«In attesa» significa solo che la decisione non è stata registrata: non conferma né rifiuta la richiesta. Non considerarla un’autorizzazione.\"}]}",
+  "usage": {
+    "input_tokens": 7488,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 291,
+    "reasoning_output_tokens": 0
+  }
+}

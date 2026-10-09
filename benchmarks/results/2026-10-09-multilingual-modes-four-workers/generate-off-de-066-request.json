@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "434ae516077eae0c04eaaf6c5289414a6b303633e70ecc4c910c04d44c564296",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.391,
+      "completed_at_utc": "2026-10-09T04:18:05.031425+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-066\",\"text\":\"Entwurf sichtbar: ja\\nVeröffentlichung erlaubt: nein\"},{\"case_id\":\"modes-de-067\",\"text\":\"archive-check --list-only listet Probleme auf, behebt sie aber nicht.\"},{\"case_id\":\"modes-de-068\",\"text\":\"Die Anzeige \\\"queue paused\\\" bedeutet, dass die Warteschlange angehalten ist. Ein Verlust von Aufträgen ist damit nicht bestätigt. Der Grund ist noch unbekannt.\"},{\"case_id\":\"modes-de-069\",\"text\":\"{\\\"code\\\":\\\"BK-56\\\",\\\"available\\\":0,\\\"notice\\\":\\\"Derzeit kann kein Exemplar ausgeliehen werden.\\\"}\"},{\"case_id\":\"modes-de-070\",\"text\":\"## Übergabe an die nächste Schicht\\n\\n### Ausleihe und Freigaben\\nVier Nähmaschinen wurden gereinigt. Nur N-12 hat zusätzlich die Funktionsprüfung bestanden und darf ausgeliehen werden. Die anderen drei bleiben bis zu ihrer Funktionsprüfung gesperrt. Ein weißes Etikett bedeutet nur „gereinigt“ und ersetzt keine Freigabe.\\n\\nN-12 steht am Fenster. Ihr Zubehör liegt in einer beschrifteten Tasche unter dem Tisch.\\n\\nFür neue Ausleihen gilt weiterhin das bisherige Formular. Die kürzere Formularfassung ist ein Entwurf und noch nicht freigegeben.\\n\\n### Bestand und offene Prüfungen\\nIm Bestand stehen 54 Geräte: 49 wurden heute im Laden gesehen, drei sind mit unterschriebenem Leihschein ausgeliehen und zwei wurden nicht gefunden. Die drei ausgeliehenen Geräte sollen am 22. Oktober zurückkommen.\\n\\nBei den zwei fehlenden Geräten muss noch geklärt werden, ob sie falsch einsortiert oder nicht korrekt verbucht wurden. Ein Diebstahl wurde nicht festgestellt. Der letzte vollständige Bestandsabgleich liegt sechs Wochen zurück.\\n\\n### Material und Budget\\nEs sind 3,6 kg Stoffreste vorhanden. Das Gewicht enthält die Aufbewahrungsbeutel und lässt keine verlässliche Aussage zur Stofffläche zu. Neue Beutel wurden vorgeschlagen, aber noch nicht bestellt.\\n\\nFür Verbrauchsmaterial sind vermutlich 140 € übrig. Zwei Kartenzahlungen müssen noch mit den Belegen abgeglichen werden; der Betrag ist daher vorläufig.\\n\\n### Räume und Schilder\\nDer vordere Boden wurde gewischt. Im hinteren Raum ist die Beleuchtung defekt. Der Raum bleibt geschlossen, bis der Fehler behoben und die Beleuchtung geprüft ist.\\n\\nTobias hat angeboten, am Freitag die Schilder zu erneuern. Seine Teilnahme ist noch nicht bestätigt. Die Liste der beschädigten Schilder liegt neben dem Kassenbuch.\"}]}",
+      "usage": {
+        "input_tokens": 7804,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 570,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-066\",\"text\":\"Entwurf sichtbar: ja\\nVeröffentlichung erlaubt: nein\"},{\"case_id\":\"modes-de-067\",\"text\":\"archive-check --list-only listet Probleme auf, behebt sie aber nicht.\"},{\"case_id\":\"modes-de-068\",\"text\":\"Die Anzeige \\\"queue paused\\\" bedeutet, dass die Warteschlange angehalten ist. Ein Verlust von Aufträgen ist damit nicht bestätigt. Der Grund ist noch unbekannt.\"},{\"case_id\":\"modes-de-069\",\"text\":\"{\\\"code\\\":\\\"BK-56\\\",\\\"available\\\":0,\\\"notice\\\":\\\"Derzeit kann kein Exemplar ausgeliehen werden.\\\"}\"},{\"case_id\":\"modes-de-070\",\"text\":\"## Übergabe an die nächste Schicht\\n\\n### Ausleihe und Freigaben\\nVier Nähmaschinen wurden gereinigt. Nur N-12 hat zusätzlich die Funktionsprüfung bestanden und darf ausgeliehen werden. Die anderen drei bleiben bis zu ihrer Funktionsprüfung gesperrt. Ein weißes Etikett bedeutet nur „gereinigt“ und ersetzt keine Freigabe.\\n\\nN-12 steht am Fenster. Ihr Zubehör liegt in einer beschrifteten Tasche unter dem Tisch.\\n\\nFür neue Ausleihen gilt weiterhin das bisherige Formular. Die kürzere Formularfassung ist ein Entwurf und noch nicht freigegeben.\\n\\n### Bestand und offene Prüfungen\\nIm Bestand stehen 54 Geräte: 49 wurden heute im Laden gesehen, drei sind mit unterschriebenem Leihschein ausgeliehen und zwei wurden nicht gefunden. Die drei ausgeliehenen Geräte sollen am 22. Oktober zurückkommen.\\n\\nBei den zwei fehlenden Geräten muss noch geklärt werden, ob sie falsch einsortiert oder nicht korrekt verbucht wurden. Ein Diebstahl wurde nicht festgestellt. Der letzte vollständige Bestandsabgleich liegt sechs Wochen zurück.\\n\\n### Material und Budget\\nEs sind 3,6 kg Stoffreste vorhanden. Das Gewicht enthält die Aufbewahrungsbeutel und lässt keine verlässliche Aussage zur Stofffläche zu. Neue Beutel wurden vorgeschlagen, aber noch nicht bestellt.\\n\\nFür Verbrauchsmaterial sind vermutlich 140 € übrig. Zwei Kartenzahlungen müssen noch mit den Belegen abgeglichen werden; der Betrag ist daher vorläufig.\\n\\n### Räume und Schilder\\nDer vordere Boden wurde gewischt. Im hinteren Raum ist die Beleuchtung defekt. Der Raum bleibt geschlossen, bis der Fehler behoben und die Beleuchtung geprüft ist.\\n\\nTobias hat angeboten, am Freitag die Schilder zu erneuern. Seine Teilnahme ist noch nicht bestätigt. Die Liste der beschädigten Schilder liegt neben dem Kassenbuch.\"}]}",
+  "usage": {
+    "input_tokens": 7804,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 570,
+    "reasoning_output_tokens": 0
+  }
+}

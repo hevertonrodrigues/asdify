@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c4c0934507499f0a1b4d1b9dd50a5bc102f117b7169613e6f714b5eb50015cf1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.539,
+      "completed_at_utc": "2026-10-09T04:48:22.689149+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-016\",\"text\":\"Nos 70 atendimentos concluídos observados, o tempo médio de espera foi de 18 minutos, e a mediana foi de 11 minutos. A média inclui três esperas superiores a uma hora. Pessoas que foram embora antes do atendimento não fazem parte da amostra.\"},{\"case_id\":\"modes-pt-BR-017\",\"text\":\"O curso A teve a maior taxa de conclusão: 60% (24 de 40), contra 50% no curso B (30 de 60).\"},{\"case_id\":\"modes-pt-BR-018\",\"text\":\"Estimamos de 2 a 4 horas para digitalizar cerca de 600 páginas nas condições do teste. Essa estimativa não representa um prazo máximo. Não foram testadas páginas danificadas nem formatos diferentes. O volume indicado se refere a páginas, não a folhas.\"},{\"case_id\":\"modes-pt-BR-019\",\"text\":\"Foi medida uma concentração de nitrato de 1,6 mg/L em uma única amostra retirada da torneira da cozinha às 8h. O limite de quantificação do laboratório é de 0,2 mg/L. Não foram fornecidos um limite aplicável de segurança nem resultados de outras torneiras.\"},{\"case_id\":\"modes-pt-BR-020\",\"text\":\"Compareceram 21 dos 140 associados convidados, portanto a presença foi de 15%, não 21%. Todos os convidados eram associados, e acompanhantes não foram contados.\"}]}",
+      "usage": {
+        "input_tokens": 7529,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 332,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-016\",\"text\":\"Nos 70 atendimentos concluídos observados, o tempo médio de espera foi de 18 minutos, e a mediana foi de 11 minutos. A média inclui três esperas superiores a uma hora. Pessoas que foram embora antes do atendimento não fazem parte da amostra.\"},{\"case_id\":\"modes-pt-BR-017\",\"text\":\"O curso A teve a maior taxa de conclusão: 60% (24 de 40), contra 50% no curso B (30 de 60).\"},{\"case_id\":\"modes-pt-BR-018\",\"text\":\"Estimamos de 2 a 4 horas para digitalizar cerca de 600 páginas nas condições do teste. Essa estimativa não representa um prazo máximo. Não foram testadas páginas danificadas nem formatos diferentes. O volume indicado se refere a páginas, não a folhas.\"},{\"case_id\":\"modes-pt-BR-019\",\"text\":\"Foi medida uma concentração de nitrato de 1,6 mg/L em uma única amostra retirada da torneira da cozinha às 8h. O limite de quantificação do laboratório é de 0,2 mg/L. Não foram fornecidos um limite aplicável de segurança nem resultados de outras torneiras.\"},{\"case_id\":\"modes-pt-BR-020\",\"text\":\"Compareceram 21 dos 140 associados convidados, portanto a presença foi de 15%, não 21%. Todos os convidados eram associados, e acompanhantes não foram contados.\"}]}",
+  "usage": {
+    "input_tokens": 7529,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 332,
+    "reasoning_output_tokens": 0
+  }
+}

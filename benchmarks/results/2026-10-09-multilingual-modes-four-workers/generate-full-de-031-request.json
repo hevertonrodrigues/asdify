@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0bdb26c9aeba7ba9a1e51ac310c23779a5c3db49a53aa2ccb6798cae7167311f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.348,
+      "completed_at_utc": "2026-10-09T03:55:49.512000+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-031\",\"text\":\"Lotte hat die Regale beschriftet, die Schubladen noch nicht. Die Liste der fehlenden Schilder liegt im roten Ordner. Die Druckdatei wurde gespeichert; von wem, ist unbekannt.\"},{\"case_id\":\"modes-de-032\",\"text\":\"Für genau 48 Becher ist Paket X günstiger:\\n- 3 × Paket X: 3 × 16 = 48 Becher; 3 × 12 € = 36 €.\\n- 2 × Paket Y: 2 × 24 = 48 Becher; 2 × 19 € = 38 €.\\n\\nPaket X spart 2 €. Eine Mischung beider Pakete ergibt nicht genau 48 Becher; Einzelbecher sind nicht erhältlich.\"},{\"case_id\":\"modes-de-033\",\"text\":\"Der Termin ist in Einladung und Kalender mit dem 6. Februar um 14 Uhr angegeben. Der Raum ist unklar: Die Einladung nennt Raum Blau, der Kalender Raum Grün. Die Raumverwaltung hat bisher keinen der Räume bestätigt.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer liefert heute nur halbe Geschichten. Nutzt bitte den Drucker im Nebenraum, bis er wieder ganze Seiten mag. Die Reparaturzeit ist noch unbekannt.\"},{\"case_id\":\"modes-de-035\",\"text\":\"Es fehlt ein Foto des Gegenstands; eine Zollerklärung ist beim Versand im Inland nicht erforderlich.\"}]}",
+      "usage": {
+        "input_tokens": 7477,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 323,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-031\",\"text\":\"Lotte hat die Regale beschriftet, die Schubladen noch nicht. Die Liste der fehlenden Schilder liegt im roten Ordner. Die Druckdatei wurde gespeichert; von wem, ist unbekannt.\"},{\"case_id\":\"modes-de-032\",\"text\":\"Für genau 48 Becher ist Paket X günstiger:\\n- 3 × Paket X: 3 × 16 = 48 Becher; 3 × 12 € = 36 €.\\n- 2 × Paket Y: 2 × 24 = 48 Becher; 2 × 19 € = 38 €.\\n\\nPaket X spart 2 €. Eine Mischung beider Pakete ergibt nicht genau 48 Becher; Einzelbecher sind nicht erhältlich.\"},{\"case_id\":\"modes-de-033\",\"text\":\"Der Termin ist in Einladung und Kalender mit dem 6. Februar um 14 Uhr angegeben. Der Raum ist unklar: Die Einladung nennt Raum Blau, der Kalender Raum Grün. Die Raumverwaltung hat bisher keinen der Räume bestätigt.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer liefert heute nur halbe Geschichten. Nutzt bitte den Drucker im Nebenraum, bis er wieder ganze Seiten mag. Die Reparaturzeit ist noch unbekannt.\"},{\"case_id\":\"modes-de-035\",\"text\":\"Es fehlt ein Foto des Gegenstands; eine Zollerklärung ist beim Versand im Inland nicht erforderlich.\"}]}",
+  "usage": {
+    "input_tokens": 7477,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 323,
+    "reasoning_output_tokens": 0
+  }
+}

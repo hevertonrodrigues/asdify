@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "60f765d2d7c162a947421db918524f19fb360a735841bd6716448d45b4476605",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.629,
+      "completed_at_utc": "2026-10-09T03:31:41.916911+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-051\",\"text\":\"« Vous pouvez envoyer le dossier lundi » autorise l’envoi lundi, sans l’imposer. « Vous devez envoyer le dossier lundi » impose l’envoi lundi.\"},{\"case_id\":\"modes-fr-052\",\"text\":\"Un remboursement est possible si le club a annulé la séance ou si le billet a été payé deux fois : une seule de ces conditions suffit.\"},{\"case_id\":\"modes-fr-053\",\"text\":\"Non, les vélos ne sont pas admis dans le hall ; ils doivent rester dans la cour.\"},{\"case_id\":\"modes-fr-054\",\"text\":\"L’essai ne permet pas de savoir si les débutants peuvent utiliser la notice en moins de 5 minutes, car seules 9 personnes déjà formées y ont participé.\"},{\"case_id\":\"modes-fr-055\",\"text\":\"Le carton porte la mention « 24 unités », mais le comptage manuel en a trouvé 23 ; le carton a été refermé et aucun recomptage indépendant n’a encore été effectué.\"}]}",
+      "usage": {
+        "input_tokens": 4172,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 233,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-051\",\"text\":\"« Vous pouvez envoyer le dossier lundi » autorise l’envoi lundi, sans l’imposer. « Vous devez envoyer le dossier lundi » impose l’envoi lundi.\"},{\"case_id\":\"modes-fr-052\",\"text\":\"Un remboursement est possible si le club a annulé la séance ou si le billet a été payé deux fois : une seule de ces conditions suffit.\"},{\"case_id\":\"modes-fr-053\",\"text\":\"Non, les vélos ne sont pas admis dans le hall ; ils doivent rester dans la cour.\"},{\"case_id\":\"modes-fr-054\",\"text\":\"L’essai ne permet pas de savoir si les débutants peuvent utiliser la notice en moins de 5 minutes, car seules 9 personnes déjà formées y ont participé.\"},{\"case_id\":\"modes-fr-055\",\"text\":\"Le carton porte la mention « 24 unités », mais le comptage manuel en a trouvé 23 ; le carton a été refermé et aucun recomptage indépendant n’a encore été effectué.\"}]}",
+  "usage": {
+    "input_tokens": 4172,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 233,
+    "reasoning_output_tokens": 0
+  }
+}

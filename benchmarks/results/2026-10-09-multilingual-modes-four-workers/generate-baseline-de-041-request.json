@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "489ab32c5d66122b00ac29b8d103c0b7abe0b09108fd5cd82be595b454dd15e3",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.161,
+      "completed_at_utc": "2026-10-09T03:30:19.786673+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-041\",\"text\":\"15 von 30 Personen, die den freiwilligen Fragebogen zurückgaben, wählten die lange Öffnungszeit. Das ist die Hälfte der Antwortenden, nicht aller Kunden. Insgesamt wurden 200 Fragebögen ausgegeben.\"},{\"case_id\":\"modes-de-042\",\"text\":\"Bestätigt sind 85 € für die Begutachtung. Die Montage könnte 420 € kosten, falls die vorhandenen Halterungen wiederverwendbar sind. Ob neue nötig sind, ist offen.\"},{\"case_id\":\"modes-de-043\",\"text\":\"Der Anteil sinkt um 7 Prozentpunkte.\"},{\"case_id\":\"modes-de-044\",\"text\":\"350 cm ÷ 5 × 8 = 560 cm Band.\"},{\"case_id\":\"modes-de-045\",\"text\":\"Ab 15. Juli werden Reparaturaufträge am Seiteneingang angenommen, auch bei bereits vereinbarten Abgabeterminen ab diesem Datum. Die Abholung bleibt an der Haupttheke.\"}]}",
+      "usage": {
+        "input_tokens": 4169,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 229,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-041\",\"text\":\"15 von 30 Personen, die den freiwilligen Fragebogen zurückgaben, wählten die lange Öffnungszeit. Das ist die Hälfte der Antwortenden, nicht aller Kunden. Insgesamt wurden 200 Fragebögen ausgegeben.\"},{\"case_id\":\"modes-de-042\",\"text\":\"Bestätigt sind 85 € für die Begutachtung. Die Montage könnte 420 € kosten, falls die vorhandenen Halterungen wiederverwendbar sind. Ob neue nötig sind, ist offen.\"},{\"case_id\":\"modes-de-043\",\"text\":\"Der Anteil sinkt um 7 Prozentpunkte.\"},{\"case_id\":\"modes-de-044\",\"text\":\"350 cm ÷ 5 × 8 = 560 cm Band.\"},{\"case_id\":\"modes-de-045\",\"text\":\"Ab 15. Juli werden Reparaturaufträge am Seiteneingang angenommen, auch bei bereits vereinbarten Abgabeterminen ab diesem Datum. Die Abholung bleibt an der Haupttheke.\"}]}",
+  "usage": {
+    "input_tokens": 4169,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 229,
+    "reasoning_output_tokens": 0
+  }
+}

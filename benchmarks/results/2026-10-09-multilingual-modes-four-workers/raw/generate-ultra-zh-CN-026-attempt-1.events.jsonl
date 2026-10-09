@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11eb2-9700-7190-b40d-c72517ccd59c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-zh-CN-026\",\"text\":\"20元改期费仅适用于个人主动更改付费讲座。免费讲座改期或主办方改期，均不收此费。\"},{\"case_id\":\"modes-zh-CN-027\",\"text\":\"店员直接挑选了12名常客试用新包装，其中10人喜欢。参与者并非随机抽取，其他顾客未受访，因此不能据此判断所有顾客的喜好。\"},{\"case_id\":\"modes-zh-CN-028\",\"text\":\"“本地副本”是保存在你设备上的内容，断网时也能查看。他人的新修改要等恢复连接并完成同步后才会出现，所以离线看到的内容不一定最新。\"},{\"case_id\":\"modes-zh-CN-029\",\"text\":\"不支持。前一周每名访客的路线咨询次数为30÷300＝0.1，后一周为20÷200＝0.1，并未下降。咨询总次数减少了，但访客人数也减少了。告示虽在同期更换，这些数字不能证明更换告示降低了咨询比例。\"},{\"case_id\":\"modes-zh-CN-030\",\"text\":\"提交前可撤销输入；提交后不能自行撤销，但可申请更正，申请不保证获准。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7475,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":311,"reasoning_output_tokens":0}}

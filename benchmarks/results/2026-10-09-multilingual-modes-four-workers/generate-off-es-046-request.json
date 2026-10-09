@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "394280841ebfa98019d27bea3ece98c216f8291f0f30cec2ec3124335d2c4cce",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 45.225,
+      "completed_at_utc": "2026-10-09T04:59:04.514407+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-046\",\"text\":\"El plan Pino cuesta menos: 240 euros al mes para 14 personas, frente a 266 euros del plan Río (14 × 19). La diferencia es de 26 euros al mes.\"},{\"case_id\":\"modes-es-047\",\"text\":\"Los 30 asistentes cometieron 6 errores y los 30 no asistentes, 15: se observaron 9 errores menos entre quienes asistieron. Esto muestra una asociación, pero no demuestra que el curso causara la diferencia. La participación fue voluntaria y no se midió la experiencia previa, por lo que los grupos podrían haber sido distintos desde el principio.\"},{\"case_id\":\"modes-es-048\",\"text\":\"No. Para los pedidos confirmados faltan 55 cajas: se necesitan 95 y hay 40 utilizables. La reserva es opcional y permite añadir hasta 12 cajas, por lo que la compra sería de 55 sin reserva o de hasta 67 con ella. No se ha indicado ningún mínimo del proveedor que justifique comprar 120 cajas hoy.\"},{\"case_id\":\"modes-es-049\",\"text\":\"La estimación de montaje de 5 semanas depende de que el material llegue antes del 2 de abril. Compras estima que llegará entre el 7 y el 14 de abril, fuera de esa condición. Ambas notas son estimaciones, no compromisos. Como no hay una duración revisada para una llegada tardía, no puede establecerse el plazo de montaje en ese escenario.\"},{\"case_id\":\"modes-es-050\",\"text\":\"No se ha demostrado el funcionamiento sin conexión. Solo se comprobó que dos páginas ya guardadas en caché se abrían con el Wi-Fi apagado. No se anotó si los datos móviles estaban activos, no se abrieron páginas nuevas ni se revisaron las peticiones de fondo. Por tanto, la prueba no confirma que no hubiera conexión ni demuestra un funcionamiento general sin ella.\"}]}",
+      "usage": {
+        "input_tokens": 7511,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 419,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-046\",\"text\":\"El plan Pino cuesta menos: 240 euros al mes para 14 personas, frente a 266 euros del plan Río (14 × 19). La diferencia es de 26 euros al mes.\"},{\"case_id\":\"modes-es-047\",\"text\":\"Los 30 asistentes cometieron 6 errores y los 30 no asistentes, 15: se observaron 9 errores menos entre quienes asistieron. Esto muestra una asociación, pero no demuestra que el curso causara la diferencia. La participación fue voluntaria y no se midió la experiencia previa, por lo que los grupos podrían haber sido distintos desde el principio.\"},{\"case_id\":\"modes-es-048\",\"text\":\"No. Para los pedidos confirmados faltan 55 cajas: se necesitan 95 y hay 40 utilizables. La reserva es opcional y permite añadir hasta 12 cajas, por lo que la compra sería de 55 sin reserva o de hasta 67 con ella. No se ha indicado ningún mínimo del proveedor que justifique comprar 120 cajas hoy.\"},{\"case_id\":\"modes-es-049\",\"text\":\"La estimación de montaje de 5 semanas depende de que el material llegue antes del 2 de abril. Compras estima que llegará entre el 7 y el 14 de abril, fuera de esa condición. Ambas notas son estimaciones, no compromisos. Como no hay una duración revisada para una llegada tardía, no puede establecerse el plazo de montaje en ese escenario.\"},{\"case_id\":\"modes-es-050\",\"text\":\"No se ha demostrado el funcionamiento sin conexión. Solo se comprobó que dos páginas ya guardadas en caché se abrían con el Wi-Fi apagado. No se anotó si los datos móviles estaban activos, no se abrieron páginas nuevas ni se revisaron las peticiones de fondo. Por tanto, la prueba no confirma que no hubiera conexión ni demuestra un funcionamiento general sin ella.\"}]}",
+  "usage": {
+    "input_tokens": 7511,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 419,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bca2569a6272278a27ddc0cb2e7f0e1b3355c74af572026baaea48cf3fdce83e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.278,
+      "completed_at_utc": "2026-10-09T04:11:32.383205+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-051\",\"text\":\"乙组返工比例更高。\\n甲组：12÷80×100%=15%。\\n乙组：8÷40×100%=20%。\\n乙组比甲组高5个百分点。\"},{\"case_id\":\"modes-zh-CN-052\",\"text\":\"设备带出馆外，收取100元押金；馆内使用不收此押金。图书借阅不适用这条设备规则。\"},{\"case_id\":\"modes-zh-CN-053\",\"text\":\"照片中的建筑可能是南门客栈，依据是屋檐样式相似。拍摄地点和年份未知，未与其他建筑比较。\"},{\"case_id\":\"modes-zh-CN-054\",\"text\":\"开了六年的花店，将在4月末关店。谢谢一直来店里的朋友。接下来我们先休息，之后做什么还没决定。\"},{\"case_id\":\"modes-zh-CN-055\",\"text\":\"原计划24人参加，实际到场21人，缺席3人。资料印了24份，到场者每人1份，余下3份留在办公室。\"}]}",
+      "usage": {
+        "input_tokens": 7472,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 275,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-051\",\"text\":\"乙组返工比例更高。\\n甲组：12÷80×100%=15%。\\n乙组：8÷40×100%=20%。\\n乙组比甲组高5个百分点。\"},{\"case_id\":\"modes-zh-CN-052\",\"text\":\"设备带出馆外，收取100元押金；馆内使用不收此押金。图书借阅不适用这条设备规则。\"},{\"case_id\":\"modes-zh-CN-053\",\"text\":\"照片中的建筑可能是南门客栈，依据是屋檐样式相似。拍摄地点和年份未知，未与其他建筑比较。\"},{\"case_id\":\"modes-zh-CN-054\",\"text\":\"开了六年的花店，将在4月末关店。谢谢一直来店里的朋友。接下来我们先休息，之后做什么还没决定。\"},{\"case_id\":\"modes-zh-CN-055\",\"text\":\"原计划24人参加，实际到场21人，缺席3人。资料印了24份，到场者每人1份，余下3份留在办公室。\"}]}",
+  "usage": {
+    "input_tokens": 7472,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 275,
+    "reasoning_output_tokens": 0
+  }
+}

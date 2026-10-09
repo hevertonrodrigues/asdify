@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "573ac2ab51bf2611fb24585ba55eed6750db23f86995eb965840769919df9d20",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.36,
+      "completed_at_utc": "2026-10-09T04:54:59.571414+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7. Bitte klären, ob morgens oder abends gemeint ist.\"},{\"case_id\":\"modes-de-037\",\"text\":\"Zuerst notes.db kopieren, dann export_notes --format csv ausführen. Der Export enthält nur freigegebene Notizen. Ein leerer Export bedeutet nicht, dass die Datenbank leer ist.\"},{\"case_id\":\"modes-de-038\",\"text\":\"flag=preview zeigt geplante Änderungen nur an und ändert den Bestand nicht. Erst mit apply=true werden die Änderungen gespeichert.\"},{\"case_id\":\"modes-de-039\",\"text\":\"Pro Stand sind zwei Personen zugelassen. Eine dritte Person darf nur beim Aufbau helfen und muss vor Verkaufsbeginn gehen. Während des Verkaufs gilt diese Ausnahme nicht.\"},{\"case_id\":\"modes-de-040\",\"text\":\"Vor dem Öffnen der Abdeckung ausschalten und die Abkühlung abwarten. Ausschalten allein reicht nicht – auch dann nicht, wenn Sie nur nachsehen möchten.\"}]}",
+      "usage": {
+        "input_tokens": 7449,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 228,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7. Bitte klären, ob morgens oder abends gemeint ist.\"},{\"case_id\":\"modes-de-037\",\"text\":\"Zuerst notes.db kopieren, dann export_notes --format csv ausführen. Der Export enthält nur freigegebene Notizen. Ein leerer Export bedeutet nicht, dass die Datenbank leer ist.\"},{\"case_id\":\"modes-de-038\",\"text\":\"flag=preview zeigt geplante Änderungen nur an und ändert den Bestand nicht. Erst mit apply=true werden die Änderungen gespeichert.\"},{\"case_id\":\"modes-de-039\",\"text\":\"Pro Stand sind zwei Personen zugelassen. Eine dritte Person darf nur beim Aufbau helfen und muss vor Verkaufsbeginn gehen. Während des Verkaufs gilt diese Ausnahme nicht.\"},{\"case_id\":\"modes-de-040\",\"text\":\"Vor dem Öffnen der Abdeckung ausschalten und die Abkühlung abwarten. Ausschalten allein reicht nicht – auch dann nicht, wenn Sie nur nachsehen möchten.\"}]}",
+  "usage": {
+    "input_tokens": 7449,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 228,
+    "reasoning_output_tokens": 0
+  }
+}

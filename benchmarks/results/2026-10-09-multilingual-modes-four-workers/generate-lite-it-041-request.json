@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "202a17324f4cfa7ef3d28a21706d87f5504330b00ad4856965dd6ed58cc883be",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.15,
+      "completed_at_utc": "2026-10-09T04:55:44.976343+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-041\",\"text\":\"Il 60 % delle 40 persone che hanno restituito il questionario volontario vuole il nuovo orario; i questionari distribuiti erano 250.\"},{\"case_id\":\"modes-it-042\",\"text\":\"La riparazione potrebbe costare 680 € se occorre sostituire entrambi i rulli, ma non è ancora noto se vadano cambiati. Per ora è confermato solo il controllo da 55 €.\"},{\"case_id\":\"modes-it-043\",\"text\":\"Diminuisce di 9 punti percentuali: 63 − 54 = 9.\"},{\"case_id\":\"modes-it-044\",\"text\":\"420 cm ÷ 6 × 9 = 630 cm di cordino.\"},{\"case_id\":\"modes-it-045\",\"text\":\"Dal 10 gennaio, gli oggetti da riparare si consegnano alla porta sul retro, anche per appuntamenti fissati prima se la consegna avviene da quella data. Il ritiro resta al banco principale.\"}]}",
+      "usage": {
+        "input_tokens": 7470,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 238,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-041\",\"text\":\"Il 60 % delle 40 persone che hanno restituito il questionario volontario vuole il nuovo orario; i questionari distribuiti erano 250.\"},{\"case_id\":\"modes-it-042\",\"text\":\"La riparazione potrebbe costare 680 € se occorre sostituire entrambi i rulli, ma non è ancora noto se vadano cambiati. Per ora è confermato solo il controllo da 55 €.\"},{\"case_id\":\"modes-it-043\",\"text\":\"Diminuisce di 9 punti percentuali: 63 − 54 = 9.\"},{\"case_id\":\"modes-it-044\",\"text\":\"420 cm ÷ 6 × 9 = 630 cm di cordino.\"},{\"case_id\":\"modes-it-045\",\"text\":\"Dal 10 gennaio, gli oggetti da riparare si consegnano alla porta sul retro, anche per appuntamenti fissati prima se la consegna avviene da quella data. Il ritiro resta al banco principale.\"}]}",
+  "usage": {
+    "input_tokens": 7470,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 238,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c0498856031ee2b4c98e0e39735de359447de025749abcbe66a79730ff3d3a2f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.765,
+      "completed_at_utc": "2026-10-09T04:01:16.909888+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori, non quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-032\",\"text\":\"Conviene il pacco A: 3 pacchi danno 60 fogli per 33 €. Con B servono 2 pacchi: 60 fogli per 34 €. A fa risparmiare 1 €; non si vendono fogli singoli.\"},{\"case_id\":\"modes-it-033\",\"text\":\"L’incontro è fissato al 13 marzo alle 16. L’aula non è ancora confermata: l’avviso indica aula 2, il calendario aula 4.\"},{\"case_id\":\"modes-it-034\",\"text\":\"Oggi la macchina del caffè ha scelto il silenzio. Fino al controllo del tecnico, usate pure il bollitore in cucina. Non sappiamo quando tornerà a farsi sentire.\"},{\"case_id\":\"modes-it-035\",\"text\":\"Manca la foto dell’oggetto: modulo firmato e ricevuta sono presenti, mentre la liberatoria del proprietario serve solo per oggetti in prestito, non per questo, che appartiene a chi presenta la richiesta.\"}]}",
+      "usage": {
+        "input_tokens": 7519,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 358,
+        "reasoning_output_tokens": 44
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori, non quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-032\",\"text\":\"Conviene il pacco A: 3 pacchi danno 60 fogli per 33 €. Con B servono 2 pacchi: 60 fogli per 34 €. A fa risparmiare 1 €; non si vendono fogli singoli.\"},{\"case_id\":\"modes-it-033\",\"text\":\"L’incontro è fissato al 13 marzo alle 16. L’aula non è ancora confermata: l’avviso indica aula 2, il calendario aula 4.\"},{\"case_id\":\"modes-it-034\",\"text\":\"Oggi la macchina del caffè ha scelto il silenzio. Fino al controllo del tecnico, usate pure il bollitore in cucina. Non sappiamo quando tornerà a farsi sentire.\"},{\"case_id\":\"modes-it-035\",\"text\":\"Manca la foto dell’oggetto: modulo firmato e ricevuta sono presenti, mentre la liberatoria del proprietario serve solo per oggetti in prestito, non per questo, che appartiene a chi presenta la richiesta.\"}]}",
+  "usage": {
+    "input_tokens": 7519,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 358,
+    "reasoning_output_tokens": 44
+  }
+}

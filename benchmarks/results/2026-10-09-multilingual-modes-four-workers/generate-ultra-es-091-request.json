@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a0f18ae83a76f7bc8ec8af9f8cd2312012339f66273e93e6ad0e83bccc95987f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 43.117,
+      "completed_at_utc": "2026-10-09T03:52:28.308231+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-091\",\"text\":\"La advertencia se aplica solo al sendero norte. No cierra el jardín ni el sendero sur. Se han solicitado reparaciones, pero ningún contratista ha aceptado el trabajo. No describas todo el recinto como cerrado.\"},{\"case_id\":\"modes-es-092\",\"text\":\"Hay 84 asientos. Doce están reservados y seis están bloqueados por reparaciones, sin solapamiento entre ambos grupos. Quedan 66 disponibles actualmente. Los 20 asientos pedidos no forman parte del total actual.\"},{\"case_id\":\"modes-es-093\",\"text\":\"La etiqueta dice «Hold for review». Esto no significa que el artículo haya fallado la inspección. La inspección no ha comenzado y no hay una fecha de liberación fijada.\"},{\"case_id\":\"modes-es-094\",\"text\":\"La nota manuscrita dice «devolver antes del 05/06». No indica el año ni el formato de fecha. Confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en palabras.\"},{\"case_id\":\"modes-es-095\",\"text\":\"Debes elegir un método de entrega. También puedes añadir una nota para quien haga la entrega, pero es opcional. Dejar la nota en blanco no cancela el pedido. El botón CONFIRM_2 debe pulsarse después de elegir el método.\"}]}",
+      "usage": {
+        "input_tokens": 7505,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 306,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-091\",\"text\":\"La advertencia se aplica solo al sendero norte. No cierra el jardín ni el sendero sur. Se han solicitado reparaciones, pero ningún contratista ha aceptado el trabajo. No describas todo el recinto como cerrado.\"},{\"case_id\":\"modes-es-092\",\"text\":\"Hay 84 asientos. Doce están reservados y seis están bloqueados por reparaciones, sin solapamiento entre ambos grupos. Quedan 66 disponibles actualmente. Los 20 asientos pedidos no forman parte del total actual.\"},{\"case_id\":\"modes-es-093\",\"text\":\"La etiqueta dice «Hold for review». Esto no significa que el artículo haya fallado la inspección. La inspección no ha comenzado y no hay una fecha de liberación fijada.\"},{\"case_id\":\"modes-es-094\",\"text\":\"La nota manuscrita dice «devolver antes del 05/06». No indica el año ni el formato de fecha. Confirma la fecha prevista antes de sustituirla por una fecha con el mes escrito en palabras.\"},{\"case_id\":\"modes-es-095\",\"text\":\"Debes elegir un método de entrega. También puedes añadir una nota para quien haga la entrega, pero es opcional. Dejar la nota en blanco no cancela el pedido. El botón CONFIRM_2 debe pulsarse después de elegir el método.\"}]}",
+  "usage": {
+    "input_tokens": 7505,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 306,
+    "reasoning_output_tokens": 0
+  }
+}

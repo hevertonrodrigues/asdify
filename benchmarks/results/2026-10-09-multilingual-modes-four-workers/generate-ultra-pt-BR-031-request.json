@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bf5f60a41d84bf57594c9ad787bb8a8feb2fd4c8c14e59a06d3f0445db6953ef",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.129,
+      "completed_at_utc": "2026-10-09T03:09:36.705600+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-031\",\"text\":\"Versão 5.1: `arquivo validar --simular` verifica a configuração sem criar pacote. O sucesso da validação não confirma espaço livre no destino. Para criar o pacote real, use `arquivo gerar --executar`.\"},{\"case_id\":\"modes-pt-BR-032\",\"text\":\"A tarefa só é confirmada após a gravação da transação. Se o processo parar antes da confirmação, ela pode ser entregue novamente. A deduplicação usa tarefa_id, não o endereço do cliente. Uma nova entrega não prova gravação duplicada.\"},{\"case_id\":\"modes-pt-BR-033\",\"text\":\"O backup passou na verificação de checksum, mas não foi restaurado; a verificação não prova que o sistema pode ser restaurado. Inclui /srv/clientes, mas não /srv/temporarios.\"},{\"case_id\":\"modes-pt-BR-034\",\"text\":\"A taxa nominal do conteúdo é 48 bits/s: 24 bits ÷ 0,5 s. Ela inclui apenas os bits das leituras, sem cabeçalhos, cujo tamanho não foi informado.\"},{\"case_id\":\"modes-pt-BR-035\",\"text\":\"O tempo de resposta subiu após a atualização do cache; ambos os eventos ocorreram entre 21h e 21h15 UTC. Sem comparação de controle, a proximidade temporal não prova que a atualização causou a lentidão. Não foi decidida uma reversão.\"}]}",
+      "usage": {
+        "input_tokens": 7530,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 331,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-031\",\"text\":\"Versão 5.1: `arquivo validar --simular` verifica a configuração sem criar pacote. O sucesso da validação não confirma espaço livre no destino. Para criar o pacote real, use `arquivo gerar --executar`.\"},{\"case_id\":\"modes-pt-BR-032\",\"text\":\"A tarefa só é confirmada após a gravação da transação. Se o processo parar antes da confirmação, ela pode ser entregue novamente. A deduplicação usa tarefa_id, não o endereço do cliente. Uma nova entrega não prova gravação duplicada.\"},{\"case_id\":\"modes-pt-BR-033\",\"text\":\"O backup passou na verificação de checksum, mas não foi restaurado; a verificação não prova que o sistema pode ser restaurado. Inclui /srv/clientes, mas não /srv/temporarios.\"},{\"case_id\":\"modes-pt-BR-034\",\"text\":\"A taxa nominal do conteúdo é 48 bits/s: 24 bits ÷ 0,5 s. Ela inclui apenas os bits das leituras, sem cabeçalhos, cujo tamanho não foi informado.\"},{\"case_id\":\"modes-pt-BR-035\",\"text\":\"O tempo de resposta subiu após a atualização do cache; ambos os eventos ocorreram entre 21h e 21h15 UTC. Sem comparação de controle, a proximidade temporal não prova que a atualização causou a lentidão. Não foi decidida uma reversão.\"}]}",
+  "usage": {
+    "input_tokens": 7530,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 331,
+    "reasoning_output_tokens": 0
+  }
+}

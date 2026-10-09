@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "369503cb6f8d3d2dec4eda1bd53b9c3574f7f7a3d95fb61db9a1918a2f758061",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.595,
+      "completed_at_utc": "2026-10-09T04:28:35.809760+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-086\",\"text\":\"Quarenta e duas das 120 pessoas convidadas por e-mail responderam. Os convites foram enviados apenas aos voluntários do ano passado, não a uma amostra aleatória. Entre as pessoas que responderam, 60% preferiam um evento pela manhã. Isso não estabelece a preferência de todos os moradores.\"},{\"case_id\":\"modes-pt-BR-087\",\"text\":\"Você deve devolver a chave antes de sair. Você pode ficar com o mapa de papel. Se o balcão estiver fechado, coloque a chave na caixa identificada como KEY-5. Essa exceção não permite que você leve a chave para casa.\"},{\"case_id\":\"modes-pt-BR-088\",\"text\":\"A produção medida aumentou de 16 para 20 metros por minuto, um aumento de 25%. A mesma correia foi usada, mas as cargas eram diferentes. Não estabelecemos que o novo motor tenha causado o aumento.\"},{\"case_id\":\"modes-pt-BR-089\",\"text\":\"Agradecemos, Morgan, por informar que o portão estava aberto. Ele foi fechado após sua ligação, mas o registro não identifica a pessoa que o fechou. Solicitamos uma inspeção do trinco; ainda não há resultado disponível.\"},{\"case_id\":\"modes-pt-BR-090\",\"text\":\"A remessa contém seis caixotes, não seis bombas individuais. Cada caixote contém quatro bombas. Um caixote está bloqueado até que seja realizada a inspeção. A inspeção está planejada, mas ainda não foi realizada.\"}]}",
+      "usage": {
+        "input_tokens": 7531,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 351,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-086\",\"text\":\"Quarenta e duas das 120 pessoas convidadas por e-mail responderam. Os convites foram enviados apenas aos voluntários do ano passado, não a uma amostra aleatória. Entre as pessoas que responderam, 60% preferiam um evento pela manhã. Isso não estabelece a preferência de todos os moradores.\"},{\"case_id\":\"modes-pt-BR-087\",\"text\":\"Você deve devolver a chave antes de sair. Você pode ficar com o mapa de papel. Se o balcão estiver fechado, coloque a chave na caixa identificada como KEY-5. Essa exceção não permite que você leve a chave para casa.\"},{\"case_id\":\"modes-pt-BR-088\",\"text\":\"A produção medida aumentou de 16 para 20 metros por minuto, um aumento de 25%. A mesma correia foi usada, mas as cargas eram diferentes. Não estabelecemos que o novo motor tenha causado o aumento.\"},{\"case_id\":\"modes-pt-BR-089\",\"text\":\"Agradecemos, Morgan, por informar que o portão estava aberto. Ele foi fechado após sua ligação, mas o registro não identifica a pessoa que o fechou. Solicitamos uma inspeção do trinco; ainda não há resultado disponível.\"},{\"case_id\":\"modes-pt-BR-090\",\"text\":\"A remessa contém seis caixotes, não seis bombas individuais. Cada caixote contém quatro bombas. Um caixote está bloqueado até que seja realizada a inspeção. A inspeção está planejada, mas ainda não foi realizada.\"}]}",
+  "usage": {
+    "input_tokens": 7531,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 351,
+    "reasoning_output_tokens": 0
+  }
+}

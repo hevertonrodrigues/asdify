@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "cb5a4cf7a05aafc6127effbd39f3fe9e6d10ecb2d474f4fa561f42581f06b91a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 44.9,
+      "completed_at_utc": "2026-10-09T03:02:39.433936+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-081\",\"text\":\"El archivo cerrará a las 13:00 UTC del 24 de diciembre de 2030. Se podrán seguir presentando solicitudes en línea, pero el personal no las revisará hasta el 3 de enero de 2031. La presentación de una solicitud no reserva una cita.\"},{\"case_id\":\"modes-es-082\",\"text\":\"La factura asciende a A$760, impuestos incluidos. La formación opcional cuesta A$95 por persona y no está incluida. La factura no indica si se cobrarán gastos de viaje.\"},{\"case_id\":\"modes-es-083\",\"text\":\"Sam revisó el diagrama, no el dispositivo. El diagrama fue aprobado después, pero la nota no indica quién lo aprobó. Sam no ha confirmado cuándo se probará el dispositivo.\"},{\"case_id\":\"modes-es-084\",\"text\":\"En el estudio proporcionado, 18 de las 30 muestras inspeccionadas presentaban marcas superficiales [12]. Las muestras procedían de un único lote seleccionado por el proveedor. El estudio no estima la presencia de marcas en toda la producción.\"},{\"case_id\":\"modes-es-085\",\"text\":\"{\\\"job\\\":\\\"Z-91\\\",\\\"attempts\\\":2,\\\"finished\\\":false,\\\"note\\\":\\\"Dos intentos terminaron antes de completarse. La causa no se ha establecido.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4225,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 297,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-081\",\"text\":\"El archivo cerrará a las 13:00 UTC del 24 de diciembre de 2030. Se podrán seguir presentando solicitudes en línea, pero el personal no las revisará hasta el 3 de enero de 2031. La presentación de una solicitud no reserva una cita.\"},{\"case_id\":\"modes-es-082\",\"text\":\"La factura asciende a A$760, impuestos incluidos. La formación opcional cuesta A$95 por persona y no está incluida. La factura no indica si se cobrarán gastos de viaje.\"},{\"case_id\":\"modes-es-083\",\"text\":\"Sam revisó el diagrama, no el dispositivo. El diagrama fue aprobado después, pero la nota no indica quién lo aprobó. Sam no ha confirmado cuándo se probará el dispositivo.\"},{\"case_id\":\"modes-es-084\",\"text\":\"En el estudio proporcionado, 18 de las 30 muestras inspeccionadas presentaban marcas superficiales [12]. Las muestras procedían de un único lote seleccionado por el proveedor. El estudio no estima la presencia de marcas en toda la producción.\"},{\"case_id\":\"modes-es-085\",\"text\":\"{\\\"job\\\":\\\"Z-91\\\",\\\"attempts\\\":2,\\\"finished\\\":false,\\\"note\\\":\\\"Dos intentos terminaron antes de completarse. La causa no se ha establecido.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4225,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 297,
+    "reasoning_output_tokens": 0
+  }
+}

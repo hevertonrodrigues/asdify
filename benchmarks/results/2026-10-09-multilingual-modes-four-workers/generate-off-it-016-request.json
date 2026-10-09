@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "99ee1a983b3521fc524511cb847b6234308661798a3fe0865f2ffe0e125fcccd",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 45.266,
+      "completed_at_utc": "2026-10-09T04:06:18.084349+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-016\",\"text\":\"Se ricevi HTTP 409, non ripetere automaticamente la richiesta PUT. Recupera prima la versione corrente e risolvi il conflitto. Solo allora puoi ripetere la richiesta.\"},{\"case_id\":\"modes-it-017\",\"text\":\"preview_days=10 imposta a 10 giorni la durata delle sole anteprime temporanee. I documenti originali non vengono rimossi. La modifica si applica soltanto alle anteprime create dopo il salvataggio dell’impostazione.\"},{\"case_id\":\"modes-it-018\",\"text\":\"L’incontro di giovedì inizierà alle 17, come previsto. Al posto della visita al cortile, annullata perché il passaggio è occupato, si terrà la presentazione in aula. La nuova data della visita non è ancora fissata.\"},{\"case_id\":\"modes-it-019\",\"text\":\"Sì, puoi restituire il gioco venerdì sera allo sportello entro le 20. Il limite delle 18 riguarda solo i nuovi prestiti. La scatola esterna non è disponibile.\"},{\"case_id\":\"modes-it-020\",\"text\":\"No. Nella simulazione le iscrizioni aumentano da 35 a 50 dopo la distribuzione del volantino, ma nello stesso periodo è stata ridotta anche la quota. L’osservazione non permette di distinguere l’effetto del volantino da quello della riduzione della quota, né prova un aumento delle iscrizioni reali.\"}]}",
+      "usage": {
+        "input_tokens": 7480,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 332,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-016\",\"text\":\"Se ricevi HTTP 409, non ripetere automaticamente la richiesta PUT. Recupera prima la versione corrente e risolvi il conflitto. Solo allora puoi ripetere la richiesta.\"},{\"case_id\":\"modes-it-017\",\"text\":\"preview_days=10 imposta a 10 giorni la durata delle sole anteprime temporanee. I documenti originali non vengono rimossi. La modifica si applica soltanto alle anteprime create dopo il salvataggio dell’impostazione.\"},{\"case_id\":\"modes-it-018\",\"text\":\"L’incontro di giovedì inizierà alle 17, come previsto. Al posto della visita al cortile, annullata perché il passaggio è occupato, si terrà la presentazione in aula. La nuova data della visita non è ancora fissata.\"},{\"case_id\":\"modes-it-019\",\"text\":\"Sì, puoi restituire il gioco venerdì sera allo sportello entro le 20. Il limite delle 18 riguarda solo i nuovi prestiti. La scatola esterna non è disponibile.\"},{\"case_id\":\"modes-it-020\",\"text\":\"No. Nella simulazione le iscrizioni aumentano da 35 a 50 dopo la distribuzione del volantino, ma nello stesso periodo è stata ridotta anche la quota. L’osservazione non permette di distinguere l’effetto del volantino da quello della riduzione della quota, né prova un aumento delle iscrizioni reali.\"}]}",
+  "usage": {
+    "input_tokens": 7480,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 332,
+    "reasoning_output_tokens": 0
+  }
+}

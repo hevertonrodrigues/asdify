@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9bddf0dee92fe9bd6edefe3e8d0b1639ba182e362369ec7f5789178fbc87ffc9",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.663,
+      "completed_at_utc": "2026-10-09T03:51:06.834407+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-056\",\"text\":\"必须交作业，且作业合格才能完成培训。辅导面谈自愿参加：作业合格，不参加面谈也能完成；只参加面谈、不交作业则不能完成。\"},{\"case_id\":\"modes-zh-CN-057\",\"text\":\"自提：80件，占25%。配送：240件，占75%。\"},{\"case_id\":\"modes-zh-CN-058\",\"text\":\"{{client}}，申请CASE-63尚无最终结果。进度查询：https://example.invalid/cases/CASE-63\"},{\"case_id\":\"modes-zh-CN-059\",\"text\":\"叶琳制作运输标签后，货物被取走。取货者未记载，是否送达尚未确认。\"},{\"case_id\":\"modes-zh-CN-060\",\"text\":\"甲：可用16小时，实际用12小时，利用率75%。\\n乙：可用8小时，实际用6小时，利用率75%。\\n甲实际使用时间比乙多6小时，是乙的2倍；两者利用率相同。\"}]}",
+      "usage": {
+        "input_tokens": 7437,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 262,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-056\",\"text\":\"必须交作业，且作业合格才能完成培训。辅导面谈自愿参加：作业合格，不参加面谈也能完成；只参加面谈、不交作业则不能完成。\"},{\"case_id\":\"modes-zh-CN-057\",\"text\":\"自提：80件，占25%。配送：240件，占75%。\"},{\"case_id\":\"modes-zh-CN-058\",\"text\":\"{{client}}，申请CASE-63尚无最终结果。进度查询：https://example.invalid/cases/CASE-63\"},{\"case_id\":\"modes-zh-CN-059\",\"text\":\"叶琳制作运输标签后，货物被取走。取货者未记载，是否送达尚未确认。\"},{\"case_id\":\"modes-zh-CN-060\",\"text\":\"甲：可用16小时，实际用12小时，利用率75%。\\n乙：可用8小时，实际用6小时，利用率75%。\\n甲实际使用时间比乙多6小时，是乙的2倍；两者利用率相同。\"}]}",
+  "usage": {
+    "input_tokens": 7437,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 262,
+    "reasoning_output_tokens": 0
+  }
+}

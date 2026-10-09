@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "de495149be54b8f5e383ff6650b2faa142e85d69284883623f9f20f9a994fe23",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.812,
+      "completed_at_utc": "2026-10-09T03:12:23.785040+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-016\",\"text\":\"Si le serveur renvoie HTTP 503, attendez le délai indiqué dans Retry-After avant de réessayer. Si cet en-tête est absent, attendez 20 secondes. Ne réessayez pas une requête POST sans clé d’idempotence.\"},{\"case_id\":\"modes-fr-017\",\"text\":\"cache_ttl est fixé à 300 secondes, soit 5 minutes : les résultats des lectures réussies sont conservés en cache pendant cette durée. Une réponse vide n’est pas conservée en cache. Changer cache_ttl ne supprime pas les entrées qui sont déjà dans le cache.\"},{\"case_id\":\"modes-fr-018\",\"text\":\"Le local ouvrira samedi à 10 h : la table de prêt de livres sera prête, mais le coin cuisine restera fermé pendant la réparation du robinet. Les inscriptions habituelles continuent par téléphone.\"},{\"case_id\":\"modes-fr-019\",\"text\":\"Non, vous n’avez pas besoin de réserver pour rendre un livre ; la réservation est obligatoire uniquement pour les nouveaux prêts. Vous pouvez rendre un livre de 9 h à 12 h, sans utiliser la boîte extérieure, qui est hors service.\"},{\"case_id\":\"modes-fr-020\",\"text\":\"Non. Les visites sont passées de 90 à 120 après la pose de l’affiche, mais cette succession ne prouve pas que l’affiche a causé l’augmentation. L’ouverture du marché dans la rue la même semaine pourrait aussi expliquer tout ou partie de cette hausse ; ces informations ne permettent pas d’isoler l’effet de l’affiche.\"}]}",
+      "usage": {
+        "input_tokens": 7488,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-016\",\"text\":\"Si le serveur renvoie HTTP 503, attendez le délai indiqué dans Retry-After avant de réessayer. Si cet en-tête est absent, attendez 20 secondes. Ne réessayez pas une requête POST sans clé d’idempotence.\"},{\"case_id\":\"modes-fr-017\",\"text\":\"cache_ttl est fixé à 300 secondes, soit 5 minutes : les résultats des lectures réussies sont conservés en cache pendant cette durée. Une réponse vide n’est pas conservée en cache. Changer cache_ttl ne supprime pas les entrées qui sont déjà dans le cache.\"},{\"case_id\":\"modes-fr-018\",\"text\":\"Le local ouvrira samedi à 10 h : la table de prêt de livres sera prête, mais le coin cuisine restera fermé pendant la réparation du robinet. Les inscriptions habituelles continuent par téléphone.\"},{\"case_id\":\"modes-fr-019\",\"text\":\"Non, vous n’avez pas besoin de réserver pour rendre un livre ; la réservation est obligatoire uniquement pour les nouveaux prêts. Vous pouvez rendre un livre de 9 h à 12 h, sans utiliser la boîte extérieure, qui est hors service.\"},{\"case_id\":\"modes-fr-020\",\"text\":\"Non. Les visites sont passées de 90 à 120 après la pose de l’affiche, mais cette succession ne prouve pas que l’affiche a causé l’augmentation. L’ouverture du marché dans la rue la même semaine pourrait aussi expliquer tout ou partie de cette hausse ; ces informations ne permettent pas d’isoler l’effet de l’affiche.\"}]}",
+  "usage": {
+    "input_tokens": 7488,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 353,
+    "reasoning_output_tokens": 0
+  }
+}

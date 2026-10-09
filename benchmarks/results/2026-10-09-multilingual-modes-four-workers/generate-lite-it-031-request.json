@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "b2b89b9819930d10fe6240c0a21f7acbc77c1d14297dba3773b99fb122940140",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.689,
+      "completed_at_utc": "2026-10-09T04:01:23.147591+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori, ma non quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-032\",\"text\":\"Per avere esattamente 60 fogli:\\n- 3 pacchi A: 3 × 11 € = 33 €.\\n- 2 pacchi B: 2 × 17 € = 34 €.\\n\\nConviene acquistare 3 pacchi A: costano 1 € in meno.\"},{\"case_id\":\"modes-it-033\",\"text\":\"L’incontro è fissato al 13 marzo alle 16. L’avviso indica aula 2, il calendario aula 4: l’assegnazione dell’aula non è ancora confermata.\"},{\"case_id\":\"modes-it-034\",\"text\":\"Oggi la macchina del caffè ha scelto il silenzio. Fino al controllo del tecnico, usate pure il bollitore in cucina. Non sappiamo quando tornerà a farsi sentire.\"},{\"case_id\":\"modes-it-035\",\"text\":\"Manca la foto dell’oggetto; la liberatoria non serve perché l’oggetto è di proprietà di chi presenta la richiesta.\"}]}",
+      "usage": {
+        "input_tokens": 7523,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 311,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori, ma non quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-032\",\"text\":\"Per avere esattamente 60 fogli:\\n- 3 pacchi A: 3 × 11 € = 33 €.\\n- 2 pacchi B: 2 × 17 € = 34 €.\\n\\nConviene acquistare 3 pacchi A: costano 1 € in meno.\"},{\"case_id\":\"modes-it-033\",\"text\":\"L’incontro è fissato al 13 marzo alle 16. L’avviso indica aula 2, il calendario aula 4: l’assegnazione dell’aula non è ancora confermata.\"},{\"case_id\":\"modes-it-034\",\"text\":\"Oggi la macchina del caffè ha scelto il silenzio. Fino al controllo del tecnico, usate pure il bollitore in cucina. Non sappiamo quando tornerà a farsi sentire.\"},{\"case_id\":\"modes-it-035\",\"text\":\"Manca la foto dell’oggetto; la liberatoria non serve perché l’oggetto è di proprietà di chi presenta la richiesta.\"}]}",
+  "usage": {
+    "input_tokens": 7523,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 311,
+    "reasoning_output_tokens": 0
+  }
+}

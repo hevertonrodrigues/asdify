@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0255acb907944a8a72ebd37aaa7b54d521f255d94bb1ff4f4d1a6fb51f690ea8",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 46.399,
+      "completed_at_utc": "2026-10-09T03:33:10.003166+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-026\",\"text\":\"No. An inspection is required because the exception applies only to moves of less than 30 cm within the same marked bay, not exactly 30 cm.\"},{\"case_id\":\"modes-en-027\",\"text\":\"Your reservation is confirmed only after payment clears. Sending a payment screenshot does not confirm it. Submit attendee names before the event; names are not needed to process payment. If payment fails, your held seats will be released after 24 hours.\"},{\"case_id\":\"modes-en-028\",\"text\":\"Staff must not share draft scores outside the review group without the author’s written permission. Before sharing, they must remove personal contact details, even if permission has been given. Aggregate counts without names may be shared with the coordinator.\"},{\"case_id\":\"modes-en-029\",\"text\":\"We must receive your refund request by 17:00 UTC on 12 March 2029. Requests sent by the deadline but received afterward are outside the stated window. Supporting receipts may arrive up to three business days after a request received on time.\"},{\"case_id\":\"modes-en-030\",\"text\":\"The main door.\"}]}",
+      "usage": {
+        "input_tokens": 4215,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 253,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-026\",\"text\":\"No. An inspection is required because the exception applies only to moves of less than 30 cm within the same marked bay, not exactly 30 cm.\"},{\"case_id\":\"modes-en-027\",\"text\":\"Your reservation is confirmed only after payment clears. Sending a payment screenshot does not confirm it. Submit attendee names before the event; names are not needed to process payment. If payment fails, your held seats will be released after 24 hours.\"},{\"case_id\":\"modes-en-028\",\"text\":\"Staff must not share draft scores outside the review group without the author’s written permission. Before sharing, they must remove personal contact details, even if permission has been given. Aggregate counts without names may be shared with the coordinator.\"},{\"case_id\":\"modes-en-029\",\"text\":\"We must receive your refund request by 17:00 UTC on 12 March 2029. Requests sent by the deadline but received afterward are outside the stated window. Supporting receipts may arrive up to three business days after a request received on time.\"},{\"case_id\":\"modes-en-030\",\"text\":\"The main door.\"}]}",
+  "usage": {
+    "input_tokens": 4215,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 253,
+    "reasoning_output_tokens": 0
+  }
+}

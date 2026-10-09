@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4613b40a9d32461f4e2b7b711814de0e29a3d46e322bdc7ea0405eafc08e444e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.497,
+      "completed_at_utc": "2026-10-09T05:21:21.369224+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ru-056\",\"text\":\"Чтобы просмотреть очередь, не изменяя записи, выполните `queue show --view-only`. Команда не удаляет записи.\"},{\"case_id\":\"modes-ru-057\",\"text\":\"- Маршрут R-61 не работает 14 февраля.\\n- Маршрут R-62 работает.\\n- Возврат можно запросить, но деньги не выплачиваются автоматически.\"},{\"case_id\":\"modes-ru-058\",\"text\":\"AUD-3 | ожидание | 0/21 проверено\"},{\"case_id\":\"modes-ru-059\",\"text\":\"Сохраните черновик в /notes/2031/review_final.md. Оставьте READY=false до одобрения редактором. Сохранение файла не означает одобрение.\"},{\"case_id\":\"modes-ru-060\",\"text\":\"{\\\"code\\\":\\\"HOLD_6\\\",\\\"pause_seconds\\\":75,\\\"description\\\":\\\"Пауза 75 секунд рекомендуется, но не обязательна.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7467,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 228,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ru-056\",\"text\":\"Чтобы просмотреть очередь, не изменяя записи, выполните `queue show --view-only`. Команда не удаляет записи.\"},{\"case_id\":\"modes-ru-057\",\"text\":\"- Маршрут R-61 не работает 14 февраля.\\n- Маршрут R-62 работает.\\n- Возврат можно запросить, но деньги не выплачиваются автоматически.\"},{\"case_id\":\"modes-ru-058\",\"text\":\"AUD-3 | ожидание | 0/21 проверено\"},{\"case_id\":\"modes-ru-059\",\"text\":\"Сохраните черновик в /notes/2031/review_final.md. Оставьте READY=false до одобрения редактором. Сохранение файла не означает одобрение.\"},{\"case_id\":\"modes-ru-060\",\"text\":\"{\\\"code\\\":\\\"HOLD_6\\\",\\\"pause_seconds\\\":75,\\\"description\\\":\\\"Пауза 75 секунд рекомендуется, но не обязательна.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7467,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 228,
+    "reasoning_output_tokens": 0
+  }
+}

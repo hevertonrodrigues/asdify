@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6f0c2ec5451927c3e1c7f6154ccf4c37371bb5be074f98d20efe3acced50bfcb",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 30.725,
+      "completed_at_utc": "2026-10-09T05:20:21.418460+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-016\",\"text\":\"La duración media fue de 52 minutos y la mediana, de 35. Se midieron 45 visitas terminadas, incluidas dos de más de dos horas; se excluyeron las interrumpidas. Estas cifras no son un límite de duración.\"},{\"case_id\":\"modes-es-017\",\"text\":\"La actividad A.\"},{\"case_id\":\"modes-es-018\",\"text\":\"Estimamos entre 6 y 9 minutos para transferir el archivo comprimido de unos 4 GB en la red de prueba. No es un máximo garantizado y no hemos probado su conexión.\"},{\"case_id\":\"modes-es-019\",\"text\":\"Una muestra de la fuente tomada a las 16:00 contenía 0,6 mg/L de cobre. El límite de cuantificación era de 0,05 mg/L. No se aporta un límite de seguridad ni muestras de otros días.\"},{\"case_id\":\"modes-es-020\",\"text\":\"Participaron 27 de las 180 personas invitadas: la participación fue del 15%, no del 27%. Las invitaciones fueron individuales y no se contaron acompañantes.\"}]}",
+      "usage": {
+        "input_tokens": 7478,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 325,
+        "reasoning_output_tokens": 64
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-016\",\"text\":\"La duración media fue de 52 minutos y la mediana, de 35. Se midieron 45 visitas terminadas, incluidas dos de más de dos horas; se excluyeron las interrumpidas. Estas cifras no son un límite de duración.\"},{\"case_id\":\"modes-es-017\",\"text\":\"La actividad A.\"},{\"case_id\":\"modes-es-018\",\"text\":\"Estimamos entre 6 y 9 minutos para transferir el archivo comprimido de unos 4 GB en la red de prueba. No es un máximo garantizado y no hemos probado su conexión.\"},{\"case_id\":\"modes-es-019\",\"text\":\"Una muestra de la fuente tomada a las 16:00 contenía 0,6 mg/L de cobre. El límite de cuantificación era de 0,05 mg/L. No se aporta un límite de seguridad ni muestras de otros días.\"},{\"case_id\":\"modes-es-020\",\"text\":\"Participaron 27 de las 180 personas invitadas: la participación fue del 15%, no del 27%. Las invitaciones fueron individuales y no se contaron acompañantes.\"}]}",
+  "usage": {
+    "input_tokens": 7478,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 325,
+    "reasoning_output_tokens": 64
+  }
+}

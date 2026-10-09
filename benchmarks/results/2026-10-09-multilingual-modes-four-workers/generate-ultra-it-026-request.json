@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "207f7a5f069ffdbd142ede5c0e7916668ddb87384db2f313738a01624bf9f620",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.499,
+      "completed_at_utc": "2026-10-09T04:31:06.928632+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-026\",\"text\":\"9:05: Paolo ha lasciato la busta in segreteria.\\n9:30: la busta è stata aperta; non è indicato da chi.\\n10:00: Sara ha registrato i documenti.\"},{\"case_id\":\"modes-it-027\",\"text\":\"Due dei sette cavi controllati avevano il rivestimento danneggiato. Gli altri diciotto non sono stati esaminati: non possiamo indicare la percentuale di danni nell’intero stock.\"},{\"case_id\":\"modes-it-028\",\"text\":\"Per il solo campione mostrato, la capacità del recipiente è di 900 mL. La linea a 700 mL indica il riempimento consigliato, non la capacità massima.\"},{\"case_id\":\"modes-it-029\",\"text\":\"7 ore di lavoro effettivo: 3 ore e 35 minuti al mattino e 3 ore e 25 minuti al pomeriggio, esclusa la pausa.\"},{\"case_id\":\"modes-it-030\",\"text\":\"Tutti i 14 intervistati preferiscono il corso serale, ma erano stati scelti tra chi ne aveva già frequentato uno. Le persone disponibili solo al mattino non sono state intervistate: il risultato non può essere generalizzato.\"}]}",
+      "usage": {
+        "input_tokens": 7484,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 335,
+        "reasoning_output_tokens": 38
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-026\",\"text\":\"9:05: Paolo ha lasciato la busta in segreteria.\\n9:30: la busta è stata aperta; non è indicato da chi.\\n10:00: Sara ha registrato i documenti.\"},{\"case_id\":\"modes-it-027\",\"text\":\"Due dei sette cavi controllati avevano il rivestimento danneggiato. Gli altri diciotto non sono stati esaminati: non possiamo indicare la percentuale di danni nell’intero stock.\"},{\"case_id\":\"modes-it-028\",\"text\":\"Per il solo campione mostrato, la capacità del recipiente è di 900 mL. La linea a 700 mL indica il riempimento consigliato, non la capacità massima.\"},{\"case_id\":\"modes-it-029\",\"text\":\"7 ore di lavoro effettivo: 3 ore e 35 minuti al mattino e 3 ore e 25 minuti al pomeriggio, esclusa la pausa.\"},{\"case_id\":\"modes-it-030\",\"text\":\"Tutti i 14 intervistati preferiscono il corso serale, ma erano stati scelti tra chi ne aveva già frequentato uno. Le persone disponibili solo al mattino non sono state intervistate: il risultato non può essere generalizzato.\"}]}",
+  "usage": {
+    "input_tokens": 7484,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 335,
+    "reasoning_output_tokens": 38
+  }
+}

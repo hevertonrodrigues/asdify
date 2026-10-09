@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "3cbd5247b4e8ae8ae36e11b60d277f39e6e65e09d1406259439ef8d35387a1c6",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.571,
+      "completed_at_utc": "2026-10-09T04:26:13.924163+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-046\",\"text\":\"Un membre peut quitter le groupe sans préavis ni frais de départ. Les sommes déjà versées pour une activité réalisée ne sont pas remboursables.\"},{\"case_id\":\"modes-fr-047\",\"text\":\"Le dossier a été approuvé pendant l’absence de Léa, sans que la note précise par qui. À son retour, Léa a uniquement ajouté la date sur la couverture.\"},{\"case_id\":\"modes-fr-048\",\"text\":\"B limite le constat aux 40 heures d’enregistrement : aucun incident n’y a été observé. Comme le capteur n’enregistrait pas en continu, cela ne prouve pas l’absence de panne hors de ces périodes. A ne précise pas cette limite.\"},{\"case_id\":\"modes-fr-049\",\"text\":\"Nous demandons seulement de joindre la page manquante, pas de remplacer le formulaire signé. La signature déjà fournie reste valable.\"},{\"case_id\":\"modes-fr-050\",\"text\":\"Bonjour, je dois annuler notre rendez-vous de demain. Veuillez m’en excuser. Je ne connais pas encore mes disponibilités et vous recontacterai dès que je les connaîtrai.\"}]}",
+      "usage": {
+        "input_tokens": 7466,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 263,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-046\",\"text\":\"Un membre peut quitter le groupe sans préavis ni frais de départ. Les sommes déjà versées pour une activité réalisée ne sont pas remboursables.\"},{\"case_id\":\"modes-fr-047\",\"text\":\"Le dossier a été approuvé pendant l’absence de Léa, sans que la note précise par qui. À son retour, Léa a uniquement ajouté la date sur la couverture.\"},{\"case_id\":\"modes-fr-048\",\"text\":\"B limite le constat aux 40 heures d’enregistrement : aucun incident n’y a été observé. Comme le capteur n’enregistrait pas en continu, cela ne prouve pas l’absence de panne hors de ces périodes. A ne précise pas cette limite.\"},{\"case_id\":\"modes-fr-049\",\"text\":\"Nous demandons seulement de joindre la page manquante, pas de remplacer le formulaire signé. La signature déjà fournie reste valable.\"},{\"case_id\":\"modes-fr-050\",\"text\":\"Bonjour, je dois annuler notre rendez-vous de demain. Veuillez m’en excuser. Je ne connais pas encore mes disponibilités et vous recontacterai dès que je les connaîtrai.\"}]}",
+  "usage": {
+    "input_tokens": 7466,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 263,
+    "reasoning_output_tokens": 0
+  }
+}

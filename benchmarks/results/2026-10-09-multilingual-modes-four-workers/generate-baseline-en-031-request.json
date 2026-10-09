@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "1739f14b6f0a2ba838d4f4537c60bdce191b3dc7795ab40c6e7e686dc5cbe58f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.437,
+      "completed_at_utc": "2026-10-09T05:06:16.310049+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-031\",\"text\":\"In client 4.2, `export --dry-run` checks the configuration without creating an archive. A successful check does not confirm sufficient space at the destination. To perform the actual export, use `export --run`.\"},{\"case_id\":\"modes-en-032\",\"text\":\"A message is acknowledged only after the database transaction commits. If the worker stops before acknowledgement, the message may be delivered again—even if the transaction committed. Deduplication uses `message_id`, not the customer's name. Redelivery alone does not indicate duplicate committed data.\"},{\"case_id\":\"modes-en-033\",\"text\":\"The backup passed checksum validation, which detects certain file changes but does not prove the application can be restored. No restore has been attempted. The backup includes /srv/data and excludes /srv/cache.\"},{\"case_id\":\"modes-en-034\",\"text\":\"One reading every 250 ms is 4 readings per second. At 16 bits per reading, the nominal payload rate is 64 bits per second. This excludes packet headers.\"},{\"case_id\":\"modes-en-035\",\"text\":\"API latency increased after the index deployment; both events occurred between 13:00 and 13:10 UTC. The log contains no control comparison, so timing alone does not establish that the index caused the increase. No rollback decision was made.\"}]}",
+      "usage": {
+        "input_tokens": 4222,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 298,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-031\",\"text\":\"In client 4.2, `export --dry-run` checks the configuration without creating an archive. A successful check does not confirm sufficient space at the destination. To perform the actual export, use `export --run`.\"},{\"case_id\":\"modes-en-032\",\"text\":\"A message is acknowledged only after the database transaction commits. If the worker stops before acknowledgement, the message may be delivered again—even if the transaction committed. Deduplication uses `message_id`, not the customer's name. Redelivery alone does not indicate duplicate committed data.\"},{\"case_id\":\"modes-en-033\",\"text\":\"The backup passed checksum validation, which detects certain file changes but does not prove the application can be restored. No restore has been attempted. The backup includes /srv/data and excludes /srv/cache.\"},{\"case_id\":\"modes-en-034\",\"text\":\"One reading every 250 ms is 4 readings per second. At 16 bits per reading, the nominal payload rate is 64 bits per second. This excludes packet headers.\"},{\"case_id\":\"modes-en-035\",\"text\":\"API latency increased after the index deployment; both events occurred between 13:00 and 13:10 UTC. The log contains no control comparison, so timing alone does not establish that the index caused the increase. No rollback decision was made.\"}]}",
+  "usage": {
+    "input_tokens": 4222,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 298,
+    "reasoning_output_tokens": 0
+  }
+}

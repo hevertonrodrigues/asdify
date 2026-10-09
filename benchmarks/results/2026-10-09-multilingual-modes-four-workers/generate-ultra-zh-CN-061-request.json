@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "1b0583deba5f9efda49aeb45b38dc660a068cffa6f69cb444dcc4e9313f7381b",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.725,
+      "completed_at_utc": "2026-10-09T03:01:55.069909+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-061\",\"text\":\"只读状态下，你可以查看、复制内容，但不能保存对原文件的修改。复制内容不会授予你编辑原文件的权限。如需变更权限，可向管理员申请。\"},{\"case_id\":\"modes-zh-CN-062\",\"text\":\"仅记录A（10毫米）可确认符合该规则。\"},{\"case_id\":\"modes-zh-CN-063\",\"text\":\"讲座禁止录音。仅指定记录员可录制事先取得讲者同意的部分；普通参加者为私人留念而录音不属例外。\"},{\"case_id\":\"modes-zh-CN-064\",\"text\":\"- 16:20停止入场，17:00关闭。\\n- 出馆后不可重新入场。\\n- 在入口领取免费当日票，仅当天有效。\"},{\"case_id\":\"modes-zh-CN-065\",\"text\":\"报告称“速度提升18%”，但仅知测量项目为页面加载。分母、原始数值、比较时段，以及“速度”和“耗时”的定义均未提供，因此无法核实该比例，也不能将其直接理解为页面加载耗时减少18%。\"}]}",
+      "usage": {
+        "input_tokens": 7457,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 279,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-061\",\"text\":\"只读状态下，你可以查看、复制内容，但不能保存对原文件的修改。复制内容不会授予你编辑原文件的权限。如需变更权限，可向管理员申请。\"},{\"case_id\":\"modes-zh-CN-062\",\"text\":\"仅记录A（10毫米）可确认符合该规则。\"},{\"case_id\":\"modes-zh-CN-063\",\"text\":\"讲座禁止录音。仅指定记录员可录制事先取得讲者同意的部分；普通参加者为私人留念而录音不属例外。\"},{\"case_id\":\"modes-zh-CN-064\",\"text\":\"- 16:20停止入场，17:00关闭。\\n- 出馆后不可重新入场。\\n- 在入口领取免费当日票，仅当天有效。\"},{\"case_id\":\"modes-zh-CN-065\",\"text\":\"报告称“速度提升18%”，但仅知测量项目为页面加载。分母、原始数值、比较时段，以及“速度”和“耗时”的定义均未提供，因此无法核实该比例，也不能将其直接理解为页面加载耗时减少18%。\"}]}",
+  "usage": {
+    "input_tokens": 7457,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 279,
+    "reasoning_output_tokens": 0
+  }
+}

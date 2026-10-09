@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9a8354b118737f2d74eb946371a8b72e8a1de1ca4f715e7086027b4ab6fb428d",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.095,
+      "completed_at_utc": "2026-10-09T03:36:57.142483+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-006\",\"text\":\"Lunedì Marta ha segnalato la pagina mancante. Martedì il fascicolo è stato completato, ma non sappiamo chi abbia aggiunto la pagina. Mercoledì Davide ha consegnato il fascicolo.\"},{\"case_id\":\"modes-it-007\",\"text\":\"1. Salva la bozza.\\n2. Controlla gli importi con un collega.\\n3. Invia il preventivo soltanto dopo il controllo.\"},{\"case_id\":\"modes-it-008\",\"text\":\"La vibrazione potrebbe dipendere dal supporto allentato, ma questa ipotesi non è stata verificata. Il dispositivo è stato provato soltanto senza carico, per dieci minuti.\"},{\"case_id\":\"modes-it-009\",\"text\":\"Stimiamo 3–5 giorni lavorativi per riordinare i fascicoli, se l’elenco arriva entro mercoledì. La stima non include la ricostruzione delle etichette mancanti, i cui tempi non sono stati stimati.\"},{\"case_id\":\"modes-it-010\",\"text\":\"Noleggio: 27 € al giorno per pannello.\\n- Supporto incluso.\\n- Montaggio escluso.\\n- Ogni giornata iniziata viene conteggiata per intero.\"}]}",
+      "usage": {
+        "input_tokens": 4181,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 295,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-006\",\"text\":\"Lunedì Marta ha segnalato la pagina mancante. Martedì il fascicolo è stato completato, ma non sappiamo chi abbia aggiunto la pagina. Mercoledì Davide ha consegnato il fascicolo.\"},{\"case_id\":\"modes-it-007\",\"text\":\"1. Salva la bozza.\\n2. Controlla gli importi con un collega.\\n3. Invia il preventivo soltanto dopo il controllo.\"},{\"case_id\":\"modes-it-008\",\"text\":\"La vibrazione potrebbe dipendere dal supporto allentato, ma questa ipotesi non è stata verificata. Il dispositivo è stato provato soltanto senza carico, per dieci minuti.\"},{\"case_id\":\"modes-it-009\",\"text\":\"Stimiamo 3–5 giorni lavorativi per riordinare i fascicoli, se l’elenco arriva entro mercoledì. La stima non include la ricostruzione delle etichette mancanti, i cui tempi non sono stati stimati.\"},{\"case_id\":\"modes-it-010\",\"text\":\"Noleggio: 27 € al giorno per pannello.\\n- Supporto incluso.\\n- Montaggio escluso.\\n- Ogni giornata iniziata viene conteggiata per intero.\"}]}",
+  "usage": {
+    "input_tokens": 4181,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 295,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bbfb55e2a4bf70ea60a5517d91825cc7edaea9daed5af7fd949415b71de89e33",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.899,
+      "completed_at_utc": "2026-10-09T04:47:04.748012+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-021\",\"text\":\"Danke fürs Einräumen! Die letzte Kiste bleibt bis Mittwoch ungeöffnet, weil du prüfen wolltest, ob deine Notizbücher darin sind.\"},{\"case_id\":\"modes-de-022\",\"text\":\"1. Mara sprach mit Deniz über Maras Entwurf.\\n2. Mara sprach mit Deniz über Deniz’ Entwurf.\"},{\"case_id\":\"modes-de-023\",\"text\":\"Gäste dürfen an der offenen Probe teilnehmen, ohne sofort Mitglied zu werden. An der anschließenden geschlossenen Sitzung dürfen nur Mitglieder teilnehmen.\"},{\"case_id\":\"modes-de-024\",\"text\":\"15 % Rabatt gibt es nur bei Buchung von mindestens drei Terminen im selben Monat. Bereits bezahlte Einzeltermine zählen nicht rückwirkend dazu.\"},{\"case_id\":\"modes-de-025\",\"text\":\"„Noch nicht geprüft“ beschreibt nur den fehlenden Prüfstatus, nicht, ob das Gerät sicher oder unsicher ist. Bis zur Prüfung darf es nicht ausgeliehen werden.\"}]}",
+      "usage": {
+        "input_tokens": 7446,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 226,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-021\",\"text\":\"Danke fürs Einräumen! Die letzte Kiste bleibt bis Mittwoch ungeöffnet, weil du prüfen wolltest, ob deine Notizbücher darin sind.\"},{\"case_id\":\"modes-de-022\",\"text\":\"1. Mara sprach mit Deniz über Maras Entwurf.\\n2. Mara sprach mit Deniz über Deniz’ Entwurf.\"},{\"case_id\":\"modes-de-023\",\"text\":\"Gäste dürfen an der offenen Probe teilnehmen, ohne sofort Mitglied zu werden. An der anschließenden geschlossenen Sitzung dürfen nur Mitglieder teilnehmen.\"},{\"case_id\":\"modes-de-024\",\"text\":\"15 % Rabatt gibt es nur bei Buchung von mindestens drei Terminen im selben Monat. Bereits bezahlte Einzeltermine zählen nicht rückwirkend dazu.\"},{\"case_id\":\"modes-de-025\",\"text\":\"„Noch nicht geprüft“ beschreibt nur den fehlenden Prüfstatus, nicht, ob das Gerät sicher oder unsicher ist. Bis zur Prüfung darf es nicht ausgeliehen werden.\"}]}",
+  "usage": {
+    "input_tokens": 7446,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 226,
+    "reasoning_output_tokens": 0
+  }
+}

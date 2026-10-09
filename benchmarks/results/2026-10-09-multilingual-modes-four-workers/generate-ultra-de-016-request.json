@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "23e22821270a17182cc7e5d51ac336f644cfe767a1bd9e356280cec7184107f4",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.153,
+      "completed_at_utc": "2026-10-09T03:44:11.512190+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client eine GET-Anfrage einmal wiederholen, eine POST-Anfrage nicht. Scheitert auch der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-017\",\"text\":\"retention_days=14 legt eine Aufbewahrungsdauer von 14 Tagen nur für automatisch erstellte Vorschaubilder fest. Originaldateien werden dadurch nicht gelöscht. Die Änderung gilt nur für neu erzeugte Vorschaubilder, nicht rückwirkend.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt wie geplant am Montag um 18 Uhr. Wegen der defekten Spüle gibt es statt Kochen eine Einführung in die Zutatenkunde. Der praktische Kochtermin wird später mitgeteilt.\"},{\"case_id\":\"modes-de-019\",\"text\":\"Ja, sonntags von 10 bis 13 Uhr am bewachten Empfangsfenster. Die Ausgabe ist geschlossen. Akkus dürfen nicht separat eingeworfen werden.\"},{\"case_id\":\"modes-de-020\",\"text\":\"Nein. Im fiktiven Laden sanken die Nachfragen nach dem Ausgang von 22 auf 10 pro Tag. Gleichzeitig wurde der zuvor gesperrte Ausgang geöffnet. Daher lässt sich nicht feststellen, welchen Anteil die neue Beschilderung am Rückgang hatte.\"}]}",
+      "usage": {
+        "input_tokens": 7487,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 295,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client eine GET-Anfrage einmal wiederholen, eine POST-Anfrage nicht. Scheitert auch der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-017\",\"text\":\"retention_days=14 legt eine Aufbewahrungsdauer von 14 Tagen nur für automatisch erstellte Vorschaubilder fest. Originaldateien werden dadurch nicht gelöscht. Die Änderung gilt nur für neu erzeugte Vorschaubilder, nicht rückwirkend.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt wie geplant am Montag um 18 Uhr. Wegen der defekten Spüle gibt es statt Kochen eine Einführung in die Zutatenkunde. Der praktische Kochtermin wird später mitgeteilt.\"},{\"case_id\":\"modes-de-019\",\"text\":\"Ja, sonntags von 10 bis 13 Uhr am bewachten Empfangsfenster. Die Ausgabe ist geschlossen. Akkus dürfen nicht separat eingeworfen werden.\"},{\"case_id\":\"modes-de-020\",\"text\":\"Nein. Im fiktiven Laden sanken die Nachfragen nach dem Ausgang von 22 auf 10 pro Tag. Gleichzeitig wurde der zuvor gesperrte Ausgang geöffnet. Daher lässt sich nicht feststellen, welchen Anteil die neue Beschilderung am Rückgang hatte.\"}]}",
+  "usage": {
+    "input_tokens": 7487,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 295,
+    "reasoning_output_tokens": 0
+  }
+}

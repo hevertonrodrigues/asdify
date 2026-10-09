@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0296ecd2714064765058836f8660f4414e44d514e8173ac1ed39fbd222f71f2b",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.092,
+      "completed_at_utc": "2026-10-09T03:14:25.331618+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-026\",\"text\":\"Sí. La excepción solo cubre movimientos de menos de 15 cm dentro del mismo rectángulo marcado. Un movimiento de exactamente 15 cm exige revisión.\"},{\"case_id\":\"modes-es-027\",\"text\":\"La plaza se confirma al recibir el dinero, no al enviar un justificante. Los nombres deben recibirse antes de la actividad, pero no hacen falta para cobrar. Si falla el cobro, la plaza se conserva durante 36 horas más.\"},{\"case_id\":\"modes-es-028\",\"text\":\"No se pueden compartir borradores fuera del equipo sin permiso escrito de quien los haya creado. Incluso con permiso, deben eliminarse los correos personales. Los recuentos sin nombres pueden enviarse a coordinación.\"},{\"case_id\":\"modes-es-029\",\"text\":\"La solicitud debe recibirse antes de las 15:00 UTC del 4 de septiembre de 2030. No basta con enviarla antes si llega después. Los justificantes pueden recibirse hasta cuatro días hábiles después de recibir una solicitud a tiempo.\"},{\"case_id\":\"modes-es-030\",\"text\":\"Solo está permitido el acceso por la puerta principal.\"}]}",
+      "usage": {
+        "input_tokens": 7497,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 329,
+        "reasoning_output_tokens": 66
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-026\",\"text\":\"Sí. La excepción solo cubre movimientos de menos de 15 cm dentro del mismo rectángulo marcado. Un movimiento de exactamente 15 cm exige revisión.\"},{\"case_id\":\"modes-es-027\",\"text\":\"La plaza se confirma al recibir el dinero, no al enviar un justificante. Los nombres deben recibirse antes de la actividad, pero no hacen falta para cobrar. Si falla el cobro, la plaza se conserva durante 36 horas más.\"},{\"case_id\":\"modes-es-028\",\"text\":\"No se pueden compartir borradores fuera del equipo sin permiso escrito de quien los haya creado. Incluso con permiso, deben eliminarse los correos personales. Los recuentos sin nombres pueden enviarse a coordinación.\"},{\"case_id\":\"modes-es-029\",\"text\":\"La solicitud debe recibirse antes de las 15:00 UTC del 4 de septiembre de 2030. No basta con enviarla antes si llega después. Los justificantes pueden recibirse hasta cuatro días hábiles después de recibir una solicitud a tiempo.\"},{\"case_id\":\"modes-es-030\",\"text\":\"Solo está permitido el acceso por la puerta principal.\"}]}",
+  "usage": {
+    "input_tokens": 7497,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_output_tokens": 66
+  }
+}

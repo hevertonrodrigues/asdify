@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9c67e85d2e6c835e006c1919ec075f6f71d27776fcb155b17f0e9d500be4e9d1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 43.825,
+      "completed_at_utc": "2026-10-09T04:14:06.417242+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-076\",\"text\":\"Un voluntario contó 22 pasos de peces junto a una ventana del tanque entre las 12:00 y las 12:20. El mismo pez podía pasar varias veces. No se observaron otras ventanas ni periodos; el recuento no permite estimar cuántos peces hay en total.\"},{\"case_id\":\"modes-es-077\",\"text\":\"No se observó óxido en la cara exterior de la puerta. No se desmontó la puerta ni se hicieron análisis. La observación no abarca las partes ocultas.\"},{\"case_id\":\"modes-es-078\",\"text\":\"El 80% de las 75 personas que escanearon voluntariamente un QR pidieron más fuentes. El cartel estaba junto a la entrada de un polideportivo. No hubo selección aleatoria, por lo que el resultado no representa la opinión del 80% de la ciudad.\"},{\"case_id\":\"modes-es-079\",\"text\":\"La cita de las 10:15 se canceló porque el profesional no estará disponible. No se indica el motivo de su ausencia. Se contactará con las personas afectadas para acordar otra hora. No se ha fijado una sustitución.\"},{\"case_id\":\"modes-es-080\",\"text\":\"Hoy, la báscula indicó 1 kg en cuatro mediciones con una pesa certificada de 1 kg. Solo se probó esa carga. El resultado no demuestra exactitud con otras cargas ni constituye una calibración completa.\"}]}",
+      "usage": {
+        "input_tokens": 7498,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 328,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-076\",\"text\":\"Un voluntario contó 22 pasos de peces junto a una ventana del tanque entre las 12:00 y las 12:20. El mismo pez podía pasar varias veces. No se observaron otras ventanas ni periodos; el recuento no permite estimar cuántos peces hay en total.\"},{\"case_id\":\"modes-es-077\",\"text\":\"No se observó óxido en la cara exterior de la puerta. No se desmontó la puerta ni se hicieron análisis. La observación no abarca las partes ocultas.\"},{\"case_id\":\"modes-es-078\",\"text\":\"El 80% de las 75 personas que escanearon voluntariamente un QR pidieron más fuentes. El cartel estaba junto a la entrada de un polideportivo. No hubo selección aleatoria, por lo que el resultado no representa la opinión del 80% de la ciudad.\"},{\"case_id\":\"modes-es-079\",\"text\":\"La cita de las 10:15 se canceló porque el profesional no estará disponible. No se indica el motivo de su ausencia. Se contactará con las personas afectadas para acordar otra hora. No se ha fijado una sustitución.\"},{\"case_id\":\"modes-es-080\",\"text\":\"Hoy, la báscula indicó 1 kg en cuatro mediciones con una pesa certificada de 1 kg. Solo se probó esa carga. El resultado no demuestra exactitud con otras cargas ni constituye una calibración completa.\"}]}",
+  "usage": {
+    "input_tokens": 7498,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 328,
+    "reasoning_output_tokens": 0
+  }
+}

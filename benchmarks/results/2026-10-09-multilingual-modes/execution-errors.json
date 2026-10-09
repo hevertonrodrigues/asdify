@@ -1,0 +1,130 @@
+[
+  {
+    "request": "generate-full-fr-066",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-ru-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-off-en-011",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-es-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-ultra-es-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-ultra-ja-091",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-full-ja-091",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-full-es-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-off-zh-CN-081",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-ja-091",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-full-zh-CN-081",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-ru-086",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-zh-CN-081",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-full-ru-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-ru-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-off-ru-086",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-ultra-ru-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-ultra-en-011",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-full-en-011",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-en-011",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-en-011",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-baseline-fr-066",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-fr-066",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-es-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-off-ja-091",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-ja-091",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-ultra-zh-CN-081",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-zh-CN-081",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-lite-ru-086",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-full-ru-086",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-off-ru-051",
+    "error": "CLI exit -15: "
+  },
+  {
+    "request": "generate-ultra-ru-086",
+    "error": "CLI exit -15: "
+  }
+]

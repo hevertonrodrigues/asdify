@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "94231bba3c905f63825c2104b2d09d638e08f228ab5c1e2465bafc947a8db3ec",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.814,
+      "completed_at_utc": "2026-10-09T03:44:51.329390+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-001\",\"text\":\"Bitte stellen Sie die Stühle nach dem Kurs an die Wand.\"},{\"case_id\":\"modes-de-002\",\"text\":\"Mitglieder dürfen eigene Handschuhe mitbringen, müssen aber nicht. Sie müssen das bereitgestellte Werkzeug nach Gebrauch reinigen.\"},{\"case_id\":\"modes-de-003\",\"text\":\"Der Dachraum darf nur benutzt werden, wenn die Beleuchtung geprüft wurde und der Zugang freigegeben ist. Die Prüfung allein reicht nicht aus.\"},{\"case_id\":\"modes-de-004\",\"text\":\"Trotz fehlender Unterschrift bleibt der Antrag in Bearbeitung; er wurde nicht abgelehnt. Bitte reichen Sie nur die unterschriebene letzte Seite nach, nicht den ganzen Antrag.\"},{\"case_id\":\"modes-de-005\",\"text\":\"Für Leihgeräte ist eine Kaution nötig. Die Ausnahme gilt nur für Geräte, die ausschließlich im Kursraum benutzt werden. Wer ein solches Gerät mitnimmt, muss eine Kaution hinterlegen.\"}]}",
+      "usage": {
+        "input_tokens": 7428,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 220,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-001\",\"text\":\"Bitte stellen Sie die Stühle nach dem Kurs an die Wand.\"},{\"case_id\":\"modes-de-002\",\"text\":\"Mitglieder dürfen eigene Handschuhe mitbringen, müssen aber nicht. Sie müssen das bereitgestellte Werkzeug nach Gebrauch reinigen.\"},{\"case_id\":\"modes-de-003\",\"text\":\"Der Dachraum darf nur benutzt werden, wenn die Beleuchtung geprüft wurde und der Zugang freigegeben ist. Die Prüfung allein reicht nicht aus.\"},{\"case_id\":\"modes-de-004\",\"text\":\"Trotz fehlender Unterschrift bleibt der Antrag in Bearbeitung; er wurde nicht abgelehnt. Bitte reichen Sie nur die unterschriebene letzte Seite nach, nicht den ganzen Antrag.\"},{\"case_id\":\"modes-de-005\",\"text\":\"Für Leihgeräte ist eine Kaution nötig. Die Ausnahme gilt nur für Geräte, die ausschließlich im Kursraum benutzt werden. Wer ein solches Gerät mitnimmt, muss eine Kaution hinterlegen.\"}]}",
+  "usage": {
+    "input_tokens": 7428,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 220,
+    "reasoning_output_tokens": 0
+  }
+}

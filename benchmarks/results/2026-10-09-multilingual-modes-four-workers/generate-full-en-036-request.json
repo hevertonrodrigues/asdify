@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c91364c654a1daec716de135df8750368ec3b5d0ff123f52aba1863e263421ab",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.628,
+      "completed_at_utc": "2026-10-09T04:20:01.396067+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-036\",\"text\":\"For `display_name` only:\\n- Omit the field to leave its current value unchanged.\\n- Set it to JSON `null` to clear its current value.\\n- Set it to `\\\"\\\"` to store an empty string, which is a valid text value.\\n\\nThis contract does not apply to other fields.\"},{\"case_id\":\"modes-en-037\",\"text\":\"The worker handled 1,000 jobs in 80 seconds with 4 concurrent threads: 12.5 jobs per second for this run. The jobs used cached input. The team did not measure cold-input performance or single-thread speed.\"},{\"case_id\":\"modes-en-038\",\"text\":\"`retention_days` defaults to 30. Setting it to 0 disables automatic deletion; it does not delete everything immediately. A positive value counts whole days from ingest time. Manual deletion remains possible. Changes apply only to newly ingested records.\"},{\"case_id\":\"modes-en-039\",\"text\":\"The integration verifies the service account’s identity, not each visitor’s. A successful connection confirms that the service account can connect. It does not confirm that every visitor has permission to view each record; this test does not check record-level permissions.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. “lag: 90 s” means the latest applied event is 90 seconds behind the latest received event. Pending events remain in the queue. The alert shows a processing delay, not proof of data loss. Without a failed-event count or missing-event audit, it also cannot establish that no data was lost.\"}]}",
+      "usage": {
+        "input_tokens": 7507,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-036\",\"text\":\"For `display_name` only:\\n- Omit the field to leave its current value unchanged.\\n- Set it to JSON `null` to clear its current value.\\n- Set it to `\\\"\\\"` to store an empty string, which is a valid text value.\\n\\nThis contract does not apply to other fields.\"},{\"case_id\":\"modes-en-037\",\"text\":\"The worker handled 1,000 jobs in 80 seconds with 4 concurrent threads: 12.5 jobs per second for this run. The jobs used cached input. The team did not measure cold-input performance or single-thread speed.\"},{\"case_id\":\"modes-en-038\",\"text\":\"`retention_days` defaults to 30. Setting it to 0 disables automatic deletion; it does not delete everything immediately. A positive value counts whole days from ingest time. Manual deletion remains possible. Changes apply only to newly ingested records.\"},{\"case_id\":\"modes-en-039\",\"text\":\"The integration verifies the service account’s identity, not each visitor’s. A successful connection confirms that the service account can connect. It does not confirm that every visitor has permission to view each record; this test does not check record-level permissions.\"},{\"case_id\":\"modes-en-040\",\"text\":\"No. “lag: 90 s” means the latest applied event is 90 seconds behind the latest received event. Pending events remain in the queue. The alert shows a processing delay, not proof of data loss. Without a failed-event count or missing-event audit, it also cannot establish that no data was lost.\"}]}",
+  "usage": {
+    "input_tokens": 7507,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 353,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7d98754a044711f76f3cbbc1b1ee79f0b1d732e671deaeca919a079f89d396e1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.128,
+      "completed_at_utc": "2026-10-09T04:45:54.309521+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-081\",\"text\":\"Puoi prendere in prestito un tappetino da taglio durante la sessione. Devi lasciarlo sullo scaffale contrassegnato prima di tornare a casa. Prendere in prestito un tappetino è facoltativo e non comprende la possibilità di portarlo via.\"},{\"case_id\":\"modes-it-082\",\"text\":\"Non chiudere la richiesta perché manca la fotografia. Potrebbe essere stata inviata in un messaggio separato. Non abbiamo ancora controllato i messaggi di ieri.\"},{\"case_id\":\"modes-it-083\",\"text\":\"Rosa ha elencato le viti mancanti martedì. La cassetta è stata rifornita mercoledì, ma il registro non indica chi lo abbia fatto. Giovedì Bruno ha ritirato la cassetta rifornita.\"},{\"case_id\":\"modes-it-084\",\"text\":\"La cinghia allentata potrebbe spiegare il ritardo, ma nessuna prova comparativa lo ha confermato. È stato osservato soltanto il ciclo breve. Il ciclo lungo non è stato testato.\"},{\"case_id\":\"modes-it-085\",\"text\":\"{\\\"reference\\\":\\\"IT-M47\\\",\\\"number\\\":5,\\\"notice\\\":\\\"Mancano cinque coperchi. Tenere i vassoi all'interno fino all'arrivo dei coperchi sostitutivi.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4146,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 311,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-081\",\"text\":\"Puoi prendere in prestito un tappetino da taglio durante la sessione. Devi lasciarlo sullo scaffale contrassegnato prima di tornare a casa. Prendere in prestito un tappetino è facoltativo e non comprende la possibilità di portarlo via.\"},{\"case_id\":\"modes-it-082\",\"text\":\"Non chiudere la richiesta perché manca la fotografia. Potrebbe essere stata inviata in un messaggio separato. Non abbiamo ancora controllato i messaggi di ieri.\"},{\"case_id\":\"modes-it-083\",\"text\":\"Rosa ha elencato le viti mancanti martedì. La cassetta è stata rifornita mercoledì, ma il registro non indica chi lo abbia fatto. Giovedì Bruno ha ritirato la cassetta rifornita.\"},{\"case_id\":\"modes-it-084\",\"text\":\"La cinghia allentata potrebbe spiegare il ritardo, ma nessuna prova comparativa lo ha confermato. È stato osservato soltanto il ciclo breve. Il ciclo lungo non è stato testato.\"},{\"case_id\":\"modes-it-085\",\"text\":\"{\\\"reference\\\":\\\"IT-M47\\\",\\\"number\\\":5,\\\"notice\\\":\\\"Mancano cinque coperchi. Tenere i vassoi all'interno fino all'arrivo dei coperchi sostitutivi.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4146,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 311,
+    "reasoning_output_tokens": 0
+  }
+}

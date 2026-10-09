@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "2adbc4034f58d1a3c520e1678dd625820af134c1cf6505d5671d79568a10a28a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.461,
+      "completed_at_utc": "2026-10-09T03:10:14.441409+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-051\",\"text\":\"A biblioteca fecha às 18h.\"},{\"case_id\":\"modes-pt-BR-052\",\"text\":\"1. {visitante}, você pode entrar depois das 14h.\\n2. Se chegar depois das 21h, ligue para {{telefone_portaria}} antes de entrar.\"},{\"case_id\":\"modes-pt-BR-053\",\"text\":\"{\\\"request_id\\\":\\\"P-631\\\",\\\"level\\\":3,\\\"message\\\":\\\"A análise começou, mas não tem data de conclusão.\\\"}\"},{\"case_id\":\"modes-pt-BR-054\",\"text\":\"Leia [Guia de acesso](https://example.invalid/guia?ed=3#salas) antes de enviar o formulário para conhecer as opções de acesso.\"},{\"case_id\":\"modes-pt-BR-055\",\"text\":\"{\\\"lot\\\":\\\"LT/8-B\\\",\\\"units\\\":0,\\\"cleared\\\":false,\\\"reason\\\":\\\"Nenhuma unidade foi liberada porque a inspeção está incompleta.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4235,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 230,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-051\",\"text\":\"A biblioteca fecha às 18h.\"},{\"case_id\":\"modes-pt-BR-052\",\"text\":\"1. {visitante}, você pode entrar depois das 14h.\\n2. Se chegar depois das 21h, ligue para {{telefone_portaria}} antes de entrar.\"},{\"case_id\":\"modes-pt-BR-053\",\"text\":\"{\\\"request_id\\\":\\\"P-631\\\",\\\"level\\\":3,\\\"message\\\":\\\"A análise começou, mas não tem data de conclusão.\\\"}\"},{\"case_id\":\"modes-pt-BR-054\",\"text\":\"Leia [Guia de acesso](https://example.invalid/guia?ed=3#salas) antes de enviar o formulário para conhecer as opções de acesso.\"},{\"case_id\":\"modes-pt-BR-055\",\"text\":\"{\\\"lot\\\":\\\"LT/8-B\\\",\\\"units\\\":0,\\\"cleared\\\":false,\\\"reason\\\":\\\"Nenhuma unidade foi liberada porque a inspeção está incompleta.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4235,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 230,
+    "reasoning_output_tokens": 0
+  }
+}

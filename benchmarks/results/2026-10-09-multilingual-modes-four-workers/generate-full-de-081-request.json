@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c8b2afd3922045b53a87a2a25f980714aca58ae8b2932c586ebd3ce50f7043ce",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.094,
+      "completed_at_utc": "2026-10-09T03:48:01.209265+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-081\",\"text\":\"Sie dürfen eine Leselampe für einen Abend ausleihen. Sie müssen sie am nächsten Tag bis 11:00 Uhr zurückgeben. Das Ausleihen einer Lampe verlängert Ihre Zimmerbuchung nicht.\"},{\"case_id\":\"modes-de-082\",\"text\":\"Löschen Sie den Entwurf nicht, wenn ein Beleg fehlt. Der Beleg kann separat eintreffen. Wir haben den zweiten Umschlag noch nicht geprüft.\"},{\"case_id\":\"modes-de-083\",\"text\":\"Elena dokumentierte den beschädigten Riegel am Freitag. Er wurde am Samstag repariert, aber aus dem Protokoll geht nicht hervor, wer ihn repariert hat. Am Sonntag testete Omar den reparierten Riegel.\"},{\"case_id\":\"modes-de-084\",\"text\":\"Das Geräusch könnte vom oberen Rad kommen. Das ist noch nicht bestätigt. Nur der leere Wagen wurde getestet; ein Test mit beladenem Wagen wurde noch nicht abgeschlossen.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Siegel fehlen. Öffnen Sie die Behälter erst, wenn Ersatzsiegel bereitliegen.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7419,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 395,
+        "reasoning_output_tokens": 125
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-081\",\"text\":\"Sie dürfen eine Leselampe für einen Abend ausleihen. Sie müssen sie am nächsten Tag bis 11:00 Uhr zurückgeben. Das Ausleihen einer Lampe verlängert Ihre Zimmerbuchung nicht.\"},{\"case_id\":\"modes-de-082\",\"text\":\"Löschen Sie den Entwurf nicht, wenn ein Beleg fehlt. Der Beleg kann separat eintreffen. Wir haben den zweiten Umschlag noch nicht geprüft.\"},{\"case_id\":\"modes-de-083\",\"text\":\"Elena dokumentierte den beschädigten Riegel am Freitag. Er wurde am Samstag repariert, aber aus dem Protokoll geht nicht hervor, wer ihn repariert hat. Am Sonntag testete Omar den reparierten Riegel.\"},{\"case_id\":\"modes-de-084\",\"text\":\"Das Geräusch könnte vom oberen Rad kommen. Das ist noch nicht bestätigt. Nur der leere Wagen wurde getestet; ein Test mit beladenem Wagen wurde noch nicht abgeschlossen.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Siegel fehlen. Öffnen Sie die Behälter erst, wenn Ersatzsiegel bereitliegen.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7419,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 395,
+    "reasoning_output_tokens": 125
+  }
+}

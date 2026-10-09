@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "926e66d7e5973f5ebcb446fcd6511f3b809576c103004ea5843e0e6e68673e35",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.865,
+      "completed_at_utc": "2026-10-09T05:04:48.813598+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-006\",\"text\":\"Jonas meldete den beschädigten Griff am Dienstag. Am Mittwoch wurde der Griff ersetzt. Im Protokoll steht nicht, wer ihn ersetzt hat.\"},{\"case_id\":\"modes-de-007\",\"text\":\"1. Den Entwurf lokal speichern.\\n2. Danach die Vorschau prüfen.\\n3. Erst nach der Prüfung auf „Veröffentlichen“ klicken.\"},{\"case_id\":\"modes-de-008\",\"text\":\"Der erhöhte Stromverbrauch könnte mit dem neuen Lüfter zusammenhängen. Bisher liegen nur Messwerte für zwei Abende vor. Der Verbrauch ohne Lüfter wurde nicht unter denselben Bedingungen gemessen.\"},{\"case_id\":\"modes-de-009\",\"text\":\"Für das Sortieren rechnen wir mit etwa 90 bis 120 Minuten, sofern die Etiketten lesbar sind. Zusätzliche Zeit für beschädigte Etiketten wurde nicht geschätzt. Die Dauer ist nicht zugesichert.\"},{\"case_id\":\"modes-de-010\",\"text\":\"Die Miete beträgt 36 € pro Kiste und Kalenderwoche. Die erste angefangene Kalenderwoche wird vollständig berechnet. Die Reinigung ist im Preis enthalten, der Transport nicht.\"}]}",
+      "usage": {
+        "input_tokens": 7457,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 263,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-006\",\"text\":\"Jonas meldete den beschädigten Griff am Dienstag. Am Mittwoch wurde der Griff ersetzt. Im Protokoll steht nicht, wer ihn ersetzt hat.\"},{\"case_id\":\"modes-de-007\",\"text\":\"1. Den Entwurf lokal speichern.\\n2. Danach die Vorschau prüfen.\\n3. Erst nach der Prüfung auf „Veröffentlichen“ klicken.\"},{\"case_id\":\"modes-de-008\",\"text\":\"Der erhöhte Stromverbrauch könnte mit dem neuen Lüfter zusammenhängen. Bisher liegen nur Messwerte für zwei Abende vor. Der Verbrauch ohne Lüfter wurde nicht unter denselben Bedingungen gemessen.\"},{\"case_id\":\"modes-de-009\",\"text\":\"Für das Sortieren rechnen wir mit etwa 90 bis 120 Minuten, sofern die Etiketten lesbar sind. Zusätzliche Zeit für beschädigte Etiketten wurde nicht geschätzt. Die Dauer ist nicht zugesichert.\"},{\"case_id\":\"modes-de-010\",\"text\":\"Die Miete beträgt 36 € pro Kiste und Kalenderwoche. Die erste angefangene Kalenderwoche wird vollständig berechnet. Die Reinigung ist im Preis enthalten, der Transport nicht.\"}]}",
+  "usage": {
+    "input_tokens": 7457,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 263,
+    "reasoning_output_tokens": 0
+  }
+}

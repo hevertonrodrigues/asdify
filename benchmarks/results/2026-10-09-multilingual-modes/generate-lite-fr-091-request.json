@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9bbe8121659476448419f9155c6680fad4b47d5fc6adfef842e90081d6091e29",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 361.902,
+      "completed_at_utc": "2026-10-09T02:35:04.235693+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-091\",\"text\":\"Dans cet exercice fictif, la part est passée de 28 % à 35 %, soit une hausse de 7 points de pourcentage. Il ne s’agit pas d’une hausse relative de 7 %.\"},{\"case_id\":\"modes-fr-092\",\"text\":\"Les frais ne sont pas remboursables une fois la séance tenue. Si l’organisateur annule avant la séance, les participants peuvent demander un remboursement. Ils ne sont pas obligés d’accepter un avoir à la place.\"},{\"case_id\":\"modes-fr-093\",\"text\":\"Le formulaire indique 08/09. Nous ne savons pas quelle convention de date a été utilisée. Veuillez confirmer le jour et le mois avant d’organiser la collecte.\"},{\"case_id\":\"modes-fr-094\",\"text\":\"Exécutez folder-audit --read-only avant toute modification. Cette commande répertorie les noms incohérents ; elle ne renomme pas les fichiers. Conservez audit.log même si aucun problème n’est signalé.\"},{\"case_id\":\"modes-fr-095\",\"text\":\"La dernière lampe est restée allumée. Deux chaises vides faisaient face à la fenêtre. J’attendais qu’on frappe à la porte, mais personne n’est venu avant l’aube.\"}]}",
+      "usage": {
+        "input_tokens": 7416,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-091\",\"text\":\"Dans cet exercice fictif, la part est passée de 28 % à 35 %, soit une hausse de 7 points de pourcentage. Il ne s’agit pas d’une hausse relative de 7 %.\"},{\"case_id\":\"modes-fr-092\",\"text\":\"Les frais ne sont pas remboursables une fois la séance tenue. Si l’organisateur annule avant la séance, les participants peuvent demander un remboursement. Ils ne sont pas obligés d’accepter un avoir à la place.\"},{\"case_id\":\"modes-fr-093\",\"text\":\"Le formulaire indique 08/09. Nous ne savons pas quelle convention de date a été utilisée. Veuillez confirmer le jour et le mois avant d’organiser la collecte.\"},{\"case_id\":\"modes-fr-094\",\"text\":\"Exécutez folder-audit --read-only avant toute modification. Cette commande répertorie les noms incohérents ; elle ne renomme pas les fichiers. Conservez audit.log même si aucun problème n’est signalé.\"},{\"case_id\":\"modes-fr-095\",\"text\":\"La dernière lampe est restée allumée. Deux chaises vides faisaient face à la fenêtre. J’attendais qu’on frappe à la porte, mais personne n’est venu avant l’aube.\"}]}",
+  "usage": {
+    "input_tokens": 7416,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 288,
+    "reasoning_output_tokens": 0
+  }
+}

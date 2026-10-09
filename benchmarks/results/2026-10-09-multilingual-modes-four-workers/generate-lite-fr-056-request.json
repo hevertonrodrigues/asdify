@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bf9944d814e42a0610c2075221fba2c67a04a20850be93f4a9be897e44da6cdf",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.976,
+      "completed_at_utc": "2026-10-09T03:17:06.865416+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-056\",\"text\":\"La limite est de 12 kg par caisse, et non par expédition. Une expédition peut contenir au maximum trois caisses. Le poids du contenant est inclus dans les 12 kg.\"},{\"case_id\":\"modes-fr-057\",\"text\":\"Avec la version 2.4, le filtre archived=false masque les éléments archivés sans les supprimer. Les exports lancés avant la mise à jour conservent l’ancien filtre jusqu’à leur fin.\"},{\"case_id\":\"modes-fr-058\",\"text\":\"Non. Dans la simulation, le délai médian de l’ensemble passe de 8 à 6 jours. Cela ne signifie pas que le délai a baissé pour chaque dossier. Les délais individuels ne sont pas fournis.\"},{\"case_id\":\"modes-fr-059\",\"text\":\"La pluie frappait doucement la vitre. Sur la table, trois tasses froides attendaient. Personne n’était revenu depuis le matin.\"},{\"case_id\":\"modes-fr-060\",\"text\":\"Réservation suspendue — référence R-28.\"}]}",
+      "usage": {
+        "input_tokens": 7434,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 242,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-056\",\"text\":\"La limite est de 12 kg par caisse, et non par expédition. Une expédition peut contenir au maximum trois caisses. Le poids du contenant est inclus dans les 12 kg.\"},{\"case_id\":\"modes-fr-057\",\"text\":\"Avec la version 2.4, le filtre archived=false masque les éléments archivés sans les supprimer. Les exports lancés avant la mise à jour conservent l’ancien filtre jusqu’à leur fin.\"},{\"case_id\":\"modes-fr-058\",\"text\":\"Non. Dans la simulation, le délai médian de l’ensemble passe de 8 à 6 jours. Cela ne signifie pas que le délai a baissé pour chaque dossier. Les délais individuels ne sont pas fournis.\"},{\"case_id\":\"modes-fr-059\",\"text\":\"La pluie frappait doucement la vitre. Sur la table, trois tasses froides attendaient. Personne n’était revenu depuis le matin.\"},{\"case_id\":\"modes-fr-060\",\"text\":\"Réservation suspendue — référence R-28.\"}]}",
+  "usage": {
+    "input_tokens": 7434,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 242,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ccff15a269fd3353b4dcd9ddd92b5d6dd681f7ba57b6af8a3e1196f4c9919a06",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.386,
+      "completed_at_utc": "2026-10-09T05:07:28.673573+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-051\",\"text\":\"„Die Datei darf gelöscht werden“ bedeutet, dass das Löschen erlaubt ist, aber nicht verlangt wird. „Die Datei muss gelöscht werden“ bedeutet, dass das Löschen verpflichtend ist.\"},{\"case_id\":\"modes-de-052\",\"text\":\"Eine neue Zugangskarte kann beantragt werden, wenn die alte verloren ging oder nicht mehr lesbar ist. Einer der beiden Gründe genügt. Ein Antrag bedeutet noch keine Bewilligung.\"},{\"case_id\":\"modes-de-053\",\"text\":\"Nein. Im Leseraum sind keine Tiere erlaubt.\"},{\"case_id\":\"modes-de-054\",\"text\":\"Die Montagezeit von weniger als zwölf Minuten wurde bei acht geübten Teilnehmenden beobachtet. Alle kannten das Modell aus dem Vorjahr. Neulinge waren nicht dabei; über deren Montagezeit lässt sich daraus keine Aussage ableiten.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Laut Lieferschein: 65 Schrauben. In der geöffneten Tüte gezählt: 64 Schrauben. Die Waage wurde nicht verwendet. Eine zweite Zählung steht aus.\"}]}",
+      "usage": {
+        "input_tokens": 7441,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 250,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-051\",\"text\":\"„Die Datei darf gelöscht werden“ bedeutet, dass das Löschen erlaubt ist, aber nicht verlangt wird. „Die Datei muss gelöscht werden“ bedeutet, dass das Löschen verpflichtend ist.\"},{\"case_id\":\"modes-de-052\",\"text\":\"Eine neue Zugangskarte kann beantragt werden, wenn die alte verloren ging oder nicht mehr lesbar ist. Einer der beiden Gründe genügt. Ein Antrag bedeutet noch keine Bewilligung.\"},{\"case_id\":\"modes-de-053\",\"text\":\"Nein. Im Leseraum sind keine Tiere erlaubt.\"},{\"case_id\":\"modes-de-054\",\"text\":\"Die Montagezeit von weniger als zwölf Minuten wurde bei acht geübten Teilnehmenden beobachtet. Alle kannten das Modell aus dem Vorjahr. Neulinge waren nicht dabei; über deren Montagezeit lässt sich daraus keine Aussage ableiten.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Laut Lieferschein: 65 Schrauben. In der geöffneten Tüte gezählt: 64 Schrauben. Die Waage wurde nicht verwendet. Eine zweite Zählung steht aus.\"}]}",
+  "usage": {
+    "input_tokens": 7441,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 250,
+    "reasoning_output_tokens": 0
+  }
+}

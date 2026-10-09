@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ce94b687c60b6beb59c3e7808f6d98a6b431a740cc948f43462992528dd08ccf",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.481,
+      "completed_at_utc": "2026-10-09T05:01:04.406062+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-026\",\"text\":\"- 8 h 10 : Martin note une erreur sur le tableau.\\n- 8 h 25 : la valeur est corrigée ; l’auteur de la correction n’est pas indiqué.\\n- 8 h 40 : Inès envoie le tableau au groupe.\"},{\"case_id\":\"modes-fr-027\",\"text\":\"Une des cinq caisses inspectées présentait une trace d’humidité. D’autres pourraient être touchées, mais les vingt restantes n’ont pas été ouvertes.\"},{\"case_id\":\"modes-fr-028\",\"text\":\"Chaque recharge contient 750 mL. La consommation estimée est de 25 mL par passage. Ces chiffres concernent uniquement le distributeur d’essai, pas tous les modèles.\"},{\"case_id\":\"modes-fr-029\",\"text\":\"Inscrire 4 h 35 : 45 + 50 = 95 minutes, soit 1 h 35. On reporte cette heure sur les 3 heures cumulées (2 + 1).\"},{\"case_id\":\"modes-fr-030\",\"text\":\"Les 12 responsables présents à la réunion préfèrent le créneau du matin. Invités parce qu’ils géraient les plus grandes équipes, ils ne représentent pas les responsables des petites équipes, qui n’ont pas été interrogés.\"}]}",
+      "usage": {
+        "input_tokens": 7470,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 290,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-026\",\"text\":\"- 8 h 10 : Martin note une erreur sur le tableau.\\n- 8 h 25 : la valeur est corrigée ; l’auteur de la correction n’est pas indiqué.\\n- 8 h 40 : Inès envoie le tableau au groupe.\"},{\"case_id\":\"modes-fr-027\",\"text\":\"Une des cinq caisses inspectées présentait une trace d’humidité. D’autres pourraient être touchées, mais les vingt restantes n’ont pas été ouvertes.\"},{\"case_id\":\"modes-fr-028\",\"text\":\"Chaque recharge contient 750 mL. La consommation estimée est de 25 mL par passage. Ces chiffres concernent uniquement le distributeur d’essai, pas tous les modèles.\"},{\"case_id\":\"modes-fr-029\",\"text\":\"Inscrire 4 h 35 : 45 + 50 = 95 minutes, soit 1 h 35. On reporte cette heure sur les 3 heures cumulées (2 + 1).\"},{\"case_id\":\"modes-fr-030\",\"text\":\"Les 12 responsables présents à la réunion préfèrent le créneau du matin. Invités parce qu’ils géraient les plus grandes équipes, ils ne représentent pas les responsables des petites équipes, qui n’ont pas été interrogés.\"}]}",
+  "usage": {
+    "input_tokens": 7470,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 290,
+    "reasoning_output_tokens": 0
+  }
+}

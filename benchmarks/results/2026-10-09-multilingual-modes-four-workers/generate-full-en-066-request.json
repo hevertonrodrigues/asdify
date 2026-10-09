@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a01b3c460a1d73b2e37af4937c7d3526866ba0c218c816bcdac492e669dda950",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.91,
+      "completed_at_utc": "2026-10-09T02:59:11.350249+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-066\",\"text\":\"The electrician.\"},{\"case_id\":\"modes-en-067\",\"text\":\"The hall opens at noon. Visitors must keep their tickets until departure. The café closes at four.\"},{\"case_id\":\"modes-en-068\",\"text\":\"No. The fence decision was deferred until the survey.\"},{\"case_id\":\"modes-en-069\",\"text\":\"The replacement latch still sticks on cold mornings. The team has not tested that condition. The customer is not asking for a full machine replacement.\"},{\"case_id\":\"modes-en-070\",\"text\":\"The two boxes were sealed before the labels were printed. Who sealed them is unknown. Jo printed the labels.\"}]}",
+      "usage": {
+        "input_tokens": 7451,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 159,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-066\",\"text\":\"The electrician.\"},{\"case_id\":\"modes-en-067\",\"text\":\"The hall opens at noon. Visitors must keep their tickets until departure. The café closes at four.\"},{\"case_id\":\"modes-en-068\",\"text\":\"No. The fence decision was deferred until the survey.\"},{\"case_id\":\"modes-en-069\",\"text\":\"The replacement latch still sticks on cold mornings. The team has not tested that condition. The customer is not asking for a full machine replacement.\"},{\"case_id\":\"modes-en-070\",\"text\":\"The two boxes were sealed before the labels were printed. Who sealed them is unknown. Jo printed the labels.\"}]}",
+  "usage": {
+    "input_tokens": 7451,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 159,
+    "reasoning_output_tokens": 0
+  }
+}

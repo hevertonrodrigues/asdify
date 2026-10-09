@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "707dd3e76c7562c6d40143adf7879a3d4a267f31160d429a832b174384b65e61",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.057,
+      "completed_at_utc": "2026-10-09T04:47:03.332421+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-021\",\"text\":\"Danke fürs Einräumen! Die letzte Kiste bleibt bis Mittwoch ungeöffnet, weil du prüfen wolltest, ob deine Notizbücher darin liegen.\"},{\"case_id\":\"modes-de-022\",\"text\":\"1. Mara sprach mit Deniz über Maras Entwurf.\\n2. Mara sprach mit Deniz über Deniz’ Entwurf.\"},{\"case_id\":\"modes-de-023\",\"text\":\"Gäste dürfen an der offenen Probe teilnehmen und müssen nicht sofort Mitglied werden. An der anschließenden geschlossenen Sitzung dürfen jedoch nur Mitglieder teilnehmen.\"},{\"case_id\":\"modes-de-024\",\"text\":\"Der Rabatt von 15 % gilt nur, wenn mindestens drei Termine im selben Monat gebucht werden. Bereits bezahlte Einzeltermine werden dafür nicht rückwirkend zusammengerechnet.\"},{\"case_id\":\"modes-de-025\",\"text\":\"„Noch nicht geprüft“ bedeutet weder „sicher“ noch „unsicher“. Das Etikett sagt nur aus, dass die Prüfung fehlt. Bis zur Prüfung darf das Gerät nicht ausgeliehen werden.\"}]}",
+      "usage": {
+        "input_tokens": 7448,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 238,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-021\",\"text\":\"Danke fürs Einräumen! Die letzte Kiste bleibt bis Mittwoch ungeöffnet, weil du prüfen wolltest, ob deine Notizbücher darin liegen.\"},{\"case_id\":\"modes-de-022\",\"text\":\"1. Mara sprach mit Deniz über Maras Entwurf.\\n2. Mara sprach mit Deniz über Deniz’ Entwurf.\"},{\"case_id\":\"modes-de-023\",\"text\":\"Gäste dürfen an der offenen Probe teilnehmen und müssen nicht sofort Mitglied werden. An der anschließenden geschlossenen Sitzung dürfen jedoch nur Mitglieder teilnehmen.\"},{\"case_id\":\"modes-de-024\",\"text\":\"Der Rabatt von 15 % gilt nur, wenn mindestens drei Termine im selben Monat gebucht werden. Bereits bezahlte Einzeltermine werden dafür nicht rückwirkend zusammengerechnet.\"},{\"case_id\":\"modes-de-025\",\"text\":\"„Noch nicht geprüft“ bedeutet weder „sicher“ noch „unsicher“. Das Etikett sagt nur aus, dass die Prüfung fehlt. Bis zur Prüfung darf das Gerät nicht ausgeliehen werden.\"}]}",
+  "usage": {
+    "input_tokens": 7448,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 238,
+    "reasoning_output_tokens": 0
+  }
+}

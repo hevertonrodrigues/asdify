@@ -27,3 +27,6 @@ jobs:
         run: |
           python3 scripts/audit_evaluation.py --output benchmarks/results/2026-10-08-reliability-100
           python3 scripts/audit_evaluation.py --output benchmarks/results/2026-10-09-reliability-100-revised
+          python3 scripts/evaluate_modes_conservative.py audit --output benchmarks/results/2026-10-09-multilingual-modes-four-workers
+          python3 scripts/audit_execution_history.py --output benchmarks/results/2026-10-09-multilingual-modes-four-workers
+          python3 scripts/audit_mode_source.py --output benchmarks/results/2026-10-09-multilingual-modes-four-workers

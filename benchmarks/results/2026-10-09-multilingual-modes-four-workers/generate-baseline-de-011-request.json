@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "cf8d86420403907fd865c88870db16bf0ac477ea779e3861b798fe324ea3b948",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.715,
+      "completed_at_utc": "2026-10-09T03:16:26.886111+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-011\",\"text\":\"Von 96 bearbeiteten Anfragen wurden 24 (25 %) am Wochenende beantwortet. Davon betrafen 8 die Anmeldung, also ein Drittel der am Wochenende beantworteten Anfragen. Die Gesamtzahl der Anmeldeanfragen ist unbekannt.\"},{\"case_id\":\"modes-de-012\",\"text\":\"Die Befragung umfasst nur 31 freiwillig antwortende Besucher, die zwischen 11 und 12 Uhr am Ausgang erreicht wurden. Durch die freiwillige Teilnahme und die zeitlich sowie örtlich begrenzte Auswahl können Verzerrungen entstehen. Da keine Zufallsauswahl stattfand, sind die Ergebnisse nicht ohne Weiteres auf alle Besucher des Tauschmarkts übertragbar.\"},{\"case_id\":\"modes-de-013\",\"text\":\"9 × 4,50 € + 6,00 € = 40,50 € + 6,00 € = 46,50 €.\\nDer Gesamtbetrag beträgt 46,50 €.\"},{\"case_id\":\"modes-de-014\",\"text\":\"Der Anteil steigt von 41 % auf 47 %, also um 6 Prozentpunkte.\"},{\"case_id\":\"modes-de-015\",\"text\":\"Status: Die Lagerortangaben widersprechen sich. Auf dem Aufkleber steht Fach 7, im Übergabeformular Fach 9. Beide Angaben wurden am selben Tag eingetragen. Der tatsächliche Lagerort wurde noch nicht geprüft und ist daher ungeklärt.\"}]}",
+      "usage": {
+        "input_tokens": 4162,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 322,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-011\",\"text\":\"Von 96 bearbeiteten Anfragen wurden 24 (25 %) am Wochenende beantwortet. Davon betrafen 8 die Anmeldung, also ein Drittel der am Wochenende beantworteten Anfragen. Die Gesamtzahl der Anmeldeanfragen ist unbekannt.\"},{\"case_id\":\"modes-de-012\",\"text\":\"Die Befragung umfasst nur 31 freiwillig antwortende Besucher, die zwischen 11 und 12 Uhr am Ausgang erreicht wurden. Durch die freiwillige Teilnahme und die zeitlich sowie örtlich begrenzte Auswahl können Verzerrungen entstehen. Da keine Zufallsauswahl stattfand, sind die Ergebnisse nicht ohne Weiteres auf alle Besucher des Tauschmarkts übertragbar.\"},{\"case_id\":\"modes-de-013\",\"text\":\"9 × 4,50 € + 6,00 € = 40,50 € + 6,00 € = 46,50 €.\\nDer Gesamtbetrag beträgt 46,50 €.\"},{\"case_id\":\"modes-de-014\",\"text\":\"Der Anteil steigt von 41 % auf 47 %, also um 6 Prozentpunkte.\"},{\"case_id\":\"modes-de-015\",\"text\":\"Status: Die Lagerortangaben widersprechen sich. Auf dem Aufkleber steht Fach 7, im Übergabeformular Fach 9. Beide Angaben wurden am selben Tag eingetragen. Der tatsächliche Lagerort wurde noch nicht geprüft und ist daher ungeklärt.\"}]}",
+  "usage": {
+    "input_tokens": 4162,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 322,
+    "reasoning_output_tokens": 0
+  }
+}

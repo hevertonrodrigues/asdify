@@ -1,0 +1,35 @@
+diff --git a/skills/asdify/SKILL.md b/skills/asdify/SKILL.md
+index a203ac0..ace39ca 100644
+--- a/skills/asdify/SKILL.md
++++ b/skills/asdify/SKILL.md
+@@ -40,9 +40,9 @@ Choose the first sufficient move; do not add structure for decoration.
+ ## Non-negotiable rules
+ 
+ - **Preserve meaning.** Do not change scope, causality, sequence, negation, modality (`may` vs `must`; `pode` vs `deve`), conditions, ownership, or deadlines.
+-- **Keep unknown actors unknown.** If the source leaves an actor unspecified, keep it unspecified. Preserve passive wording when needed; do not assign an unnamed action to a person named in another clause.
++- **Keep unknown actors unknown.** If the source leaves an actor unspecified, keep it unspecified. Preserve passive wording when needed; do not assign an unnamed action to a person named in another clause. Keep a named role or group equally specific; do not add ownership, authority, or people outside that group.
+ - **Preserve evidence.** Keep numbers, units, denominators, time periods, names, sample populations and selection methods, direct quotes, uncertainty, and relevant citations. Do not turn percentage points into percent.
+-- **Be exact about certainty.** Separate established facts, estimates, assumptions, and recommendations. Say what is unknown or unchecked when it matters.
++- **Be exact about certainty.** Separate established facts, estimates, assumptions, and recommendations. Say what is unknown or unchecked when it matters. "Not checked" does not mean "no difference found"; "does not establish X" does not mean "X is false." Keep possibility qualifiers even inside someone else's opinion.
+ - **One term, one meaning.** Use a consistent term for the same concept. Keep necessary legal, scientific, engineering, medical, and domain vocabulary intact; explain it when useful.
+ - **Write for the reader.** Match the requested output language and voice. For rewrites, keep the source language unless a translation is requested. Prefer common words, concrete nouns, strong verbs, and short sentences. Treat ~20 words as a readability signal, not a hard cap.
+ - **Remove empty language.** Cut generic introductions, repetition, inflated claims, filler adjectives, corporate slogans, and caveats that do not change a decision.
+diff --git a/skills/asdify/references/translation.md b/skills/asdify/references/translation.md
+index 484fd6e..b966141 100644
+--- a/skills/asdify/references/translation.md
++++ b/skills/asdify/references/translation.md
+@@ -20,11 +20,14 @@ Use these checks when the task changes languages or includes mixed-language text
+ | Dates and times | Keep the actual date and timezone. An ambiguous `03/04` needs clarification if the target requires interpreting it. |
+ | Technical content | Keep `HTTP 429`, `Retry-After`, code, commands, filenames, URLs, JSON keys, and placeholders such as `{name}` or `{{count}}` exact unless changes are requested. |
+ | Names and grammatical gender | Do not invent gender or replace a name with an unsupported spelling. Use neutral phrasing when the source does not establish gender. |
++| Roles and authority | Preserve the person's occupation or function when choosing neutral wording; do not substitute an owner, manager, or institution. |
+ | Citations and quotations | Keep attribution and each citation with its claim. Leave a quotation verbatim when requested; label translations of quotations when the task requires that distinction. |
+ | Format and voice | Preserve requested Markdown, list order, markup, register, humor, and politeness. A target's grammar may require different word order. |
+ 
+ Do not silently convert units, exchange currencies, substitute local law, or add cultural assumptions. Preserve exact wording the user protects, even when the surrounding prose is translated.
+ 
++Role distinctions also matter across languages. In German, a caretaker is not the property administration (`Hausverwaltung`). In Japanese, a baker (`パン職人`) need not own the shop (`店主`). In Portuguese, an engineer need not be responsible for the whole engineering function. Avoiding unsupported gender must not change the role.
++
+ ## Illustrative example
+ 
+ Source:

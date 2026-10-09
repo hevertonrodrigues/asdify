@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "1a08d3207db5fb91fa80070caa5e5460054e9cdce7d627eded077c132bb485bd",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.918,
+      "completed_at_utc": "2026-10-09T03:48:37.277134+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-021\",\"text\":\"Puede cambiar de grupo en línea solo si quedan más de 48 horas y hay plazas en el nuevo grupo. Si no se cumple alguna de estas condiciones, consulte la oficina. El cambio en línea es opcional, incluso si cumple ambas.\"},{\"case_id\":\"modes-es-022\",\"text\":\"Puede devolver productos sin abrir hasta 21 días naturales desde la recepción. Los productos abiertos solo se pueden devolver si se confirma un fallo de fabricación.\\n\\nAntes de enviar cualquier devolución, necesita un número de devolución. El reintegro del envío se decide por separado.\"},{\"case_id\":\"modes-es-023\",\"text\":\"No quite la tarjeta hasta que termine la copia y el indicador esté azul: deben cumplirse ambas condiciones. Puede dejar la pantalla abierta después de la copia. Si el indicador sigue naranja, avise al mostrador aunque la copia figure completa.\"},{\"case_id\":\"modes-es-024\",\"text\":\"- Menores de 11 años: deben venir con una persona adulta.\\n- De 11 a 15 años: pueden venir sin acompañante solo con autorización escrita.\\n- A partir de 16 años: no necesitan esa autorización.\\n- Todo acompañante debe tener entrada propia.\"},{\"case_id\":\"modes-es-025\",\"text\":\"El turno extra admite un máximo de cuatro personas voluntarias acreditadas. Quienes tengan turno nocturno ese día no pueden participar. Apuntarse no garantiza la asignación. La jefatura puede decidir no abrir el turno extra.\"}]}",
+      "usage": {
+        "input_tokens": 7495,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 331,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-021\",\"text\":\"Puede cambiar de grupo en línea solo si quedan más de 48 horas y hay plazas en el nuevo grupo. Si no se cumple alguna de estas condiciones, consulte la oficina. El cambio en línea es opcional, incluso si cumple ambas.\"},{\"case_id\":\"modes-es-022\",\"text\":\"Puede devolver productos sin abrir hasta 21 días naturales desde la recepción. Los productos abiertos solo se pueden devolver si se confirma un fallo de fabricación.\\n\\nAntes de enviar cualquier devolución, necesita un número de devolución. El reintegro del envío se decide por separado.\"},{\"case_id\":\"modes-es-023\",\"text\":\"No quite la tarjeta hasta que termine la copia y el indicador esté azul: deben cumplirse ambas condiciones. Puede dejar la pantalla abierta después de la copia. Si el indicador sigue naranja, avise al mostrador aunque la copia figure completa.\"},{\"case_id\":\"modes-es-024\",\"text\":\"- Menores de 11 años: deben venir con una persona adulta.\\n- De 11 a 15 años: pueden venir sin acompañante solo con autorización escrita.\\n- A partir de 16 años: no necesitan esa autorización.\\n- Todo acompañante debe tener entrada propia.\"},{\"case_id\":\"modes-es-025\",\"text\":\"El turno extra admite un máximo de cuatro personas voluntarias acreditadas. Quienes tengan turno nocturno ese día no pueden participar. Apuntarse no garantiza la asignación. La jefatura puede decidir no abrir el turno extra.\"}]}",
+  "usage": {
+    "input_tokens": 7495,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 331,
+    "reasoning_output_tokens": 0
+  }
+}

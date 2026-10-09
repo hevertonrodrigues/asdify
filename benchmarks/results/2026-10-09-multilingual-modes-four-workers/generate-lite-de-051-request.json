@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "d9df3960ffa63664de6b010503f4fad4d9d1d727855e9866703a92eab11a44f4",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.562,
+      "completed_at_utc": "2026-10-09T05:07:26.790861+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-051\",\"text\":\"„Die Datei darf gelöscht werden“ drückt eine Erlaubnis aus, keine Pflicht. „Die Datei muss gelöscht werden“ drückt eine Pflicht aus.\"},{\"case_id\":\"modes-de-052\",\"text\":\"Eine neue Zugangskarte kann beantragt werden, wenn die alte verloren ging oder nicht mehr lesbar ist. Einer der beiden Gründe genügt. Ein Antrag ist noch keine Bewilligung.\"},{\"case_id\":\"modes-de-053\",\"text\":\"Nein. Im Leseraum sind keine Tiere erlaubt.\"},{\"case_id\":\"modes-de-054\",\"text\":\"Acht geübte Teilnehmende montierten das Modell in weniger als zwölf Minuten. Alle kannten es aus dem Vorjahr; Neulinge waren nicht dabei. Das Ergebnis lässt daher keine Aussage über die Montagezeit von Neulingen zu.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Der Lieferschein nennt 65 Schrauben. In der geöffneten Tüte wurden 64 Schrauben gezählt. Die Waage wurde nicht verwendet. Eine zweite Zählung steht noch aus.\"}]}",
+      "usage": {
+        "input_tokens": 7445,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 244,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-051\",\"text\":\"„Die Datei darf gelöscht werden“ drückt eine Erlaubnis aus, keine Pflicht. „Die Datei muss gelöscht werden“ drückt eine Pflicht aus.\"},{\"case_id\":\"modes-de-052\",\"text\":\"Eine neue Zugangskarte kann beantragt werden, wenn die alte verloren ging oder nicht mehr lesbar ist. Einer der beiden Gründe genügt. Ein Antrag ist noch keine Bewilligung.\"},{\"case_id\":\"modes-de-053\",\"text\":\"Nein. Im Leseraum sind keine Tiere erlaubt.\"},{\"case_id\":\"modes-de-054\",\"text\":\"Acht geübte Teilnehmende montierten das Modell in weniger als zwölf Minuten. Alle kannten es aus dem Vorjahr; Neulinge waren nicht dabei. Das Ergebnis lässt daher keine Aussage über die Montagezeit von Neulingen zu.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Der Lieferschein nennt 65 Schrauben. In der geöffneten Tüte wurden 64 Schrauben gezählt. Die Waage wurde nicht verwendet. Eine zweite Zählung steht noch aus.\"}]}",
+  "usage": {
+    "input_tokens": 7445,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 244,
+    "reasoning_output_tokens": 0
+  }
+}

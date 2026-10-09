@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6197ebaa923411986ba076d12c4ae904b1da5803a307983615e85607f841faa3",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.699,
+      "completed_at_utc": "2026-10-09T04:05:34.900488+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-016\",\"text\":\"Se ricevi HTTP 409, non ripetere automaticamente la richiesta PUT. Recupera prima la versione corrente. Puoi ripetere la richiesta solo dopo aver risolto il conflitto.\"},{\"case_id\":\"modes-it-017\",\"text\":\"preview_days=10 imposta a 10 giorni la durata delle sole anteprime temporanee create dopo il salvataggio dell’impostazione. I documenti originali non vengono rimossi.\"},{\"case_id\":\"modes-it-018\",\"text\":\"L’incontro di giovedì resta alle 17. La presentazione in aula sostituisce la visita al cortile perché il passaggio è occupato. La nuova data della visita non è ancora fissata.\"},{\"case_id\":\"modes-it-019\",\"text\":\"Sì, venerdì puoi restituire il gioco allo sportello fino alle 20. Alle 18 terminano solo i nuovi prestiti. La scatola esterna non è disponibile.\"},{\"case_id\":\"modes-it-020\",\"text\":\"No. Nella simulazione, le iscrizioni salgono da 35 a 50 dopo la distribuzione del volantino, ma nello stesso periodo è stata ridotta anche la quota. Non si può attribuire l’aumento al solo volantino.\"}]}",
+      "usage": {
+        "input_tokens": 7482,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-016\",\"text\":\"Se ricevi HTTP 409, non ripetere automaticamente la richiesta PUT. Recupera prima la versione corrente. Puoi ripetere la richiesta solo dopo aver risolto il conflitto.\"},{\"case_id\":\"modes-it-017\",\"text\":\"preview_days=10 imposta a 10 giorni la durata delle sole anteprime temporanee create dopo il salvataggio dell’impostazione. I documenti originali non vengono rimossi.\"},{\"case_id\":\"modes-it-018\",\"text\":\"L’incontro di giovedì resta alle 17. La presentazione in aula sostituisce la visita al cortile perché il passaggio è occupato. La nuova data della visita non è ancora fissata.\"},{\"case_id\":\"modes-it-019\",\"text\":\"Sì, venerdì puoi restituire il gioco allo sportello fino alle 20. Alle 18 terminano solo i nuovi prestiti. La scatola esterna non è disponibile.\"},{\"case_id\":\"modes-it-020\",\"text\":\"No. Nella simulazione, le iscrizioni salgono da 35 a 50 dopo la distribuzione del volantino, ma nello stesso periodo è stata ridotta anche la quota. Non si può attribuire l’aumento al solo volantino.\"}]}",
+  "usage": {
+    "input_tokens": 7482,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 288,
+    "reasoning_output_tokens": 0
+  }
+}

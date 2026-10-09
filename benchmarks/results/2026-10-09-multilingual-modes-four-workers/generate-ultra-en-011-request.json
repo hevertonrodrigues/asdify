@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bc3d883d4a6b21b0fe272fddf46b54bd76b07bb37f4001f61f7ae56d24d0e420",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.39,
+      "completed_at_utc": "2026-10-09T02:53:34.240123+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-011\",\"text\":\"The defect rate fell from 8% to 6%: a decrease of 2 percentage points, or 25% relative to the original rate. Each monthly rate used 500 inspected units from one shift, not the whole plant.\"},{\"case_id\":\"modes-en-012\",\"text\":\"75 panels are available: 96 minus 12 reserved for repairs and nine quarantined pending inspection. These groups do not overlap. The 20 panels on order are excluded because they are not yet in the total.\"},{\"case_id\":\"modes-en-013\",\"text\":\"Revenue rose 10%, from $42,000 in Q1 to $46,200 in Q2. Both figures exclude sales tax. Q2 is provisional: $1,300 of invoices may be canceled, and the Q2 figure has not been adjusted for that possibility.\"},{\"case_id\":\"modes-en-014\",\"text\":\"Yes. Four identical desks at €135 each cost €540, plus €70 delivery for the whole order: €610 total, €30 below the €640 cap. Optional assembly at €18 per desk is excluded because it was not requested.\"},{\"case_id\":\"modes-en-015\",\"text\":\"June used 180 kWh over 30 days; July used 186 kWh over 31 days. Both averaged exactly 6 kWh per day, so July’s higher total reflects an extra day, not higher daily use. Occupancy and temperature were not recorded.\"}]}",
+      "usage": {
+        "input_tokens": 7546,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 326,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-011\",\"text\":\"The defect rate fell from 8% to 6%: a decrease of 2 percentage points, or 25% relative to the original rate. Each monthly rate used 500 inspected units from one shift, not the whole plant.\"},{\"case_id\":\"modes-en-012\",\"text\":\"75 panels are available: 96 minus 12 reserved for repairs and nine quarantined pending inspection. These groups do not overlap. The 20 panels on order are excluded because they are not yet in the total.\"},{\"case_id\":\"modes-en-013\",\"text\":\"Revenue rose 10%, from $42,000 in Q1 to $46,200 in Q2. Both figures exclude sales tax. Q2 is provisional: $1,300 of invoices may be canceled, and the Q2 figure has not been adjusted for that possibility.\"},{\"case_id\":\"modes-en-014\",\"text\":\"Yes. Four identical desks at €135 each cost €540, plus €70 delivery for the whole order: €610 total, €30 below the €640 cap. Optional assembly at €18 per desk is excluded because it was not requested.\"},{\"case_id\":\"modes-en-015\",\"text\":\"June used 180 kWh over 30 days; July used 186 kWh over 31 days. Both averaged exactly 6 kWh per day, so July’s higher total reflects an extra day, not higher daily use. Occupancy and temperature were not recorded.\"}]}",
+  "usage": {
+    "input_tokens": 7546,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 326,
+    "reasoning_output_tokens": 0
+  }
+}

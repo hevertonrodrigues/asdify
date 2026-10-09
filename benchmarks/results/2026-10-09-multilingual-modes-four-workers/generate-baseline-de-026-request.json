@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "5396bb96632fd2650972bf216c5ae75eded6c88e76776f3b7ed434e5d9199c0e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.313,
+      "completed_at_utc": "2026-10-09T03:21:45.905529+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-026\",\"text\":\"Um 15 Uhr gab Fatma den Schlüssel zurück. Um 15:20 Uhr wurde der Schrank geöffnet; wer ihn öffnete, wurde nicht dokumentiert. Um 16 Uhr überprüfte Paul den Inhalt.\"},{\"case_id\":\"modes-de-027\",\"text\":\"Drei der zehn geprüften Akkus hielten weniger als zwei Stunden. Die übrigen 25 Akkus sind noch ungeprüft; ein Ausfallanteil für den gesamten Bestand lässt sich daher nicht angeben.\"},{\"case_id\":\"modes-de-028\",\"text\":\"Der Musterbehälter fasst insgesamt 1,2 Liter. Die 1-Liter-Markierung zeigt die empfohlene Füllmenge, nicht das Gesamtvolumen.\"},{\"case_id\":\"modes-de-029\",\"text\":\"Die Werkstatt ist insgesamt 7 Stunden geöffnet: vormittags 3 Stunden 35 Minuten und nachmittags 3 Stunden 25 Minuten.\"},{\"case_id\":\"modes-de-030\",\"text\":\"Die 16 Befragten empfehlen einen Onlinekurs. Da alle aus einer Liste früherer Onlinekursteilnehmender ausgewählt wurden, lässt sich das Ergebnis nicht auf Menschen ohne Onlinekurserfahrung übertragen. Diese wurden nicht befragt.\"}]}",
+      "usage": {
+        "input_tokens": 4183,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 277,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-026\",\"text\":\"Um 15 Uhr gab Fatma den Schlüssel zurück. Um 15:20 Uhr wurde der Schrank geöffnet; wer ihn öffnete, wurde nicht dokumentiert. Um 16 Uhr überprüfte Paul den Inhalt.\"},{\"case_id\":\"modes-de-027\",\"text\":\"Drei der zehn geprüften Akkus hielten weniger als zwei Stunden. Die übrigen 25 Akkus sind noch ungeprüft; ein Ausfallanteil für den gesamten Bestand lässt sich daher nicht angeben.\"},{\"case_id\":\"modes-de-028\",\"text\":\"Der Musterbehälter fasst insgesamt 1,2 Liter. Die 1-Liter-Markierung zeigt die empfohlene Füllmenge, nicht das Gesamtvolumen.\"},{\"case_id\":\"modes-de-029\",\"text\":\"Die Werkstatt ist insgesamt 7 Stunden geöffnet: vormittags 3 Stunden 35 Minuten und nachmittags 3 Stunden 25 Minuten.\"},{\"case_id\":\"modes-de-030\",\"text\":\"Die 16 Befragten empfehlen einen Onlinekurs. Da alle aus einer Liste früherer Onlinekursteilnehmender ausgewählt wurden, lässt sich das Ergebnis nicht auf Menschen ohne Onlinekurserfahrung übertragen. Diese wurden nicht befragt.\"}]}",
+  "usage": {
+    "input_tokens": 4183,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 277,
+    "reasoning_output_tokens": 0
+  }
+}

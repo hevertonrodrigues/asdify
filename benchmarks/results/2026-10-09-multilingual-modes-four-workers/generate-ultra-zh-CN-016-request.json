@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "78fd88871c67506b9f39a2f3e99964ece8ac102b4dbc5eb3546d289c4bb81059",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.874,
+      "completed_at_utc": "2026-10-09T04:12:49.898198+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-016\",\"text\":\"样机已在室内连续工作90分钟。尚未进行雨中测试，可能可用于小雨，但目前无证据确认。\"},{\"case_id\":\"modes-zh-CN-017\",\"text\":\"需要订41张票。计算：22 + 19 = 41（人）。\"},{\"case_id\":\"modes-zh-CN-018\",\"text\":\"文件须在周三前送达。A收费68元，预计周二送达，符合时间要求，但不保证；B收费52元，预计周四送达，不符合时间要求，且不保证。A更合适，但两项服务都无法保证按时送达。\"},{\"case_id\":\"modes-zh-CN-019\",\"text\":\"{\\\"ref\\\":\\\"CN-42\\\",\\\"items\\\":8,\\\"remark\\\":\\\"已收到8件，尚未逐件检查。\\\"}\"},{\"case_id\":\"modes-zh-CN-020\",\"text\":\"PUT /v3/profiles 更新已有资料。设置 dry_run=true 时，只检查请求，不保存修改；检查通过不代表资料已更新。\"}]}",
+      "usage": {
+        "input_tokens": 7476,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 256,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-016\",\"text\":\"样机已在室内连续工作90分钟。尚未进行雨中测试，可能可用于小雨，但目前无证据确认。\"},{\"case_id\":\"modes-zh-CN-017\",\"text\":\"需要订41张票。计算：22 + 19 = 41（人）。\"},{\"case_id\":\"modes-zh-CN-018\",\"text\":\"文件须在周三前送达。A收费68元，预计周二送达，符合时间要求，但不保证；B收费52元，预计周四送达，不符合时间要求，且不保证。A更合适，但两项服务都无法保证按时送达。\"},{\"case_id\":\"modes-zh-CN-019\",\"text\":\"{\\\"ref\\\":\\\"CN-42\\\",\\\"items\\\":8,\\\"remark\\\":\\\"已收到8件，尚未逐件检查。\\\"}\"},{\"case_id\":\"modes-zh-CN-020\",\"text\":\"PUT /v3/profiles 更新已有资料。设置 dry_run=true 时，只检查请求，不保存修改；检查通过不代表资料已更新。\"}]}",
+  "usage": {
+    "input_tokens": 7476,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 256,
+    "reasoning_output_tokens": 0
+  }
+}

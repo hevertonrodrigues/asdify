@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9c78859fca3b39ebf99c2c635da3f39801a2b13ded157c10d9f96bf934c01602",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.115,
+      "completed_at_utc": "2026-10-09T04:03:10.295001+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-067\",\"text\":\"O parque abre às oito. Os visitantes devem manter os bilhetes até a saída. A loja fecha às cinco.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até receber a vistoria.\"},{\"case_id\":\"modes-pt-BR-069\",\"text\":\"A alça substituta continua travando em dias úmidos, condição que a equipe ainda não testou.\"},{\"case_id\":\"modes-pt-BR-070\",\"text\":\"As três caixas foram lacradas antes da impressão das etiquetas. Não sabemos quem lacrou. Ivo imprimiu as etiquetas.\"}]}",
+      "usage": {
+        "input_tokens": 4213,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 208,
+        "reasoning_output_tokens": 22
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-067\",\"text\":\"O parque abre às oito. Os visitantes devem manter os bilhetes até a saída. A loja fecha às cinco.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até receber a vistoria.\"},{\"case_id\":\"modes-pt-BR-069\",\"text\":\"A alça substituta continua travando em dias úmidos, condição que a equipe ainda não testou.\"},{\"case_id\":\"modes-pt-BR-070\",\"text\":\"As três caixas foram lacradas antes da impressão das etiquetas. Não sabemos quem lacrou. Ivo imprimiu as etiquetas.\"}]}",
+  "usage": {
+    "input_tokens": 4213,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 208,
+    "reasoning_output_tokens": 22
+  }
+}

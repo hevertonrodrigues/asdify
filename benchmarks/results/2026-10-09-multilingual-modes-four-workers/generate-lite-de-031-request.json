@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c50ff73489ebcaea6c93c65f71f091669ef8cece7845fa76a6654d16f53bae4f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.056,
+      "completed_at_utc": "2026-10-09T03:55:16.987532+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-031\",\"text\":\"Lotte hat die Regale beschriftet, die Schubladen noch nicht. Die Liste der fehlenden Schilder liegt im roten Ordner. Die Druckdatei wurde gespeichert; von wem, ist unbekannt.\"},{\"case_id\":\"modes-de-032\",\"text\":\"Paket X ist für genau 48 Becher günstiger:\\n- 3 × Paket X: 3 × 16 = 48 Becher für 3 × 12 € = 36 €.\\n- 2 × Paket Y: 2 × 24 = 48 Becher für 2 × 19 € = 38 €.\\nMit Paket X spart ihr 2 €.\"},{\"case_id\":\"modes-de-033\",\"text\":\"Der Termin ist in Einladung und Kalender mit dem 6. Februar um 14 Uhr angegeben. Beim Raum gibt es einen Widerspruch: Die Einladung nennt Raum Blau, der Kalender Raum Grün. Die Raumverwaltung hat bisher keinen der Räume bestätigt.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer liefert heute nur halbe Seiten. Bis er wieder ganze Geschichten mag, nutzt bitte den Drucker im Nebenraum. Eine Reparaturzeit kennen wir noch nicht.\"},{\"case_id\":\"modes-de-035\",\"text\":\"Es fehlt ein Foto des Gegenstands; eine Zollerklärung ist beim Versand im Inland nicht erforderlich.\"}]}",
+      "usage": {
+        "input_tokens": 7481,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 336,
+        "reasoning_output_tokens": 28
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-031\",\"text\":\"Lotte hat die Regale beschriftet, die Schubladen noch nicht. Die Liste der fehlenden Schilder liegt im roten Ordner. Die Druckdatei wurde gespeichert; von wem, ist unbekannt.\"},{\"case_id\":\"modes-de-032\",\"text\":\"Paket X ist für genau 48 Becher günstiger:\\n- 3 × Paket X: 3 × 16 = 48 Becher für 3 × 12 € = 36 €.\\n- 2 × Paket Y: 2 × 24 = 48 Becher für 2 × 19 € = 38 €.\\nMit Paket X spart ihr 2 €.\"},{\"case_id\":\"modes-de-033\",\"text\":\"Der Termin ist in Einladung und Kalender mit dem 6. Februar um 14 Uhr angegeben. Beim Raum gibt es einen Widerspruch: Die Einladung nennt Raum Blau, der Kalender Raum Grün. Die Raumverwaltung hat bisher keinen der Räume bestätigt.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer liefert heute nur halbe Seiten. Bis er wieder ganze Geschichten mag, nutzt bitte den Drucker im Nebenraum. Eine Reparaturzeit kennen wir noch nicht.\"},{\"case_id\":\"modes-de-035\",\"text\":\"Es fehlt ein Foto des Gegenstands; eine Zollerklärung ist beim Versand im Inland nicht erforderlich.\"}]}",
+  "usage": {
+    "input_tokens": 7481,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 336,
+    "reasoning_output_tokens": 28
+  }
+}

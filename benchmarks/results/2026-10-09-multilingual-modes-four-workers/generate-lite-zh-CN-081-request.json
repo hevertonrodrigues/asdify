@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "19070d216601d816821833f0d24ce31cc8a51808acf8ac301658c0583ab3e451",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.986,
+      "completed_at_utc": "2026-10-09T02:55:13.345979+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-081\",\"text\":\"尊敬的 {{name}}，案件 CN-509 正等待审核。您现在可以补充文件。仅在审核人员要求时，您才有义务补充文件。目前尚无最终决定，也未承诺作出决定的日期。\"},{\"case_id\":\"modes-zh-CN-082\",\"text\":\"我们邀请了来自两个俱乐部的50名志愿者。其中，30人完成了最终任务，12人在最终任务前退出，8人从未开始。报告的分数仅针对完成任务的30人。志愿者并非从所有俱乐部成员中随机选出。\"},{\"case_id\":\"modes-zh-CN-083\",\"text\":\"不得共用门禁卡。已登记的同事只有事先获得书面授权，才可以代持卡人领取包裹。此例外不允许进入储藏室。授权仅对一次领取有效，而非整整一周。\"},{\"case_id\":\"modes-zh-CN-084\",\"text\":\"感谢您周一阅读这份提案。我已更正您标出的三个合计数值。时间安排仍需供应商确认。在收到确认之前，请将此草稿的传阅范围限定在工作组内。\"},{\"case_id\":\"modes-zh-CN-085\",\"text\":\"保存到 /opt/demo/packages 之前，请先使用 `packager inspect --preview`。预览模式不会写入文件。如果运行 PKG-307 尚未结束，请等待其结果，再启动新的运行。\"}]}",
+      "usage": {
+        "input_tokens": 7526,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 429,
+        "reasoning_output_tokens": 75
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-081\",\"text\":\"尊敬的 {{name}}，案件 CN-509 正等待审核。您现在可以补充文件。仅在审核人员要求时，您才有义务补充文件。目前尚无最终决定，也未承诺作出决定的日期。\"},{\"case_id\":\"modes-zh-CN-082\",\"text\":\"我们邀请了来自两个俱乐部的50名志愿者。其中，30人完成了最终任务，12人在最终任务前退出，8人从未开始。报告的分数仅针对完成任务的30人。志愿者并非从所有俱乐部成员中随机选出。\"},{\"case_id\":\"modes-zh-CN-083\",\"text\":\"不得共用门禁卡。已登记的同事只有事先获得书面授权，才可以代持卡人领取包裹。此例外不允许进入储藏室。授权仅对一次领取有效，而非整整一周。\"},{\"case_id\":\"modes-zh-CN-084\",\"text\":\"感谢您周一阅读这份提案。我已更正您标出的三个合计数值。时间安排仍需供应商确认。在收到确认之前，请将此草稿的传阅范围限定在工作组内。\"},{\"case_id\":\"modes-zh-CN-085\",\"text\":\"保存到 /opt/demo/packages 之前，请先使用 `packager inspect --preview`。预览模式不会写入文件。如果运行 PKG-307 尚未结束，请等待其结果，再启动新的运行。\"}]}",
+  "usage": {
+    "input_tokens": 7526,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 429,
+    "reasoning_output_tokens": 75
+  }
+}

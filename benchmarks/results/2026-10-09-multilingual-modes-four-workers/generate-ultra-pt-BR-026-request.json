@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a984c18ad781b0b6b002b2ee2474e0cca9b5554dff2fc35b83c2c6ac378f78b6",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 46.29,
+      "completed_at_utc": "2026-10-09T05:15:03.786307+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-026\",\"text\":\"Não. A exceção vale apenas para mudanças inferiores a 20 cm na mesma área marcada. Uma mudança de exatamente 20 cm exige revisão.\"},{\"case_id\":\"modes-pt-BR-027\",\"text\":\"A matrícula só se confirma quando o pagamento é compensado; o comprovante enviado, por si só, não a confirma. Os documentos devem chegar antes da primeira aula, mas não são necessários para processar o pagamento. Se o pagamento falhar, a vaga permanece reservada por mais 48 horas.\"},{\"case_id\":\"modes-pt-BR-028\",\"text\":\"Relatórios preliminares só podem ser compartilhados fora da comissão com autorização escrita da pessoa autora. Mesmo com autorização, os telefones pessoais devem ser retirados. Totais sem nomes podem ser enviados ao setor de planejamento.\"},{\"case_id\":\"modes-pt-BR-029\",\"text\":\"O pedido deve ser recebido até as 16h UTC de 8 de junho de 2029. Enviá-lo antes do prazo não basta se ele for recebido depois. Os anexos podem chegar até dois dias úteis após o recebimento do pedido, desde que ele tenha sido recebido no prazo.\"},{\"case_id\":\"modes-pt-BR-030\",\"text\":\"A porta lateral.\"}]}",
+      "usage": {
+        "input_tokens": 7532,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 290,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-026\",\"text\":\"Não. A exceção vale apenas para mudanças inferiores a 20 cm na mesma área marcada. Uma mudança de exatamente 20 cm exige revisão.\"},{\"case_id\":\"modes-pt-BR-027\",\"text\":\"A matrícula só se confirma quando o pagamento é compensado; o comprovante enviado, por si só, não a confirma. Os documentos devem chegar antes da primeira aula, mas não são necessários para processar o pagamento. Se o pagamento falhar, a vaga permanece reservada por mais 48 horas.\"},{\"case_id\":\"modes-pt-BR-028\",\"text\":\"Relatórios preliminares só podem ser compartilhados fora da comissão com autorização escrita da pessoa autora. Mesmo com autorização, os telefones pessoais devem ser retirados. Totais sem nomes podem ser enviados ao setor de planejamento.\"},{\"case_id\":\"modes-pt-BR-029\",\"text\":\"O pedido deve ser recebido até as 16h UTC de 8 de junho de 2029. Enviá-lo antes do prazo não basta se ele for recebido depois. Os anexos podem chegar até dois dias úteis após o recebimento do pedido, desde que ele tenha sido recebido no prazo.\"},{\"case_id\":\"modes-pt-BR-030\",\"text\":\"A porta lateral.\"}]}",
+  "usage": {
+    "input_tokens": 7532,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 290,
+    "reasoning_output_tokens": 0
+  }
+}

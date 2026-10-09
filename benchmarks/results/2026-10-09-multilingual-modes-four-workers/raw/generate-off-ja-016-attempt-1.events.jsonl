@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11ef2-994a-7f71-922e-9976d15adbe8"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-ja-016\",\"text\":\"川村が見積書を確認した後、注文書が送付されました。送付者の記録はありません。納品日は未定です。\"},{\"case_id\":\"modes-ja-017\",\"text\":\"試作品は室温で2時間動作しました。高温環境では未試験です。屋外で終日使える可能性はありますが、現時点では未確認です。\"},{\"case_id\":\"modes-ja-018\",\"text\":\"45食必要です。\\n20＋25＝45食\"},{\"case_id\":\"modes-ja-019\",\"text\":\"条件に合うのは翌日配送のA社です。\\n合計費用：480円 × 30件＝14,400円\"},{\"case_id\":\"modes-ja-020\",\"text\":\"{\\\"id\\\":\\\"X-17\\\",\\\"count\\\":6,\\\"note\\\":\\\"受領した部品は6個です。確認はまだ終わっていません。\\\"}\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7554,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":230,"reasoning_output_tokens":0}}

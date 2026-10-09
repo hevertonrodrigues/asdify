@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9205b588147bd6b18ec67239543421aed0f6c9620c04c2a937d7ad849739296a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 357.11,
+      "completed_at_utc": "2026-10-09T02:34:59.533154+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-036\",\"text\":\"Le dossier est attendu le 04/05 ; le pays d’origine du formulaire n’est pas connu. Le jour et le mois doivent être confirmés.\"},{\"case_id\":\"modes-fr-037\",\"text\":\"Avant de lancer verify_archive, copiez le fichier index.csv dans le dossier backup/. Cette commande vérifie les références ; elle ne restaure aucun fichier effacé.\"},{\"case_id\":\"modes-fr-038\",\"text\":\"mode=read_only interdit les écritures dans le dossier partagé, mais permet de télécharger les fichiers. Ce réglage s’applique uniquement à la session actuelle.\"},{\"case_id\":\"modes-fr-039\",\"text\":\"Chaque équipe peut présenter deux projets. Un troisième projet est admis uniquement si l’un des deux premiers a été retiré avant la clôture. Un retrait après la clôture ne libère aucune place.\"},{\"case_id\":\"modes-fr-040\",\"text\":\"Ne déplacez le coffre qu’à vide. Même vide et équipé de roulettes, il doit être porté par deux personnes.\"}]}",
+      "usage": {
+        "input_tokens": 7455,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 238,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-036\",\"text\":\"Le dossier est attendu le 04/05 ; le pays d’origine du formulaire n’est pas connu. Le jour et le mois doivent être confirmés.\"},{\"case_id\":\"modes-fr-037\",\"text\":\"Avant de lancer verify_archive, copiez le fichier index.csv dans le dossier backup/. Cette commande vérifie les références ; elle ne restaure aucun fichier effacé.\"},{\"case_id\":\"modes-fr-038\",\"text\":\"mode=read_only interdit les écritures dans le dossier partagé, mais permet de télécharger les fichiers. Ce réglage s’applique uniquement à la session actuelle.\"},{\"case_id\":\"modes-fr-039\",\"text\":\"Chaque équipe peut présenter deux projets. Un troisième projet est admis uniquement si l’un des deux premiers a été retiré avant la clôture. Un retrait après la clôture ne libère aucune place.\"},{\"case_id\":\"modes-fr-040\",\"text\":\"Ne déplacez le coffre qu’à vide. Même vide et équipé de roulettes, il doit être porté par deux personnes.\"}]}",
+  "usage": {
+    "input_tokens": 7455,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 238,
+    "reasoning_output_tokens": 0
+  }
+}

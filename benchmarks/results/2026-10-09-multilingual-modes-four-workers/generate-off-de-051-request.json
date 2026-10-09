@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7504a03fc5eba7520f41dc177aa7b1e9f590c1e0775c0440ad2636810c24de53",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 44.244,
+      "completed_at_utc": "2026-10-09T05:08:09.363513+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-051\",\"text\":\"„Die Datei darf gelöscht werden“ drückt eine Erlaubnis aus: Das Löschen ist erlaubt, aber nicht vorgeschrieben. „Die Datei muss gelöscht werden“ drückt eine Verpflichtung aus: Das Löschen ist vorgeschrieben.\"},{\"case_id\":\"modes-de-052\",\"text\":\"Eine neue Zugangskarte kann beantragt werden, wenn die alte Karte verloren gegangen oder nicht mehr lesbar ist. Einer dieser Gründe genügt; beide müssen nicht gleichzeitig vorliegen. Der Antrag bedeutet noch keine Bewilligung.\"},{\"case_id\":\"modes-de-053\",\"text\":\"Nein, im Leseraum sind keine Tiere erlaubt.\"},{\"case_id\":\"modes-de-054\",\"text\":\"Die Montagezeit von weniger als zwölf Minuten wurde bei acht geübten Teilnehmenden beobachtet, die das Modell alle aus dem Vorjahr kannten. Da keine Neulinge teilnahmen, lässt sich daraus keine Aussage über deren Montagezeit ableiten.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Laut Lieferschein: 65 Schrauben. In der geöffneten Tüte gezählt: 64 Schrauben. Die Waage wurde nicht verwendet. Eine zweite Zählung steht aus.\"}]}",
+      "usage": {
+        "input_tokens": 7443,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 268,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-051\",\"text\":\"„Die Datei darf gelöscht werden“ drückt eine Erlaubnis aus: Das Löschen ist erlaubt, aber nicht vorgeschrieben. „Die Datei muss gelöscht werden“ drückt eine Verpflichtung aus: Das Löschen ist vorgeschrieben.\"},{\"case_id\":\"modes-de-052\",\"text\":\"Eine neue Zugangskarte kann beantragt werden, wenn die alte Karte verloren gegangen oder nicht mehr lesbar ist. Einer dieser Gründe genügt; beide müssen nicht gleichzeitig vorliegen. Der Antrag bedeutet noch keine Bewilligung.\"},{\"case_id\":\"modes-de-053\",\"text\":\"Nein, im Leseraum sind keine Tiere erlaubt.\"},{\"case_id\":\"modes-de-054\",\"text\":\"Die Montagezeit von weniger als zwölf Minuten wurde bei acht geübten Teilnehmenden beobachtet, die das Modell alle aus dem Vorjahr kannten. Da keine Neulinge teilnahmen, lässt sich daraus keine Aussage über deren Montagezeit ableiten.\"},{\"case_id\":\"modes-de-055\",\"text\":\"Laut Lieferschein: 65 Schrauben. In der geöffneten Tüte gezählt: 64 Schrauben. Die Waage wurde nicht verwendet. Eine zweite Zählung steht aus.\"}]}",
+  "usage": {
+    "input_tokens": 7443,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 268,
+    "reasoning_output_tokens": 0
+  }
+}

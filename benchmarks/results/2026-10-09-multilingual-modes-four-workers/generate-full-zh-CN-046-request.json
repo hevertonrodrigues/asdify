@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bac04a5573ca41973a33e2f7250f163322aeb850f87e2f1282ad60cf3b18000d",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.834,
+      "completed_at_utc": "2026-10-09T04:34:30.874278+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-046\",\"text\":\"总工作时长为4小时30分钟，不含休息。\"},{\"case_id\":\"modes-zh-CN-047\",\"text\":\"调查只能说明：受访的4家店的4名经理都愿意延长营业。不能据此推断其他经理也愿意延长营业，也无法判断员工和顾客的意见，因为他们没有受访。\"},{\"case_id\":\"modes-zh-CN-048\",\"text\":\"{\\\"job\\\":\\\"JOB-C6\\\",\\\"active\\\":false,\\\"text\\\":\\\"任务尚未开始，并非已经失败。\\\"}\"},{\"case_id\":\"modes-zh-CN-049\",\"text\":\"超时表示未及时收到结果，不代表处理一定失败。重新提交前，请检查任务TASK-71，它可能仍在运行。\"},{\"case_id\":\"modes-zh-CN-050\",\"text\":\"名额不得转让给他人。同一单位内可替换登记人员，但必须在活动前一天10点前获得批准。不得替换为不同单位的人员。\"}]}",
+      "usage": {
+        "input_tokens": 7435,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 243,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-046\",\"text\":\"总工作时长为4小时30分钟，不含休息。\"},{\"case_id\":\"modes-zh-CN-047\",\"text\":\"调查只能说明：受访的4家店的4名经理都愿意延长营业。不能据此推断其他经理也愿意延长营业，也无法判断员工和顾客的意见，因为他们没有受访。\"},{\"case_id\":\"modes-zh-CN-048\",\"text\":\"{\\\"job\\\":\\\"JOB-C6\\\",\\\"active\\\":false,\\\"text\\\":\\\"任务尚未开始，并非已经失败。\\\"}\"},{\"case_id\":\"modes-zh-CN-049\",\"text\":\"超时表示未及时收到结果，不代表处理一定失败。重新提交前，请检查任务TASK-71，它可能仍在运行。\"},{\"case_id\":\"modes-zh-CN-050\",\"text\":\"名额不得转让给他人。同一单位内可替换登记人员，但必须在活动前一天10点前获得批准。不得替换为不同单位的人员。\"}]}",
+  "usage": {
+    "input_tokens": 7435,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 243,
+    "reasoning_output_tokens": 0
+  }
+}

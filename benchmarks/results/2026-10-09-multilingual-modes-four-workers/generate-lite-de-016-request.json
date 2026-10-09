@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "2f8da0427914c245e785aaf3e20bee8652c37c230cd9b553d57447d714f0efb1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.696,
+      "completed_at_utc": "2026-10-09T03:44:08.354419+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client die GET-Anfrage einmal wiederholen. Für POST gilt das nicht. Scheitert der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-017\",\"text\":\"retention_days=14 legt eine Aufbewahrungsdauer von 14 Tagen nur für automatisch erstellte Vorschaubilder fest. Originaldateien werden dadurch nicht gelöscht. Die Änderung gilt nur für neu erzeugte Vorschaubilder, nicht rückwirkend.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt am Montag wie geplant um 18 Uhr. Wegen der defekten Spüle wird nicht gekocht. Stattdessen findet die Einführung in die Zutatenkunde statt. Der praktische Kochtermin wird später mitgeteilt.\"},{\"case_id\":\"modes-de-019\",\"text\":\"Ja, sonntags kannst du die Kamera von 10 bis 13 Uhr über das bewachte Empfangsfenster zurückgeben. Die Ausgabe ist geschlossen. Akkus dürfen nicht separat eingeworfen werden.\"},{\"case_id\":\"modes-de-020\",\"text\":\"Nein. Die Nachfragen nach dem Ausgang sinken zwar von 22 auf 10 pro Tag. Gleichzeitig wurde aber der zuvor gesperrte Ausgang geöffnet. Daher lässt sich der Rückgang nicht eindeutig auf die neue Beschilderung zurückführen.\"}]}",
+      "usage": {
+        "input_tokens": 7481,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 300,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-016\",\"text\":\"Bei HTTP 408 darf der Client die GET-Anfrage einmal wiederholen. Für POST gilt das nicht. Scheitert der zweite Versuch, soll eine Fehlermeldung angezeigt werden.\"},{\"case_id\":\"modes-de-017\",\"text\":\"retention_days=14 legt eine Aufbewahrungsdauer von 14 Tagen nur für automatisch erstellte Vorschaubilder fest. Originaldateien werden dadurch nicht gelöscht. Die Änderung gilt nur für neu erzeugte Vorschaubilder, nicht rückwirkend.\"},{\"case_id\":\"modes-de-018\",\"text\":\"Der Kurs beginnt am Montag wie geplant um 18 Uhr. Wegen der defekten Spüle wird nicht gekocht. Stattdessen findet die Einführung in die Zutatenkunde statt. Der praktische Kochtermin wird später mitgeteilt.\"},{\"case_id\":\"modes-de-019\",\"text\":\"Ja, sonntags kannst du die Kamera von 10 bis 13 Uhr über das bewachte Empfangsfenster zurückgeben. Die Ausgabe ist geschlossen. Akkus dürfen nicht separat eingeworfen werden.\"},{\"case_id\":\"modes-de-020\",\"text\":\"Nein. Die Nachfragen nach dem Ausgang sinken zwar von 22 auf 10 pro Tag. Gleichzeitig wurde aber der zuvor gesperrte Ausgang geöffnet. Daher lässt sich der Rückgang nicht eindeutig auf die neue Beschilderung zurückführen.\"}]}",
+  "usage": {
+    "input_tokens": 7481,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 300,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a50aed61e52aaf9d348de29682f49f7ec6c98fb622a7a8e0412c61244f221c1c",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 30.893,
+      "completed_at_utc": "2026-10-09T05:21:19.014629+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ru-056\",\"text\":\"Чтобы посмотреть очередь без изменения записей, выполните `queue show --view-only`. Команда не удаляет записи.\"},{\"case_id\":\"modes-ru-057\",\"text\":\"- Маршрут R-61 не работает 14 февраля.\\n- Маршрут R-62 работает.\\n- Возврат можно запросить, но деньги не выплачиваются автоматически.\"},{\"case_id\":\"modes-ru-058\",\"text\":\"AUD-3 | ожидание | 0/21 проверено\"},{\"case_id\":\"modes-ru-059\",\"text\":\"Сохраните черновик в /notes/2031/review_final.md. Оставьте READY=false до одобрения редактором. Сохранение файла не означает одобрение.\"},{\"case_id\":\"modes-ru-060\",\"text\":\"{\\\"code\\\":\\\"HOLD_6\\\",\\\"pause_seconds\\\":75,\\\"description\\\":\\\"Пауза 75 секунд рекомендуется, но не обязательна.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7467,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 226,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ru-056\",\"text\":\"Чтобы посмотреть очередь без изменения записей, выполните `queue show --view-only`. Команда не удаляет записи.\"},{\"case_id\":\"modes-ru-057\",\"text\":\"- Маршрут R-61 не работает 14 февраля.\\n- Маршрут R-62 работает.\\n- Возврат можно запросить, но деньги не выплачиваются автоматически.\"},{\"case_id\":\"modes-ru-058\",\"text\":\"AUD-3 | ожидание | 0/21 проверено\"},{\"case_id\":\"modes-ru-059\",\"text\":\"Сохраните черновик в /notes/2031/review_final.md. Оставьте READY=false до одобрения редактором. Сохранение файла не означает одобрение.\"},{\"case_id\":\"modes-ru-060\",\"text\":\"{\\\"code\\\":\\\"HOLD_6\\\",\\\"pause_seconds\\\":75,\\\"description\\\":\\\"Пауза 75 секунд рекомендуется, но не обязательна.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7467,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 226,
+    "reasoning_output_tokens": 0
+  }
+}

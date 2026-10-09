@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a4901c7b75852d6eb5b17dbbd651cf77d7bfca158409d8df3fe9b95e587f5dd7",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.251,
+      "completed_at_utc": "2026-10-09T03:27:39.067379+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-011\",\"text\":\"Sur les 72 demandes, 18 ont été traitées le jour même, soit 25 %, et parmi ces 18 demandes, 6 provenaient du formulaire en ligne.\"},{\"case_id\":\"modes-fr-012\",\"text\":\"L’enquête porte sur 43 personnes ayant répondu volontairement à un questionnaire affiché dans un atelier de réparation, sans tirage au sort ni contact avec les clients absents ce jour-là ; ses résultats ne peuvent donc pas être considérés comme représentatifs de l’ensemble des clients.\"},{\"case_id\":\"modes-fr-013\",\"text\":\"Le coût total est de (7 × 18 €) + 12 € = 126 € + 12 € = 138 €.\"},{\"case_id\":\"modes-fr-014\",\"text\":\"Dans cet exercice fictif, le taux passe de 32 % à 38 %, soit une hausse de 6 points de pourcentage.\"},{\"case_id\":\"modes-fr-015\",\"text\":\"Le compte rendu indique 14 sièges disponibles, tandis que le plan de salle daté du même jour en montre 16. Aucun des deux documents n’a été validé : le nombre de sièges disponibles reste donc à confirmer.\"}]}",
+      "usage": {
+        "input_tokens": 7440,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 272,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-011\",\"text\":\"Sur les 72 demandes, 18 ont été traitées le jour même, soit 25 %, et parmi ces 18 demandes, 6 provenaient du formulaire en ligne.\"},{\"case_id\":\"modes-fr-012\",\"text\":\"L’enquête porte sur 43 personnes ayant répondu volontairement à un questionnaire affiché dans un atelier de réparation, sans tirage au sort ni contact avec les clients absents ce jour-là ; ses résultats ne peuvent donc pas être considérés comme représentatifs de l’ensemble des clients.\"},{\"case_id\":\"modes-fr-013\",\"text\":\"Le coût total est de (7 × 18 €) + 12 € = 126 € + 12 € = 138 €.\"},{\"case_id\":\"modes-fr-014\",\"text\":\"Dans cet exercice fictif, le taux passe de 32 % à 38 %, soit une hausse de 6 points de pourcentage.\"},{\"case_id\":\"modes-fr-015\",\"text\":\"Le compte rendu indique 14 sièges disponibles, tandis que le plan de salle daté du même jour en montre 16. Aucun des deux documents n’a été validé : le nombre de sièges disponibles reste donc à confirmer.\"}]}",
+  "usage": {
+    "input_tokens": 7440,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 272,
+    "reasoning_output_tokens": 0
+  }
+}

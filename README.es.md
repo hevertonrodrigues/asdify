@@ -162,7 +162,7 @@ Especifica el idioma o la variante de destino. La traducción conserva el signif
 
 ## Verificación y soporte
 
-Una respuesta más corta que cambia un hecho importante falla la evaluación. El repositorio incluye casos de revisión y traducción en nueve idiomas, una rúbrica humana y un [protocolo de evaluación reproducible](benchmarks/README.md). Las [pruebas registradas de 100 casos](benchmarks/results/README.md) usan un modelo en modo `full` y dos revisiones ciegas por modelo; los fallos iniciales llevaron a corregir las reglas de preservación. **La fiabilidad general y las mejoras amplias de calidad siguen sin demostrarse.** Consulta la [verificación del paquete](docs/VERIFICATION.md) y la [compatibilidad](docs/COMPATIBILITY.md).
+Una respuesta más corta que cambia un hecho importante falla la evaluación. El [estudio de los cuatro modos](benchmarks/multilingual-modes/README.md) usa 100 casos nuevos por cada uno de los nueve idiomas de salida: 900 casos distintos, ejecutados en `lite`, `full`, `ultra` y `off`, más un control sin la skill. Son 3.600 pruebas de los modos y 4.500 respuestas, con dos revisiones ciegas por un modelo de la misma familia que el generador. Consulta las [pruebas registradas](benchmarks/results/README.md) y el [protocolo de evaluación reproducible](benchmarks/README.md). Los casos son sintéticos y algunos patrones de escenario se repiten entre idiomas, por lo que las observaciones no son independientes. **La fiabilidad general y las mejoras amplias de calidad siguen sin demostrarse.** La [verificación del paquete](docs/VERIFICATION.md) y la [compatibilidad](docs/COMPATIBILITY.md) cubren comprobaciones separadas.
 
 | Problema | Dónde obtener ayuda |
 | --- | --- |

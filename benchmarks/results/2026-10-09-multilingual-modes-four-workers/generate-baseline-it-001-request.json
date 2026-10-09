@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4b8bd9a572de5b4a3aaeae0eb0bee955107a981183cb8fe5b1936df48b1f8587",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.779,
+      "completed_at_utc": "2026-10-09T04:06:52.342987+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-001\",\"text\":\"« Riponi i pennelli nella scatola dopo averli lavati. »\"},{\"case_id\":\"modes-it-002\",\"text\":\"Puoi portare un grembiule personale, ma non è obbligatorio. Durante la dimostrazione devi usare gli occhiali forniti.\"},{\"case_id\":\"modes-it-003\",\"text\":\"Puoi aprire il cortile solo se il passaggio è libero e il referente ha dato il consenso. Il passaggio libero non basta.\"},{\"case_id\":\"modes-it-004\",\"text\":\"La prenotazione è già confermata: non annullarla se manca il numero del tavolo. Aggiungi solo il numero quando verrà assegnato.\"},{\"case_id\":\"modes-it-005\",\"text\":\"Per prendere in prestito una borsa serve una cauzione, tranne se la usi solo all’interno del laboratorio. Se la porti fuori, devi versare la cauzione.\"}]}",
+      "usage": {
+        "input_tokens": 4174,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 360,
+        "reasoning_output_tokens": 135
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-001\",\"text\":\"« Riponi i pennelli nella scatola dopo averli lavati. »\"},{\"case_id\":\"modes-it-002\",\"text\":\"Puoi portare un grembiule personale, ma non è obbligatorio. Durante la dimostrazione devi usare gli occhiali forniti.\"},{\"case_id\":\"modes-it-003\",\"text\":\"Puoi aprire il cortile solo se il passaggio è libero e il referente ha dato il consenso. Il passaggio libero non basta.\"},{\"case_id\":\"modes-it-004\",\"text\":\"La prenotazione è già confermata: non annullarla se manca il numero del tavolo. Aggiungi solo il numero quando verrà assegnato.\"},{\"case_id\":\"modes-it-005\",\"text\":\"Per prendere in prestito una borsa serve una cauzione, tranne se la usi solo all’interno del laboratorio. Se la porti fuori, devi versare la cauzione.\"}]}",
+  "usage": {
+    "input_tokens": 4174,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 360,
+    "reasoning_output_tokens": 135
+  }
+}

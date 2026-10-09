@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11f08-726a-7221-9bce-7572d102b7a3"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-ja-041\",\"text\":\"会場：西館2階\\n開場：18:30\"},{\"case_id\":\"modes-ja-042\",\"text\":\"承認済みの合計金額は20,000円です。\"},{\"case_id\":\"modes-ja-043\",\"text\":\"受付は原則、予約者本人が行います。本人が移動できず、事前に代理申請が承認されている場合に限り、登録した代理人が手続きできます。口頭の了承だけでは認められません。\"},{\"case_id\":\"modes-ja-044\",\"text\":\"水曜に端末12台を交換し、10台は動作確認済み、2台はネットワーク接続を確認中です。旧端末は回収済みですが、データ消去は未完了です。\"},{\"case_id\":\"modes-ja-045\",\"text\":\"資料は次の木曜に営業部へ送ります。ただし、メモの作成日が記録されていないため、具体的な送付日は不明です。受取人は未定です。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7524,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":264,"reasoning_output_tokens":0}}

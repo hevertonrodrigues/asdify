@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "d6af184be9519d83f9a7678b4d017725ec4cd97229333a4b0c8a81334baf6e9f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.622,
+      "completed_at_utc": "2026-10-09T03:00:33.903368+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-056\",\"text\":\"To view the pending queue without changing it, run `queue inspect --readonly`. This command does not remove any entries.\"},{\"case_id\":\"modes-en-057\",\"text\":\"- Route R-17 is suspended on 10 November.\\n- Route R-18 still runs.\\n- Refund requests are optional; payments are not automatic.\"},{\"case_id\":\"modes-en-058\",\"text\":\"QA-4 | pending | 0/12 checked\"},{\"case_id\":\"modes-en-059\",\"text\":\"Save the draft to /reports/2029/final_note.md. Set REVIEW_READY=false until the editor approves it. Saving the file does not mean it has been approved.\"},{\"case_id\":\"modes-en-060\",\"text\":\"{\\\"code\\\":\\\"WAIT_7\\\",\\\"retry_seconds\\\":45,\\\"description\\\":\\\"The 45-second wait is recommended, not compulsory.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7441,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 204,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-056\",\"text\":\"To view the pending queue without changing it, run `queue inspect --readonly`. This command does not remove any entries.\"},{\"case_id\":\"modes-en-057\",\"text\":\"- Route R-17 is suspended on 10 November.\\n- Route R-18 still runs.\\n- Refund requests are optional; payments are not automatic.\"},{\"case_id\":\"modes-en-058\",\"text\":\"QA-4 | pending | 0/12 checked\"},{\"case_id\":\"modes-en-059\",\"text\":\"Save the draft to /reports/2029/final_note.md. Set REVIEW_READY=false until the editor approves it. Saving the file does not mean it has been approved.\"},{\"case_id\":\"modes-en-060\",\"text\":\"{\\\"code\\\":\\\"WAIT_7\\\",\\\"retry_seconds\\\":45,\\\"description\\\":\\\"The 45-second wait is recommended, not compulsory.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7441,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 204,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e98-e683-7d22-90c2-5e7290c6e48e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-en-066\",\"text\":\"The electrician.\"},{\"case_id\":\"modes-en-067\",\"text\":\"The hall opens at noon. Visitors must keep their tickets until they leave. The café closes at four.\"},{\"case_id\":\"modes-en-068\",\"text\":\"No. The fence decision was deferred until the survey.\"},{\"case_id\":\"modes-en-069\",\"text\":\"The replacement latch still sticks on cold mornings, a condition the team has not tested.\"},{\"case_id\":\"modes-en-070\",\"text\":\"The two boxes were sealed before the labels were printed. Who sealed them is unknown. Jo printed the labels.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":4170,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":149,"reasoning_output_tokens":0}}

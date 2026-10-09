@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "e17987f104fd08ec832a12e5118430f6275d83e06bf5e6db08438d50aa2f5151",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.378,
+      "completed_at_utc": "2026-10-09T03:55:17.072483+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-031\",\"text\":\"Lotte hat die Regale beschriftet; die Schubladen fehlen noch. Die Liste der fehlenden Schilder liegt im roten Ordner. Die Druckdatei ist gespeichert; von wem, ist unbekannt.\"},{\"case_id\":\"modes-de-032\",\"text\":\"Für genau 48 Becher ist Paket X günstiger:\\n- 3 × Paket X: 48 Becher für 36 €.\\n- 2 × Paket Y: 48 Becher für 38 €.\\n\\nPaket X spart 2 €. Eine Mischung ergibt nicht genau 48 Becher; Einzelbecher sind nicht erhältlich.\"},{\"case_id\":\"modes-de-033\",\"text\":\"Termin: 6. Februar, 14 Uhr. Der Raum ist ungeklärt: Die Einladung nennt Raum Blau, der Kalender Raum Grün. Die Raumverwaltung hat bisher keinen bestätigt.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer liefert heute nur halbe Geschichten. Nutzt bitte den Drucker im Nebenraum, bis er wieder ganze Seiten mag. Die Reparaturzeit ist noch unbekannt.\"},{\"case_id\":\"modes-de-035\",\"text\":\"Es fehlt ein Foto des Gegenstands; eine Zollerklärung ist beim Inlandsversand nicht erforderlich.\"}]}",
+      "usage": {
+        "input_tokens": 7481,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 285,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-031\",\"text\":\"Lotte hat die Regale beschriftet; die Schubladen fehlen noch. Die Liste der fehlenden Schilder liegt im roten Ordner. Die Druckdatei ist gespeichert; von wem, ist unbekannt.\"},{\"case_id\":\"modes-de-032\",\"text\":\"Für genau 48 Becher ist Paket X günstiger:\\n- 3 × Paket X: 48 Becher für 36 €.\\n- 2 × Paket Y: 48 Becher für 38 €.\\n\\nPaket X spart 2 €. Eine Mischung ergibt nicht genau 48 Becher; Einzelbecher sind nicht erhältlich.\"},{\"case_id\":\"modes-de-033\",\"text\":\"Termin: 6. Februar, 14 Uhr. Der Raum ist ungeklärt: Die Einladung nennt Raum Blau, der Kalender Raum Grün. Die Raumverwaltung hat bisher keinen bestätigt.\"},{\"case_id\":\"modes-de-034\",\"text\":\"Unser Kopierer liefert heute nur halbe Geschichten. Nutzt bitte den Drucker im Nebenraum, bis er wieder ganze Seiten mag. Die Reparaturzeit ist noch unbekannt.\"},{\"case_id\":\"modes-de-035\",\"text\":\"Es fehlt ein Foto des Gegenstands; eine Zollerklärung ist beim Inlandsversand nicht erforderlich.\"}]}",
+  "usage": {
+    "input_tokens": 7481,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 285,
+    "reasoning_output_tokens": 0
+  }
+}

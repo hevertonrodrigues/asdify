@@ -1,6 +1,12 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 (2026-10-09)
+
+- Added 900 new synthetic cases: 100 per documented language, each tested in `lite`, `full`, `ultra`, and `off` against a no-skill control. Published 4,500 generated answers, 9,000 blinded candidate ratings, and a percentage table by language and mode. `full` recorded 98.33% strict passes versus 93.22% without the skill on this sample; these model-reviewed scores do not establish general reliability.
+- Added frozen generation/review prompts, calibration controls, raw CLI evidence, complete answer pages, and reproducible audits for the mode study. Added 78 evaluation integrity tests, bringing the repository suite to 162, and included the completed study in CI auditing without model calls.
+- Limited the live continuation to four workers after the initial 32-worker attempt caused computer load. Preserved all 185 returned answers and the original interrupted attempts; a separate audit verifies that continuation provenance. Documented explicit worker limits and lower-load options.
+- Preserved four malformed review ratings that repeated a meaning-check ID. A sealed processing amendment adopted after outputs were available counts the affected answers as uncertain/non-passing and retains every raw check; the published table discloses this analysis change.
+- Published a supplemental blinded source audit of 164 cases and 820 candidates. It separates meaning, voice, and format, documents disagreement and missed errors, and preserves the original strict scores. Added a subset runner with a two-worker default and a four-worker ceiling for prospective development retests.
 
 - Added 100 new paired live-model test cases with 373 meaning checks, nine locales, blinded double model review, exact-format checks, grader calibration, and reproducible raw-evidence auditing.
 - Published the initial comparison (97/100 strict skill-assisted passes versus 92/100 baseline) and a fresh revised-skill regression (99/100 versus 91/100), including all answers, failures, and context-dependent grading disagreements. Strengthened preservation of unnamed actors and sample-selection methods in the canonical skill and compact adapters. The follow-up reuses development cases and is not held-out evidence of general reliability.

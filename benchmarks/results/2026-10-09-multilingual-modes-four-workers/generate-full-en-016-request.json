@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0f535adf48f586d17a95db8f0295799bd81cd8e431e34d6b6a1f3bb3f71efebe",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.595,
+      "completed_at_utc": "2026-10-09T03:55:08.158017+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-016\",\"text\":\"Across 40 completed deliveries, the average (mean) delivery time was 3.5 days and the median was 2 days. The mean includes two deliveries delayed by more than 10 days. Canceled orders were excluded. These figures are not a promised delivery time.\"},{\"case_id\":\"modes-en-017\",\"text\":\"Workshop A had the higher attendance rate: 60% (36 of 60), compared with Workshop B’s 50% (45 of 90).\"},{\"case_id\":\"modes-en-018\",\"text\":\"On our test machine, exporting a file of about 18 GB is expected to take 45–70 minutes. This is an estimate, not a maximum. We have not tested your machine or network. The file size refers to the uncompressed export.\"},{\"case_id\":\"modes-en-019\",\"text\":\"The pond sample contained 0.8 mg/L of phosphate; the laboratory’s reporting limit is 0.1 mg/L. The sample was collected once, at the north bank at 09:00. It does not represent measurements throughout the pond or through the day.\"},{\"case_id\":\"modes-en-020\",\"text\":\"Attendance was 15%, not 18%: 18 of the 120 invited members attended. The denominator is all 120 members on the invitation list; no guest attendees were counted.\"}]}",
+      "usage": {
+        "input_tokens": 7518,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 305,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-016\",\"text\":\"Across 40 completed deliveries, the average (mean) delivery time was 3.5 days and the median was 2 days. The mean includes two deliveries delayed by more than 10 days. Canceled orders were excluded. These figures are not a promised delivery time.\"},{\"case_id\":\"modes-en-017\",\"text\":\"Workshop A had the higher attendance rate: 60% (36 of 60), compared with Workshop B’s 50% (45 of 90).\"},{\"case_id\":\"modes-en-018\",\"text\":\"On our test machine, exporting a file of about 18 GB is expected to take 45–70 minutes. This is an estimate, not a maximum. We have not tested your machine or network. The file size refers to the uncompressed export.\"},{\"case_id\":\"modes-en-019\",\"text\":\"The pond sample contained 0.8 mg/L of phosphate; the laboratory’s reporting limit is 0.1 mg/L. The sample was collected once, at the north bank at 09:00. It does not represent measurements throughout the pond or through the day.\"},{\"case_id\":\"modes-en-020\",\"text\":\"Attendance was 15%, not 18%: 18 of the 120 invited members attended. The denominator is all 120 members on the invitation list; no guest attendees were counted.\"}]}",
+  "usage": {
+    "input_tokens": 7518,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 305,
+    "reasoning_output_tokens": 0
+  }
+}

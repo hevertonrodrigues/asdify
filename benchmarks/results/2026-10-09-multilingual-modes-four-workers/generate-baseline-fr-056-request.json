@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "82c191082f989b870dfef1040c662f44aabd195b0fef5b5e59590cd70a656df1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.204,
+      "completed_at_utc": "2026-10-09T03:17:07.833977+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-056\",\"text\":\"Chaque caisse peut peser au maximum 12 kg, contenant inclus. Une expédition peut comprendre jusqu’à trois caisses. La limite de 12 kg s’applique à chaque caisse, et non à l’expédition entière.\"},{\"case_id\":\"modes-fr-057\",\"text\":\"Dans la version 2.4, le filtre archived=false masque les éléments archivés sans les supprimer. Les exports lancés avant la mise à jour continuent d’utiliser l’ancien filtre jusqu’à leur fin.\"},{\"case_id\":\"modes-fr-058\",\"text\":\"Non. Dans la simulation, le délai médian de l’ensemble passe de 8 à 6 jours, mais cela ne signifie pas que le délai de chaque dossier a baissé. Sans les délais individuels, on ne peut pas l’affirmer.\"},{\"case_id\":\"modes-fr-059\",\"text\":\"La pluie tapait doucement à la vitre. Sur la table, trois tasses froides attendaient encore. Depuis le matin, personne n’était revenu.\"},{\"case_id\":\"modes-fr-060\",\"text\":\"Réservation suspendue — référence R-28.\"}]}",
+      "usage": {
+        "input_tokens": 4151,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 256,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-056\",\"text\":\"Chaque caisse peut peser au maximum 12 kg, contenant inclus. Une expédition peut comprendre jusqu’à trois caisses. La limite de 12 kg s’applique à chaque caisse, et non à l’expédition entière.\"},{\"case_id\":\"modes-fr-057\",\"text\":\"Dans la version 2.4, le filtre archived=false masque les éléments archivés sans les supprimer. Les exports lancés avant la mise à jour continuent d’utiliser l’ancien filtre jusqu’à leur fin.\"},{\"case_id\":\"modes-fr-058\",\"text\":\"Non. Dans la simulation, le délai médian de l’ensemble passe de 8 à 6 jours, mais cela ne signifie pas que le délai de chaque dossier a baissé. Sans les délais individuels, on ne peut pas l’affirmer.\"},{\"case_id\":\"modes-fr-059\",\"text\":\"La pluie tapait doucement à la vitre. Sur la table, trois tasses froides attendaient encore. Depuis le matin, personne n’était revenu.\"},{\"case_id\":\"modes-fr-060\",\"text\":\"Réservation suspendue — référence R-28.\"}]}",
+  "usage": {
+    "input_tokens": 4151,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 256,
+    "reasoning_output_tokens": 0
+  }
+}

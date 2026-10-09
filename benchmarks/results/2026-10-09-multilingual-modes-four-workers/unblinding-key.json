@@ -1,0 +1,6302 @@
+{
+  "modes-en-001": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-en-002": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-003": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-en-004": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-en-005": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-006": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-007": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-en-008": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-009": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-en-010": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-en-011": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-en-012": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-013": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-014": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-en-015": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-en-016": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-en-017": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-018": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-en-019": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-020": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-en-021": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-022": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-023": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-en-024": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-en-025": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-026": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-027": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-en-028": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-en-029": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-en-030": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-031": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-032": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-en-033": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-en-034": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-en-035": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-en-036": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-en-037": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-en-038": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-en-039": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-en-040": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-041": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-en-042": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-en-043": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-en-044": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-en-045": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-en-046": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-047": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-048": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-en-049": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-050": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-en-051": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-en-052": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-053": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-en-054": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-en-055": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-en-056": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-en-057": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-058": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-059": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-en-060": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-061": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-en-062": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-en-063": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-064": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-en-065": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-en-066": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-067": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-en-068": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-en-069": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-en-070": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-en-071": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-en-072": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-en-073": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-en-074": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-075": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-en-076": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-en-077": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-en-078": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-079": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-080": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-081": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-en-082": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-en-083": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-en-084": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-085": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-086": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-en-087": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-en-088": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-089": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-en-090": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-091": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-en-092": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-en-093": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-en-094": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-en-095": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-en-096": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-en-097": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-en-098": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-en-099": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-en-100": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-pt-BR-001": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-002": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-pt-BR-003": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-pt-BR-004": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-pt-BR-005": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-pt-BR-006": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-pt-BR-007": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-pt-BR-008": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-009": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-pt-BR-010": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-pt-BR-011": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-pt-BR-012": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-013": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-pt-BR-014": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-pt-BR-015": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-016": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-pt-BR-017": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-pt-BR-018": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-019": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-pt-BR-020": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-pt-BR-021": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-pt-BR-022": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-023": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-pt-BR-024": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-pt-BR-025": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-026": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-027": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-pt-BR-028": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-pt-BR-029": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-pt-BR-030": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-031": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-032": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-033": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-pt-BR-034": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-pt-BR-035": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-pt-BR-036": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-037": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-pt-BR-038": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-pt-BR-039": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-pt-BR-040": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-pt-BR-041": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-pt-BR-042": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-043": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-044": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-045": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-pt-BR-046": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-pt-BR-047": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-048": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-pt-BR-049": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-pt-BR-050": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-pt-BR-051": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-pt-BR-052": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-053": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-pt-BR-054": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-055": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-pt-BR-056": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-pt-BR-057": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-pt-BR-058": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-pt-BR-059": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-060": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-pt-BR-061": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-pt-BR-062": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-pt-BR-063": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-pt-BR-064": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-065": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-pt-BR-066": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-pt-BR-067": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-068": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-069": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-pt-BR-070": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-pt-BR-071": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-072": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-pt-BR-073": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-pt-BR-074": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-pt-BR-075": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-pt-BR-076": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-077": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-078": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-pt-BR-079": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-080": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-pt-BR-081": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-pt-BR-082": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-pt-BR-083": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-pt-BR-084": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-pt-BR-085": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-pt-BR-086": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-pt-BR-087": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-pt-BR-088": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-pt-BR-089": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-090": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-pt-BR-091": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-pt-BR-092": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-pt-BR-093": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-pt-BR-094": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-pt-BR-095": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-pt-BR-096": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-pt-BR-097": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-pt-BR-098": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-pt-BR-099": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-pt-BR-100": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-es-001": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-002": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-003": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-es-004": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-005": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-006": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-es-007": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-008": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-es-009": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-es-010": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-011": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-es-012": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-013": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-014": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-015": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-es-016": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-017": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-018": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-019": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-es-020": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-es-021": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-es-022": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-es-023": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-es-024": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-es-025": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-es-026": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-es-027": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-es-028": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-029": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-es-030": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-031": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-es-032": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-033": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-es-034": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-es-035": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-es-036": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-es-037": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-038": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-039": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-040": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-041": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-es-042": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-es-043": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-es-044": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-es-045": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-046": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-es-047": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-es-048": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-es-049": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-es-050": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-es-051": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-es-052": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-es-053": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-054": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-es-055": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-056": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-es-057": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-es-058": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-es-059": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-es-060": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-061": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-es-062": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-063": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-es-064": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-065": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-es-066": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-067": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-es-068": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-069": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-es-070": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-es-071": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-es-072": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-es-073": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-es-074": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-075": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-es-076": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-es-077": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-078": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-es-079": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-es-080": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-es-081": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-es-082": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-es-083": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-es-084": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-es-085": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-es-086": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-es-087": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-es-088": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-es-089": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-es-090": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-es-091": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-es-092": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-es-093": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-es-094": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-es-095": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-es-096": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-es-097": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-es-098": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-es-099": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-es-100": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-fr-001": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-fr-002": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-fr-003": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-fr-004": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-fr-005": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-fr-006": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-007": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-008": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-fr-009": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-010": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-011": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-fr-012": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-fr-013": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-014": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-fr-015": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-fr-016": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-fr-017": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-fr-018": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-fr-019": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-020": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-fr-021": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-fr-022": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-fr-023": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-024": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-fr-025": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-fr-026": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-fr-027": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-fr-028": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-029": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-fr-030": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-fr-031": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-032": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-033": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-034": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-fr-035": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-fr-036": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-fr-037": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-038": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-fr-039": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-fr-040": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-041": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-042": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-043": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-044": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-fr-045": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-046": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-fr-047": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-fr-048": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-049": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-fr-050": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-fr-051": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-052": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-053": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-fr-054": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-055": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-fr-056": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-fr-057": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-058": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-fr-059": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-060": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-061": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-fr-062": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-fr-063": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-fr-064": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-fr-065": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-fr-066": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-067": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-fr-068": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-069": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-070": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-071": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-072": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-fr-073": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-074": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-fr-075": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-fr-076": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-077": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-fr-078": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-079": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-fr-080": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-fr-081": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-082": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-fr-083": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-fr-084": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-fr-085": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-fr-086": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-fr-087": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-fr-088": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-fr-089": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-fr-090": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-091": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-fr-092": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-fr-093": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-fr-094": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-fr-095": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-fr-096": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-fr-097": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-098": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-fr-099": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-fr-100": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-001": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-de-002": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-de-003": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-de-004": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-de-005": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-de-006": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-de-007": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-de-008": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-009": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-de-010": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-011": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-de-012": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-de-013": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-014": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-de-015": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-016": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-de-017": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-018": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-019": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-020": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-021": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-022": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-de-023": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-024": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-025": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-026": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-027": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-028": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-de-029": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-030": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-031": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-de-032": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-de-033": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-de-034": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-035": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-de-036": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-037": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-038": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-de-039": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-de-040": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-041": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-de-042": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-043": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-044": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-045": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-de-046": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-047": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-de-048": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-049": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-de-050": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-de-051": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-de-052": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-de-053": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-054": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-055": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-056": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-de-057": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-058": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-059": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-060": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-de-061": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-062": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-063": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-de-064": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-de-065": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-de-066": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-067": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-de-068": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-069": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-de-070": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-de-071": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-072": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-073": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-de-074": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-de-075": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-076": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-de-077": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-de-078": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-079": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-de-080": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-de-081": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-de-082": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-de-083": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-084": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-de-085": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-de-086": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-de-087": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-de-088": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-089": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-de-090": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-de-091": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-de-092": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-de-093": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-094": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-de-095": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-de-096": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-de-097": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-de-098": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-de-099": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-de-100": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ja-001": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ja-002": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ja-003": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-004": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ja-005": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ja-006": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-007": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ja-008": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ja-009": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ja-010": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-011": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ja-012": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-ja-013": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-014": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ja-015": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ja-016": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ja-017": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ja-018": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-019": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ja-020": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ja-021": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-022": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ja-023": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ja-024": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ja-025": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ja-026": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-027": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ja-028": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ja-029": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-ja-030": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ja-031": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ja-032": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ja-033": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ja-034": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ja-035": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ja-036": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ja-037": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-038": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-ja-039": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-ja-040": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ja-041": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ja-042": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ja-043": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ja-044": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ja-045": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ja-046": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ja-047": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-048": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ja-049": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ja-050": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ja-051": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-052": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ja-053": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ja-054": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ja-055": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ja-056": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-057": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ja-058": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ja-059": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-060": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ja-061": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ja-062": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-063": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ja-064": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-065": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-066": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ja-067": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ja-068": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ja-069": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ja-070": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ja-071": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ja-072": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-ja-073": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ja-074": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ja-075": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ja-076": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ja-077": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ja-078": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-079": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ja-080": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ja-081": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-082": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ja-083": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ja-084": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-085": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-ja-086": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ja-087": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-088": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ja-089": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ja-090": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ja-091": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-092": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ja-093": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ja-094": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ja-095": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ja-096": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ja-097": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ja-098": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ja-099": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ja-100": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-zh-CN-001": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-002": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-zh-CN-003": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-zh-CN-004": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-zh-CN-005": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-zh-CN-006": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-007": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-zh-CN-008": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-009": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-010": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-zh-CN-011": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-012": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-013": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-zh-CN-014": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-015": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-016": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-017": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-018": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-zh-CN-019": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-020": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-zh-CN-021": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-022": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-023": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-024": {
+    "A": "full",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-025": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-zh-CN-026": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-zh-CN-027": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-zh-CN-028": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-zh-CN-029": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-zh-CN-030": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-zh-CN-031": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-032": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-zh-CN-033": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-zh-CN-034": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-035": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-zh-CN-036": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-037": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-038": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-zh-CN-039": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-040": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-zh-CN-041": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-zh-CN-042": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-043": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-zh-CN-044": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-045": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-zh-CN-046": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-zh-CN-047": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-048": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-049": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-050": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-zh-CN-051": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-052": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-zh-CN-053": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-zh-CN-054": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-zh-CN-055": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-zh-CN-056": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-057": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-zh-CN-058": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-zh-CN-059": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-zh-CN-060": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-zh-CN-061": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-062": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-zh-CN-063": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-zh-CN-064": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-065": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-zh-CN-066": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-zh-CN-067": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-zh-CN-068": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-069": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-zh-CN-070": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-zh-CN-071": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-072": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-073": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-zh-CN-074": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-075": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-zh-CN-076": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-zh-CN-077": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-zh-CN-078": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-zh-CN-079": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-zh-CN-080": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-zh-CN-081": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-zh-CN-082": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-zh-CN-083": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-zh-CN-084": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-zh-CN-085": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-zh-CN-086": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-087": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-zh-CN-088": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-089": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-zh-CN-090": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-zh-CN-091": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-zh-CN-092": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-zh-CN-093": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-zh-CN-094": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-zh-CN-095": {
+    "A": "lite",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-zh-CN-096": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-zh-CN-097": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-zh-CN-098": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-zh-CN-099": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-zh-CN-100": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-it-001": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-002": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-it-003": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-it-004": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-005": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-006": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-it-007": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-008": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-009": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-it-010": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-011": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-012": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-it-013": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-014": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-015": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-it-016": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-017": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-it-018": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-it-019": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-it-020": {
+    "A": "ultra",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-021": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-022": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-023": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-024": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-it-025": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-it-026": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-027": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-it-028": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-029": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-it-030": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-031": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-032": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-033": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-034": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-it-035": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-it-036": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-it-037": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-it-038": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-039": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-it-040": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-041": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-it-042": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-043": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-044": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-045": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-046": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-047": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-it-048": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-049": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-it-050": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-it-051": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-it-052": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-053": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-054": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-it-055": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-056": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-it-057": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-it-058": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-it-059": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-it-060": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-061": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-062": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-063": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-064": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-it-065": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-it-066": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-it-067": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-it-068": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-it-069": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-it-070": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-071": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-it-072": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-it-073": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-it-074": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-075": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-it-076": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-it-077": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-it-078": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-it-079": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-it-080": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-081": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-it-082": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-it-083": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-it-084": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-it-085": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-it-086": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-087": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-088": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-it-089": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-it-090": {
+    "A": "full",
+    "B": "baseline",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-it-091": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-092": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-093": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-094": {
+    "A": "off",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-it-095": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-it-096": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-it-097": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-it-098": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-it-099": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-it-100": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ru-001": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-002": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ru-003": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ru-004": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ru-005": {
+    "A": "baseline",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ru-006": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-ru-007": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-008": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-009": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ru-010": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-011": {
+    "A": "full",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ru-012": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "lite",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ru-013": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ru-014": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ru-015": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ru-016": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ru-017": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ru-018": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-019": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-ru-020": {
+    "A": "off",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ru-021": {
+    "A": "baseline",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-022": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-023": {
+    "A": "lite",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-024": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-025": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ru-026": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ru-027": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ru-028": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ru-029": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-ru-030": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ru-031": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-032": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ru-033": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ru-034": {
+    "A": "ultra",
+    "B": "full",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-035": {
+    "A": "lite",
+    "B": "off",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ru-036": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-ru-037": {
+    "A": "ultra",
+    "B": "baseline",
+    "C": "off",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-038": {
+    "A": "ultra",
+    "B": "off",
+    "C": "full",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-ru-039": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ru-040": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ru-041": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ru-042": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-043": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ru-044": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-045": {
+    "A": "off",
+    "B": "baseline",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ru-046": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ru-047": {
+    "A": "off",
+    "B": "full",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ru-048": {
+    "A": "off",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ru-049": {
+    "A": "full",
+    "B": "off",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ru-050": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-051": {
+    "A": "baseline",
+    "B": "off",
+    "C": "full",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ru-052": {
+    "A": "lite",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-ru-053": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-054": {
+    "A": "off",
+    "B": "lite",
+    "C": "ultra",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ru-055": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-056": {
+    "A": "off",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ru-057": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ru-058": {
+    "A": "lite",
+    "B": "full",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ru-059": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "full",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-060": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ru-061": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "off",
+    "E": "full"
+  },
+  "modes-ru-062": {
+    "A": "baseline",
+    "B": "full",
+    "C": "lite",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-063": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ru-064": {
+    "A": "off",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ru-065": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-ru-066": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "off",
+    "D": "lite",
+    "E": "full"
+  },
+  "modes-ru-067": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "ultra"
+  },
+  "modes-ru-068": {
+    "A": "lite",
+    "B": "full",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-069": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ru-070": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-ru-071": {
+    "A": "full",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ru-072": {
+    "A": "ultra",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-073": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "lite"
+  },
+  "modes-ru-074": {
+    "A": "full",
+    "B": "off",
+    "C": "ultra",
+    "D": "lite",
+    "E": "baseline"
+  },
+  "modes-ru-075": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-076": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ru-077": {
+    "A": "full",
+    "B": "ultra",
+    "C": "lite",
+    "D": "off",
+    "E": "baseline"
+  },
+  "modes-ru-078": {
+    "A": "baseline",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ru-079": {
+    "A": "lite",
+    "B": "baseline",
+    "C": "full",
+    "D": "off",
+    "E": "ultra"
+  },
+  "modes-ru-080": {
+    "A": "off",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ru-081": {
+    "A": "full",
+    "B": "lite",
+    "C": "baseline",
+    "D": "ultra",
+    "E": "off"
+  },
+  "modes-ru-082": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ru-083": {
+    "A": "lite",
+    "B": "off",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ru-084": {
+    "A": "full",
+    "B": "lite",
+    "C": "off",
+    "D": "ultra",
+    "E": "baseline"
+  },
+  "modes-ru-085": {
+    "A": "full",
+    "B": "ultra",
+    "C": "off",
+    "D": "baseline",
+    "E": "lite"
+  },
+  "modes-ru-086": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ru-087": {
+    "A": "ultra",
+    "B": "full",
+    "C": "baseline",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ru-088": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "lite",
+    "D": "full",
+    "E": "off"
+  },
+  "modes-ru-089": {
+    "A": "ultra",
+    "B": "lite",
+    "C": "off",
+    "D": "full",
+    "E": "baseline"
+  },
+  "modes-ru-090": {
+    "A": "off",
+    "B": "lite",
+    "C": "baseline",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ru-091": {
+    "A": "full",
+    "B": "ultra",
+    "C": "baseline",
+    "D": "lite",
+    "E": "off"
+  },
+  "modes-ru-092": {
+    "A": "ultra",
+    "B": "off",
+    "C": "lite",
+    "D": "baseline",
+    "E": "full"
+  },
+  "modes-ru-093": {
+    "A": "off",
+    "B": "baseline",
+    "C": "ultra",
+    "D": "full",
+    "E": "lite"
+  },
+  "modes-ru-094": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "ultra",
+    "E": "full"
+  },
+  "modes-ru-095": {
+    "A": "baseline",
+    "B": "off",
+    "C": "lite",
+    "D": "full",
+    "E": "ultra"
+  },
+  "modes-ru-096": {
+    "A": "full",
+    "B": "lite",
+    "C": "ultra",
+    "D": "baseline",
+    "E": "off"
+  },
+  "modes-ru-097": {
+    "A": "baseline",
+    "B": "full",
+    "C": "off",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ru-098": {
+    "A": "off",
+    "B": "full",
+    "C": "baseline",
+    "D": "lite",
+    "E": "ultra"
+  },
+  "modes-ru-099": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "off",
+    "E": "lite"
+  },
+  "modes-ru-100": {
+    "A": "baseline",
+    "B": "ultra",
+    "C": "full",
+    "D": "lite",
+    "E": "off"
+  }
+}

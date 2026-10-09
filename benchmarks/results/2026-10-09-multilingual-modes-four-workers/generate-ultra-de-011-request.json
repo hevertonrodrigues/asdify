@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "d129ba51020069380921a1c88a19f8d409a8f0122e27b8cf4dee34280ef64b58",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.923,
+      "completed_at_utc": "2026-10-09T03:16:25.624940+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-011\",\"text\":\"Von 96 bearbeiteten Anfragen wurden 24 am Wochenende beantwortet; davon betrafen 8 die Anmeldung. Die Gesamtzahl der Anmeldeanfragen ist unbekannt.\"},{\"case_id\":\"modes-de-012\",\"text\":\"Die fiktive Befragung umfasst 31 freiwillig antwortende Besucher eines Tauschmarkts. Befragt wurden nur Personen am Ausgang zwischen 11 und 12 Uhr, ohne Zufallsauswahl. Die Ergebnisse sind daher nicht ohne Weiteres auf alle Besucher übertragbar.\"},{\"case_id\":\"modes-de-013\",\"text\":\"9 × 4,50 € + 6 € einmaliger Versand = 40,50 € + 6 € = 46,50 € Gesamtbetrag.\"},{\"case_id\":\"modes-de-014\",\"text\":\"Der Anteil steigt von 41 % auf 47 %, also um 6 Prozentpunkte.\"},{\"case_id\":\"modes-de-015\",\"text\":\"Die Angaben widersprechen sich: Aufkleber „Fach 7“, Übergabeformular „Fach 9“. Beide wurden am selben Tag eingetragen. Der tatsächliche Lagerort wurde noch nicht geprüft.\"}]}",
+      "usage": {
+        "input_tokens": 7441,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 263,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-011\",\"text\":\"Von 96 bearbeiteten Anfragen wurden 24 am Wochenende beantwortet; davon betrafen 8 die Anmeldung. Die Gesamtzahl der Anmeldeanfragen ist unbekannt.\"},{\"case_id\":\"modes-de-012\",\"text\":\"Die fiktive Befragung umfasst 31 freiwillig antwortende Besucher eines Tauschmarkts. Befragt wurden nur Personen am Ausgang zwischen 11 und 12 Uhr, ohne Zufallsauswahl. Die Ergebnisse sind daher nicht ohne Weiteres auf alle Besucher übertragbar.\"},{\"case_id\":\"modes-de-013\",\"text\":\"9 × 4,50 € + 6 € einmaliger Versand = 40,50 € + 6 € = 46,50 € Gesamtbetrag.\"},{\"case_id\":\"modes-de-014\",\"text\":\"Der Anteil steigt von 41 % auf 47 %, also um 6 Prozentpunkte.\"},{\"case_id\":\"modes-de-015\",\"text\":\"Die Angaben widersprechen sich: Aufkleber „Fach 7“, Übergabeformular „Fach 9“. Beide wurden am selben Tag eingetragen. Der tatsächliche Lagerort wurde noch nicht geprüft.\"}]}",
+  "usage": {
+    "input_tokens": 7441,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 263,
+    "reasoning_output_tokens": 0
+  }
+}

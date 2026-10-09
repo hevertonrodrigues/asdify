@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "2e29da5ae8c607ac21d2668e1376e1e8f34f7b41c911b508fd0bc037825b2db2",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.381,
+      "completed_at_utc": "2026-10-09T04:18:40.416706+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-056\",\"text\":\"Para consultar la cola sin alterarla, ejecute `cola ver --solo-lectura`. El comando no elimina entradas.\"},{\"case_id\":\"modes-es-057\",\"text\":\"- La ruta A-31 se suspende el 18 de enero.\\n- La ruta A-32 sigue funcionando.\\n- El reembolso se puede solicitar y no se paga automáticamente.\"},{\"case_id\":\"modes-es-058\",\"text\":\"CTRL-8 | pendiente | 0/18 revisados\"},{\"case_id\":\"modes-es-059\",\"text\":\"Guarde el borrador en /informes/2030/nota_final.md y mantenga LISTO=false hasta que lo apruebe la editora. Guardar el archivo no equivale a recibir aprobación.\"},{\"case_id\":\"modes-es-060\",\"text\":\"{\\\"code\\\":\\\"ESPERA_4\\\",\\\"delay_seconds\\\":30,\\\"description\\\":\\\"La espera de 30 segundos es recomendada, no obligatoria.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7454,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 225,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-056\",\"text\":\"Para consultar la cola sin alterarla, ejecute `cola ver --solo-lectura`. El comando no elimina entradas.\"},{\"case_id\":\"modes-es-057\",\"text\":\"- La ruta A-31 se suspende el 18 de enero.\\n- La ruta A-32 sigue funcionando.\\n- El reembolso se puede solicitar y no se paga automáticamente.\"},{\"case_id\":\"modes-es-058\",\"text\":\"CTRL-8 | pendiente | 0/18 revisados\"},{\"case_id\":\"modes-es-059\",\"text\":\"Guarde el borrador en /informes/2030/nota_final.md y mantenga LISTO=false hasta que lo apruebe la editora. Guardar el archivo no equivale a recibir aprobación.\"},{\"case_id\":\"modes-es-060\",\"text\":\"{\\\"code\\\":\\\"ESPERA_4\\\",\\\"delay_seconds\\\":30,\\\"description\\\":\\\"La espera de 30 segundos es recomendada, no obligatoria.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7454,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 225,
+    "reasoning_output_tokens": 0
+  }
+}

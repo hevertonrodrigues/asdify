@@ -1,0 +1,710 @@
+{
+  "authored_control_ratings": 100,
+  "positive_control_ratings": 50,
+  "positive_controls_passed": 50,
+  "negative_control_ratings": 50,
+  "negative_controls_detected": 50,
+  "description": "Ten previously authored positive/negative controls, repeated across five opaque candidate labels and two reviewer passes. These are not new benchmark cases or generated answers.",
+  "results": [
+    {
+      "reviewer": 1,
+      "case_id": "cal-001",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-001",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-001",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-001",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-001",
+      "candidate": "E",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-002",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-002",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-002",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-002",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-002",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-003",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-003",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-003",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-003",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-003",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-004",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-004",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-004",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-004",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-004",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-005",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-005",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-005",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-005",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-005",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-006",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-006",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-006",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-006",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-006",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-007",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-007",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-007",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-007",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-007",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-008",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-008",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-008",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-008",
+      "candidate": "E",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-008",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-009",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-009",
+      "candidate": "E",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-009",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-009",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-009",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-010",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-010",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-010",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-010",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 1,
+      "case_id": "cal-010",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-001",
+      "candidate": "E",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-001",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-001",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-001",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-001",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-002",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-002",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-002",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-002",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-002",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-003",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-003",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-003",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-003",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-003",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-004",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-004",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-004",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-004",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-004",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-005",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-005",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-005",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-005",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-005",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-006",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-006",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-006",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-006",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-006",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-007",
+      "candidate": "C",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-007",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-007",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-007",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-007",
+      "candidate": "D",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-008",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-008",
+      "candidate": "E",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-008",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-008",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-008",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-009",
+      "candidate": "B",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-009",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-009",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-009",
+      "candidate": "E",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-009",
+      "candidate": "A",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-010",
+      "candidate": "A",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-010",
+      "candidate": "C",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-010",
+      "candidate": "B",
+      "authored_good": true,
+      "confirmed_pass": true
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-010",
+      "candidate": "E",
+      "authored_good": false,
+      "confirmed_pass": false
+    },
+    {
+      "reviewer": 2,
+      "case_id": "cal-010",
+      "candidate": "D",
+      "authored_good": false,
+      "confirmed_pass": false
+    }
+  ]
+}

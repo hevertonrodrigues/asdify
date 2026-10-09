@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "5811cfa2a3f22e10039691ac64b813a1f926effadef15d3ed417b526fee4cfd2",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 30.419,
+      "completed_at_utc": "2026-10-09T04:44:51.277843+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ja-046\",\"text\":\"読み聞かせ会は、来週火曜15時から図書室で開きます。参加は自由で、途中からでも大丈夫です。お子さんと一緒でも、保護者の方だけでも、気軽にご参加ください。\"},{\"case_id\":\"modes-ja-047\",\"text\":\"合計は4時間5分です（休憩を除く）。\"},{\"case_id\":\"modes-ja-048\",\"text\":\"販売店3店の店長計3人は、全員が新しい箱を好みました。一般の購入者には聞いていないため、購入者の好みは分かりません。\"},{\"case_id\":\"modes-ja-049\",\"text\":\"{\\\"code\\\":\\\"B-04\\\",\\\"enabled\\\":false,\\\"message\\\":\\\"この機能はまだ有効になっていません。\\\"}\"},{\"case_id\":\"modes-ja-050\",\"text\":\"タイムアウトは、結果が届かなかったことを示し、処理の失敗を確定する通知ではありません。同じ処理が進行中の場合があるため、再送前にジョブJ-302の状態を確認してください。\"}]}",
+      "usage": {
+        "input_tokens": 7536,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 275,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ja-046\",\"text\":\"読み聞かせ会は、来週火曜15時から図書室で開きます。参加は自由で、途中からでも大丈夫です。お子さんと一緒でも、保護者の方だけでも、気軽にご参加ください。\"},{\"case_id\":\"modes-ja-047\",\"text\":\"合計は4時間5分です（休憩を除く）。\"},{\"case_id\":\"modes-ja-048\",\"text\":\"販売店3店の店長計3人は、全員が新しい箱を好みました。一般の購入者には聞いていないため、購入者の好みは分かりません。\"},{\"case_id\":\"modes-ja-049\",\"text\":\"{\\\"code\\\":\\\"B-04\\\",\\\"enabled\\\":false,\\\"message\\\":\\\"この機能はまだ有効になっていません。\\\"}\"},{\"case_id\":\"modes-ja-050\",\"text\":\"タイムアウトは、結果が届かなかったことを示し、処理の失敗を確定する通知ではありません。同じ処理が進行中の場合があるため、再送前にジョブJ-302の状態を確認してください。\"}]}",
+  "usage": {
+    "input_tokens": 7536,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 275,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "042dfbecfe40d78f2979e09c9c27b9cbf1a0a3e30f8342fec7ca74fcb16dcdb8",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 51.393,
+      "completed_at_utc": "2026-10-09T03:09:02.335252+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-031\",\"text\":\"Sarah a terminé l’inventaire des outils ; celui des consommables reste à faire. Le registre est sur le bureau. La clé de l’armoire a été rendue, mais la personne qui l’a reçue n’est pas précisée.\"},{\"case_id\":\"modes-fr-032\",\"text\":\"Choisis 3 lots A : 3 × 12 = 36 badges pour 63 €. L’autre combinaison possible est 2 lots B : 2 × 18 = 36 badges pour 66 €. Les 3 lots A coûtent donc 3 € de moins.\"},{\"case_id\":\"modes-fr-033\",\"text\":\"L’heure de début reste à confirmer : la fiche de réservation annonce 17 h, tandis que le courriel de confirmation indique 17 h 30. Le lieu est identique dans les deux documents. L’organisateur n’a pas encore confirmé l’heure.\"},{\"case_id\":\"modes-fr-034\",\"text\":\"Après trois déménagements, notre plante de bureau mérite un pot moins cabossé. Apporte un pot si tu en as un, mais surtout n’en achète pas pour l’occasion. Rendez-vous jeudi à midi.\"},{\"case_id\":\"modes-fr-035\",\"text\":\"Il manque l’attestation de domicile ; le reçu de paiement est facultatif.\"}]}",
+      "usage": {
+        "input_tokens": 7504,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 296,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-031\",\"text\":\"Sarah a terminé l’inventaire des outils ; celui des consommables reste à faire. Le registre est sur le bureau. La clé de l’armoire a été rendue, mais la personne qui l’a reçue n’est pas précisée.\"},{\"case_id\":\"modes-fr-032\",\"text\":\"Choisis 3 lots A : 3 × 12 = 36 badges pour 63 €. L’autre combinaison possible est 2 lots B : 2 × 18 = 36 badges pour 66 €. Les 3 lots A coûtent donc 3 € de moins.\"},{\"case_id\":\"modes-fr-033\",\"text\":\"L’heure de début reste à confirmer : la fiche de réservation annonce 17 h, tandis que le courriel de confirmation indique 17 h 30. Le lieu est identique dans les deux documents. L’organisateur n’a pas encore confirmé l’heure.\"},{\"case_id\":\"modes-fr-034\",\"text\":\"Après trois déménagements, notre plante de bureau mérite un pot moins cabossé. Apporte un pot si tu en as un, mais surtout n’en achète pas pour l’occasion. Rendez-vous jeudi à midi.\"},{\"case_id\":\"modes-fr-035\",\"text\":\"Il manque l’attestation de domicile ; le reçu de paiement est facultatif.\"}]}",
+  "usage": {
+    "input_tokens": 7504,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 296,
+    "reasoning_output_tokens": 0
+  }
+}

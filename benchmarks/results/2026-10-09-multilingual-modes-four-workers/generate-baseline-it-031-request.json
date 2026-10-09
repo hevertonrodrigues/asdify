@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9517e595451d07eda04cdd66915835be3e7c3e113ce482228bc4cb78cff7a580",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.188,
+      "completed_at_utc": "2026-10-09T04:01:57.656927+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori; restano quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-032\",\"text\":\"Per avere esattamente 60 fogli, servono 3 pacchi A a 33 € oppure 2 pacchi B a 34 €. Conviene acquistare 3 pacchi A: si risparmia 1 €.\"},{\"case_id\":\"modes-it-033\",\"text\":\"L’incontro è fissato al 13 marzo alle 16. L’aula non è ancora confermata: l’avviso indica l’aula 2, il calendario l’aula 4.\"},{\"case_id\":\"modes-it-034\",\"text\":\"La macchina del caffè oggi tace: in attesa del tecnico, usate il bollitore in cucina. Non sappiamo quando ritroverà la voce.\"},{\"case_id\":\"modes-it-035\",\"text\":\"Manca la foto dell’oggetto; la liberatoria non serve perché l’oggetto appartiene a chi presenta la richiesta.\"}]}",
+      "usage": {
+        "input_tokens": 4236,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 279,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-031\",\"text\":\"Elisa ha etichettato le scatole dei colori; restano quelle dei tessuti. L’elenco delle etichette mancanti è nel cassetto alto. La stampante è stata riavviata, ma non sappiamo da chi.\"},{\"case_id\":\"modes-it-032\",\"text\":\"Per avere esattamente 60 fogli, servono 3 pacchi A a 33 € oppure 2 pacchi B a 34 €. Conviene acquistare 3 pacchi A: si risparmia 1 €.\"},{\"case_id\":\"modes-it-033\",\"text\":\"L’incontro è fissato al 13 marzo alle 16. L’aula non è ancora confermata: l’avviso indica l’aula 2, il calendario l’aula 4.\"},{\"case_id\":\"modes-it-034\",\"text\":\"La macchina del caffè oggi tace: in attesa del tecnico, usate il bollitore in cucina. Non sappiamo quando ritroverà la voce.\"},{\"case_id\":\"modes-it-035\",\"text\":\"Manca la foto dell’oggetto; la liberatoria non serve perché l’oggetto appartiene a chi presenta la richiesta.\"}]}",
+  "usage": {
+    "input_tokens": 4236,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 279,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7ae2597a22fb8888621b369cb2ee7f6ea347ab068a60333b72be37982787c7d0",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 45.315,
+      "completed_at_utc": "2026-10-09T04:31:08.227244+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-026\",\"text\":\"Alle 9:05 Paolo ha lasciato la busta in segreteria. Alle 9:30 la busta è stata aperta, ma non è indicato da chi. Alle 10 Sara ha registrato i documenti.\"},{\"case_id\":\"modes-it-027\",\"text\":\"Due dei sette cavi controllati avevano il rivestimento danneggiato. Gli altri diciotto non sono stati esaminati, quindi non è possibile indicare la percentuale di cavi danneggiati nell’intero stock.\"},{\"case_id\":\"modes-it-028\",\"text\":\"Il recipiente ha una capacità massima di 900 mL. La linea a 700 mL indica il livello di riempimento consigliato, non la capacità massima. Entrambi i valori si riferiscono soltanto al campione mostrato.\"},{\"case_id\":\"modes-it-029\",\"text\":\"Il lavoro effettivo è stato di 7 ore: 3 ore e 35 minuti al mattino e 3 ore e 25 minuti al pomeriggio, escludendo la pausa.\"},{\"case_id\":\"modes-it-030\",\"text\":\"Tutti i 14 intervistati preferiscono il corso serale, ma sono stati selezionati tra persone che avevano già frequentato un corso serale. Le persone disponibili soltanto al mattino non sono state intervistate. Il risultato descrive quindi le preferenze degli intervistati e non può essere generalizzato a tutte le persone potenzialmente interessate al corso.\"}]}",
+      "usage": {
+        "input_tokens": 7482,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 345,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-026\",\"text\":\"Alle 9:05 Paolo ha lasciato la busta in segreteria. Alle 9:30 la busta è stata aperta, ma non è indicato da chi. Alle 10 Sara ha registrato i documenti.\"},{\"case_id\":\"modes-it-027\",\"text\":\"Due dei sette cavi controllati avevano il rivestimento danneggiato. Gli altri diciotto non sono stati esaminati, quindi non è possibile indicare la percentuale di cavi danneggiati nell’intero stock.\"},{\"case_id\":\"modes-it-028\",\"text\":\"Il recipiente ha una capacità massima di 900 mL. La linea a 700 mL indica il livello di riempimento consigliato, non la capacità massima. Entrambi i valori si riferiscono soltanto al campione mostrato.\"},{\"case_id\":\"modes-it-029\",\"text\":\"Il lavoro effettivo è stato di 7 ore: 3 ore e 35 minuti al mattino e 3 ore e 25 minuti al pomeriggio, escludendo la pausa.\"},{\"case_id\":\"modes-it-030\",\"text\":\"Tutti i 14 intervistati preferiscono il corso serale, ma sono stati selezionati tra persone che avevano già frequentato un corso serale. Le persone disponibili soltanto al mattino non sono state intervistate. Il risultato descrive quindi le preferenze degli intervistati e non può essere generalizzato a tutte le persone potenzialmente interessate al corso.\"}]}",
+  "usage": {
+    "input_tokens": 7482,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 345,
+    "reasoning_output_tokens": 0
+  }
+}

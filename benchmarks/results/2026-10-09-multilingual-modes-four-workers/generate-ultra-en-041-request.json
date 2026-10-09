@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7b2e6cdf2c7fd119c84167e4bd8ad3373232347213cae35052b449bb67fd1a3b",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.167,
+      "completed_at_utc": "2026-10-09T04:24:27.623913+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-041\",\"text\":\"- Roof repairs approved, subject to a structural survey. Leila will request survey quotes; no deadline was recorded.\\n- Repainting rejected for this year.\\n- Solar panels discussed; no decision made.\"},{\"case_id\":\"modes-en-042\",\"text\":\"Your damaged parcel arrived yesterday. A replacement is packed but has not left the warehouse. We expect collection tomorrow, but the carrier has not confirmed it. Tracking will be available after collection. You have not been asked to return the damaged item.\"},{\"case_id\":\"modes-en-043\",\"text\":\"Reviewers checked 60 randomly selected April intake files: nine lacked a consent date, including three that also lacked a signature. No March or May files were checked. Missing entries did not confirm that consent had never been obtained.\"},{\"case_id\":\"modes-en-044\",\"text\":\"The garden opens on 2 July 2029 if the path inspection passes. If it fails, a new date will be announced; none is set. Admission is free; guided walks require booking. The café will be closed on opening day.\"},{\"case_id\":\"modes-en-045\",\"text\":\"The audit reviewed 72 invoices over $500 submitted last quarter, excluding travel claims. Six lacked an approval code; whether they had verbal approval was not established.\"}]}",
+      "usage": {
+        "input_tokens": 7517,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 291,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-041\",\"text\":\"- Roof repairs approved, subject to a structural survey. Leila will request survey quotes; no deadline was recorded.\\n- Repainting rejected for this year.\\n- Solar panels discussed; no decision made.\"},{\"case_id\":\"modes-en-042\",\"text\":\"Your damaged parcel arrived yesterday. A replacement is packed but has not left the warehouse. We expect collection tomorrow, but the carrier has not confirmed it. Tracking will be available after collection. You have not been asked to return the damaged item.\"},{\"case_id\":\"modes-en-043\",\"text\":\"Reviewers checked 60 randomly selected April intake files: nine lacked a consent date, including three that also lacked a signature. No March or May files were checked. Missing entries did not confirm that consent had never been obtained.\"},{\"case_id\":\"modes-en-044\",\"text\":\"The garden opens on 2 July 2029 if the path inspection passes. If it fails, a new date will be announced; none is set. Admission is free; guided walks require booking. The café will be closed on opening day.\"},{\"case_id\":\"modes-en-045\",\"text\":\"The audit reviewed 72 invoices over $500 submitted last quarter, excluding travel claims. Six lacked an approval code; whether they had verbal approval was not established.\"}]}",
+  "usage": {
+    "input_tokens": 7517,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 291,
+    "reasoning_output_tokens": 0
+  }
+}

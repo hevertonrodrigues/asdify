@@ -1,0 +1,34 @@
+{
+  "audit": "passed",
+  "generated_answers": 4500,
+  "candidate_ratings": 9000,
+  "requests": 1260,
+  "frozen_hashes": "verified",
+  "raw_answers_and_usage": "verified",
+  "prompt_reconstruction_and_blinding": "verified",
+  "published_results": "recomputed",
+  "semantic_review": "Model review only; this audit verifies provenance, not truth",
+  "processing": {
+    "policy": {
+      "name": "conservative-invariant-coverage-v1",
+      "timing": "Post-output processing amendment; not preregistered.",
+      "coverage": "Missing, duplicate, or extra integer invariant IDs make an otherwise valid, assignable rating structurally invalid. Affected answers are uncertain and cannot pass.",
+      "strictness": "All other schema, case/candidate assignment, raw-evidence, prompt, and frozen-setting checks remain strict. Raw negative or contradictory verdicts are retained.",
+      "retention": "No model check is synthesized, repaired, removed, or rewritten; every existing response and its raw evidence is retained.",
+      "resumption": "Only previously unstarted primary review requests may run, with at most four workers. Generation requests are never scheduled."
+    },
+    "amendment_file": "processing-amendment.json",
+    "amendment_sha256": "93060c317ed7bc60500e2ac3cdf2ad87f9b8fe74b3e60bc2dc558491fa024cd4",
+    "sealed_prior_files": 3772,
+    "structurally_invalid_ratings": 4,
+    "affected_answers": 4,
+    "affected_cases": 1,
+    "affected_case_ids": [
+      "modes-es-054"
+    ],
+    "calibration_structurally_invalid_ratings": 0,
+    "calibration_affected_cases": 0
+  },
+  "processing_amendment": "verified",
+  "prior_evidence_preservation": "verified"
+}

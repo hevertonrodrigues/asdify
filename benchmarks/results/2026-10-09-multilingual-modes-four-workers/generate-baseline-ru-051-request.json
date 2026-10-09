@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "84d1edc61aa682d2ef2228405686d1b1b53d699974742a458ba81b915471259c",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.479,
+      "completed_at_utc": "2026-10-09T02:54:00.913409+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ru-051\",\"text\":\"Кабинет закрыт до среды.\"},{\"case_id\":\"modes-ru-052\",\"text\":\"1. {visitor}, войти можно после 13:00.\\n2. Если приедете после 20:00, позвоните по {{desk_phone}} до входа.\"},{\"case_id\":\"modes-ru-053\",\"text\":\"{\\\"issue\\\":\\\"RU-318\\\",\\\"rank\\\":5,\\\"message\\\":\\\"Проверка началась, но время завершения не назначено.\\\"}\"},{\"case_id\":\"modes-ru-054\",\"text\":\"Перед отправкой формы прочитайте [Правила доступа](https://example.invalid/rules?rev=5#entry), где перечислены варианты входа.\"},{\"case_id\":\"modes-ru-055\",\"text\":\"{\\\"shipment\\\":\\\"RF/28-D\\\",\\\"items\\\":0,\\\"released\\\":false,\\\"reason\\\":\\\"Ни один предмет не выпущен, потому что осмотр не закончен.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4238,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 223,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ru-051\",\"text\":\"Кабинет закрыт до среды.\"},{\"case_id\":\"modes-ru-052\",\"text\":\"1. {visitor}, войти можно после 13:00.\\n2. Если приедете после 20:00, позвоните по {{desk_phone}} до входа.\"},{\"case_id\":\"modes-ru-053\",\"text\":\"{\\\"issue\\\":\\\"RU-318\\\",\\\"rank\\\":5,\\\"message\\\":\\\"Проверка началась, но время завершения не назначено.\\\"}\"},{\"case_id\":\"modes-ru-054\",\"text\":\"Перед отправкой формы прочитайте [Правила доступа](https://example.invalid/rules?rev=5#entry), где перечислены варианты входа.\"},{\"case_id\":\"modes-ru-055\",\"text\":\"{\\\"shipment\\\":\\\"RF/28-D\\\",\\\"items\\\":0,\\\"released\\\":false,\\\"reason\\\":\\\"Ни один предмет не выпущен, потому что осмотр не закончен.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4238,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 223,
+    "reasoning_output_tokens": 0
+  }
+}

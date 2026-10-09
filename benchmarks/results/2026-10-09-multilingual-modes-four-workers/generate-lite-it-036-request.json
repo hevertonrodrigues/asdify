@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ffac5efea024fc97471e6b9f317ec9c84f616ff7630cbce626f82011665f7693",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.584,
+      "completed_at_utc": "2026-10-09T04:33:52.893583+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-036\",\"text\":\"La consegna è indicata per il 06/07. Il formato della data non è noto: giorno e mese devono essere confermati.\"},{\"case_id\":\"modes-it-037\",\"text\":\"Prima di eseguire export_tags --type json, copia tags.db nella cartella copy/. L’esportazione include solo le etichette attive: un risultato vuoto non significa che il database sia vuoto.\"},{\"case_id\":\"modes-it-038\",\"text\":\"state=preview mostra le modifiche proposte. Per salvarle serve commit=yes. La sola anteprima non modifica i dati già salvati.\"},{\"case_id\":\"modes-it-039\",\"text\":\"Ogni tavolo può ospitare al massimo tre espositori. Un quarto può aiutare solo durante l’allestimento e deve uscire prima dell’apertura. Non può restare per vendere.\"},{\"case_id\":\"modes-it-040\",\"text\":\"Apri il coperchio solo dopo aver spento il dispositivo e averlo lasciato raffreddare. Spegnerlo non basta. La regola vale anche per una semplice ispezione.\"}]}",
+      "usage": {
+        "input_tokens": 7464,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 260,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-036\",\"text\":\"La consegna è indicata per il 06/07. Il formato della data non è noto: giorno e mese devono essere confermati.\"},{\"case_id\":\"modes-it-037\",\"text\":\"Prima di eseguire export_tags --type json, copia tags.db nella cartella copy/. L’esportazione include solo le etichette attive: un risultato vuoto non significa che il database sia vuoto.\"},{\"case_id\":\"modes-it-038\",\"text\":\"state=preview mostra le modifiche proposte. Per salvarle serve commit=yes. La sola anteprima non modifica i dati già salvati.\"},{\"case_id\":\"modes-it-039\",\"text\":\"Ogni tavolo può ospitare al massimo tre espositori. Un quarto può aiutare solo durante l’allestimento e deve uscire prima dell’apertura. Non può restare per vendere.\"},{\"case_id\":\"modes-it-040\",\"text\":\"Apri il coperchio solo dopo aver spento il dispositivo e averlo lasciato raffreddare. Spegnerlo non basta. La regola vale anche per una semplice ispezione.\"}]}",
+  "usage": {
+    "input_tokens": 7464,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 260,
+    "reasoning_output_tokens": 0
+  }
+}

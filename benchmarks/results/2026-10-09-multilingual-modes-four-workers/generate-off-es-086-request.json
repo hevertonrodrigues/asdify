@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c585fec7db57356a5ad3aae10b2ae7389135c5fb125bae4fc5fc3ee79a72c496",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.384,
+      "completed_at_utc": "2026-10-09T03:10:55.650721+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-086\",\"text\":\"1. Abra la carcasa solo después de desconectar la alimentación eléctrica.\\n2. Compruebe si el indicador está apagado; no dé por hecho que lo está.\\n3. Puede dejar la carcasa abierta mientras espera al técnico.\"},{\"case_id\":\"modes-es-087\",\"text\":\"La tabla mide 3,5 pies de largo y 0,75 pulgadas de grosor. Estas son dimensiones nominales; no se midió ninguna tabla individualmente. El paquete contiene seis tablas, no seis pies cuadrados de material.\"},{\"case_id\":\"modes-es-088\",\"text\":\"De las 160 personas que respondieron voluntariamente a una encuesta en la tienda del museo, 104 preferían un horario de cierre más tardío. La encuesta no fue aleatoria y no incluyó a personas que nunca visitan la tienda. Una preferencia no demuestra que vaya a haber visitas futuras por la tarde o por la noche.\"},{\"case_id\":\"modes-es-089\",\"text\":\"El planificador indica que el ensayo está cancelado. El laboratorio indica que está aplazado. Ambos registros se actualizaron a las 09:20 y ninguno identifica a su autor. No hemos recibido una decisión definitiva.\"},{\"case_id\":\"modes-es-090\",\"text\":\"La tetera hizo un clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Afuera, la lluvia parecía estar ensayando. Yo no sabía si llegaría el invitado.\"}]}",
+      "usage": {
+        "input_tokens": 7512,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 336,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-086\",\"text\":\"1. Abra la carcasa solo después de desconectar la alimentación eléctrica.\\n2. Compruebe si el indicador está apagado; no dé por hecho que lo está.\\n3. Puede dejar la carcasa abierta mientras espera al técnico.\"},{\"case_id\":\"modes-es-087\",\"text\":\"La tabla mide 3,5 pies de largo y 0,75 pulgadas de grosor. Estas son dimensiones nominales; no se midió ninguna tabla individualmente. El paquete contiene seis tablas, no seis pies cuadrados de material.\"},{\"case_id\":\"modes-es-088\",\"text\":\"De las 160 personas que respondieron voluntariamente a una encuesta en la tienda del museo, 104 preferían un horario de cierre más tardío. La encuesta no fue aleatoria y no incluyó a personas que nunca visitan la tienda. Una preferencia no demuestra que vaya a haber visitas futuras por la tarde o por la noche.\"},{\"case_id\":\"modes-es-089\",\"text\":\"El planificador indica que el ensayo está cancelado. El laboratorio indica que está aplazado. Ambos registros se actualizaron a las 09:20 y ninguno identifica a su autor. No hemos recibido una decisión definitiva.\"},{\"case_id\":\"modes-es-090\",\"text\":\"La tetera hizo un clic como un tío impaciente. No le prometí nada, porque las hojas de té habían desaparecido. Afuera, la lluvia parecía estar ensayando. Yo no sabía si llegaría el invitado.\"}]}",
+  "usage": {
+    "input_tokens": 7512,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 336,
+    "reasoning_output_tokens": 0
+  }
+}

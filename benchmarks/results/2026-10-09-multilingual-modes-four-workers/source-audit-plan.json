@@ -1,0 +1,144 @@
+{
+  "created_at_utc": "2026-10-09T05:24:04.379725+00:00",
+  "purpose": "Supplemental source audit; original strict scores remain unchanged",
+  "selection_seed": "asdify-source-audit-20261009",
+  "random_sample_per_language": 10,
+  "random_case_ids": {
+    "en": [
+      "modes-en-018",
+      "modes-en-021",
+      "modes-en-032",
+      "modes-en-036",
+      "modes-en-037",
+      "modes-en-061",
+      "modes-en-078",
+      "modes-en-083",
+      "modes-en-090",
+      "modes-en-094"
+    ],
+    "pt-BR": [
+      "modes-pt-BR-014",
+      "modes-pt-BR-015",
+      "modes-pt-BR-024",
+      "modes-pt-BR-026",
+      "modes-pt-BR-050",
+      "modes-pt-BR-063",
+      "modes-pt-BR-074",
+      "modes-pt-BR-076",
+      "modes-pt-BR-078",
+      "modes-pt-BR-100"
+    ],
+    "es": [
+      "modes-es-019",
+      "modes-es-024",
+      "modes-es-031",
+      "modes-es-032",
+      "modes-es-037",
+      "modes-es-053",
+      "modes-es-059",
+      "modes-es-068",
+      "modes-es-074",
+      "modes-es-099"
+    ],
+    "fr": [
+      "modes-fr-014",
+      "modes-fr-027",
+      "modes-fr-044",
+      "modes-fr-045",
+      "modes-fr-048",
+      "modes-fr-067",
+      "modes-fr-068",
+      "modes-fr-085",
+      "modes-fr-095",
+      "modes-fr-098"
+    ],
+    "de": [
+      "modes-de-040",
+      "modes-de-044",
+      "modes-de-049",
+      "modes-de-050",
+      "modes-de-054",
+      "modes-de-055",
+      "modes-de-067",
+      "modes-de-075",
+      "modes-de-084",
+      "modes-de-086"
+    ],
+    "ja": [
+      "modes-ja-001",
+      "modes-ja-002",
+      "modes-ja-011",
+      "modes-ja-024",
+      "modes-ja-025",
+      "modes-ja-029",
+      "modes-ja-055",
+      "modes-ja-074",
+      "modes-ja-075",
+      "modes-ja-097"
+    ],
+    "zh-CN": [
+      "modes-zh-CN-012",
+      "modes-zh-CN-016",
+      "modes-zh-CN-042",
+      "modes-zh-CN-044",
+      "modes-zh-CN-064",
+      "modes-zh-CN-078",
+      "modes-zh-CN-081",
+      "modes-zh-CN-089",
+      "modes-zh-CN-092",
+      "modes-zh-CN-096"
+    ],
+    "it": [
+      "modes-it-002",
+      "modes-it-009",
+      "modes-it-023",
+      "modes-it-041",
+      "modes-it-051",
+      "modes-it-058",
+      "modes-it-070",
+      "modes-it-072",
+      "modes-it-076",
+      "modes-it-079"
+    ],
+    "ru": [
+      "modes-ru-009",
+      "modes-ru-016",
+      "modes-ru-028",
+      "modes-ru-040",
+      "modes-ru-044",
+      "modes-ru-052",
+      "modes-ru-078",
+      "modes-ru-082",
+      "modes-ru-086",
+      "modes-ru-088"
+    ]
+  },
+  "additional_cases": "Every case with any strict failure or uncertainty in the complete primary study; inspect all five answers in each selected case",
+  "selection_rule": "The random sample is chosen without filtering by outcomes. Union it with all flagged cases after primary review finishes.",
+  "ratings_available_when_plan_created": 300,
+  "audit_blinding": "Source auditors receive source tasks and all five answers under new opaque labels, without condition names, authored invariants, primary ratings, proposed fixes, or the unblinding key.",
+  "audit_assignments": {
+    "cases_en_pt_es": [
+      "fr",
+      "de",
+      "it"
+    ],
+    "cases_fr_de_it": [
+      "ja",
+      "zh-CN",
+      "ru"
+    ],
+    "cases_ja_zh_ru": [
+      "en",
+      "pt-BR",
+      "es"
+    ]
+  },
+  "resource_rule": "Begin agent audits only after all four live CLI benchmark workers finish; at most three audit agents plus the root agent.",
+  "limitations": [
+    "This supplemental plan was created after generated answers and some primary ratings were available; it is not a preregistered primary endpoint.",
+    "Source auditors are implementing model assistants from the same model family, not independent human or native-speaker reviewers.",
+    "Auditors did not author their assigned locale cases; this does not establish independent professional language review.",
+    "The sample can expose shared reviewer blind spots but cannot certify all generated answers or future reliability."
+  ]
+}

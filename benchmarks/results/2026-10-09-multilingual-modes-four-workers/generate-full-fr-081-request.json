@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "587a7452c3e435f8a7aa11dc758b7fbaacaec8321993304dde6ec0e6e045af05",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.501,
+      "completed_at_utc": "2026-10-09T04:54:25.049914+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-081\",\"text\":\"Vous pouvez emprunter un tabouret pour l’après-midi. Vous devez le rendre avant la fermeture de la salle à 19 h 00. L’emprunt est facultatif et ne réserve pas de place à l’événement du soir.\"},{\"case_id\":\"modes-fr-082\",\"text\":\"N’annulez pas la commande au motif que la page de suivi est vide. Le colis est peut-être déjà en cours d’acheminement. Nous n’avons pas encore reçu de confirmation du transporteur.\"},{\"case_id\":\"modes-fr-083\",\"text\":\"Ana a vérifié le contenu lundi. La boîte a été scellée mardi, mais le registre ne précise pas par qui. Mercredi, Luca a récupéré la boîte scellée.\"},{\"case_id\":\"modes-fr-084\",\"text\":\"La tache provient probablement de l’ancien tuyau, mais aucun test ne l’a confirmé. Seul le panneau extérieur a été inspecté. Le mur derrière ce panneau n’a pas été ouvert.\"},{\"case_id\":\"modes-fr-085\",\"text\":\"{\\\"id\\\":\\\"FR-A19\\\",\\\"count\\\":3,\\\"text\\\":\\\"Trois étiquettes manquent. Les boîtes doivent rester fermées jusqu’au remplacement des étiquettes.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7430,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 285,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-081\",\"text\":\"Vous pouvez emprunter un tabouret pour l’après-midi. Vous devez le rendre avant la fermeture de la salle à 19 h 00. L’emprunt est facultatif et ne réserve pas de place à l’événement du soir.\"},{\"case_id\":\"modes-fr-082\",\"text\":\"N’annulez pas la commande au motif que la page de suivi est vide. Le colis est peut-être déjà en cours d’acheminement. Nous n’avons pas encore reçu de confirmation du transporteur.\"},{\"case_id\":\"modes-fr-083\",\"text\":\"Ana a vérifié le contenu lundi. La boîte a été scellée mardi, mais le registre ne précise pas par qui. Mercredi, Luca a récupéré la boîte scellée.\"},{\"case_id\":\"modes-fr-084\",\"text\":\"La tache provient probablement de l’ancien tuyau, mais aucun test ne l’a confirmé. Seul le panneau extérieur a été inspecté. Le mur derrière ce panneau n’a pas été ouvert.\"},{\"case_id\":\"modes-fr-085\",\"text\":\"{\\\"id\\\":\\\"FR-A19\\\",\\\"count\\\":3,\\\"text\\\":\\\"Trois étiquettes manquent. Les boîtes doivent rester fermées jusqu’au remplacement des étiquettes.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7430,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 285,
+    "reasoning_output_tokens": 0
+  }
+}

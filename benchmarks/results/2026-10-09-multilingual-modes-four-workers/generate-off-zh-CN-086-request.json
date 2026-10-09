@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "952f71203d79155653cd84fb5a539102423659955ddc161a5e5ad321d79b8439",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.35,
+      "completed_at_utc": "2026-10-09T04:10:12.856946+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-086\",\"text\":\"在 Omar 核对数量后，箱子被封好了。文中未说明封箱者是谁。计划于周四取件，但快递员尚未确认时间。Omar 尚未确认取件。\"},{\"case_id\":\"modes-zh-CN-087\",\"text\":\"课程费用为每位参与者 GBP 60。可选工具套装需另付 GBP 15。参与者也可以使用自己的工具。费用不含交通费。参加课程不要求购买工具套装。\"},{\"case_id\":\"modes-zh-CN-088\",\"text\":\"等我走到码头时，最后一艘船已经离开了。我以为听见了它的引擎声，但那也可能是拐弯处另一边的一艘船。我记得湿绳索的气味，却不记得船身上漆着的名字。\"},{\"case_id\":\"modes-zh-CN-089\",\"text\":\"{\\\"order\\\":\\\"OD-81\\\",\\\"maximum\\\":9,\\\"message\\\":\\\"最多可配送九个箱子。客户必须先确认地址。确认地址并不保证上午送达。\\\"}\"},{\"case_id\":\"modes-zh-CN-090\",\"text\":\"平均加载时间从 500 ms 降至 350 ms，减少了 30%。测试在一台计算机上使用了 80 个文件，不计下载时间。尚未完成任何移动设备测试。\"}]}",
+      "usage": {
+        "input_tokens": 7528,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 333,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-086\",\"text\":\"在 Omar 核对数量后，箱子被封好了。文中未说明封箱者是谁。计划于周四取件，但快递员尚未确认时间。Omar 尚未确认取件。\"},{\"case_id\":\"modes-zh-CN-087\",\"text\":\"课程费用为每位参与者 GBP 60。可选工具套装需另付 GBP 15。参与者也可以使用自己的工具。费用不含交通费。参加课程不要求购买工具套装。\"},{\"case_id\":\"modes-zh-CN-088\",\"text\":\"等我走到码头时，最后一艘船已经离开了。我以为听见了它的引擎声，但那也可能是拐弯处另一边的一艘船。我记得湿绳索的气味，却不记得船身上漆着的名字。\"},{\"case_id\":\"modes-zh-CN-089\",\"text\":\"{\\\"order\\\":\\\"OD-81\\\",\\\"maximum\\\":9,\\\"message\\\":\\\"最多可配送九个箱子。客户必须先确认地址。确认地址并不保证上午送达。\\\"}\"},{\"case_id\":\"modes-zh-CN-090\",\"text\":\"平均加载时间从 500 ms 降至 350 ms，减少了 30%。测试在一台计算机上使用了 80 个文件，不计下载时间。尚未完成任何移动设备测试。\"}]}",
+  "usage": {
+    "input_tokens": 7528,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 333,
+    "reasoning_output_tokens": 0
+  }
+}

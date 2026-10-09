@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9fb3eec01a1cde4946078602d138561e78b67c2a4155ceff9194d53d2b69513a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.827,
+      "completed_at_utc": "2026-10-09T04:20:39.227748+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-061\",\"text\":\"Gracias por avisarnos de que el banco está inestable, Vera. Hemos pedido al taller que lo examine. Aún no sabemos si podrá repararse; en cuanto recibamos su valoración, te la comunicaremos.\"},{\"case_id\":\"modes-es-062\",\"text\":\"El romero administra la ventana con mucho aroma: cinco brotes nuevos esta semana. ¿Récord? La anterior no contamos. El alquiler se paga con luz.\"},{\"case_id\":\"modes-es-063\",\"text\":\"Siento el retraso: indiqué mal el código postal. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha respondido.\"},{\"case_id\":\"modes-es-064\",\"text\":\"Después del cierre se encontraron dos cascos junto a la pista. Están en la oficina de mantenimiento y no sabemos a quién pertenecen ni si se dejaron allí a propósito. Sus dueños pueden acudir a recepción y describirlos antes de recogerlos.\"},{\"case_id\":\"modes-es-065\",\"text\":\"—Podría tomar el tren temprano si termina la visita —dijo Alba—. Pero aún no he comprado billete… No quiero que me esperes como si ya lo hubiera decidido.\"}]}",
+      "usage": {
+        "input_tokens": 4229,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 271,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-061\",\"text\":\"Gracias por avisarnos de que el banco está inestable, Vera. Hemos pedido al taller que lo examine. Aún no sabemos si podrá repararse; en cuanto recibamos su valoración, te la comunicaremos.\"},{\"case_id\":\"modes-es-062\",\"text\":\"El romero administra la ventana con mucho aroma: cinco brotes nuevos esta semana. ¿Récord? La anterior no contamos. El alquiler se paga con luz.\"},{\"case_id\":\"modes-es-063\",\"text\":\"Siento el retraso: indiqué mal el código postal. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha respondido.\"},{\"case_id\":\"modes-es-064\",\"text\":\"Después del cierre se encontraron dos cascos junto a la pista. Están en la oficina de mantenimiento y no sabemos a quién pertenecen ni si se dejaron allí a propósito. Sus dueños pueden acudir a recepción y describirlos antes de recogerlos.\"},{\"case_id\":\"modes-es-065\",\"text\":\"—Podría tomar el tren temprano si termina la visita —dijo Alba—. Pero aún no he comprado billete… No quiero que me esperes como si ya lo hubiera decidido.\"}]}",
+  "usage": {
+    "input_tokens": 4229,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 271,
+    "reasoning_output_tokens": 0
+  }
+}

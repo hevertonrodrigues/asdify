@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0ca28eae75b89be3b8f551a8eb6c2be32c12fc250079fb62c8191e6355aca0cc",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.427,
+      "completed_at_utc": "2026-10-09T05:01:44.565655+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-086\",\"text\":\"- Bonjour, {{guest}}. Votre visite est confirmée pour le 16 mai.\\n- Vous pouvez modifier l’heure en utilisant {{visit_link}}, mais vous ne pouvez pas ajouter une autre personne.\"},{\"case_id\":\"modes-fr-087\",\"text\":\"L’accès à la réserve n’est autorisé qu’après la vérification des lumières et l’autorisation du responsable. La seule vérification des lumières ne suffit pas.\"},{\"case_id\":\"modes-fr-088\",\"text\":\"L’emballage devrait prendre environ 4 à 6 heures si toutes les caisses arrivent avant midi. Il s’agit d’une estimation, et non d’une promesse de livraison. Des caisses manquantes pourraient prolonger le travail.\"},{\"case_id\":\"modes-fr-089\",\"text\":\"Chaque rouleau mesure 25 m de long et coûte GBP 14 hors taxes. La livraison coûte GBP 9 par commande, quel que soit le nombre de rouleaux.\"},{\"case_id\":\"modes-fr-090\",\"text\":\"Nous avons interrogé 22 personnes qui se sont portées volontaires au marché du matin. Elles n’ont pas été sélectionnées au hasard. Leurs réponses ne permettent pas d’établir les préférences de l’ensemble des acheteurs.\"}]}",
+      "usage": {
+        "input_tokens": 7416,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 342,
+        "reasoning_output_tokens": 56
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-086\",\"text\":\"- Bonjour, {{guest}}. Votre visite est confirmée pour le 16 mai.\\n- Vous pouvez modifier l’heure en utilisant {{visit_link}}, mais vous ne pouvez pas ajouter une autre personne.\"},{\"case_id\":\"modes-fr-087\",\"text\":\"L’accès à la réserve n’est autorisé qu’après la vérification des lumières et l’autorisation du responsable. La seule vérification des lumières ne suffit pas.\"},{\"case_id\":\"modes-fr-088\",\"text\":\"L’emballage devrait prendre environ 4 à 6 heures si toutes les caisses arrivent avant midi. Il s’agit d’une estimation, et non d’une promesse de livraison. Des caisses manquantes pourraient prolonger le travail.\"},{\"case_id\":\"modes-fr-089\",\"text\":\"Chaque rouleau mesure 25 m de long et coûte GBP 14 hors taxes. La livraison coûte GBP 9 par commande, quel que soit le nombre de rouleaux.\"},{\"case_id\":\"modes-fr-090\",\"text\":\"Nous avons interrogé 22 personnes qui se sont portées volontaires au marché du matin. Elles n’ont pas été sélectionnées au hasard. Leurs réponses ne permettent pas d’établir les préférences de l’ensemble des acheteurs.\"}]}",
+  "usage": {
+    "input_tokens": 7416,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 342,
+    "reasoning_output_tokens": 56
+  }
+}

@@ -161,7 +161,7 @@ excluding refunds. These figures are unaudited.
 
 ## 验证与支持
 
-如果更短的回答改变了重要事实，就不能通过评估。仓库包含九种语言的改写和翻译测试输入、人工评审标准及[可复现的评估流程](benchmarks/README.md)。[已记录的100个案例测试](benchmarks/results/README.md)使用一个模型和`full`模式，并由模型进行两轮盲评；首次发现的问题促成了含义保留规则的修正。**普遍可靠性和广泛的质量提升仍未得到证明。** 参阅[软件包验证](docs/VERIFICATION.md)和[兼容性说明](docs/COMPATIBILITY.md)。
+如果更短的回答改变了重要事实，就不能通过评估。[四种模式的研究](benchmarks/multilingual-modes/README.md)为九种输出语言各使用100个新案例，将相同的900个不同案例分别用于`lite`、`full`、`ultra`、`off`及不使用技能的对照条件，共计3,600次模式测试和4,500份回答。评审由与生成模型同一系列的模型进行两轮盲评。参阅[已记录的测试](benchmarks/results/README.md)和[可复现的评估流程](benchmarks/README.md)。案例为合成文本，部分场景结构在不同语言中重复，因此不能将所有观察结果视为相互独立。**普遍可靠性和广泛的质量提升仍未得到证明。** [软件包验证](docs/VERIFICATION.md)和[兼容性说明](docs/COMPATIBILITY.md)涵盖其他检查。
 
 | 问题 | 获取帮助 |
 | --- | --- |

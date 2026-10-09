@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "27013726b9fbb2b783c42fb3cee195b63f1e7785b6f4ee8ddbb8aa9b0b318e2a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.164,
+      "completed_at_utc": "2026-10-09T02:52:15.388898+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-066\",\"text\":\"Accès provisoire : oui\\nExport des données : non\"},{\"case_id\":\"modes-fr-067\",\"text\":\"La commande python verify.py --dry-run simule la vérification sans modifier aucun fichier.\"},{\"case_id\":\"modes-fr-068\",\"text\":\"Le journal affiche \\\"buffer full\\\", ce qui signifie que le tampon est plein, mais ne confirme pas une perte de données. Il faut examiner le journal complet avant de conclure.\"},{\"case_id\":\"modes-fr-069\",\"text\":\"{\\\"batch\\\":\\\"B-91\\\",\\\"limit\\\":0,\\\"notice\\\":\\\"Aucun envoi n’est autorisé tant que la limite est à zéro.\\\"}\"},{\"case_id\":\"modes-fr-070\",\"text\":\"## Passation pour l’ouverture de demain\\n\\n### Disponible\\n- **Perceuse P-07** : nettoyée et contrôlée électriquement, elle peut être prêtée. Elle est sur l’étagère du haut, avec sa batterie.\\n- **Stock de vis** : utilisable. Le poids de 4,8 kg inclut les boîtes et ne permet pas de déterminer le nombre de vis.\\n- Le nettoyage du sol est terminé.\\n\\n### En attente ou indisponible\\n- **Deux autres perceuses présentes** : nettoyées, mais à ne pas prêter avant leur contrôle électrique. L’étiquette verte atteste uniquement le nettoyage, pas l’autorisation de prêt.\\n- **Cuisine** : reste fermée jusqu’à la réparation du robinet de la réserve, qui goutte encore.\\n- **Budget consommables** : estimé à 110 €, à confirmer après vérification de deux reçus.\\n\\n### Inventaire et prêts\\n- Sur 46 outils numérotés : 42 sont dans l’armoire, 2 sont prêtés avec une fiche signée et 2 restent introuvables.\\n- Les fiches de prêt sont dans le classeur bleu ; le retour est prévu le 18 mars.\\n- Les outils introuvables n’ont pas été déclarés volés. Le dernier inventaire étant incomplet, un mauvais enregistrement reste possible.\\n- Pour les prêts, utiliser les fiches habituelles : aucun nouveau formulaire n’a été approuvé.\\n\\n### Propositions non confirmées\\n- Une commande de boîtes supplémentaires a été proposée, mais aucune commande n’a été passée.\\n- Rami a proposé de refaire les étiquettes samedi ; son aide n’est pas encore confirmée. La liste des étiquettes illisibles est sur le bureau, à côté du registre.\"}]}",
+      "usage": {
+        "input_tokens": 4519,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 559,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-066\",\"text\":\"Accès provisoire : oui\\nExport des données : non\"},{\"case_id\":\"modes-fr-067\",\"text\":\"La commande python verify.py --dry-run simule la vérification sans modifier aucun fichier.\"},{\"case_id\":\"modes-fr-068\",\"text\":\"Le journal affiche \\\"buffer full\\\", ce qui signifie que le tampon est plein, mais ne confirme pas une perte de données. Il faut examiner le journal complet avant de conclure.\"},{\"case_id\":\"modes-fr-069\",\"text\":\"{\\\"batch\\\":\\\"B-91\\\",\\\"limit\\\":0,\\\"notice\\\":\\\"Aucun envoi n’est autorisé tant que la limite est à zéro.\\\"}\"},{\"case_id\":\"modes-fr-070\",\"text\":\"## Passation pour l’ouverture de demain\\n\\n### Disponible\\n- **Perceuse P-07** : nettoyée et contrôlée électriquement, elle peut être prêtée. Elle est sur l’étagère du haut, avec sa batterie.\\n- **Stock de vis** : utilisable. Le poids de 4,8 kg inclut les boîtes et ne permet pas de déterminer le nombre de vis.\\n- Le nettoyage du sol est terminé.\\n\\n### En attente ou indisponible\\n- **Deux autres perceuses présentes** : nettoyées, mais à ne pas prêter avant leur contrôle électrique. L’étiquette verte atteste uniquement le nettoyage, pas l’autorisation de prêt.\\n- **Cuisine** : reste fermée jusqu’à la réparation du robinet de la réserve, qui goutte encore.\\n- **Budget consommables** : estimé à 110 €, à confirmer après vérification de deux reçus.\\n\\n### Inventaire et prêts\\n- Sur 46 outils numérotés : 42 sont dans l’armoire, 2 sont prêtés avec une fiche signée et 2 restent introuvables.\\n- Les fiches de prêt sont dans le classeur bleu ; le retour est prévu le 18 mars.\\n- Les outils introuvables n’ont pas été déclarés volés. Le dernier inventaire étant incomplet, un mauvais enregistrement reste possible.\\n- Pour les prêts, utiliser les fiches habituelles : aucun nouveau formulaire n’a été approuvé.\\n\\n### Propositions non confirmées\\n- Une commande de boîtes supplémentaires a été proposée, mais aucune commande n’a été passée.\\n- Rami a proposé de refaire les étiquettes samedi ; son aide n’est pas encore confirmée. La liste des étiquettes illisibles est sur le bureau, à côté du registre.\"}]}",
+  "usage": {
+    "input_tokens": 4519,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 559,
+    "reasoning_output_tokens": 0
+  }
+}

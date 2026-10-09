@@ -1,0 +1,20 @@
+{
+  "prompt_sha256": "462cbd1ad57e70fd05c130c0577e5ff3f4e723c0a7a14db276056f3c8ac7c716",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": -15,
+      "seconds": 200.044,
+      "completed_at_utc": "2026-10-09T02:38:21.914453+00:00",
+      "error": "CLI exit -15: "
+    },
+    {
+      "attempt": 2,
+      "exit_code": -15,
+      "seconds": 0.477,
+      "completed_at_utc": "2026-10-09T02:38:22.496779+00:00",
+      "error": "CLI exit -15: "
+    }
+  ],
+  "error": "CLI exit -15: "
+}

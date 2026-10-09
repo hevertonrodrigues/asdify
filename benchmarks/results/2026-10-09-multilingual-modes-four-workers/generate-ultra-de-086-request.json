@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0b7957e00dde1c3ae6e7c5eeb9bcb185261c3b4e0c47627a662f4d7e9611ab47",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 47.678,
+      "completed_at_utc": "2026-10-09T05:08:14.477186+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-086\",\"text\":\"- Guten Tag {{reader}}, Ihre Abholung ist für den 21. August gebucht.\\n- Über {{collection_url}} können Sie die Uhrzeit ändern; die Adresse bleibt dabei unverändert.\"},{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst genutzt werden, wenn der Boden getrocknet ist und die zuständige Betreuungsperson die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein erlaubt noch keinen Zutritt.\"},{\"case_id\":\"modes-de-088\",\"text\":\"Das Sortieren dauert voraussichtlich etwa 7 bis 9 Arbeitsstunden, sofern die gedruckte Liste mit den Kartons übereinstimmt. Die Schätzung schließt eine erneute Beschriftung aus. Ein Fertigstellungszeitpunkt wird nicht garantiert.\"},{\"case_id\":\"modes-de-089\",\"text\":\"Jede Platte deckt 2,5 m² ab und kostet USD 38 vor Steuern. Die Montage kostet USD 16 pro Platte. Die Lieferung ist im Plattenpreis enthalten.\"},{\"case_id\":\"modes-de-090\",\"text\":\"Die 27 Befragten meldeten sich nach einem Gartenkurs freiwillig zur Teilnahme. Sie wurden nicht aus einer Zufallsstichprobe der Nachbarschaftsbevölkerung ausgewählt. Die Ergebnisse beschreiben diese Gruppe, nicht die gesamte Nachbarschaft.\"}]}",
+      "usage": {
+        "input_tokens": 7426,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 508,
+        "reasoning_output_tokens": 204
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-086\",\"text\":\"- Guten Tag {{reader}}, Ihre Abholung ist für den 21. August gebucht.\\n- Über {{collection_url}} können Sie die Uhrzeit ändern; die Adresse bleibt dabei unverändert.\"},{\"case_id\":\"modes-de-087\",\"text\":\"Der Proberaum darf erst genutzt werden, wenn der Boden getrocknet ist und die zuständige Betreuungsperson die Tür aufgeschlossen hat. Eine aufgeschlossene Tür allein erlaubt noch keinen Zutritt.\"},{\"case_id\":\"modes-de-088\",\"text\":\"Das Sortieren dauert voraussichtlich etwa 7 bis 9 Arbeitsstunden, sofern die gedruckte Liste mit den Kartons übereinstimmt. Die Schätzung schließt eine erneute Beschriftung aus. Ein Fertigstellungszeitpunkt wird nicht garantiert.\"},{\"case_id\":\"modes-de-089\",\"text\":\"Jede Platte deckt 2,5 m² ab und kostet USD 38 vor Steuern. Die Montage kostet USD 16 pro Platte. Die Lieferung ist im Plattenpreis enthalten.\"},{\"case_id\":\"modes-de-090\",\"text\":\"Die 27 Befragten meldeten sich nach einem Gartenkurs freiwillig zur Teilnahme. Sie wurden nicht aus einer Zufallsstichprobe der Nachbarschaftsbevölkerung ausgewählt. Die Ergebnisse beschreiben diese Gruppe, nicht die gesamte Nachbarschaft.\"}]}",
+  "usage": {
+    "input_tokens": 7426,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 508,
+    "reasoning_output_tokens": 204
+  }
+}

@@ -27,6 +27,12 @@ If a model version, skill revision, or instruction changes, start a new study ra
 
 ## Public regression inputs
 
+### Multilingual four-mode comparison
+
+The [multilingual mode corpus](multilingual-modes/README.md) adds 100 new cases per output language across all nine registered locales. The same 900 cases run in `lite`, `full`, `ultra`, and `off`, with 900 no-skill control answers. This produces 3,600 mode tests, 4,500 generated answers, and 9,000 blinded model ratings. Meaning and exact-format pass rates use 100 answers per language and condition; reviewer ratings are not counted as additional cases.
+
+[scripts/evaluate_modes.py](../scripts/evaluate_modes.py) freezes all inputs, generates and reviews five-case batches in fresh workspaces, preserves every raw request, and refuses incomplete reports. Per-case candidate labels are randomized and the second review reverses positions. It keeps contradictory judgments unchanged and applies the stricter checks. The corpus guide describes commands, calibration controls, batching, and limitations. This automated study is separate from the independent human protocol above.
+
 ### Automated 100-case comparison
 
 [reliability-100.jsonl](reliability-100.jsonl) is a separate set of 100 synthetic cases with 373 semantic invariants: 60 English tasks, 16 native-language rewrites, and 24 translations across the nine documented locales. It covers numbers, conditions, technical procedures, summaries, analysis, exact output formats, voice, and ambiguity. The initial cases were frozen before generation and before the skill edits motivated by its results. Reusing these cases after those edits is a development regression check, not held-out evidence. They are now public regression material.

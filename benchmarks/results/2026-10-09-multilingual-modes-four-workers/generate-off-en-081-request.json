@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c29278e23448516e23f02c326f1e6a04e939a6e6d6755ba8ba0264fe5a7dd10e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.189,
+      "completed_at_utc": "2026-10-09T04:49:42.924903+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-081\",\"text\":\"Hello, {nome}. Your registration has been received, but it has not yet been approved. You may submit the supporting document by 6 p.m. on February 3, 2029, Brasília time. Submission is optional at this stage; if it becomes required later, we will notify you by email.\"},{\"case_id\":\"modes-en-082\",\"text\":\"The repair shop estimates that the repair will take 4 to 6 business days after the part arrives. The part has not yet been shipped. Rui approved only the cost estimate, not replacement of the device. We do not know who removed the cover.\"},{\"case_id\":\"modes-en-083\",\"text\":\"My umbrella handed in its resignation at the first gust of wind. I came home soaked, but the notebook stayed dry inside my backpack. This happened on Tuesday; I don’t know whether the store will accept the return.\"},{\"case_id\":\"modes-en-084\",\"text\":\"The reservation is not confirmed until payment is received. You may pay by bank transfer or at the ticket office. If payment arrives after April 14, 2029, the next available date will be offered; there is no guarantee that it will be in that same week.\"},{\"case_id\":\"modes-en-085\",\"text\":\"To check the configuration, run `visor check --local`. The command does not send data to the server. The report is saved to /tmp/visor/revision.txt unless the user specifies another folder.\"}]}",
+      "usage": {
+        "input_tokens": 7542,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 329,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-081\",\"text\":\"Hello, {nome}. Your registration has been received, but it has not yet been approved. You may submit the supporting document by 6 p.m. on February 3, 2029, Brasília time. Submission is optional at this stage; if it becomes required later, we will notify you by email.\"},{\"case_id\":\"modes-en-082\",\"text\":\"The repair shop estimates that the repair will take 4 to 6 business days after the part arrives. The part has not yet been shipped. Rui approved only the cost estimate, not replacement of the device. We do not know who removed the cover.\"},{\"case_id\":\"modes-en-083\",\"text\":\"My umbrella handed in its resignation at the first gust of wind. I came home soaked, but the notebook stayed dry inside my backpack. This happened on Tuesday; I don’t know whether the store will accept the return.\"},{\"case_id\":\"modes-en-084\",\"text\":\"The reservation is not confirmed until payment is received. You may pay by bank transfer or at the ticket office. If payment arrives after April 14, 2029, the next available date will be offered; there is no guarantee that it will be in that same week.\"},{\"case_id\":\"modes-en-085\",\"text\":\"To check the configuration, run `visor check --local`. The command does not send data to the server. The report is saved to /tmp/visor/revision.txt unless the user specifies another folder.\"}]}",
+  "usage": {
+    "input_tokens": 7542,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 329,
+    "reasoning_output_tokens": 0
+  }
+}

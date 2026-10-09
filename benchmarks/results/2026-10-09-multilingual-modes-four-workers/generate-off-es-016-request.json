@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "54bae2947a0085804050e7494e5a1e1ce42e9adaec8fc4475eea485044ab89d5",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.913,
+      "completed_at_utc": "2026-10-09T05:20:42.180257+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-016\",\"text\":\"La duración media de las 45 visitas terminadas fue de 52 minutos y la mediana, de 35 minutos. Se incluyeron dos visitas de más de dos horas y se excluyeron las visitas interrumpidas. Estas cifras no representan un límite de duración.\"},{\"case_id\":\"modes-es-017\",\"text\":\"La actividad A tuvo la mayor tasa de asistencia: 70%.\"},{\"case_id\":\"modes-es-018\",\"text\":\"Estimamos que la transferencia de un archivo comprimido de unos 4 GB tardará entre 6 y 9 minutos en la red de prueba. Este intervalo no es un máximo garantizado. No hemos probado su conexión.\"},{\"case_id\":\"modes-es-019\",\"text\":\"Una muestra de la fuente tomada a las 16:00 contenía 0,6 mg/L de cobre. El límite de cuantificación era de 0,05 mg/L. No se aporta un límite de seguridad ni muestras de otros días.\"},{\"case_id\":\"modes-es-020\",\"text\":\"Participaron 27 de las 180 personas invitadas, por lo que la participación fue del 15%. Las 180 invitaciones fueron individuales y no se contaron acompañantes.\"}]}",
+      "usage": {
+        "input_tokens": 7484,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 277,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-016\",\"text\":\"La duración media de las 45 visitas terminadas fue de 52 minutos y la mediana, de 35 minutos. Se incluyeron dos visitas de más de dos horas y se excluyeron las visitas interrumpidas. Estas cifras no representan un límite de duración.\"},{\"case_id\":\"modes-es-017\",\"text\":\"La actividad A tuvo la mayor tasa de asistencia: 70%.\"},{\"case_id\":\"modes-es-018\",\"text\":\"Estimamos que la transferencia de un archivo comprimido de unos 4 GB tardará entre 6 y 9 minutos en la red de prueba. Este intervalo no es un máximo garantizado. No hemos probado su conexión.\"},{\"case_id\":\"modes-es-019\",\"text\":\"Una muestra de la fuente tomada a las 16:00 contenía 0,6 mg/L de cobre. El límite de cuantificación era de 0,05 mg/L. No se aporta un límite de seguridad ni muestras de otros días.\"},{\"case_id\":\"modes-es-020\",\"text\":\"Participaron 27 de las 180 personas invitadas, por lo que la participación fue del 15%. Las 180 invitaciones fueron individuales y no se contaron acompañantes.\"}]}",
+  "usage": {
+    "input_tokens": 7484,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 277,
+    "reasoning_output_tokens": 0
+  }
+}

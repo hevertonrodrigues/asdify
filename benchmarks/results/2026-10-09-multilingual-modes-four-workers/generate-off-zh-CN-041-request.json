@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a93e651954e10c98e726ee5d9449f56663c9715f16951f15ba42b9dfc35c8e19",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.896,
+      "completed_at_utc": "2026-10-09T03:15:48.698169+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-041\",\"text\":\"已批准总金额：500＋650＝1150元。\"},{\"case_id\":\"modes-zh-CN-042\",\"text\":\"通常由本人亲自领用。只有本人不能到场，并已提前获得书面代领批准，登记过的代理人才可代领。电话口头同意不够。\"},{\"case_id\":\"modes-zh-CN-043\",\"text\":\"周二更换了7台打印机，其中5台已完成测试，2台的驱动尚待检查。旧设备已收回，但存储内容尚未清除。\"},{\"case_id\":\"modes-zh-CN-044\",\"text\":\"文件写明“下周五送出”，但没有作成日期，具体送出日期待确认。接收部门为采购部，接收人尚未指定。\"},{\"case_id\":\"modes-zh-CN-045\",\"text\":\"周三16点，阅览室有故事分享，欢迎来参加！参加自愿，迟到也欢迎。家长可以带孩子一起来，也可以独自参加。\"}]}",
+      "usage": {
+        "input_tokens": 7459,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 257,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-041\",\"text\":\"已批准总金额：500＋650＝1150元。\"},{\"case_id\":\"modes-zh-CN-042\",\"text\":\"通常由本人亲自领用。只有本人不能到场，并已提前获得书面代领批准，登记过的代理人才可代领。电话口头同意不够。\"},{\"case_id\":\"modes-zh-CN-043\",\"text\":\"周二更换了7台打印机，其中5台已完成测试，2台的驱动尚待检查。旧设备已收回，但存储内容尚未清除。\"},{\"case_id\":\"modes-zh-CN-044\",\"text\":\"文件写明“下周五送出”，但没有作成日期，具体送出日期待确认。接收部门为采购部，接收人尚未指定。\"},{\"case_id\":\"modes-zh-CN-045\",\"text\":\"周三16点，阅览室有故事分享，欢迎来参加！参加自愿，迟到也欢迎。家长可以带孩子一起来，也可以独自参加。\"}]}",
+  "usage": {
+    "input_tokens": 7459,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 257,
+    "reasoning_output_tokens": 0
+  }
+}

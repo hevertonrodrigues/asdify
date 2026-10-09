@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "160e0eae3a74b2373468b1230cc8f536fbf051ba696faa48b69d4c8cf8359245",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 29.869,
+      "completed_at_utc": "2026-10-09T04:12:07.453447+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-061\",\"text\":\"{\\\"case\\\":\\\"IT-582\\\",\\\"checks\\\":2,\\\"message\\\":\\\"Non è possibile leggere l’immagine inviata. Inviala di nuovo in formato PNG.\\\"}\"},{\"case_id\":\"modes-it-062\",\"text\":\"La lettura della cartella /srv/bottega resta possibile. La scrittura riprende alle 18:25 UTC.\"},{\"case_id\":\"modes-it-063\",\"text\":\"Modulo ricevuto: IT_08 — verifica non conclusa.\"},{\"case_id\":\"modes-it-064\",\"text\":\"{{cliente}} può modificare la consegna tramite {{delivery_link}} fino al 17 febbraio.\"},{\"case_id\":\"modes-it-065\",\"text\":\"{\\\"item\\\":\\\"CAS-14\\\",\\\"complete\\\":false,\\\"note\\\":\\\"L’elenco è stato scritto, ma le quantità non sono ancora state controllate.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4199,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 198,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-061\",\"text\":\"{\\\"case\\\":\\\"IT-582\\\",\\\"checks\\\":2,\\\"message\\\":\\\"Non è possibile leggere l’immagine inviata. Inviala di nuovo in formato PNG.\\\"}\"},{\"case_id\":\"modes-it-062\",\"text\":\"La lettura della cartella /srv/bottega resta possibile. La scrittura riprende alle 18:25 UTC.\"},{\"case_id\":\"modes-it-063\",\"text\":\"Modulo ricevuto: IT_08 — verifica non conclusa.\"},{\"case_id\":\"modes-it-064\",\"text\":\"{{cliente}} può modificare la consegna tramite {{delivery_link}} fino al 17 febbraio.\"},{\"case_id\":\"modes-it-065\",\"text\":\"{\\\"item\\\":\\\"CAS-14\\\",\\\"complete\\\":false,\\\"note\\\":\\\"L’elenco è stato scritto, ma le quantità non sono ancora state controllate.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4199,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 198,
+    "reasoning_output_tokens": 0
+  }
+}

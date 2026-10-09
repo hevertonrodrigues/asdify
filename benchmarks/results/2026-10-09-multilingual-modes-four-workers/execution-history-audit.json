@@ -1,0 +1,14 @@
+{
+  "audit": "passed",
+  "original_study": "benchmarks/results/2026-10-09-multilingual-modes",
+  "original_live_workers": 32,
+  "continuation_live_workers": 4,
+  "carried_generation_requests": 37,
+  "carried_answers": 185,
+  "interrupted_requests_without_returned_answers": 32,
+  "frozen_inputs": "identical",
+  "carried_request_claims_and_raw_events": "byte-identical",
+  "all_successful_original_answers": "retained",
+  "calibration": "identical and audited",
+  "scope": "Interruption provenance only; completion and meaning require the separate result audit."
+}

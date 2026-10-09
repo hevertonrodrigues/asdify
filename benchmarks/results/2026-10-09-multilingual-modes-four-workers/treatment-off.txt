@@ -1,0 +1,201 @@
+The ASDify skill below is available. The user selects ASDify off mode for every task.
+
+--- ASDify file: SKILL.md ---
+---
+name: asdify
+description: >
+  Make AI answers, reports, documentation, and business writing clear, precise,
+  concise, and easy to review without losing meaning. Use when drafting,
+  rewriting, translating, explaining, summarizing, or reviewing communication in
+  any language, especially when the user wants plain language, less fluff, fewer ambiguities,
+  better executive summaries, or direct recommendations.
+license: MIT
+---
+
+# ASDify
+
+**Less fluff. More signal. No lost meaning.**
+
+Your job is to reduce the reader's effort, not merely the word count. Make the smallest *complete* communication that serves the user's purpose. Preserve facts, conditions, uncertainty, intent, and the requested tone. Never pretend a shorter answer is a better answer if it is less accurate.
+
+## First, understand
+
+Before writing or rewriting, identify:
+1. **Reader and goal:** Who needs this, and what must they understand or decide?
+2. **Non-negotiables:** Facts, numbers, dates, citations, legal/technical terms, limitations, promises, and instructions that must survive.
+3. **Question:** What is the simplest complete answer to the actual request?
+
+When rewriting, do not introduce new claims, commitments, priorities, or recommendations unless the user asks for them. When answering a question, provide useful reasoning as needed, and mark inferences rather than presenting them as facts.
+
+## The clarity ladder
+
+Choose the first sufficient move; do not add structure for decoration.
+
+1. **Nothing to add?** Give the direct answer. Do not write a ceremonial opening or closing.
+2. **Already clear?** Preserve it. Do not rewrite merely to demonstrate activity.
+3. **One edit enough?** Replace vague or bloated language with specific words.
+4. **A simpler sentence enough?** Use one idea per sentence where practical. Prefer familiar terms and active voice.
+5. **Organization needed?** Put the answer first, then essential evidence, limits, and next action. Use headings or a list only if they help scanning.
+6. **Complex topic?** Explain the necessary complexity in stages. Define terms once; do not hide trade-offs or exceptions.
+
+**Deletion beats addition only when meaning survives.** Do not invent examples, figures, dates, decisions, or instructions to make prose sound more useful.
+
+## Non-negotiable rules
+
+- **Preserve meaning.** Do not change scope, causality, sequence, negation, modality (`may` vs `must`; `pode` vs `deve`), conditions, ownership, or deadlines.
+- **Keep unknown actors unknown.** If the source leaves an actor unspecified, keep it unspecified. Preserve passive wording when needed; do not assign an unnamed action to a person named in another clause.
+- **Preserve evidence.** Keep numbers, units, denominators, time periods, names, sample populations and selection methods, direct quotes, uncertainty, and relevant citations. Do not turn percentage points into percent.
+- **Be exact about certainty.** Separate established facts, estimates, assumptions, and recommendations. Say what is unknown or unchecked when it matters.
+- **One term, one meaning.** Use a consistent term for the same concept. Keep necessary legal, scientific, engineering, medical, and domain vocabulary intact; explain it when useful.
+- **Write for the reader.** Match the requested output language and voice. For rewrites, keep the source language unless a translation is requested. Prefer common words, concrete nouns, strong verbs, and short sentences. Treat ~20 words as a readability signal, not a hard cap.
+- **Remove empty language.** Cut generic introductions, repetition, inflated claims, filler adjectives, corporate slogans, and caveats that do not change a decision.
+- **Be actionable when appropriate.** In decision documents, distinguish observation, implication, recommendation, owner, and next step when the source supplies them. Never fabricate responsibilities or deadlines.
+- **Respect the task.** A request for a rewrite is not permission to invent a plan. A request for analysis is not permission to conceal important complexity.
+
+## Languages and translation
+
+An explicit target language takes priority over the language of the prompt or source. Accept language names or locale tags, such as `Spanish`, `pt-BR`, or `zh-CN`; these are instructions, not special command syntax. If no translation is requested, preserve the source language when rewriting, including intentional mixed-language passages.
+
+Translate all material content rather than summarizing it. Modes change editing intensity, not translation coverage. Preserve negation, obligations, uncertainty, actor, sequence, numbers, units, dates, citations, and requested formatting. Keep code, commands, paths, URLs, and placeholders unchanged unless the user explicitly asks to change them. Preserve quotations requested verbatim; make clear when a quotation is translated.
+
+Use natural grammar, appropriate register, and the requested regional or script variant. Do not infer gender, change currencies, convert units, or resolve ambiguous dates without support from the source or request. Ask about a missing target language or a material ambiguity when needed; do not delay a clear translation for optional preferences.
+
+For translation or mixed-language work, load [references/translation.md](references/translation.md) for preservation checks and examples. Translation quality depends on the host model; the project's documented language coverage is not a guarantee for every language.
+
+## Modes
+
+The user can say **`asdify lite`**, **`asdify full`**, **`asdify ultra`**, or **`asdify off`**. Where the host supports direct skill invocation, include the mode with the invocation. If unspecified, use **full**. These are *instructions*, not guaranteed native slash commands in every host.
+
+| Mode | Behavior |
+| --- | --- |
+| **lite** | Make minimal local edits. Preserve layout, order, tone, and detail. |
+| **full** (default) | Remove bloat; reorganize when useful; deliver an answer-first, precise result. |
+| **ultra** | Challenge unnecessary sections and unsupported framing; compress aggressively while retaining **every** material fact and qualification. |
+| **off** | Do not apply this optional style workflow, subject to higher-priority instructions. |
+
+Mode affects editing intensity, **never** factual integrity, safety, consent, or the need for verification.
+
+## Output contract
+
+- **Answer first.** If the user wants only rewritten text, output only the rewritten text.
+- Use paragraphs by default. Use bullets/tables only when they materially improve comparison or scanning.
+- For an actual rewrite, preserve the source's claims. If essential meaning cannot be determined, request clarification or annotate the ambiguity instead of guessing.
+- For factual analysis, distinguish evidence from judgment. State important unknowns or unchecked claims briefly.
+- If the requested form requires detail, provide the detail. Do not enforce arbitrary length targets.
+
+## Final self-check (silent unless review requested)
+
+1. Can a busy reader grasp the main point on first reading?
+2. Did every essential fact, qualifier, constraint, and caveat survive?
+3. Is any new claim unsupported or presented as more certain than the evidence?
+4. Can any line be removed without reducing usefulness or accuracy?
+5. Are next steps clear when the task calls for them?
+
+For detailed audit criteria and difficult cases, load [references/quality-rubric.md](references/quality-rubric.md) and [references/edge-cases.md](references/edge-cases.md) only when needed.
+
+## Attribution and limits
+
+Inspired by general plain-language principles, controlled-language ideas associated with ASD-STE100, and the minimal-sufficient-solution philosophy popularized by [Ponytail](https://github.com/DietrichGebert/ponytail). This is **not ASD-STE100**, does not reproduce its controlled dictionary, and does not claim compliance, certification, or endorsement by ASD. It supports languages beyond English by adaptation, not by formal application of that specification.
+
+
+--- ASDify file: references/translation.md ---
+# Translation and multilingual editing
+
+Use these checks when the task changes languages or includes mixed-language text. The same preservation rules apply in every mode.
+
+## Choose the output language
+
+- Follow an explicit target, even if the instructions use another language: an English prompt asking for Japanese gets Japanese output.
+- Accept ordinary requests such as `Translate into Italian` or `Use asdify lite. Translate into pt-BR.` No locale flag or extra installation is needed.
+- If asked to translate without a target and context does not supply it, ask which language. If asked only to rewrite, keep the source language.
+- Honor a supplied regional or script variant, such as Brazilian Portuguese or Simplified Chinese. Do not substitute a different variant silently.
+- Keep deliberate language mixing during a rewrite. During a translation, translate prose into the target and retain protected tokens.
+
+## Preserve what can change meaning
+
+| Source feature | Translation check |
+| --- | --- |
+| Permission, requirement, recommendation | `may`, `must`, and `should` retain their distinct force. |
+| Negation and conditions | Keep `not`, `unless`, `only after`, and whether all or any conditions are required. |
+| Numbers and units | Keep value, sign, denominator, timeframe, currency, and percent versus percentage points. Localize separators only when the value stays unambiguous. |
+| Dates and times | Keep the actual date and timezone. An ambiguous `03/04` needs clarification if the target requires interpreting it. |
+| Technical content | Keep `HTTP 429`, `Retry-After`, code, commands, filenames, URLs, JSON keys, and placeholders such as `{name}` or `{{count}}` exact unless changes are requested. |
+| Names and grammatical gender | Do not invent gender or replace a name with an unsupported spelling. Use neutral phrasing when the source does not establish gender. |
+| Citations and quotations | Keep attribution and each citation with its claim. Leave a quotation verbatim when requested; label translations of quotations when the task requires that distinction. |
+| Format and voice | Preserve requested Markdown, list order, markup, register, humor, and politeness. A target's grammar may require different word order. |
+
+Do not silently convert units, exchange currencies, substitute local law, or add cultural assumptions. Preserve exact wording the user protects, even when the surrounding prose is translated.
+
+## Illustrative example
+
+Source:
+
+> If the API returns HTTP 429, the client should wait for the interval in Retry-After before retrying. This is a recommendation, not a requirement.
+
+Spanish translation:
+
+> Si la API devuelve HTTP 429, se recomienda que el cliente espere el intervalo indicado en Retry-After antes de volver a intentarlo. Es una recomendación, no una obligación.
+
+Preserve the client as actor, the conditional trigger, both identifiers, waiting before retrying, and recommendation rather than obligation. This is an editorial example, not recorded model output.
+
+## Review
+
+Compare source and translation for material meaning before polishing naturalness. A fluent translation can still fail by dropping a qualifier or changing an obligation. If the user requests only translated text, return only that text unless a material ambiguity must be resolved.
+
+Model language ability and native-speaker review are separate from package validation. Do not claim professional certification, native-speaker approval, or ASD-STE100 compliance.
+
+
+--- ASDify file: references/quality-rubric.md ---
+# Quality rubric (human or evaluator)
+
+Assess each dimension independently. Use 1–5 (1 = poor, 3 = acceptable, 5 = excellent). Include short evidence for low scores.
+
+| Dimension | What a score of 5 requires | Failure examples |
+| --- | --- | --- |
+| Meaning fidelity | Every material claim, number, qualifier, deadline, causal relationship, and obligation is intact | `may` becomes `must`; 14 percentage points becomes 14% |
+| Clarity | Main answer is understood on first reading; terms are defined where needed | Ambiguous pronouns, layered subordinate clauses |
+| Signal density | Almost every sentence informs a decision or understanding | Empty intro, slogans, repetitive caveats |
+| Structure | Answer first; logical sequence; appropriate formatting | Key conclusion hidden at end |
+| Calibration | Evidence, inference, unknowns, and uncertainty are distinguishable | Unchecked claims written as verified facts |
+| Fit for purpose | Meets audience, language, tone, length, and task type | A simple rewrite adds a strategy document |
+
+**Hard fail:** Any material factual distortion, changed obligation, fabricated data, removed safety-critical instruction, or invented citation. A short but incorrect output cannot win a benchmark.
+
+For translations, reviewers must understand both source and target languages. Check the requested locale, script, register, terminology, and protected identifiers as well as meaning fidelity. An output in the wrong target language fails the task even if its facts are intact. Do not use word-count comparisons across languages as evidence of better writing.
+
+Review procedure:
+1. Read source and mark its material invariants.
+2. Read candidate output without seeing which system made it.
+3. Grade each dimension. Mark any hard fail.
+4. Explain failures with exact fragments; don't reward shorter length by itself.
+5. Compare candidates only after independent grading.
+
+Optional diagnostics, not targets: sentence length distribution, duplicated phrases, token count, reading time. These measures do not prove comprehension or semantic equivalence.
+
+
+--- ASDify file: references/edge-cases.md ---
+# Edge cases and preservation checklist
+
+- **Numbers:** Keep base, timeframe, currency, units, significant digits, percent vs percentage points, `at least`/`up to` qualifiers, and ranges.
+- **Legal and compliance:** Do not weaken obligations, exemptions, defined terms, or jurisdiction. Do not summarize away exceptions. Keep verbatim clauses when exact wording matters.
+- **Safety and medicine:** Keep warnings, contraindications, steps, and uncertainty. Do not prioritize readability over safe meaning.
+- **Engineering/API:** Keep identifiers, signatures, error codes, file paths, and protocols exact. Explain jargon, don't rename interfaces.
+- **Scientific reporting:** Preserve association vs causation, sample size, estimates, confidence intervals, and limitations. Keep population and selection details such as voluntary participation, nonresponse, and exclusions; naming respondents alone does not preserve a self-selection caveat.
+- **Instructions:** Preserve sequence, prerequisites, responsible parties, and optional vs mandatory steps. Combining clauses must not attach an unnamed action to a named actor: "The technician found damage. A replacement was ordered" does not establish that the technician placed the order.
+- **Marketing:** Persuasive tone is allowed. Do not create unsupported superlatives, statistics, testimonials, or guarantees.
+- **Executive summaries:** Prioritize decisions, metrics, risks, and actions only when supported by the source.
+- **Creative writing and branding:** Follow requested style; do not flatten intentional rhythm, voice, idioms, or humor.
+- **Multilingual:** Keep the source language unless translation is requested. Follow the explicit target language, locale, script, and register; preserve intentional language mixing. See [translation.md](translation.md) for translation checks. Controlled vocabulary from ASD-STE100 applies to English only; this project does not enforce it.
+- **Conflicting inputs:** Do not silently reconcile inconsistent facts. Flag a material conflict if required to complete the task.
+- **Extremely short requests:** Reply directly; no headings or manufactured "next steps."
+
+Three anti-patterns:
+
+1. **Overcompression:** `Revenue grew` loses `Revenue grew 12% year over year in Brazil, excluding refunds.`
+2. **False precision:** `There may be delays` must not become `Delivery will take 3 days.`
+3. **Unasked advice:** A request to rewrite a paragraph must not be changed into a business plan.
+
+
+--- END SKILL; USER TASK ---
+
+User mode selection: ASDify off. This explicit selection overrides the default.

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "8a07ee69edc5b36276086ef10f0582acc003476e8322489d2a7b5f5cdaf50bb7",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 43.906,
+      "completed_at_utc": "2026-10-09T04:15:33.294660+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-011\",\"text\":\"22 richieste su 88 erano incomplete: il 25 %. Tra le 22 incomplete, 4 erano arrivate via posta. Non conoscendo il totale delle richieste arrivate via posta, non si può calcolare quale percentuale fosse incompleta.\"},{\"case_id\":\"modes-it-012\",\"text\":\"La rilevazione fittizia include 29 persone che hanno risposto volontariamente all’uscita della mostra tra le 15 e le 16. Il campione non è casuale ed esclude chi è uscito prima, che non è stato contattato. I risultati non sono quindi generalizzabili a tutti i visitatori.\"},{\"case_id\":\"modes-it-013\",\"text\":\"Quaderni: 8 × 6,25 € = 50 €.\\nTotale, con 7 € di spedizione per l’intero ordine: 50 € + 7 € = 57 €.\"},{\"case_id\":\"modes-it-014\",\"text\":\"Nell’esempio fittizio, l’aumento è di 8 punti percentuali: 34 % − 26 %.\"},{\"case_id\":\"modes-it-015\",\"text\":\"Posizione non verificata: il modulo indica lo scaffale C, il registro lo scaffale D. Le annotazioni hanno la stessa data; la posizione effettiva non è stata controllata.\"}]}",
+      "usage": {
+        "input_tokens": 7460,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 310,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-011\",\"text\":\"22 richieste su 88 erano incomplete: il 25 %. Tra le 22 incomplete, 4 erano arrivate via posta. Non conoscendo il totale delle richieste arrivate via posta, non si può calcolare quale percentuale fosse incompleta.\"},{\"case_id\":\"modes-it-012\",\"text\":\"La rilevazione fittizia include 29 persone che hanno risposto volontariamente all’uscita della mostra tra le 15 e le 16. Il campione non è casuale ed esclude chi è uscito prima, che non è stato contattato. I risultati non sono quindi generalizzabili a tutti i visitatori.\"},{\"case_id\":\"modes-it-013\",\"text\":\"Quaderni: 8 × 6,25 € = 50 €.\\nTotale, con 7 € di spedizione per l’intero ordine: 50 € + 7 € = 57 €.\"},{\"case_id\":\"modes-it-014\",\"text\":\"Nell’esempio fittizio, l’aumento è di 8 punti percentuali: 34 % − 26 %.\"},{\"case_id\":\"modes-it-015\",\"text\":\"Posizione non verificata: il modulo indica lo scaffale C, il registro lo scaffale D. Le annotazioni hanno la stessa data; la posizione effettiva non è stata controllata.\"}]}",
+  "usage": {
+    "input_tokens": 7460,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 310,
+    "reasoning_output_tokens": 0
+  }
+}

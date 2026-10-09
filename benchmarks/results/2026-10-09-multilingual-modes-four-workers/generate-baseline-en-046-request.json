@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "5eb4db08a5ccf309606aeb00a8fa469f7a2a1715b626e475feedf9ceb35e3a3f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 44.174,
+      "completed_at_utc": "2026-10-09T03:38:20.067547+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-046\",\"text\":\"Plan South has the lower stated monthly price: $250 for 12 seats, compared with Plan North’s $288 (12 × $24). This comparison says nothing about service quality.\"},{\"case_id\":\"modes-en-047\",\"text\":\"The figures show fewer errors among attendees: 4 versus 9 in equally sized groups. They support an association, not proof that training caused the reduction. Enrollment was self-selected, and unmeasured prior experience could explain some or all of the difference.\"},{\"case_id\":\"modes-en-048\",\"text\":\"No. Confirmed orders require 45 additional units (70 minus 25 usable units). An optional buffer of up to 10 would bring the purchase to at most 55 units. The buffer is not required, and no supplier minimum supports ordering 100.\"},{\"case_id\":\"modes-en-049\",\"text\":\"The planner’s 6-week build estimate depends on parts arriving by 1 August. Procurement estimates arrival between 5 and 12 August, outside that condition. Neither estimate is a commitment, and the notes provide no revised build duration for late arrival, so they do not establish the resulting completion date.\"},{\"case_id\":\"modes-en-050\",\"text\":\"No. The trial shows only that three previously cached pages opened after Wi-Fi was disabled. It does not establish that the app works offline: no uncached page was tested, mobile data status was unknown, and background requests were not checked.\"}]}",
+      "usage": {
+        "input_tokens": 4235,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 323,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-046\",\"text\":\"Plan South has the lower stated monthly price: $250 for 12 seats, compared with Plan North’s $288 (12 × $24). This comparison says nothing about service quality.\"},{\"case_id\":\"modes-en-047\",\"text\":\"The figures show fewer errors among attendees: 4 versus 9 in equally sized groups. They support an association, not proof that training caused the reduction. Enrollment was self-selected, and unmeasured prior experience could explain some or all of the difference.\"},{\"case_id\":\"modes-en-048\",\"text\":\"No. Confirmed orders require 45 additional units (70 minus 25 usable units). An optional buffer of up to 10 would bring the purchase to at most 55 units. The buffer is not required, and no supplier minimum supports ordering 100.\"},{\"case_id\":\"modes-en-049\",\"text\":\"The planner’s 6-week build estimate depends on parts arriving by 1 August. Procurement estimates arrival between 5 and 12 August, outside that condition. Neither estimate is a commitment, and the notes provide no revised build duration for late arrival, so they do not establish the resulting completion date.\"},{\"case_id\":\"modes-en-050\",\"text\":\"No. The trial shows only that three previously cached pages opened after Wi-Fi was disabled. It does not establish that the app works offline: no uncached page was tested, mobile data status was unknown, and background requests were not checked.\"}]}",
+  "usage": {
+    "input_tokens": 4235,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 323,
+    "reasoning_output_tokens": 0
+  }
+}

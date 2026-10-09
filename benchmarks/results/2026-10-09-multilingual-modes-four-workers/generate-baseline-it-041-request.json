@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "b265ef3e2df674ffbee464f5a33b530f8a6d4c3a1f7740b81a73f5d9e7082083",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.182,
+      "completed_at_utc": "2026-10-09T04:55:37.761268+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-041\",\"text\":\"Il nuovo orario è voluto dal 60 % delle 40 persone che hanno restituito il questionario volontario, cioè 24 persone, su 250 questionari distribuiti.\"},{\"case_id\":\"modes-it-042\",\"text\":\"È confermato solo il controllo da 55 €. La riparazione potrebbe costare 680 € se occorre sostituire entrambi i rulli, ma non è ancora noto se sia necessario.\"},{\"case_id\":\"modes-it-043\",\"text\":\"63 − 54 = 9 punti percentuali.\"},{\"case_id\":\"modes-it-044\",\"text\":\"420 cm ÷ 6 × 9 = 630 cm di cordino.\"},{\"case_id\":\"modes-it-045\",\"text\":\"Dal 10 gennaio, le consegne degli oggetti da riparare avvengono alla porta sul retro, anche per appuntamenti fissati prima di quella data. Il ritiro resta al banco principale.\"}]}",
+      "usage": {
+        "input_tokens": 4187,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 228,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-041\",\"text\":\"Il nuovo orario è voluto dal 60 % delle 40 persone che hanno restituito il questionario volontario, cioè 24 persone, su 250 questionari distribuiti.\"},{\"case_id\":\"modes-it-042\",\"text\":\"È confermato solo il controllo da 55 €. La riparazione potrebbe costare 680 € se occorre sostituire entrambi i rulli, ma non è ancora noto se sia necessario.\"},{\"case_id\":\"modes-it-043\",\"text\":\"63 − 54 = 9 punti percentuali.\"},{\"case_id\":\"modes-it-044\",\"text\":\"420 cm ÷ 6 × 9 = 630 cm di cordino.\"},{\"case_id\":\"modes-it-045\",\"text\":\"Dal 10 gennaio, le consegne degli oggetti da riparare avvengono alla porta sul retro, anche per appuntamenti fissati prima di quella data. Il ritiro resta al banco principale.\"}]}",
+  "usage": {
+    "input_tokens": 4187,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 228,
+    "reasoning_output_tokens": 0
+  }
+}

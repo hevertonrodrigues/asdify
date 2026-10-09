@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "e411252d6643c5cbd6be8362da833fbfd54540e13f666c94abf7bcf4aaa60714",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.575,
+      "completed_at_utc": "2026-10-09T04:18:03.043840+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-066\",\"text\":\"Entwurf sichtbar: ja\\nVeröffentlichung erlaubt: nein\"},{\"case_id\":\"modes-de-067\",\"text\":\"archive-check --list-only listet Probleme auf, behebt sie aber nicht.\"},{\"case_id\":\"modes-de-068\",\"text\":\"Die Anzeige „queue paused“ bedeutet: Die Warteschlange ist angehalten. Ein Verlust von Aufträgen ist nicht bestätigt. Der Grund ist noch unbekannt.\"},{\"case_id\":\"modes-de-069\",\"text\":\"{\\\"code\\\":\\\"BK-56\\\",\\\"available\\\":0,\\\"notice\\\":\\\"Derzeit kann kein Exemplar ausgeliehen werden.\\\"}\"},{\"case_id\":\"modes-de-070\",\"text\":\"## Ausleihe und Zugang\\n- Vier Nähmaschinen sind gereinigt. Nur N-12 hat auch die Funktionsprüfung bestanden und darf ausgeliehen werden. Sie steht am Fenster; ihr Zubehör liegt in einer beschrifteten Tasche unter dem Tisch. Die anderen drei bleiben bis zu ihrer Funktionsprüfung gesperrt. Weißes Etikett = „gereinigt“, keine Freigabe.\\n- Der hintere Raum bleibt wegen defekter Beleuchtung geschlossen, bis der Fehler behoben und die Beleuchtung geprüft ist. Der vordere Boden wurde gewischt.\\n- Für neue Ausleihen gilt das bisherige Formular. Die kürzere Fassung ist ein nicht freigegebener Entwurf.\\n\\n## Bestand und offene Prüfungen\\n- Bestand: 54 Geräte. Heute wurden 49 im Laden gesehen; drei sind mit unterschriebenem Leihschein ausgeliehen und sollen am 22. Oktober zurückkommen. Zwei wurden nicht gefunden. Ob sie falsch einsortiert oder nicht korrekt verbucht wurden, ist offen. Ein Diebstahl wurde nicht festgestellt. Letzter vollständiger Abgleich: vor sechs Wochen.\\n- Stoffreste: 3,6 kg einschließlich Aufbewahrungsbeuteln; daraus lässt sich keine verlässliche Stofffläche ableiten. Neue Beutel wurden vorgeschlagen, aber noch nicht bestellt.\\n- Verbrauchsmaterial: vermutlich 140 € übrig. Der Betrag ist vorläufig, da zwei Kartenzahlungen noch mit den Belegen abgeglichen werden müssen.\\n- Tobias hat angeboten, am Freitag die Schilder zu erneuern; seine Teilnahme ist noch nicht bestätigt. Die Liste beschädigter Schilder liegt neben dem Kassenbuch.\"}]}",
+      "usage": {
+        "input_tokens": 7804,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 507,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-066\",\"text\":\"Entwurf sichtbar: ja\\nVeröffentlichung erlaubt: nein\"},{\"case_id\":\"modes-de-067\",\"text\":\"archive-check --list-only listet Probleme auf, behebt sie aber nicht.\"},{\"case_id\":\"modes-de-068\",\"text\":\"Die Anzeige „queue paused“ bedeutet: Die Warteschlange ist angehalten. Ein Verlust von Aufträgen ist nicht bestätigt. Der Grund ist noch unbekannt.\"},{\"case_id\":\"modes-de-069\",\"text\":\"{\\\"code\\\":\\\"BK-56\\\",\\\"available\\\":0,\\\"notice\\\":\\\"Derzeit kann kein Exemplar ausgeliehen werden.\\\"}\"},{\"case_id\":\"modes-de-070\",\"text\":\"## Ausleihe und Zugang\\n- Vier Nähmaschinen sind gereinigt. Nur N-12 hat auch die Funktionsprüfung bestanden und darf ausgeliehen werden. Sie steht am Fenster; ihr Zubehör liegt in einer beschrifteten Tasche unter dem Tisch. Die anderen drei bleiben bis zu ihrer Funktionsprüfung gesperrt. Weißes Etikett = „gereinigt“, keine Freigabe.\\n- Der hintere Raum bleibt wegen defekter Beleuchtung geschlossen, bis der Fehler behoben und die Beleuchtung geprüft ist. Der vordere Boden wurde gewischt.\\n- Für neue Ausleihen gilt das bisherige Formular. Die kürzere Fassung ist ein nicht freigegebener Entwurf.\\n\\n## Bestand und offene Prüfungen\\n- Bestand: 54 Geräte. Heute wurden 49 im Laden gesehen; drei sind mit unterschriebenem Leihschein ausgeliehen und sollen am 22. Oktober zurückkommen. Zwei wurden nicht gefunden. Ob sie falsch einsortiert oder nicht korrekt verbucht wurden, ist offen. Ein Diebstahl wurde nicht festgestellt. Letzter vollständiger Abgleich: vor sechs Wochen.\\n- Stoffreste: 3,6 kg einschließlich Aufbewahrungsbeuteln; daraus lässt sich keine verlässliche Stofffläche ableiten. Neue Beutel wurden vorgeschlagen, aber noch nicht bestellt.\\n- Verbrauchsmaterial: vermutlich 140 € übrig. Der Betrag ist vorläufig, da zwei Kartenzahlungen noch mit den Belegen abgeglichen werden müssen.\\n- Tobias hat angeboten, am Freitag die Schilder zu erneuern; seine Teilnahme ist noch nicht bestätigt. Die Liste beschädigter Schilder liegt neben dem Kassenbuch.\"}]}",
+  "usage": {
+    "input_tokens": 7804,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 507,
+    "reasoning_output_tokens": 0
+  }
+}

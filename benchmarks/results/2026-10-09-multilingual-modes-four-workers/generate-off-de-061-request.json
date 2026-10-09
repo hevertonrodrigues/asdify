@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "161122fa98a2a6fa94ab4bad6f68d06701f2a4ed3b06176f9ae334d9eda274b1",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.594,
+      "completed_at_utc": "2026-10-09T04:06:50.408505+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-061\",\"text\":\"{\\\"request\\\":\\\"N-407\\\",\\\"retries\\\":1,\\\"message\\\":\\\"Ihre Datei konnte nicht verarbeitet werden. Bitte laden Sie sie erneut als TXT-Datei hoch.\\\"}\"},{\"case_id\":\"modes-de-062\",\"text\":\"Lesender Zugriff auf /srv/werkraum bleibt möglich. Schreibender Zugriff ist erst wieder ab 06:40 UTC erlaubt.\"},{\"case_id\":\"modes-de-063\",\"text\":\"Formular erhalten: DE_17 — Antwort noch offen.\"},{\"case_id\":\"modes-de-064\",\"text\":\"Erinnerung: {{name}} darf die Reservierung unter {{booking_url}} bis zum 9. September ändern.\"},{\"case_id\":\"modes-de-065\",\"text\":\"{\\\"object\\\":\\\"REG-23\\\",\\\"verified\\\":false,\\\"note\\\":\\\"Die Beschriftung wurde geprüft; der Inhalt wurde noch nicht gezählt.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7463,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 199,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-061\",\"text\":\"{\\\"request\\\":\\\"N-407\\\",\\\"retries\\\":1,\\\"message\\\":\\\"Ihre Datei konnte nicht verarbeitet werden. Bitte laden Sie sie erneut als TXT-Datei hoch.\\\"}\"},{\"case_id\":\"modes-de-062\",\"text\":\"Lesender Zugriff auf /srv/werkraum bleibt möglich. Schreibender Zugriff ist erst wieder ab 06:40 UTC erlaubt.\"},{\"case_id\":\"modes-de-063\",\"text\":\"Formular erhalten: DE_17 — Antwort noch offen.\"},{\"case_id\":\"modes-de-064\",\"text\":\"Erinnerung: {{name}} darf die Reservierung unter {{booking_url}} bis zum 9. September ändern.\"},{\"case_id\":\"modes-de-065\",\"text\":\"{\\\"object\\\":\\\"REG-23\\\",\\\"verified\\\":false,\\\"note\\\":\\\"Die Beschriftung wurde geprüft; der Inhalt wurde noch nicht gezählt.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7463,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 199,
+    "reasoning_output_tokens": 0
+  }
+}

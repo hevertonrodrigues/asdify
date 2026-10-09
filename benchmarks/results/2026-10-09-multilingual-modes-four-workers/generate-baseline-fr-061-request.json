@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "26d1e7da0e7c176180634ac803d217534ae878b64a636110f8ad7faf8f32dae6",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.678,
+      "completed_at_utc": "2026-10-09T04:16:44.327310+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-061\",\"text\":\"{\\\"ticket\\\":\\\"Q-613\\\",\\\"attempts\\\":2,\\\"message\\\":\\\"Nous n’avons pas pu ouvrir votre pièce jointe. Merci de la renvoyer au format PDF.\\\"}\"},{\"case_id\":\"modes-fr-062\",\"text\":\"Pendant la maintenance, le dossier /srv/atelier reste accessible en lecture. Les écritures reprennent à 21:15 UTC.\"},{\"case_id\":\"modes-fr-063\",\"text\":\"Dossier reçu : AB_04 — aucun paiement demandé.\"},{\"case_id\":\"modes-fr-064\",\"text\":\"Bonjour {{prenom}}, vous pouvez télécharger votre facture avec {{lien_facture}} jusqu’au 14 juin.\"},{\"case_id\":\"modes-fr-065\",\"text\":\"{\\\"id\\\":\\\"LOT-8\\\",\\\"ready\\\":false,\\\"note\\\":\\\"L’inspection visuelle est terminée, mais le test de charge reste à faire.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 4203,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 204,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-061\",\"text\":\"{\\\"ticket\\\":\\\"Q-613\\\",\\\"attempts\\\":2,\\\"message\\\":\\\"Nous n’avons pas pu ouvrir votre pièce jointe. Merci de la renvoyer au format PDF.\\\"}\"},{\"case_id\":\"modes-fr-062\",\"text\":\"Pendant la maintenance, le dossier /srv/atelier reste accessible en lecture. Les écritures reprennent à 21:15 UTC.\"},{\"case_id\":\"modes-fr-063\",\"text\":\"Dossier reçu : AB_04 — aucun paiement demandé.\"},{\"case_id\":\"modes-fr-064\",\"text\":\"Bonjour {{prenom}}, vous pouvez télécharger votre facture avec {{lien_facture}} jusqu’au 14 juin.\"},{\"case_id\":\"modes-fr-065\",\"text\":\"{\\\"id\\\":\\\"LOT-8\\\",\\\"ready\\\":false,\\\"note\\\":\\\"L’inspection visuelle est terminée, mais le test de charge reste à faire.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 4203,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 204,
+    "reasoning_output_tokens": 0
+  }
+}

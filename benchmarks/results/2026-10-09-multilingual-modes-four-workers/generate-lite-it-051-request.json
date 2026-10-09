@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "25bac67d1b50ab84020c87ee77bc7195b69afe3a0efc8f25fb1a4e6becc7ff23",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.339,
+      "completed_at_utc": "2026-10-09T04:23:51.451745+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-051\",\"text\":\"«Puoi consegnare la chiave domani» indica una possibilità o un permesso, non un obbligo. «Devi consegnare la chiave domani» indica un obbligo.\"},{\"case_id\":\"modes-it-052\",\"text\":\"Si può chiedere un duplicato se il tesserino è perso oppure illeggibile: basta uno dei due motivi. La richiesta non equivale all’approvazione del duplicato.\"},{\"case_id\":\"modes-it-053\",\"text\":\"No, la bici deve restare nel cortile.\"},{\"case_id\":\"modes-it-054\",\"text\":\"Il test ha coinvolto solo undici persone già formate, tutte con esperienza dello stesso kit. Hanno completato il montaggio in meno di otto minuti, ma nessun principiante ha partecipato: il risultato non permette di valutare i tempi dei principianti.\"},{\"case_id\":\"modes-it-055\",\"text\":\"L’etichetta dichiara 90 pezzi; il conteggio manuale ne ha rilevati 89. Il sacchetto è stato richiuso. Non è stato effettuato un secondo conteggio.\"}]}",
+      "usage": {
+        "input_tokens": 7471,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 267,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-051\",\"text\":\"«Puoi consegnare la chiave domani» indica una possibilità o un permesso, non un obbligo. «Devi consegnare la chiave domani» indica un obbligo.\"},{\"case_id\":\"modes-it-052\",\"text\":\"Si può chiedere un duplicato se il tesserino è perso oppure illeggibile: basta uno dei due motivi. La richiesta non equivale all’approvazione del duplicato.\"},{\"case_id\":\"modes-it-053\",\"text\":\"No, la bici deve restare nel cortile.\"},{\"case_id\":\"modes-it-054\",\"text\":\"Il test ha coinvolto solo undici persone già formate, tutte con esperienza dello stesso kit. Hanno completato il montaggio in meno di otto minuti, ma nessun principiante ha partecipato: il risultato non permette di valutare i tempi dei principianti.\"},{\"case_id\":\"modes-it-055\",\"text\":\"L’etichetta dichiara 90 pezzi; il conteggio manuale ne ha rilevati 89. Il sacchetto è stato richiuso. Non è stato effettuato un secondo conteggio.\"}]}",
+  "usage": {
+    "input_tokens": 7471,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 267,
+    "reasoning_output_tokens": 0
+  }
+}

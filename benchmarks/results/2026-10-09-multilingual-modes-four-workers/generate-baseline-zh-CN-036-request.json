@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "cf04300250678e6d6a8525e109c5d221cde76b82811f50a790673ab124fc2bf6",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.654,
+      "completed_at_utc": "2026-10-09T03:55:53.729161+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-036\",\"text\":\"交接记录：\\n1. 包裹接收人：杜宁。\\n2. 随后完成验收，验收人未注明。\\n3. 差异已上报，上报人未注明。\\n注：不能默认验收人或上报人为杜宁。\"},{\"case_id\":\"modes-zh-CN-037\",\"text\":\"商品折后价：260×0.9＝234元；另加运费18元，实付234＋18＝252元。运费不参与折扣。\"},{\"case_id\":\"modes-zh-CN-038\",\"text\":\"选择乙室：45席，可乘电梯，满足两项必需条件，租金800元。甲室虽有50席，但只有楼梯，不符合要求。\"},{\"case_id\":\"modes-zh-CN-039\",\"text\":\"ERR-412：你打开资料后，别人修改了内容，因此你当前的版本不能覆盖最新资料。你的修改尚未保存。请刷新页面，核对最新内容，再重新输入需要的修改。\"},{\"case_id\":\"modes-zh-CN-040\",\"text\":\"雨天照常开放。出现雷暴警报时关闭。\"}]}",
+      "usage": {
+        "input_tokens": 4170,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 286,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-036\",\"text\":\"交接记录：\\n1. 包裹接收人：杜宁。\\n2. 随后完成验收，验收人未注明。\\n3. 差异已上报，上报人未注明。\\n注：不能默认验收人或上报人为杜宁。\"},{\"case_id\":\"modes-zh-CN-037\",\"text\":\"商品折后价：260×0.9＝234元；另加运费18元，实付234＋18＝252元。运费不参与折扣。\"},{\"case_id\":\"modes-zh-CN-038\",\"text\":\"选择乙室：45席，可乘电梯，满足两项必需条件，租金800元。甲室虽有50席，但只有楼梯，不符合要求。\"},{\"case_id\":\"modes-zh-CN-039\",\"text\":\"ERR-412：你打开资料后，别人修改了内容，因此你当前的版本不能覆盖最新资料。你的修改尚未保存。请刷新页面，核对最新内容，再重新输入需要的修改。\"},{\"case_id\":\"modes-zh-CN-040\",\"text\":\"雨天照常开放。出现雷暴警报时关闭。\"}]}",
+  "usage": {
+    "input_tokens": 4170,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 286,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9e2c456df38b839f61b7e6850a16dc44041583f4dfe626973914c4314d7fb708",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.13,
+      "completed_at_utc": "2026-10-09T03:49:52.246713+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-096\",\"text\":\"Il registro riporta \\\"transfer held\\\". Il trasferimento è in sospeso; il messaggio non conferma che il pacco sia stato restituito.\"},{\"case_id\":\"modes-it-097\",\"text\":\"Il nuovo orario si applica solo al banco prestiti. La sala di lettura continua ad aprire alle 10:00. I prestiti iniziano alle 11:00, anche per le richieste prenotate prima del cambio di orario.\"},{\"case_id\":\"modes-it-098\",\"text\":\"Registra prima il conteggio, poi chiedi a un'altra persona di confrontarlo con l'etichetta. Rilascia la scatola solo dopo il confronto. Registrare il conteggio non autorizza il rilascio.\"},{\"case_id\":\"modes-it-099\",\"text\":\"L'etichetta indica 56 bottoni, ma il conteggio manuale ne ha rilevati 55. Non è stato effettuato alcun conteggio indipendente. La quantità effettiva non è ancora confermata.\"},{\"case_id\":\"modes-it-100\",\"text\":\"Delle 132 domande esaminate, 33 erano prive di fotografia. Nove di queste 33 sono arrivate tramite il modulo per dispositivi mobili. Il numero totale di domande ricevute tramite quel modulo è sconosciuto.\"}]}",
+      "usage": {
+        "input_tokens": 7413,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 365,
+        "reasoning_output_tokens": 60
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-096\",\"text\":\"Il registro riporta \\\"transfer held\\\". Il trasferimento è in sospeso; il messaggio non conferma che il pacco sia stato restituito.\"},{\"case_id\":\"modes-it-097\",\"text\":\"Il nuovo orario si applica solo al banco prestiti. La sala di lettura continua ad aprire alle 10:00. I prestiti iniziano alle 11:00, anche per le richieste prenotate prima del cambio di orario.\"},{\"case_id\":\"modes-it-098\",\"text\":\"Registra prima il conteggio, poi chiedi a un'altra persona di confrontarlo con l'etichetta. Rilascia la scatola solo dopo il confronto. Registrare il conteggio non autorizza il rilascio.\"},{\"case_id\":\"modes-it-099\",\"text\":\"L'etichetta indica 56 bottoni, ma il conteggio manuale ne ha rilevati 55. Non è stato effettuato alcun conteggio indipendente. La quantità effettiva non è ancora confermata.\"},{\"case_id\":\"modes-it-100\",\"text\":\"Delle 132 domande esaminate, 33 erano prive di fotografia. Nove di queste 33 sono arrivate tramite il modulo per dispositivi mobili. Il numero totale di domande ricevute tramite quel modulo è sconosciuto.\"}]}",
+  "usage": {
+    "input_tokens": 7413,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 365,
+    "reasoning_output_tokens": 60
+  }
+}

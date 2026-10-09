@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "370aa11945278e5b0bbbf41645bde970c3cd67940d7c9bd57be7edecfacefcc5",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 30.268,
+      "completed_at_utc": "2026-10-09T04:57:17.643910+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-021\",\"text\":\"You may renew online only if your address has not changed and your card expires within 60 days. If either condition is not met, use the desk service. Even if both conditions are met, online renewal is optional.\"},{\"case_id\":\"modes-en-022\",\"text\":\"You may return an unopened kit within 14 calendar days of receiving it. An opened kit may be returned only if a manufacturing fault is confirmed. For either type of return, you must request a return number before sending the kit. Postage refunds are considered separately and are not automatic.\"},{\"case_id\":\"modes-en-023\",\"text\":\"Do not restart the scanner until the upload is complete and the status light is green. You may leave the completed upload screen open. If the light is amber, contact the desk—even if the upload is complete.\"},{\"case_id\":\"modes-en-024\",\"text\":\"- Children under 12 must attend with an adult.\\n- Participants aged 12–15 may attend alone only with written permission.\\n- Participants aged 16 or older do not need written permission.\\n- Everyone must book a seat, including accompanying adults.\"},{\"case_id\":\"modes-en-025\",\"text\":\"You may assign at most two qualified volunteers to the extra shift. Volunteering does not guarantee assignment. Anyone already rostered for the overnight shift is ineligible, even if qualified.\"}]}",
+      "usage": {
+        "input_tokens": 7489,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 308,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-021\",\"text\":\"You may renew online only if your address has not changed and your card expires within 60 days. If either condition is not met, use the desk service. Even if both conditions are met, online renewal is optional.\"},{\"case_id\":\"modes-en-022\",\"text\":\"You may return an unopened kit within 14 calendar days of receiving it. An opened kit may be returned only if a manufacturing fault is confirmed. For either type of return, you must request a return number before sending the kit. Postage refunds are considered separately and are not automatic.\"},{\"case_id\":\"modes-en-023\",\"text\":\"Do not restart the scanner until the upload is complete and the status light is green. You may leave the completed upload screen open. If the light is amber, contact the desk—even if the upload is complete.\"},{\"case_id\":\"modes-en-024\",\"text\":\"- Children under 12 must attend with an adult.\\n- Participants aged 12–15 may attend alone only with written permission.\\n- Participants aged 16 or older do not need written permission.\\n- Everyone must book a seat, including accompanying adults.\"},{\"case_id\":\"modes-en-025\",\"text\":\"You may assign at most two qualified volunteers to the extra shift. Volunteering does not guarantee assignment. Anyone already rostered for the overnight shift is ineligible, even if qualified.\"}]}",
+  "usage": {
+    "input_tokens": 7489,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 308,
+    "reasoning_output_tokens": 0
+  }
+}

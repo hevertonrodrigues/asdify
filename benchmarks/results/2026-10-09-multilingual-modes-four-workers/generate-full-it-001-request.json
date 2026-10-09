@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "074c5f918635c09ccbd47c2f5578c48d60dbcf18964a86978f428bb91e0b8705",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.537,
+      "completed_at_utc": "2026-10-09T04:06:56.626410+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-001\",\"text\":\"Riponi i pennelli nella scatola dopo averli lavati.\"},{\"case_id\":\"modes-it-002\",\"text\":\"I partecipanti possono portare un grembiule personale, ma non è obbligatorio. Durante la dimostrazione devono usare gli occhiali forniti.\"},{\"case_id\":\"modes-it-003\",\"text\":\"Il cortile può essere aperto solo quando il passaggio è libero e il referente ha dato il consenso. Liberare il passaggio non basta per autorizzare l’apertura.\"},{\"case_id\":\"modes-it-004\",\"text\":\"Non annullare la prenotazione: il posto è già confermato anche senza il numero del tavolo. Devi solo aggiungere il numero quando verrà assegnato.\"},{\"case_id\":\"modes-it-005\",\"text\":\"Per prendere in prestito una borsa serve una cauzione, salvo se viene usata solo all’interno del laboratorio. Se viene portata fuori, la cauzione è necessaria.\"}]}",
+      "usage": {
+        "input_tokens": 7463,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 303,
+        "reasoning_output_tokens": 68
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-001\",\"text\":\"Riponi i pennelli nella scatola dopo averli lavati.\"},{\"case_id\":\"modes-it-002\",\"text\":\"I partecipanti possono portare un grembiule personale, ma non è obbligatorio. Durante la dimostrazione devono usare gli occhiali forniti.\"},{\"case_id\":\"modes-it-003\",\"text\":\"Il cortile può essere aperto solo quando il passaggio è libero e il referente ha dato il consenso. Liberare il passaggio non basta per autorizzare l’apertura.\"},{\"case_id\":\"modes-it-004\",\"text\":\"Non annullare la prenotazione: il posto è già confermato anche senza il numero del tavolo. Devi solo aggiungere il numero quando verrà assegnato.\"},{\"case_id\":\"modes-it-005\",\"text\":\"Per prendere in prestito una borsa serve una cauzione, salvo se viene usata solo all’interno del laboratorio. Se viene portata fuori, la cauzione è necessaria.\"}]}",
+  "usage": {
+    "input_tokens": 7463,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 303,
+    "reasoning_output_tokens": 68
+  }
+}

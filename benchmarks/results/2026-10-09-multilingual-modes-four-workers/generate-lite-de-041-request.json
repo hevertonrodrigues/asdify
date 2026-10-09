@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "75078a7cf8f5e965f7525d01e2e15ef82c8fd4e978d1a26caab6ba54215e4b85",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.13,
+      "completed_at_utc": "2026-10-09T03:29:43.812511+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-041\",\"text\":\"15 von 30 Personen, die den freiwilligen Fragebogen zurückgaben, wählten die lange Öffnungszeit. Insgesamt wurden 200 Fragebögen ausgegeben. Daraus lässt sich nicht ableiten, dass jeder zweite Kunde die lange Öffnungszeit wollte.\"},{\"case_id\":\"modes-de-042\",\"text\":\"Die Montage könnte 420 € kosten, wenn die vorhandenen Halterungen wiederverwendbar sind. Bestätigt sind nur 85 € für die Begutachtung. Ob neue Halterungen nötig sind, ist offen.\"},{\"case_id\":\"modes-de-043\",\"text\":\"Der Anteil sinkt um 7 Prozentpunkte.\"},{\"case_id\":\"modes-de-044\",\"text\":\"350 cm ÷ 5 × 8 = 560 cm. Die Gruppe braucht 560 cm Band.\"},{\"case_id\":\"modes-de-045\",\"text\":\"Ab 15. Juli werden Reparaturaufträge am Seiteneingang angenommen. Das gilt auch für bereits vereinbarte Abgabetermine ab diesem Datum. Die Abholung bleibt an der Haupttheke.\"}]}",
+      "usage": {
+        "input_tokens": 7448,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 248,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-041\",\"text\":\"15 von 30 Personen, die den freiwilligen Fragebogen zurückgaben, wählten die lange Öffnungszeit. Insgesamt wurden 200 Fragebögen ausgegeben. Daraus lässt sich nicht ableiten, dass jeder zweite Kunde die lange Öffnungszeit wollte.\"},{\"case_id\":\"modes-de-042\",\"text\":\"Die Montage könnte 420 € kosten, wenn die vorhandenen Halterungen wiederverwendbar sind. Bestätigt sind nur 85 € für die Begutachtung. Ob neue Halterungen nötig sind, ist offen.\"},{\"case_id\":\"modes-de-043\",\"text\":\"Der Anteil sinkt um 7 Prozentpunkte.\"},{\"case_id\":\"modes-de-044\",\"text\":\"350 cm ÷ 5 × 8 = 560 cm. Die Gruppe braucht 560 cm Band.\"},{\"case_id\":\"modes-de-045\",\"text\":\"Ab 15. Juli werden Reparaturaufträge am Seiteneingang angenommen. Das gilt auch für bereits vereinbarte Abgabetermine ab diesem Datum. Die Abholung bleibt an der Haupttheke.\"}]}",
+  "usage": {
+    "input_tokens": 7448,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 248,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "b39d826ed4ab95f127dcc39d0ad5a0be21bf52c7b5081f37b9b7c38838021e58",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.974,
+      "completed_at_utc": "2026-10-09T02:57:03.805544+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-051\",\"text\":\"La piscina cierra a las 19:00.\"},{\"case_id\":\"modes-es-052\",\"text\":\"1. {huesped}, puede entrar después de las 16:00.\\n2. Si llega después de las 23:00, llame a {{telefono_noche}} antes de entrar.\"},{\"case_id\":\"modes-es-053\",\"text\":\"{\\\"case_id\\\":\\\"E-452\\\",\\\"urgency\\\":4,\\\"message\\\":\\\"La revisión empezó, pero no hay fecha de finalización.\\\"}\"},{\"case_id\":\"modes-es-054\",\"text\":\"Se recomienda consultar [Guía de entradas](https://example.invalid/entradas?rev=4#formas) antes de enviar el formulario porque recoge las opciones disponibles.\"},{\"case_id\":\"modes-es-055\",\"text\":\"{\\\"series\\\":\\\"SR/2-C\\\",\\\"quantity\\\":0,\\\"authorized\\\":false,\\\"reason\\\":\\\"No se liberó ninguna unidad porque la inspección está incompleta.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7492,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 223,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-051\",\"text\":\"La piscina cierra a las 19:00.\"},{\"case_id\":\"modes-es-052\",\"text\":\"1. {huesped}, puede entrar después de las 16:00.\\n2. Si llega después de las 23:00, llame a {{telefono_noche}} antes de entrar.\"},{\"case_id\":\"modes-es-053\",\"text\":\"{\\\"case_id\\\":\\\"E-452\\\",\\\"urgency\\\":4,\\\"message\\\":\\\"La revisión empezó, pero no hay fecha de finalización.\\\"}\"},{\"case_id\":\"modes-es-054\",\"text\":\"Se recomienda consultar [Guía de entradas](https://example.invalid/entradas?rev=4#formas) antes de enviar el formulario porque recoge las opciones disponibles.\"},{\"case_id\":\"modes-es-055\",\"text\":\"{\\\"series\\\":\\\"SR/2-C\\\",\\\"quantity\\\":0,\\\"authorized\\\":false,\\\"reason\\\":\\\"No se liberó ninguna unidad porque la inspección está incompleta.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7492,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 223,
+    "reasoning_output_tokens": 0
+  }
+}

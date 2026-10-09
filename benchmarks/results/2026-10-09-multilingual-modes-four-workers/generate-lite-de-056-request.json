@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "2d8ae30d90681d19af723ce1b1e9101568b4b17e609e3f6a5c82a0e6dc56fc2a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.379,
+      "completed_at_utc": "2026-10-09T03:41:34.510452+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-056\",\"text\":\"Jeder Beutel darf einschließlich Verpackung höchstens 800 g wiegen. Pro Bestellung sind höchstens fünf Beutel erlaubt. Die Grenze von 800 g gilt je Beutel, nicht für die gesamte Bestellung.\"},{\"case_id\":\"modes-de-057\",\"text\":\"Seit Version 3.1 blendet show_hidden=false versteckte Einträge aus. Die Einträge bleiben gespeichert. Berichte, die vor der Aktualisierung begonnen wurden, verwenden bis zum Abschluss ihre bisherige Einstellung.\"},{\"case_id\":\"modes-de-058\",\"text\":\"Nein. Der Durchschnitt in der fiktiven Gruppe steigt von 3 auf 4 Bücher pro Monat. Ohne Angaben zu einzelnen Personen lässt sich nicht sagen, dass jede Person mehr gelesen hat.\"},{\"case_id\":\"modes-de-059\",\"text\":\"Im Treppenhaus roch es nach frischem Holz. Auf der dritten Stufe lag ein roter Handschuh. Seit Mittag war niemand hinaufgegangen.\"},{\"case_id\":\"modes-de-060\",\"text\":\"Freigabe ausstehend — Vorgang V-72.\"}]}",
+      "usage": {
+        "input_tokens": 7431,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 246,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-056\",\"text\":\"Jeder Beutel darf einschließlich Verpackung höchstens 800 g wiegen. Pro Bestellung sind höchstens fünf Beutel erlaubt. Die Grenze von 800 g gilt je Beutel, nicht für die gesamte Bestellung.\"},{\"case_id\":\"modes-de-057\",\"text\":\"Seit Version 3.1 blendet show_hidden=false versteckte Einträge aus. Die Einträge bleiben gespeichert. Berichte, die vor der Aktualisierung begonnen wurden, verwenden bis zum Abschluss ihre bisherige Einstellung.\"},{\"case_id\":\"modes-de-058\",\"text\":\"Nein. Der Durchschnitt in der fiktiven Gruppe steigt von 3 auf 4 Bücher pro Monat. Ohne Angaben zu einzelnen Personen lässt sich nicht sagen, dass jede Person mehr gelesen hat.\"},{\"case_id\":\"modes-de-059\",\"text\":\"Im Treppenhaus roch es nach frischem Holz. Auf der dritten Stufe lag ein roter Handschuh. Seit Mittag war niemand hinaufgegangen.\"},{\"case_id\":\"modes-de-060\",\"text\":\"Freigabe ausstehend — Vorgang V-72.\"}]}",
+  "usage": {
+    "input_tokens": 7431,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 246,
+    "reasoning_output_tokens": 0
+  }
+}

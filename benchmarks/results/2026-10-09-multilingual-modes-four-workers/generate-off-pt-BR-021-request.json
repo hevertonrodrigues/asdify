@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "800602f06a6d7a3bee42d44147b22348c9fbbfe077329773de5d27cc3798c2bd",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.064,
+      "completed_at_utc": "2026-10-09T04:31:15.812101+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-021\",\"text\":\"Você pode trocar o horário pelo aplicativo apenas quando faltarem mais de 24 horas e houver vaga na outra turma. Se uma dessas condições não for atendida, procure a secretaria. O uso do aplicativo é opcional.\"},{\"case_id\":\"modes-pt-BR-022\",\"text\":\"Peças sem uso podem ser trocadas em até 10 dias corridos após o recebimento. Para peças usadas, a troca só é permitida se o defeito de fabricação for confirmado. Em qualquer um dos casos, o cliente deve solicitar um código antes de enviar a peça. O frete não é reembolsado automaticamente.\"},{\"case_id\":\"modes-pt-BR-023\",\"text\":\"Só desligue o leitor quando o envio terminar e a luz ficar verde. Depois disso, você pode deixar a tela aberta.\"},{\"case_id\":\"modes-pt-BR-024\",\"text\":\"- Menores de 9 anos devem estar acompanhados de um adulto.\\n- Pessoas de 9 a 14 anos só podem ficar sem acompanhante com autorização escrita.\\n- Pessoas de 15 anos ou mais não precisam dessa autorização.\\n- O acompanhante também deve reservar lugar.\"},{\"case_id\":\"modes-pt-BR-025\",\"text\":\"A escala extra pode contar com até três voluntários habilitados. Quem já estiver escalado para o turno seguinte não pode participar. A inscrição como voluntário não garante vaga, e a chefia pode decidir não abrir a escala.\"}]}",
+      "usage": {
+        "input_tokens": 7531,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 331,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-021\",\"text\":\"Você pode trocar o horário pelo aplicativo apenas quando faltarem mais de 24 horas e houver vaga na outra turma. Se uma dessas condições não for atendida, procure a secretaria. O uso do aplicativo é opcional.\"},{\"case_id\":\"modes-pt-BR-022\",\"text\":\"Peças sem uso podem ser trocadas em até 10 dias corridos após o recebimento. Para peças usadas, a troca só é permitida se o defeito de fabricação for confirmado. Em qualquer um dos casos, o cliente deve solicitar um código antes de enviar a peça. O frete não é reembolsado automaticamente.\"},{\"case_id\":\"modes-pt-BR-023\",\"text\":\"Só desligue o leitor quando o envio terminar e a luz ficar verde. Depois disso, você pode deixar a tela aberta.\"},{\"case_id\":\"modes-pt-BR-024\",\"text\":\"- Menores de 9 anos devem estar acompanhados de um adulto.\\n- Pessoas de 9 a 14 anos só podem ficar sem acompanhante com autorização escrita.\\n- Pessoas de 15 anos ou mais não precisam dessa autorização.\\n- O acompanhante também deve reservar lugar.\"},{\"case_id\":\"modes-pt-BR-025\",\"text\":\"A escala extra pode contar com até três voluntários habilitados. Quem já estiver escalado para o turno seguinte não pode participar. A inscrição como voluntário não garante vaga, e a chefia pode decidir não abrir a escala.\"}]}",
+  "usage": {
+    "input_tokens": 7531,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 331,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a39b8dd5b70e665131172618a9dc0f31c288da548ace4bcc72d044611afb0cc9",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.66,
+      "completed_at_utc": "2026-10-09T03:46:07.768436+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-076\",\"text\":\"A volunteer counted 14 bats at the east entrance between 20:00 and 20:30 on one dry evening. The count may include repeat passes by the same bat. No other entrance or evening was observed.\"},{\"case_id\":\"modes-en-077\",\"text\":\"No corrosion was visible on the casing’s exterior. The casing was not opened, so the interior was not inspected. No chemical test was performed.\"},{\"case_id\":\"modes-en-078\",\"text\":\"Of 150 people who voluntarily scanned a poster’s QR code, 64% wanted more cycle parking. The poster was beside a cycle rack, and residents were not sampled at random. The result describes these respondents, not all residents.\"},{\"case_id\":\"modes-en-079\",\"text\":\"The 08:30 appointment was canceled because the clinician is unavailable; the reason for that unavailability is not stated. Patients scheduled for that appointment will be contacted to arrange another time. No replacement time has been set.\"},{\"case_id\":\"modes-en-080\",\"text\":\"Today, the scale read 500 g three times for a check weight with a certified mass of 500 g. Only that load was tested; the readings do not establish accuracy for lighter or heavier items. This check is not a full calibration.\"}]}",
+      "usage": {
+        "input_tokens": 7493,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 288,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-076\",\"text\":\"A volunteer counted 14 bats at the east entrance between 20:00 and 20:30 on one dry evening. The count may include repeat passes by the same bat. No other entrance or evening was observed.\"},{\"case_id\":\"modes-en-077\",\"text\":\"No corrosion was visible on the casing’s exterior. The casing was not opened, so the interior was not inspected. No chemical test was performed.\"},{\"case_id\":\"modes-en-078\",\"text\":\"Of 150 people who voluntarily scanned a poster’s QR code, 64% wanted more cycle parking. The poster was beside a cycle rack, and residents were not sampled at random. The result describes these respondents, not all residents.\"},{\"case_id\":\"modes-en-079\",\"text\":\"The 08:30 appointment was canceled because the clinician is unavailable; the reason for that unavailability is not stated. Patients scheduled for that appointment will be contacted to arrange another time. No replacement time has been set.\"},{\"case_id\":\"modes-en-080\",\"text\":\"Today, the scale read 500 g three times for a check weight with a certified mass of 500 g. Only that load was tested; the readings do not establish accuracy for lighter or heavier items. This check is not a full calibration.\"}]}",
+  "usage": {
+    "input_tokens": 7493,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 288,
+    "reasoning_output_tokens": 0
+  }
+}

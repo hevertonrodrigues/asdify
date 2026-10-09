@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "1c563b031a0f39e421de6d832e12ac4f4c540a79cdc7bf3e46aa35a2662ef698",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.274,
+      "completed_at_utc": "2026-10-09T03:42:14.434928+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-056\",\"text\":\"Je Beutel sind höchstens 800 g einschließlich Verpackung erlaubt, je Bestellung höchstens fünf Beutel. Die 800-g-Grenze gilt nicht für die gesamte Bestellung.\"},{\"case_id\":\"modes-de-057\",\"text\":\"Seit Version 3.1 blendet show_hidden=false versteckte Einträge aus, ohne sie zu löschen. Vor der Aktualisierung begonnene Berichte behalten ihre bisherige Einstellung bis zum Abschluss.\"},{\"case_id\":\"modes-de-058\",\"text\":\"Nein. Der Durchschnitt der fiktiven Gruppe steigt von 3 auf 4 Bücher pro Monat. Ohne Angaben zu einzelnen Personen lässt sich nicht sagen, dass jede Person mehr gelesen hat.\"},{\"case_id\":\"modes-de-059\",\"text\":\"Im Treppenhaus roch es nach frischem Holz. Auf der dritten Stufe lag ein roter Handschuh. Seit Mittag war niemand hinaufgegangen.\"},{\"case_id\":\"modes-de-060\",\"text\":\"Freigabe ausstehend — Vorgang V-72.\"}]}",
+      "usage": {
+        "input_tokens": 7427,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 235,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-056\",\"text\":\"Je Beutel sind höchstens 800 g einschließlich Verpackung erlaubt, je Bestellung höchstens fünf Beutel. Die 800-g-Grenze gilt nicht für die gesamte Bestellung.\"},{\"case_id\":\"modes-de-057\",\"text\":\"Seit Version 3.1 blendet show_hidden=false versteckte Einträge aus, ohne sie zu löschen. Vor der Aktualisierung begonnene Berichte behalten ihre bisherige Einstellung bis zum Abschluss.\"},{\"case_id\":\"modes-de-058\",\"text\":\"Nein. Der Durchschnitt der fiktiven Gruppe steigt von 3 auf 4 Bücher pro Monat. Ohne Angaben zu einzelnen Personen lässt sich nicht sagen, dass jede Person mehr gelesen hat.\"},{\"case_id\":\"modes-de-059\",\"text\":\"Im Treppenhaus roch es nach frischem Holz. Auf der dritten Stufe lag ein roter Handschuh. Seit Mittag war niemand hinaufgegangen.\"},{\"case_id\":\"modes-de-060\",\"text\":\"Freigabe ausstehend — Vorgang V-72.\"}]}",
+  "usage": {
+    "input_tokens": 7427,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 235,
+    "reasoning_output_tokens": 0
+  }
+}

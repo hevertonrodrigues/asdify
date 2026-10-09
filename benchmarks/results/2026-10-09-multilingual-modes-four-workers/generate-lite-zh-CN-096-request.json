@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6253c1b363f1f79aa13686ba5e6fbfd9174ac632bc90bcdc80c8b3a007122d48",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 34.508,
+      "completed_at_utc": "2026-10-09T03:40:54.515898+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-096\",\"text\":\"最大承重：22 kg。仅限在室内干燥、平坦的地面上使用。请勿在阳台上使用，即使阳台有遮盖。标签未说明是否允许在橡胶地面上使用。\"},{\"case_id\":\"modes-zh-CN-097\",\"text\":\"报名收入为 CAD 4,800。所列的场地和材料费用为 CAD 3,200。CAD 1,600 的差额并非最终利润，因为尚未计入人员费用和取消报名的退款。所列费用的预算为 CAD 3,500。\"},{\"case_id\":\"modes-zh-CN-098\",\"text\":\"如果我之前的预约能按时结束，我周日可以帮忙二十分钟。如果我迟到了，你们先开始，不用等我。我没法参加下午那一场。我还没有答应带相机。\"},{\"case_id\":\"modes-zh-CN-099\",\"text\":\"受邀的 28 家供应商中，有 20 家回复。回复者中，12 家倾向于提前开始营业，5 家倾向于维持当前时间，3 家尚未决定。不得将未回复的 8 家计为支持任一选项。价格不在本次调查范围内。\"},{\"case_id\":\"modes-zh-CN-100\",\"text\":\"版本 5.4.2 修复了版本 5.4.1 中的标签对齐问题，不会更改已保存的地址。说明见 https://example.invalid/app/5.4.2。更新已可用，但用户无需安装。\"}]}",
+      "usage": {
+        "input_tokens": 7556,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 375,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-096\",\"text\":\"最大承重：22 kg。仅限在室内干燥、平坦的地面上使用。请勿在阳台上使用，即使阳台有遮盖。标签未说明是否允许在橡胶地面上使用。\"},{\"case_id\":\"modes-zh-CN-097\",\"text\":\"报名收入为 CAD 4,800。所列的场地和材料费用为 CAD 3,200。CAD 1,600 的差额并非最终利润，因为尚未计入人员费用和取消报名的退款。所列费用的预算为 CAD 3,500。\"},{\"case_id\":\"modes-zh-CN-098\",\"text\":\"如果我之前的预约能按时结束，我周日可以帮忙二十分钟。如果我迟到了，你们先开始，不用等我。我没法参加下午那一场。我还没有答应带相机。\"},{\"case_id\":\"modes-zh-CN-099\",\"text\":\"受邀的 28 家供应商中，有 20 家回复。回复者中，12 家倾向于提前开始营业，5 家倾向于维持当前时间，3 家尚未决定。不得将未回复的 8 家计为支持任一选项。价格不在本次调查范围内。\"},{\"case_id\":\"modes-zh-CN-100\",\"text\":\"版本 5.4.2 修复了版本 5.4.1 中的标签对齐问题，不会更改已保存的地址。说明见 https://example.invalid/app/5.4.2。更新已可用，但用户无需安装。\"}]}",
+  "usage": {
+    "input_tokens": 7556,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 375,
+    "reasoning_output_tokens": 0
+  }
+}

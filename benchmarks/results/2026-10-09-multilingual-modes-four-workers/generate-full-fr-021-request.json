@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4ac672438466be81459415fd924a88632527ae5c5013aeb68e23885cb0b2fe9e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.212,
+      "completed_at_utc": "2026-10-09T04:47:45.552283+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-021\",\"text\":\"J’ai bien reçu ton dessin. Je ne pourrai pas l’encadrer cette semaine, mais je le garderai à plat dans une pochette jusqu’à notre rendez-vous de lundi.\"},{\"case_id\":\"modes-fr-022\",\"text\":\"« Sa réservation » est ambigu : elle peut appartenir à Camille ou à Louise. Deux lectures possibles :\\n- Après son appel à Louise, Camille a modifié sa propre réservation.\\n- Après son appel à Louise, Camille a modifié la réservation de Louise.\"},{\"case_id\":\"modes-fr-023\",\"text\":\"Les locataires peuvent demander une copie de l’état des lieux. Cette demande n’est pas nécessaire pour conserver leur exemplaire initial. Le règlement ne prévoit aucun paiement.\"},{\"case_id\":\"modes-fr-024\",\"text\":\"La livraison est gratuite pour les commandes d’au moins 60 € livrées dans la zone A. Elle est exclue pour la zone B et pour toute commande contenant un meuble, même si le total dépasse 60 €.\"},{\"case_id\":\"modes-fr-025\",\"text\":\"La mention « reçue » ne signifie pas que la demande est acceptée. Seul un message portant la mention « acceptée » confirme l’inscription.\"}]}",
+      "usage": {
+        "input_tokens": 7464,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 279,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-021\",\"text\":\"J’ai bien reçu ton dessin. Je ne pourrai pas l’encadrer cette semaine, mais je le garderai à plat dans une pochette jusqu’à notre rendez-vous de lundi.\"},{\"case_id\":\"modes-fr-022\",\"text\":\"« Sa réservation » est ambigu : elle peut appartenir à Camille ou à Louise. Deux lectures possibles :\\n- Après son appel à Louise, Camille a modifié sa propre réservation.\\n- Après son appel à Louise, Camille a modifié la réservation de Louise.\"},{\"case_id\":\"modes-fr-023\",\"text\":\"Les locataires peuvent demander une copie de l’état des lieux. Cette demande n’est pas nécessaire pour conserver leur exemplaire initial. Le règlement ne prévoit aucun paiement.\"},{\"case_id\":\"modes-fr-024\",\"text\":\"La livraison est gratuite pour les commandes d’au moins 60 € livrées dans la zone A. Elle est exclue pour la zone B et pour toute commande contenant un meuble, même si le total dépasse 60 €.\"},{\"case_id\":\"modes-fr-025\",\"text\":\"La mention « reçue » ne signifie pas que la demande est acceptée. Seul un message portant la mention « acceptée » confirme l’inscription.\"}]}",
+  "usage": {
+    "input_tokens": 7464,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 279,
+    "reasoning_output_tokens": 0
+  }
+}

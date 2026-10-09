@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "d5096f2833f3c3f911e2c95ed8f96d2869d1e24641256f8a45f763e202f85a18",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.88,
+      "completed_at_utc": "2026-10-09T05:14:57.292849+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-066\",\"text\":\"La técnica.\"},{\"case_id\":\"modes-es-067\",\"text\":\"El museo abre a las diez. Los visitantes deben conservar la entrada hasta la salida. La tienda cierra a las seis.\"},{\"case_id\":\"modes-es-068\",\"text\":\"No. La decisión sobre la iluminación se aplazó hasta el estudio, que no tiene fecha.\"},{\"case_id\":\"modes-es-069\",\"text\":\"La bisagra sustituida todavía se atasca con el frío. El equipo no ha probado esa condición.\"},{\"case_id\":\"modes-es-070\",\"text\":\"Las dos bolsas fueron cerradas antes de imprimir las etiquetas. No se sabe quién las cerró. Omar imprimió las etiquetas.\"}]}",
+      "usage": {
+        "input_tokens": 7467,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 170,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-066\",\"text\":\"La técnica.\"},{\"case_id\":\"modes-es-067\",\"text\":\"El museo abre a las diez. Los visitantes deben conservar la entrada hasta la salida. La tienda cierra a las seis.\"},{\"case_id\":\"modes-es-068\",\"text\":\"No. La decisión sobre la iluminación se aplazó hasta el estudio, que no tiene fecha.\"},{\"case_id\":\"modes-es-069\",\"text\":\"La bisagra sustituida todavía se atasca con el frío. El equipo no ha probado esa condición.\"},{\"case_id\":\"modes-es-070\",\"text\":\"Las dos bolsas fueron cerradas antes de imprimir las etiquetas. No se sabe quién las cerró. Omar imprimió las etiquetas.\"}]}",
+  "usage": {
+    "input_tokens": 7467,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 170,
+    "reasoning_output_tokens": 0
+  }
+}

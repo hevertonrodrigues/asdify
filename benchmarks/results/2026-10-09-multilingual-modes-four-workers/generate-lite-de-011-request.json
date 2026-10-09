@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "74545778132899d3311a3aed87435b1c9d97102eb78539ceb5803d881083d54c",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 43.252,
+      "completed_at_utc": "2026-10-09T03:16:26.517233+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-011\",\"text\":\"Von 96 bearbeiteten Anfragen wurden 24 am Wochenende beantwortet. Davon betrafen 8 die Anmeldung. Die Gesamtzahl der Anmeldeanfragen ist unbekannt.\"},{\"case_id\":\"modes-de-012\",\"text\":\"Die fiktive Befragung umfasst 31 Besucher eines Tauschmarkts, die freiwillig geantwortet haben. Befragt wurden nur Personen am Ausgang zwischen 11 und 12 Uhr; eine Zufallsauswahl fand nicht statt. Die Ergebnisse sind daher nicht ohne Weiteres auf alle Besucher übertragbar.\"},{\"case_id\":\"modes-de-013\",\"text\":\"9 × 4,50 € = 40,50 €\\n40,50 € + 6 € Versand = 46,50 €\\n\\nDer Gesamtbetrag beträgt 46,50 €.\"},{\"case_id\":\"modes-de-014\",\"text\":\"Der Anteil steigt von 41 % auf 47 %, also um 6 Prozentpunkte.\"},{\"case_id\":\"modes-de-015\",\"text\":\"Auf dem Aufkleber steht Fach 7, im Übergabeformular Fach 9. Beide Angaben wurden am selben Tag eingetragen. Die Angaben widersprechen sich; der tatsächliche Lagerort wurde noch nicht geprüft.\"}]}",
+      "usage": {
+        "input_tokens": 7445,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 282,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-011\",\"text\":\"Von 96 bearbeiteten Anfragen wurden 24 am Wochenende beantwortet. Davon betrafen 8 die Anmeldung. Die Gesamtzahl der Anmeldeanfragen ist unbekannt.\"},{\"case_id\":\"modes-de-012\",\"text\":\"Die fiktive Befragung umfasst 31 Besucher eines Tauschmarkts, die freiwillig geantwortet haben. Befragt wurden nur Personen am Ausgang zwischen 11 und 12 Uhr; eine Zufallsauswahl fand nicht statt. Die Ergebnisse sind daher nicht ohne Weiteres auf alle Besucher übertragbar.\"},{\"case_id\":\"modes-de-013\",\"text\":\"9 × 4,50 € = 40,50 €\\n40,50 € + 6 € Versand = 46,50 €\\n\\nDer Gesamtbetrag beträgt 46,50 €.\"},{\"case_id\":\"modes-de-014\",\"text\":\"Der Anteil steigt von 41 % auf 47 %, also um 6 Prozentpunkte.\"},{\"case_id\":\"modes-de-015\",\"text\":\"Auf dem Aufkleber steht Fach 7, im Übergabeformular Fach 9. Beide Angaben wurden am selben Tag eingetragen. Die Angaben widersprechen sich; der tatsächliche Lagerort wurde noch nicht geprüft.\"}]}",
+  "usage": {
+    "input_tokens": 7445,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 282,
+    "reasoning_output_tokens": 0
+  }
+}

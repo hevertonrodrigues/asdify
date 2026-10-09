@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0769f4c85e734f479d700af09af0db71c3e2d45d3e694418d4ea078d41ca0b91",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.733,
+      "completed_at_utc": "2026-10-09T03:57:43.309412+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-061\",\"text\":\"Obrigada por nos avisar sobre a cadeira instável, Lia. Já pedimos à oficina que a examine. Ainda não sabemos se será possível consertá-la, mas avisaremos você assim que recebermos o resultado da avaliação.\"},{\"case_id\":\"modes-pt-BR-062\",\"text\":\"A hortelã virou síndica da varanda: oito brotos novos nesta semana. Recorde? Não sabemos: ninguém contou na semana passada. O condomínio continua sendo pago em água.\"},{\"case_id\":\"modes-pt-BR-063\",\"text\":\"Sinto muito pelo atraso. Informei o número errado do apartamento, e a equipe usou o endereço que passei. Perguntei ao entregador se pode corrigir a rota, mas ele ainda não respondeu.\"},{\"case_id\":\"modes-pt-BR-064\",\"text\":\"Encontramos três mochilas ao lado da quadra depois do fechamento. Elas estão na sala da zeladoria. Não sabemos quem são os donos nem se foram deixadas ali de propósito. Os donos podem procurar a recepção e descrever a mochila antes de retirá-la.\"},{\"case_id\":\"modes-pt-BR-065\",\"text\":\"“Talvez eu pegue o primeiro ônibus”, disse Caio, “se a reunião acabar cedo. Mas ainda não comprei a passagem… Não quero que você fique me esperando como se já estivesse tudo certo.”\"}]}",
+      "usage": {
+        "input_tokens": 7543,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 317,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-061\",\"text\":\"Obrigada por nos avisar sobre a cadeira instável, Lia. Já pedimos à oficina que a examine. Ainda não sabemos se será possível consertá-la, mas avisaremos você assim que recebermos o resultado da avaliação.\"},{\"case_id\":\"modes-pt-BR-062\",\"text\":\"A hortelã virou síndica da varanda: oito brotos novos nesta semana. Recorde? Não sabemos: ninguém contou na semana passada. O condomínio continua sendo pago em água.\"},{\"case_id\":\"modes-pt-BR-063\",\"text\":\"Sinto muito pelo atraso. Informei o número errado do apartamento, e a equipe usou o endereço que passei. Perguntei ao entregador se pode corrigir a rota, mas ele ainda não respondeu.\"},{\"case_id\":\"modes-pt-BR-064\",\"text\":\"Encontramos três mochilas ao lado da quadra depois do fechamento. Elas estão na sala da zeladoria. Não sabemos quem são os donos nem se foram deixadas ali de propósito. Os donos podem procurar a recepção e descrever a mochila antes de retirá-la.\"},{\"case_id\":\"modes-pt-BR-065\",\"text\":\"“Talvez eu pegue o primeiro ônibus”, disse Caio, “se a reunião acabar cedo. Mas ainda não comprei a passagem… Não quero que você fique me esperando como se já estivesse tudo certo.”\"}]}",
+  "usage": {
+    "input_tokens": 7543,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 317,
+    "reasoning_output_tokens": 0
+  }
+}

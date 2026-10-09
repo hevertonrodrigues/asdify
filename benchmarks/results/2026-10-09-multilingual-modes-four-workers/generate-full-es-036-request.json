@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "8a74fe83b6a37e53c0ffa422b8b8c13e0ed143df7eb7a34402e6041312e4289a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.094,
+      "completed_at_utc": "2026-10-09T03:07:30.044561+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-036\",\"text\":\"El campo etiqueta tiene estas reglas:\\n- Si falta, se mantiene el valor actual.\\n- Si vale JSON null, se borra.\\n- Una cadena vacía es un valor válido.\\n\\nEstas reglas no se han definido para otros campos.\"},{\"case_id\":\"modes-es-037\",\"text\":\"Ocho hilos completaron 1.440 tareas en 120 segundos: 12 tareas por segundo en total, con la entrada en caché. No se midió el rendimiento de un hilo aislado ni la lectura con caché vacía.\"},{\"case_id\":\"modes-es-038\",\"text\":\"dias_guardado=0 desactiva el borrado automático; no borra todo de inmediato. Los valores positivos cuentan días completos desde la entrada. El borrado manual sigue siendo posible. El valor predeterminado es 21 y los cambios solo afectan a registros nuevos.\"},{\"case_id\":\"modes-es-039\",\"text\":\"El ensayo confirmó que una cuenta de servicio autenticada puede conectarse, no que el sistema de permisos esté aprobado. No autenticó a cada visitante ni verificó su derecho a leer cada expediente.\"},{\"case_id\":\"modes-es-040\",\"text\":\"No. «Desfase: 75 s» significa que el último evento aplicado está 75 segundos detrás del último recibido. Los eventos pendientes siguen en la cola. Sin un recuento de fallos ni una auditoría de eventos ausentes, el aviso no demuestra pérdida.\"}]}",
+      "usage": {
+        "input_tokens": 7485,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 328,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-036\",\"text\":\"El campo etiqueta tiene estas reglas:\\n- Si falta, se mantiene el valor actual.\\n- Si vale JSON null, se borra.\\n- Una cadena vacía es un valor válido.\\n\\nEstas reglas no se han definido para otros campos.\"},{\"case_id\":\"modes-es-037\",\"text\":\"Ocho hilos completaron 1.440 tareas en 120 segundos: 12 tareas por segundo en total, con la entrada en caché. No se midió el rendimiento de un hilo aislado ni la lectura con caché vacía.\"},{\"case_id\":\"modes-es-038\",\"text\":\"dias_guardado=0 desactiva el borrado automático; no borra todo de inmediato. Los valores positivos cuentan días completos desde la entrada. El borrado manual sigue siendo posible. El valor predeterminado es 21 y los cambios solo afectan a registros nuevos.\"},{\"case_id\":\"modes-es-039\",\"text\":\"El ensayo confirmó que una cuenta de servicio autenticada puede conectarse, no que el sistema de permisos esté aprobado. No autenticó a cada visitante ni verificó su derecho a leer cada expediente.\"},{\"case_id\":\"modes-es-040\",\"text\":\"No. «Desfase: 75 s» significa que el último evento aplicado está 75 segundos detrás del último recibido. Los eventos pendientes siguen en la cola. Sin un recuento de fallos ni una auditoría de eventos ausentes, el aviso no demuestra pérdida.\"}]}",
+  "usage": {
+    "input_tokens": 7485,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 328,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -2,6 +2,35 @@
 
 Real live-model outputs are published below. Model reviewers share the generation model family; these are automated comparisons, not independent human studies or reliability certification.
 
+## 900-case multilingual mode benchmark
+
+The latest study uses 100 new cases per output language, each run without the skill and in all four modes. It contains 900 distinct cases, 3,600 mode tests, 900 baseline answers, 4,500 generated answers, and 9,000 blinded candidate ratings. Each cell below is a strict pass percentage; there are 100 answers per language and condition, or 900 in the overall row.
+
+| Output language | No skill | Lite | Full | Ultra | Off |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| English | 95.00% | 98.00% | 98.00% | 96.00% | 97.00% |
+| Portuguese (Brazil) | 96.00% | 98.00% | 98.00% | 99.00% | 99.00% |
+| Spanish | 91.00% | 96.00% | 97.00% | 96.00% | 96.00% |
+| French | 97.00% | 100.00% | 100.00% | 99.00% | 99.00% |
+| German | 93.00% | 99.00% | 97.00% | 96.00% | 96.00% |
+| Japanese | 88.00% | 98.00% | 98.00% | 97.00% | 98.00% |
+| Chinese (Simplified) | 94.00% | 99.00% | 100.00% | 99.00% | 99.00% |
+| Italian | 92.00% | 97.00% | 98.00% | 98.00% | 97.00% |
+| Russian | 93.00% | 99.00% | 99.00% | 98.00% | 98.00% |
+| All (900 per condition) | 93.22% | 98.22% | 98.33% | 97.56% | 97.67% |
+
+`full` recorded 885/900 strict passes versus 839/900 without the skill, gaining 51 passes and losing 5 on paired cases: a net gain of 5.11 percentage points. All four modes scored higher than the baseline in this sample. `off` loads the skill while disabling its optional workflow; it is distinct from the no-skill control. Answers were not always shorter: `full` averaged 258.0 characters versus 243.4 without the skill.
+
+[Full report](2026-10-09-multilingual-modes-four-workers/report.md), [table CSV](2026-10-09-multilingual-modes-four-workers/table.csv), [case results](2026-10-09-multilingual-modes-four-workers/case-results.json), [raw-evidence audit](2026-10-09-multilingual-modes-four-workers/evidence-audit.json), and [interruption audit](2026-10-09-multilingual-modes-four-workers/execution-history-audit.json) are published. The report links every source and answer by language.
+
+A separate [blinded source audit](2026-10-09-multilingual-modes-four-workers/source-audit.md) reviewed 820 candidates from 164 cases, including every strict-flagged case. It found genuine role and uncertainty errors, scope/format disagreements, and three changed-meaning judgments on primary passes. Its selected sample is enriched for failures and cannot estimate general reliability. The original strict scores remain unchanged; annotations and the released key are sealed and reproducibly audited.
+
+The first 32-worker execution was stopped for computer load. All 185 returned answers were carried into the four-worker continuation unchanged; interrupted attempts remain in the original directory. A later review repeated an invariant ID in four ratings. The disclosed, sealed post-output processing amendment retains those raw ratings and counts all four affected answers as uncertain/non-passing. No completed answers or reviews were regenerated or removed.
+
+These percentages include exact-format flags, reviewer uncertainty, and strict checklist omissions. They are observed scores on purposively selected synthetic cases, not population reliability estimates. Language sets differ, so compare conditions within each language rather than treating this as a language ranking. Five cases share a batch; some scenario patterns recur across locales. One provider model alias and one repetition, same-family review, injected references, and no concise-only control or independent human review limit the conclusions. The results do not establish native host activation or adherence to every stylistic mode preference.
+
+## Earlier 100-case comparisons
+
 | Study | Model and mode | Strict passes without / with skill | Evidence |
 | --- | --- | --- | --- |
 | Initial 100-case comparison, frozen before the resulting skill edits | `gpt-6.1-sol`, `full` | 92/100 / 97/100 | [Report](2026-10-08-reliability-100/report.md), [all answers](2026-10-08-reliability-100/comparisons.md), [source audit](2026-10-08-reliability-100/source-audit.md) |

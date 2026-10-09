@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0b4e7ad7bf2b641224ecd48f70643fd893e398465b067597bf5f3e09607c6381",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.331,
+      "completed_at_utc": "2026-10-09T04:35:48.558600+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ja-016\",\"text\":\"川村が見積書を確認した後、注文書が送付されました。送付者の記録はありません。納品日は未定です。\"},{\"case_id\":\"modes-ja-017\",\"text\":\"試作品は室温で2時間動作しました。高温環境での試験は未実施です。屋外で終日使える可能性はありますが、現時点では未確認です。\"},{\"case_id\":\"modes-ja-018\",\"text\":\"45食必要です。20食＋25食＝45食。\"},{\"case_id\":\"modes-ja-019\",\"text\":\"翌日着の条件に合うのはA社です。合計費用は480円×30件＝14,400円です。B社は2日後配送のため、条件に合いません。\"},{\"case_id\":\"modes-ja-020\",\"text\":\"{\\\"id\\\":\\\"X-17\\\",\\\"count\\\":6,\\\"note\\\":\\\"部品を6個受領しました。確認はまだ終わっていません。\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7552,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 251,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ja-016\",\"text\":\"川村が見積書を確認した後、注文書が送付されました。送付者の記録はありません。納品日は未定です。\"},{\"case_id\":\"modes-ja-017\",\"text\":\"試作品は室温で2時間動作しました。高温環境での試験は未実施です。屋外で終日使える可能性はありますが、現時点では未確認です。\"},{\"case_id\":\"modes-ja-018\",\"text\":\"45食必要です。20食＋25食＝45食。\"},{\"case_id\":\"modes-ja-019\",\"text\":\"翌日着の条件に合うのはA社です。合計費用は480円×30件＝14,400円です。B社は2日後配送のため、条件に合いません。\"},{\"case_id\":\"modes-ja-020\",\"text\":\"{\\\"id\\\":\\\"X-17\\\",\\\"count\\\":6,\\\"note\\\":\\\"部品を6個受領しました。確認はまだ終わっていません。\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7552,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 251,
+    "reasoning_output_tokens": 0
+  }
+}

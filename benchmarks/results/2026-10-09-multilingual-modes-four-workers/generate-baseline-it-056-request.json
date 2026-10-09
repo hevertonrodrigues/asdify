@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "9343e896d35f9caeeec571a750d5eaeded8afe36cae50144c27a5caeefc7a723",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.121,
+      "completed_at_utc": "2026-10-09T05:08:45.488890+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-056\",\"text\":\"Ogni spedizione può contenere al massimo quattro scatole. Il limite di 6 kg, imballaggio compreso, si applica a ciascuna scatola, non all’intera spedizione.\"},{\"case_id\":\"modes-it-057\",\"text\":\"Dalla versione 1.8, include_old=false nasconde le schede vecchie, ma non le elimina. I rapporti avviati prima dell’aggiornamento mantengono l’impostazione precedente fino al completamento.\"},{\"case_id\":\"modes-it-058\",\"text\":\"No. Nella simulazione il tempo medio scende da 14 a 11 minuti, ma senza i tempi delle singole pratiche non si può affermare che ciascuna sia stata più veloce.\"},{\"case_id\":\"modes-it-059\",\"text\":\"Il vento sfiorava la tenda. Quattro limoni sul davanzale. La finestra, mai aperta da ieri sera.\"},{\"case_id\":\"modes-it-060\",\"text\":\"Richiesta sospesa — pratica P-39.\"}]}",
+      "usage": {
+        "input_tokens": 4153,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 251,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-056\",\"text\":\"Ogni spedizione può contenere al massimo quattro scatole. Il limite di 6 kg, imballaggio compreso, si applica a ciascuna scatola, non all’intera spedizione.\"},{\"case_id\":\"modes-it-057\",\"text\":\"Dalla versione 1.8, include_old=false nasconde le schede vecchie, ma non le elimina. I rapporti avviati prima dell’aggiornamento mantengono l’impostazione precedente fino al completamento.\"},{\"case_id\":\"modes-it-058\",\"text\":\"No. Nella simulazione il tempo medio scende da 14 a 11 minuti, ma senza i tempi delle singole pratiche non si può affermare che ciascuna sia stata più veloce.\"},{\"case_id\":\"modes-it-059\",\"text\":\"Il vento sfiorava la tenda. Quattro limoni sul davanzale. La finestra, mai aperta da ieri sera.\"},{\"case_id\":\"modes-it-060\",\"text\":\"Richiesta sospesa — pratica P-39.\"}]}",
+  "usage": {
+    "input_tokens": 4153,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 251,
+    "reasoning_output_tokens": 0
+  }
+}

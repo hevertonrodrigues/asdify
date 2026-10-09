@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11e9f-e5aa-7723-b8b7-28ae38d9643b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-ja-071\",\"text\":\"資料の内容確認は完了しました。署名は未受領です。金曜の発送を目指していますが、署名が届く時刻によっては来週になる可能性があります。\"},{\"case_id\":\"modes-ja-072\",\"text\":\"調査は午前の客60人のうち、順番に声をかけた20人が対象です。15人が回答し、そのうち12人が営業時間の延長を希望しました。午後の客には聞いておらず、結果は回答した15人の意見で、客全体の意見とは限りません。\"},{\"case_id\":\"modes-ja-073\",\"text\":\"予定どおりなら、20日までの受け取りに合うのはAです。Aは18日着予定、Bは21日着予定。どちらも500円で追跡があります。ただし、到着日は保証されていないため、Aでも期限内に届くとは限りません。\"},{\"case_id\":\"modes-ja-074\",\"text\":\"max_retries=0でも最初の送信は行いますが、失敗しても再試行（追加送信）は行いません。\"},{\"case_id\":\"modes-ja-075\",\"text\":\"対象は市内に営業所がある事業者で、本社が市外でも対象になり得ます。市内に住所があるだけで営業所がない事業者は対象外です。対象でも審査に通る保証はありません。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7561,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":356,"reasoning_output_tokens":0}}

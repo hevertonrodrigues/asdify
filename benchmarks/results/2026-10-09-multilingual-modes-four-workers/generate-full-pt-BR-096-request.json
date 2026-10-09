@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0c2d6cb56b139f8f5ac0936d43c8117b31c8e2b667f424b5a352883dd2be671f",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 48.809,
+      "completed_at_utc": "2026-10-09T04:37:59.804480+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-096\",\"text\":\"O registro mostra ERR_63, mas isso não prova que o arquivo esteja danificado. O verificador não leu o arquivo inteiro. A pessoa que atua como engenheira considera uma queda de conexão uma possível causa; a causa não foi estabelecida.\"},{\"case_id\":\"modes-pt-BR-097\",\"text\":\"A encomenda foi colocada na recepção após a ligação de Jo. Não sabemos quem a entregou. A recepção registrou a chegada às 12:35. Esse horário não indica quando a encomenda saiu do depósito.\"},{\"case_id\":\"modes-pt-BR-098\",\"text\":\"O valor cotado é de US$980, incluindo impostos. A instalação opcional é estimada em US$120–US$170 e não está incluída. O preço do produto é válido até 16 de novembro de 2030; essa data não é um prazo obrigatório para a compra.\"},{\"case_id\":\"modes-pt-BR-099\",\"text\":\"A sala de leitura abre às quintas-feiras, das 09:30 às 13:30. Visitantes podem fotografar documentos liberados, mas devem registrar cada caixa solicitada. Fotografar é opcional. O acesso a material restrito exige autorização por escrito antes do acesso.\"},{\"case_id\":\"modes-pt-BR-100\",\"text\":\"A pesquisa envolveu 75 voluntários de uma única associação. Quarenta e cinco apoiaram aulas nos fins de semana. Os participantes não foram selecionados aleatoriamente. Esses números não mostram a opinião de todas as pessoas do distrito.\"}]}",
+      "usage": {
+        "input_tokens": 7530,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 537,
+        "reasoning_output_tokens": 178
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-096\",\"text\":\"O registro mostra ERR_63, mas isso não prova que o arquivo esteja danificado. O verificador não leu o arquivo inteiro. A pessoa que atua como engenheira considera uma queda de conexão uma possível causa; a causa não foi estabelecida.\"},{\"case_id\":\"modes-pt-BR-097\",\"text\":\"A encomenda foi colocada na recepção após a ligação de Jo. Não sabemos quem a entregou. A recepção registrou a chegada às 12:35. Esse horário não indica quando a encomenda saiu do depósito.\"},{\"case_id\":\"modes-pt-BR-098\",\"text\":\"O valor cotado é de US$980, incluindo impostos. A instalação opcional é estimada em US$120–US$170 e não está incluída. O preço do produto é válido até 16 de novembro de 2030; essa data não é um prazo obrigatório para a compra.\"},{\"case_id\":\"modes-pt-BR-099\",\"text\":\"A sala de leitura abre às quintas-feiras, das 09:30 às 13:30. Visitantes podem fotografar documentos liberados, mas devem registrar cada caixa solicitada. Fotografar é opcional. O acesso a material restrito exige autorização por escrito antes do acesso.\"},{\"case_id\":\"modes-pt-BR-100\",\"text\":\"A pesquisa envolveu 75 voluntários de uma única associação. Quarenta e cinco apoiaram aulas nos fins de semana. Os participantes não foram selecionados aleatoriamente. Esses números não mostram a opinião de todas as pessoas do distrito.\"}]}",
+  "usage": {
+    "input_tokens": 7530,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 537,
+    "reasoning_output_tokens": 178
+  }
+}

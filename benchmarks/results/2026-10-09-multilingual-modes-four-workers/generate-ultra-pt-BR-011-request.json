@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "72df1a29898f6beb6d1e5c521294b7aea20c358956552e6c89fc90b3264d3b4d",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.987,
+      "completed_at_utc": "2026-10-09T03:56:33.720422+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-011\",\"text\":\"A taxa de devolução caiu de 12% para 9%: redução de 3 pontos percentuais, ou 25% da taxa inicial. Cada mês teve 400 pedidos entregues. Pedidos cancelados antes da entrega ficam fora do cálculo.\"},{\"case_id\":\"modes-pt-BR-012\",\"text\":\"240 − 32 − 18 = 190 livros disponíveis para empréstimo. Os grupos de emprestados e separados para reparo não se sobrepõem. Os 25 comprados ainda não chegaram e não entram na conta.\"},{\"case_id\":\"modes-pt-BR-013\",\"text\":\"A receita bruta, antes das taxas, passou de R$ 18.000 em janeiro para R$ 19.800 em fevereiro: aumento de 10%. Fevereiro ainda pode ter ajuste de até R$ 600, não aplicado.\"},{\"case_id\":\"modes-pt-BR-014\",\"text\":\"Sim. Seis bancos e o frete único custam 6 × R$ 160 + R$ 90 = R$ 1.050, deixando R$ 100 do orçamento de R$ 1.150. A pintura de R$ 25 por banco é opcional, não foi pedida e fica fora da conta.\"},{\"case_id\":\"modes-pt-BR-015\",\"text\":\"O total caiu de 220 kWh em março para 200 kWh em abril, mas a média diária não mudou: 220 ÷ 22 = 10 e 200 ÷ 20 = 10 kWh por dia de trabalho. Abril teve dois dias de trabalho a menos, por isso o total foi menor. Sem registro de pessoas presentes, não é possível comparar o consumo por pessoa.\"}]}",
+      "usage": {
+        "input_tokens": 7568,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 391,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-011\",\"text\":\"A taxa de devolução caiu de 12% para 9%: redução de 3 pontos percentuais, ou 25% da taxa inicial. Cada mês teve 400 pedidos entregues. Pedidos cancelados antes da entrega ficam fora do cálculo.\"},{\"case_id\":\"modes-pt-BR-012\",\"text\":\"240 − 32 − 18 = 190 livros disponíveis para empréstimo. Os grupos de emprestados e separados para reparo não se sobrepõem. Os 25 comprados ainda não chegaram e não entram na conta.\"},{\"case_id\":\"modes-pt-BR-013\",\"text\":\"A receita bruta, antes das taxas, passou de R$ 18.000 em janeiro para R$ 19.800 em fevereiro: aumento de 10%. Fevereiro ainda pode ter ajuste de até R$ 600, não aplicado.\"},{\"case_id\":\"modes-pt-BR-014\",\"text\":\"Sim. Seis bancos e o frete único custam 6 × R$ 160 + R$ 90 = R$ 1.050, deixando R$ 100 do orçamento de R$ 1.150. A pintura de R$ 25 por banco é opcional, não foi pedida e fica fora da conta.\"},{\"case_id\":\"modes-pt-BR-015\",\"text\":\"O total caiu de 220 kWh em março para 200 kWh em abril, mas a média diária não mudou: 220 ÷ 22 = 10 e 200 ÷ 20 = 10 kWh por dia de trabalho. Abril teve dois dias de trabalho a menos, por isso o total foi menor. Sem registro de pessoas presentes, não é possível comparar o consumo por pessoa.\"}]}",
+  "usage": {
+    "input_tokens": 7568,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 391,
+    "reasoning_output_tokens": 0
+  }
+}

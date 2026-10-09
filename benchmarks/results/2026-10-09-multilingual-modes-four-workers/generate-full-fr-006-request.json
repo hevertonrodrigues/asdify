@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "8d48c9e6610fab23a35925f41eb75bc7865de9d949dd08756d83fcc0d25af757",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 45.116,
+      "completed_at_utc": "2026-10-09T05:16:19.834236+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-006\",\"text\":\"Après la fermeture du guichet par Nadia, le colis a été déplacé. Le lendemain, Nadia l’a retrouvé dans la réserve.\"},{\"case_id\":\"modes-fr-007\",\"text\":\"1. Enregistrez le brouillon.\\n2. Faites relire le document par une autre personne.\\n3. Envoyez la version finale seulement après cette relecture.\"},{\"case_id\":\"modes-fr-008\",\"text\":\"La fuite semble provenir du joint inférieur, mais cette hypothèse reste à vérifier. Deux essais ont été réalisés à froid ; aucun essai à chaud n’est encore disponible.\"},{\"case_id\":\"modes-fr-009\",\"text\":\"La restauration des archives est estimée à environ 6 à 8 jours ouvrés, sous réserve que le disque de remplacement arrive mardi. Aucune date de fin n’est garantie.\"},{\"case_id\":\"modes-fr-010\",\"text\":\"Forfait par atelier : 245 € HT, matériel inclus.\\nDéplacement facturé séparément : 0,48 € par kilomètre, aller et retour compris.\"}]}",
+      "usage": {
+        "input_tokens": 7435,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 248,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-006\",\"text\":\"Après la fermeture du guichet par Nadia, le colis a été déplacé. Le lendemain, Nadia l’a retrouvé dans la réserve.\"},{\"case_id\":\"modes-fr-007\",\"text\":\"1. Enregistrez le brouillon.\\n2. Faites relire le document par une autre personne.\\n3. Envoyez la version finale seulement après cette relecture.\"},{\"case_id\":\"modes-fr-008\",\"text\":\"La fuite semble provenir du joint inférieur, mais cette hypothèse reste à vérifier. Deux essais ont été réalisés à froid ; aucun essai à chaud n’est encore disponible.\"},{\"case_id\":\"modes-fr-009\",\"text\":\"La restauration des archives est estimée à environ 6 à 8 jours ouvrés, sous réserve que le disque de remplacement arrive mardi. Aucune date de fin n’est garantie.\"},{\"case_id\":\"modes-fr-010\",\"text\":\"Forfait par atelier : 245 € HT, matériel inclus.\\nDéplacement facturé séparément : 0,48 € par kilomètre, aller et retour compris.\"}]}",
+  "usage": {
+    "input_tokens": 7435,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 248,
+    "reasoning_output_tokens": 0
+  }
+}

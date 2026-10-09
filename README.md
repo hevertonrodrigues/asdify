@@ -177,7 +177,7 @@ Name the target language or locale. ASDify preserves meaning, identifiers, place
 
 ## Built to be checked
 
-A shorter answer that changes a material fact fails the evaluation. The repository includes rewrite and translation cases across nine languages, a human review rubric, and a [reproducible evaluation protocol](benchmarks/README.md). The [recorded 100-case tests](benchmarks/results/README.md) use one model in `full` mode with two blinded model-review passes; the initial failures led to preservation-rule fixes. **General reliability and broad quality gains remain unestablished.** See [package verification](docs/VERIFICATION.md) and [host compatibility](docs/COMPATIBILITY.md) for their separate checks.
+A shorter answer that changes a material fact fails the evaluation. The [four-mode study](benchmarks/multilingual-modes/README.md) uses 100 new cases for each of nine output languages: 900 distinct cases run in `lite`, `full`, `ultra`, and `off`, plus a control without the skill. This gives 3,600 mode tests and 4,500 answers, with two blinded review passes by a model from the generator's model family. See the [recorded tests](benchmarks/results/README.md) and [reproducible evaluation protocol](benchmarks/README.md). The cases are synthetic and some scenario patterns recur across languages, so the observations are not independent. **General reliability and broad quality gains remain unestablished.** [Package verification](docs/VERIFICATION.md) and [host compatibility](docs/COMPATIBILITY.md) cover separate checks.
 
 ## Support and troubleshooting
 

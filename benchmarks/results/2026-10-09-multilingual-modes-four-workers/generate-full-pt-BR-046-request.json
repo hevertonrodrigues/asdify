@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ec9d242474faa3e89589f9f2f1aef70de9506eb2f2c219630d9fd4071946d9da",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.582,
+      "completed_at_utc": "2026-10-09T05:05:42.867034+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-046\",\"text\":\"O plano Serra custa menos para 18 usuários: R$ 350 por mês, contra R$ 396 do Lago (18 × R$ 22). A economia mensal é de R$ 46.\"},{\"case_id\":\"modes-pt-BR-047\",\"text\":\"Os 25 participantes cometeram 5 erros, contra 11 entre os 25 não participantes. A comparação mostra menos erros no grupo que fez o curso, mas não prova que o curso causou essa diferença.\\n\\nCada pessoa decidiu se participaria, e a experiência anterior não foi medida. Assim, os grupos podem ter diferenças prévias que expliquem o resultado. Também não há uma medida anterior de erros para demonstrar uma queda.\"},{\"case_id\":\"modes-pt-BR-048\",\"text\":\"Não. A necessidade confirmada é comprar 70 embalagens: 120 exigidas pelos pedidos menos 50 utilizáveis em estoque.\\n\\nA reserva é opcional, de até 15 embalagens extras. Portanto, a compra pode chegar a 85 se essa reserva for escolhida, mas ela não é obrigatória. Sem pedido mínimo informado, o texto não sustenta comprar 150 hoje.\"},{\"case_id\":\"modes-pt-BR-049\",\"text\":\"As estimativas usam condições diferentes: o cronograma prevê 4 semanas de montagem se as peças chegarem até 3 de setembro; Compras estima a chegada entre 8 e 15 de setembro, depois desse limite.\\n\\nAssim, a previsão de Compras não atende à condição da estimativa de montagem. Nenhuma das estimativas é compromisso, e não há duração revisada para chegada após o dia 3. Os dados não permitem decidir quem tem razão nem calcular um novo prazo de montagem.\"},{\"case_id\":\"modes-pt-BR-050\",\"text\":\"Não. O teste mostra apenas que quatro telas já armazenadas no cache foram abertas após desligar o Wi-Fi.\\n\\nComo o estado dos dados móveis não foi registrado, não se sabe se o aparelho estava sem internet. Nenhuma tela nova foi aberta e os registros de requisições não foram analisados. Portanto, o teste não permite afirmar que o aplicativo funciona sem internet.\"}]}",
+      "usage": {
+        "input_tokens": 7550,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 481,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-046\",\"text\":\"O plano Serra custa menos para 18 usuários: R$ 350 por mês, contra R$ 396 do Lago (18 × R$ 22). A economia mensal é de R$ 46.\"},{\"case_id\":\"modes-pt-BR-047\",\"text\":\"Os 25 participantes cometeram 5 erros, contra 11 entre os 25 não participantes. A comparação mostra menos erros no grupo que fez o curso, mas não prova que o curso causou essa diferença.\\n\\nCada pessoa decidiu se participaria, e a experiência anterior não foi medida. Assim, os grupos podem ter diferenças prévias que expliquem o resultado. Também não há uma medida anterior de erros para demonstrar uma queda.\"},{\"case_id\":\"modes-pt-BR-048\",\"text\":\"Não. A necessidade confirmada é comprar 70 embalagens: 120 exigidas pelos pedidos menos 50 utilizáveis em estoque.\\n\\nA reserva é opcional, de até 15 embalagens extras. Portanto, a compra pode chegar a 85 se essa reserva for escolhida, mas ela não é obrigatória. Sem pedido mínimo informado, o texto não sustenta comprar 150 hoje.\"},{\"case_id\":\"modes-pt-BR-049\",\"text\":\"As estimativas usam condições diferentes: o cronograma prevê 4 semanas de montagem se as peças chegarem até 3 de setembro; Compras estima a chegada entre 8 e 15 de setembro, depois desse limite.\\n\\nAssim, a previsão de Compras não atende à condição da estimativa de montagem. Nenhuma das estimativas é compromisso, e não há duração revisada para chegada após o dia 3. Os dados não permitem decidir quem tem razão nem calcular um novo prazo de montagem.\"},{\"case_id\":\"modes-pt-BR-050\",\"text\":\"Não. O teste mostra apenas que quatro telas já armazenadas no cache foram abertas após desligar o Wi-Fi.\\n\\nComo o estado dos dados móveis não foi registrado, não se sabe se o aparelho estava sem internet. Nenhuma tela nova foi aberta e os registros de requisições não foram analisados. Portanto, o teste não permite afirmar que o aplicativo funciona sem internet.\"}]}",
+  "usage": {
+    "input_tokens": 7550,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 481,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "15e6a8c723aa915107dd4737df16a0eafb9019870c470e4d9a3df874bddbdf8e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.741,
+      "completed_at_utc": "2026-10-09T04:02:39.175791+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-067\",\"text\":\"O parque abre às oito. Os visitantes devem manter os bilhetes até a saída. A loja fecha às cinco.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até o recebimento da vistoria, que ainda não tem data marcada.\"},{\"case_id\":\"modes-pt-BR-069\",\"text\":\"A alça substituta continua travando em dias úmidos, condição que a equipe não testou.\"},{\"case_id\":\"modes-pt-BR-070\",\"text\":\"As três caixas foram lacradas antes da impressão das etiquetas. Não sabemos quem lacrou. Ivo imprimiu as etiquetas.\"}]}",
+      "usage": {
+        "input_tokens": 7492,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 192,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-067\",\"text\":\"O parque abre às oito. Os visitantes devem manter os bilhetes até a saída. A loja fecha às cinco.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até o recebimento da vistoria, que ainda não tem data marcada.\"},{\"case_id\":\"modes-pt-BR-069\",\"text\":\"A alça substituta continua travando em dias úmidos, condição que a equipe não testou.\"},{\"case_id\":\"modes-pt-BR-070\",\"text\":\"As três caixas foram lacradas antes da impressão das etiquetas. Não sabemos quem lacrou. Ivo imprimiu as etiquetas.\"}]}",
+  "usage": {
+    "input_tokens": 7492,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 192,
+    "reasoning_output_tokens": 0
+  }
+}

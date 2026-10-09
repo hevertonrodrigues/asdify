@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ca7b1d10188ce407a6ba3d48e7c89943f9689f488398df08baba29c3907a8c72",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.618,
+      "completed_at_utc": "2026-10-09T02:54:12.860208+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ru-051\",\"text\":\"Кабинет закрыт до среды.\"},{\"case_id\":\"modes-ru-052\",\"text\":\"1. {visitor}, войти можно после 13:00.\\n2. Если приедете после 20:00, позвоните по {{desk_phone}} до входа.\"},{\"case_id\":\"modes-ru-053\",\"text\":\"{\\\"issue\\\":\\\"RU-318\\\",\\\"rank\\\":5,\\\"message\\\":\\\"Проверка началась, но время завершения не назначено.\\\"}\"},{\"case_id\":\"modes-ru-054\",\"text\":\"Перед отправкой формы рекомендуется прочитать [Правила доступа](https://example.invalid/rules?rev=5#entry), где перечислены варианты входа.\"},{\"case_id\":\"modes-ru-055\",\"text\":\"{\\\"shipment\\\":\\\"RF/28-D\\\",\\\"items\\\":0,\\\"released\\\":false,\\\"reason\\\":\\\"Ни один предмет не выпущен, потому что осмотр не закончен.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7519,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 224,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ru-051\",\"text\":\"Кабинет закрыт до среды.\"},{\"case_id\":\"modes-ru-052\",\"text\":\"1. {visitor}, войти можно после 13:00.\\n2. Если приедете после 20:00, позвоните по {{desk_phone}} до входа.\"},{\"case_id\":\"modes-ru-053\",\"text\":\"{\\\"issue\\\":\\\"RU-318\\\",\\\"rank\\\":5,\\\"message\\\":\\\"Проверка началась, но время завершения не назначено.\\\"}\"},{\"case_id\":\"modes-ru-054\",\"text\":\"Перед отправкой формы рекомендуется прочитать [Правила доступа](https://example.invalid/rules?rev=5#entry), где перечислены варианты входа.\"},{\"case_id\":\"modes-ru-055\",\"text\":\"{\\\"shipment\\\":\\\"RF/28-D\\\",\\\"items\\\":0,\\\"released\\\":false,\\\"reason\\\":\\\"Ни один предмет не выпущен, потому что осмотр не закончен.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7519,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 224,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "22531084a2a0f941fb679e766b9ef4a737212dcceadb0294600966f7310872cf",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 43.428,
+      "completed_at_utc": "2026-10-09T04:26:19.851773+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-031\",\"text\":\"En la versión 3.8, `lote revisar --prueba` verifica la configuración sin generar un archivo. Que la verificación pase no confirma que haya espacio suficiente en el destino. Para generar el archivo, usa `lote crear --real`.\"},{\"case_id\":\"modes-es-032\",\"text\":\"El mensaje se confirma después de guardar la transacción. Si el proceso se detiene antes de confirmarlo, el mensaje puede recibirse de nuevo, aunque la transacción ya se haya guardado. La deduplicación usa evento_id, no el nombre de la persona. Por tanto, recibir el mensaje una segunda vez no demuestra que se hayan guardado dos registros.\"},{\"case_id\":\"modes-es-033\",\"text\":\"La copia pasó el checksum, pero no se ha probado una restauración: el resultado no demuestra que la aplicación pueda recuperarse. Incluye /srv/proyectos y excluye /srv/logs.\"},{\"case_id\":\"modes-es-034\",\"text\":\"200 ms = 0,2 s. La tasa nominal de contenido es 12 bits ÷ 0,2 s = 60 bits/s.\\n\\nEl resultado mide los bits de las lecturas enviados por segundo. No incluye cabeceras, cuyo tamaño no se ha indicado.\"},{\"case_id\":\"modes-es-035\",\"text\":\"La latencia aumentó después del cambio en la tabla de rutas. Ambos eventos ocurrieron entre las 08:00 y las 08:20 UTC. No hay comparación de control, y el orden temporal no demuestra que el cambio causara el aumento. No se decidió revertir el cambio.\"}]}",
+      "usage": {
+        "input_tokens": 7499,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 361,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-031\",\"text\":\"En la versión 3.8, `lote revisar --prueba` verifica la configuración sin generar un archivo. Que la verificación pase no confirma que haya espacio suficiente en el destino. Para generar el archivo, usa `lote crear --real`.\"},{\"case_id\":\"modes-es-032\",\"text\":\"El mensaje se confirma después de guardar la transacción. Si el proceso se detiene antes de confirmarlo, el mensaje puede recibirse de nuevo, aunque la transacción ya se haya guardado. La deduplicación usa evento_id, no el nombre de la persona. Por tanto, recibir el mensaje una segunda vez no demuestra que se hayan guardado dos registros.\"},{\"case_id\":\"modes-es-033\",\"text\":\"La copia pasó el checksum, pero no se ha probado una restauración: el resultado no demuestra que la aplicación pueda recuperarse. Incluye /srv/proyectos y excluye /srv/logs.\"},{\"case_id\":\"modes-es-034\",\"text\":\"200 ms = 0,2 s. La tasa nominal de contenido es 12 bits ÷ 0,2 s = 60 bits/s.\\n\\nEl resultado mide los bits de las lecturas enviados por segundo. No incluye cabeceras, cuyo tamaño no se ha indicado.\"},{\"case_id\":\"modes-es-035\",\"text\":\"La latencia aumentó después del cambio en la tabla de rutas. Ambos eventos ocurrieron entre las 08:00 y las 08:20 UTC. No hay comparación de control, y el orden temporal no demuestra que el cambio causara el aumento. No se decidió revertir el cambio.\"}]}",
+  "usage": {
+    "input_tokens": 7499,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 361,
+    "reasoning_output_tokens": 0
+  }
+}

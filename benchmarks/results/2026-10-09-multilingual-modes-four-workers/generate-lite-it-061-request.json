@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "e46a9baebd1b27128e97e559db15383d9e92fac5a7b532abce9590ee362e8446",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.806,
+      "completed_at_utc": "2026-10-09T04:12:06.744571+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-061\",\"text\":\"{\\\"case\\\":\\\"IT-582\\\",\\\"checks\\\":2,\\\"message\\\":\\\"L’immagine inviata non è leggibile; inviala di nuovo in formato PNG.\\\"}\"},{\"case_id\":\"modes-it-062\",\"text\":\"La lettura della cartella /srv/bottega resta possibile. La scrittura riprende alle 18:25 UTC.\"},{\"case_id\":\"modes-it-063\",\"text\":\"Modulo ricevuto: IT_08 — verifica non conclusa.\"},{\"case_id\":\"modes-it-064\",\"text\":\"{{cliente}} può modificare la consegna tramite {{delivery_link}} fino al 17 febbraio.\"},{\"case_id\":\"modes-it-065\",\"text\":\"{\\\"item\\\":\\\"CAS-14\\\",\\\"complete\\\":false,\\\"note\\\":\\\"L’elenco è stato scritto, ma le quantità non sono ancora state controllate.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7484,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 198,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-061\",\"text\":\"{\\\"case\\\":\\\"IT-582\\\",\\\"checks\\\":2,\\\"message\\\":\\\"L’immagine inviata non è leggibile; inviala di nuovo in formato PNG.\\\"}\"},{\"case_id\":\"modes-it-062\",\"text\":\"La lettura della cartella /srv/bottega resta possibile. La scrittura riprende alle 18:25 UTC.\"},{\"case_id\":\"modes-it-063\",\"text\":\"Modulo ricevuto: IT_08 — verifica non conclusa.\"},{\"case_id\":\"modes-it-064\",\"text\":\"{{cliente}} può modificare la consegna tramite {{delivery_link}} fino al 17 febbraio.\"},{\"case_id\":\"modes-it-065\",\"text\":\"{\\\"item\\\":\\\"CAS-14\\\",\\\"complete\\\":false,\\\"note\\\":\\\"L’elenco è stato scritto, ma le quantità non sono ancora state controllate.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7484,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 198,
+    "reasoning_output_tokens": 0
+  }
+}

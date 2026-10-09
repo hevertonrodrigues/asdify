@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ba41c090739c62e3377e4b1628d65fb9490fccf1d8131f03cadbac4247e699f4",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.958,
+      "completed_at_utc": "2026-10-09T04:37:47.406690+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-031\",\"text\":\"家里临时有事，周五晚上不能帮忙布置了。抱歉让你多忙一点。周六上午我能来40分钟，但不能待到中午。\"},{\"case_id\":\"modes-zh-CN-032\",\"text\":\"进度：审批暂缓\\n编号：AP-9\\n下一步：等待补充材料，尚无期限\"},{\"case_id\":\"modes-zh-CN-033\",\"text\":\"已使用的拼图不换货。唯一例外是开盒即发现缺片，并在使用前报备。仅因不喜欢图案，不能换货。\"},{\"case_id\":\"modes-zh-CN-034\",\"text\":\"- 6月18日8:45前在北楼签到，活动9:00开始。\\n- 自带水杯，材料现场发放。\\n- 如需缺席，请在6月17日18:00前通知工作人员。\\n- 不提供线上参加。\"},{\"case_id\":\"modes-zh-CN-035\",\"text\":\"新装箱方式可能减少破损，但对比测试尚未结束，证据不足，无法确认效果大小，也尚未决定正式采用。\"}]}",
+      "usage": {
+        "input_tokens": 7510,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 281,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-031\",\"text\":\"家里临时有事，周五晚上不能帮忙布置了。抱歉让你多忙一点。周六上午我能来40分钟，但不能待到中午。\"},{\"case_id\":\"modes-zh-CN-032\",\"text\":\"进度：审批暂缓\\n编号：AP-9\\n下一步：等待补充材料，尚无期限\"},{\"case_id\":\"modes-zh-CN-033\",\"text\":\"已使用的拼图不换货。唯一例外是开盒即发现缺片，并在使用前报备。仅因不喜欢图案，不能换货。\"},{\"case_id\":\"modes-zh-CN-034\",\"text\":\"- 6月18日8:45前在北楼签到，活动9:00开始。\\n- 自带水杯，材料现场发放。\\n- 如需缺席，请在6月17日18:00前通知工作人员。\\n- 不提供线上参加。\"},{\"case_id\":\"modes-zh-CN-035\",\"text\":\"新装箱方式可能减少破损，但对比测试尚未结束，证据不足，无法确认效果大小，也尚未决定正式采用。\"}]}",
+  "usage": {
+    "input_tokens": 7510,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 281,
+    "reasoning_output_tokens": 0
+  }
+}

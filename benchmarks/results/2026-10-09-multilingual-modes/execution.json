@@ -1,0 +1,6 @@
+{
+  "workers": 32,
+  "timeout_seconds": 600,
+  "model_catalog_sha256": "4bb282315a359648100d2e8d819bc58b54284b1e376f57c4a3c3bc84b7c18bb8",
+  "model_catalog_purpose": "Avoid metadata refresh delays; same catalog for all conditions and reviews"
+}

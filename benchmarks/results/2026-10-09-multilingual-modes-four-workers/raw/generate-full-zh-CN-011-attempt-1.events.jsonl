@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11ec8-6923-7ca2-9557-aa623d50388d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-zh-CN-011\",\"text\":\"会议10:30开始。请在门口签到。\"},{\"case_id\":\"modes-zh-CN-012\",\"text\":\"退货率从5%降至3%，下降2个百分点，相对下降40%。两个月的订单量不同，退货件数不一定减少40%。\"},{\"case_id\":\"modes-zh-CN-013\",\"text\":\"管理员有疑问时，可以要求申请人补交证明。申请人只有收到要求后才必须补交，期限为收到通知后的3个工作日。\"},{\"case_id\":\"modes-zh-CN-014\",\"text\":\"私人物品不得过夜寄存。参加获批的两日活动者，可将已登记物品寄存至次日中午；未登记物品不适用此例外。\"},{\"case_id\":\"modes-zh-CN-015\",\"text\":\"何洁检查了报价。随后合同被发出，发送人未记录。对方是否签收尚未确认。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7454,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":238,"reasoning_output_tokens":0}}

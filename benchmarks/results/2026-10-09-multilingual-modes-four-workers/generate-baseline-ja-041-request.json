@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "c9eae7f58839dc94a0e58efc602b6ed29e47e324783ea2738c2feaf7ef9a2a40",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.779,
+      "completed_at_utc": "2026-10-09T05:00:21.894714+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ja-041\",\"text\":\"会場：西館2階\\n開場：18:30\"},{\"case_id\":\"modes-ja-042\",\"text\":\"承認済みの合計金額は20,000円です。\"},{\"case_id\":\"modes-ja-043\",\"text\":\"受付は原則、予約者本人が行います。本人が移動できず、代理申請が事前に承認されている場合のみ、登録済みの代理人が手続きできます。口頭の了承だけでは認められません。\"},{\"case_id\":\"modes-ja-044\",\"text\":\"水曜に端末12台を交換し、10台は動作確認済み、2台はネットワーク接続を確認中です。旧端末は回収済みですが、データ消去は未完了です。\"},{\"case_id\":\"modes-ja-045\",\"text\":\"資料は「次の木曜」に営業部へ送付する予定です。ただし、メモの作成日が記録されていないため、具体的な送付日は不明です。受取人は未定です。\"}]}",
+      "usage": {
+        "input_tokens": 4243,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 268,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ja-041\",\"text\":\"会場：西館2階\\n開場：18:30\"},{\"case_id\":\"modes-ja-042\",\"text\":\"承認済みの合計金額は20,000円です。\"},{\"case_id\":\"modes-ja-043\",\"text\":\"受付は原則、予約者本人が行います。本人が移動できず、代理申請が事前に承認されている場合のみ、登録済みの代理人が手続きできます。口頭の了承だけでは認められません。\"},{\"case_id\":\"modes-ja-044\",\"text\":\"水曜に端末12台を交換し、10台は動作確認済み、2台はネットワーク接続を確認中です。旧端末は回収済みですが、データ消去は未完了です。\"},{\"case_id\":\"modes-ja-045\",\"text\":\"資料は「次の木曜」に営業部へ送付する予定です。ただし、メモの作成日が記録されていないため、具体的な送付日は不明です。受取人は未定です。\"}]}",
+  "usage": {
+    "input_tokens": 4243,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 268,
+    "reasoning_output_tokens": 0
+  }
+}

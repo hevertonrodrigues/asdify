@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "b9a2fde5fa5616084394cd366e3ae8819021797d0ea74c7815e95290532257bc",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.367,
+      "completed_at_utc": "2026-10-09T03:51:08.339827+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-056\",\"text\":\"完成培训必须提交作业，且作业合格。辅导面谈自愿参加，不是完成培训的必要条件。\\n\\n作业合格，即使不参加面谈，也能完成培训；只参加面谈而不交作业，不能完成培训。\"},{\"case_id\":\"modes-zh-CN-057\",\"text\":\"自提：80件，占80÷320＝25%。\\n配送：320－80＝240件，占240÷320＝75%。\\n两种方式合计占100%。\"},{\"case_id\":\"modes-zh-CN-058\",\"text\":\"{{client}}，可通过 https://example.invalid/cases/CASE-63 查询申请CASE-63的进度。目前尚无最终结果。\"},{\"case_id\":\"modes-zh-CN-059\",\"text\":\"叶琳制作了运输标签，随后货物被取走。取货者未记载，货物是否已送达尚未确认。\"},{\"case_id\":\"modes-zh-CN-060\",\"text\":\"房间甲：可用16小时，实际使用12小时，利用率为12÷16＝75%。\\n房间乙：可用8小时，实际使用6小时，利用率为6÷8＝75%。\\n\\n甲的实际使用时间比乙多6小时，是乙的2倍；两者利用率相同，均为75%。\"}]}",
+      "usage": {
+        "input_tokens": 7439,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 327,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-056\",\"text\":\"完成培训必须提交作业，且作业合格。辅导面谈自愿参加，不是完成培训的必要条件。\\n\\n作业合格，即使不参加面谈，也能完成培训；只参加面谈而不交作业，不能完成培训。\"},{\"case_id\":\"modes-zh-CN-057\",\"text\":\"自提：80件，占80÷320＝25%。\\n配送：320－80＝240件，占240÷320＝75%。\\n两种方式合计占100%。\"},{\"case_id\":\"modes-zh-CN-058\",\"text\":\"{{client}}，可通过 https://example.invalid/cases/CASE-63 查询申请CASE-63的进度。目前尚无最终结果。\"},{\"case_id\":\"modes-zh-CN-059\",\"text\":\"叶琳制作了运输标签，随后货物被取走。取货者未记载，货物是否已送达尚未确认。\"},{\"case_id\":\"modes-zh-CN-060\",\"text\":\"房间甲：可用16小时，实际使用12小时，利用率为12÷16＝75%。\\n房间乙：可用8小时，实际使用6小时，利用率为6÷8＝75%。\\n\\n甲的实际使用时间比乙多6小时，是乙的2倍；两者利用率相同，均为75%。\"}]}",
+  "usage": {
+    "input_tokens": 7439,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 327,
+    "reasoning_output_tokens": 0
+  }
+}

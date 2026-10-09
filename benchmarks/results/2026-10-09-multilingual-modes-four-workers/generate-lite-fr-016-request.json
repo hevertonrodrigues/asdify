@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "357c5f049f78367dc460f7bc49d5829a50afcfd92e3f78d9ab32f962eeddbe5c",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.026,
+      "completed_at_utc": "2026-10-09T03:13:03.256963+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-016\",\"text\":\"Si le serveur répond HTTP 503, attendez le délai indiqué dans Retry-After avant de réessayer. Si cet en-tête manque, attendez 20 secondes. Ne relancez pas une requête POST sans clé d’idempotence.\"},{\"case_id\":\"modes-fr-017\",\"text\":\"cache_ttl fixe à 300 secondes la durée de mise en cache des lectures réussies. Une réponse vide n’est pas mise en cache. Modifier cache_ttl ne supprime pas les entrées déjà présentes.\"},{\"case_id\":\"modes-fr-018\",\"text\":\"Le local ouvrira samedi à 10 h et la table de prêt de livres sera prête, mais le coin cuisine restera fermé pendant la réparation du robinet. Les inscriptions habituelles continuent par téléphone.\"},{\"case_id\":\"modes-fr-019\",\"text\":\"Non, les retours se font sans réservation, de 9 h à 12 h. La boîte extérieure est hors service. Seuls les nouveaux prêts exigent une réservation.\"},{\"case_id\":\"modes-fr-020\",\"text\":\"Non. Les visites sont passées de 90 à 120 après la pose de l’affiche, mais un marché a aussi ouvert dans la rue cette semaine-là. Cette hausse ne suffit donc pas à établir que l’affiche en est la cause.\"}]}",
+      "usage": {
+        "input_tokens": 7488,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 298,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-016\",\"text\":\"Si le serveur répond HTTP 503, attendez le délai indiqué dans Retry-After avant de réessayer. Si cet en-tête manque, attendez 20 secondes. Ne relancez pas une requête POST sans clé d’idempotence.\"},{\"case_id\":\"modes-fr-017\",\"text\":\"cache_ttl fixe à 300 secondes la durée de mise en cache des lectures réussies. Une réponse vide n’est pas mise en cache. Modifier cache_ttl ne supprime pas les entrées déjà présentes.\"},{\"case_id\":\"modes-fr-018\",\"text\":\"Le local ouvrira samedi à 10 h et la table de prêt de livres sera prête, mais le coin cuisine restera fermé pendant la réparation du robinet. Les inscriptions habituelles continuent par téléphone.\"},{\"case_id\":\"modes-fr-019\",\"text\":\"Non, les retours se font sans réservation, de 9 h à 12 h. La boîte extérieure est hors service. Seuls les nouveaux prêts exigent une réservation.\"},{\"case_id\":\"modes-fr-020\",\"text\":\"Non. Les visites sont passées de 90 à 120 après la pose de l’affiche, mais un marché a aussi ouvert dans la rue cette semaine-là. Cette hausse ne suffit donc pas à établir que l’affiche en est la cause.\"}]}",
+  "usage": {
+    "input_tokens": 7488,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 298,
+    "reasoning_output_tokens": 0
+  }
+}

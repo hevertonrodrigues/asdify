@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "a6d8b9e6853f926c4f18dc2cef74d62144ea604f00e59028237cf396d11a2866",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.009,
+      "completed_at_utc": "2026-10-09T03:59:34.764292+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-046\",\"text\":\"Sie können die Leihe jederzeit beenden. Danach müssen Sie den Gegenstand innerhalb von drei Tagen zurückgeben. Wenn Sie ihn früher zurückgeben, haben Sie keinen Anspruch auf eine Erstattung für bereits bezahlte Nutzungstage.\"},{\"case_id\":\"modes-de-047\",\"text\":\"Die Freigabe erfolgte, bevor Sven die Prüfung übernahm. Später hielt Sven nur den aktuellen Zustand fest. Wer die Freigabe erteilt hat, wird nicht genannt.\"},{\"case_id\":\"modes-de-048\",\"text\":\"„Kein Fehler in den gespeicherten Protokollen“ beschränkt die Aussage auf die vorhandenen Aufzeichnungen. Da nur an Werktagen Protokolle gespeichert wurden, lässt sich daraus nicht schließen, dass es im gesamten Betrieb keine Fehler gab.\"},{\"case_id\":\"modes-de-049\",\"text\":\"Bitte senden Sie nur noch die Rückseite des Ausweises. Die anderen Dateien sind bereits eingegangen und müssen nicht erneut gesendet oder ersetzt werden.\"},{\"case_id\":\"modes-de-050\",\"text\":\"Leider kann ich am Samstag nicht kommen. Ich wünsche euch einen schönen Abend!\"}]}",
+      "usage": {
+        "input_tokens": 4168,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 256,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-046\",\"text\":\"Sie können die Leihe jederzeit beenden. Danach müssen Sie den Gegenstand innerhalb von drei Tagen zurückgeben. Wenn Sie ihn früher zurückgeben, haben Sie keinen Anspruch auf eine Erstattung für bereits bezahlte Nutzungstage.\"},{\"case_id\":\"modes-de-047\",\"text\":\"Die Freigabe erfolgte, bevor Sven die Prüfung übernahm. Später hielt Sven nur den aktuellen Zustand fest. Wer die Freigabe erteilt hat, wird nicht genannt.\"},{\"case_id\":\"modes-de-048\",\"text\":\"„Kein Fehler in den gespeicherten Protokollen“ beschränkt die Aussage auf die vorhandenen Aufzeichnungen. Da nur an Werktagen Protokolle gespeichert wurden, lässt sich daraus nicht schließen, dass es im gesamten Betrieb keine Fehler gab.\"},{\"case_id\":\"modes-de-049\",\"text\":\"Bitte senden Sie nur noch die Rückseite des Ausweises. Die anderen Dateien sind bereits eingegangen und müssen nicht erneut gesendet oder ersetzt werden.\"},{\"case_id\":\"modes-de-050\",\"text\":\"Leider kann ich am Samstag nicht kommen. Ich wünsche euch einen schönen Abend!\"}]}",
+  "usage": {
+    "input_tokens": 4168,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 256,
+    "reasoning_output_tokens": 0
+  }
+}

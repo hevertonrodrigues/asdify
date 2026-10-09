@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "58d6f3bfbd3d82e6e96a84d356772a0f286c89f701760c59bc009e931ef9f8cc",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.001,
+      "completed_at_utc": "2026-10-09T04:17:25.105589+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-041\",\"text\":\"- El consejo aprobó renovar los baños si el estudio confirma la viabilidad. Elisa pedirá presupuestos del estudio; no se registró plazo.\\n- Rechazó ampliar la cafetería este año.\\n- Debatió la rampa sin tomar una decisión.\"},{\"case_id\":\"modes-es-042\",\"text\":\"La pantalla dañada llegó ayer al taller. La sustituta está embalada, pero no ha salido. Se espera la recogida el martes, aún sin confirmación del transportista; habrá seguimiento después. No se pidió devolver el cable.\"},{\"case_id\":\"modes-es-043\",\"text\":\"Se revisaron 80 expedientes elegidos al azar entre los de junio. Doce carecían de fecha de autorización; cuatro de esos doce también carecían de firma. No se revisaron expedientes de mayo ni de julio. Los campos vacíos no prueban que no hubiera autorización.\"},{\"case_id\":\"modes-es-044\",\"text\":\"El mirador abre el 6 de octubre de 2030 si pasa la revisión de la barandilla. Si no, se anunciará otra fecha, aún sin fijar. Entrada gratis; recorridos guiados con reserva. El puesto de bebidas estará cerrado el primer día.\"},{\"case_id\":\"modes-es-045\",\"text\":\"En las compras de más de 600 euros del trimestre anterior, excluidas dietas, cinco de las 65 facturas revisadas no tenían código de autorización. No se comprobó si hubo permiso verbal.\"}]}",
+      "usage": {
+        "input_tokens": 7523,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 339,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-041\",\"text\":\"- El consejo aprobó renovar los baños si el estudio confirma la viabilidad. Elisa pedirá presupuestos del estudio; no se registró plazo.\\n- Rechazó ampliar la cafetería este año.\\n- Debatió la rampa sin tomar una decisión.\"},{\"case_id\":\"modes-es-042\",\"text\":\"La pantalla dañada llegó ayer al taller. La sustituta está embalada, pero no ha salido. Se espera la recogida el martes, aún sin confirmación del transportista; habrá seguimiento después. No se pidió devolver el cable.\"},{\"case_id\":\"modes-es-043\",\"text\":\"Se revisaron 80 expedientes elegidos al azar entre los de junio. Doce carecían de fecha de autorización; cuatro de esos doce también carecían de firma. No se revisaron expedientes de mayo ni de julio. Los campos vacíos no prueban que no hubiera autorización.\"},{\"case_id\":\"modes-es-044\",\"text\":\"El mirador abre el 6 de octubre de 2030 si pasa la revisión de la barandilla. Si no, se anunciará otra fecha, aún sin fijar. Entrada gratis; recorridos guiados con reserva. El puesto de bebidas estará cerrado el primer día.\"},{\"case_id\":\"modes-es-045\",\"text\":\"En las compras de más de 600 euros del trimestre anterior, excluidas dietas, cinco de las 65 facturas revisadas no tenían código de autorización. No se comprobó si hubo permiso verbal.\"}]}",
+  "usage": {
+    "input_tokens": 7523,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 339,
+    "reasoning_output_tokens": 0
+  }
+}

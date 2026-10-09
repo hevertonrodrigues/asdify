@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11ec9-0dcb-7890-9a5d-a33beadb5477"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-zh-CN-056\",\"text\":\"必须提交作业，且作业合格才能完成培训。辅导面谈自愿参加：作业合格，即使不参加面谈也能完成培训；只参加面谈而不交作业，不能完成培训。\"},{\"case_id\":\"modes-zh-CN-057\",\"text\":\"自提：80件，占25%。\\n配送：240件，占75%。\"},{\"case_id\":\"modes-zh-CN-058\",\"text\":\"{{client}}，可通过 https://example.invalid/cases/CASE-63 查询申请CASE-63的进度。目前尚无最终结果。\"},{\"case_id\":\"modes-zh-CN-059\",\"text\":\"叶琳制作了运输标签，随后货物被取走。取货者未记录，是否已送达尚未确认。\"},{\"case_id\":\"modes-zh-CN-060\",\"text\":\"房间甲：可用16小时，实际使用12小时，利用率75%。\\n房间乙：可用8小时，实际使用6小时，利用率75%。\\n甲的实际使用时间是乙的2倍，但两者利用率相同。\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":7441,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":274,"reasoning_output_tokens":0}}

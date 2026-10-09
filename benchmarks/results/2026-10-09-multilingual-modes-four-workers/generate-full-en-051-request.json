@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "009552f3f434d7ffdeee88f134546e32571dfa6958b9677b37fba8e4d0c0f391",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.257,
+      "completed_at_utc": "2026-10-09T02:57:45.716528+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-051\",\"text\":\"The lift is closed until Friday.\"},{\"case_id\":\"modes-en-052\",\"text\":\"1. {guest_name}, your room is available after 15:00.\\n2. If you arrive after 22:00, call {{night_phone}} before entering.\"},{\"case_id\":\"modes-en-053\",\"text\":\"{\\\"ticket\\\":\\\"Q-208\\\",\\\"priority\\\":2,\\\"message\\\":\\\"Review has started, but no completion time is set.\\\"}\"},{\"case_id\":\"modes-en-054\",\"text\":\"Before submitting the form, you should read [Access guide](https://example.invalid/access?v=2#forms), which explains the available access arrangements.\"},{\"case_id\":\"modes-en-055\",\"text\":\"{\\\"batch_id\\\":\\\"B/14-A\\\",\\\"count\\\":0,\\\"released\\\":false,\\\"reason\\\":\\\"No units were released because inspection is incomplete.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7478,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 202,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-051\",\"text\":\"The lift is closed until Friday.\"},{\"case_id\":\"modes-en-052\",\"text\":\"1. {guest_name}, your room is available after 15:00.\\n2. If you arrive after 22:00, call {{night_phone}} before entering.\"},{\"case_id\":\"modes-en-053\",\"text\":\"{\\\"ticket\\\":\\\"Q-208\\\",\\\"priority\\\":2,\\\"message\\\":\\\"Review has started, but no completion time is set.\\\"}\"},{\"case_id\":\"modes-en-054\",\"text\":\"Before submitting the form, you should read [Access guide](https://example.invalid/access?v=2#forms), which explains the available access arrangements.\"},{\"case_id\":\"modes-en-055\",\"text\":\"{\\\"batch_id\\\":\\\"B/14-A\\\",\\\"count\\\":0,\\\"released\\\":false,\\\"reason\\\":\\\"No units were released because inspection is incomplete.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7478,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 202,
+    "reasoning_output_tokens": 0
+  }
+}

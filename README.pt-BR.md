@@ -173,7 +173,7 @@ Indique o idioma ou a variante de destino. O ASDify preserva significado, identi
 
 ## Feito para ser verificado
 
-Uma resposta mais curta que altera um fato relevante falha na avaliação. O repositório inclui casos de revisão e tradução em nove idiomas, critérios de revisão humana e um [protocolo de avaliação reproduzível](benchmarks/README.md). Os [testes registrados com 100 casos](benchmarks/results/README.md) usam um modelo em modo `full` e duas avaliações cegas por modelo; as falhas iniciais levaram a ajustes nas regras de preservação. **Confiabilidade geral e ganhos amplos de qualidade ainda não foram demonstrados.** Veja os registros separados de [verificação do pacote](docs/VERIFICATION.md) e [compatibilidade dos agentes](docs/COMPATIBILITY.md).
+Uma resposta mais curta que altera um fato relevante falha na avaliação. O [estudo dos quatro modos](benchmarks/multilingual-modes/README.md) usa 100 casos novos para cada um dos nove idiomas de saída: 900 casos distintos, executados em `lite`, `full`, `ultra` e `off`, além de um controle sem a skill. São 3.600 testes dos modos e 4.500 respostas, com duas revisões cegas por um modelo da mesma família do gerador. Veja os [testes registrados](benchmarks/results/README.md) e o [protocolo de avaliação reproduzível](benchmarks/README.md). Os casos são sintéticos e alguns padrões de cenário se repetem entre idiomas, portanto as observações não são independentes. **Confiabilidade geral e ganhos amplos de qualidade ainda não foram demonstrados.** A [verificação do pacote](docs/VERIFICATION.md) e a [compatibilidade dos agentes](docs/COMPATIBILITY.md) tratam de verificações separadas.
 
 ## Suporte e solução de problemas
 

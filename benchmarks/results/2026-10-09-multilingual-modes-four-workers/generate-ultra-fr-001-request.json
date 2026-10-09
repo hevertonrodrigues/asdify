@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4407d65de5a7a5641db3cc8444a3b1475cedde5ab28e9d127e612414bddc75a7",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.48,
+      "completed_at_utc": "2026-10-09T03:34:27.282987+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-001\",\"text\":\"Fermez la fenêtre avant de quitter la salle.\"},{\"case_id\":\"modes-fr-002\",\"text\":\"Chaque bénévole doit confirmer sa première permanence avant vendredi à 18 h. Une deuxième permanence est facultative.\"},{\"case_id\":\"modes-fr-003\",\"text\":\"La salle peut être ouverte au public seulement si les deux conditions sont remplies : le contrôle de ventilation est terminé et la personne responsable a signé la fiche.\"},{\"case_id\":\"modes-fr-004\",\"text\":\"Si la carte est expirée, ne supprimez pas le compte : désactivez uniquement le renouvellement automatique. Les accès déjà payés restent valables jusqu’au 30 novembre.\"},{\"case_id\":\"modes-fr-005\",\"text\":\"Les visiteurs doivent réserver leur place, sauf les accompagnateurs d’un groupe scolaire déjà inscrit. Les autres membres de la famille doivent réserver.\"}]}",
+      "usage": {
+        "input_tokens": 7407,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 203,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-001\",\"text\":\"Fermez la fenêtre avant de quitter la salle.\"},{\"case_id\":\"modes-fr-002\",\"text\":\"Chaque bénévole doit confirmer sa première permanence avant vendredi à 18 h. Une deuxième permanence est facultative.\"},{\"case_id\":\"modes-fr-003\",\"text\":\"La salle peut être ouverte au public seulement si les deux conditions sont remplies : le contrôle de ventilation est terminé et la personne responsable a signé la fiche.\"},{\"case_id\":\"modes-fr-004\",\"text\":\"Si la carte est expirée, ne supprimez pas le compte : désactivez uniquement le renouvellement automatique. Les accès déjà payés restent valables jusqu’au 30 novembre.\"},{\"case_id\":\"modes-fr-005\",\"text\":\"Les visiteurs doivent réserver leur place, sauf les accompagnateurs d’un groupe scolaire déjà inscrit. Les autres membres de la famille doivent réserver.\"}]}",
+  "usage": {
+    "input_tokens": 7407,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 203,
+    "reasoning_output_tokens": 0
+  }
+}

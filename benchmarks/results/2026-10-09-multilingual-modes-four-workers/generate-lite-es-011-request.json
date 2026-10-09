@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "8f3dd8332847ca9bcbc648367aff3dd186b6a7f0b7119fad9ac13413df09a4ed",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.556,
+      "completed_at_utc": "2026-10-09T05:13:36.852229+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-011\",\"text\":\"La proporción de solicitudes incompletas pasó del 15% al 12%. Bajó 3 puntos porcentuales, equivalentes a un 20% de la proporción inicial. Cada mes se revisaron 200 solicitudes, solo del canal presencial.\"},{\"case_id\":\"modes-es-012\",\"text\":\"Quedan 140 sillas disponibles para alquilar: 180 − 26 reservadas − 14 pendientes de reparación = 140. Los grupos no se solapan. Las otras 30 llegarán la semana próxima y no se cuentan entre las disponibles ahora.\"},{\"case_id\":\"modes-es-013\",\"text\":\"Las ventas fueron de 25.000 euros en abril y 27.500 euros en mayo, un aumento del 10%. Ambos importes incluyen el impuesto. El importe de mayo es provisional: pueden anularse pedidos por hasta 900 euros, y esa posible reducción aún no se ha descontado.\"},{\"case_id\":\"modes-es-014\",\"text\":\"Sí, lo necesario cabe en el presupuesto: 5 × 130 + 65 = 715 euros. Sobran 65 euros del máximo de 780. Los protectores cuestan 8 euros por taburete, pero son opcionales y no se han pedido; no se incluyen en la cuenta.\"},{\"case_id\":\"modes-es-015\",\"text\":\"En junio se registraron 96 m³ en 24 días de actividad: 96 ÷ 24 = 4 m³ por día. En julio se registraron 88 m³ en 22 días: 88 ÷ 22 = 4 m³ por día. El total menor de julio no prueba una mejora diaria: hubo menos días de actividad y el promedio diario fue el mismo. Como no se conoce el número de visitantes, tampoco puede compararse el consumo por visitante.\"}]}",
+      "usage": {
+        "input_tokens": 7538,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 405,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-011\",\"text\":\"La proporción de solicitudes incompletas pasó del 15% al 12%. Bajó 3 puntos porcentuales, equivalentes a un 20% de la proporción inicial. Cada mes se revisaron 200 solicitudes, solo del canal presencial.\"},{\"case_id\":\"modes-es-012\",\"text\":\"Quedan 140 sillas disponibles para alquilar: 180 − 26 reservadas − 14 pendientes de reparación = 140. Los grupos no se solapan. Las otras 30 llegarán la semana próxima y no se cuentan entre las disponibles ahora.\"},{\"case_id\":\"modes-es-013\",\"text\":\"Las ventas fueron de 25.000 euros en abril y 27.500 euros en mayo, un aumento del 10%. Ambos importes incluyen el impuesto. El importe de mayo es provisional: pueden anularse pedidos por hasta 900 euros, y esa posible reducción aún no se ha descontado.\"},{\"case_id\":\"modes-es-014\",\"text\":\"Sí, lo necesario cabe en el presupuesto: 5 × 130 + 65 = 715 euros. Sobran 65 euros del máximo de 780. Los protectores cuestan 8 euros por taburete, pero son opcionales y no se han pedido; no se incluyen en la cuenta.\"},{\"case_id\":\"modes-es-015\",\"text\":\"En junio se registraron 96 m³ en 24 días de actividad: 96 ÷ 24 = 4 m³ por día. En julio se registraron 88 m³ en 22 días: 88 ÷ 22 = 4 m³ por día. El total menor de julio no prueba una mejora diaria: hubo menos días de actividad y el promedio diario fue el mismo. Como no se conoce el número de visitantes, tampoco puede compararse el consumo por visitante.\"}]}",
+  "usage": {
+    "input_tokens": 7538,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 405,
+    "reasoning_output_tokens": 0
+  }
+}

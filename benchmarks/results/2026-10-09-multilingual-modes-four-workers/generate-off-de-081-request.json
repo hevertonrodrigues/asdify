@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "35a2c8eae689f7db1b9c8c281db7884edbf441e441024e0e7a3cd0a2f9132ed3",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 32.349,
+      "completed_at_utc": "2026-10-09T03:47:47.584734+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-081\",\"text\":\"Sie dürfen eine Leselampe für einen Abend ausleihen. Sie müssen sie am nächsten Tag bis 11:00 Uhr zurückgeben. Das Ausleihen einer Lampe verlängert Ihre Raumbuchung nicht.\"},{\"case_id\":\"modes-de-082\",\"text\":\"Löschen Sie den Entwurf nicht, wenn ein Beleg fehlt. Der Beleg kann separat eintreffen. Wir haben den zweiten Umschlag noch nicht geprüft.\"},{\"case_id\":\"modes-de-083\",\"text\":\"Elena dokumentierte am Freitag den beschädigten Riegel. Er wurde am Samstag repariert, aber im Protokoll ist nicht angegeben, wer die Reparatur durchgeführt hat. Am Sonntag testete Omar den reparierten Riegel.\"},{\"case_id\":\"modes-de-084\",\"text\":\"Das Geräusch könnte vom oberen Rad kommen. Dies wurde nicht bestätigt. Es wurde nur der leere Transportwagen getestet; ein Test mit beladenem Transportwagen wurde noch nicht abgeschlossen.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Dichtungen fehlen. Öffnen Sie die Behälter nicht, bevor Ersatzdichtungen bereitliegen.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7421,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 327,
+        "reasoning_output_tokens": 52
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-081\",\"text\":\"Sie dürfen eine Leselampe für einen Abend ausleihen. Sie müssen sie am nächsten Tag bis 11:00 Uhr zurückgeben. Das Ausleihen einer Lampe verlängert Ihre Raumbuchung nicht.\"},{\"case_id\":\"modes-de-082\",\"text\":\"Löschen Sie den Entwurf nicht, wenn ein Beleg fehlt. Der Beleg kann separat eintreffen. Wir haben den zweiten Umschlag noch nicht geprüft.\"},{\"case_id\":\"modes-de-083\",\"text\":\"Elena dokumentierte am Freitag den beschädigten Riegel. Er wurde am Samstag repariert, aber im Protokoll ist nicht angegeben, wer die Reparatur durchgeführt hat. Am Sonntag testete Omar den reparierten Riegel.\"},{\"case_id\":\"modes-de-084\",\"text\":\"Das Geräusch könnte vom oberen Rad kommen. Dies wurde nicht bestätigt. Es wurde nur der leere Transportwagen getestet; ein Test mit beladenem Transportwagen wurde noch nicht abgeschlossen.\"},{\"case_id\":\"modes-de-085\",\"text\":\"{\\\"code\\\":\\\"DE-K31\\\",\\\"quantity\\\":4,\\\"note\\\":\\\"Vier Dichtungen fehlen. Öffnen Sie die Behälter nicht, bevor Ersatzdichtungen bereitliegen.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7421,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 327,
+    "reasoning_output_tokens": 52
+  }
+}

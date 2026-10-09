@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "bf22c4e0c624f17f932d6c8ba79cab8e65324390252cbef2ef24f123093802d4",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.639,
+      "completed_at_utc": "2026-10-09T04:29:52.121762+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-091\",\"text\":\"A participação sem inscrição prévia só é permitida se ainda houver vagas. Menores de idade ainda devem trazer autorização por escrito. Adultos não precisam dessa autorização. A inscrição antecipada não garante vaga no estacionamento.\"},{\"case_id\":\"modes-pt-BR-092\",\"text\":\"O registro diz: “Ainda não autorizado”. Isso não significa que o pedido foi rejeitado. A análise continua, e nenhuma data para a decisão foi informada.\"},{\"case_id\":\"modes-pt-BR-093\",\"text\":\"Alterar uma reserva é gratuito, mas você deve entrar em contato conosco até o meio-dia de dois dias antes do horário agendado. Alterações no mesmo dia não são aceitas. O reembolso em caso de cancelamento depende da forma de pagamento e não é garantido.\"},{\"case_id\":\"modes-pt-BR-094\",\"text\":\"O sensor T-12 registrou 18,7 °C uma única vez, às 08:15. A temperatura da tarde não foi medida. O arquivo é /data/T-12.csv. O nome da pessoa que fez a medição não foi registrado.\"},{\"case_id\":\"modes-pt-BR-095\",\"text\":\"O pedido só pode sair após a aprovação do supervisor e o recebimento dos fundos. Uma captura de tela do pagamento não comprova que os fundos foram compensados. A retirada é opcional, mas ambas as condições continuam se aplicando. Nenhuma data de envio foi informada.\"}]}",
+      "usage": {
+        "input_tokens": 4222,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 334,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-091\",\"text\":\"A participação sem inscrição prévia só é permitida se ainda houver vagas. Menores de idade ainda devem trazer autorização por escrito. Adultos não precisam dessa autorização. A inscrição antecipada não garante vaga no estacionamento.\"},{\"case_id\":\"modes-pt-BR-092\",\"text\":\"O registro diz: “Ainda não autorizado”. Isso não significa que o pedido foi rejeitado. A análise continua, e nenhuma data para a decisão foi informada.\"},{\"case_id\":\"modes-pt-BR-093\",\"text\":\"Alterar uma reserva é gratuito, mas você deve entrar em contato conosco até o meio-dia de dois dias antes do horário agendado. Alterações no mesmo dia não são aceitas. O reembolso em caso de cancelamento depende da forma de pagamento e não é garantido.\"},{\"case_id\":\"modes-pt-BR-094\",\"text\":\"O sensor T-12 registrou 18,7 °C uma única vez, às 08:15. A temperatura da tarde não foi medida. O arquivo é /data/T-12.csv. O nome da pessoa que fez a medição não foi registrado.\"},{\"case_id\":\"modes-pt-BR-095\",\"text\":\"O pedido só pode sair após a aprovação do supervisor e o recebimento dos fundos. Uma captura de tela do pagamento não comprova que os fundos foram compensados. A retirada é opcional, mas ambas as condições continuam se aplicando. Nenhuma data de envio foi informada.\"}]}",
+  "usage": {
+    "input_tokens": 4222,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 334,
+    "reasoning_output_tokens": 0
+  }
+}

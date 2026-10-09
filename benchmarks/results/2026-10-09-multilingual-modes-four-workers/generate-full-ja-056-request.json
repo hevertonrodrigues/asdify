@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4bd88b15efe223c03dd9039331106850535adc06b1a771d55eeed9ef96807715",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 46.068,
+      "completed_at_utc": "2026-10-09T05:22:41.911945+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-ja-056\",\"text\":\"参加予定30人のうち、当日は26人が参加し、4人が欠席した。資料は30部印刷し、参加者に1部ずつ配布した。残り4部は事務局で保管した。\"},{\"case_id\":\"modes-ja-057\",\"text\":\"修了には課題の提出と合格が必要です。追加面談は希望者のみ受けられます。面談を受けなくても、課題に合格すれば修了できます。面談だけでは修了できません。\"},{\"case_id\":\"modes-ja-058\",\"text\":\"全200件の注文の内訳は次のとおりです。\\n- 店舗受取：50件（25%）\\n- 配送：150件（75%）\"},{\"case_id\":\"modes-ja-059\",\"text\":\"{{user_name}}様、申請REQ-77の状況は https://example.invalid/req/REQ-77 で確認できます。結果はまだ確定していません。\"},{\"case_id\":\"modes-ja-060\",\"text\":\"青木が配送ラベルを作成した後、荷物は回収されました。回収者は不明です。配達の完了はまだ確認できていません。\"}]}",
+      "usage": {
+        "input_tokens": 7523,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 306,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-ja-056\",\"text\":\"参加予定30人のうち、当日は26人が参加し、4人が欠席した。資料は30部印刷し、参加者に1部ずつ配布した。残り4部は事務局で保管した。\"},{\"case_id\":\"modes-ja-057\",\"text\":\"修了には課題の提出と合格が必要です。追加面談は希望者のみ受けられます。面談を受けなくても、課題に合格すれば修了できます。面談だけでは修了できません。\"},{\"case_id\":\"modes-ja-058\",\"text\":\"全200件の注文の内訳は次のとおりです。\\n- 店舗受取：50件（25%）\\n- 配送：150件（75%）\"},{\"case_id\":\"modes-ja-059\",\"text\":\"{{user_name}}様、申請REQ-77の状況は https://example.invalid/req/REQ-77 で確認できます。結果はまだ確定していません。\"},{\"case_id\":\"modes-ja-060\",\"text\":\"青木が配送ラベルを作成した後、荷物は回収されました。回収者は不明です。配達の完了はまだ確認できていません。\"}]}",
+  "usage": {
+    "input_tokens": 7523,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 306,
+    "reasoning_output_tokens": 0
+  }
+}

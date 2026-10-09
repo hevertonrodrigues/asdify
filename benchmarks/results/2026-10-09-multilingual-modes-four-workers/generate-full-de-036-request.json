@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6d8a5655eba432316735f4e86e1af47a60d53b195cfd31e35711795c0de987f2",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.032,
+      "completed_at_utc": "2026-10-09T04:54:59.061811+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7 Uhr. Ob morgens oder abends, ist noch offen. Bitte klären.\"},{\"case_id\":\"modes-de-037\",\"text\":\"Kopiere zuerst notes.db. Führe danach export_notes --format csv aus. Die Exportdatei enthält nur freigegebene Notizen. Ein leerer Export bedeutet daher nicht, dass die Datenbank leer ist.\"},{\"case_id\":\"modes-de-038\",\"text\":\"flag=preview zeigt die geplanten Änderungen an, ohne den Bestand zu ändern. Die Änderungen werden erst mit apply=true gespeichert.\"},{\"case_id\":\"modes-de-039\",\"text\":\"Pro Stand sind zwei Personen zugelassen. Eine dritte Person darf nur beim Aufbau helfen und muss vor Verkaufsbeginn gehen. Während des Verkaufs gilt diese Ausnahme nicht.\"},{\"case_id\":\"modes-de-040\",\"text\":\"Schalte das Gerät aus und warte, bis es abgekühlt ist. Öffne erst dann die Abdeckung – auch wenn du nur nachsehen möchtest. Ausschalten allein reicht nicht aus.\"}]}",
+      "usage": {
+        "input_tokens": 7451,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 237,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-036\",\"text\":\"Treffen um 7 Uhr. Ob morgens oder abends, ist noch offen. Bitte klären.\"},{\"case_id\":\"modes-de-037\",\"text\":\"Kopiere zuerst notes.db. Führe danach export_notes --format csv aus. Die Exportdatei enthält nur freigegebene Notizen. Ein leerer Export bedeutet daher nicht, dass die Datenbank leer ist.\"},{\"case_id\":\"modes-de-038\",\"text\":\"flag=preview zeigt die geplanten Änderungen an, ohne den Bestand zu ändern. Die Änderungen werden erst mit apply=true gespeichert.\"},{\"case_id\":\"modes-de-039\",\"text\":\"Pro Stand sind zwei Personen zugelassen. Eine dritte Person darf nur beim Aufbau helfen und muss vor Verkaufsbeginn gehen. Während des Verkaufs gilt diese Ausnahme nicht.\"},{\"case_id\":\"modes-de-040\",\"text\":\"Schalte das Gerät aus und warte, bis es abgekühlt ist. Öffne erst dann die Abdeckung – auch wenn du nur nachsehen möchtest. Ausschalten allein reicht nicht aus.\"}]}",
+  "usage": {
+    "input_tokens": 7451,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 237,
+    "reasoning_output_tokens": 0
+  }
+}

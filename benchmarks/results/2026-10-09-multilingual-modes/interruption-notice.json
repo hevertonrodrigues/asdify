@@ -1,0 +1,10 @@
+{
+  "status": "stopped at user request before complete scoring",
+  "stopped_at_utc": "2026-10-09T02:44:40.208310+00:00",
+  "reason": "User reported excessive computer CPU/RAM load and requested fewer simultaneous workers.",
+  "completed_generation_requests": 37,
+  "interrupted_requests": 32,
+  "new_live_worker_limit": 4,
+  "continuation_study": "benchmarks/results/2026-10-09-multilingual-modes-four-workers",
+  "interpretation": "No pass-rate report is available for this incomplete attempt."
+}

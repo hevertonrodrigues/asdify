@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a11ed4-198c-7d23-90ac-dec06103697a"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"{\"answers\":[{\"case_id\":\"modes-pt-BR-066\",\"text\":\"O técnico.\"},{\"case_id\":\"modes-pt-BR-067\",\"text\":\"O parque abre às oito. Os visitantes devem manter os bilhetes até a saída. A loja fecha às cinco.\"},{\"case_id\":\"modes-pt-BR-068\",\"text\":\"Não. A decisão sobre o portão foi adiada até receber a vistoria.\"},{\"case_id\":\"modes-pt-BR-069\",\"text\":\"A alça substituta continua travando em dias úmidos, condição que a equipe ainda não testou.\"},{\"case_id\":\"modes-pt-BR-070\",\"text\":\"As três caixas foram lacradas antes da impressão das etiquetas. Não sabemos quem lacrou. Ivo imprimiu as etiquetas.\"}]}"}}
+{"type":"turn.completed","usage":{"input_tokens":4213,"cached_input_tokens":3072,"cache_write_input_tokens":0,"output_tokens":208,"reasoning_output_tokens":22}}

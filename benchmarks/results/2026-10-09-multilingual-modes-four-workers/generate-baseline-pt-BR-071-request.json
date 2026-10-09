@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7edd52d8e7e259abc823b25804a390fdb185f962ecd201d1d9b4b680a05d0f2d",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.051,
+      "completed_at_utc": "2026-10-09T04:50:23.982285+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-071\",\"text\":\"Luca disse a Cris que um cartão tinha vencido, mas a nota não esclarece de quem era o cartão.\\nDe quem era o cartão?\"},{\"case_id\":\"modes-pt-BR-072\",\"text\":\"Depois que Tati telefonou ao porteiro, o envelope foi entregue por alguém cuja identidade desconhecemos. O porteiro registrou o recebimento às 17h20.\"},{\"case_id\":\"modes-pt-BR-073\",\"text\":\"Falta confirmar o ano e o padrão da data: “09/10” pode significar 9 de outubro ou 10 de setembro. Só após essa confirmação será possível escrever uma data completa com o mês por extenso.\"},{\"case_id\":\"modes-pt-BR-074\",\"text\":\"O status permanece divergente: o painel indica “entregue”, enquanto a planilha do depósito indica “aguardando saída”. Ambos foram atualizados às 13h, sem identificação dos autores. A confirmação do cliente ainda não chegou.\"},{\"case_id\":\"modes-pt-BR-075\",\"text\":\"É possível que a mancha tenha aumentado durante o armazenamento, mas a foto anterior está escura demais para permitir a comparação. O texto não afirma que o armazenamento tenha causado a mancha.\"}]}",
+      "usage": {
+        "input_tokens": 4209,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 289,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-071\",\"text\":\"Luca disse a Cris que um cartão tinha vencido, mas a nota não esclarece de quem era o cartão.\\nDe quem era o cartão?\"},{\"case_id\":\"modes-pt-BR-072\",\"text\":\"Depois que Tati telefonou ao porteiro, o envelope foi entregue por alguém cuja identidade desconhecemos. O porteiro registrou o recebimento às 17h20.\"},{\"case_id\":\"modes-pt-BR-073\",\"text\":\"Falta confirmar o ano e o padrão da data: “09/10” pode significar 9 de outubro ou 10 de setembro. Só após essa confirmação será possível escrever uma data completa com o mês por extenso.\"},{\"case_id\":\"modes-pt-BR-074\",\"text\":\"O status permanece divergente: o painel indica “entregue”, enquanto a planilha do depósito indica “aguardando saída”. Ambos foram atualizados às 13h, sem identificação dos autores. A confirmação do cliente ainda não chegou.\"},{\"case_id\":\"modes-pt-BR-075\",\"text\":\"É possível que a mancha tenha aumentado durante o armazenamento, mas a foto anterior está escura demais para permitir a comparação. O texto não afirma que o armazenamento tenha causado a mancha.\"}]}",
+  "usage": {
+    "input_tokens": 4209,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 289,
+    "reasoning_output_tokens": 0
+  }
+}

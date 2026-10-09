@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "dd52272f0d70384baa225a33e12c7179471a72a6d31bc54921c3683a75934d71",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.65,
+      "completed_at_utc": "2026-10-09T04:59:45.145042+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-046\",\"text\":\"Pino cuesta menos: 240 euros al mes frente a los 266 euros de Río (14 × 19). El ahorro mensual es de 26 euros.\"},{\"case_id\":\"modes-es-047\",\"text\":\"Los 30 asistentes cometieron 6 errores y los 30 no asistentes, 15: se observaron 9 errores menos entre los asistentes. Esto no demuestra que el curso causara la diferencia, porque la participación fue voluntaria y no se midió la experiencia previa. Los grupos podrían diferir en factores que influyan en los errores.\"},{\"case_id\":\"modes-es-048\",\"text\":\"No. Para cubrir los pedidos faltan 55 cajas (95 − 40). La reserva opcional permitiría comprar hasta 12 más, es decir, entre 55 y 67 cajas en total. Comprar 120 excede la necesidad y la reserva permitida; no se ha indicado un mínimo del proveedor que lo justifique.\"},{\"case_id\":\"modes-es-049\",\"text\":\"La estimación de montaje de 5 semanas depende de que el material llegue antes del 2 de abril, pero Compras estima su llegada entre el 7 y el 14 de abril. Esa ventana no cumple la condición de montaje. Ambas son estimaciones, no compromisos, y no hay una duración revisada para la llegada tardía, por lo que no puede establecerse el plazo resultante.\"},{\"case_id\":\"modes-es-050\",\"text\":\"No se ha demostrado funcionamiento sin conexión. Solo se comprobó que dos páginas ya guardadas en caché se abrían con el Wi-Fi apagado. Como no se anotó el estado de los datos móviles, no se abrieron páginas nuevas ni se revisaron peticiones de fondo, la prueba no demuestra que funcionara sin acceso a la red.\"}]}",
+      "usage": {
+        "input_tokens": 4230,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 399,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-046\",\"text\":\"Pino cuesta menos: 240 euros al mes frente a los 266 euros de Río (14 × 19). El ahorro mensual es de 26 euros.\"},{\"case_id\":\"modes-es-047\",\"text\":\"Los 30 asistentes cometieron 6 errores y los 30 no asistentes, 15: se observaron 9 errores menos entre los asistentes. Esto no demuestra que el curso causara la diferencia, porque la participación fue voluntaria y no se midió la experiencia previa. Los grupos podrían diferir en factores que influyan en los errores.\"},{\"case_id\":\"modes-es-048\",\"text\":\"No. Para cubrir los pedidos faltan 55 cajas (95 − 40). La reserva opcional permitiría comprar hasta 12 más, es decir, entre 55 y 67 cajas en total. Comprar 120 excede la necesidad y la reserva permitida; no se ha indicado un mínimo del proveedor que lo justifique.\"},{\"case_id\":\"modes-es-049\",\"text\":\"La estimación de montaje de 5 semanas depende de que el material llegue antes del 2 de abril, pero Compras estima su llegada entre el 7 y el 14 de abril. Esa ventana no cumple la condición de montaje. Ambas son estimaciones, no compromisos, y no hay una duración revisada para la llegada tardía, por lo que no puede establecerse el plazo resultante.\"},{\"case_id\":\"modes-es-050\",\"text\":\"No se ha demostrado funcionamiento sin conexión. Solo se comprobó que dos páginas ya guardadas en caché se abrían con el Wi-Fi apagado. Como no se anotó el estado de los datos móviles, no se abrieron páginas nuevas ni se revisaron peticiones de fondo, la prueba no demuestra que funcionara sin acceso a la red.\"}]}",
+  "usage": {
+    "input_tokens": 4230,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 399,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "2c5fd2729d7353b1cd1248afa71d64f314fe69611ab7d2fec323be2c1806422a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 37.973,
+      "completed_at_utc": "2026-10-09T04:50:23.190340+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-071\",\"text\":\"Luca disse a Cris que um cartão tinha vencido, mas a nota não esclarece de quem era o cartão.\\nDe quem era o cartão?\"},{\"case_id\":\"modes-pt-BR-072\",\"text\":\"O envelope foi entregue depois que Tati telefonou ao porteiro. Não sabemos quem o entregou. O porteiro registrou o recebimento às 17h20.\"},{\"case_id\":\"modes-pt-BR-073\",\"text\":\"Faltam o ano e o padrão da data: 09/10 pode significar 9 de outubro ou 10 de setembro. É preciso esclarecer ambos antes de escrever a data completa.\"},{\"case_id\":\"modes-pt-BR-074\",\"text\":\"Os registros divergem: o painel indica “entregue”; a planilha do depósito, “aguardando saída”. Ambos foram atualizados às 13h, sem autor identificado. A confirmação do cliente ainda não chegou.\"},{\"case_id\":\"modes-pt-BR-075\",\"text\":\"A mancha pode ter crescido durante o armazenamento, mas a foto anterior está escura demais para comparar. O texto não atribui ao armazenamento a origem da mancha.\"}]}",
+      "usage": {
+        "input_tokens": 7494,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 276,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-071\",\"text\":\"Luca disse a Cris que um cartão tinha vencido, mas a nota não esclarece de quem era o cartão.\\nDe quem era o cartão?\"},{\"case_id\":\"modes-pt-BR-072\",\"text\":\"O envelope foi entregue depois que Tati telefonou ao porteiro. Não sabemos quem o entregou. O porteiro registrou o recebimento às 17h20.\"},{\"case_id\":\"modes-pt-BR-073\",\"text\":\"Faltam o ano e o padrão da data: 09/10 pode significar 9 de outubro ou 10 de setembro. É preciso esclarecer ambos antes de escrever a data completa.\"},{\"case_id\":\"modes-pt-BR-074\",\"text\":\"Os registros divergem: o painel indica “entregue”; a planilha do depósito, “aguardando saída”. Ambos foram atualizados às 13h, sem autor identificado. A confirmação do cliente ainda não chegou.\"},{\"case_id\":\"modes-pt-BR-075\",\"text\":\"A mancha pode ter crescido durante o armazenamento, mas a foto anterior está escura demais para comparar. O texto não atribui ao armazenamento a origem da mancha.\"}]}",
+  "usage": {
+    "input_tokens": 7494,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 276,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "d1ec7dffb7896ada59c557a428c6c8bb7af823796a9ad46c1694ce2f87877f43",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.036,
+      "completed_at_utc": "2026-10-09T04:00:48.453991+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-066\",\"text\":\"Consultazione consentita: sì\\nModifica consentita: no\"},{\"case_id\":\"modes-it-067\",\"text\":\"Il comando stock-review --simulate mostra le differenze previste senza modificare il magazzino registrato.\"},{\"case_id\":\"modes-it-068\",\"text\":\"Compare \\\"upload waiting\\\": il caricamento è in attesa, ma il file non è perso; il motivo dell’attesa non è ancora noto.\"},{\"case_id\":\"modes-it-069\",\"text\":\"{\\\"group\\\":\\\"GR-62\\\",\\\"seats\\\":0,\\\"notice\\\":\\\"Attualmente non ci sono posti disponibili.\\\"}\"},{\"case_id\":\"modes-it-070\",\"text\":\"Consegna per l’apertura di domani\\n\\nStrumenti e prestiti\\n- Il registro contiene 62 strumenti: 56 trovati negli armadi, 4 in prestito con moduli firmati e 2 non trovati. Il rientro dei prestiti è previsto per il 28 maggio, non confermato.\\n- Per i due strumenti mancanti non è stato accertato un furto: potrebbero essere altrove o registrati male. L’ultimo confronto completo tra registro e armadi risale a due mesi fa.\\n- Delle cinque levigatrici pulite, soltanto L-09 ha superato il controllo di funzionamento ed è autorizzata al prestito. Si trova sul ripiano basso, con il cavo raccolto nella sua borsa. Le altre quattro restano bloccate fino al controllo.\\n- Il bollino arancione attesta soltanto la pulizia, non l’autorizzazione al prestito. La presenza negli armadi non va confusa con l’idoneità al prestito.\\n\\nMateriali e saldo provvisorio\\n- Gli abrasivi pesano 2,7 kg comprese le buste: non è possibile ricavarne il numero di fogli utilizzabili.\\n- Sono state proposte nuove buste, ma non è stato effettuato alcun ordine.\\n- Il saldo per i consumabili è stimato in 95 € e deve essere verificato con tre scontrini: non è una disponibilità definitiva.\\n\\nLocali ed etichette\\n- Il pavimento anteriore è stato pulito.\\n- Il deposito resta chiuso: la serratura difettosa deve essere riparata e controllata prima della riapertura.\\n- L’elenco delle etichette illeggibili è nel quaderno sul tavolo. Giulia ha offerto di riscriverle martedì, ma non ha ancora confermato la presenza: l’intervento non è un impegno confermato.\\n\\nModuli\\n- Per i nuovi prestiti usare il modulo consueto.\\n- La bozza di modulo breve non è approvata. Il salvataggio nella cartella comune non autorizza a sostituire il modulo attuale.\"}]}",
+      "usage": {
+        "input_tokens": 4579,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 637,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-066\",\"text\":\"Consultazione consentita: sì\\nModifica consentita: no\"},{\"case_id\":\"modes-it-067\",\"text\":\"Il comando stock-review --simulate mostra le differenze previste senza modificare il magazzino registrato.\"},{\"case_id\":\"modes-it-068\",\"text\":\"Compare \\\"upload waiting\\\": il caricamento è in attesa, ma il file non è perso; il motivo dell’attesa non è ancora noto.\"},{\"case_id\":\"modes-it-069\",\"text\":\"{\\\"group\\\":\\\"GR-62\\\",\\\"seats\\\":0,\\\"notice\\\":\\\"Attualmente non ci sono posti disponibili.\\\"}\"},{\"case_id\":\"modes-it-070\",\"text\":\"Consegna per l’apertura di domani\\n\\nStrumenti e prestiti\\n- Il registro contiene 62 strumenti: 56 trovati negli armadi, 4 in prestito con moduli firmati e 2 non trovati. Il rientro dei prestiti è previsto per il 28 maggio, non confermato.\\n- Per i due strumenti mancanti non è stato accertato un furto: potrebbero essere altrove o registrati male. L’ultimo confronto completo tra registro e armadi risale a due mesi fa.\\n- Delle cinque levigatrici pulite, soltanto L-09 ha superato il controllo di funzionamento ed è autorizzata al prestito. Si trova sul ripiano basso, con il cavo raccolto nella sua borsa. Le altre quattro restano bloccate fino al controllo.\\n- Il bollino arancione attesta soltanto la pulizia, non l’autorizzazione al prestito. La presenza negli armadi non va confusa con l’idoneità al prestito.\\n\\nMateriali e saldo provvisorio\\n- Gli abrasivi pesano 2,7 kg comprese le buste: non è possibile ricavarne il numero di fogli utilizzabili.\\n- Sono state proposte nuove buste, ma non è stato effettuato alcun ordine.\\n- Il saldo per i consumabili è stimato in 95 € e deve essere verificato con tre scontrini: non è una disponibilità definitiva.\\n\\nLocali ed etichette\\n- Il pavimento anteriore è stato pulito.\\n- Il deposito resta chiuso: la serratura difettosa deve essere riparata e controllata prima della riapertura.\\n- L’elenco delle etichette illeggibili è nel quaderno sul tavolo. Giulia ha offerto di riscriverle martedì, ma non ha ancora confermato la presenza: l’intervento non è un impegno confermato.\\n\\nModuli\\n- Per i nuovi prestiti usare il modulo consueto.\\n- La bozza di modulo breve non è approvata. Il salvataggio nella cartella comune non autorizza a sostituire il modulo attuale.\"}]}",
+  "usage": {
+    "input_tokens": 4579,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 637,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "eecb894dd60c2d57eee12a105b38242eb7a9ff0b8aa9afd89a235abc24ced3ba",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.341,
+      "completed_at_utc": "2026-10-09T04:56:11.105709+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-041\",\"text\":\"Il 60 % delle 40 persone che hanno restituito il questionario volontario vuole il nuovo orario. I questionari distribuiti erano 250.\"},{\"case_id\":\"modes-it-042\",\"text\":\"È confermato solo il controllo da 55 €. La riparazione potrebbe costare 680 € se occorre sostituire entrambi i rulli; non è ancora noto se vadano cambiati.\"},{\"case_id\":\"modes-it-043\",\"text\":\"63 − 54 = 9 punti percentuali.\"},{\"case_id\":\"modes-it-044\",\"text\":\"420 cm ÷ 6 × 9 = 630 cm di cordino.\"},{\"case_id\":\"modes-it-045\",\"text\":\"Dal 10 gennaio, gli oggetti da riparare si consegnano alla porta sul retro, anche per appuntamenti fissati prima di quella data. Il ritiro resta al banco principale.\"}]}",
+      "usage": {
+        "input_tokens": 7468,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 219,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-041\",\"text\":\"Il 60 % delle 40 persone che hanno restituito il questionario volontario vuole il nuovo orario. I questionari distribuiti erano 250.\"},{\"case_id\":\"modes-it-042\",\"text\":\"È confermato solo il controllo da 55 €. La riparazione potrebbe costare 680 € se occorre sostituire entrambi i rulli; non è ancora noto se vadano cambiati.\"},{\"case_id\":\"modes-it-043\",\"text\":\"63 − 54 = 9 punti percentuali.\"},{\"case_id\":\"modes-it-044\",\"text\":\"420 cm ÷ 6 × 9 = 630 cm di cordino.\"},{\"case_id\":\"modes-it-045\",\"text\":\"Dal 10 gennaio, gli oggetti da riparare si consegnano alla porta sul retro, anche per appuntamenti fissati prima di quella data. Il ritiro resta al banco principale.\"}]}",
+  "usage": {
+    "input_tokens": 7468,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 219,
+    "reasoning_output_tokens": 0
+  }
+}

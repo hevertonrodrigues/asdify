@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4b4981e6145bc9b3ce2288fac6686106e57720d82dfb57f7713902b29587b902",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.677,
+      "completed_at_utc": "2026-10-09T04:16:46.099822+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-061\",\"text\":\"{\\\"ticket\\\":\\\"Q-613\\\",\\\"attempts\\\":2,\\\"message\\\":\\\"Votre pièce jointe n’a pas pu être ouverte. Veuillez la renvoyer au format PDF.\\\"}\"},{\"case_id\":\"modes-fr-062\",\"text\":\"Pendant la maintenance, le dossier /srv/atelier reste accessible en lecture. Les écritures reprennent à 21:15 UTC.\"},{\"case_id\":\"modes-fr-063\",\"text\":\"Dossier reçu : AB_04 — aucun paiement demandé.\"},{\"case_id\":\"modes-fr-064\",\"text\":\"{{prenom}}, vous pouvez télécharger votre facture avec {{lien_facture}} jusqu’au 14 juin.\"},{\"case_id\":\"modes-fr-065\",\"text\":\"{\\\"id\\\":\\\"LOT-8\\\",\\\"ready\\\":false,\\\"note\\\":\\\"L’inspection visuelle est terminée, mais le test de charge reste à faire.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7488,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 203,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-061\",\"text\":\"{\\\"ticket\\\":\\\"Q-613\\\",\\\"attempts\\\":2,\\\"message\\\":\\\"Votre pièce jointe n’a pas pu être ouverte. Veuillez la renvoyer au format PDF.\\\"}\"},{\"case_id\":\"modes-fr-062\",\"text\":\"Pendant la maintenance, le dossier /srv/atelier reste accessible en lecture. Les écritures reprennent à 21:15 UTC.\"},{\"case_id\":\"modes-fr-063\",\"text\":\"Dossier reçu : AB_04 — aucun paiement demandé.\"},{\"case_id\":\"modes-fr-064\",\"text\":\"{{prenom}}, vous pouvez télécharger votre facture avec {{lien_facture}} jusqu’au 14 juin.\"},{\"case_id\":\"modes-fr-065\",\"text\":\"{\\\"id\\\":\\\"LOT-8\\\",\\\"ready\\\":false,\\\"note\\\":\\\"L’inspection visuelle est terminée, mais le test de charge reste à faire.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7488,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 203,
+    "reasoning_output_tokens": 0
+  }
+}

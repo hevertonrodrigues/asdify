@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "e3420a1c442052de837ee59c43bdbf047cf57e78d9c510023a125c0bbbcb92d8",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 39.741,
+      "completed_at_utc": "2026-10-09T05:09:25.237064+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-056\",\"text\":\"Ogni scatola può pesare al massimo 6 kg, imballaggio compreso. Ogni spedizione può contenere al massimo quattro scatole. Il limite di 6 kg si applica a ciascuna scatola, non all’intera spedizione.\"},{\"case_id\":\"modes-it-057\",\"text\":\"Dalla versione 1.8, include_old=false nasconde le schede vecchie, ma non le elimina. I rapporti avviati prima dell’aggiornamento mantengono la propria impostazione fino al completamento.\"},{\"case_id\":\"modes-it-058\",\"text\":\"No. Nella simulazione, il tempo medio è sceso da 14 a 11 minuti, ma questo non significa che ogni pratica sia stata più veloce. Senza i tempi delle singole pratiche, non è possibile affermarlo.\"},{\"case_id\":\"modes-it-059\",\"text\":\"Il vento sfiorava la tenda. Quattro limoni sul davanzale. Nessuno aveva aperto la finestra da ieri sera.\"},{\"case_id\":\"modes-it-060\",\"text\":\"Richiesta sospesa — pratica P-39.\"}]}",
+      "usage": {
+        "input_tokens": 7436,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 270,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-056\",\"text\":\"Ogni scatola può pesare al massimo 6 kg, imballaggio compreso. Ogni spedizione può contenere al massimo quattro scatole. Il limite di 6 kg si applica a ciascuna scatola, non all’intera spedizione.\"},{\"case_id\":\"modes-it-057\",\"text\":\"Dalla versione 1.8, include_old=false nasconde le schede vecchie, ma non le elimina. I rapporti avviati prima dell’aggiornamento mantengono la propria impostazione fino al completamento.\"},{\"case_id\":\"modes-it-058\",\"text\":\"No. Nella simulazione, il tempo medio è sceso da 14 a 11 minuti, ma questo non significa che ogni pratica sia stata più veloce. Senza i tempi delle singole pratiche, non è possibile affermarlo.\"},{\"case_id\":\"modes-it-059\",\"text\":\"Il vento sfiorava la tenda. Quattro limoni sul davanzale. Nessuno aveva aperto la finestra da ieri sera.\"},{\"case_id\":\"modes-it-060\",\"text\":\"Richiesta sospesa — pratica P-39.\"}]}",
+  "usage": {
+    "input_tokens": 7436,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 270,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6783347f47d539838476ae01a1bfadba4834232add74012f4abae6998c88e5d3",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.53,
+      "completed_at_utc": "2026-10-09T02:58:26.249376+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-en-066\",\"text\":\"The electrician.\"},{\"case_id\":\"modes-en-067\",\"text\":\"The hall opens at noon. Visitors must keep their tickets until they leave. The café closes at four.\"},{\"case_id\":\"modes-en-068\",\"text\":\"No. The fence decision was deferred until the survey.\"},{\"case_id\":\"modes-en-069\",\"text\":\"The replacement latch still sticks on cold mornings, a condition the team has not tested.\"},{\"case_id\":\"modes-en-070\",\"text\":\"The two boxes were sealed before the labels were printed. Who sealed them is unknown. Jo printed the labels.\"}]}",
+      "usage": {
+        "input_tokens": 4170,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 149,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-en-066\",\"text\":\"The electrician.\"},{\"case_id\":\"modes-en-067\",\"text\":\"The hall opens at noon. Visitors must keep their tickets until they leave. The café closes at four.\"},{\"case_id\":\"modes-en-068\",\"text\":\"No. The fence decision was deferred until the survey.\"},{\"case_id\":\"modes-en-069\",\"text\":\"The replacement latch still sticks on cold mornings, a condition the team has not tested.\"},{\"case_id\":\"modes-en-070\",\"text\":\"The two boxes were sealed before the labels were printed. Who sealed them is unknown. Jo printed the labels.\"}]}",
+  "usage": {
+    "input_tokens": 4170,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 149,
+    "reasoning_output_tokens": 0
+  }
+}

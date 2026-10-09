@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7d1cb2a53f82f8792ae6844538e642fabdab76fa2074aea76774053545881424",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 33.758,
+      "completed_at_utc": "2026-10-09T05:18:09.874358+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-091\",\"text\":\"Im fiktiven Beispiel sank die Rate von 52 % auf 46 %, ein Rückgang um 6 Prozentpunkte. Dies sollte nicht als relativer Rückgang um 6 % beschrieben werden.\"},{\"case_id\":\"modes-de-092\",\"text\":\"Eine bereits abgehaltene Unterrichtsstunde ist nicht erstattungsfähig. Wenn die Lehrkraft vorher absagt, kann der Schüler zwischen einer Rückerstattung und einer Ersatzstunde wählen. Eine Ersatzstunde darf nicht aufgezwungen werden.\"},{\"case_id\":\"modes-de-093\",\"text\":\"In der Notiz steht 11/12. Wir wissen nicht, ob zuerst der Tag oder der Monat angegeben wurde. Bestätigen Sie das gemeinte Datum, bevor Sie das Fahrzeug bestellen.\"},{\"case_id\":\"modes-de-094\",\"text\":\"Führen Sie label-check --no-write aus, bevor Sie labels.csv bearbeiten. Der Befehl meldet mehrfach vorkommende Kennungen und verändert die Datei nicht. Behalten Sie labels.report auch dann bei, wenn die Datei leer ist.\"},{\"case_id\":\"modes-de-095\",\"text\":\"Die blaue Tür blieb offen. Drei Papierboote ruhten auf der Fensterbank. Wir lauschten auf den Regen, doch die Straße blieb still bis zum Morgen.\"}]}",
+      "usage": {
+        "input_tokens": 4142,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 286,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-091\",\"text\":\"Im fiktiven Beispiel sank die Rate von 52 % auf 46 %, ein Rückgang um 6 Prozentpunkte. Dies sollte nicht als relativer Rückgang um 6 % beschrieben werden.\"},{\"case_id\":\"modes-de-092\",\"text\":\"Eine bereits abgehaltene Unterrichtsstunde ist nicht erstattungsfähig. Wenn die Lehrkraft vorher absagt, kann der Schüler zwischen einer Rückerstattung und einer Ersatzstunde wählen. Eine Ersatzstunde darf nicht aufgezwungen werden.\"},{\"case_id\":\"modes-de-093\",\"text\":\"In der Notiz steht 11/12. Wir wissen nicht, ob zuerst der Tag oder der Monat angegeben wurde. Bestätigen Sie das gemeinte Datum, bevor Sie das Fahrzeug bestellen.\"},{\"case_id\":\"modes-de-094\",\"text\":\"Führen Sie label-check --no-write aus, bevor Sie labels.csv bearbeiten. Der Befehl meldet mehrfach vorkommende Kennungen und verändert die Datei nicht. Behalten Sie labels.report auch dann bei, wenn die Datei leer ist.\"},{\"case_id\":\"modes-de-095\",\"text\":\"Die blaue Tür blieb offen. Drei Papierboote ruhten auf der Fensterbank. Wir lauschten auf den Regen, doch die Straße blieb still bis zum Morgen.\"}]}",
+  "usage": {
+    "input_tokens": 4142,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 286,
+    "reasoning_output_tokens": 0
+  }
+}

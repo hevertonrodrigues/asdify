@@ -1,0 +1,124 @@
+{
+  "sealed_at_utc": "2026-10-09T09:20:55.029424+00:00",
+  "key_released_after_complete_annotation_validation": true,
+  "verification": {
+    "audit": "passed",
+    "selected_cases": 164,
+    "candidate_annotations": 820,
+    "cases_per_language": {
+      "en": 18,
+      "pt-BR": 16,
+      "es": 20,
+      "fr": 14,
+      "de": 22,
+      "ja": 20,
+      "zh-CN": 18,
+      "it": 17,
+      "ru": 19
+    },
+    "random_cases": 90,
+    "strict_flagged_cases": 78,
+    "evidence_sha256": {
+      "selection-manifest.json": "e87b7415145ee38fe1e6cde39d5b4a5dd40419f0edbd4427f581fd820438ec31",
+      "opaque-label-key.json": "36d08125d2203af61e59843ef798f8ea998eaa5ab41f21ec2fd17f3da95824c8",
+      "inputs-en.jsonl": "3f0c509788694b3f163a08d8e57d69da0c5b69a9986fb6d4a97aec4d8270a14f",
+      "annotations-en.jsonl": "8156d3370cd05307de3bcb6d9aef379bc138b8eee9edbf404b820c551ba21b6d",
+      "inputs-pt-BR.jsonl": "0c3bb056d16575ced5ff37e6db358fb7780f3ec5f45ac82e85a8b568aec89295",
+      "annotations-pt-BR.jsonl": "b2b3c580676219722ee063cc5211eb43f59b86098a3ce54440e5c0f8e773b8bb",
+      "inputs-es.jsonl": "035c53f9121bd18758edca45042de0918c11424f9cee221a3e44cc2d8b71f488",
+      "annotations-es.jsonl": "f8e05b1d1260891121c0336dd93103c53c1dac1c79ee7cbc642a06f46e665f24",
+      "inputs-fr.jsonl": "aba5313197941bada3bc445a4c2749d6ae48ca76df636a554b7c225c698c08d6",
+      "annotations-fr.jsonl": "fdf9e811941dfe5909f39f3e896bac5e7e099ba45e5d01ea5787c20e07209e83",
+      "inputs-de.jsonl": "d0d54d71a58991e68660448c01b45106e0b22be8bfed574baef8d9cbd6a286b8",
+      "annotations-de.jsonl": "dff0f25ff1b7f7869691bfbf810a8812c656ba083fb40c1b59c02dd8476e1010",
+      "inputs-ja.jsonl": "58d1b33efbc639ebbd6d19eea79b689a3ece19eabd7695ddeadd5f4b52049be9",
+      "annotations-ja.jsonl": "f556ac47623af21c9247a21efc730a15d100591fcca4982b60a35cfcb3f335f9",
+      "inputs-zh-CN.jsonl": "a6dd32ddf9ae534b09c0f18954c3d053e95e902a6900fe627897c120dd68d50b",
+      "annotations-zh-CN.jsonl": "328f40238964e3c99287d5e1fc14b51b557bcb5913ca9e9c6494f771e22cf7c6",
+      "inputs-it.jsonl": "3382a6f654d909cc6f88dfab865e6470159c6b31d2b78fc2545dae877fb6f417",
+      "annotations-it.jsonl": "57aa65f03d11e5933b5f2c532e6440f7d11777684dfc4147e28cb25510094830",
+      "inputs-ru.jsonl": "cda41d24c47d81cc8e5e7da6a986128a8c2c65d59353118752ee59600657d6e8",
+      "annotations-ru.jsonl": "5961becd9699028985e31b9e884a0b8d73fdac950589b7ccd1e1fb47f765b41a"
+    },
+    "judgment_counts_in_selected_sample": {
+      "baseline": {
+        "meaning": {
+          "preserved": 142,
+          "changed": 18,
+          "uncertain": 4
+        },
+        "voice": {
+          "preserved": 25,
+          "not_applicable": 139
+        },
+        "format": {
+          "not_applicable": 125,
+          "preserved": 38,
+          "uncertain": 1
+        }
+      },
+      "full": {
+        "meaning": {
+          "preserved": 162,
+          "uncertain": 1,
+          "changed": 1
+        },
+        "voice": {
+          "preserved": 24,
+          "not_applicable": 139,
+          "changed": 1
+        },
+        "format": {
+          "not_applicable": 125,
+          "preserved": 39
+        }
+      },
+      "lite": {
+        "meaning": {
+          "preserved": 163,
+          "changed": 1
+        },
+        "voice": {
+          "preserved": 24,
+          "not_applicable": 139,
+          "changed": 1
+        },
+        "format": {
+          "not_applicable": 125,
+          "preserved": 39
+        }
+      },
+      "off": {
+        "meaning": {
+          "preserved": 160,
+          "changed": 4
+        },
+        "voice": {
+          "preserved": 25,
+          "not_applicable": 139
+        },
+        "format": {
+          "not_applicable": 125,
+          "preserved": 39
+        }
+      },
+      "ultra": {
+        "meaning": {
+          "changed": 7,
+          "preserved": 155,
+          "uncertain": 2
+        },
+        "voice": {
+          "preserved": 24,
+          "not_applicable": 139,
+          "changed": 1
+        },
+        "format": {
+          "not_applicable": 125,
+          "preserved": 39
+        }
+      }
+    },
+    "scope": "Selection, blinding, raw-source identity, complete annotations, and file integrity only. Judgments are not verified truths or population reliability estimates."
+  }
+}

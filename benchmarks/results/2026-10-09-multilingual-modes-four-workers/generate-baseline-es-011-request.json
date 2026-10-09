@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "38b5bcdca5b20d785aabc93d5ce921d482f269be3ae4ac2f036de04e05511b0a",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.375,
+      "completed_at_utc": "2026-10-09T05:13:01.962813+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-011\",\"text\":\"La proporción de solicitudes incompletas se redujo del 15% al 12%: una bajada de 3 puntos porcentuales, equivalente al 20% de la proporción inicial. Cada mes se revisaron 200 solicitudes, exclusivamente del canal presencial.\"},{\"case_id\":\"modes-es-012\",\"text\":\"Quedan 140 sillas disponibles para alquilar: 180 − 26 reservadas − 14 pendientes de reparación = 140. Las 30 que llegarán la semana próxima no se cuentan como disponibles ahora.\"},{\"case_id\":\"modes-es-013\",\"text\":\"Las ventas, con el impuesto incluido, pasaron de 25.000 euros en abril a 27.500 euros en mayo: un aumento de 2.500 euros, equivalente al 10%. El importe de mayo es provisional y aún no descuenta posibles anulaciones de hasta 900 euros. Si se anulara ese máximo, mayo quedaría en 26.600 euros y el aumento respecto a abril sería del 6,4%.\"},{\"case_id\":\"modes-es-014\",\"text\":\"Sí, lo necesario cabe en el presupuesto: 5 × 130 + 65 = 715 euros. Sobran 780 − 715 = 65 euros. Los protectores son opcionales y no se incluyen porque no se han pedido.\"},{\"case_id\":\"modes-es-015\",\"text\":\"El consumo por día de actividad fue el mismo: junio, 96 ÷ 24 = 4 m³; julio, 88 ÷ 22 = 4 m³. El menor total de julio se explica por los dos días menos de actividad, no por una reducción del consumo diario. Además, sin conocer el número de visitantes, no se puede comparar el consumo por visitante.\"}]}",
+      "usage": {
+        "input_tokens": 4257,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 395,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-011\",\"text\":\"La proporción de solicitudes incompletas se redujo del 15% al 12%: una bajada de 3 puntos porcentuales, equivalente al 20% de la proporción inicial. Cada mes se revisaron 200 solicitudes, exclusivamente del canal presencial.\"},{\"case_id\":\"modes-es-012\",\"text\":\"Quedan 140 sillas disponibles para alquilar: 180 − 26 reservadas − 14 pendientes de reparación = 140. Las 30 que llegarán la semana próxima no se cuentan como disponibles ahora.\"},{\"case_id\":\"modes-es-013\",\"text\":\"Las ventas, con el impuesto incluido, pasaron de 25.000 euros en abril a 27.500 euros en mayo: un aumento de 2.500 euros, equivalente al 10%. El importe de mayo es provisional y aún no descuenta posibles anulaciones de hasta 900 euros. Si se anulara ese máximo, mayo quedaría en 26.600 euros y el aumento respecto a abril sería del 6,4%.\"},{\"case_id\":\"modes-es-014\",\"text\":\"Sí, lo necesario cabe en el presupuesto: 5 × 130 + 65 = 715 euros. Sobran 780 − 715 = 65 euros. Los protectores son opcionales y no se incluyen porque no se han pedido.\"},{\"case_id\":\"modes-es-015\",\"text\":\"El consumo por día de actividad fue el mismo: junio, 96 ÷ 24 = 4 m³; julio, 88 ÷ 22 = 4 m³. El menor total de julio se explica por los dos días menos de actividad, no por una reducción del consumo diario. Además, sin conocer el número de visitantes, no se puede comparar el consumo por visitante.\"}]}",
+  "usage": {
+    "input_tokens": 4257,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 395,
+    "reasoning_output_tokens": 0
+  }
+}

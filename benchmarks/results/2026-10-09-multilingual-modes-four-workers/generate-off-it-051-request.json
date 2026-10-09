@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "16661adfbfa48fc73f53e9123b2f0e6f26bb3378911dae3b05b4f67eb0803180",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.331,
+      "completed_at_utc": "2026-10-09T04:23:38.302956+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-051\",\"text\":\"«Puoi consegnare la chiave domani» esprime un permesso o una possibilità, non un obbligo. «Devi consegnare la chiave domani» indica invece l’obbligo di consegnarla domani.\"},{\"case_id\":\"modes-it-052\",\"text\":\"Si può chiedere un duplicato se il tesserino è perso oppure illeggibile: è sufficiente uno solo dei due motivi. Presentare la richiesta non significa che il duplicato sia approvato.\"},{\"case_id\":\"modes-it-053\",\"text\":\"No, la bici non può essere portata nell’atrio: deve restare nel cortile.\"},{\"case_id\":\"modes-it-054\",\"text\":\"Il test ha coinvolto soltanto undici persone già formate, tutte con esperienza precedente sullo stesso kit, che hanno completato il montaggio in meno di otto minuti. Poiché non ha partecipato alcun principiante, il risultato non permette di valutare i tempi di montaggio di chi usa il kit per la prima volta.\"},{\"case_id\":\"modes-it-055\",\"text\":\"L’etichetta dichiara 90 pezzi; il conteggio manuale ne ha rilevati 89, uno in meno rispetto al dichiarato. Il sacchetto è stato richiuso. Non è stato effettuato un secondo conteggio.\"}]}",
+      "usage": {
+        "input_tokens": 7469,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 313,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-051\",\"text\":\"«Puoi consegnare la chiave domani» esprime un permesso o una possibilità, non un obbligo. «Devi consegnare la chiave domani» indica invece l’obbligo di consegnarla domani.\"},{\"case_id\":\"modes-it-052\",\"text\":\"Si può chiedere un duplicato se il tesserino è perso oppure illeggibile: è sufficiente uno solo dei due motivi. Presentare la richiesta non significa che il duplicato sia approvato.\"},{\"case_id\":\"modes-it-053\",\"text\":\"No, la bici non può essere portata nell’atrio: deve restare nel cortile.\"},{\"case_id\":\"modes-it-054\",\"text\":\"Il test ha coinvolto soltanto undici persone già formate, tutte con esperienza precedente sullo stesso kit, che hanno completato il montaggio in meno di otto minuti. Poiché non ha partecipato alcun principiante, il risultato non permette di valutare i tempi di montaggio di chi usa il kit per la prima volta.\"},{\"case_id\":\"modes-it-055\",\"text\":\"L’etichetta dichiara 90 pezzi; il conteggio manuale ne ha rilevati 89, uno in meno rispetto al dichiarato. Il sacchetto è stato richiuso. Non è stato effettuato un secondo conteggio.\"}]}",
+  "usage": {
+    "input_tokens": 7469,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 313,
+    "reasoning_output_tokens": 0
+  }
+}

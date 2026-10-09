@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "ce9972703ef32c594f32f1afb3329450829df0cf1868cdeec6c16c655fe7e622",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.255,
+      "completed_at_utc": "2026-10-09T04:21:19.377955+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-061\",\"text\":\"Gracias por avisarnos del banco inestable, Vera. Hemos pedido al taller que lo examine. Aún no sabemos si se puede reparar, pero te informaremos en cuanto recibamos el resultado.\"},{\"case_id\":\"modes-es-062\",\"text\":\"El romero manda en la ventana como un administrador aromático: cinco brotes nuevos esta semana. ¿Un récord? La semana pasada no contamos. El alquiler sigue pagándose con luz.\"},{\"case_id\":\"modes-es-063\",\"text\":\"Siento el retraso. Indiqué mal el código postal; el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.\"},{\"case_id\":\"modes-es-064\",\"text\":\"Después del cierre se encontraron dos cascos junto a la pista. Están en la oficina de mantenimiento. No se sabe de quién son ni si se dejaron allí a propósito. Sus dueños pueden acudir a recepción y describirlos antes de recogerlos.\"},{\"case_id\":\"modes-es-065\",\"text\":\"«Podría ir en el tren temprano —dijo Alba—, si acaba la visita. Pero… no he comprado billete y no quiero que me esperes como si ya estuviera decidido».\"}]}",
+      "usage": {
+        "input_tokens": 7512,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 287,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-061\",\"text\":\"Gracias por avisarnos del banco inestable, Vera. Hemos pedido al taller que lo examine. Aún no sabemos si se puede reparar, pero te informaremos en cuanto recibamos el resultado.\"},{\"case_id\":\"modes-es-062\",\"text\":\"El romero manda en la ventana como un administrador aromático: cinco brotes nuevos esta semana. ¿Un récord? La semana pasada no contamos. El alquiler sigue pagándose con luz.\"},{\"case_id\":\"modes-es-063\",\"text\":\"Siento el retraso. Indiqué mal el código postal; el almacén usó el dato que envié. He preguntado al transportista si puede cambiar el recorrido, pero aún no ha contestado.\"},{\"case_id\":\"modes-es-064\",\"text\":\"Después del cierre se encontraron dos cascos junto a la pista. Están en la oficina de mantenimiento. No se sabe de quién son ni si se dejaron allí a propósito. Sus dueños pueden acudir a recepción y describirlos antes de recogerlos.\"},{\"case_id\":\"modes-es-065\",\"text\":\"«Podría ir en el tren temprano —dijo Alba—, si acaba la visita. Pero… no he comprado billete y no quiero que me esperes como si ya estuviera decidido».\"}]}",
+  "usage": {
+    "input_tokens": 7512,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 287,
+    "reasoning_output_tokens": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "6b3c8df2cebec60ec2af49fe4c750a65520235a7ddb452b81fa19eae27d0a059",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 35.373,
+      "completed_at_utc": "2026-10-09T03:49:55.799562+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-011\",\"text\":\"会议10:30开始。请在门口签到。\"},{\"case_id\":\"modes-zh-CN-012\",\"text\":\"退货率从5%降至3%，下降2个百分点，相对下降40%。由于两个月的订单量不同，退货件数不一定减少40%。\"},{\"case_id\":\"modes-zh-CN-013\",\"text\":\"管理员有疑问时，可以要求申请人补交证明。申请人只有收到补交要求后，才必须在收到通知后的3个工作日内补交。\"},{\"case_id\":\"modes-zh-CN-014\",\"text\":\"私人物品不得留宿寄存。参加获批两日活动的人，可将已登记物品寄存至次日中午；未登记物品不适用此例外。\"},{\"case_id\":\"modes-zh-CN-015\",\"text\":\"何洁检查了报价。随后合同被发出，发送人未记录。对方是否签收尚未确认。\"}]}",
+      "usage": {
+        "input_tokens": 7456,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 240,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-zh-CN-011\",\"text\":\"会议10:30开始。请在门口签到。\"},{\"case_id\":\"modes-zh-CN-012\",\"text\":\"退货率从5%降至3%，下降2个百分点，相对下降40%。由于两个月的订单量不同，退货件数不一定减少40%。\"},{\"case_id\":\"modes-zh-CN-013\",\"text\":\"管理员有疑问时，可以要求申请人补交证明。申请人只有收到补交要求后，才必须在收到通知后的3个工作日内补交。\"},{\"case_id\":\"modes-zh-CN-014\",\"text\":\"私人物品不得留宿寄存。参加获批两日活动的人，可将已登记物品寄存至次日中午；未登记物品不适用此例外。\"},{\"case_id\":\"modes-zh-CN-015\",\"text\":\"何洁检查了报价。随后合同被发出，发送人未记录。对方是否签收尚未确认。\"}]}",
+  "usage": {
+    "input_tokens": 7456,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 240,
+    "reasoning_output_tokens": 0
+  }
+}

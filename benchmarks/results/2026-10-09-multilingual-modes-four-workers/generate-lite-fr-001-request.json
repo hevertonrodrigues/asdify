@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "2d142a5774482a4d43ddc85a6a17d23ae739f8ceabafd743aebbf651219c3a27",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 40.802,
+      "completed_at_utc": "2026-10-09T03:34:27.875434+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-001\",\"text\":\"Fermez la fenêtre avant de quitter la salle.\"},{\"case_id\":\"modes-fr-002\",\"text\":\"Vous pouvez prendre une deuxième permanence, mais c’est facultatif. Chaque bénévole doit confirmer sa première permanence avant vendredi à 18 h.\"},{\"case_id\":\"modes-fr-003\",\"text\":\"La salle peut être ouverte au public seulement si le contrôle de ventilation est terminé et si la personne responsable a signé la fiche. Les deux conditions doivent être remplies.\"},{\"case_id\":\"modes-fr-004\",\"text\":\"Ne supprimez pas le compte lorsque la carte est expirée. Désactivez uniquement le renouvellement automatique. Les accès déjà payés restent valables jusqu’au 30 novembre.\"},{\"case_id\":\"modes-fr-005\",\"text\":\"Les visiteurs doivent réserver leur place, sauf les accompagnateurs d’un groupe scolaire déjà inscrit. Les autres membres de la famille doivent réserver leur place.\"}]}",
+      "usage": {
+        "input_tokens": 7407,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 212,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-001\",\"text\":\"Fermez la fenêtre avant de quitter la salle.\"},{\"case_id\":\"modes-fr-002\",\"text\":\"Vous pouvez prendre une deuxième permanence, mais c’est facultatif. Chaque bénévole doit confirmer sa première permanence avant vendredi à 18 h.\"},{\"case_id\":\"modes-fr-003\",\"text\":\"La salle peut être ouverte au public seulement si le contrôle de ventilation est terminé et si la personne responsable a signé la fiche. Les deux conditions doivent être remplies.\"},{\"case_id\":\"modes-fr-004\",\"text\":\"Ne supprimez pas le compte lorsque la carte est expirée. Désactivez uniquement le renouvellement automatique. Les accès déjà payés restent valables jusqu’au 30 novembre.\"},{\"case_id\":\"modes-fr-005\",\"text\":\"Les visiteurs doivent réserver leur place, sauf les accompagnateurs d’un groupe scolaire déjà inscrit. Les autres membres de la famille doivent réserver leur place.\"}]}",
+  "usage": {
+    "input_tokens": 7407,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 212,
+    "reasoning_output_tokens": 0
+  }
+}

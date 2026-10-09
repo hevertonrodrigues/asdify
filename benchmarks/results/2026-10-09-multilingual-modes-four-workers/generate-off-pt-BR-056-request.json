@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "0cba456f713a1a885566902dfee6c043f0a382e7751ed8a68b120b65487b8f54",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 31.567,
+      "completed_at_utc": "2026-10-09T04:04:51.140595+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-056\",\"text\":\"Para consultar a fila sem fazer alterações, execute `fila listar --somente-leitura`. Esse comando não remove itens.\"},{\"case_id\":\"modes-pt-BR-057\",\"text\":\"- A linha L-23 está suspensa em 12 de dezembro.\\n- A linha L-24 continua operando.\\n- O reembolso depende de um pedido opcional; o pagamento não é automático.\"},{\"case_id\":\"modes-pt-BR-058\",\"text\":\"REV-6 | aguardando | 0/15 verificados\"},{\"case_id\":\"modes-pt-BR-059\",\"text\":\"Salve o rascunho em /relatorios/2029/nota_final.md e mantenha APROVADO=false até a editora aprovar. Salvar o arquivo não significa obter aprovação.\"},{\"case_id\":\"modes-pt-BR-060\",\"text\":\"{\\\"code\\\":\\\"PAUSA_9\\\",\\\"wait_seconds\\\":60,\\\"description\\\":\\\"Esperar 60 segundos é uma recomendação, não uma obrigação.\\\"}\"}]}",
+      "usage": {
+        "input_tokens": 7484,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 243,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-056\",\"text\":\"Para consultar a fila sem fazer alterações, execute `fila listar --somente-leitura`. Esse comando não remove itens.\"},{\"case_id\":\"modes-pt-BR-057\",\"text\":\"- A linha L-23 está suspensa em 12 de dezembro.\\n- A linha L-24 continua operando.\\n- O reembolso depende de um pedido opcional; o pagamento não é automático.\"},{\"case_id\":\"modes-pt-BR-058\",\"text\":\"REV-6 | aguardando | 0/15 verificados\"},{\"case_id\":\"modes-pt-BR-059\",\"text\":\"Salve o rascunho em /relatorios/2029/nota_final.md e mantenha APROVADO=false até a editora aprovar. Salvar o arquivo não significa obter aprovação.\"},{\"case_id\":\"modes-pt-BR-060\",\"text\":\"{\\\"code\\\":\\\"PAUSA_9\\\",\\\"wait_seconds\\\":60,\\\"description\\\":\\\"Esperar 60 segundos é uma recomendação, não uma obrigação.\\\"}\"}]}",
+  "usage": {
+    "input_tokens": 7484,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 243,
+    "reasoning_output_tokens": 0
+  }
+}

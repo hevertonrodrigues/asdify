@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "fc0ea0c6e513d83e3e9dcbade2d855639352fbd0c4d39ce430f1a9a343abce45",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 41.353,
+      "completed_at_utc": "2026-10-09T03:03:21.699260+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-036\",\"text\":\"Para o campo `apelido`, omitir o campo mantém o valor atual; enviar `null` o apaga; enviar uma string vazia (`\\\"\\\"`) define um valor de texto aceito. Essa regra não foi definida para outros campos.\"},{\"case_id\":\"modes-pt-BR-037\",\"text\":\"No teste, seis processos simultâneos concluíram 900 tarefas em 60 segundos, totalizando 15 tarefas por segundo no conjunto. As entradas já estavam em memória. Não foram medidos o desempenho de um processo isolado nem a leitura inicial de disco.\"},{\"case_id\":\"modes-pt-BR-038\",\"text\":\"O padrão de `ttl_dias` é 14. O valor 0 desativa a exclusão automática, sem apagar tudo imediatamente; valores positivos contam dias inteiros desde a criação. A exclusão manual continua disponível, e mudanças na configuração valem apenas para novos registros.\"},{\"case_id\":\"modes-pt-BR-039\",\"text\":\"O teste autenticou a conta de serviço e confirmou que ela consegue se conectar. Não autenticou cada usuário nem verificou a permissão de cada pessoa para consultar cada documento. Portanto, a conexão bem-sucedida não representa aprovação dos controles de acesso.\"},{\"case_id\":\"modes-pt-BR-040\",\"text\":\"Não. O aviso “atraso: 120 s” indica que o último evento aplicado está 120 segundos atrás do último recebido, e os eventos pendentes continuam na fila. Sem contagem de falhas ou auditoria de eventos ausentes, o aviso não comprova perda de dados.\"}]}",
+      "usage": {
+        "input_tokens": 4230,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 360,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-pt-BR-036\",\"text\":\"Para o campo `apelido`, omitir o campo mantém o valor atual; enviar `null` o apaga; enviar uma string vazia (`\\\"\\\"`) define um valor de texto aceito. Essa regra não foi definida para outros campos.\"},{\"case_id\":\"modes-pt-BR-037\",\"text\":\"No teste, seis processos simultâneos concluíram 900 tarefas em 60 segundos, totalizando 15 tarefas por segundo no conjunto. As entradas já estavam em memória. Não foram medidos o desempenho de um processo isolado nem a leitura inicial de disco.\"},{\"case_id\":\"modes-pt-BR-038\",\"text\":\"O padrão de `ttl_dias` é 14. O valor 0 desativa a exclusão automática, sem apagar tudo imediatamente; valores positivos contam dias inteiros desde a criação. A exclusão manual continua disponível, e mudanças na configuração valem apenas para novos registros.\"},{\"case_id\":\"modes-pt-BR-039\",\"text\":\"O teste autenticou a conta de serviço e confirmou que ela consegue se conectar. Não autenticou cada usuário nem verificou a permissão de cada pessoa para consultar cada documento. Portanto, a conexão bem-sucedida não representa aprovação dos controles de acesso.\"},{\"case_id\":\"modes-pt-BR-040\",\"text\":\"Não. O aviso “atraso: 120 s” indica que o último evento aplicado está 120 segundos atrás do último recebido, e os eventos pendentes continuam na fila. Sem contagem de falhas ou auditoria de eventos ausentes, o aviso não comprova perda de dados.\"}]}",
+  "usage": {
+    "input_tokens": 4230,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 360,
+    "reasoning_output_tokens": 0
+  }
+}

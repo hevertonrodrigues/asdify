@@ -24,10 +24,12 @@ Make the skill useful enough that people keep using it and contribute the cases 
 - [ ] Compare the skill against both an ordinary baseline and a concise-only instruction using the [evaluation protocol](../benchmarks/README.md).
 - [ ] Freeze at least 24 held-out cases, balanced between English and Portuguese, before generating outputs. This is a pilot target, not a statistical power guarantee.
 - [ ] Include long summaries and mixed failure cases, with at least two distinct models (recording each exact version) and two independent reviewers.
-- [ ] Publish anonymized raw outputs, settings, reviewer scores, failures, and limitations in `benchmarks/results/`.
+- [x] Publish raw synthetic-case outputs, settings, reviewer scores, failures, and limitations in [benchmarks/results](../benchmarks/results/README.md).
 - [ ] Revise the skill only after examining failures, then evaluate a fresh held-out set.
 
 **Done when:** a reader can reproduce the study and see whether clarity improved without a material-fidelity regression. If the concise-only prompt performs as well, publish that finding and revise the product's claim.
+
+Recorded evidence now includes two earlier 100-case comparisons and a new 900-case study covering all four modes and nine languages. The 900-case study reports 4,500 answers and 9,000 model ratings with reproducible evidence audits. A concise-only control, a second generation model, independent human review, and user comprehension evidence remain outstanding; these automated scores do not complete the broader research milestone.
 
 ## 3. Useful contributions and discovery
 

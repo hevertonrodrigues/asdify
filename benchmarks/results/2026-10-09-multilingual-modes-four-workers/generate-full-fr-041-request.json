@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "99d8ae773a32d2120a688f6a791fa905aeab0cbea674dd91d7bc987e7a81ac1e",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.092,
+      "completed_at_utc": "2026-10-09T03:04:03.793598+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-fr-041\",\"text\":\"80 % des 50 réponses reçues choisissent le bleu.\"},{\"case_id\":\"modes-fr-042\",\"text\":\"Seul le remplacement d’un capteur à 75 € est confirmé pour l’instant. Le coût pourrait atteindre 1 900 € si les deux moteurs doivent être remplacés. Ces montants excluent la main-d’œuvre.\"},{\"case_id\":\"modes-fr-043\",\"text\":\"75 − 60 = 15 points de pourcentage.\"},{\"case_id\":\"modes-fr-044\",\"text\":\"180 g × 10 ÷ 4 = 450 g de riz sec.\"},{\"case_id\":\"modes-fr-045\",\"text\":\"À partir du 2 décembre, les retraits se feront à la porte latérale. Cela concerne aussi les commandes passées avant le 2 décembre si elles sont retirées après cette date. Le paiement reste au comptoir principal.\"}]}",
+      "usage": {
+        "input_tokens": 7464,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 211,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-fr-041\",\"text\":\"80 % des 50 réponses reçues choisissent le bleu.\"},{\"case_id\":\"modes-fr-042\",\"text\":\"Seul le remplacement d’un capteur à 75 € est confirmé pour l’instant. Le coût pourrait atteindre 1 900 € si les deux moteurs doivent être remplacés. Ces montants excluent la main-d’œuvre.\"},{\"case_id\":\"modes-fr-043\",\"text\":\"75 − 60 = 15 points de pourcentage.\"},{\"case_id\":\"modes-fr-044\",\"text\":\"180 g × 10 ÷ 4 = 450 g de riz sec.\"},{\"case_id\":\"modes-fr-045\",\"text\":\"À partir du 2 décembre, les retraits se feront à la porte latérale. Cela concerne aussi les commandes passées avant le 2 décembre si elles sont retirées après cette date. Le paiement reste au comptoir principal.\"}]}",
+  "usage": {
+    "input_tokens": 7464,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 211,
+    "reasoning_output_tokens": 0
+  }
+}

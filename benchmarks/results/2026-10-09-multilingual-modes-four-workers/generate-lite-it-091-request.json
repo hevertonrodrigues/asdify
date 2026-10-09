@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "4bd8c9c094c37fdafc4f5860f4bf7e633699862576675b062b82e579e5146421",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 42.247,
+      "completed_at_utc": "2026-10-09T05:10:54.206013+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-it-091\",\"text\":\"Nella tabella fittizia, la quota è aumentata dal 36% al 45%, con un aumento di 9 punti percentuali. Non è la stessa cosa di un aumento relativo del 9%.\"},{\"case_id\":\"modes-it-092\",\"text\":\"Una volta svolta una lezione, il relativo costo non è rimborsabile. Se lo studio annulla la lezione in anticipo, gli allievi possono richiedere un rimborso invece di accettare un'altra lezione. Non sono obbligati ad accettare l'alternativa.\"},{\"case_id\":\"modes-it-093\",\"text\":\"L'invito riporta 09/10. La fonte non indica quale convenzione sia stata usata per la data. Conferma il giorno e il mese prima di prenotare la sala.\"},{\"case_id\":\"modes-it-094\",\"text\":\"Esegui batch-inspect --report-only prima di modificare batch.tsv. Il comando elenca i codici non corrispondenti; non li corregge. Conserva batch.audit anche se l'elenco è vuoto.\"},{\"case_id\":\"modes-it-095\",\"text\":\"Una candela ardeva ancora. Quattro mappe ripiegate erano posate accanto alla porta. Rimasi in attesa di passi, ma nessuno tornò prima dell'alba.\"}]}",
+      "usage": {
+        "input_tokens": 7434,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 315,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-it-091\",\"text\":\"Nella tabella fittizia, la quota è aumentata dal 36% al 45%, con un aumento di 9 punti percentuali. Non è la stessa cosa di un aumento relativo del 9%.\"},{\"case_id\":\"modes-it-092\",\"text\":\"Una volta svolta una lezione, il relativo costo non è rimborsabile. Se lo studio annulla la lezione in anticipo, gli allievi possono richiedere un rimborso invece di accettare un'altra lezione. Non sono obbligati ad accettare l'alternativa.\"},{\"case_id\":\"modes-it-093\",\"text\":\"L'invito riporta 09/10. La fonte non indica quale convenzione sia stata usata per la data. Conferma il giorno e il mese prima di prenotare la sala.\"},{\"case_id\":\"modes-it-094\",\"text\":\"Esegui batch-inspect --report-only prima di modificare batch.tsv. Il comando elenca i codici non corrispondenti; non li corregge. Conserva batch.audit anche se l'elenco è vuoto.\"},{\"case_id\":\"modes-it-095\",\"text\":\"Una candela ardeva ancora. Quattro mappe ripiegate erano posate accanto alla porta. Rimasi in attesa di passi, ma nessuno tornò prima dell'alba.\"}]}",
+  "usage": {
+    "input_tokens": 7434,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 315,
+    "reasoning_output_tokens": 0
+  }
+}

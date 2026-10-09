@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "7d3400d1225345adb219ec52b4f22764d84f12462e67e84a9fdace6c0c6e0c78",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 38.822,
+      "completed_at_utc": "2026-10-09T04:59:04.491912+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-es-046\",\"text\":\"Pino cuesta menos: 240 euros al mes para 14 personas, frente a 266 euros de Río (14 × 19). La diferencia es de 26 euros al mes.\"},{\"case_id\":\"modes-es-047\",\"text\":\"Los 30 asistentes cometieron 6 errores y los 30 no asistentes, 15: se observaron 9 errores menos entre los asistentes. Esto muestra una asociación, no demuestra que el curso causara la diferencia. La participación fue voluntaria y no se midió la experiencia previa, por lo que los grupos podrían diferir en factores que influyen en los errores.\"},{\"case_id\":\"modes-es-048\",\"text\":\"No. Para cubrir los pedidos confirmados faltan 55 cajas: se necesitan 95 y hay 40 utilizables. La reserva es opcional y permite añadir hasta 12 cajas, de modo que la compra sería de 55 a 67 cajas. No se ha indicado un mínimo del proveedor que justifique comprar 120 hoy.\"},{\"case_id\":\"modes-es-049\",\"text\":\"La estimación de montaje de 5 semanas depende de que el material llegue antes del 2 de abril. Compras estima que llegará entre el 7 y el 14 de abril, fuera de esa condición. Por tanto, las notas no permiten determinar la duración del montaje con esa llegada: no hay una estimación revisada para una llegada tardía. Ambas cifras son estimaciones, no compromisos.\"},{\"case_id\":\"modes-es-050\",\"text\":\"No se ha demostrado el funcionamiento sin conexión. Solo se comprobó que dos páginas ya guardadas en caché se abrieron al apagar el Wi-Fi. No se anotó si los datos móviles estaban activos, no se abrieron páginas nuevas ni se revisaron las peticiones de fondo. La prueba no permite confirmar que no hubiera conexión ni que otras funciones operaran sin ella.\"}]}",
+      "usage": {
+        "input_tokens": 7513,
+        "cached_input_tokens": 3072,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 415,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-es-046\",\"text\":\"Pino cuesta menos: 240 euros al mes para 14 personas, frente a 266 euros de Río (14 × 19). La diferencia es de 26 euros al mes.\"},{\"case_id\":\"modes-es-047\",\"text\":\"Los 30 asistentes cometieron 6 errores y los 30 no asistentes, 15: se observaron 9 errores menos entre los asistentes. Esto muestra una asociación, no demuestra que el curso causara la diferencia. La participación fue voluntaria y no se midió la experiencia previa, por lo que los grupos podrían diferir en factores que influyen en los errores.\"},{\"case_id\":\"modes-es-048\",\"text\":\"No. Para cubrir los pedidos confirmados faltan 55 cajas: se necesitan 95 y hay 40 utilizables. La reserva es opcional y permite añadir hasta 12 cajas, de modo que la compra sería de 55 a 67 cajas. No se ha indicado un mínimo del proveedor que justifique comprar 120 hoy.\"},{\"case_id\":\"modes-es-049\",\"text\":\"La estimación de montaje de 5 semanas depende de que el material llegue antes del 2 de abril. Compras estima que llegará entre el 7 y el 14 de abril, fuera de esa condición. Por tanto, las notas no permiten determinar la duración del montaje con esa llegada: no hay una estimación revisada para una llegada tardía. Ambas cifras son estimaciones, no compromisos.\"},{\"case_id\":\"modes-es-050\",\"text\":\"No se ha demostrado el funcionamiento sin conexión. Solo se comprobó que dos páginas ya guardadas en caché se abrieron al apagar el Wi-Fi. No se anotó si los datos móviles estaban activos, no se abrieron páginas nuevas ni se revisaron las peticiones de fondo. La prueba no permite confirmar que no hubiera conexión ni que otras funciones operaran sin ella.\"}]}",
+  "usage": {
+    "input_tokens": 7513,
+    "cached_input_tokens": 3072,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 415,
+    "reasoning_output_tokens": 0
+  }
+}

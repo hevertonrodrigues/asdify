@@ -1,0 +1,28 @@
+{
+  "prompt_sha256": "03c74f68b37f63c77b81b2434ef52382791c6929a524cf1d9650fe11b1956a51",
+  "attempts": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "seconds": 36.722,
+      "completed_at_utc": "2026-10-09T03:42:12.353720+00:00",
+      "error": null,
+      "output": "{\"answers\":[{\"case_id\":\"modes-de-096\",\"text\":\"Auf dem Display steht \\\"scan incomplete\\\". Das bedeutet, dass der Scan noch nicht abgeschlossen ist; es beweist nicht, dass das Archiv beschädigt ist.\"},{\"case_id\":\"modes-de-097\",\"text\":\"Die Änderung betrifft nur die Paketabholung. Der Informationsschalter öffnet weiterhin um 08:30 Uhr. Pakete können ab 09:15 Uhr abgeholt werden, einschließlich der Pakete, die vor der Änderung eingetroffen sind.\"},{\"case_id\":\"modes-de-098\",\"text\":\"Speichern Sie zuerst den Bestand. Lassen Sie dann eine zweite Person die fehlenden Artikel überprüfen. Genehmigen Sie die Bestellung erst nach dieser Überprüfung. Ein gespeicherter Bestand ist keine genehmigte Bestellung.\"},{\"case_id\":\"modes-de-099\",\"text\":\"Die Packliste gibt 32 Clips an, aber bei der manuellen Zählung wurden 31 festgestellt. Niemand hat die Zählung wiederholt. Die bestätigte Menge ist weiterhin unbekannt.\"},{\"case_id\":\"modes-de-100\",\"text\":\"Von 110 überprüften Nachrichten wurde in 22 um eine Empfangsbestätigung gebeten. Sieben dieser 22 Nachrichten kamen über das Formular auf der Website. Die Gesamtzahl der Nachrichten, die über das Formular auf der Website eingingen, ist nicht erfasst.\"}]}",
+      "usage": {
+        "input_tokens": 7416,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 294,
+        "reasoning_output_tokens": 0
+      }
+    }
+  ],
+  "output": "{\"answers\":[{\"case_id\":\"modes-de-096\",\"text\":\"Auf dem Display steht \\\"scan incomplete\\\". Das bedeutet, dass der Scan noch nicht abgeschlossen ist; es beweist nicht, dass das Archiv beschädigt ist.\"},{\"case_id\":\"modes-de-097\",\"text\":\"Die Änderung betrifft nur die Paketabholung. Der Informationsschalter öffnet weiterhin um 08:30 Uhr. Pakete können ab 09:15 Uhr abgeholt werden, einschließlich der Pakete, die vor der Änderung eingetroffen sind.\"},{\"case_id\":\"modes-de-098\",\"text\":\"Speichern Sie zuerst den Bestand. Lassen Sie dann eine zweite Person die fehlenden Artikel überprüfen. Genehmigen Sie die Bestellung erst nach dieser Überprüfung. Ein gespeicherter Bestand ist keine genehmigte Bestellung.\"},{\"case_id\":\"modes-de-099\",\"text\":\"Die Packliste gibt 32 Clips an, aber bei der manuellen Zählung wurden 31 festgestellt. Niemand hat die Zählung wiederholt. Die bestätigte Menge ist weiterhin unbekannt.\"},{\"case_id\":\"modes-de-100\",\"text\":\"Von 110 überprüften Nachrichten wurde in 22 um eine Empfangsbestätigung gebeten. Sieben dieser 22 Nachrichten kamen über das Formular auf der Website. Die Gesamtzahl der Nachrichten, die über das Formular auf der Website eingingen, ist nicht erfasst.\"}]}",
+  "usage": {
+    "input_tokens": 7416,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 294,
+    "reasoning_output_tokens": 0
+  }
+}
