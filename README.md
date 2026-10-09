@@ -177,6 +177,8 @@ Name the target language or locale. ASDify preserves meaning, identifiers, place
 
 ## Built to be checked
 
+In the 900-case study of a frozen skill version, `full` passed **98.33%** of strict automated checks, versus **93.22%** without the skill.
+
 A shorter answer that changes a material fact fails the evaluation. The [four-mode study](benchmarks/multilingual-modes/README.md) uses 100 new cases for each of nine output languages: 900 distinct cases run in `lite`, `full`, `ultra`, and `off`, plus a control without the skill. This gives 3,600 mode tests and 4,500 answers, with two blinded review passes by a model from the generator's model family. See the [recorded tests](benchmarks/results/README.md) and [reproducible evaluation protocol](benchmarks/README.md). The cases are synthetic and some scenario patterns recur across languages, so the observations are not independent. **General reliability and broad quality gains remain unestablished.** [Package verification](docs/VERIFICATION.md) and [host compatibility](docs/COMPATIBILITY.md) cover separate checks.
 
 ## Support and troubleshooting

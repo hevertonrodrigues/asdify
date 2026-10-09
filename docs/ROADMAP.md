@@ -12,12 +12,12 @@ Make the skill useful enough that people keep using it and contribute the cases 
 - [x] Reject malformed evaluation data and support repeated paired runs.
 - [x] Select ASDify and `hevertonrodrigues/asdify`; put the product at the repository root and update clone URLs.
 - [x] Publish [hevertonrodrigues/asdify](https://github.com/hevertonrodrigues/asdify).
-- [ ] Verify a fresh clone using the public README.
+- [x] Verify a fresh public clone and the documented native Cursor project installation; see the [byte-for-byte copy record](demos/public-clone-2026-10-09.json).
 - [x] Record one explicit Codex `full`-mode smoke check in [COMPATIBILITY.md](COMPATIBILITY.md).
 - [ ] Add real host checks for other integrations and modes; keep untested installation mappings clearly labeled.
 - [x] Run the configured GitHub Actions matrix on the published repository and publish [v0.1.0](https://github.com/hevertonrodrigues/asdify/releases/tag/v0.1.0) with exact limitations. See the [recorded CI result](LAUNCH.md).
 
-**Done when:** a new user can follow the public README, invoke the skill, and inspect a concrete output without maintainer help. A fresh-clone check remains outstanding.
+**Done when:** a new user can follow the public README, invoke the skill, and inspect a concrete output without maintainer help. The fresh-clone check covers filesystem installation; further host activation checks remain outstanding.
 
 ## 2. Evidence for the central claim
 

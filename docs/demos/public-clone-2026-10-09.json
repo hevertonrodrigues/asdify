@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-09T09:44:25.482205+00:00",
+  "repository": "https://github.com/hevertonrodrigues/asdify",
+  "revision": "008ce58ac20b7444162dd13c232d3f3edc65cd27",
+  "route": "Fresh public clone; bash scripts/install.sh --agent cursor-skill --scope project from an isolated target project",
+  "result": "passed",
+  "files_copied_byte_identically": {
+    "SKILL.md": "3f07c55ab728a8fa1d515366e6c85e3d9de782c1a462e486e297217b7a5f88b1",
+    "references/translation.md": "ef75e65d300b2bc46e3d44343f4a36b5b60394deaaea795a44dd9c42bf73e11a",
+    "references/edge-cases.md": "0cb5da7f45eb5c5ba1238b33945be8fd0c675e116b5373b0bd1917219b5473ef",
+    "references/quality-rubric.md": "851e3c5f5773abd1ef080d0b8b6c06a38918fdaa2632548a71e54351fa0373ba"
+  },
+  "scope": "Filesystem installation only; no Cursor host activation, npm/Node execution, global installation, or skill-quality claim."
+}

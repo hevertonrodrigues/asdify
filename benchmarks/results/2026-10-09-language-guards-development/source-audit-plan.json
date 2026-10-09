@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-10-09T09:47:32.270107+00:00",
+  "timing": "Follow-up audit plan written during fresh generation, before any primary review returned; the development case set was already frozen. Not a preregistered primary-study endpoint.",
+  "selection": "Every one of the 100 frozen development cases, all five fresh answers: 500 candidate annotations. No outcome filtering.",
+  "random_case_ids": {
+    "en": [],
+    "pt-BR": [],
+    "es": [],
+    "fr": [],
+    "de": [],
+    "ja": [],
+    "zh-CN": [],
+    "it": [],
+    "ru": []
+  },
+  "blinding_seed": "asdify-focused-source-audit-20261009",
+  "frozen_cases_sha256": "0639db86515cc963c9e8a2862e6f5b0f830a4f05e6508d5f05a62e64d9e82297",
+  "reviewers": "Three existing model assistants, assigned locales different from their original case authorship; run one at a time only after CLI workers finish. No human/native-speaker certification; immutable reviewer snapshot not exposed.",
+  "assignment": {
+    "cases_en_pt_es": [
+      "fr",
+      "de",
+      "it"
+    ],
+    "cases_fr_de_it": [
+      "ja",
+      "zh-CN",
+      "ru"
+    ],
+    "cases_ja_zh_ru": [
+      "en",
+      "pt-BR",
+      "es"
+    ]
+  },
+  "dimensions": [
+    "meaning",
+    "voice",
+    "format"
+  ],
+  "publication": "Keep all annotations, including disagreements and uncertain judgments. Release the opaque key only after all three assistants finish and complete coverage is validated. Keep original strict scores unchanged.",
+  "selection_kind": "all_frozen_cases",
+  "selection_rule": "All frozen development cases and all five candidates, without filtering by any result."
+}

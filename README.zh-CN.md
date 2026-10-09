@@ -161,6 +161,8 @@ excluding refunds. These figures are unaudited.
 
 ## 验证与支持
 
+在使用固定技能版本的900案例研究中，`full`通过严格自动评估的比例为**98.33%**，不使用技能的对照组为**93.22%**。
+
 如果更短的回答改变了重要事实，就不能通过评估。[四种模式的研究](benchmarks/multilingual-modes/README.md)为九种输出语言各使用100个新案例，将相同的900个不同案例分别用于`lite`、`full`、`ultra`、`off`及不使用技能的对照条件，共计3,600次模式测试和4,500份回答。评审由与生成模型同一系列的模型进行两轮盲评。参阅[已记录的测试](benchmarks/results/README.md)和[可复现的评估流程](benchmarks/README.md)。案例为合成文本，部分场景结构在不同语言中重复，因此不能将所有观察结果视为相互独立。**普遍可靠性和广泛的质量提升仍未得到证明。** [软件包验证](docs/VERIFICATION.md)和[兼容性说明](docs/COMPATIBILITY.md)涵盖其他检查。
 
 | 问题 | 获取帮助 |

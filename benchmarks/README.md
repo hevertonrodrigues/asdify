@@ -33,6 +33,12 @@ The [multilingual mode corpus](multilingual-modes/README.md) adds 100 new cases 
 
 [scripts/evaluate_modes.py](../scripts/evaluate_modes.py) freezes all inputs, generates and reviews five-case batches in fresh workspaces, preserves every raw request, and refuses incomplete reports. Per-case candidate labels are randomized and the second review reverses positions. It keeps contradictory judgments unchanged and applies the stricter checks. The corpus guide describes commands, calibration controls, batching, and limitations. This automated study is separate from the independent human protocol above.
 
+### Focused development retests
+
+[scripts/evaluate_modes_focused.py](../scripts/evaluate_modes_focused.py) reuses an explicitly selected subset of the 900 cases after a proposed skill edit. Its frozen plan records selected IDs and a retention rule before new outputs. It generates all five conditions afresh, records actual locale counts, and labels the report as development evidence. It defaults to two workers and rejects more than four; calibration separately uses at most four workers. Run one model phase at a time.
+
+The [language-guard experiment plan](experiments/2026-10-09-language-guards/plan.json) provides a concrete example. A focused retest cannot replace the original per-language table or establish an improvement on unseen cases. Incomplete/duplicate invariant coverage is prospectively uncertain and cannot pass; other invalid reviews remain fatal. Frozen adapter, runner, processor, source, and skill hashes are checked on resume and audit.
+
 ### Automated 100-case comparison
 
 [reliability-100.jsonl](reliability-100.jsonl) is a separate set of 100 synthetic cases with 373 semantic invariants: 60 English tasks, 16 native-language rewrites, and 24 translations across the nine documented locales. It covers numbers, conditions, technical procedures, summaries, analysis, exact output formats, voice, and ambiguity. The initial cases were frozen before generation and before the skill edits motivated by its results. Reusing these cases after those edits is a development regression check, not held-out evidence. They are now public regression material.
@@ -54,16 +60,16 @@ Run a new study with the CLI already authenticated. Generation and review use ac
 
 ```bash
 python3 scripts/evaluate_skill.py freeze --output benchmarks/runs/my-study --model gpt-6.1-sol --effort medium
-python3 scripts/evaluate_skill.py generate --output benchmarks/runs/my-study --workers 4
+python3 scripts/evaluate_skill.py generate --output benchmarks/runs/my-study --workers 2
 python3 scripts/calibrate_grader.py --study benchmarks/runs/my-study
-python3 scripts/evaluate_skill.py review --output benchmarks/runs/my-study --workers 4
+python3 scripts/evaluate_skill.py review --output benchmarks/runs/my-study --workers 2
 python3 scripts/audit_evaluation.py --output benchmarks/runs/my-study
 python3 scripts/evaluate_skill.py report --output benchmarks/runs/my-study
 ```
 
 The calibration step uses [ten authored good/bad pairs](judge-calibration.jsonl), not model-generated task answers. Its deliberately distorted controls check whether the reviewer catches numeric, modal, conditional, causal, safety, uncertainty, negation, exact-output, and target-language errors. Keep calibration results separate from the 100-case comparison. Passing these controls does not establish that the grader will catch every subtle error. The evidence audit checks the exact prompts, blinding order, saved answers, and ratings against raw CLI events; it does not replace meaning review.
 
-For overlapping generation and review, run [scripts/review_pending.py](../scripts/review_pending.py) in a second terminal after generation starts. It grades the same fixed batches only when all paired answers exist. It does not feed review results into generation. Each archived skill header is named `SKILL.txt`, with unchanged instruction text, so published snapshots do not become duplicate installable skills.
+Sequential generation and review keep computer load lower; use one worker when needed. For overlapping generation and review, run [scripts/review_pending.py](../scripts/review_pending.py) in a second terminal after generation starts, accounting for the additional concurrent workers. It grades the same fixed batches only when all paired answers exist. It does not feed review results into generation. Each archived skill header is named `SKILL.txt`, with unchanged instruction text, so published snapshots do not become duplicate installable skills.
 
 An internally inconsistent review is retained unchanged and recorded in `review-exceptions.json` after inspecting the source. Explicit exceptions permit analysis of the original JSON; they never turn its listed defects into passes. The initial budget case demonstrates why a source-based audit is useful. `ratings.csv` retains raw model verdicts; `summary.json` and `report.md` use strict combined output-level flags. Preserve both rather than silently repairing a model's rating.
 

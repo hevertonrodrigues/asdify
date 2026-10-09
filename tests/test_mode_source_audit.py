@@ -22,7 +22,9 @@ class SourceAuditIntegrityTests(unittest.TestCase):
         self.key = self.output / "private-key.json"
         self.write(self.key, {"cases": {identifier: self.mapping for identifier in self.identifiers}})
         self.write(self.output / "summary.json", {"generated_answers": 10, "candidate_ratings": 20})
-        self.write(self.output / "source-audit-plan.json", {"random_case_ids": {"en": [self.identifiers[0]]}})
+        self.write(self.output / "source-audit-plan.json",
+                   {"random_case_ids": {"en": [self.identifiers[0]]},
+                    "selection_rule": "Union the seeded random sample with all flagged cases."})
         (self.output / "source-audit-instructions.md").write_text("Review only source tasks and opaque answers.\n")
         cases = [{"id": identifier, "benchmark_language": "en", "task": "Source " + identifier}
                  for identifier in self.identifiers]
@@ -138,6 +140,30 @@ class SourceAuditIntegrityTests(unittest.TestCase):
         self.write_lines(self.annotation_path, rows)
         with self.assertRaisesRegex(ValueError, "Sealed source-audit evidence changed"):
             audit.audit(self.output)
+
+    def test_complete_case_audit_cannot_exclude_unflagged_cases(self):
+        self.write(self.output / "source-audit-plan.json",
+                   {"selection_kind": "all_frozen_cases", "random_case_ids": {"en": []}})
+        path = self.destination / "selection-manifest.json"
+        manifest = audit.read(path)
+        manifest["selection_plan_sha256"] = audit.sha(self.output / "source-audit-plan.json")
+        manifest["random_case_ids"] = []
+        self.write(path, manifest)
+        self.assertEqual(audit.verify(self.output, self.key)["selected_cases"], 2)
+        manifest["selected_case_ids"] = ["case-two"]
+        self.write(path, manifest)
+        with self.assertRaisesRegex(ValueError, "Changed selection"):
+            audit.verify(self.output, self.key)
+
+    def test_unknown_selection_policy_is_rejected(self):
+        self.write(self.output / "source-audit-plan.json",
+                   {"selection_kind": "cherry-pick", "random_case_ids": {"en": ["case-one"]}})
+        path = self.destination / "selection-manifest.json"
+        manifest = audit.read(path)
+        manifest["selection_plan_sha256"] = audit.sha(self.output / "source-audit-plan.json")
+        self.write(path, manifest)
+        with self.assertRaisesRegex(ValueError, "Unknown source-audit selection rule"):
+            audit.verify(self.output, self.key)
 
 
 if __name__ == "__main__":

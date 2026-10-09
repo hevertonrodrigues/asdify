@@ -162,6 +162,8 @@ Specifica la lingua o la variante di destinazione. La traduzione conserva signif
 
 ## Verifica e supporto
 
+Nello studio di 900 casi con una versione fissa della skill, `full` ha superato il **98,33%** dei controlli automatici rigorosi, contro il **93,22%** senza la skill.
+
 Una risposta più breve che modifica un fatto importante non supera la valutazione. Il repository include casi di riscrittura e traduzione in nove lingue, una griglia per la revisione umana e un [protocollo di valutazione riproducibile](benchmarks/README.md). Il [protocollo multilingue dei modi](benchmarks/multilingual-modes/README.md) prevede, per il confronto iniziale, 100 nuovi casi in ciascuna delle nove lingue (900 in totale): `lite`, `full`, `ultra` e `off` vengono confrontati con un controllo senza istruzioni ASDify, per 3.600 prove dei modi e 4.500 risposte complessive, controllo incluso. Sono previste due revisioni in cieco per ogni risposta, con modelli della stessa famiglia del modello che le genera. **L'affidabilità generale e i miglioramenti di qualità su larga scala restano da dimostrare.** Consulta i [risultati e gli archivi](benchmarks/results/README.md), la [verifica del pacchetto](docs/VERIFICATION.md) e la [compatibilità](docs/COMPATIBILITY.md).
 
 | Problema | Dove chiedere aiuto |

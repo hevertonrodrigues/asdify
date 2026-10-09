@@ -61,7 +61,11 @@ def verify(output, key_path):
     random_ids = {identifier for values in plan["random_case_ids"].values() for identifier in values}
     flagged_ids = {row["case_id"] for row in results
                    if any(not row[condition]["confirmed_pass"] for condition in CONDITIONS)}
-    selected = random_ids | flagged_ids
+    # Legacy plans use selection_rule as prose; selection_kind is the new enum.
+    rule = plan.get("selection_kind", "flagged_union_seeded_random")
+    require(rule in {"flagged_union_seeded_random", "all_frozen_cases"}, "Unknown source-audit selection rule")
+    require(rule != "all_frozen_cases" or not random_ids, "A complete-case audit has no random subsample")
+    selected = set(cases) if rule == "all_frozen_cases" else random_ids | flagged_ids
     require(selected <= cases.keys(), "Unknown selected case")
     for field, expected in (("random_case_ids", random_ids), ("strict_flagged_case_ids", flagged_ids),
                             ("selected_case_ids", selected)):

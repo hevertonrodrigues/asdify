@@ -27,12 +27,12 @@ Run a new frozen study with an authenticated Codex CLI:
 ```bash
 python3 scripts/evaluate_modes.py freeze --output benchmarks/runs/my-mode-study
 python3 scripts/evaluate_modes.py calibrate --output benchmarks/runs/my-mode-study
-python3 scripts/evaluate_modes.py run --output benchmarks/runs/my-mode-study --workers 4
+python3 scripts/evaluate_modes.py run --output benchmarks/runs/my-mode-study --workers 2
 python3 scripts/evaluate_modes.py report --output benchmarks/runs/my-mode-study
 python3 scripts/evaluate_modes.py audit --output benchmarks/runs/my-mode-study
 ```
 
-Pass `--workers` explicitly: the current runner defaults to 16. Use `run --workers 1` or `run --workers 2` for lower memory and CPU use. Calibration separately uses at most four workers.
+Pass `--workers` explicitly: the frozen primary runner defaults to 16. Use the two-worker command above or `run --workers 1` for lower memory and CPU use. Calibration separately uses at most four workers. The focused development adapter defaults to two and caps execution at four.
 
 Generation and review make 1,260 primary requests: five cases per generation batch and five cases with all five candidates per review batch. Four additional calibration requests review 10 authored good/bad controls under the same five-label protocol. These repeated controls are separate from the 900 new cases. Calls use account capacity; the runner does not estimate a price.
 
@@ -50,7 +50,7 @@ If this happens after all answers have been collected, seal the processing polic
 
 ```bash
 python3 scripts/evaluate_modes_conservative.py amend --output benchmarks/runs/my-mode-study
-python3 scripts/evaluate_modes_conservative.py run --output benchmarks/runs/my-mode-study --workers 4
+python3 scripts/evaluate_modes_conservative.py run --output benchmarks/runs/my-mode-study --workers 2
 python3 scripts/evaluate_modes_conservative.py report --output benchmarks/runs/my-mode-study
 python3 scripts/evaluate_modes_conservative.py audit --output benchmarks/runs/my-mode-study
 ```

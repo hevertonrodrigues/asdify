@@ -162,6 +162,8 @@ Précisez la langue ou la variante cible. La traduction préserve le sens, les i
 
 ## Vérification et assistance
 
+Dans l'étude de 900 cas avec une version figée de la skill, `full` a réussi **98,33 %** des vérifications automatiques strictes, contre **93,22 %** sans la skill.
+
 Une réponse plus courte qui modifie un fait important échoue à l'évaluation. Le dépôt contient des cas de révision et de traduction dans neuf langues, une grille pour la revue humaine et un [protocole d'évaluation reproductible](benchmarks/README.md). Le [protocole multilingue des modes](benchmarks/multilingual-modes/README.md) prévoit, pour la comparaison initiale, 100 nouveaux cas dans chacune des neuf langues (900 au total) : les modes `lite`, `full`, `ultra` et `off` sont comparés à un témoin sans instructions ASDify, soit 3 600 essais des modes et 4 500 réponses au total, témoins compris. Il prévoit deux revues en aveugle par réponse, avec des modèles de la même famille que le modèle générateur. **La fiabilité générale et les gains de qualité à grande échelle restent à établir.** Consultez les [résultats et archives](benchmarks/results/README.md), la [vérification du paquet](docs/VERIFICATION.md) et la [compatibilité](docs/COMPATIBILITY.md).
 
 | Problème | Où trouver de l'aide |
